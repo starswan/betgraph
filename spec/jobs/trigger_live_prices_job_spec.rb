@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe TriggerLivePricesJob, type: :job do
+RSpec.describe TriggerLivePricesJob, :betfair, type: :job do
   let(:sport) do
     create(:sport, name: "Soccer",
                    betfair_market_types: [

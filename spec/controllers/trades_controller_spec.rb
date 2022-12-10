@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe TradesController, type: :controller do
+RSpec.describe TradesController, :betfair, type: :controller do
   let(:season) { create(:season) }
   let(:division) { create(:division, calendar: season.calendar) }
   let(:sport) { season.calendar.sport }

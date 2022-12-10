@@ -24,7 +24,7 @@ class Match < ApplicationRecord
   # Motor Races don't have seasons - need to fix
   belongs_to :season, inverse_of: :matches, optional: true
 
-  validates :date, uniqueness: { scope: [:venue_id, :deleted_at] }
+  validates :date, uniqueness: { scope: %i[venue_id deleted_at] }
 
   before_save do |match|
     match.date = match.kickofftime.to_date

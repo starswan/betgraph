@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe KeepAliveJob, type: :job do
+RSpec.describe KeepAliveJob, :betfair, type: :job do
   let!(:login) { create(:login) }
 
   before do

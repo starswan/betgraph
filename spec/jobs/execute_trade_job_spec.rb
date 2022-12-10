@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe ExecuteTradeJob, type: :job do
+RSpec.describe ExecuteTradeJob, :betfair, type: :job do
   let(:season) { create(:season) }
   let(:division) { create(:division, calendar: season.calendar) }
   let(:sport) { season.calendar.sport }

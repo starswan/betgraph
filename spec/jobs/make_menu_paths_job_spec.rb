@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe MakeMenuPathsJob, type: :job do
+RSpec.describe MakeMenuPathsJob, :betfair, type: :job do
   let!(:login) { create(:login) }
   let!(:menu_path) { create(:menu_path, depth: 1, name: ["Soccer", "Belgian", "Fixtures", fixture_date]) }
 

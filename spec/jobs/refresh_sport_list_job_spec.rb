@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe RefreshSportListJob, type: :job do
+RSpec.describe RefreshSportListJob, :betfair, type: :job do
   before do
     create(:login)
     stub_betfair_login

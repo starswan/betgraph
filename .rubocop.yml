@@ -16,6 +16,8 @@ AllCops:
     - 'node_modules/**/*'
     - 'db/schema.rb'
     - 'config/application.rb'
+    - 'db/migrate/2014*.rb'
+    - 'db/migrate/2016*.rb'
     - 'config/spring.rb'
     - 'config/environments/development.rb'
     - 'bin/*'

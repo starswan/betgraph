@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-require "betfair_login"
-
 FactoryBot.define do
   factory :login do
-    name { BetfairLogin::BETFAIR }
+    name { "betfair" }
     username { "fred" }
     password { "password" }
   end

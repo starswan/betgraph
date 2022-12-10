@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe MakeRunnersJob, type: :job do
+RSpec.describe MakeRunnersJob, :betfair, type: :job do
   let(:hometeam) { create(:team) }
   let(:awayteam) { create(:team) }
   let(:division) { create(:division) }

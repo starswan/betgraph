@@ -6,8 +6,6 @@
 require "rails_helper"
 
 RSpec.describe LoadCurrentFootballDataJob, type: :job do
-  let!(:login) { create(:login) }
-
   before do
     create(:season, startdate: Date.today)
   end

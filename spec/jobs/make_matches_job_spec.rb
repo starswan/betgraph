@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe MakeMatchesJob, type: :job do
+RSpec.describe MakeMatchesJob, :betfair, type: :job do
   before do
     create(:login)
     sport = create(:soccer, basket_rules: [build(:basket_rule, name: "Rule 1")])

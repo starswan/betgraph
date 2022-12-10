@@ -4,11 +4,6 @@ GIT
   specs:
     ezcrypto (0.7.2)
 
-PATH
-  remote: /home/stephen/starswan.git/projects/betfair
-  specs:
-    betfair (0.1.15)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -582,7 +577,6 @@ DEPENDENCIES
   backburner
   backup-task
   bcrypt_pbkdf
-  betfair!
   binding_of_caller
   bootsnap
   bootstrap (~> 5.2)

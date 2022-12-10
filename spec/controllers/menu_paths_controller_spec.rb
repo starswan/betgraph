@@ -5,7 +5,7 @@
 #
 require "rails_helper"
 
-RSpec.describe MenuPathsController, type: :controller do
+RSpec.describe MenuPathsController, :betfair, type: :controller do
   before do
     create(:sport, menu_paths: [build(:menu_path)], basket_rules: [build(:basket_rule, name: "Rule 1")])
   end
