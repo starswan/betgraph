@@ -1,0 +1,18 @@
+#set daemon 360
+#set logfile /home/stephen/betgraph/shared/log/monit.log
+#set mailserver localhost
+#set alert arthur.monit@starswan.com
+#set mail-format { from: monit@starswan.com }
+
+# clock doesn't run on Raspberry PIs
+#check process betfair_clock
+#   with pidfile /home/pi/betgraph/current/tmp/pids/clock.pid
+#   start = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/clock.sh start"
+#   stop  = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/prog_stop.sh clock"
+#      group betgraph
+
+check process betfair_queue
+   with pidfile /home/pi/betgraph/current/tmp/pids/queue.pid
+   start = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/queue.sh start"
+   stop  = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/prog_stop.sh queue"
+      group betgraph
