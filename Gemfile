@@ -18,7 +18,7 @@ gem "autoprefixer-rails", "< 10.0"
 gem "backburner"
 gem "backup-task"
 
-# gem "betfair", path: "betfair2"
+gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
 
 # rails 5.2 faster load times
 gem "bootsnap"
