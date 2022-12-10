@@ -1,0 +1,650 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group C</title>
+    <ns>0</ns>
+    <id>26105429</id>
+    <revision>
+      <id>678130915</id>
+      <parentid>671291717</parentid>
+      <timestamp>2015-08-27T15:29:01Z</timestamp>
+      <contributor>
+        <username>BlameRuiner</username>
+        <id>10678181</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="33356">{{Use dmy dates|date=January 2013}}
+This page shows the standings and results for '''Group C''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group C |url=http://www.uefa.com/uefaeuro/season=2012/standings/round=15171/group=700959/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+== Standings ==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|- style=&quot;background:#cfc;&quot;
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|- style=&quot;background:#ccf;&quot;
+| Advanced to the [[UEFA Euro 2012 qualifying play-offs|play-offs]]
+|}
+{{UEFA Euro 2012 qualifying Group C
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+Group C fixtures were negotiated between the participants in a meeting held in [[Belgrade]] on 8 March 2010.&lt;ref&gt;[http://www.figc.it/it/204/23757/2010/03/News.shtml Italian FA Fixture Announcement] {{it icon}}&lt;/ref&gt;
+
+&lt;div id=&quot;Estonia v Faroe Islands&quot;/&gt;{{footballbox
+|date = 11 August 2010
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|EST}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002190/postmatch/report/index.html Report]
+|team2 = {{fb|FRO}}
+|goals1 = [[Kaimar Saag|Saag]] {{goal|90+1}}&lt;br /&gt;[[Raio Piiroja|Piiroja]] {{goal|90+3}}
+|goals2 = [[Jóan Símun Edmundsson|Edmundsson]] {{goal|28}}
+|stadium = [[A. Le Coq Arena]], [[Tallinn]]
+|attendance = 5,470&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/08/11/europe/european-championships/estonia/faroe-islands/918133/ |title=Estonia vs. Faroe Islands - 11 August 2010 |publisher=Soccerway |date=2010-08-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Ante Vučemilović-Šimunović Jr.]] ([[Croatian Football Federation|Croatia]])}}
+----
+&lt;div id=&quot;Faroe Islands v Serbia&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 18:00 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}
+|score = 0–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002192/postmatch/report/index.html Report]
+|team2 = {{fb|SRB}}
+|goals2 = [[Danko Lazović|Lazović]] {{goal|14}}&lt;br /&gt;[[Dejan Stanković|Stanković]] {{goal|18}}&lt;br /&gt;[[Nikola Žigić|Žigić]] {{goal|90+1}} 
+|stadium = [[Tórsvøllur]], [[Tórshavn]]
+|attendance = 1,847&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/faroe-islands/serbia/918135/ |title=Faroe Islands vs. Serbia - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Albert Toussaint]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Estonia v Italy&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|EST}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002186/postmatch/report/index.html Report]
+|team2 = {{fb|ITA}}
+|goals1 = [[Sergei Zenjov|Zenjov]] {{goal|31}}
+|goals2 = [[Antonio Cassano|Cassano]] {{goal|60}}&lt;br /&gt;[[Leonardo Bonucci|Bonucci]] {{goal|63}}
+|stadium = [[A. Le Coq Arena]], [[Tallinn]]
+|attendance = 8,600&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/estonia/italy/918134/ |title=Estonia vs. Italy - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Slovenia v Northern Ireland&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002183/postmatch/report/index.html Report]
+|team2 = {{fb|NIR}}
+|goals2 = [[Corry Evans|C. Evans]] {{goal|70}}
+|stadium = [[Ljudski vrt]], [[Maribor]]
+|attendance = 12,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/slovenia/northern-ireland/918136/ |title=Slovenia vs. Northern Ireland - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Cristian Balaj]] ([[Romanian Football Federation|Romania]]) }}
+----
+&lt;div id=&quot;Serbia v Slovenia&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SRB}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002173/postmatch/report/index.html Report]
+|team2 = {{fb|SVN}}
+|goals1 = [[Nikola Žigić|Žigić]] {{goal|86}}
+|goals2 = [[Milivoje Novaković|Novaković]] {{goal|63}}
+|stadium = [[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance = 24,028&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/serbia/slovenia/918138/ |title=Serbia vs. Slovenia - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Italy v Faroe Islands&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:50 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}
+|score = 5–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002170/postmatch/report/index.html Report]
+|team2 = {{fb|FRO}}
+|goals1 = [[Alberto Gilardino|Gilardino]] {{goal|11}}&lt;br /&gt;[[Daniele De Rossi|De Rossi]] {{goal|22}}&lt;br /&gt;[[Antonio Cassano|Cassano]] {{goal|27}}&lt;br /&gt;[[Fabio Quagliarella|Quagliarella]] {{goal|81}}&lt;br /&gt;[[Andrea Pirlo|Pirlo]] {{goal|90}}
+|stadium = [[Stadio Artemio Franchi]], [[Florence]] 
+|attendance = 19,266&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/italy/faroe-islands/918137/ |title=Italy vs. Faroe Islands - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Aleksei Kulbakov]] ([[Football Federation of Belarus|Belarus]]) }}
+----
+&lt;div id=&quot;Serbia v Estonia&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SRB}}
+|score = 1–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002174/postmatch/report/index.html Report]
+|team2 = {{fb|EST}}
+|goals1 = [[Nikola Žigić|Žigić]] {{goal|60}}
+|goals2 = [[Tarmo Kink|Kink]] {{goal|63}}&lt;br /&gt;[[Konstantin Vassiljev|Vassiljev]] {{goal|73}}&lt;br /&gt;[[Aleksandar Luković|Luković]] {{goal|90+1|o.g.}}
+|stadium = [[Stadion FK Partizan]], [[Belgrade]]
+|attendance = 12,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/serbia/estonia/918140/ |title=Serbia vs. Estonia - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Maksim Layushkin]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Northern Ireland v Italy&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002176/postmatch/report/index.html Report]
+|team2 = {{fb|ITA}}
+|stadium = [[Windsor Park]], [[Belfast]]
+|attendance = 15,200&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/northern-ireland/italy/918139/ |title=Northern Ireland vs. Italy - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Tony Chapron]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Slovenia v Faroe Islands&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}
+|score = 5–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002185/postmatch/report/index.html Report]
+|team2 = {{fb|FRO}}
+|goals1 = [[Tim Matavž|Matavž]] {{goal|25||36||66}}&lt;br /&gt;[[Milivoje Novakovič|Novakovič]] {{goal|72|pen.}}&lt;br /&gt;[[Zlatko Dedič|Dedič]] {{goal|84}}
+|goals2 = [[Christian Mouritsen|Mouritsen]] {{goal|90+3}}
+|stadium = [[Stožice Stadium]], [[Ljubljana]]
+|attendance = 15,750&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/slovenia/faroe-islands/918141/ |title=Slovenia vs. Faroe Islands - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Stanislav Todorov]] ([[Bulgarian Football Union|Bulgaria]]) }}
+----
+&lt;div id=&quot;Faroe Islands v Northern Ireland&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 16:00 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002193/postmatch/report/index.html Report]
+|team2 = {{fb|NIR}}
+|goals1 = [[Christian Holst|Holst]] {{goal|60}}
+|goals2 = [[Kyle Lafferty|Lafferty]] {{goal|76}}
+|stadium = [[Svangaskarð]], [[Toftir]]
+|attendance = 1,921&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/faroe-islands/northern-ireland/918143/ |title=Faroe Islands vs. Northern Ireland - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Cyril Zimmermann]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Estonia v Slovenia&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|EST}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002189/postmatch/report/index.html Report]
+|team2 = {{fb|SVN}}
+|goals2 = [[Andrei Sidorenkov|Sidorenkov]] {{goal|66|o.g.}}
+|stadium = [[A. Le Coq Arena]], [[Tallinn]]
+|attendance = 5,722&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/estonia/slovenia/918144/ |title=Estonia vs. Slovenia - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Tommy Skjerven]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Italy v Serbia&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:50 [[UTC+2]]&lt;br&gt; (delayed to 21:30)
+|team1 = {{fb-rt|ITA}}
+|score = 3–0&lt;br/&gt; &lt;small&gt;(awarded)&lt;/small&gt;&lt;sup&gt;[[#note ITA v SRB|*]]&lt;/sup&gt;
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002166/postmatch/report/index.html Report]
+|team2 = {{fb|SRB}}
+|stadium = [[Stadio Luigi Ferraris]], [[Genoa]]
+|attendance = 
+|referee = [[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]]) }}
+----
+&lt;div id=&quot;Serbia v Northern Ireland&quot;/&gt;{{footballbox
+|date = 25 March 2011
+|time = 20:30 [[UTC+1]]
+|team1 = {{fb-rt|SRB}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002172/postmatch/report/index.html Report]
+|team2 = {{fb|NIR}}
+|goals1 = [[Marko Pantelić|Pantelić]] {{goal|65}} &lt;br&gt; [[Zoran Tošić|Tošić]] {{goal|74}}
+|goals2 = [[Gareth McAuley|McAuley]] {{goal|40}}
+|stadium = [[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance = 350&lt;sup&gt;[[#fn 1|1]]&lt;/sup&gt;&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/25/europe/european-championships/serbia/northern-ireland/918146/ |title=Serbia vs. Northern Ireland - 25 March 2011 |publisher=Soccerway |date=2011-03-25 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Serge Gumienny]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Slovenia v Italy&quot;/&gt;{{footballbox
+|date = 25 March 2011
+|time = 20:45 [[UTC+1]]
+|team1 = {{fb-rt|SVN}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002181/postmatch/report/index.html Report]
+|team2 = {{fb|ITA}}
+|goals2 = [[Thiago Motta|Motta]] {{goal|73}}
+|stadium = [[Stožice Stadium]], [[Ljubljana]]
+|attendance = 15,790&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/25/europe/european-championships/slovenia/italy/918145/ |title=Slovenia vs. Italy - 25 March 2011 |publisher=Soccerway |date=2011-03-25 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Felix Brych]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Estonia v Serbia&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|EST}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002187/postmatch/report/index.html Report]
+|team2 = {{fb|SRB}}
+|goals1 = [[Konstantin Vassiljev|Vassiljev]] {{goal|84}}
+|goals2 = [[Marko Pantelić|Pantelić]] {{goal|38}}
+|stadium = [[A. Le Coq Arena]], [[Tallinn]]
+|attendance = 5,185&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/estonia/serbia/918148/ |title=Estonia vs. Serbia - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Bas Nijhuis]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Northern Ireland v Slovenia&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002178/postmatch/report/index.html Report]
+|team2 = {{fb|SVN}}
+|goals1 = 
+|goals2 = 
+|stadium = [[Windsor Park]], [[Belfast]]
+|attendance = 14,200&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/northern-ireland/slovenia/918147/ |title=Northern Ireland vs. Slovenia - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Björn Kuipers]] ([[Royal Dutch Football Association|Netherlands]]) }}
+----
+&lt;div id=&quot;Faroe Islands v Slovenia&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 18:30 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002194/postmatch/report/index.html Report]
+|team2 = {{fb|SVN}}
+|goals1 = 
+|goals2 = [[Tim Matavž|Matavž]] {{goal|29}} &lt;br /&gt; [[Rógvi Baldvinsson|Baldvinsson]] {{goal|47|o.g.}}
+|stadium = [[Svangaskarð]], [[Toftir]]
+|attendance = 974&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/faroe-islands/slovenia/918149/ |title=Faroe Islands vs. Slovenia - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Oliver Drachta]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Italy v Estonia&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 20:50 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}
+|score = 3–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002169/postmatch/report/index.html Report]
+|team2 = {{fb|EST}}
+|goals1 = [[Giuseppe Rossi|Rossi]] {{goal|21}} &lt;br /&gt; [[Antonio Cassano|Cassano]] {{goal|39}} &lt;br /&gt;  [[Giampaolo Pazzini|Pazzini]] {{goal|68}}
+|stadium = [[Stadio Alberto Braglia]], [[Modena]]
+|attendance = 19,434&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/italy/estonia/918150/ |title=Italy vs. Estonia - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alexandru Dan Tudor]] ([[Romanian Football Federation|Romania]]) }}
+----
+&lt;div id=&quot;Faroe Islands v Estonia&quot;/&gt;{{footballbox
+|date = 7 June 2011
+|time = 19:30 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002195/postmatch/report/index.html Report]
+|team2 = {{fb|EST}}
+|goals1 = [[Fróði Benjaminsen|Benjaminsen]] {{goal|43|pen.}}&lt;br /&gt;[[Arnbjørn Hansen|A. Hansen]] {{goal|47}}
+|stadium = [[Svangaskarð]], [[Toftir]]
+|attendance = 1,715&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/07/europe/european-championships/faroe-islands/estonia/918151/ |title=Faroe Islands vs. Estonia - 7 June 2011 |publisher=Soccerway |date=2011-06-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Antti Munukka]] ([[Football Association of Finland|Finland]]) }}
+----
+&lt;div id=&quot;Northern Ireland v Faroe Islands&quot;/&gt;{{footballbox
+|date = 10 August 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}
+|score = 4–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002180/postmatch/report/index.html Report]
+|team2 = {{fb|FRO}}
+|goals1 = [[Aaron Hughes|Hughes]] {{goal|5}} &lt;br&gt; [[Steven Davis|Davis]] {{goal|66}} &lt;br&gt; [[Paddy McCourt|McCourt]] {{goal|71||87}}
+|stadium = [[Windsor Park]], [[Belfast]]
+|attendance = 13,183&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/08/10/europe/european-championships/northern-ireland/faroe-islands/918152/ |title=Northern Ireland vs. Faroe Islands - 10 August 2011 |publisher=Soccerway |date=2011-08-10 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Emir Alecković]] ([[Football Federation of Bosnia and Herzegovina|Bosnia and Herzegovina]]) }}
+----
+&lt;div id=&quot;Faroe Islands v Italy&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002191/postmatch/report/index.html Report]
+|team2 = {{fb|ITA}}
+|goals2 = [[Antonio Cassano|Cassano]] {{goal|11}}
+|stadium = [[Tórsvøllur]], [[Tórshavn]]
+|attendance = 5,654&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/faroe-islands/italy/918153/ |title=Faroe Islands vs. Italy - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Tamás Bognár]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Slovenia v Estonia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002184/postmatch/report/index.html Report]
+|team2 = {{fb|EST}}
+|goals1 = [[Tim Matavž|Matavž]] {{goal|78}}
+|goals2 = [[Konstantin Vassiljev|Vassiljev]] {{goal|29|pen.}} &lt;br&gt; [[Ats Purje|Purje]] {{goal|81}}
+|stadium = [[Stožice Stadium]], [[Ljubljana]]
+|attendance = 15,480&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/slovenia/estonia/918154/ |title=Slovenia vs. Estonia - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Stephan Studer]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Northern Ireland v Serbia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002177/postmatch/report/index.html Report]
+|team2 = {{fb|SRB}}
+|goals2 = [[Marko Pantelić|Pantelić]] {{goal|67}}
+|stadium = [[Windsor Park]], [[Belfast]]
+|attendance = 15,148&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/northern-ireland/serbia/918155/ |title=Northern Ireland vs. Serbia - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Thomas Einwaller]] ([[Austrian Football Association|Austria]]) }}
+----
+&lt;div id=&quot;Serbia v Faroe Islands&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SRB}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002175/postmatch/report/index.html Report]
+|team2 = {{fb|FRO}}
+|goals1 = [[Milan Jovanović (footballer born 1981)|Jovanović]] {{goal|6}} &lt;br&gt; [[Zoran Tošić|Tošić]] {{goal|22}}&lt;br /&gt;[[Zdravko Kuzmanović|Kuzmanović]] {{goal|69}}
+|goals2 = [[Fróði Benjaminsen|Benjaminsen]] {{goal|37}}
+|stadium = [[Stadion FK Partizan]], [[Belgrade]]
+|attendance = 7,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/serbia/faroe-islands/918157/ |title=Serbia vs. Faroe Islands - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Arman Amirkhanyan]] ([[Football Federation of Armenia|Armenia]]) }}
+
+&lt;div id=&quot;Estonia v Northern Ireland&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|EST}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002188/postmatch/report/index.html Report]
+|team2 = {{fb|NIR}}
+|goals1 = [[Martin Vunk|Vunk]] {{goal|28}} &lt;br&gt; [[Tarmo Kink|Kink]] {{goal|32}}&lt;br /&gt;[[Sergei Zenjov|Zenjov]] {{goal|59}}&lt;br /&gt;[[Kaimar Saag|Saag]] {{goal|90+3}}
+|goals2 = [[Raio Piiroja|Piiroja]] {{goal|40|o.g.}}
+|stadium = [[A. Le Coq Arena]], [[Tallinn]]
+|attendance = 8,660&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/estonia/northern-ireland/918158/ |title=Estonia vs. Northern Ireland - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Daniel Stålhammar]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Italy v Slovenia&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002168/postmatch/report/index.html Report]
+|team2 = {{fb|SVN}}
+|goals1 = [[Giampaolo Pazzini|Pazzini]] {{goal|85}}
+|stadium = [[Stadio Artemio Franchi]], [[Florence]]
+|attendance = 18,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/italy/slovenia/918156/ |title=Italy vs. Slovenia - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Svein Oddvar Moen]] ([[Football Association of Norway|Norway]]) }}
+----
+&lt;div id=&quot;Northern Ireland v Estonia&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002179/postmatch/report/index.html Report]
+|team2 = {{fb|EST}}
+|goals1 = [[Steven Davis|Davis]] {{goal|22}}
+|goals2 = [[Konstantin Vassiljev|Vassiljev]] {{goal|77|pen.|84}}
+|stadium = [[Windsor Park]], [[Belfast]]
+|attendance = 12,604&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/northern-ireland/estonia/918160/ |title=Northern Ireland vs. Estonia - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Manuel Gräfe]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Serbia v Italy&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SRB}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002171/postmatch/report/index.html Report]
+|team2 = {{fb|ITA}}
+|goals1 = [[Branislav Ivanović|Ivanović]] {{goal|26}} 
+|goals2 = [[Claudio Marchisio|Marchisio]] {{goal|1}}
+|stadium = [[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance = 35,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/serbia/italy/918159/ |title=Serbia vs. Italy - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Pedro Proença]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;Italy v Northern Ireland&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}
+|score = 3–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002167/postmatch/report/index.html Report]
+|team2 = {{fb|NIR}}
+|goals1 = [[Antonio Cassano|Cassano]] {{goal|21||53}}&lt;br&gt;[[Gareth McAuley|McAuley]] {{goal|74|o.g.}}
+|goals2 = 
+|stadium = [[Stadio Adriatico]], [[Pescara]]
+|attendance = 19,480&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/italy/northern-ireland/918161/ |title=Italy vs. Northern Ireland - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Antonio Mateu Lahoz]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Slovenia v Serbia&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002182/postmatch/report/index.html Report]
+|team2 = {{fb|SRB}}
+|goals1 = [[Dare Vršič|Vršič]] {{goal|45+1}}
+|goals2 = 
+|stadium = [[Ljudski vrt]], [[Maribor]]
+|attendance = 9,848&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/slovenia/serbia/918162/ |title=Slovenia vs. Serbia - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+;Notes 
+*&lt;div id=&quot;fn 1&quot;/&gt;Note 1: As punishment for the crowd trouble at the abandoned Italy v Serbia match, Serbia was ordered to play its next home match against Northern Ireland [[Behind closed doors (football)|behind closed doors]], with another one-match crowd ban deferred for a probationary period of two years. Italy received a one-match crowd ban deferred for a probationary period of two years. However the [[Irish Football Association]] objected and as a result UEFA decreed that Serbia's game against Northern Ireland would only be allowed to have 200 Northern Irish fans attend it.&lt;ref&gt;{{cite news
+| title      = Northern Ireland fans to attend Euro game in Serbia 
+| url        = http://news.bbc.co.uk/sport1/hi/football/9361731.stm
+| publisher  = BBC Sport
+| accessdate = 14 January 2011
+| date       = 14 January 2011}}
+&lt;/ref&gt;&lt;ref name=&quot;uefa statement&quot;/&gt; Serbian fans were not allowed to visit the away game against Estonia.&lt;ref&gt;[http://www.news.com.au/national/serbia-fans-face-hooliganism-ban/story-fn7mjqus-1225998420284 Serbia fans face hooliganism ban] news.com.au, 2 February 2011.&lt;/ref&gt;
+
+==Goalscorers==
+;6 goals
+* {{flagicon|ITA}} [[Antonio Cassano]]
+
+;5 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|EST}} [[Konstantin Vassiljev]] 
+{{Col-3}}
+* {{flagicon|SVN}} [[Tim Matavž]] 
+{{Col-3}}
+{{Col-end}}
+
+;3 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|SRB}} [[Marko Pantelić]] 
+{{Col-3}}
+* {{flagicon|SRB}} [[Nikola Žigić]]
+{{Col-3}}
+{{Col-end}}
+
+;2 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|EST}} [[Tarmo Kink]] 
+* {{flagicon|EST}} [[Kaimar Saag]] 
+* {{flagicon|EST}} [[Sergei Zenjov]] 
+{{Col-3}}
+* {{flagicon|FRO}} [[Fróði Benjaminsen]]
+* {{flagicon|ITA}} [[Giampaolo Pazzini]]
+* {{flagicon|NIR}} [[Steven Davis]]
+{{Col-3}}
+* {{flagicon|NIR}} [[Paddy McCourt]]
+* {{flagicon|SRB}} [[Zoran Tošić]] 
+* {{flagicon|SVN}} [[Milivoje Novakovič]] 
+{{Col-end}}
+
+;1 goal
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|EST}} [[Raio Piiroja]]
+* {{flagicon|EST}} [[Ats Purje]]
+* {{flagicon|EST}} [[Martin Vunk]]
+* {{flagicon|FRO}} [[Jóan Símun Edmundsson]]
+* {{flagicon|FRO}} [[Arnbjørn Hansen]]
+* {{flagicon|FRO}} [[Christian Holst]]
+* {{flagicon|FRO}} [[Christian Mouritsen]]
+* {{flagicon|ITA}} [[Leonardo Bonucci]]
+* {{flagicon|ITA}} [[Daniele De Rossi]]
+{{Col-3}}
+* {{flagicon|ITA}} [[Alberto Gilardino]]
+* {{flagicon|ITA}} [[Claudio Marchisio]]
+* {{flagicon|ITA}} [[Thiago Motta]]
+* {{flagicon|ITA}} [[Andrea Pirlo]]
+* {{flagicon|ITA}} [[Fabio Quagliarella]]
+* {{flagicon|ITA}} [[Giuseppe Rossi]]
+* {{flagicon|NIR}} [[Corry Evans]]
+* {{flagicon|NIR}} [[Aaron Hughes]]
+* {{flagicon|NIR}} [[Kyle Lafferty]]
+{{Col-3}}
+* {{flagicon|NIR}} [[Gareth McAuley]]
+* {{flagicon|SRB}} [[Branislav Ivanović]]
+* {{flagicon|SRB}} [[Milan Jovanović (footballer born 1981)|Milan Jovanović]]
+* {{flagicon|SRB}} [[Zdravko Kuzmanović]]
+* {{flagicon|SRB}} [[Danko Lazović]] 
+* {{flagicon|SRB}} [[Dejan Stanković]] 
+* {{flagicon|SVN}} [[Zlatko Dedič]] 
+* {{flagicon|SVN}} [[Dare Vršič]]
+{{Col-end}}
+
+;1 own goal
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|EST}} [[Raio Piiroja]] (playing against Northern Ireland)
+* {{flagicon|EST}} [[Andrei Sidorenkov]] (playing against Slovenia)
+{{Col-3}}
+* {{flagicon|FRO}} [[Rógvi Baldvinsson]] (playing against Slovenia)
+* {{flagicon|NIR}} [[Gareth McAuley]] (playing against Italy)
+{{Col-3}}
+* {{flagicon|SRB}} [[Aleksandar Luković]] (playing against Estonia)
+{{Col-end}}
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|EST}} || style=&quot;text-align:center;&quot;| 8,660 || style=&quot;text-align:center;&quot;| 5,185 || style=&quot;text-align:center;&quot;| 33,637 || style=&quot;text-align:center;&quot;| '''6,727'''
+|-
+| {{fb|FRO}} || style=&quot;text-align:center;&quot;| 5,654 || style=&quot;text-align:center;&quot;| 974 || style=&quot;text-align:center;&quot;| 12,111 || style=&quot;text-align:center;&quot;| '''2,422'''
+|-
+| {{fb|ITA}} || style=&quot;text-align:center;&quot;| 19,480 || style=&quot;text-align:center;&quot;| 18,000 || style=&quot;text-align:center;&quot;| 76,180 || style=&quot;text-align:center;&quot;| '''19,045'''
+|-
+| {{fb|NIR}} || style=&quot;text-align:center;&quot;| 15,200 || style=&quot;text-align:center;&quot;| 12,604 || style=&quot;text-align:center;&quot;| 70,335 || style=&quot;text-align:center;&quot;| '''14,067'''
+|-
+| {{fb|SRB}} || style=&quot;text-align:center;&quot;| 35,000 || style=&quot;text-align:center;&quot;| 350 || style=&quot;text-align:center;&quot;| 78,878 || style=&quot;text-align:center;&quot;| '''15,776'''
+|-
+| {{fb|SVN}} || style=&quot;text-align:center;&quot;| 15,790 || style=&quot;text-align:center;&quot;| 9,848 || style=&quot;text-align:center;&quot;| 68,868 || style=&quot;text-align:center;&quot;| '''13,774'''
+|}
+
+== Discipline ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! {{yel}}
+! {{sent off}}
+! Suspended for match(es)
+! Reason
+|-
+| MF || [[Sander Puri]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 1 || vs Slovenia (2 September 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| MF || [[Pól Jóhannus Justinussen]] || style=&quot;text-align:left;&quot;| {{fb|FRO}} || 2 || 1 || vs Northern Ireland (10 August 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| DF ||  [[Marko Šuler]] || style=&quot;text-align:left;&quot;| {{fb|SVN}} || 1 || 1 || vs Estonia (2 September 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| DF ||  [[Raio Piiroja]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 3 || 0 || vs Slovenia (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF ||  [[Dejan Stanković]] || style=&quot;text-align:left;&quot;| {{fb|SRB}} || 3 || 0 || vs Estonia (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF ||  [[Boštjan Cesar]] || style=&quot;text-align:left;&quot;| {{fb|SVN}} || 3 || 0 || vs Northern Ireland (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Aleksandr Dmitrijev]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 0 || vs Northern Ireland (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Ragnar Klavan]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 0 || vs Faroe Islands (7 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Taavi Rähn]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 0 || vs Northern Ireland (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Konstantin Vassiljev]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 0 || vs Italy (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Martin Vunk]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 0 || vs Faroe Islands (7 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Sergei Zenjov]] || style=&quot;text-align:left;&quot;| {{fb|EST}} || 2 || 0 || vs Republic of Ireland (11 and 15 November 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF ||  [[Atli Gregersen]] || style=&quot;text-align:left;&quot;| {{fb|FRO}} || 2 || 0 || vs Slovenia (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Chris Brunt]] || style=&quot;text-align:left;&quot;| {{fb|NIR}} || 2 || 0 || vs Faroe Islands (10 August 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Jonny Evans]] || style=&quot;text-align:left;&quot;| {{fb|NIR}} || 2 || 0 || vs Estonia (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[David Healy (footballer)|David Healy]] || style=&quot;text-align:left;&quot;| {{fb|NIR}} || 2 || 0 || vs Slovenia (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Kyle Lafferty]] || style=&quot;text-align:left;&quot;| {{fb|NIR}} || 2 || 0 || vs Italy (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF ||  [[Miloš Krasić]] || style=&quot;text-align:left;&quot;| {{fb|SRB}} || 2 || 0 || vs Estonia (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF ||  [[Slobodan Rajković]] || style=&quot;text-align:left;&quot;| {{fb|SRB}} || 2 || 0 || vs Faroe Islands (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF ||  [[Nemanja Vidić]] || style=&quot;text-align:left;&quot;| {{fb|SRB}} || 2 || 0 || vs Italy (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF ||  [[Milan Jovanović (footballer, born 1981)|Milan Jovanović]] || style=&quot;text-align:left;&quot;| {{fb|SRB}} || 2 || 0 || TBD || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| GK || [[Samir Handanovič]] || style=&quot;text-align:left;&quot;| {{fb|SVN}} || 2 || 0 || vs Italy (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Robert Koren]] || style=&quot;text-align:left;&quot;| {{fb|SVN}} || 2 || 0 || vs Serbia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|}
+
+== References ==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group C]]
+[[Category:2010–11 in Italian football]]
+[[Category:Italy at UEFA Euro 2012|qual]]
+[[Category:2010–11 in Northern Ireland football]]
+[[Category:2011–12 in Northern Ireland football]]
+[[Category:2010–11 in Serbian football]]
+[[Category:2011–12 in Serbian football]]
+[[Category:2010–11 in Slovenian football]]
+[[Category:2011–12 in Slovenian football]]
+[[Category:2010 in Faroe Islands football]]
+[[Category:2011 in Faroe Islands football]]
+[[Category:2010 in Estonian football]]
+[[Category:2011 in Estonian football]]</text>
+      <sha1>4aot3dafarukr74suu4aoe4gc531dtn</sha1>
+    </revision>
+  </page>
+</mediawiki>

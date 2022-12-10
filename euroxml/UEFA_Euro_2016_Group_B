@@ -1,0 +1,246 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2016 Group B</title>
+    <ns>0</ns>
+    <id>48801581</id>
+    <revision>
+      <id>724680334</id>
+      <parentid>724680246</parentid>
+      <timestamp>2016-06-10T19:58:56Z</timestamp>
+      <contributor>
+        <username>Chanheigeorge</username>
+        <id>376297</id>
+      </contributor>
+      <comment>/* England vs Russia */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="10232">'''Group B of [[UEFA Euro 2016]]''' contains  [[England national football team|England]], [[Russia national football team|Russia]], [[Wales national football team|Wales]] and [[Slovakia national football team|Slovakia]]. Within this group only Russia is a former European champion, having won as the [[Soviet Union national football team|Soviet Union]] in [[Euro 1960|1960]]. This is Wales' and Slovakia's first appearance at the European Championship. Matches will be played from 11 to 20 June 2016.
+
+{{TOC right}}
+
+==Teams==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Draw position
+! Team
+! Method of&lt;br /&gt;qualification
+! Finals&lt;br /&gt;appearance
+! Last&lt;br /&gt;appearance
+! Previous best&lt;br /&gt;performance
+! [[UEFA coefficient#National team coefficient|UEFA Rankings]]&lt;br /&gt;October 2015{{refn|group=nb|The UEFA rankings of October 2015 were used for seeding for the final draw.}}
+! [[FIFA World Rankings|FIFA Rankings]]&lt;br /&gt;June 2016
+|-
+| B1 || style=white-space:nowrap | {{fb|ENG}} || [[UEFA Euro 2016 qualifying Group E|Group E]] winners || {{sort|09|9th}} || [[UEFA Euro 2012|2012]] || {{sort|03|Third place}} ([[UEFA Euro 1968|1968]]), Semi-finals ([[UEFA Euro 1996|1996]]) || 3 || 11
+|-
+| B2 || style=white-space:nowrap | {{fb|RUS}}{{refn|group=nb|From 1960 to 1988, [[Russia national football team|Russia]] competed as the [[Soviet Union national football team|Soviet Union]], and in 1992 as the [[Commonwealth of Independent States national football team|Commonwealth of Independent States]].}} || [[UEFA Euro 2016 qualifying Group G|Group G]] runners-up || {{sort|05|5th}} || [[UEFA Euro 2012|2012]] || {{sort|03|Semi-finals}} ([[UEFA Euro 2008|2008]]) || 9 || 29
+|-
+| B3 || style=white-space:nowrap | {{fb|WAL}} || [[UEFA Euro 2016 qualifying Group B|Group B]] runners-up || {{sort|01|1st}} || — || {{sort|99|Debut}} || 28 || 26
+|-
+| B4 || style=white-space:nowrap | {{fb|SVK}} || [[UEFA Euro 2016 qualifying Group C|Group C]] runners-up || {{sort|01|1st}} || — || {{sort|99|Debut}} || 19 || 24
+|}
+
+;Notes
+{{reflist|group=nb}}
+
+===England===
+{{unreferenced section|date=June 2016}}
+England were winner [[UEFA Euro 2016 qualifying Group E|Group E]] in [[UEFA Euro 2016 qualifying|qualification]] for [[UEFA Euro 2016]] with 10 wins from 10 matches. Group E consisted of six teams: [[England national football team|England]], [[Switzerland national football team|Switzerland]], [[Slovenia national football team|Slovenia]], [[Estonia national football team|Estonia]], [[Lithuania national football team|Lithuania]], and [[San Marino national football team|San Marino]].
+
+===Russia===
+{{unreferenced section|date=June 2016}}
+[[Russia national football team|Russia]] were placed in Group G of [[UEFA Euro 2016 qualifying]] alongside [[Sweden national football team|Sweden]], [[Austria national football team|Austria]], [[Montenegro national football team|Montenegro]], [[Moldova national football team|Moldova]], and [[Liechtenstein national football team|Liechtenstein]]. Russia began their campaign well with a 4–0 win against Liechtenstein. This was followed by a string of shaky performances by Russia, two 1–1 draws against Sweden and Moldova and two 1–0 losses against Austria. Russia were awarded a 3–0 victory against Montenegro due to crowd violence. At this stage, Russia looked to be finishing third in their group before they bounced back by winning their remaining matches against Sweden, Liechtenstein, Moldova and Montenegro to finish second in their qualifying group above Sweden and qualify for [[UEFA Euro 2016]].
+
+===Wales===
+{{unreferenced section|date=June 2016}}
+Wales were placed in Group B for [[UEFA Euro 2016 qualifying|qualifying]] for the [[UEFA Euro 2016]] tournament alongside [[Andorra national football team|Andorra]], [[Belgium national football team|Belgium]], [[Bosnia and Herzegovina national football team|Bosnia and Herzegovina]], [[Cyprus national football team|Cyprus]] and [[Israel national football team|Israel]]. In July 2015, following four wins and two draws Wales topped the group. On 10 October 2015, Wales lost 2–0 to [[Bosnia and Herzegovina national football team|Bosnia and Herzegovina]] but on the same evening Wales' qualification for the [[UEFA Euro 2016]] tournament was confirmed after [[Cyprus national football team|Cyprus]] beat [[Israel national football team|Israel]].
+
+===Slovakia===
+{{unreferenced section|date=June 2016}}
+For [[UEFA Euro 2016 qualification]], Slovakia was drawn against [[Spain national football team|Spain]], [[Ukraine national football team|Ukraine]], [[Belarus national football team|Belarus]], [[FYR Macedonia national football team|Macedonia]] and [[Luxembourg national football team|Luxembourg]]. Slovakia began the qualifying campaign with a 1–0 victory against [[Ukraine national football team|Ukraine]] in Kiev. On 9 October 2014, Slovakia beat Spain 2–1 in a shock victory and claimed the first place. Slovakia's 3–1 victory over [[Belarus national football team|Belarus]] confirmed their status as group leaders. Later on, they won 2–0 against [[Macedonia national football team|Macedonia]] in the [[Philip II Arena]], [[Luxembourg national football team|Luxembourg]] with a score of 3–0 in [[Žilina]], and Macedonia again with a score of 2–1 on 14 June 2015, also in Žilina. Till that day, Slovakia had 6 wins in row in qualification. They were followed by expected defeat in [[Spain national football team|Spain]] 0-2, goalless match against [[Ukraine national football team|Ukraine]] and shocking home defeat 0–1 against [[Belarus national football team|Belarus]]. 'Repre' finished qualification by defeating [[Luxembourg national football team|Luxembourg]] 4–2 and kept 2nd place in qualification group and qualified to their first [[UEFA European Championship]].
+
+==Standings==
+{{UEFA Euro 2016 Group B table}}
+
+==Matches==
+''All times [[Central European Summer Time]] ([[UTC+02:00]])''
+===Wales vs Slovakia===
+&lt;section begin=b1 /&gt;{{Football box
+|date={{Start date|2016|6|11|df=y}}
+|time=18:00
+|team1={{fb-rt|WAL}}
+|score=Match 3
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017880/index.html Report]
+|team2={{fb|SVK}}
+|goals1=
+|goals2=
+|stadium=[[Nouveau Stade de Bordeaux]], [[Bordeaux]]
+|attendance=
+|referee=[[Svein Oddvar Moen]] ([[Football Association of Norway|Norway]])
+}}&lt;section end=b1 /&gt;
+{| width=100% style=&quot;font-size:90%&quot;
+|
+&lt;br /&gt;
+&lt;!--'''Man of the Match:'''--&gt;
+'''Assistant referees:'''&lt;ref name=&quot;referees&quot;&gt;{{cite web |title=Who is the referee? UEFA EURO 2016 appointments |url=http://www.uefa.com/uefaeuro/news/newsid=2372154.html |website=UEFA.com |publisher=Union of European Football Associations |date=10 June 2016 |accessdate=10 June 2016 }}&lt;/ref&gt;
+&lt;br /&gt;Kim Thomas Haglund ([[Football Association of Norway|Norway]])
+&lt;br /&gt;Frank Andås ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Aleksei Kulbakov]] ([[Football Federation of Belarus|Belarus]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;Ken Henry Johnsen ([[Football Association of Norway|Norway]])
+&lt;br /&gt;[[Svein-Erik Edvartsen]] ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''Reserve official:'''
+&lt;br /&gt;Vitali Maliutsin ([[Football Federation of Belarus|Belarus]])
+|}
+
+===England vs Russia===
+&lt;section begin=b2 /&gt;{{Football box
+|date={{Start date|2016|6|11|df=y}}
+|time=21:00
+|team1={{fb-rt|ENG}}
+|score=Match 4
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017879/index.html Report]
+|team2={{fb|RUS}}
+|goals1=
+|goals2=
+|stadium=[[Stade Vélodrome]], [[Marseille]]
+|attendance=
+|referee=[[Nicola Rizzoli]] ([[Italian Football Federation|Italy]])
+}}&lt;section end=b2 /&gt;
+{| width=100% style=&quot;font-size:90%&quot;
+|
+&lt;br /&gt;
+&lt;!--'''Man of the Match:'''--&gt;
+'''Assistant referees:'''&lt;ref name=&quot;referees&quot;/&gt;
+&lt;br /&gt;Elenito Di Liberatore ([[Italian Football Federation|Italy]])
+&lt;br /&gt;Mauro Tonolini ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Anastasios Sidiropoulos]] ([[Hellenic Football Federation|Greece]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Daniele Orsato]] ([[Italian Football Federation|Italy]])
+&lt;br /&gt;[[Antonio Damato]] ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''Reserve official:'''
+&lt;br /&gt;Damianos Efthymiadis ([[Hellenic Football Federation|Greece]])
+|}
+
+===Russia vs Slovakia===
+&lt;section begin=b3 /&gt;{{Football box
+|date={{Start date|2016|6|15|df=y}}
+|time=15:00
+|team1={{fb-rt|RUS}}
+|score=Match 13
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017888/index.html Report]
+|team2={{fb|SVK}}
+|goals1=
+|goals2=
+|stadium=[[Stade Pierre-Mauroy]], [[Lille]]
+|attendance=
+|referee=
+}}&lt;section end=b3 /&gt;
+
+===England vs Wales===
+&lt;section begin=b4 /&gt;{{Football box
+|date={{Start date|2016|6|16|df=y}}
+|time=15:00
+|team1={{fb-rt|ENG}}
+|score=Match 16
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017887/index.html Report]
+|team2={{fb|WAL}}
+|goals1=
+|goals2=
+|stadium=[[Stade Bollaert-Delelis]], [[Lens, Pas-de-Calais|Lens]]
+|attendance=
+|referee=
+}}&lt;section end=b4 /&gt;
+
+===Russia vs Wales===
+&lt;section begin=b5 /&gt;{{Football box
+|date={{Start date|2016|6|20|df=y}}
+|time=21:00
+|team1={{fb-rt|RUS}}
+|score=Match 27
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017896/index.html Report]
+|team2={{fb|WAL}}
+|goals1=
+|goals2=
+|stadium=[[Stadium Municipal]], [[Toulouse]]
+|attendance=
+|referee=
+}}&lt;section end=b5 /&gt;
+
+===Slovakia vs England===
+&lt;section begin=b6 /&gt;{{Football box
+|date={{Start date|2016|6|20|df=y}}
+|time=21:00
+|team1={{fb-rt|SVK}}
+|score=Match 28
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017895/index.html Report]
+|team2={{fb|ENG}}
+|goals1=
+|goals2=
+|stadium=[[Stade Geoffroy-Guichard]], [[Saint-Étienne]]
+|attendance=
+|referee=
+}}&lt;section end=b6 /&gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.uefa.com/uefaeuro/season=2016/standings/round=2000448/group=2002442/index.html UEFA Euro 2016 Group B]
+
+{{UEFA Euro 2016}}
+
+[[Category:UEFA Euro 2016|Group B]]
+[[Category:2015–16 in English football]]
+[[Category:2015–16 in Russian football]]
+[[Category:2015–16 in Welsh football]]
+[[Category:2015–16 in Slovak football]]</text>
+      <sha1>d5g10iu16kdcy0hrt2e0kd0sdwhb7gk</sha1>
+    </revision>
+  </page>
+</mediawiki>

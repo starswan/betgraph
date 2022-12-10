@@ -1,0 +1,980 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 Group C</title>
+    <ns>0</ns>
+    <id>1145602</id>
+    <revision>
+      <id>697278304</id>
+      <parentid>694481319</parentid>
+      <timestamp>2015-12-29T12:25:25Z</timestamp>
+      <contributor>
+        <username>PeeJay2K3</username>
+        <id>492929</id>
+      </contributor>
+      <comment>/* Italy vs Bulgaria */ correction</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="25998">'''Group C of [[UEFA Euro 2004]]''' was one of four groups in the final tournament's initial group stage. It began on 14 June and was completed on 22 June. The group consisted of [[Italy national football team|Italy]], [[Denmark national football team|Denmark]], [[Sweden national football team|Sweden]] and [[Bulgaria national football team|Bulgaria]].
+
+Sweden won the group and advanced to the quarter-finals, along with Denmark. Italy and Bulgaria failed to advance.
+
+Three teams – Italy, Denmark and Sweden – all finished with five points, with each team having defeated Bulgaria but drawn their two other games. As all results between the three teams in question were draws, both the points won in these games and the goal difference accrued in these games still left the teams undivided. The decisive tiebreaker was therefore the goals scored during the games between one another: Italy having scored the fewest goals of the three teams were therefore eliminated.
+
+{{TOC right}}
+
+==Standings==
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|SWE}}
+|3||1||2||0||8||3||+5||'''5'''
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|DEN}}
+|3||1||2||0||4||2||+2||'''5'''
+|-
+|align=left|{{fb|ITA|2003}}
+|3||1||2||0||3||2||+1||'''5'''
+|-
+|align=left|{{fb|BUL}}
+|3||0||0||3||1||9||−8||'''0'''
+|}
+
+;Tie-breaker
+
+Only the matches between the teams finishing level on points are considered:
+
+{| cellspacing=0
+!width=120|
+!width=70|
+!width=120|
+|-
+|align=right|'''Denmark'''
+|align=center|'''0–0'''
+|'''Italy'''
+|-
+|align=right|'''Italy'''
+|align=center|'''1–1'''
+|'''Sweden'''
+|-
+|align=right|'''Denmark'''
+|align=center|'''2–2'''
+|'''Sweden'''
+|}
+
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|SWE}}
+|2||0||2||0||3||3||0||'''2'''
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|DEN}}
+|2||0||2||0||2||2||0||'''2'''
+|-
+|align=left|{{fb|ITA|2003}}
+|2||0||2||0||1||1||0||'''2'''
+|}
+''All times local ([[UTC+01:00|UTC+1]])''
+
+==Denmark vs Italy==
+{{Football box
+|date = {{Start date|2004|6|14|df=y}}
+|time = 17:00
+|team1 = {{fb-rt|DEN}}
+|team2 = {{fb|ITA|2003}}
+|score = 0–0
+|stadium = [[Estádio D. Afonso Henriques]], [[Guimarães]]
+|attendance = 29,595
+|referee = [[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059168/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _den02h
+ |pattern_b  = _den02h
+ |pattern_ra = _den02h
+ |pattern_sh = 
+ |pattern_so = _whitehorizontal
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Denmark
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = 
+ |pattern_ra = 
+ |pattern_so =
+ |leftarm    = 003CC3
+ |body       = 003CC3
+ |rightarm   = 003CC3
+ |shorts     = FFFFFF
+ |socks      = 003CC3
+ |title      = Italy
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Thomas Sørensen]]
+|-
+|RB ||'''6''' ||[[Thomas Helveg]] || {{yel|67}}
+|-
+|CB ||'''4''' ||[[Martin Laursen]]
+|-
+|CB ||'''3''' ||[[René Henriksen]] ([[Captain (association football)|c]])
+|-
+|LB ||'''5''' ||[[Niclas Jensen]]
+|-
+|CM ||'''15'''||[[Daniel Jensen]]
+|-
+|CM ||'''17'''||[[Christian Poulsen]] || || {{suboff|76}}
+|-
+|RW ||'''19'''||[[Dennis Rommedahl]]
+|-
+|AM ||'''9''' ||[[Jon Dahl Tomasson]] || {{yel|29}}
+|-
+|LW ||'''10'''||[[Martin Jørgensen]] || || {{suboff|72}}
+|-
+|CF ||'''11'''||[[Ebbe Sand]] || || {{suboff|69}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''14'''||[[Claus Jensen]] || || {{subon|69}}
+|-
+|FW ||'''20'''||[[Kenneth Perez]] || || {{subon|72}}
+|-
+|DF ||'''18'''||[[Brian Priske]] || || {{subon|76}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Morten Olsen]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Gianluigi Buffon]]
+|-
+|RB ||'''2''' ||[[Christian Panucci]]
+|-
+|CB ||'''13'''||[[Alessandro Nesta]]
+|-
+|CB ||'''5''' ||[[Fabio Cannavaro]] ([[Captain (association football)|c]]) || {{yel|62}}
+|-
+|LB ||'''19'''||[[Gianluca Zambrotta]]
+|-
+|CM ||'''4''' ||[[Cristiano Zanetti]] || || {{suboff|57}}
+|-
+|CM ||'''20'''||[[Simone Perrotta]]
+|-
+|RW ||'''16'''||[[Mauro Camoranesi]] || || {{suboff|68}}
+|-
+|AM ||'''10'''||[[Francesco Totti]] || {{yel|90}}
+|-
+|LW ||'''7''' ||[[Alessandro Del Piero]] || || {{suboff|64}}
+|-
+|CF ||'''9''' ||[[Christian Vieri]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''8''' ||[[Gennaro Gattuso]] || {{yel|81}} || {{subon|57}}
+|-
+|FW ||'''18'''||[[Antonio Cassano]] || {{yel|70}} || {{subon|64}}
+|-
+|MF ||'''14'''||[[Stefano Fiore]] || || {{subon|68}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Giovanni Trapattoni]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Thomas Sørensen]] (Denmark)&lt;ref&gt;{{cite news |title=Thomas Sørensen |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=3/day=1/match=1059168/index.html |work=Union of European Football Associations |date=14 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624145541/http://www.euro2004.com/Fanzone/Carlsberg/matchday=3/day=1/match=1059168/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Rafael Guerrero Alonso ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;Oscar Martínez Samaniego ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]])
+|}
+
+==Sweden vs Bulgaria==
+{{Football box
+|date = {{Start date|2004|6|14|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|SWE}}
+|team2 = {{fb|BUL}}
+|score = 5–0
+|goals1 = [[Fredrik Ljungberg|Ljungberg]] {{goal|32}}&lt;br /&gt;[[Henrik Larsson|Larsson]] {{goal|57||58}}&lt;br /&gt;[[Zlatan Ibrahimović|Ibrahimović]] {{goal|78|pen.}}&lt;br /&gt;[[Marcus Allbäck|Allbäck]] {{goal|90+1}}
+|stadium = [[Estádio José Alvalade]], [[Lisbon]]
+|attendance = 31,652
+|referee = [[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059169/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _thinbluesides
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FCD20E
+ |body       = FCD20E
+ |rightarm   = FCD20E
+ |shorts     = 0000FF
+ |socks      = FCD20E
+ |title      = Sweden
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _redwhitestriped_sides
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = 115926
+ |socks      = FFFFFF
+ |title      = Bulgaria
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Andreas Isaksson]]
+|-
+|RB ||'''2''' ||[[Teddy Lucic]] || || {{suboff|41}}
+|-
+|CB ||'''3''' ||[[Olof Mellberg]] ([[Captain (association football)|c]])
+|-
+|CB ||'''15'''||[[Andreas Jakobsson]]
+|-
+|LB ||'''5''' ||[[Erik Edman]]
+|-
+|DM ||'''6''' ||[[Tobias Linderoth]] || {{yel|52}}
+|-
+|RM ||'''7''' ||[[Mikael Nilsson (footballer born 1978)|Mikael Nilsson]]
+|-
+|CM ||'''8''' ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] || || {{suboff|77}}
+|-
+|LM ||'''9''' ||[[Fredrik Ljungberg]]
+|-
+|CF ||'''10'''||[[Zlatan Ibrahimović]] || {{yel|65}} || {{suboff|81}}
+|-
+|CF ||'''11'''||[[Henrik Larsson]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''21'''||[[Christian Wilhelmsson]] || || {{subon|41}}
+|-
+|MF ||'''16'''||[[Kim Källström]] || || {{subon|77}}
+|-
+|FW ||'''20'''||[[Marcus Allbäck]] || || {{subon|81}}
+|-
+|colspan=3|'''Managers:'''
+|-
+|colspan=4|[[Tommy Söderberg]]&lt;br /&gt;[[Lars Lagerbäck]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Zdravko Zdravkov]]
+|-
+|RB ||'''2''' ||[[Vladimir Ivanov (footballer)|Vladimir Ivanov]] || {{yel|70}}
+|-
+|CB ||'''3''' ||[[Rosen Kirilov]] || {{yel|22}}
+|-
+|CB ||'''18'''||[[Predrag Pažin]]
+|-
+|LB ||'''4''' ||[[Ivaylo Petkov]] || {{yel|18}}
+|-
+|RM ||'''13'''||[[Georgi Peev]]
+|-
+|CM ||'''19'''||[[Stiliyan Petrov]] ([[Captain (association football)|c]])
+|-
+|CM ||'''15'''||[[Marian Hristov]]
+|-
+|LM ||'''17'''||[[Martin Petrov]] || || {{suboff|84}}
+|-
+|CF ||'''21'''||[[Zoran Janković (footballer)|Zoran Janković]] || {{yel|23}} || {{suboff|62}}
+|-
+|CF ||'''9''' ||[[Dimitar Berbatov]] || || {{suboff|76}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''10'''||[[Velizar Dimitrov]] || || {{subon|62}}
+|-
+|FW ||'''16'''||[[Vladimir Manchev]] || || {{subon|76}}
+|-
+|FW ||'''11'''||[[Zdravko Lazarov]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Plamen Markov]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Henrik Larsson]] (Sweden)&lt;ref&gt;{{cite news |title=Henrik Larsson |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=3/day=1/match=1059169/index.html |work=Union of European Football Associations |date=14 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624145541/http://www.euro2004.com/Fanzone/Carlsberg/matchday=3/day=1/match=1059169/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Glenn Turner ([[The Football Association|England]])
+&lt;br /&gt;[[Philip Sharp (football referee)|Philip Sharp]] ([[The Football Association|England]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Stuart Dougal]] ([[Scottish Football Federation|Scotland]])
+|}
+
+==Bulgaria vs Denmark==
+{{Football box
+|date = {{Start date|2004|6|18|df=y}}
+|time = 17:00
+|team1 = {{fb-rt|BUL}}
+|team2 = {{fb|DEN}}
+|score = 0–2
+|goals2 = [[Jon Dahl Tomasson|Tomasson]] {{goal|44}}&lt;br /&gt;[[Jesper Grønkjær|Grønkjær]] {{goal|90+2}}
+|stadium = [[Estádio Municipal de Braga]], [[Braga]]
+|attendance = 24,131
+|referee = [[Lucílio Batista]] ([[Portuguese Football Federation|Portugal]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059176/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _redwhitestriped_sides
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = 115926
+ |socks      = FFFFFF
+ |title      = Bulgaria
+}}
+|{{Football kit
+ |pattern_la = _den02h
+ |pattern_b  = _den02h
+ |pattern_ra = _den02h
+ |pattern_sh = 
+ |pattern_so = _whitehorizontal
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Denmark
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Zdravko Zdravkov]]
+|-
+|RB ||'''2''' ||[[Vladimir Ivanov (footballer)|Vladimir Ivanov]] || || {{suboff|51}}
+|-
+|CB ||'''3''' ||[[Rosen Kirilov]] || {{yel|4}}
+|-
+|CB ||'''22'''||[[Ilian Stoyanov]] || {{yel|50}}
+|-
+|LB ||'''4''' ||[[Ivaylo Petkov]] || || {{suboff|40}}
+|-
+|RM ||'''13'''||[[Georgi Peev]]
+|-
+|CM ||'''15'''||[[Marian Hristov]] || {{yel|82}}
+|-
+|CM ||'''19'''||[[Stiliyan Petrov]] ([[Captain (association football)|c]]) || {{sent off|2|77|83}}
+|-
+|LM ||'''17'''||[[Martin Petrov]] || {{yel|84}}
+|-
+|SS ||'''21'''||[[Zoran Janković (footballer)|Zoran Janković]] || || {{suboff|81}}
+|-
+|CF ||'''9''' ||[[Dimitar Berbatov]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''5''' ||[[Zlatomir Zagorčić]] || {{yel|80}} || {{subon|40}}
+|-
+|FW ||'''11'''||[[Zdravko Lazarov]] || || {{subon|51}}
+|-
+|MF ||'''8''' ||[[Milen Petkov]] || || {{subon|81}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Plamen Markov]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Thomas Sørensen]]
+|-
+|RB ||'''6''' ||[[Thomas Helveg]]
+|-
+|CB ||'''4''' ||[[Martin Laursen]]
+|-
+|CB ||'''3''' ||[[René Henriksen]] ([[Captain (association football)|c]])
+|-
+|LB ||'''5''' ||[[Niclas Jensen]] || {{yel|10}}
+|-
+|CM ||'''15'''||[[Daniel Jensen]]
+|-
+|CM ||'''7''' ||[[Thomas Gravesen]]
+|-
+|AM ||'''9''' ||[[Jon Dahl Tomasson]]
+|-
+|RW ||'''19'''||[[Dennis Rommedahl]] || || {{suboff|23}}
+|-
+|LW ||'''10'''||[[Martin Jørgensen]] || || {{suboff|72}}
+|-
+|CF ||'''11'''||[[Ebbe Sand]] || {{yel|58}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''8''' ||[[Jesper Grønkjær]] || || {{subon|23}}
+|-
+|MF ||'''14'''||[[Claus Jensen]] || || {{subon|72}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Morten Olsen]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Thomas Gravesen]] (Denmark)&lt;ref&gt;{{cite news |title=Thomas Gravesen |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=7/day=1/match=1059176/index.html |work=Union of European Football Associations |date=18 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624145541/http://www.euro2004.com/Fanzone/Carlsberg/matchday=7/day=1/match=1059176/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Paulo Januário ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;José Cardinal ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Gilles Veissière]] ([[French Football Federation|France]])
+|}
+
+==Italy vs Sweden==
+{{Football box
+|date = {{Start date|2004|6|18|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|ITA|2003}}
+|team2 = {{fb|SWE}}
+|score = 1–1
+|goals1 = [[Antonio Cassano|Cassano]] {{goal|37}}
+|goals2 = [[Zlatan Ibrahimović|Ibrahimović]] {{goal|85}}
+|stadium = [[Estádio do Dragão]], [[Porto]]
+|attendance = 44,926
+|referee = [[Urs Meier]] ([[Swiss Football Association|Switzerland]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059177/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = 
+ |pattern_ra = 
+ |pattern_so =
+ |leftarm    = 003CC3
+ |body       = 003CC3
+ |rightarm   = 003CC3
+ |shorts     = FFFFFF
+ |socks      = 003CC3
+ |title      = Italy
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _thinbluesides
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FCD20E
+ |body       = FCD20E
+ |rightarm   = FCD20E
+ |shorts     = 0000FF
+ |socks      = FCD20E
+ |title      = Sweden
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Gianluigi Buffon]]
+|-
+|RB ||'''2''' ||[[Christian Panucci]]
+|-
+|CB ||'''5''' ||[[Fabio Cannavaro]] ([[Captain (association football)|c]]) || {{yel|46}}
+|-
+|CB ||'''13'''||[[Alessandro Nesta]]
+|-
+|LB ||'''19'''||[[Gianluca Zambrotta]] || {{yel|58}}
+|-
+|RM ||'''8''' ||[[Gennaro Gattuso]] || {{yel|39}} || {{suboff|76}}
+|-
+|CM ||'''21'''||[[Andrea Pirlo]]
+|-
+|LM ||'''20'''||[[Simone Perrotta]]
+|-
+|AM ||'''18'''||[[Antonio Cassano]] || || {{suboff|70}}
+|-
+|CF ||'''9''' ||[[Christian Vieri]]
+|-
+|CF ||'''7''' ||[[Alessandro Del Piero]] || || {{suboff|82}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''14'''||[[Stefano Fiore]] || || {{subon|70}}
+|-
+|DF ||'''15'''||[[Giuseppe Favalli]] || || {{subon|76}}
+|-
+|MF ||'''16'''||[[Mauro Camoranesi]] || || {{subon|82}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Giovanni Trapattoni]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Andreas Isaksson]]
+|-
+|RB ||'''7''' ||[[Mikael Nilsson (footballer born 1978)|Mikael Nilsson]]
+|-
+|CB ||'''3''' ||[[Olof Mellberg]] ([[Captain (association football)|c]])
+|-
+|CB ||'''15'''||[[Andreas Jakobsson]]
+|-
+|LB ||'''5''' ||[[Erik Edman]] || {{yel|54}} || {{suboff|77}}
+|-
+|DM ||'''6''' ||[[Tobias Linderoth]] || {{yel|75}}
+|-
+|RM ||'''21'''||[[Christian Wilhelmsson]] || || {{suboff|67}}
+|-
+|CM ||'''8''' ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] || || {{suboff|55}}
+|-
+|LM ||'''9''' ||[[Fredrik Ljungberg]]
+|-
+|CF ||'''10'''||[[Zlatan Ibrahimović]]
+|-
+|CF ||'''11'''||[[Henrik Larsson]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''16'''||[[Kim Källström]] || || {{subon|55}}
+|-
+|FW ||'''18'''||[[Mattias Jonson]] || || {{subon|67}}
+|-
+|FW ||'''20'''||[[Marcus Allbäck]] || || {{subon|77}}
+|-
+|colspan=3|'''Managers:'''
+|-
+|colspan=4|[[Tommy Söderberg]]&lt;br /&gt;[[Lars Lagerbäck]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Zlatan Ibrahimović]] (Sweden)&lt;ref&gt;{{cite news |title=Zlatan Ibrahimović |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=7/day=1/match=1059177/index.html |work=Union of European Football Associations |date=18 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624164343/http://www.euro2004.com/Fanzone/Carlsberg/matchday=7/day=1/match=1059177/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Rudolf Käppeli ([[Swiss Football Association|Switzerland]])
+&lt;br /&gt;Francesco Buragina ([[Swiss Football Association|Switzerland]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Markus Merk]] ([[German Football Association|Germany]])
+|}
+
+==Italy vs Bulgaria==
+{{Football box
+|date = {{Start date|2004|6|22|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|ITA|2003}}
+|team2 = {{fb|BUL}}
+|score = 2–1
+|goals1 = [[Simone Perrotta|Perrotta]] {{goal|48}}&lt;br /&gt;[[Antonio Cassano|Cassano]] {{goal|90+4}}
+|goals2 = [[Martin Petrov|M. Petrov]] {{goal|45|pen.}}
+|stadium = [[Estádio D. Afonso Henriques]], [[Guimarães]]
+|attendance = 16,002
+|referee = [[Valentin Valentinovich Ivanov|Valentin Ivanov]] ([[Russian Football Union|Russia]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059184/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ | pattern_la = 
+ | pattern_b  = 
+ | pattern_ra = 
+ | pattern_so =
+ | leftarm    = 003cc3
+ | body       = 003cc3
+ | rightarm   = 003cc3
+ | shorts     = FFFFFF
+ | socks      = 003cc3
+ |title      = Italy
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _redwhitestriped_sides
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = 115926
+ |socks      = FFFFFF
+ |title      = Bulgaria
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Gianluigi Buffon]]
+|-
+|RB ||'''2''' ||[[Christian Panucci]]
+|-
+|CB ||'''13'''||[[Alessandro Nesta]]
+|-
+|CB ||'''23'''||[[Marco Materazzi]] || {{yel|44}} || {{suboff|83}}
+|-
+|LB ||'''19'''||[[Gianluca Zambrotta]]
+|-
+|RM ||'''20'''||[[Simone Perrotta]] || || {{suboff|68}}
+|-
+|CM ||'''21'''||[[Andrea Pirlo]]
+|-
+|LM ||'''14'''||[[Stefano Fiore]]
+|-
+|RF ||'''18'''||[[Antonio Cassano]]
+|-
+|CF ||'''11'''||[[Bernardo Corradi]] || || {{suboff|53}}
+|-
+|LF ||'''7''' ||[[Alessandro Del Piero]] ([[Captain (association football)|c]])
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''9''' ||[[Christian Vieri]] || || {{subon|53}}
+|-
+|DF ||'''3''' ||[[Massimo Oddo]] || || {{subon|68}}
+|-
+|FW ||'''17'''||[[Marco Di Vaio]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Giovanni Trapattoni]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Zdravko Zdravkov]] ([[Captain (association football)|c]])
+|-
+|RB ||'''7''' ||[[Daniel Borimirov]]
+|-
+|CB ||'''18'''||[[Predrag Pažin]] || || {{suboff|64}}
+|-
+|CB ||'''5''' ||[[Zlatomir Zagorčić]]
+|-
+|LB ||'''22'''||[[Ilian Stoyanov]] || {{yel|66}}
+|-
+|CM ||'''15'''||[[Marian Hristov]] || || {{suboff|79}}
+|-
+|CM ||'''8''' ||[[Milen Petkov]]
+|-
+|RW ||'''11'''||[[Zdravko Lazarov]] || {{yel|80}}
+|-
+|AM ||'''21'''||[[Zoran Janković (footballer)|Zoran Janković]] || || {{suboff|46}}
+|-
+|LW ||'''17'''||[[Martin Petrov]] || {{yel|45}}
+|-
+|CF ||'''9''' ||[[Dimitar Berbatov]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''20'''||[[Valeri Bojinov]] || {{yel|49}} || {{subon|46}}
+|-
+|DF ||'''6''' ||[[Kiril Kotev]] || || {{subon|64}}
+|-
+|MF ||'''10'''||[[Velizar Dimitrov]] || || {{subon|79}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Plamen Markov]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Antonio Cassano]] (Italy)&lt;ref&gt;{{cite news |title=Antonio Cassano |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=11/day=1/match=1059184/index.html |work=Union of European Football Associations |date=22 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624133328/http://www.euro2004.com/Fanzone/Carlsberg/matchday=11/day=1/match=1059184/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Yury Dupanau ([[Football Federation of Belarus|Belarus]])
+&lt;br /&gt;Vladimir Eniutin ([[Russian Football Union|Russia]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Alain Hamer]] ([[Luxembourg Football Federation|Luxembourg]])
+|}
+
+==Denmark vs Sweden==
+{{Football box
+|date = {{Start date|2004|6|22|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|DEN}}
+|team2 = {{fb|SWE}}
+|score = 2–2
+|goals1 = [[Jon Dahl Tomasson|Tomasson]] {{goal|28||66}}
+|goals2 = [[Henrik Larsson|Larsson]] {{goal|47|pen.}}&lt;br /&gt;[[Mattias Jonson|Jonson]] {{goal|89}}
+|stadium = [[Estádio do Bessa]], [[Porto]]
+|attendance = 26,115
+|referee = [[Markus Merk]] ([[German Football Association|Germany]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059185/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _den02h
+ |pattern_b  = _den02h
+ |pattern_ra = _den02h
+ |pattern_sh = 
+ |pattern_so = _whitehorizontal
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Denmark
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _thinbluesides
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FCD20E
+ |body       = FCD20E
+ |rightarm   = FCD20E
+ |shorts     = 0000FF
+ |socks      = FCD20E
+ |title      = Sweden
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Thomas Sørensen]]
+|-
+|RB ||'''6''' ||[[Thomas Helveg]]
+|-
+|CB ||'''4''' ||[[Martin Laursen]]
+|-
+|CB ||'''3''' ||[[René Henriksen]] ([[Captain (association football)|c]])
+|-
+|LB ||'''5''' ||[[Niclas Jensen]] || || {{suboff|46}}
+|-
+|CM ||'''15'''||[[Daniel Jensen]] || || {{suboff|66}}
+|-
+|CM ||'''7''' ||[[Thomas Gravesen]]
+|-
+|AM ||'''9''' ||[[Jon Dahl Tomasson]]
+|-
+|RW ||'''8''' ||[[Jesper Grønkjær]]
+|-
+|LW ||'''10'''||[[Martin Jørgensen]] || || {{suboff|57}}
+|-
+|CF ||'''11'''||[[Ebbe Sand]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''2''' ||[[Kasper Bøgelund]] || || {{subon|46}}
+|-
+|MF ||'''19'''||[[Dennis Rommedahl]] || || {{subon|57}}
+|-
+|MF ||'''17'''||[[Christian Poulsen]] || || {{subon|66}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Morten Olsen]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Andreas Isaksson]]
+|-
+|RB ||'''7''' ||[[Mikael Nilsson (footballer born 1978)|Mikael Nilsson]]
+|-
+|CB ||'''3''' ||[[Olof Mellberg]] ([[Captain (association football)|c]])
+|-
+|CB ||'''15'''||[[Andreas Jakobsson]]
+|-
+|LB ||'''5''' ||[[Erik Edman]] || {{yel|36}}
+|-
+|DM ||'''17'''||[[Anders Andersson (footballer)|Anders Andersson]] || || {{suboff|81}}
+|-
+|RM ||'''18'''||[[Mattias Jonson]]
+|-
+|CM ||'''16'''||[[Kim Källström]] || {{yel|63}} || {{suboff|72}}
+|-
+|LM ||'''9''' ||[[Fredrik Ljungberg]]
+|-
+|CF ||'''10'''||[[Zlatan Ibrahimović]]
+|-
+|CF ||'''11'''||[[Henrik Larsson]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''21'''||[[Christian Wilhelmsson]] || || {{subon|72}}
+|-
+|FW ||'''20'''||[[Marcus Allbäck]] || || {{subon|81}}
+|-
+|colspan=3|'''Managers:'''
+|-
+|colspan=4|[[Tommy Söderberg]]&lt;br /&gt;[[Lars Lagerbäck]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Jon Dahl Tomasson]] (Denmark)&lt;ref&gt;{{cite news |title=Jon Dahl Tomasson |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=11/day=1/match=1059185/index.html |work=Union of European Football Associations |date=22 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624135016/http://www.euro2004.com/Fanzone/Carlsberg/matchday=11/day=1/match=1059185/index.html |archivedate=22 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Christian Schräer ([[German Football Association|Germany]])
+&lt;br /&gt;Jan-Hendrik Salver ([[German Football Association|Germany]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]])
+|}
+
+==References==
+{{reflist|colwidth=40em}}
+
+== External links ==
+*[http://www.uefa.com/uefaeuro/season=2004/standings/round=1581/group=1895/index.html UEFA Euro 2004 Group C]
+
+{{UEFA Euro 2004}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2004|Group C]]
+[[Category:2004 in Swedish football]]
+[[Category:Denmark at UEFA Euro 2004|Group]]
+[[Category:Italy at UEFA Euro 2004|Group]]
+[[Category:2003–04 in Bulgarian football]]</text>
+      <sha1>g5c9slhbmfpaprg6dd3mgigjopsvo0t</sha1>
+    </revision>
+  </page>
+</mediawiki>

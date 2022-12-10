@@ -1,0 +1,934 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 Group D</title>
+    <ns>0</ns>
+    <id>1145609</id>
+    <revision>
+      <id>695529823</id>
+      <parentid>695529779</parentid>
+      <timestamp>2015-12-16T19:00:04Z</timestamp>
+      <contributor>
+        <username>ExRat</username>
+        <id>310363</id>
+      </contributor>
+      <comment>/* Netherlands vs Latvia */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="24696">'''Group D of [[UEFA Euro 2004]]''' was one of four groups in the final tournament's initial group stage. It began on 15 June and was completed on 23 June. The group consisted of [[Germany national football team|Germany]], the [[Netherlands national football team|Netherlands]], the [[Czech Republic national football team|Czech Republic]] and [[Latvia national football team|Latvia]].
+
+The Czech Republic won the group and advanced to the quarter-finals, along with the Netherlands. Germany and Latvia failed to advance.
+
+{{TOC right}}
+
+==Standings==
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|CZE}}
+|3||3||0||0||7||4||+3||'''9'''
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|NED}}
+|3||1||1||1||6||4||+2||'''4'''
+|-
+|align=left|{{fb|GER}}
+|3||0||2||1||2||3||–1||'''2'''
+|-
+|align=left|{{fb|LVA}}
+|3||0||1||2||1||5||–4||'''1'''
+|}
+
+''All times local ([[UTC+01:00|UTC+1]])''
+
+==Czech Republic vs Latvia==
+{{Football box
+|date = {{Start date|2004|6|15|df=y}}
+|time = 17:00
+|team1 = {{fb-rt|CZE}}
+|team2 = {{fb|LVA}}
+|score = 2–1
+|goals1 = [[Milan Baroš|Baroš]] {{goal|73}}&lt;br /&gt;[[Marek Heinz|Heinz]] {{goal|85}}
+|goals2 = [[Māris Verpakovskis|Verpakovskis]] {{goal|45+1}}
+|stadium = [[Estádio Municipal de Aveiro]], [[Aveiro, Portugal|Aveiro]]
+|attendance = 21,744
+|referee = [[Gilles Veissière]] ([[French Football Federation|France]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059171/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _czech2004a
+ |pattern_b  = _czech2004a
+ |pattern_ra = _czech2004a
+ |pattern_sh = _czech2004a
+ |pattern_so  = _czech2004a
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Czech Republic
+}}
+|{{Football kit
+ |pattern_la = _1FFCfrankfurt03a
+ |pattern_b  = _1FFCfrankfurt03a
+ |pattern_ra = _1FFCfrankfurt03a
+ |pattern_sh = _adidaswhite
+ |pattern_so = _3_stripes_white
+ |leftarm    = DD0000
+ |body       = DD0000
+ |rightarm   = DD0000
+ |shorts     = DD0000
+ |socks      = DD0000
+ |title      = Latvia
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Petr Čech]]
+|-
+|RB ||'''2''' ||[[Zdeněk Grygera]] || || {{suboff|56}}
+|-
+|CB ||'''5''' ||[[René Bolf]]
+|-
+|CB ||'''21'''||[[Tomáš Ujfaluši]]
+|-
+|LB ||'''6''' ||[[Marek Jankulovski]]
+|-
+|DM ||'''4''' ||[[Tomáš Galásek]] || || {{suboff|64}}
+|-
+|RM ||'''8''' ||[[Karel Poborský]]
+|-
+|CM ||'''10'''||[[Tomáš Rosický]]
+|-
+|LM ||'''11'''||[[Pavel Nedvěd]] ([[Captain (association football)|c]])
+|-
+|CF ||'''15'''||[[Milan Baroš]] || || {{suboff|87}}
+|-
+|CF ||'''9''' ||[[Jan Koller]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''18'''||[[Marek Heinz]] || || {{subon|56}}
+|-
+|MF ||'''7''' ||[[Vladimír Šmicer]] || || {{subon|64}}
+|-
+|DF ||'''13'''||[[Martin Jiránek]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Karel Brückner]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Aleksandrs Koļinko]]
+|-
+|RB ||'''7''' ||[[Aleksandrs Isakovs]]
+|-
+|CB ||'''4''' ||[[Mihails Zemļinskis]]
+|-
+|CB ||'''2''' ||[[Igors Stepanovs]]
+|-
+|LB ||'''6''' ||[[Oļegs Blagonadeždins]]
+|-
+|RM ||'''8''' ||[[Imants Bleidelis]]
+|-
+|CM ||'''3''' ||[[Vitālijs Astafjevs]] ([[Captain (association football)|c]])
+|-
+|CM ||'''14'''||[[Valentīns Lobaņovs]] || || {{suboff|90}}
+|-
+|LM ||'''10'''||[[Andrejs Rubins]]
+|-
+|CF ||'''11'''||[[Andrejs Prohorenkovs]] || || {{suboff|71}}
+|-
+|CF ||'''9''' ||[[Māris Verpakovskis]] || || {{suboff|81}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''5''' ||[[Juris Laizāns]] || || {{subon|71}}
+|-
+|FW ||'''17'''||[[Marians Pahars]] || || {{subon|81}}
+|-
+|FW ||'''23'''||[[Vīts Rimkus]] || || {{subon|90}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Aleksandrs Starkovs]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Milan Baroš]] (Czech Republic)&lt;ref&gt;{{cite news |title=Milan Baroš |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=4/day=1/match=1059171/index.html |work=Union of European Football Associations |date=15 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624151012/http://www.euro2004.com/Fanzone/Carlsberg/matchday=4/day=1/match=1059171/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Frédéric Arnault ([[French Football Federation|France]])
+&lt;br /&gt;Serge Vallin ([[French Football Federation|France]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Kyros Vassaras]] ([[Greek Football Association|Greece]])
+|}
+
+==Germany vs Netherlands==
+{{Football box
+|date = {{Start date|2004|6|15|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|GER}}
+|team2 = {{fb|NED}}
+|score = 1–1
+|goals1 = [[Torsten Frings|Frings]] {{goal|30}}
+|goals2 = [[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|81}}
+|stadium = [[Estádio do Dragão]], [[Porto]]
+|attendance = 48,197
+|referee = [[Anders Frisk]] ([[Swedish Football Association|Sweden]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059170/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _DFB_04h
+ |pattern_b  = _DFB_04h
+ |pattern_ra = _DFB_04h
+ |pattern_sh = _DFB_04h
+ |pattern_so = _DFB_04h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Germany
+}}
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _ned04h
+ |pattern_ra = _ned04h
+ |pattern_sh = _ned04a
+ |leftarm    = FF8000
+ |body       = FFFFFF
+ |rightarm   = FF8000
+ |shorts     = FFFFFF
+ |socks      = FF8000
+ |title      = Netherlands
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Oliver Kahn]] ([[Captain (association football)|c]])
+|-
+|RB ||'''3''' ||[[Arne Friedrich]]
+|-
+|CB ||'''4''' ||[[Christian Wörns]]
+|-
+|CB ||'''5''' ||[[Jens Nowotny]]
+|-
+|LB ||'''21'''||[[Philipp Lahm]]
+|-
+|CM ||'''8''' ||[[Dietmar Hamann]]
+|-
+|CM ||'''6''' ||[[Frank Baumann (footballer)|Frank Baumann]]
+|-
+|RW ||'''19'''||[[Bernd Schneider (footballer)|Bernd Schneider]] || || {{suboff|68}}
+|-
+|CM ||'''13'''||[[Michael Ballack]] || {{yel|90+1}}
+|-
+|LW ||'''22'''||[[Torsten Frings]] || || {{suboff|79}}
+|-
+|CF ||'''10'''||[[Kevin Kurányi]] || {{yel|12}} || {{suboff|85}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Bastian Schweinsteiger]] || || {{subon|68}}
+|-
+|MF ||'''18'''||[[Fabian Ernst]] || || {{subon|79}}
+|-
+|FW ||'''9''' ||[[Fredi Bobic]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Rudi Völler]]
+|}
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Edwin van der Sar]]
+|-
+|RB ||'''18'''||[[John Heitinga]] || || {{suboff|74}}
+|-
+|CB ||'''3''' ||[[Jaap Stam]] || {{yel|73}}
+|-
+|CB ||'''4''' ||[[Wilfred Bouma]]
+|-
+|LB ||'''5''' ||[[Giovanni van Bronckhorst]]
+|-
+|CM ||'''6''' ||[[Phillip Cocu]] ([[Captain (association football)|c]]) || {{yel|29}}
+|-
+|CM ||'''8''' ||[[Edgar Davids]] || || {{suboff|46}}
+|-
+|RW ||'''7''' ||[[Andy van der Meyde]]
+|-
+|AM ||'''11'''||[[Rafael van der Vaart]]
+|-
+|LW ||'''22'''||[[Boudewijn Zenden]] || || {{suboff|46}}
+|-
+|CF ||'''10'''||[[Ruud van Nistelrooy]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''14'''||[[Wesley Sneijder]] || || {{subon|46}}
+|-
+|MF ||'''16'''||[[Marc Overmars]] || || {{subon|46}}
+|-
+|FW ||'''17'''||[[Pierre van Hooijdonk]] || || {{subon|74}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Dick Advocaat]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Michael Ballack]] (Germany)&lt;ref&gt;{{cite news |title=Michael Ballack |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=4/day=1/match=1059170/index.html |work=Union of European Football Associations |date=15 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624151012/http://www.euro2004.com/Fanzone/Carlsberg/matchday=4/day=1/match=1059170/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Kenneth Petersson ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;Peter Ekström ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Valentin Ivanov (footballer born 1961)|Valentin Ivanov]] ([[Russian Football Union|Russia]])
+|}
+
+==Latvia vs Germany==
+{{Football box
+|date = {{Start date|2004|6|19|df=y}}
+|time = 17:00
+|team1 = {{fb-rt|LVA}}
+|team2 = {{fb|GER}}
+|score = 0–0
+|stadium = [[Estádio do Bessa]], [[Porto]]
+|attendance = 22,344
+|referee = [[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059178/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _1FFCfrankfurt03a
+ |pattern_b  = _1FFCfrankfurt03a
+ |pattern_ra = _1FFCfrankfurt03a
+ |pattern_sh = _adidaswhite
+ |pattern_so = _3_stripes_white
+ |leftarm    = DD0000
+ |body       = DD0000
+ |rightarm   = DD0000
+ |shorts     = DD0000
+ |socks      = DD0000
+ |title      = Latvia
+}}
+|{{Football kit
+ |pattern_la = _DFB_04h 
+ |pattern_b  = _DFB_04h
+ |pattern_ra = _DFB_04h
+ |pattern_sh = _DFB_04h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Germany
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Aleksandrs Koļinko]]
+|-
+|RB ||'''7''' ||[[Aleksandrs Isakovs]] || {{yel|1}}
+|-
+|CB ||'''4''' ||[[Mihails Zemļinskis]]
+|-
+|CB ||'''2''' ||[[Igors Stepanovs]]
+|-
+|LB ||'''6''' ||[[Oļegs Blagonadeždins]]
+|-
+|RM ||'''8''' ||[[Imants Bleidelis]]
+|-
+|CM ||'''3''' ||[[Vitālijs Astafjevs]] ([[Captain (association football)|c]]) || {{yel|79}}
+|-
+|CM ||'''14'''||[[Valentīns Lobaņovs]] || || {{suboff|70}}
+|-
+|LM ||'''10'''||[[Andrejs Rubins]]
+|-
+|CF ||'''11'''||[[Andrejs Prohorenkovs]] || || {{suboff|67}}
+|-
+|CF ||'''9''' ||[[Māris Verpakovskis]] || || {{suboff|90+2}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''17'''||[[Marians Pahars]] || || {{subon|67}}
+|-
+|MF ||'''5''' ||[[Juris Laizāns]] || || {{subon|70}}
+|-
+|DF ||'''16'''||[[Dzintars Zirnis]] || || {{subon|90+2}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Aleksandrs Starkovs]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Oliver Kahn]] ([[Captain (association football)|c]])
+|-
+|RB ||'''3''' ||[[Arne Friedrich]] || {{yel|21}}
+|-
+|CB ||'''4''' ||[[Christian Wörns]]
+|-
+|CB ||'''6''' ||[[Frank Baumann (footballer)|Frank Baumann]]
+|-
+|LB ||'''21'''||[[Philipp Lahm]]
+|-
+|RM ||'''19'''||[[Bernd Schneider (footballer)|Bernd Schneider]] || || {{suboff|46}}
+|-
+|CM ||'''8''' ||[[Dietmar Hamann]] || {{yel|42}}
+|-
+|CM ||'''13'''||[[Michael Ballack]]
+|-
+|LM ||'''22'''||[[Torsten Frings]] || {{yel|53}}
+|-
+|CF ||'''9''' ||[[Fredi Bobic]] || || {{suboff|67}}
+|-
+|CF ||'''10'''||[[Kevin Kurányi]] || || {{suboff|78}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Bastian Schweinsteiger]] || || {{subon|46}}
+|-
+|FW ||'''11'''||[[Miroslav Klose]] || || {{subon|67}}
+|-
+|FW ||'''14'''||[[Thomas Brdaric]] || || {{subon|78}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Rudi Völler]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Michael Ballack]] (Germany)&lt;ref&gt;{{cite news |title=Michael Ballack |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=8/day=1/match=1059178/index.html |work=Union of European Football Associations |date=19 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624164647/http://www.euro2004.com/Fanzone/Carlsberg/matchday=8/day=1/match=1059178/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;[[Philip Sharp (football referee)|Philip Sharp]] ([[The Football Association|England]])
+&lt;br /&gt;Glenn Turner ([[The Football Association|England]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Alain Hamer]] ([[Luxembourg Football Federation|Luxrmbourg]])
+|}
+
+==Netherlands vs Czech Republic==
+{{Football box
+|date = {{Start date|2004|6|19|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|NED}}
+|team2 = {{fb|CZE}}
+|score = 2–3
+|goals1 = [[Wilfred Bouma|Bouma]] {{goal|4}}&lt;br /&gt;[[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|19}}
+|goals2 = [[Jan Koller|Koller]] {{goal|23}}&lt;br /&gt;[[Milan Baroš|Baroš]] {{goal|71}}&lt;br /&gt;[[Vladimír Šmicer|Šmicer]] {{goal|88}}
+|stadium = [[Estádio Municipal de Aveiro]], [[Aveiro, Portugal|Aveiro]]
+|attendance = 29,935
+|referee = [[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059179/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _ned04h
+ |pattern_ra = _ned04h
+ |pattern_sh = _ned04h
+ |leftarm    = FF8000
+ |body       = FFFFFF
+ |rightarm   = FF8000
+ |shorts     = FF8000
+ |socks      = FF8000
+ |title      = Netherlands
+}}
+|{{Football kit
+ |pattern_la = _czech2004a
+ |pattern_b  = _czech2004a
+ |pattern_ra = _czech2004a
+ |pattern_sh = _czech2004a
+ |pattern_so  = _czech2004a
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Czech Republic
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Edwin van der Sar]]
+|-
+|RB||'''18'''||[[John Heitinga]] || {{sent off|2|26|75}}
+|-
+|CB ||'''3''' ||[[Jaap Stam]]
+|-
+|CB ||'''4''' ||[[Wilfred Bouma]]
+|-
+|LB||'''5''' ||[[Giovanni van Bronckhorst]]
+|-
+|CM ||'''6''' ||[[Phillip Cocu]] ([[Captain (association football)|c]])
+|-
+|CM ||'''20'''||[[Clarence Seedorf]] || {{yel|9}} || {{suboff|86}}
+|-
+|CM ||'''8''' ||[[Edgar Davids]]
+|-
+|RW ||'''7''' ||[[Andy van der Meyde]] || || {{suboff|79}}
+|-
+|LW ||'''19'''||[[Arjen Robben]] || || {{suboff|58}}
+|-
+|CF ||'''10'''||[[Ruud van Nistelrooy]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''21'''||[[Paul Bosvelt]] || || {{subon|58}}
+|-
+|DF ||'''2''' ||[[Michael Reiziger]] || || {{subon|79}}
+|-
+|MF ||'''11'''||[[Rafael van der Vaart]] || || {{subon|86}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Dick Advocaat]]
+|}
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Petr Čech]]
+|-
+|RB ||'''2''' ||[[Zdeněk Grygera]] || || {{suboff|25}}
+|-
+|CB ||'''13'''||[[Martin Jiránek]]
+|-
+|CB ||'''21'''||[[Tomáš Ujfaluši]]
+|-
+|LB ||'''6''' ||[[Marek Jankulovski]]
+|-
+|RM ||'''8''' ||[[Karel Poborský]]
+|-
+|CM ||'''10'''||[[Tomáš Rosický]]
+|-
+|CM ||'''4''' ||[[Tomáš Galásek]] || {{yel|55}} || {{suboff|62}}
+|-
+|LM ||'''11'''||[[Pavel Nedvěd]] ([[Captain (association football)|c]])
+|-
+|CF ||'''9''' ||[[Jan Koller]] || || {{suboff|75}}
+|-
+|CF ||'''15'''||[[Milan Baroš]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Vladimír Šmicer]] || || {{subon|25}}
+|-
+|FW ||'''18'''||[[Marek Heinz]] || || {{subon|62}}
+|-
+|DF ||'''22'''||[[David Rozehnal]] || || {{subon|75}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Karel Brückner]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Pavel Nedvěd]] (Czech Republic)&lt;ref&gt;{{cite news |title=Pavel Nedvěd |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=8/day=1/match=1059179/index.html |work=Union of European Football Associations |date=19 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040624170303/http://www.euro2004.com/Fanzone/Carlsberg/matchday=8/day=1/match=1059179/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Rafael Guerrero Alonso ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;Oscar Martínez Samaniego ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Pierluigi Collina]] ([[Italian Football Federation|Italy]])
+|}
+
+==Netherlands vs Latvia==
+{{Football box
+|date = {{Start date|2004|6|23|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|NED}}
+|team2 = {{fb|LVA}}
+|score = 3–0
+|goals1 = [[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|27|pen.|35}}&lt;br /&gt;[[Roy Makaay|Makaay]] {{goal|84}}
+|stadium = [[Estádio Municipal de Braga]], [[Braga]]
+|attendance = 27,904
+|referee = [[Kim Milton Nielsen]] ([[Danish Football Association|Denmark]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059186/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _ned04h
+ |pattern_ra = _ned04h
+|pattern_sh = _ned04h
+ |leftarm    = FF8000
+ |body       = FFFFFF
+ |rightarm   = FF8000
+ |shorts     = FF8000
+ |socks      = FF8000
+ |title      = Netherlands
+}}
+|{{Football kit
+ |pattern_la = _1FFCfrankfurt03h
+ |pattern_b  = _1FFCfrankfurt03h
+ |pattern_ra = _1FFCfrankfurt03h
+ |pattern_sh = _adidasonwhite
+ |pattern_so = _3_stripes_red
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = DD0000
+ |socks      = FFFFFF
+ |title      = Latvia
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Edwin van der Sar]]
+|-
+|RB ||'''2''' ||[[Michael Reiziger]]
+|-
+|CB ||'''3''' ||[[Jaap Stam]]
+|-
+|CB ||'''15'''||[[Frank de Boer]] ([[Captain (association football)|c]])
+|-
+|LB ||'''5''' ||[[Giovanni van Bronckhorst]]
+|-
+|CM ||'''20'''||[[Clarence Seedorf]]
+|-
+|CM ||'''6''' ||[[Phillip Cocu]]
+|-
+|CM ||'''8''' ||[[Edgar Davids]] || || {{suboff|77}}
+|-
+|RW ||'''7''' ||[[Andy van der Meyde]] || || {{suboff|63}}
+|-
+|LW ||'''19'''||[[Arjen Robben]]
+|-
+|CF ||'''10'''||[[Ruud van Nistelrooy]] || || {{suboff|70}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''16'''||[[Marc Overmars]] || || {{subon|63}}
+|-
+|FW ||'''12'''||[[Roy Makaay]] || || {{subon|70}}
+|-
+|MF ||'''14'''||[[Wesley Sneijder]] || || {{subon|77}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Dick Advocaat]]
+|}
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Aleksandrs Koļinko]]
+|-
+|RB ||'''7''' ||[[Aleksandrs Isakovs]]
+|-
+|CB ||'''4''' ||[[Mihails Zemļinskis]]
+|-
+|CB ||'''2''' ||[[Igors Stepanovs]]
+|-
+|LB ||'''6''' ||[[Oļegs Blagonadeždins]]
+|-
+|RM ||'''8''' ||[[Imants Bleidelis]] || || {{suboff|83}}
+|-
+|CM ||'''14'''||[[Valentīns Lobaņovs]] || {{yel|53}}
+|-
+|CM ||'''3''' ||[[Vitālijs Astafjevs]] ([[Captain (association football)|c]])
+|-
+|LM ||'''10'''||[[Andrejs Rubins]]
+|-
+|SS ||'''11'''||[[Andrejs Prohorenkovs]] || || {{suboff|74}}
+|-
+|CF ||'''9''' ||[[Māris Verpakovskis]] || || {{suboff|62}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''17'''||[[Marians Pahars]] || || {{subon|62}}
+|-
+|MF ||'''5''' ||[[Juris Laizāns]] || || {{subon|74}}
+|-
+|MF ||'''19'''||[[Andrejs Štolcers]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Aleksandrs Starkovs]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Ruud van Nistelrooy]] (Netherlands)&lt;ref&gt;{{cite news |title=Ruud van Nistelrooij |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=12/day=1/match=1059186/index.html |work=Union of European Football Associations |date=23 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040626011120/http://www.euro2004.com/Fanzone/Carlsberg/matchday=12/day=1/match=1059186/index.html |archivedate=26 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Jens Larsen ([[Danish Football Association|Denmark]])
+&lt;br /&gt;Jørgen Jepsen ([[Danish Football Association|Denmark]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Lucílio Batista]] ([[Portuguese Football Federation|Portugal]])
+|}
+
+==Germany vs Czech Republic==
+{{Football box
+|date = {{Start date|2004|6|23|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|GER}}
+|team2 = {{fb|CZE}}
+|score = 1–2
+|goals1 = [[Michael Ballack|Ballack]] {{goal|21}}
+|goals2 = [[Marek Heinz|Heinz]] {{goal|30}}&lt;br /&gt;[[Milan Baroš|Baroš]] {{goal|77}}
+|stadium = [[Estádio José Alvalade]], [[Lisbon]]
+|attendance = 46,849
+|referee = [[Terje Hauge]] ([[Football Association of Norway|Norway]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059187/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ | pattern_la = _DFB_04h 
+ | pattern_b  = _DFB_04h
+ | pattern_ra = _DFB_04h
+ | pattern_sh = _DFB_04h
+ | leftarm    = FFFFFF
+ | body       = FFFFFF
+ | rightarm   = FFFFFF
+ | shorts     = FFFFFF
+ | socks      = FFFFFF
+ | title      = Germany
+}}
+|{{Football kit
+ |pattern_la = _pumared
+ |pattern_b  = _pumared
+ |pattern_ra = _pumared
+ |pattern_sh = _czechrepublic1996
+ |pattern_so = _whiteline
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = 000080
+ |title      = Czech Republic
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Oliver Kahn]] ([[Captain (association football)|c]])
+|-
+|CB ||'''3''' ||[[Arne Friedrich]]
+|-
+|CB ||'''5''' ||[[Jens Nowotny]] || {{yel|38}}
+|-
+|CB ||'''4''' ||[[Christian Wörns]] || {{yel|83}}
+|-
+|RM ||'''22'''||[[Torsten Frings]] || || {{suboff|46}}
+|-
+|CM ||'''8''' ||[[Dietmar Hamann]] || || {{suboff|79}}
+|-
+|LM ||'''21'''||[[Philipp Lahm]] || {{yel|74}}
+|-
+|RW ||'''19'''||[[Bernd Schneider (footballer)|Bernd Schneider]]
+|-
+|AM ||'''13'''||[[Michael Ballack]]
+|-
+|LW ||'''7''' ||[[Bastian Schweinsteiger]] || || {{suboff|86}}
+|-
+|CF ||'''10'''||[[Kevin Kurányi]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''20'''||[[Lukas Podolski]] || || {{subon|46}}
+|-
+|FW ||'''11'''||[[Miroslav Klose]] || || {{subon|79}}
+|-
+|MF ||'''16'''||[[Jens Jeremies]] || || {{subon|86}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Rudi Völler]]
+|}
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''16'''||[[Jaromír Blažek]]
+|-
+|RB ||'''13'''||[[Martin Jiránek]]
+|-
+|CB ||'''5''' ||[[René Bolf]]
+|-
+|CB ||'''22'''||[[David Rozehnal]]
+|-
+|LB ||'''3''' ||[[Pavel Mareš]]
+|-
+|CM ||'''19'''||[[Roman Týce]] || {{yel|48}}
+|-
+|CM ||'''4''' ||[[Tomáš Galásek]] ([[Captain (association football)|c]]) || || {{suboff|46}}
+|-
+|RW ||'''20'''||[[Jaroslav Plašil]] || || {{suboff|70}}
+|-
+|AM ||'''18'''||[[Marek Heinz]]
+|-
+|LW ||'''14'''||[[Štěpán Vachoušek]]
+|-
+|CF ||'''12'''||[[Vratislav Lokvenc]] || || {{suboff|59}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''17'''||[[Tomáš Hübschman]] || || {{subon|46}}
+|-
+|FW ||'''15'''||[[Milan Baroš]] || || {{subon|59}}
+|-
+|MF ||'''8''' ||[[Karel Poborský]] || || {{subon|70}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Karel Brückner]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Marek Heinz]] (Czech Republic)&lt;ref&gt;{{cite news |title=Marek Heinz |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=12/day=1/match=1059187/index.html |work=Union of European Football Associations |date=23 June 2004 |accessdate=16 June 2012 |archiveurl=http://web.archive.org/web/20040707020325/http://www.euro2004.com/Fanzone/Carlsberg/matchday=12/day=1/match=1059187/index.html |archivedate=7 July 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;[[Ole Hermann Borgan]] ([[Football Association of Norway|Norway]])
+&lt;br /&gt;Steinar Holvik ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Stuart Dougal]] ([[Scottish Football Federation|Scotland]])
+|}
+
+==References==
+{{reflist|colwidth=40em}}
+
+== External links ==
+*[http://www.uefa.com/uefaeuro/season=2004/standings/round=1581/group=1896/index.html UEFA Euro 2004 Group D]
+
+{{UEFA Euro 2004}}
+
+{{DEFAULTSORT:Euro 2004}}
+[[Category:UEFA Euro 2004|Group D]]
+[[Category:Germany at UEFA Euro 2004|Group]]
+[[Category:Netherlands at UEFA Euro 2004|Group]]
+[[Category:2003–04 in Czech football]]
+[[Category:2004 in Latvian football]]</text>
+      <sha1>anth58ic7jywk7cvktp1p5bkybayv6l</sha1>
+    </revision>
+  </page>
+</mediawiki>

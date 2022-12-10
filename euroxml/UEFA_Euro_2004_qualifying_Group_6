@@ -1,0 +1,431 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 6</title>
+    <ns>0</ns>
+    <id>25675514</id>
+    <revision>
+      <id>704915515</id>
+      <parentid>704915452</parentid>
+      <timestamp>2016-02-14T11:29:14Z</timestamp>
+      <contributor>
+        <username>Willy2000</username>
+        <id>24925156</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="11830">Standings and results for '''Group 6''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 6 consisted of [[Armenia national football team|Armenia]], [[Greece national football team|Greece]], [[Northern Ireland national football team|Northern Ireland]], [[Spain national football team|Spain]] and [[Ukraine national football team|Ukraine]]. Group winners were Greece, who unexpectedly finished one point clear of second-placed team Spain who qualified for the play-offs.
+
+==Standings==
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|GRE}}
+|8 |{{!!}} 6 {{!!}} 0 {{!!}} 2 {{!!}} 8 {{!!}} 4 {{!!}} +4 ||'''18'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|ESP}}
+|8 |{{!!}} 5 {{!!}} 2 {{!!}} 1 {{!!}} 16 {{!!}} 4 {{!!}} +12 ||'''17'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|UKR}}
+|8 |{{!!}} 2 {{!!}} 4 {{!!}} 2 {{!!}} 11 {{!!}} 10 {{!!}} +1 ||'''10'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|ARM}}
+|8 |{{!!}} 2 {{!!}} 1 {{!!}} 5 {{!!}} 7 {{!!}} 16 {{!!}} &amp;minus;9 ||'''7'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|NIR}}
+|8 |{{!!}} 0 {{!!}} 3 {{!!}} 5 {{!!}} 0 {{!!}} 8 {{!!}} &amp;minus;8 ||'''3'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|ARM}}
+!{{flagicon|GRE}}
+!{{flagicon|NIR}}
+!{{flagicon|ESP}}
+!{{flagicon|UKR}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ARM}}
+| –
+| 0–1
+| 1–0
+| 0–4
+| 2–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|GRE}}
+| 2–0
+| –
+| 1–0
+| 0–2
+| 1–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|NIR}}
+| 0–1
+| 0–2
+| –
+| 0–0
+| 0–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ESP}}
+| 3–0
+| 0–1
+| 3–0
+| –
+| 2–1
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|UKR}}
+| 4–3
+| 2–0
+| 0–0
+| 2–2
+| –
+|-
+|}
+|}
+
+==Matches==
+
+{{footballbox|date = September 7, 2002
+|time = 19:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}  
+|score = 2–2 
+|team2 = {{fb|UKR}}  
+|goals1 =  [[Arthur Petrosyan|Petrosyan]] {{goal|73}} &lt;br/&gt; [[Albert Sarkisyan|Sarkisyan]] {{goal|90|pen.}}   
+|goals2 = [[Serhiy Serebrennikov|Serebrennikov]] {{goal|2}} &lt;br/&gt; [[Hennadiy Zubov|Zubov]] {{goal|33}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]] |attendance = 9,000 |referee = [[Mikko Vuorela]] ([[Football Association of Finland|FIN]])|report =}}
+
+
+{{footballbox|date = September 7, 2002
+|time = 21:45 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}  
+|score = 0–2 
+|team2 = {{fb|ESP}}  
+|goals1 = 
+|goals2 = [[Raúl (footballer)|Raúl]] {{goal|8}} &lt;br/&gt;[[Juan Carlos Valerón|Valerón]] {{goal|77}} 
+|stadium = [[Apostolos Nikolaidis Stadium]], [[Athens]] |attendance = 17,000 |referee = [[Markus Merk]] ([[German Football Association|GER]])|report =}}
+
+----
+{{footballbox|date = October 12, 2002
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|UKR}}  
+|score = 2–0 
+|team2 = {{fb|GRE}}  
+|goals1 = [[Andriy Vorobey|Vorobey]] {{goal|51}} &lt;br/&gt; [[Andriy Voronin|Voronin]] {{goal|90}}
+|goals2 = 
+|stadium = [[Olimpiysky National Sports Complex]], [[Kiev]] |attendance = 50,000 |referee = [[René Temmink]] ([[Royal Dutch Football Association|NED]])|report = }}
+
+{{footballbox|date = October 12, 2002
+|time = 21:45 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}  
+|score = 3–0 
+|team2 = {{fb|NIR}}  
+|goals1 = [[Rubén Baraja|Baraja]] {{goal|19||89}} &lt;br/&gt; [[Guti (footballer)|Guti]] {{goal|59}}
+|goals2 = 
+|stadium = [[Estadio Carlos Belmonte]], [[Albacete]] |attendance = 16,000 |referee = [[Lubos Michel]] ([[Slovak Football Association|SVK]])|report = }}
+
+----
+{{footballbox|date = October 16, 2002
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}  
+|score = 2–0 
+|team2 = {{fb|ARM}}  
+|goals1 = [[Demis Nikolaidis|Nikolaidis]] {{goal|2||59}} 
+|goals2 =  
+|stadium = [[Apostolos Nikolaidis Stadium]], [[Athens]] |attendance = 6,000 |referee = [[Darko Čeferin]] ([[Football Association of Slovenia|SVN]])|report = }}
+
+{{footballbox|date = October 16, 2002
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}  
+|score = 0–0 
+|team2 = {{fb|UKR}}  
+|goals1 = 
+|goals2 = 
+|stadium = [[Windsor Park]], [[Belfast]] |attendance = 9,288 |referee = [[Cosimo Bolognino]] ([[Italian Football Federation|ITA]])|report =}}
+
+----
+{{footballbox|date = March 29, 2003
+|time = 18:00 [[UTC+4]]
+|team1 = {{fb-rt|ARM}}  
+|score = 1–0 
+|team2 = {{fb|NIR}}  
+|goals1 = [[Arthur Petrosyan|Petrosyan]] {{goal|86}} 
+|goals2 = 
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]] |attendance = 10,321 |referee = [[Roland Beck]] ([[Liechtenstein Football Association|LIE]])|report =}}
+
+{{footballbox|date = March 29, 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|UKR}}  
+|score = 2–2 
+|team2 = {{fb|ESP}}  
+|goals1 = [[Andriy Voronin|Voronin]] {{goal|11}}  &lt;br/&gt; [[Aleksandr Gorshkov (footballer)|Gorshkov]] {{goal|90}} 
+|goals2 = [[Raúl (footballer)|Raúl]] {{goal|83}} &lt;br/&gt; [[Joseba Etxeberria|Etxeberria]] {{goal|87}} 
+|stadium = [[Olimpiysky National Sports Complex]], [[Kiev]] |attendance = 82,000 |referee = [[Mike Riley (referee)|Mike Riley]] ([[English Football Association|ENG]])|report =}}
+
+----
+{{footballbox|date = April 2, 2003
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}  
+|score = 0–2 
+|team2 = {{fb|GRE}}  
+|goals1 =  
+|goals2 = [[Angelos Charisteas|Charisteas]] {{goal|4||55}}
+|stadium = [[Windsor Park]], [[Belfast]] |attendance = 7,187 |referee = [[Grzegorz Gilewski]] ([[Polish Football Association|POL]])|report = }}
+
+{{footballbox|date = April 2, 2003
+|time = 21:45 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}  
+|score = 3–0 
+|team2 = {{fb|ARM}}  
+|goals1 = [[Diego Tristán|Tristán]] {{goal|60}} &lt;br/&gt; [[Iván Helguera|Helguera]] {{goal|69}} &lt;br/&gt; [[Joaquín Sánchez|Joaquín]] {{goal|90}}
+|goals2 = 
+|stadium = [[Estadio Reino de León|Nuevo Estadio Antonio Amilivia]], [[León, Spain|León]] |attendance = 13,500 |referee = [[Alon Yefet]] ([[Israel Football Association|ISR]])|report = }}
+
+----
+{{footballbox|date = June 7, 2003
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|UKR}}  
+|score = 4–3 
+|team2 = {{fb|ARM}}  
+|goals1 = [[Aleksandr Gorshkov (footballer)|Gorshkov]] {{goal|28}} &lt;br/&gt; [[Andriy Shevchenko|Shevchenko]] {{goal|65|pen.|73}} &lt;br/&gt; [[Serhiy Fedorov|Fedorov]] {{goal|90}}
+|goals2 = [[Albert Sarkisyan|Sarkisyan]] {{goal|15|pen.|52}} &lt;br/&gt; [[Arthur Petrosyan|Petrosyan]] {{goal|74}}
+|stadium = [[Ukraina Stadium]], [[Lviv]] |attendance = 28,000 |referee =  [[Hermann Albrecht]] ([[German Football Association|GER]])|report = }}
+
+{{footballbox|date = June 7, 2003
+|time = 21:45 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}  
+|score = 0–1 
+|team2 = {{fb|GRE}}  
+|goals1 = 
+|goals2 = [[Stelios Giannakopoulos|Giannakopoulos]] {{goal|42}} 
+|stadium = [[La Romareda]], [[Zaragoza]] |attendance = 32,000 |referee =  [[Alain Sars]] ([[French Football Federation|FRA]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69345/postmatch/report/index.html Report] }}
+
+----
+{{footballbox|date = June 11, 2003
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}  
+|score = 1–0 
+|team2 = {{fb|UKR}}  
+|goals1 = [[Angelos Charisteas|Charisteas]] {{goal|86}}
+|goals2 =   
+|stadium = [[Apostolos Nikolaidis Stadium]], [[Athens]] |attendance = 15,200 |referee = [[Frank De Bleeckere]] ([[Belgian Football Association|BEL]])|report = }}
+
+{{footballbox|date = June 11, 2003
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}  
+|score = 0–0 
+|team2 = {{fb|ESP}}  
+|goals1 =  
+|goals2 = 
+|stadium = [[Windsor Park]], [[Belfast]] |attendance = 11,365 |referee = [[Claus Bo Larsen]] ([[Danish Football Association|DEN]])|report = }}
+
+----
+{{footballbox|date = September 6, 2003
+|time = 21:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}  
+|score = 0–1 
+|team2 = {{fb|GRE}}  
+|goals1 = 
+|goals2 = [[Zisis Vryzas|Vryzas]] {{goal|36}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]] |attendance = 6,500 |referee = [[René Temmink]] ([[Royal Dutch Football Association|NED]])|report = }}
+
+{{footballbox|date = September 6, 2003
+|time = 19:15 [[UTC+3]]
+|team1 = {{fb-rt|UKR}}  
+|score = 0–0 
+|team2 = {{fb|NIR}}  
+|goals1 = 
+|goals2 = 
+|stadium = [[Shakhtar Stadium]], [[Donetsk]] |attendance = 32,000 |referee = [[Wolfgang Stark]] ([[German Football Association|GER]])|report = }}
+
+----
+{{footballbox|date = September 10, 2003
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|NIR}}  
+|score = 0–1 
+|team2 = {{fb|ARM}}  
+|goals1 = 
+|goals2 = [[Artavazd Karamyan|Karamyan]] {{goal|27}}
+|stadium = [[Windsor Park]], [[Belfast]] |attendance = 8,616 |referee = [[Anton Stredak]] ([[Slovak Football Association|SVK]])|report = }}
+
+{{footballbox|date = September 10, 2003
+|time = 21:45 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}  
+|score = 2–1 
+|team2 = {{fb|UKR}}  
+|goals1 =  [[Raúl (footballer)|Raúl]] {{goal|59||71}}
+|goals2 =  [[Andriy Shevchenko|Shevchenko]] {{goal|84}}
+|stadium = [[Estadio Manuel Martínez Valero]], [[Elche]] |attendance = 39,000 |referee = [[Terje Hauge]] ([[Norwegian Football Association|NOR]])|report = }}
+
+----
+{{footballbox|date = October 11, 2003
+|time = 21:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}  
+|score = 0–4 
+|team2 = {{fb|ESP}}  
+|goals1 = 
+|goals2 = [[Juan Carlos Valerón|Valerón]] {{goal|7}} &lt;br/&gt; [[Raúl (footballer)|Raúl]] {{goal|76}} &lt;br/&gt; [[José Antonio Reyes|Reyes]] {{goal|87||90}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]] |attendance = 16,000 |referee = [[Urs Meier]] ([[Swiss Football Association|SUI]])|report = }}
+
+{{footballbox|date = October 11, 2003
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}  
+|score = 1–0 
+|team2 = {{fb|NIR}}  
+|goals1 = [[Vassilios Tsiartas|Tsiartas]] {{goal|69|pen.}}
+|goals2 = 
+|stadium = [[Apostolos Nikolaidis Stadium]], [[Athens]] |attendance = 15,500 |referee = [[Lucílio Batista]] ([[Portuguese Football Federation|POR]])|report = }}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;1&quot; align=center|1
+|[[Raúl (footballer)|Raúl]] 
+|{{fb|ESP}}
+|rowspan=&quot;1&quot; align=center|5
+|-
+|rowspan=&quot;4&quot; align=center|2
+|[[Arthur Petrosyan]] 
+|{{fb|ARM}}
+|rowspan=&quot;4&quot; align=center|3
+|-
+|[[Albert Sarkisyan]] 
+|{{fb|ARM}}
+|-
+|[[Angelos Charisteas]] 
+|{{fb|GRE}}
+|-
+|[[Andriy Shevchenko]] 
+|{{fb|UKR}}
+|-
+|rowspan=&quot;6&quot; align=center|3
+|[[Demis Nikolaidis]]
+|{{fb|GRE}}
+|rowspan=&quot;6&quot; align=center|2
+|-
+|[[Rubén Baraja]]
+|{{fb|ESP}}
+|-
+|[[José Antonio Reyes]]
+|{{fb|ESP}}
+|-
+|[[Juan Carlos Valerón]]
+|{{fb|ESP}}
+|-
+|[[Aleksandr Gorshkov (footballer)|Aleksandr Gorshkov]]
+|{{fb|UKR}}
+|-
+|[[Andriy Voronin]]
+|{{fb|UKR}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|ARM}}
+*[[Artavazd Karamyan]]
+;{{fb|GRE}}
+*[[Stelios Giannakopoulos]]
+*[[Vassilios Tsiartas]]
+*[[Zisis Vryzas]]
+{{col-3}}
+;{{fb|ESP}}
+*[[Joseba Etxeberria]]
+*[[Guti (footballer)|Guti]]
+*[[Iván Helguera]]
+*[[Joaquín Sánchez|Joaquín]]
+*[[Diego Tristán]]
+;{{fb|UKR}}
+*[[Serhiy Fedorov]]
+*[[Serhiy Serebrennikov]]
+*[[Andriy Vorobey]]
+*[[Hennadiy Zubov]]
+{{col-3}}
+|}
+
+==References==
+*[http://www.uefa.com/competitions/euro2012/history/season=2004/round=1579/group=1459.html UEFA Page]
+*[http://www.rsssf.com/tables/04e-ext.html#grp6 RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro 2004}}
+[[Category:UEFA Euro 2004 qualifying|Group 6]]
+[[Category:2002–03 in Ukrainian football]]
+[[Category:2003–04 in Ukrainian football]]
+[[Category:2002–03 in Northern Ireland football]]
+[[Category:2003–04 in Northern Ireland football]]
+[[Category:2002–03 in Spanish football]]
+[[Category:Spain at UEFA Euro 2004|Qual]]
+[[Category:2002–03 in Greek football]]
+[[Category:2003–04 in Greek football]]
+[[Category:2002 in Armenian football]]
+[[Category:2003 in Armenian football]]</text>
+      <sha1>td7ef2eix22bqo2s1dx76mki1wtjv1r</sha1>
+    </revision>
+  </page>
+</mediawiki>

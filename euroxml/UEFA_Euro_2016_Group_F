@@ -1,0 +1,179 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2016 Group F</title>
+    <ns>0</ns>
+    <id>48801292</id>
+    <revision>
+      <id>724215460</id>
+      <parentid>723207522</parentid>
+      <timestamp>2016-06-07T21:09:39Z</timestamp>
+      <contributor>
+        <username>Qed237</username>
+        <id>19204020</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3213">'''Group F of [[UEFA Euro 2016]]''' contains [[Portugal national football team|Portugal]], [[Iceland national football team|Iceland]], [[Austria national football team|Austria]], and [[Hungary national football team|Hungary]]. It is Iceland's first appearance at the finals. Matches will be played from 14 to 22 June 2016.
+
+{{TOC right}}
+
+==Teams==
+{{Empty section|date=December 2015}}
+
+==Standings==
+{{UEFA Euro 2016 Group F table}}
+
+==Matches==
+''All times [[Central European Summer Time]] ([[UTC+02:00]])''
+===Austria vs Hungary===
+&lt;section begin=f1 /&gt;{{Football box
+|date={{Start date|2016|6|14|df=y}}
+|time=18:00
+|team1={{fb-rt|AUT}}
+|score=Match 11
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017960/index.html Report]
+|team2={{fb|HUN}}
+|goals1=
+|goals2=
+|stadium=[[Nouveau Stade de Bordeaux]], [[Bordeaux]]
+|attendance=
+|referee=
+}}&lt;section end=f1 /&gt;
+
+===Portugal vs Iceland===
+&lt;section begin=f2 /&gt;{{Football box
+|date={{Start date|2016|6|14|df=y}}
+|time=21:00
+|team1={{fb-rt|POR}}
+|score=Match 12
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017959/index.html Report]
+|team2={{fb|ISL}}
+|goals1=
+|goals2=
+|stadium=[[Stade Geoffroy-Guichard]], [[Saint-Étienne]]
+|attendance=
+|referee=
+}}&lt;section end=f2 /&gt;
+
+===Iceland vs Hungary===
+&lt;section begin=f3 /&gt;{{Football box
+|date={{Start date|2016|6|18|df=y}}
+|time=18:00
+|team1={{fb-rt|ISL}}
+|score=Match 23
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017962/index.html Report]
+|team2={{fb|HUN}}
+|goals1=
+|goals2=
+|stadium=[[Stade Vélodrome]], [[Marseille]]
+|attendance=
+|referee=
+}}&lt;section end=f3 /&gt;
+
+===Portugal vs Austria===
+&lt;section begin=f4 /&gt;{{Football box
+|date={{Start date|2016|6|18|df=y}}
+|time=21:00
+|team1={{fb-rt|POR}}
+|score=Match 24
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017961/index.html Report]
+|team2={{fb|AUT}}
+|goals1=
+|goals2=
+|stadium=[[Parc des Princes]], [[Paris]]
+|attendance=
+|referee=
+}}&lt;section end=f4 /&gt;
+
+===Iceland vs Austria===
+&lt;section begin=f5 /&gt;{{Football box
+|date={{Start date|2016|6|22|df=y}}
+|time=18:00
+|team1={{fb-rt|ISL}}
+|score=Match 33
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017963/index.html Report]
+|team2={{fb|AUT}}
+|goals1=
+|goals2=
+|stadium=[[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]]
+|attendance=
+|referee=
+}}&lt;section end=f5 /&gt;
+
+===Hungary vs Portugal===
+&lt;section begin=f6 /&gt;{{Football box
+|date={{Start date|2016|6|22|df=y}}
+|time=18:00
+|team1={{fb-rt|HUN}}
+|score=Match 34
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017964/index.html Report]
+|team2={{fb|POR}}
+|goals1=
+|goals2=
+|stadium=[[Parc Olympique Lyonnais]], [[Lyon]]
+|attendance=
+|referee=
+}}&lt;section end=f6 /&gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.uefa.com/uefaeuro/season=2016/standings/round=2000448/group=2004544/index.html UEFA Euro 2016 Group F]
+
+{{UEFA Euro 2016}}
+
+[[Category:UEFA Euro 2016|Group F]]
+[[Category:2015–16 in Portuguese football]]
+[[Category:2015–16 in Austrian football]]
+[[Category:2015–16 in Hungarian football]]
+[[Category:2016 in Icelandic football]]</text>
+      <sha1>ntz6srhdjexgepll5v9km3ymuijbq7b</sha1>
+    </revision>
+  </page>
+</mediawiki>

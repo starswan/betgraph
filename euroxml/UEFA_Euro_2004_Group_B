@@ -1,0 +1,939 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 Group B</title>
+    <ns>0</ns>
+    <id>1145598</id>
+    <revision>
+      <id>723042342</id>
+      <parentid>686376241</parentid>
+      <timestamp>2016-05-31T17:05:45Z</timestamp>
+      <contributor>
+        <username>Mowatt</username>
+        <id>26805741</id>
+      </contributor>
+      <minor/>
+      <comment>/* Croatia vs England */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="24291">'''Group B of [[UEFA Euro 2004]]''' was one of four groups in the final tournament's initial group stage. It began on 13 June and was completed on 21 June. The group consisted of defending champions [[France national football team|France]], [[England national football team|England]], [[Croatia national football team|Croatia]] and [[Switzerland national football team|Switzerland]].
+
+France won the group and advanced to the quarter-finals, along with England. Croatia and Switzerland failed to advance.
+
+{{TOC right}}
+
+==Standings==
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|FRA}}
+|3||2||1||0||7||4||+3||'''7'''
+|- bgcolor=&quot;#ccffcc&quot;
+|align=left|{{fb|ENG}}
+|3||2||0||1||8||4||+4||'''6'''
+|-
+|align=left|{{fb|CRO}}
+|3||0||2||1||4||6||–2||'''2'''
+|-
+|align=left|{{fb|SUI}}
+|3||0||1||2||1||6||–5||'''1'''
+|}
+
+''All times local ([[UTC+01:00|UTC+1]])''
+
+==Switzerland vs Croatia==
+{{Football box
+|date = {{Start date|2004|6|13|df=y}}
+|time = 17:00
+|team1 = {{fb-rt|SUI}}
+|team2 = {{fb|CRO}}
+|score = 0–0
+|stadium = [[Estádio Dr. Magalhães Pessoa]], [[Leiria]]
+|attendance = 24,090
+|referee = [[Lucílio Batista]] ([[Portuguese Football Federation|Portugal]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059166/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _swi2004h
+ |pattern_b  = _swi2004h
+ |pattern_ra = _swi2004h
+ |pattern_sh = _swi2004h
+ |pattern_s  = _swi2004h
+ |leftarm    = D81E05
+ |body       = D81E05
+ |rightarm   = D81E05
+ |shorts     = FFFFFF
+ |socks      = D81E05
+ |title      = Switzerland
+}}
+|{{Football kit
+ |pattern_la = _cro04h
+ |pattern_b  = _cro04a
+ |pattern_ra = _cro04h
+ |pattern_so = _redwhiteblueborder
+ |leftarm    = 29459B
+ |body       = 29459B
+ |rightarm   = 29459B
+ |shorts     = 0000CD
+ |socks      = 0000CD
+ |title      = Croatia
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Jörg Stiel]] ([[Captain (association football)|c]]) || {{yel|73}}
+|-
+|RB ||'''2''' ||[[Bernt Haas]]
+|-
+|CB ||'''5''' ||[[Murat Yakin]]
+|-
+|CB ||'''20'''||[[Patrick Müller]]
+|-
+|LB ||'''17'''||[[Christoph Spycher]]
+|-
+|RM ||'''18'''||[[Benjamin Huggel]] || {{yel|41}}
+|-
+|CM ||'''6''' ||[[Johann Vogel]] || {{sent off|2|4|50}}
+|-
+|LM ||'''8''' ||[[Raphaël Wicky]] || || {{suboff|83}}
+|-
+|AM ||'''10'''||[[Hakan Yakin]] || || {{suboff|87}}
+|-
+|CF ||'''11'''||[[Stéphane Chapuisat]] || || {{suboff|55}}
+|-
+|CF ||'''9''' ||[[Alexander Frei]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''16'''||[[Fabio Celestini]] || || {{subon|55}}
+|-
+|DF ||'''4''' ||[[Stéphane Henchoz]] || || {{subon|83}}
+|-
+|MF ||'''15'''||[[Daniel Gygax]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Köbi Kuhn]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''12'''||[[Tomislav Butina]]
+|-
+|RB ||'''13'''||[[Dario Šimić]] || || {{suboff|61}}
+|-
+|CB ||'''21'''||[[Robert Kovač]]
+|-
+|CB ||'''3''' ||[[Josip Šimunić]]
+|-
+|LB ||'''6''' ||[[Boris Živković]] ([[Captain (association football)|c]]) || {{yel|51}}
+|-
+|RM ||'''19'''||[[Ivica Mornar]] || {{yel|52}}
+|-
+|CM ||'''10'''||[[Niko Kovač]]
+|-
+|CM ||'''22'''||[[Nenad Bjelica]] || {{yel|30}} || {{suboff|74}}
+|-
+|LM ||'''18'''||[[Ivica Olić]] || || {{suboff|46}}
+|-
+|CF ||'''9''' ||[[Dado Pršo]] || {{yel|13}}
+|-
+|CF ||'''11'''||[[Tomo Šokota]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Milan Rapaić]] || {{yel|48}} || {{subon|46}}
+|-
+|MF ||'''8''' ||[[Darijo Srna]] || || {{subon|61}}
+|-
+|MF ||'''20'''||[[Đovani Roso]] || || {{subon|74}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Otto Barić]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Jörg Stiel]] (Switzerland)&lt;ref&gt;{{cite news |title=Jörg Stiel |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=2/day=1/match=1059166/index.html |work=Union of European Football Associations |date=13 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624162621/http://www.euro2004.com/Fanzone/Carlsberg/matchday=2/day=1/match=1059166/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Paulo Januário ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;José Cardinal ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Terje Hauge]] ([[Football Association of Norway|Norway]])
+|}
+
+==France vs England==
+{{Football box
+|date = {{Start date|2004|6|13|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|FRA}}
+|team2 = {{fb|ENG}}
+|score = 2–1
+|goals1 = [[Zinedine Zidane|Zidane]] {{goal|90+1||90+3|pen.}}
+|goals2 = [[Frank Lampard|Lampard]] {{goal|38}}
+|stadium = [[Estádio da Luz]], [[Lisbon]]
+|attendance = 62,487
+|referee = [[Markus Merk]] ([[German Football Association|Germany]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059167/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ | pattern_la = _france2004h
+ | pattern_b  = _france2004h
+ | pattern_ra = _france2004h
+ | pattern_sh = _france2004a
+ | pattern_so  = _whitetop
+ | leftarm    = 002EA8
+ | body       = 002EA8
+ | rightarm   = 002EA8
+ | shorts     = 002EA8
+ | socks      = FF0000
+ |title      = France
+}}
+|{{Football kit
+ |pattern_la = _engh0305
+ |pattern_b  = _engh0305
+ |pattern_ra = _engh0305
+ |pattern_sh = _engh0305
+ |pattern_so = _engh0305
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = 202060
+ |socks      = FFFFFF
+ |title      = England
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''16'''||[[Fabien Barthez]]
+|-
+|RB ||'''5''' ||[[William Gallas]]
+|-
+|CB ||'''15'''||[[Lilian Thuram]]
+|-
+|CB ||'''13'''||[[Mikaël Silvestre]] || {{yel|72}} || {{suboff|79}}
+|-
+|LB ||'''3''' ||[[Bixente Lizarazu]]
+|-
+|RM ||'''7''' ||[[Robert Pirès]] || {{yel|49}} || {{suboff|76}}
+|-
+|CM ||'''4''' ||[[Patrick Vieira]]
+|-
+|CM ||'''6''' ||[[Claude Makélélé]] || || {{suboff|90+4}}
+|-
+|LM ||'''10'''||[[Zinedine Zidane]] ([[Captain (association football)|c]])
+|-
+|CF ||'''20'''||[[David Trezeguet]]
+|-
+|CF ||'''12'''||[[Thierry Henry]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''11'''||[[Sylvain Wiltord]] || || {{subon|76}}
+|-
+|DF ||'''19'''||[[Willy Sagnol]] || || {{subon|79}}
+|-
+|MF ||'''17'''||[[Olivier Dacourt]] || || {{subon|90+4}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Jacques Santini]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[David James (footballer)|David James]] || {{yel|90+2}}
+|-
+|RB ||'''2''' ||[[Gary Neville]]
+|-
+|CB ||'''15'''||[[Ledley King]]
+|-
+|CB ||'''6''' ||[[Sol Campbell]]
+|-
+|LB ||'''3''' ||[[Ashley Cole]]
+|-
+|RM ||'''7''' ||[[David Beckham]] ([[Captain (association football)|c]])
+|-
+|CM ||'''11'''||[[Frank Lampard]] || {{yel|71}}
+|-
+|CM ||'''4''' ||[[Steven Gerrard]]
+|-
+|LM ||'''8''' ||[[Paul Scholes]] || {{yel|54}} || {{suboff|76}}
+|-
+|CF ||'''9''' ||[[Wayne Rooney]] || || {{suboff|76}}
+|-
+|CF ||'''10'''||[[Michael Owen]] || || {{suboff|69}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''23'''||[[Darius Vassell]] || || {{subon|69}}
+|-
+|MF ||'''18'''||[[Owen Hargreaves]] || || {{subon|76}}
+|-
+|FW ||'''21'''||[[Emile Heskey]] || || {{subon|76}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|SWE}} [[Sven-Göran Eriksson]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Zinedine Zidane]] (France)&lt;ref&gt;{{cite news |title=Zinedine Zidane |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=2/day=1/match=1059167/index.html |work=Union of European Football Associations |date=13 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624143227/http://www.euro2004.com/Fanzone/Carlsberg/matchday=2/day=1/match=1059167/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Christian Schräer ([[German Football Association|Germany]])
+&lt;br /&gt;Jan-Hendrik Salver ([[German Football Association|Germany]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]])
+|}
+
+==England vs Switzerland==
+{{Football box
+|date = {{Start date|2004|6|17|df=y}}
+|time = 17:00
+|team1 = {{fb-rt|ENG}}
+|team2 = {{fb|SUI}}
+|score = 3–0
+|goals1 = [[Wayne Rooney|Rooney]] {{goal|23||75}}&lt;br /&gt;[[Steven Gerrard|Gerrard]] {{goal|82}}
+|stadium = [[Estádio Cidade de Coimbra]], [[Coimbra]]
+|attendance = 28,214
+|referee = [[Valentin Ivanov (footballer born 1961)|Valentin Ivanov]] ([[Russian Football Union|Russia]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059174/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _engh0305
+ |pattern_b  = _engh0305
+ |pattern_ra = _engh0305
+ |pattern_sh = _engh0305
+ |pattern_so = _engh0305
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = 202060
+ |socks      = FFFFFF
+ |title      = England
+}}
+|{{Football kit
+ |pattern_la = _swi2004h
+ |pattern_b  = _swi2004h
+ |pattern_ra = _swi2004h
+ |pattern_sh = _swi2004h
+ |pattern_s  = _swi2004h
+ |leftarm    = D81E05
+ |body       = D81E05
+ |rightarm   = D81E05
+ |shorts     = FFFFFF
+ |socks      = D81E05
+ |title      = Switzerland
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[David James (footballer)|David James]]
+|-
+|RB ||'''2''' ||[[Gary Neville]]
+|-
+|CB ||'''5''' ||[[John Terry]]
+|-
+|CB ||'''6''' ||[[Sol Campbell]]
+|-
+|LB ||'''3''' ||[[Ashley Cole]]
+|-
+|RM ||'''7''' ||[[David Beckham]] ([[Captain (association football)|c]])
+|-
+|CM ||'''4''' ||[[Steven Gerrard]]
+|-
+|CM ||'''11'''||[[Frank Lampard]]
+|-
+|LM ||'''8''' ||[[Paul Scholes]] || || {{suboff|70}}
+|-
+|CF ||'''10'''||[[Michael Owen]] || || {{suboff|72}}
+|-
+|CF ||'''9''' ||[[Wayne Rooney]] || {{yel|18}} || {{suboff|83}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''18'''||[[Owen Hargreaves]] || || {{subon|70}}
+|-
+|FW ||'''23'''||[[Darius Vassell]] || || {{subon|72}}
+|-
+|MF ||'''20'''||[[Kieron Dyer]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|SWE}} [[Sven-Göran Eriksson]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Jörg Stiel]] ([[Captain (association football)|c]])
+|-
+|RB ||'''2''' ||[[Bernt Haas]] || {{sent off|2|49|60}}
+|-
+|CB ||'''5''' ||[[Murat Yakin]]
+|-
+|CB ||'''20'''||[[Patrick Müller]]
+|-
+|LB ||'''17'''||[[Christoph Spycher]]
+|-
+|RM ||'''18'''||[[Benjamin Huggel]]
+|-
+|CM ||'''16'''||[[Fabio Celestini]] || {{yel|23}} || {{suboff|54}}
+|-
+|LM ||'''8''' ||[[Raphaël Wicky]]
+|-
+|AM ||'''10'''||[[Hakan Yakin]] || || {{suboff|84}}
+|-
+|CF ||'''11'''||[[Stéphane Chapuisat]] || || {{suboff|46}}
+|-
+|CF ||'''9''' ||[[Alexander Frei]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''15'''||[[Daniel Gygax]] || || {{subon|46}}
+|-
+|MF ||'''7''' ||[[Ricardo Cabanas]] || || {{subon|54}}
+|-
+|FW ||'''22'''||[[Johan Vonlanthen]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Köbi Kuhn]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Wayne Rooney]] (England)&lt;ref&gt;{{cite news |title=Wayne Rooney |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=6/day=1/match=1059174/index.html |work=Union of European Football Associations |date=17 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624160459/http://www.euro2004.com/Fanzone/Carlsberg/matchday=6/day=1/match=1059174/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Yury Dupanaw ([[Football Federation of Belarus|Belarus]])
+&lt;br /&gt;Vladimir Eniutin ([[Russian Football Union|Russia]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]])
+|}
+
+==Croatia vs France==
+{{Football box
+|date = {{Start date|2004|6|17|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|CRO}}
+|team2 = {{fb|FRA}}
+|score = 2–2
+|goals1 = [[Milan Rapaić|Rapaić]] {{goal|48|pen.}}&lt;br /&gt;[[Dado Pršo|Pršo]] {{goal|52}}
+|goals2 = [[Igor Tudor|Tudor]] {{goal|22|o.g.}}&lt;br /&gt;[[David Trezeguet|Trezeguet]] {{goal|64}}
+|stadium = [[Estádio Dr. Magalhães Pessoa]], [[Leiria]]
+|attendance = 29,160
+|referee = [[Kim Milton Nielsen]] ([[Danish Football Association|Denmark]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059175/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _cro04h
+ |pattern_b  = _cro04h
+ |pattern_ra = _cro04h
+ |pattern_so = _redwhiteblueborder
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Croatia
+}}
+|{{Football kit
+ | pattern_la = _france2004h
+ | pattern_b  = _france2004h
+ | pattern_ra = _france2004h
+ | pattern_sh = _france2004h
+ | pattern_so  = _whitetop
+ | leftarm    = 002EA8
+ | body       = 002EA8
+ | rightarm   = 002EA8
+ | shorts     = 002EA8
+ | socks      = FF0000
+ |title      = France
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''12'''||[[Tomislav Butina]]
+|-
+|RB ||'''13'''||[[Dario Šimić]] ([[Captain (association football)|c]])
+|-
+|CB ||'''5''' ||[[Igor Tudor]] || {{yel|39}}
+|-
+|CB ||'''21'''||[[Robert Kovač]] || {{yel|64}}
+|-
+|LB ||'''3''' ||[[Josip Šimunić]]
+|-
+|RM ||'''20'''||[[Đovani Roso]] || {{yel|61}}
+|-
+|CM ||'''10'''||[[Niko Kovač]]
+|-
+|CM ||'''22'''||[[Nenad Bjelica]] || || {{suboff|68}}
+|-
+|LM ||'''7''' ||[[Milan Rapaić]] || || {{suboff|87}}
+|-
+|CF ||'''9''' ||[[Dado Pršo]]
+|-
+|CF ||'''11'''||[[Tomo Šokota]] || || {{suboff|73}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''15'''||[[Jerko Leko]] || {{yel|78}} || {{subon|68}}
+|-
+|FW ||'''18'''||[[Ivica Olić]] || || {{subon|73}}
+|-
+|FW ||'''19'''||[[Ivica Mornar]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Otto Barić]]
+|}
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''16'''||[[Fabien Barthez]]
+|-
+|RB ||'''5''' ||[[William Gallas]] || || {{suboff|81}}
+|-
+|CB ||'''15'''||[[Lilian Thuram]]
+|-
+|CB ||'''8''' ||[[Marcel Desailly]] ([[Captain (association football)|c]])
+|-
+|LB ||'''13'''||[[Mikaël Silvestre]]
+|-
+|RM ||'''11'''||[[Sylvain Wiltord]] || || {{suboff|70}}
+|-
+|CM ||'''17'''||[[Olivier Dacourt]] || {{yel|60}} || {{suboff|79}}
+|-
+|CM ||'''4''' ||[[Patrick Vieira]] || {{yel|32}}
+|-
+|LM ||'''10'''||[[Zinedine Zidane]]
+|-
+|CF ||'''20'''||[[David Trezeguet]]
+|-
+|CF ||'''12'''||[[Thierry Henry]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Robert Pirès]] || || {{subon|70}}
+|-
+|MF ||'''18'''||[[Benoît Pedretti]] || || {{subon|79}}
+|-
+|DF ||'''19'''||[[Willy Sagnol]] || || {{subon|81}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Jacques Santini]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Dado Pršo]] (Croatia)&lt;ref&gt;{{cite news |title=Dado Pršo |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=6/day=1/match=1059175/index.html |work=Union of European Football Associations |date=17 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624161256/http://www.euro2004.com/Fanzone/Carlsberg/matchday=6/day=1/match=1059175/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Jørgen Jepsen ([[Danish Football Association|Denmark]])
+&lt;br /&gt;Jens Larsen ([[Danish Football Association|Denmark]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Anders Frisk]] ([[Swedish Football Association|Sweden]])
+|}
+
+==Croatia vs England==
+{{Football box
+|date = {{Start date|2004|6|21|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|CRO}}
+|team2 = {{fb|ENG}}
+|score = 2–4
+|goals1 = [[Niko Kovac|N. Kovač]] {{goal|5}}&lt;br /&gt;[[Igor Tudor|Tudor]] {{goal|73}}
+|goals2 = [[Paul Scholes|Scholes]] {{goal|40}}&lt;br /&gt;[[Wayne Rooney|Rooney]] {{goal|45+1||68}}&lt;br /&gt;[[Frank Lampard|Lampard]] {{goal|79}}
+|stadium = [[Estádio da Luz]], [[Lisbon]]
+|attendance = 57,047
+|referee = [[Pierluigi Collina]] ([[Italian Football Federation|Italy]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059182/postmatch/report/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _cro04h 
+ |pattern_b  = _cro04a 
+ |pattern_ra = _cro04h
+ |pattern_so = _redwhiteblueborder 
+ |leftarm    = 29459B 
+ |body       = 29459B 
+ |rightarm   = 29459B 
+ |shorts     = 0000CD 
+ |socks      = 0000CD 
+ |title      = Croatia
+}}
+|{{Football kit
+ |pattern_la = _enga0406
+ |pattern_b  = _enga0406
+ |pattern_ra = _enga0406
+ |pattern_sh = _enga0406
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = England
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''12'''||[[Tomislav Butina]]
+|-
+|RB ||'''13'''||[[Dario Šimić]] || {{yel|63}} || {{suboff|67}}
+|-
+|CB ||'''5''' ||[[Igor Tudor]]
+|-
+|CB ||'''21'''||[[Robert Kovač]] || || {{suboff|46}}
+|-
+|LB ||'''3''' ||[[Josip Šimunić]]
+|-
+|RM ||'''20'''||[[Đovani Roso]]
+|-
+|CM ||'''10'''||[[Niko Kovač]]
+|-
+|CM ||'''6''' ||[[Boris Živković]] ([[Captain (association football)|c]])
+|-
+|LM ||'''7''' ||[[Milan Rapaić]] || || {{suboff|55}}
+|-
+|CF ||'''9''' ||[[Dado Pršo]]
+|-
+|CF ||'''11'''||[[Tomo Šokota]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''19'''||[[Ivica Mornar]] || || {{subon|46}}
+|-
+|FW ||'''18'''||[[Ivica Olić]] || || {{subon|55}}
+|-
+|MF ||'''8''' ||[[Darijo Srna]] || || {{subon|67}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Otto Barić]]
+|}
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[David James (footballer)|David James]]
+|-
+|RB ||'''2''' ||[[Gary Neville]]
+|-
+|CB ||'''5''' ||[[John Terry]]
+|-
+|CB ||'''6''' ||[[Sol Campbell]]
+|-
+|LB ||'''3''' ||[[Ashley Cole]]
+|-
+|RM ||'''7''' ||[[David Beckham]] ([[Captain (association football)|c]])
+|-
+|CM ||'''11'''||[[Frank Lampard]] || || {{suboff|84}}
+|-
+|CM ||'''4''' ||[[Steven Gerrard]]
+|-
+|LM ||'''8''' ||[[Paul Scholes]] || || {{suboff|70}}
+|-
+|CF ||'''10'''||[[Michael Owen]]
+|-
+|CF ||'''9''' ||[[Wayne Rooney]] || || {{suboff|72}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''15'''||[[Ledley King]] || || {{subon|70}}
+|-
+|FW ||'''23'''||[[Darius Vassell]] || || {{subon|72}}
+|-
+|DF ||'''14'''||[[Phil Neville]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|SWE}} [[Sven-Göran Eriksson]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Wayne Rooney]] (England)&lt;ref&gt;{{cite news |title=Wayne Rooney |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=10/day=1/match=1059182/index.html |work=Union of European Football Associations |date=21 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624130645/http://www.euro2004.com/Fanzone/Carlsberg/matchday=10/day=1/match=1059182/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Marco Ivaldi ([[Italian Football Federation|Italy]])
+&lt;br /&gt;Narciso Pisacreta ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]])
+|}
+
+==Switzerland vs France==
+{{Football box
+|date = {{Start date|2004|6|21|df=y}}
+|time = 19:45
+|team1 = {{fb-rt|SUI}}
+|team2 = {{fb|FRA}}
+|score = 1–3
+|goals1 = [[Johan Vonlanthen|Vonlanthen]] {{goal|26}}
+|goals2 = [[Zinedine Zidane|Zidane]] {{goal|20}}&lt;br /&gt;[[Thierry Henry|Henry]] {{goal|76||84}}
+|stadium = [[Estádio Cidade de Coimbra]], [[Coimbra]]
+|attendance = 28,111
+|referee = [[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]])
+|report = [http://www.uefa.com/uefaeuro/season=2004/matches/round=1581/match=1059183/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _swi2004h
+ |pattern_b  = _swi2004h
+ |pattern_ra = _swi2004h
+ |pattern_sh = _swi2004h
+ |pattern_s  = _swi2004h
+ |leftarm    = D81E05
+ |body       = D81E05
+ |rightarm   = D81E05
+ |shorts     = FFFFFF
+ |socks      = D81E05
+ |title      = Switzerland
+}}
+|{{Football kit
+ | pattern_la = _france2004a
+ | pattern_b  = _france2004a
+ | pattern_ra = _france2004a
+ | pattern_sh = _france2004h
+ | pattern_s  = _redtop
+ | leftarm    = FFFFFF
+ | body       = FFFFFF
+ | rightarm   = FFFFFF
+ | shorts     = FFFFFF
+ | socks      = FFFFFF
+ |title      = France
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Jörg Stiel]] ([[Captain (association football)|c]])
+|-
+|RB ||'''4''' ||[[Stéphane Henchoz]] || || {{suboff|85}}
+|-
+|CB ||'''5''' ||[[Murat Yakin]]
+|-
+|CB ||'''20'''||[[Patrick Müller]]
+|-
+|LB ||'''17'''||[[Christoph Spycher]]
+|-
+|RM ||'''7''' ||[[Ricardo Cabanas]]
+|-
+|CM ||'''6''' ||[[Johann Vogel]]
+|-
+|LM ||'''8''' ||[[Raphaël Wicky]] || {{yel|66}}
+|-
+|AM ||'''15'''||[[Daniel Gygax]] || || {{suboff|85}}
+|-
+|AM ||'''10'''||[[Hakan Yakin]] || {{yel|43}} || {{suboff|60}}
+|-
+|CF ||'''22'''||[[Johan Vonlanthen]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''18'''||[[Benjamin Huggel]] || {{yel|75}} || {{subon|60}}
+|-
+|DF ||'''14'''||[[Ludovic Magnin]] || || {{subon|85}}
+|-
+|FW ||'''21'''||[[Milaim Rama]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Köbi Kuhn]]
+|}
+|valign=&quot;top&quot;|
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''16'''||[[Fabien Barthez]]
+|-
+|RB ||'''19'''||[[Willy Sagnol]] || || {{suboff|46}}
+|-
+|CB ||'''15'''||[[Lilian Thuram]]
+|-
+|CB ||'''13'''||[[Mikaël Silvestre]]
+|-
+|LB ||'''3''' ||[[Bixente Lizarazu]]
+|-
+|RM ||'''10'''||[[Zinedine Zidane]] ([[Captain (association football)|c]])
+|-
+|CM ||'''4''' ||[[Patrick Vieira]]
+|-
+|CM ||'''6''' ||[[Claude Makélélé]]
+|-
+|LM ||'''7''' ||[[Robert Pirès]]
+|-
+|CF ||'''20'''||[[David Trezeguet]] || || {{suboff|75}}
+|-
+|CF ||'''12'''||[[Thierry Henry]] || {{yel|47}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''5''' ||[[William Gallas]] || || {{subon|46}} || {{suboff|90+2}}
+|-
+|FW ||'''9''' ||[[Louis Saha]] || || {{subon|75}}
+|-
+|DF ||'''2''' ||[[Jean-Alain Boumsong]] || || || {{subon|90+2}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Jacques Santini]]
+|}
+|}
+
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Zinedine Zidane]] (France)&lt;ref&gt;{{cite news |title=Zinedine Zidane |url=http://www.euro2004.com/Fanzone/Carlsberg/matchday=10/day=1/match=1059183/index.html |work=Union of European Football Associations |date=21 June 2004 |accessdate=15 June 2012 |archiveurl=http://web.archive.org/web/20040624133000/http://www.euro2004.com/Fanzone/Carlsberg/matchday=10/day=1/match=1059183/index.html |archivedate=24 June 2004 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Igor Sramka ([[Slovak Football Association|Slovakia]])
+&lt;br /&gt;Martin Balko ([[Slovak Football Association|Slovakia]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]])
+|}
+
+==References==
+{{reflist|colwidth=40em}}
+
+== External links ==
+*[http://www.uefa.com/uefaeuro/season=2004/standings/round=1581/group=1882/index.html UEFA Euro 2004 Group B]
+
+{{UEFA Euro 2004}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2004|Group B]]
+[[Category:England at UEFA Euro 2004|Group]]
+[[Category:France at UEFA Euro 2004|Group]]
+[[Category:2003–04 in Swiss football]]
+[[Category:2003–04 in Croatian football]]</text>
+      <sha1>qby7bnyjzd5b42a5jnj2nxs3sswtp2f</sha1>
+    </revision>
+  </page>
+</mediawiki>

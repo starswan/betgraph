@@ -1,0 +1,732 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group B</title>
+    <ns>0</ns>
+    <id>6885413</id>
+    <revision>
+      <id>723292036</id>
+      <parentid>703537818</parentid>
+      <timestamp>2016-06-02T05:31:52Z</timestamp>
+      <contributor>
+        <username>ChongDae</username>
+        <id>243919</id>
+      </contributor>
+      <comment>removed [[Category:UEFA Euro 2004 qualifying]]; added [[Category:UEFA Euro 2008 qualifying]] using [[WP:HC|HotCat]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="26420">{{Use dmy dates|date=February 2012}}
+Standings and results for '''Group B''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+==Standings==
+'''Key''':
+*Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]].
+
+{{UEFA Euro 2008 qualifying Group B
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes
+}}
+Notes on the qualified teams:
+*Italy and France secured qualification to the tournament proper on 17 November 2007 following Italy's 2-1 win against Scotland, becoming the fifth and sixth teams in the whole of the qualification stage to do so.
+
+==Matches==
+Group B fixtures were decided with a random draw conducted on Thursday 9 March 2006, because fixtures could not be agreed between delegates. Ukraine were the only side unable to come to consensus with the rest of the group.&lt;ref&gt;Bathgate, Stuart. [http://news.scotsman.com/topics.cfm?tid=142&amp;id=361172006 &quot;Scotland dealt an even hand as Euro 2008 draw resolved&quot;], ''The Scotsman'', 10 March 2006. Accessed 27 March 2007.&lt;/ref&gt;
+
+----
+&lt;div id=&quot;Faroe Islands v Georgia&quot;&gt;{{football box
+|date=16 August 2006
+|time=18:00 [[UTC+1]]
+|team1={{fb-rt|FRO}}
+|score=0–6
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=84000/index.html Report]
+|team2={{fb|GEO}}
+|goals1=
+|goals2=[[Davit Mujiri|Mujiri]] {{goal|16}}&lt;br /&gt;[[Alexander Iashvili|Iashvili]] {{goal|18}}&lt;br /&gt;[[Shota Arveladze|Arveladze]] {{goal|37||62||82}}&lt;br /&gt;[[Levan Kobiashvili|Kobiashvili]] {{goal|51|pen.}}
+|stadium=[[Svangaskard]], [[Toftir]]
+|attendance=2,114
+|referee=[[Michael Thomas Ross|Michael Ross]] ([[Irish Football Association|Northern Ireland]]) }}
+----
+&lt;div id=&quot;Scotland v Faroe Islands&quot;&gt;{{football box
+|date=2 September 2006
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|SCO}}
+|score=6–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83965/index.html Report]
+|team2={{fb|FRO}}
+|goals1=[[Darren Fletcher|Fletcher]] {{goal|7}}&lt;br /&gt;[[James McFadden|McFadden]] {{goal|10}}&lt;br /&gt;[[Kris Boyd|Boyd]] {{goal|24|pen.|38}}&lt;br /&gt;[[Kenny Miller|Miller]] {{goal|30|pen.}}&lt;br /&gt;[[Garry O'Connor|O'Connor]] {{goal|85}}
+|goals2=
+|stadium=[[Celtic Park]], [[Glasgow]]
+|attendance=50,059
+|referee=[[Igor Egorov]] ([[Football Union of Russia|Russia]]) }}
+
+&lt;div id=&quot;Georgia v France&quot;&gt;{{football box
+|date=2 September 2006
+|time=20:00 [[UTC+4]]
+|team1={{fb-rt|GEO}}
+|score=0–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83963/index.html Report]
+|team2={{fb|FRA}}
+|goals1=
+|goals2=[[Florent Malouda|Malouda]] {{goal|7}}&lt;br /&gt;[[Louis Saha|Saha]] {{goal|15}}&lt;br /&gt;[[Malkhaz Asatiani|Asatiani]] {{goal|47|o.g.}}
+|stadium=[[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance=65,000
+|referee=[[Jan Wegereef]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Italy v Lithuania&quot;&gt;{{football box
+|date=2 September 2006
+|time=20:50 [[UTC+2]]
+|team1={{fb-rt|ITA}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83964/index.html Report]
+|team2={{fb|LTU}}
+|goals1=[[Filippo Inzaghi|Inzaghi]] {{goal|30}}
+|goals2=[[Tomas Danilevičius|Danilevičius]] {{goal|21}}
+|stadium=[[Stadio San Paolo]], [[Naples]]
+|attendance=60,000
+|referee=[[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Ukraine v Georgia&quot;&gt;{{football box
+|date=6 September 2006
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|UKR}}
+|score=3–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83966/index.html Report]
+|team2={{fb|GEO}}
+|goals1=[[Andriy Shevchenko|Shevchenko]] {{goal|31}}&lt;br /&gt;[[Ruslan Rotan|Rotan]] {{goal|61}}&lt;br /&gt;[[Andriy Rusol|Rusol]] {{goal|80}}
+|goals2=[[Shota Arveladze|Arveladze]] {{goal|38}}&lt;br /&gt;[[Georgi Demetradze|Demetradze]] {{goal|60}}
+|stadium=[[Olimpiysky National Sports Complex|NSC Olimpiysky]], [[Kiev]]
+|attendance=40,000
+|referee=[[Jaroslav Jara]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+
+&lt;div id=&quot;Lithuania v Scotland&quot;&gt;{{football box
+|date=6 September 2006
+|time=19:30 [[UTC+3]]
+|team1={{fb-rt|LTU}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83967/index.html Report]
+|team2={{fb|SCO}}
+|goals1=[[Darius Miceika|Miceika]] {{goal|85}}
+|goals2=[[Christian Dailly|Dailly]] {{goal|46}}&lt;br /&gt;[[Kenny Miller|Miller]] {{goal|62}}
+|stadium=[[S.Dariaus ir S.Girėno Stadium|S.Darius and S.Girėnas]], [[Kaunas]]
+|attendance=6,500
+|referee=[[Vladimir Hrinak]] ([[Slovak Football Association|Slovakia]]) }}
+
+&lt;div id=&quot;France v Italy&quot;&gt;{{football box
+|date=6 September 2006
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|FRA}}
+|score=3–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83968/index.html Report]
+|team2={{fb|ITA}}
+|goals1=[[Sidney Govou|Govou]] {{goal|2||55}}&lt;br /&gt;[[Thierry Henry|Henry]] {{goal|18}}
+|goals2=[[Alberto Gilardino|Gilardino]] {{goal|20}}
+|stadium=[[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]]
+|attendance=78,800
+|referee=[[Herbert Fandel]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Faroe Islands v Lithuania&quot;&gt;{{football box
+|date=7 October 2006
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|FRO}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83971/index.html Report]
+|team2={{fb|LTU}}
+|goals1=
+|goals2=[[Andrius Skerla|Skerla]] {{goal|89}}
+|stadium=[[Tórsvøllur]], [[Tórshavn]]
+|attendance=1,982
+|referee=[[Anthony Buttimer]] ([[Football Association of Ireland|Ireland]]) }}
+
+&lt;div id=&quot;Scotland v France&quot;&gt;{{football box
+|date=7 October 2006
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|SCO}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83970/index.html Report]
+|team2={{fb|FRA}}
+|goals1=[[Gary Caldwell|Caldwell]] {{goal|67}}
+|goals2=
+|stadium=[[Hampden Park]], [[Glasgow]]
+|attendance=52,500
+|referee=[[Massimo Busacca]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Italy v Ukraine&quot;&gt;{{football box
+|date=7 October 2006
+|time=20:50 [[UTC+2]]
+|team1={{fb-rt|ITA}}
+|score=2–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83969/index.html Report]
+|team2={{fb|UKR}}
+|goals1=[[Massimo Oddo|Oddo]] {{goal|71|pen.}}&lt;br /&gt;[[Luca Toni|Toni]] {{goal|79}}
+|goals2=
+|stadium=[[Stadio Olimpico]], [[Rome]]
+|attendance=49,149
+|referee=[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]]) }}
+----
+&lt;div id=&quot;Ukraine v Scotland&quot;&gt;{{football box
+|date=11 October 2006
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|UKR}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83972/index.html Report]
+|team2={{fb|SCO}}
+|goals1=[[Oleksandr Kucher|Kucher]] {{goal|60}}&lt;br /&gt;[[Andriy Shevchenko|Shevchenko]] {{goal|90|pen.}}
+|goals2=
+|stadium=[[Olimpiysky National Sports Complex|NSC Olimpiysky]], [[Kiev]]
+|attendance=55,000
+|referee=[[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Georgia v Italy&quot;&gt;{{football box
+|date=11 October 2006
+|time=20:00 [[UTC+4]]
+|team1={{fb-rt|GEO}}
+|score=1–3
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83973/index.html Report]
+|team2={{fb|ITA}}
+|goals1=[[Giorgi Shashiashvili|Shashiashvili]] {{goal|26}}
+|goals2=[[Daniele De Rossi|De Rossi]] {{goal|18}}&lt;br /&gt;[[Mauro Camoranesi|Camoranesi]] {{goal|63}}&lt;br /&gt;[[Simone Perrotta|Perrotta]] {{goal|71}}
+|stadium=[[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance=50,000
+|referee=[[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;France v Faroe Islands&quot;&gt;{{football box
+|date=11 October 2006
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|FRA}}
+|score=5–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83974/index.html Report]
+|team2={{fb|FRO}}
+|goals1=[[Louis Saha|Saha]] {{goal|1}}&lt;br /&gt;[[Thierry Henry|Henry]] {{goal|22}}&lt;br /&gt;[[Nicolas Anelka|Anelka]] {{goal|77}}&lt;br /&gt;[[David Trézéguet|Trézéguet]] {{goal|78||84}}
+|goals2=|stadium=[[Stade Auguste Bonal]], [[Montbéliard]]
+|attendance=19,314
+|referee=[[Sorin Corpodean]] ([[Romanian Football Federation|Romania]]) }}
+----
+&lt;div id=&quot;Scotland v Georgia&quot;&gt;{{football box
+|date=24 March 2007
+|time=15:00 [[UTC+0]]
+|team1={{fb-rt|SCO}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83975/index.html Report]
+|team2={{fb|GEO}}
+|goals1=[[Kris Boyd|Boyd]] {{goal|11}}&lt;br /&gt;[[Craig Beattie|Beattie]] {{goal|89}}
+|goals2=[[Shota Arveladze|Arveladze]] {{goal|41}}
+|stadium=[[Hampden Park]], [[Glasgow]]
+|attendance=50,850
+|referee=[[Nicolai Vollquartz]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Faroe Islands v Ukraine&quot;&gt;{{football box
+|date=24 March 2007
+|time=15:00 [[UTC+0]]
+|team1={{fb-rt|FRO}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83976/index.html Report]
+|team2={{fb|UKR}}
+|goals1=
+|goals2=[[Volodymyr Yezerskiy|Yezerskiy]] {{goal|20}}&lt;br /&gt;[[Oleh Husyev|Husyev]] {{goal|57}}
+|stadium=[[Svangaskard]], [[Toftir]]
+|attendance=717
+|referee=[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Lithuania v France&quot;&gt;{{football box
+|date=24 March 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|LTU}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83977/index.html Report]
+|team2={{fb|FRA}}
+|goals1=
+|goals2=[[Nicolas Anelka|Anelka]] {{goal|73}}
+|stadium=[[S.Darius and S.Girėnas Stadium|S.Darius and S.Girėnas]], [[Kaunas]]
+|attendance=8,000
+|referee=[[Howard Webb]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Ukraine v Lithuania&quot;&gt;{{football box
+|date=28 March 2007
+|time=18:00 [[UTC+3]]
+|team1={{fb-rt|UKR}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83978/index.html Report]
+|team2={{fb|LTU}}
+|goals1=[[Oleh Husyev|Husyev]] {{goal|47}}
+|goals2=
+|stadium=[[Chornomorets Stadium]], [[Odessa]]
+|attendance=33,600
+|referee=[[Florian Meyer]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Georgia v Faroe Islands&quot;&gt;{{football box
+|date=28 March 2007
+|time=18:00 [[UTC+4]]
+|team1={{fb-rt|GEO}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83979/index.html Report]
+|team2={{fb|FRO}}
+|goals1=[[David Siradze|Siradze]] {{goal|25}}&lt;br /&gt;[[Alexander Iashvili|Iashvili]] {{goal|46||90+5|pen.}}
+|goals2=[[Rógvi Jacobsen|R. Jacobsen]] {{goal|57}}
+|stadium=[[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance=15,000
+|referee=[[Pavel Saliy]] ([[Football Federation of Kazakhstan|Kazakhstan]]) }}
+
+&lt;div id=&quot;Italy v Scotland&quot;&gt;{{football box
+|date=28 March 2007
+|time=20:50 [[UTC+2]]
+|team1={{fb-rt|ITA}}
+|score=2–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83980/index.html Report]
+|team2={{fb|SCO}}
+|goals1=[[Luca Toni|Toni]] {{goal|12||70}}
+|goals2=
+|stadium=[[Stadio San Nicola]], [[Bari]]
+|attendance=37,500
+|referee=[[Frank De Bleeckere]] ([[Belgian Football Association|Belgium]]) }}
+----
+&lt;div id=&quot;Lithuania v Georgia&quot;&gt;{{football box
+|date=2 June 2007
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|LTU}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83982/index.html Report]
+|team2={{fb|GEO}}
+|goals1=[[Saulius Mikoliūnas|Mikoliūnas]] {{goal|78}}
+|goals2=
+|stadium=[[S.Dariaus ir S.Girėno Stadium|S.Darius and S.Girėnas]], [[Kaunas]]
+|attendance=6,000
+|referee=[[Claudio Circhetta]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;France v Ukraine&quot;&gt;{{football box
+|date=2 June 2007
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|FRA}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83983/index.html Report]
+|team2={{fb|UKR}}
+|goals1=[[Franck Ribéry|Ribéry]] {{goal|57}}&lt;br /&gt;[[Nicolas Anelka|Anelka]] {{goal|71}}
+|goals2=
+|stadium=[[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]]
+|attendance=80,051
+|referee=[[Luis Medina Cantalejo]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Faroe Islands v Italy&quot;&gt;{{football box
+|date=2 June 2007
+|time=19:45 [[UTC+1]]
+|team1={{fb-rt|FRO}}
+|score=1–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83981/index.html Report]
+|team2={{fb|ITA}}
+|goals1=[[Rógvi Jacobsen|R. Jacobsen]] {{goal|77}}
+|goals2=[[Filippo Inzaghi|Inzaghi]] {{goal|12||48}}
+|stadium=[[Tórsvøllur]], [[Tórshavn]]
+|attendance=5,987
+|referee=[[Robert Małek]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Faroe Islands v Scotland&quot;&gt;{{football box
+|date=6 June 2007
+|time=17:15 [[UTC+1]]
+|team1={{fb-rt|FRO}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83986/index.html Report]
+|team2={{fb|SCO}}
+|goals1=
+|goals2=[[Shaun Maloney|Maloney]] {{goal|31}}&lt;br /&gt;[[Garry O'Connor|O'Connor]] {{goal|35}}
+|stadium=[[Svangaskard]], [[Toftir]]
+|attendance=4,600
+|referee=[[Georgios Kasnaferis]] ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;France v Georgia&quot;&gt;{{football box
+|date=6 June 2007
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|FRA}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83984/index.html Report]
+|team2={{fb|GEO}}
+|goals1=[[Samir Nasri|Nasri]] {{goal|33}}
+|goals2=
+|stadium=[[Stade de l'Abbé Deschamps]], [[Auxerre]]
+|attendance=21,000
+|referee=[[Lucílio Batista]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Lithuania v Italy&quot;&gt;{{football box
+|date=6 June 2007
+|time=21:45 [[UTC+3]]
+|team1={{fb-rt|LTU}}
+|score=0–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83985/index.html Report]
+|team2={{fb|ITA}}
+|goals1=
+|goals2=[[Fabio Quagliarella|Quagliarella]] {{goal|31||45}}
+|stadium=[[S.Dariaus ir S.Girėno Stadium|S.Darius and S.Girėnas]], [[Kaunas]]
+|attendance=7,000
+|referee=[[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]]) }}
+----
+&lt;div id=&quot;Scotland v Lithuania&quot;&gt;{{football box
+|date=8 September 2007
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|SCO}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83988/index.html Report]
+|team2={{fb|LTU}}
+|goals1=[[Kris Boyd|Boyd]] {{goal|31}}&lt;br /&gt;[[Stephen McManus|McManus]] {{goal|77}}&lt;br /&gt;[[James McFadden|McFadden]] {{goal|83}}
+|goals2=[[Tomas Danilevičius|Danilevičius]] {{goal|61|pen.}}
+|stadium=[[Hampden Park]], [[Glasgow]]
+|attendance=51,349
+|referee=[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Georgia v Ukraine&quot;&gt;{{football box
+|date=8 September 2007
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|GEO}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83987/index.html Report]
+|team2={{fb|UKR}}
+|goals1=[[David Siradze|Siradze]] {{goal|87}}
+|goals2=[[Oleh Shelayev|Shelayev]] {{goal|7}}
+|stadium=[[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance=25,000
+|referee=[[Alain Hamer]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Italy v France&quot;&gt;{{football box
+|date=8 September 2007
+|time=20:50 [[UTC+2]]
+|team1={{fb-rt|ITA}}
+|score=0–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83989/index.html Report]
+|team2={{fb|FRA}}
+|goals1=
+|goals2=
+|stadium=[[San Siro]], [[Milan]]
+|attendance=80,000
+|referee=[[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]]) }}
+----
+&lt;div id=&quot;Lithuania v Faroe Islands&quot;&gt;{{football box
+|date=12 September 2007
+|time=20:00 [[UTC+3]]
+|team1={{fb-rt|LTU}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83992/index.html Report]
+|team2={{fb|FRO}}
+|goals1=[[Edgaras Jankauskas|Jankauskas]] {{goal|8}}&lt;br /&gt;[[Tomas Danilevičius|Danilevičius]] {{goal|52}}
+|goals2=[[Rógvi Jacobsen|R. Jacobsen]] {{goal|90+3}}
+|stadium=[[S.Dariaus ir S.Girėno Stadium|S.Darius and S.Girėnas]], [[Kaunas]]
+|attendance=4,000
+|referee=[[Tsvetan Georgiev]] ([[Bulgarian Football Union|Bulgaria]]) }}
+
+&lt;div id=&quot;Ukraine v Italy&quot;&gt;{{football box
+|date=12 September 2007
+|time=21:45 [[UTC+3]]
+|team1={{fb-rt|UKR}}
+|score=1–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83990/index.html Report]
+|team2={{fb|ITA}}
+|goals1=[[Andriy Shevchenko|Shevchenko]] {{goal|71}}
+|goals2=[[Antonio Di Natale|Di Natale]] {{goal|41||77}}
+|stadium=[[Olimpiyskiy National Sports Complex]], [[Kiev]]
+|attendance=41,500
+|referee=[[Howard Webb]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;France v Scotland&quot;&gt;{{football box
+|date=12 September 2007
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|FRA}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83991/index.html Report]
+|team2={{fb|SCO}}
+|goals1=
+|goals2=[[James McFadden|McFadden]] {{goal|64}}
+|stadium=[[Parc des Princes]], [[Paris]]
+|attendance=42,000
+|referee=[[Konrad Plautz]] ([[Austrian Football Association|Austria]]) }}
+----
+&lt;div id=&quot;Scotland v Ukraine&quot;&gt;{{football box
+|date=13 October 2007
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|SCO}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83993/index.html Report]
+|team2={{fb|UKR}}
+|goals1=[[Kenny Miller|Miller]] {{goal|4}}&lt;br /&gt;[[Lee McCulloch|McCulloch]] {{goal|10}}&lt;br /&gt;[[James McFadden|McFadden]] {{goal|68}}
+|goals2=[[Andriy Shevchenko|Shevchenko]] {{goal|24}}
+|stadium=[[Hampden Park]], [[Glasgow]]
+|attendance=50,589
+|referee=[[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Faroe Islands v France&quot;&gt;{{football box
+|date=13 October 2007
+|time=16:00 [[UTC+1]]
+|team1={{fb-rt|FRO}}
+|score=0–6
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83995/index.html Report]
+|team2={{fb|FRA}}
+|goals1=
+|goals2=[[Nicolas Anelka|Anelka]] {{goal|6}}&lt;br /&gt;[[Thierry Henry|Henry]] {{goal|8}}&lt;br /&gt;[[Karim Benzema|Benzema]] {{goal|50||81}}&lt;br /&gt;[[Jérôme Rothen|Rothen]] {{goal|66}}&lt;br /&gt;[[Hatem Ben Arfa|Ben Arfa]] {{goal|90+4}}
+|stadium=[[Tórsvøllur]], [[Tórshavn]]
+|attendance=8,076
+|referee=[[Gabriele Rossi]] ([[San Marino Football Federation|San Marino]]) }}
+
+&lt;div id=&quot;Italy v Georgia&quot;&gt;{{football box
+|date=13 October 2007
+|time=20:50 [[UTC+2]]
+|team1={{fb-rt|ITA}}
+|score=2–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83994/index.html Report]
+|team2={{fb|GEO}}
+|goals1=[[Andrea Pirlo|Pirlo]] {{goal|44}}&lt;br /&gt;[[Fabio Grosso|Grosso]] {{goal|84}}
+|goals2=
+|stadium=[[Stadio Luigi Ferraris]], [[Genoa]]
+|attendance=23,057
+|referee=[[Carlos Megía Dávila]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Ukraine v Faroe Islands&quot;&gt;{{football box
+|date=17 October 2007
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|UKR}}
+|score=5–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83997/index.html Report]
+|team2={{fb|FRO}}
+|goals1=[[Maxym Kalynychenko|Kalynychenko]] {{goal|40||49}}&lt;br /&gt;[[Oleh Husyev|Husyev]] {{goal|43||45}}&lt;br /&gt;[[Andriy Vorobei|Vorobei]] {{goal|64}}
+|goals2=
+|stadium=[[NSC Olympiyskiy Stadium]], [[Kiev]]
+|attendance=3,000
+|referee=[[Haim Jakov]] ([[Israel Football Association|Israel]]) }}
+
+&lt;div id=&quot;Georgia v Scotland&quot;&gt;{{football box
+|date=17 October 2007
+|time=21:00 [[UTC+4]]
+|team1={{fb-rt|GEO}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83996/index.html Report]
+|team2={{fb|SCO}}
+|goals1=[[Levan Mchedlidze|Mchedlidze]] {{goal|16}}&lt;br /&gt;[[David Siradze|Siradze]] {{goal|64}}
+|goals2=
+|stadium=[[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance=36,500
+|referee=[[Knut Kircher]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;France v Lithuania&quot;&gt;{{football box
+|date=17 October 2007
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|FRA}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83998/index.html Report]
+|team2={{fb|LTU}}
+|goals1=[[Thierry Henry|Henry]] {{goal|80||81}}
+|goals2=
+|stadium=[[Stade de la Beaujoire]], [[Nantes]]
+|attendance=36,350
+|referee=[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]]) }}
+----
+&lt;div id=&quot;Scotland v Italy&quot;&gt;{{football box
+|date=17 November 2007
+|time=17:00 [[UTC+0]]
+|team1={{fb-rt|SCO}}
+|score=1–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=84001/index.html Report]
+|team2={{fb|ITA}}
+|goals1=[[Barry Ferguson|Ferguson]] {{goal|65}}
+|goals2=[[Luca Toni|Toni]] {{goal|2}}&lt;br /&gt;[[Christian Panucci|Panucci]] {{goal|90+1}}
+|stadium=[[Hampden Park]], [[Glasgow]]
+|attendance=51,301
+|referee=[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Lithuania v Ukraine&quot;&gt;{{football box
+|date=17 November 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|LTU}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83999/index.html Report]
+|team2={{fb|UKR}}
+|goals1=[[Mantas Savėnas|Savėnas]] {{goal|41}}&lt;br /&gt;[[Tomas Danilevičius|Danilevičius]] {{goal|67}}
+|goals2=
+|stadium=[[S.Dariaus ir S.Girėno Stadium|S.Darius and S.Girėnas]], [[Kaunas]]
+|attendance=3,000
+|referee=[[David Malcolm (referee)|David Malcolm]] ([[Irish Football Association|Northern Ireland]]) }}
+----
+&lt;div id=&quot;Georgia v Lithuania&quot;&gt;{{football box
+|date=21 November 2007
+|time=19:30 [[UTC+4]]
+|team1={{fb-rt|GEO}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=84003/index.html Report]
+|team2={{fb|LTU}}
+|goals1=
+|goals2=[[Audrius Kšanavičius|Kšanavičius]] {{goal|52||90+6}}
+|stadium=[[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance=30,000
+|referee=[[Ljubomir Krstevski]] ([[Football Federation of Macedonia|Macedonia]]) }}
+
+&lt;div id=&quot;Italy v Faroe Islands&quot;&gt;{{football box
+|date=21 November 2007
+|time=20:30 [[UTC+1]]
+|team1={{fb-rt|ITA}}
+|score=3–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=84002/index.html Report]
+|team2={{fb|FRO}}
+|goals1=[[Fróði Benjaminsen|Benjaminsen]] {{goal|11|o.g.}}&lt;br /&gt;[[Luca Toni|Toni]] {{goal|36}}&lt;br /&gt;[[Giorgio Chiellini|Chiellini]] {{goal|41}}
+|goals2=[[Rógvi Jacobsen|R. Jacobsen]] {{goal|83}}
+|stadium=[[Stadio Alberto Braglia]], [[Modena]]
+|attendance=19,000
+|referee=[[Florian Meyer]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Ukraine v France&quot;&gt;{{football box
+|date=21 November 2007
+|time=21:30 [[UTC+2]]
+|team1={{fb-rt|UKR}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=84004/index.html Report]
+|team2={{fb|FRA}}
+|goals1=[[Andriy Voronin|Voronin]] {{goal|14}}&lt;br /&gt;[[Andriy Shevchenko|Shevchenko]] {{goal|46}}
+|goals2=[[Thierry Henry|Henry]] {{goal|20}}&lt;br /&gt;[[Sidney Govou|Govou]] {{goal|34}}
+|stadium=[[NSC Olympiyskiy Stadium|NSC Olympiyskiy]], [[Kiev]]
+|attendance=30,000
+|referee=[[Tom Henning Øvrebø]] ([[Football Association of Norway|Norway]]) }}
+
+==Goalscorers==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| rowspan=&quot;1&quot;|1
+| align=&quot;left&quot;| [[Thierry Henry]]
+| align=&quot;left&quot;| {{fb|FRA}}
+| rowspan=&quot;1&quot;|6
+|-
+| rowspan=&quot;3&quot;|2
+| align=&quot;left&quot;| [[Shota Arveladze]]
+| align=&quot;left&quot;| {{fb|GEO}}
+| rowspan=&quot;3&quot;|5
+|-
+| align=&quot;left&quot;| [[Andriy Shevchenko]]
+| align=&quot;left&quot;| {{fb|UKR}}
+|-
+| align=&quot;left&quot;| [[Luca Toni]]
+| align=&quot;left&quot;| {{fb|ITA}}
+|-
+| rowspan=&quot;6&quot;|5
+| align=&quot;left&quot;| [[Nicolas Anelka]]
+| align=&quot;left&quot;| {{fb|FRA}}
+| rowspan=&quot;6&quot;|4
+|-
+| align=&quot;left&quot;| [[Kris Boyd]]
+| align=&quot;left&quot;| {{fb|SCO}}
+|-
+| align=&quot;left&quot;| [[Tomas Danilevičius]]
+| align=&quot;left&quot;| {{fb|LTU}}
+|-
+| align=&quot;left&quot;| [[Oleh Husyev]]
+| align=&quot;left&quot;| {{fb|UKR}}
+|-
+| align=&quot;left&quot;| [[Rógvi Jacobsen]]
+| align=&quot;left&quot;| {{fb|FRO}}
+|-
+| align=&quot;left&quot;| [[James McFadden]]
+| align=&quot;left&quot;| {{fb|SCO}}
+|-
+| rowspan=&quot;5&quot;|11
+| align=&quot;left&quot;| [[Sidney Govou]]
+| align=&quot;left&quot;| {{fb|FRA}}
+| rowspan=&quot;5&quot;|3
+|-
+| align=&quot;left&quot;| [[Alexander Iashvili]]
+| align=&quot;left&quot;| {{fb|GEO}}
+|-
+| align=&quot;left&quot;| [[Filippo Inzaghi]]
+| align=&quot;left&quot;| {{fb|ITA}}
+|-
+| align=&quot;left&quot;| [[Kenny Miller]]
+| align=&quot;left&quot;| {{fb|SCO}}
+|-
+| align=&quot;left&quot;| [[David Siradze]]
+| align=&quot;left&quot;| {{fb|GEO}}
+|-
+|}
+
+*'''2 goals''':
+'''{{fb|FRA}}:''' [[Karim Benzema]], [[Louis Saha]], [[David Trézéguet]]&lt;br /&gt;
+'''{{fb|ITA}}:''' [[Antonio Di Natale]], [[Fabio Quagliarella]]&lt;br /&gt;
+'''{{fb|LTU}}:''' [[Audrius Kšanavičius]]&lt;br /&gt;
+'''{{fb|SCO}}:''' [[Garry O'Connor]]&lt;br /&gt;
+'''{{fb|UKR}}:''' [[Maksym Kalynychenko]]
+
+*'''1 goal''':
+'''{{fb|FRA}}:''' [[Hatem Ben Arfa]], [[Florent Malouda]], [[Samir Nasri]], [[Franck Ribéry]], [[Jérôme Rothen]]&lt;br /&gt;
+'''{{fb|GEO}}:''' [[Georgi Demetradze]], [[Levan Kobiashvili]], [[Levan Mchedlidze]], [[Davit Mujiri]], [[Georgi Shashiashvili]]&lt;br /&gt;
+'''{{fb|ITA}}:''' [[Mauro Camoranesi]], [[Giorgio Chiellini]], [[Daniele De Rossi]], [[Alberto Gilardino]], [[Fabio Grosso]], [[Massimo Oddo]],  [[Christian Panucci]], [[Simone Perrotta]], [[Andrea Pirlo]]&lt;br /&gt;
+'''{{fb|LTU}}:''' [[Edgaras Jankauskas]], [[Darius Miceika]], [[Saulius Mikoliūnas]], [[Mantas Savėnas]], [[Andrius Skerla]]&lt;br /&gt;
+'''{{fb|SCO}}:''' [[Craig Beattie]], [[Gary Caldwell]], [[Christian Dailly]], [[Barry Ferguson]], [[Darren Fletcher]], [[Shaun Maloney]], [[Lee McCulloch]], [[Stephen McManus]]&lt;br /&gt;
+'''{{fb|UKR}}:''' [[Oleksandr Kucher]], [[Ruslan Rotan]], [[Andriy Rusol]], [[Oleh Shelayev]], [[Andriy Vorobei]], [[Andriy Voronin]], [[Volodymyr Yezerskiy]]
+
+*'''Own goals''':
+'''{{fb|FRO}}:''' [[Fróði Benjaminsen]] (for {{fb|ITA}})&lt;br /&gt;
+'''{{fb|GEO}}:''' [[Malkhaz Asatiani]] (for {{fb|FRA}})
+
+== References ==
+* [http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/group=2631.html UEFA web site]
+{{reflist}}
+
+{{UEFA Euro 2008 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group B]]
+[[Category:2006–07 in French football]]
+[[Category:France at UEFA Euro 2008|qual]]
+[[Category:2006–07 in Scottish football]]
+[[Category:2007–08 in Scottish football]]
+[[Category:2006–07 in Italian football]]
+[[Category:Italy at UEFA Euro 2008|qual]]
+[[Category:2006–07 in Ukrainian football]]
+[[Category:2007–08 in Ukrainian football]]
+[[Category:2006–07 in Georgian football]]
+[[Category:2007–08 in Georgian football]]
+[[Category:2006 in Lithuanian football]]
+[[Category:2007 in Lithuanian football]]
+[[Category:2006 in Faroe Islands football]]
+[[Category:2007 in Faroe Islands football]]</text>
+      <sha1>381lcq0o8kcmjz5zs0y5oq71hhutbgm</sha1>
+    </revision>
+  </page>
+</mediawiki>

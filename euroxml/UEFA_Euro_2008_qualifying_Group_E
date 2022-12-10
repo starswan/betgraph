@@ -1,0 +1,729 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group E</title>
+    <ns>0</ns>
+    <id>6885829</id>
+    <revision>
+      <id>723292292</id>
+      <parentid>672722712</parentid>
+      <timestamp>2016-06-02T05:34:32Z</timestamp>
+      <contributor>
+        <username>Chobot</username>
+        <id>259798</id>
+      </contributor>
+      <minor/>
+      <comment>Bot: Automated text replacement  (-Category:UEFA Euro 2004 qualifying +Category:UEFA Euro 2008 qualifying); cosmetic changes</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="26735">{{Use dmy dates|date=February 2012}}
+Standings and results for '''Group E''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+== Standings ==
+'''Key''':
+* Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]].
+
+{{UEFA Euro 2008 qualifying Group E
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+Notes on the qualified teams:
+* Croatia secured qualification to the tournament finals on 17 November 2007 following Israel's 2–1 win against Russia, becoming the seventh team in the whole of the qualification stage to do so.
+* Russia secured qualification to the tournament finals on 21 November 2007 following a 1–0 win against Andorra, and Croatia's 3–2 win against England, becoming the fourteenth and last team in the whole of the qualification stage to do so.
+
+== Matches ==
+'''Group E''' fixtures were negotiated at a meeting between the participants in [[Nyon]], [[Switzerland]], on 3 March 2006.
+
+----
+&lt;div id=&quot;Estonia v FYR Macedonia&quot;&gt;{{football box
+|date=16 August 2006
+|time=18:00 [[UTC+3]]
+|team1={{fb-rt|EST}}
+|score=0–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83915/index.html Report]
+|team2={{fb|MKD}}
+|goals1=
+|goals2=[[Goce Sedloski|Sedloski]] {{goal|73}}
+|stadium=[[A. Le Coq Arena]], [[Tallinn]]
+|attendance=7,500
+|referee=[[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]]) }}
+----
+&lt;div id=&quot;England v Andorra&quot;&gt;{{football box
+|date=2 September 2006
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|ENG}}
+|score=5–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83917/index.html Report]
+|team2={{fb|AND}}
+|goals1=[[Peter Crouch|Crouch]] {{goal|5||66}}&lt;br /&gt;[[Steven Gerrard|Gerrard]] {{goal|13}}&lt;br /&gt;[[Jermain Defoe|Defoe]] {{goal|38||47}}
+|goals2=
+|stadium=[[Old Trafford]], [[Manchester]]
+|attendance=56,290
+|referee=[[Bernhard Brugger]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Estonia v Israel&quot;&gt;{{football box
+|date=2 September 2006
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|EST}}
+|score=0–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83916/index.html Report]
+|team2={{fb|ISR}}
+|goals1=
+|goals2=[[Roberto Colautti|Colautti]] {{goal|8}}
+|stadium=[[A Le Coq Arena]], [[Tallinn]]
+|attendance=7,800
+|referee=[[Johan Verbist]] ([[Belgian Football Association|Belgium]]) }}
+----
+&lt;div id=&quot;Russia v Croatia&quot;&gt;{{football box
+|date=6 September 2006
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|RUS}}
+|score=0–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83918/index.html Report]
+|team2={{fb|CRO}}
+|goals1=
+|goals2=
+|stadium=[[Lokomotiv Stadium (Moscow)|Lokomotiv Stadium]], [[Moscow]]
+|attendance=27,500
+|referee=[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Israel v Andorra&quot;&gt;{{football box
+|date=6 September 2006
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|ISR}}
+|score=4–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83920/index.html Report]
+|team2={{fb|AND}}
+|goals1=[[Yossi Benayoun|Benayoun]] {{goal|9}}&lt;br /&gt;[[Amit Ben-Shushan|Ben-Shushan]] {{goal|11}}&lt;br /&gt;[[Shimon Gershon|Gershon]] {{goal|43|pen.}}&lt;br /&gt;[[Toto Tamuz|Tamuz]] {{goal|69}}
+|goals2=[[Juli Fernandez|Fernandez]] {{goal|84}}
+|stadium=[[Stadion de Goffert]], [[Nijmegen]] ([[Netherlands]])&lt;ref&gt;Due to the [[2006 Israel-Lebanon conflict]], UEFA ordered that no matches in its competitions could be held in Israel until further notice. UEFA was scheduled to reconsider its ban on 14 September.&lt;br /&gt;{{cite news |title=UEFA to reconsider ban on soccer games played in Israel |newspaper=Haaretz |date=31 August 2006 |accessdate=6 September 2006 |url=http://www.haaretz.com/hasen/pages/ShArt.jhtml?itemNo=757255&amp;contrassID=1&amp;subContrassID=1 }}&lt;/ref&gt;&lt;ref&gt;On 15 September, UEFA lifted its ban on matches in Israel, returning to its previous policy of restricting Israel home matches to the [[Tel Aviv]] area. [[Ramat Gan Stadium|Israel's national stadium]] in [[Ramat Gan]] is within the allowed area.&lt;br /&gt;{{cite web |title=UEFA lifts Israel match ban |publisher=UEFA |date=15 September 2006 |accessdate=15 September 2006 |url=http://en.archive.uefa.com/uefa/Keytopics/kind=64/newsId=457461.html }}&lt;/ref&gt;
+|attendance=0
+|referee=[[Sinisa Zrnic]] ([[Football Association of Bosnia and Herzegovina|Bosnia]]) }}
+
+&lt;div id=&quot;FYR Macedonia v England&quot;&gt;{{football box
+|date=6 September 2006
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|MKD}}
+|score=0–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83919/index.html Report]
+|team2={{fb|ENG}}
+|goals1=
+|goals2=[[Peter Crouch|Crouch]] {{goal|46}}
+|stadium=[[Skopje City Stadium]], [[Skopje]]
+|attendance=16,500
+|referee=[[Bertrand Layec]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Russia v Israel&quot;&gt;{{football box
+|date=7 October 2006
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|RUS}}
+|score=1–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83923/index.html Report]
+|team2={{fb|ISR}}
+|goals1=[[Andrey Arshavin|Arshavin]] {{goal|5}}
+|goals2=[[Amit Ben-Shushan|Ben-Shushan]] {{goal|84}}
+|stadium=[[Dynamo Stadium (Moscow)|Dynamo Stadium]], [[Moscow]]
+|attendance=22,000
+|referee=[[Florian Meyer]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;England v FYR Macedonia&quot;&gt;{{football box
+|date=7 October 2006
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|ENG}}
+|score=0–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83921/index.html Report]
+|team2={{fb|MKD}}
+|goals1=
+|goals2=
+|stadium=[[Old Trafford]], [[Manchester]]
+|attendance=72,062
+|referee=[[Markus Merk]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Croatia v Andorra&quot;&gt;{{football box
+|date=7 October 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|CRO}}
+|score=7–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83922/index.html Report]
+|team2={{fb|AND}}
+|goals1=[[Mladen Petrić|Petrić]] {{goal|12||37||48||50}}&lt;br /&gt;[[Ivan Klasnić|Klasnić]] {{goal|58}}&lt;br /&gt;[[Bosko Balaban|Balaban]] {{goal|62}}&lt;br /&gt;[[Luka Modrić|Modrić]] {{goal|83}}
+|goals2=
+|stadium=[[Maksimir Stadium]], [[Zagreb]]
+|attendance=20,000
+|referee=[[Anthony Zammit]] ([[Malta Football Association|Malta]]) }}
+----
+&lt;div id=&quot;Andorra v FYR Macedonia&quot;&gt;{{football box
+|date=11 October 2006
+|time=15:00 [[UTC+2]]
+|team1={{fb-rt|AND}}
+|score=0–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83926/index.html Report]
+|team2={{fb|MKD}}
+|goals1=
+|goals2=[[Goran Pandev|Pandev]] {{goal|13}}&lt;br /&gt;[[Nikolce Noveski|Noveski]] {{goal|16}}&lt;br /&gt;[[Ilco Naumoski|Naumoski]] {{goal|31}}
+|stadium=[[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance=300
+|referee=[[Lasha Silagava]] ([[Georgian Football Federation|Georgia]]) }}
+
+&lt;div id=&quot;Russia v Estonia&quot;&gt;{{football box
+|date=11 October 2006
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|RUS}}
+|score=2–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83925/index.html Report]
+|team2={{fb|EST}}
+|goals1=[[Pavel Pogrebnyak|Pogrebnyak]] {{goal|78}}&lt;br /&gt;[[Dmitry Sychev|Sychev]] {{goal|90}}
+|goals2=
+|stadium=[[Petrovsky Stadium]], [[Saint Petersburg]]
+|attendance=21,500
+|referee=[[Eric Braamhaar]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Croatia v England&quot;&gt;{{football box
+|date=11 October 2006
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|CRO}}
+|score=2–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83924/index.html Report]
+|team2={{fb|ENG}}
+|goals1=[[Eduardo da Silva|Eduardo]] {{goal|61}}&lt;br /&gt;[[Gary Neville|G. Neville]] {{goal|68|o.g.}}
+|goals2=
+|stadium=[[Maksimir Stadium]], [[Zagreb]]
+|attendance=38,000
+|referee=[[Roberto Rosetti]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;FYR Macedonia v Russia&quot;&gt;{{football box
+|date=15 November 2006
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|MKD}}
+|score=0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83928/index.html Report]
+|team2={{fb|RUS}}
+|goals1=
+|goals2=[[Vladimir Bystrov|Bystrov]] {{goal|18}}&lt;br /&gt;[[Andrey Arshavin|Arshavin]] {{goal|32}}
+|stadium=[[Skopje City Stadium]], [[Skopje]]
+|attendance=16,000
+|referee=[[Paul Allaerts]] ([[Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Israel v Croatia&quot;&gt;{{football box
+|date=15 November 2006
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|ISR}}
+|score=3–4
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83927/index.html Report]
+|team2={{fb|CRO}}
+|goals1=[[Roberto Colautti|Colautti]] {{goal|8||89}}&lt;br /&gt;[[Yossi Benayoun|Benayoun]] {{goal|68}}
+|goals2=[[Darijo Srna|Srna]] {{goal|35|pen.}}&lt;br /&gt;[[Eduardo da Silva|Eduardo]] {{goal|39||54||72}}
+|stadium=[[Ramat Gan Stadium]], [[Ramat-Gan]]
+|attendance=38,000
+|referee=[[Eduardo Iturralde González]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Estonia v Russia&quot;&gt;{{football box
+|date=24 March 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|EST}}
+|score=0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83930/index.html Report]
+|team2={{fb|RUS}}
+|goals1=
+|goals2=[[Vladimir Bystrov|Bystrov]] {{goal|66}}&lt;br /&gt;[[Aleksandr Kerzhakov|Kerzhakov]] {{goal|78}}
+|stadium=[[A. Le Coq Arena]], [[Tallinn]]
+|attendance=11,000
+|referee=[[Darko Ceferin]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Israel v England&quot;&gt;{{football box
+|date=24 March 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|ISR}}
+|score=0–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83929/index.html Report]
+|team2={{fb|ENG}}
+|goals1=
+|goals2=
+|stadium=[[Ramat Gan Stadium]], [[Ramat-Gan]]
+|attendance=45,000
+|referee=[[Tom Henning Øvrebø]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Croatia v FYR Macedonia&quot;&gt;{{football box
+|date=24 March 2007
+|time=20:15 [[UTC+1]]
+|team1={{fb-rt|CRO}}
+|score=2–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83931/index.html Report]
+|team2={{fb|MKD}}
+|goals1=[[Darijo Srna|Srna]] {{goal|58}}&lt;br /&gt;[[Eduardo da Silva|Eduardo]] {{goal|88}}
+|goals2=[[Goce Sedloski|Sedloski]] {{goal|36}}
+|stadium=[[Maksimir Stadium]], [[Zagreb]]
+|attendance=20,000
+|referee=[[Konrad Plautz]] ([[Austrian Football Association|Austria]]) }}
+----
+&lt;div id=&quot;Israel v Estonia&quot;&gt;{{football box
+|date=28 March 2007
+|time=20:30 [[UTC+3]]
+|team1={{fb-rt|ISR}}
+|score=4–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83933/index.html Report]
+|team2={{fb|EST}}
+|goals1=[[Idan Tal|Tal]] {{goal|19}}&lt;br /&gt;[[Roberto Colautti|Colautti]] {{goal|29}}&lt;br /&gt;[[Ben Sahar|Sahar]] {{goal|77||80}}
+|goals2=
+|stadium=[[Ramat Gan Stadium]], [[Ramat-Gan]]
+|attendance=23,658
+|referee=[[Cüneyt Çakır]] ([[Turkish Football Federation|Turkey]]) }}
+
+&lt;div id=&quot;Andorra v England&quot;&gt;{{football box
+|date=28 March 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|AND}}
+|score=0–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83932/index.html Report]
+|team2={{fb|ENG}}
+|goals1=
+|goals2=[[Steven Gerrard|Gerrard]] {{goal|54||76}}&lt;br /&gt;[[David Nugent|Nugent]] {{goal|90+2}}
+|stadium=[[Estadi Olímpic Lluís Companys|Olímpic Lluís Companys]], [[Barcelona]], [[Spain]]
+|attendance=12,800
+|referee=[[Bruno Paixão]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;Estonia v Croatia&quot;&gt;{{football box
+|date=2 June 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|EST}}
+|score=0–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83934/index.html Report]
+|team2={{fb|CRO}}
+|goals1=
+|goals2=[[Eduardo da Silva|Eduardo]] {{goal|32}}
+|stadium=[[A Le Coq Arena]], [[Tallinn]]
+|attendance=10,000
+|referee=[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Russia v Andorra&quot;&gt;{{football box
+|date=2 June 2007
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|RUS}}
+|score=4–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83935/index.html Report]
+|team2={{fb|AND}}
+|goals1=[[Aleksandr Kerzhakov|Kerzhakov]] {{goal|8||16||49}}&lt;br /&gt;[[Dmitri Sychev|Sychev]] {{goal|71}}
+|goals2=
+|stadium=[[Petrovsky Stadium]], [[Saint Petersburg]]
+|attendance=21,000
+|referee=[[Tommy Skjerven]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Israel&quot;&gt;{{football box
+|date=2 June 2007
+|time=19:30 [[UTC+2]]
+|team1={{fb-rt|MKD}}
+|score=1–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83936/index.html Report]
+|team2={{fb|ISR}}
+|goals1=[[Aco Stojkov|Stojkov]] {{goal|13}}
+|goals2=[[Barak Yitzhaki|Yitzhaki]] {{goal|11}}&lt;br /&gt;[[Roberto Colautti|Colautti]] {{goal|44}}
+|stadium=[[Skopje City Stadium]], [[Skopje]]
+|attendance=15,000
+|referee=[[Knut Kircher]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Andorra v Israel&quot;&gt;{{football box
+|date=6 June 2007
+|time=18:00 [[UTC+2]]
+|team1={{fb-rt|AND}}
+|score=0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83937/index.html Report]
+|team2={{fb|ISR}}
+|goals1=
+|goals2=[[Toto Tamuz|Tamuz]] {{goal|37}}&lt;br /&gt;[[Roberto Colautti|Colautti]] {{goal|53}}
+|stadium=[[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance=618
+|referee=[[Ian Stokes]] ([[Football Association of Ireland|Ireland]]) }}
+
+&lt;div id=&quot;Croatia v Russia&quot;&gt;{{football box
+|date=6 June 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|CRO}}
+|score=0–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83938/index.html Report]
+|team2={{fb|RUS}}
+|goals1=
+|goals2=
+|stadium=[[Maksimir Stadium]], [[Zagreb]]
+|attendance=38,000
+|referee=[[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]]) }}
+
+&lt;div id=&quot;Estonia v England&quot;&gt;{{football box
+|date=6 June 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|EST}}
+|score=0–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83939/index.html Report]
+|team2={{fb|ENG}}
+|goals1=
+|goals2=[[Joe Cole|J. Cole]] {{goal|37}}&lt;br /&gt;[[Peter Crouch|Crouch]] {{goal|54}}&lt;br /&gt;[[Michael Owen|Owen]] {{goal|62}}
+|stadium=[[A Le Coq Arena]], [[Tallinn]]
+|attendance=11,000
+|referee=[[Grzegorz Gilewski]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Estonia v Andorra&quot;&gt;{{football box
+|date=22 August 2007
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|EST}}
+|score=2–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83940/index.html Report]
+|team2={{fb|AND}}
+|goals1=[[Raio Piiroja|Piiroja]] {{goal|34}}&lt;br /&gt;[[Indrek Zelinski|Zelinski]] {{goal|90+2}}
+|goals2=[[Fernando Silva (footballer, born 1977)|Silva]] {{goal|87}}
+|stadium=[[A Le Coq Arena]], [[Tallinn]]
+|attendance=10,000
+|referee=[[Adrian McCourt]] ([[Irish Football Association|Northern Ireland]]) }}
+----
+&lt;div id=&quot;Russia v FYR Macedonia&quot;&gt;{{football box
+|date=8 September 2007
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|RUS}}
+|score=3–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83942/index.html Report]
+|team2={{fb|MKD}}
+|goals1=[[Vasili Berezutski|V. Berezutski]] {{goal|8}}&lt;br /&gt;[[Andrey Arshavin|Arshavin]] {{goal|84}}&lt;br /&gt;[[Aleksandr Kerzhakov|Kerzhakov]] {{goal|88}}
+|goals2=
+|stadium=[[Lokomotiv Stadium (Moscow)|Lokomotiv Stadium]], [[Moscow]]
+|attendance=26,000
+|referee=[[Tom Henning Øvrebø]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;England v Israel&quot;&gt;{{football box
+|date=8 September 2007
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|ENG}}
+|score=3–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83941/index.html Report]
+|team2={{fb|ISR}}
+|goals1=[[Shaun Wright-Phillips|Wright-Phillips]] {{goal|20}}&lt;br /&gt;[[Michael Owen|Owen]] {{goal|49}}&lt;br /&gt;[[Micah Richards|Richards]] {{goal|66}}
+|goals2=
+|stadium=[[Wembley Stadium]], [[London]]
+|attendance=85,372
+|referee=[[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Croatia v Estonia&quot;&gt;{{football box
+|date=8 September 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|CRO}}
+|score=2–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83943/index.html Report]
+|team2={{fb|EST}}
+|goals1=[[Eduardo da Silva|Eduardo]] {{goal|39||45+1}}
+|goals2=
+|stadium=[[Maksimir Stadium]], [[Zagreb]]
+|attendance=20,000
+|referee=[[Jérôme Laperriere]] ([[Swiss Football Association|Switzerland]]) }}
+----
+&lt;div id=&quot;Andorra v Croatia&quot;&gt;{{football box
+|date=12 September 2007
+|time=18:00 [[UTC+2]]
+|team1={{fb-rt|AND}}
+|score=0–6
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83944/index.html Report]
+|team2={{fb|CRO}}
+|goals1=
+|goals2=[[Darijo Srna|Srna]] {{goal|34}}&lt;br /&gt;[[Mladen Petrić|Petrić]] {{goal|38||44}}&lt;br /&gt;[[Niko Kranjčar|Kranjčar]] {{goal|49}}&lt;br /&gt;[[Eduardo da Silva|Eduardo]] {{goal|55}}&lt;br /&gt;[[Ivan Rakitić|Rakitić]] {{goal|64}}
+|stadium=[[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance=200
+|referee=[[Olivier Thual]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Estonia&quot;&gt;{{football box
+|date=12 September 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|MKD}}
+|score=1–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83945/index.html Report]
+|team2={{fb|EST}}
+|goals1=[[Goran Maznov|Maznov]] {{goal|30}}
+|goals2=[[Raio Piiroja|Piiroja]] {{goal|17}}
+|stadium=[[Skopje City Stadium]], [[Skopje]]
+|attendance=5,000
+|referee=[[Leontios Trattou]] ([[Cyprus Football Association|Cyprus]]) }}
+
+&lt;div id=&quot;England v Russia&quot;&gt;{{football box
+|date=12 September 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|ENG}}
+|score=3–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83946/index.html Report]
+|team2={{fb|RUS}}
+|goals1=[[Michael Owen|Owen]] {{goal|7||31}}&lt;br /&gt;[[Rio Ferdinand|Ferdinand]] {{goal|84}}
+|goals2=
+|stadium=[[Wembley Stadium]], [[London]]
+|attendance=86,106
+|referee=[[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;England v Estonia&quot;&gt;{{football box
+|date=13 October 2007
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|ENG}}
+|score=3–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83947/index.html Report]
+|team2={{fb|EST}}
+|goals1=[[Shaun Wright-Phillips|Wright-Phillips]] {{goal|11}}&lt;br /&gt;[[Wayne Rooney|Rooney]] {{goal|32}}&lt;br /&gt;[[Taavi Rähn|Rähn]] {{goal|33|o.g.}}
+|goals2=
+|stadium=[[Wembley Stadium]], [[London]]
+|attendance=86,665
+|referee=[[Nicolai Vollquartz]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Croatia v Israel&quot;&gt;{{football box
+|date=13 October 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|CRO}}
+|score=1–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83948/index.html Report]
+|team2={{fb|ISR}}
+|goals1=[[Eduardo da Silva|Eduardo]] {{goal|52}}
+|goals2=
+|stadium=[[Maksimir Stadium]], [[Zagreb]]
+|attendance=32,000
+|referee=[[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Russia v England&quot;&gt;{{football box
+|date=17 October 2007
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|RUS}}
+|score=2–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83950/index.html Report]
+|team2={{fb|ENG}}
+|goals1=[[Roman Pavlyuchenko|Pavlyuchenko]] {{goal|69|pen.|73}}
+|goals2=[[Wayne Rooney|Rooney]] {{goal|29}}
+|stadium=[[Luzhniki Stadium]], [[Moscow]]
+|attendance=84,700
+|referee=[[Luis Medina Cantalejo]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Andorra&quot;&gt;{{football box
+|date=17 October 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|MKD}}
+|score=3–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83949/index.html Report]
+|team2={{fb|AND}}
+|goals1=[[Ilco Naumoski|Naumoski]] {{goal|30}}&lt;br /&gt;[[Goce Sedloski|Sedloski]] {{goal|44}}&lt;br /&gt;[[Goran Pandev|Pandev]] {{goal|59}}
+|goals2=
+|stadium=[[Skopje City Stadium]], [[Skopje]]
+|attendance=20,000
+|referee=[[Paulius Malzinskas]] ([[Lithuanian Football Federation|Lithuania]]) }}
+----
+&lt;div id=&quot;Andorra v Estonia&quot;&gt;{{football box
+|date=17 November 2007
+|time=18:00 [[UTC+1]]
+|team1={{fb-rt|AND}}
+|score=0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83953/index.html Report]
+|team2={{fb|EST}}
+|goals1=
+|goals2=[[Andres Oper|Oper]] {{goal|31}}&lt;br /&gt;[[Joel Lindpere|Lindpere]] {{goal|60}}
+|stadium=[[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance=200
+|referee=[[William Collum (referee)|William Collum]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Israel v Russia&quot;&gt;{{football box
+|date=17 November 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|ISR}}
+|score=2–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83952/index.html Report]
+|team2={{fb|RUS}}
+|goals1=[[Elyaniv Barda|Barda]] {{goal|10}}&lt;br /&gt;[[Omer Golan|Golan]] {{goal|90+2}}
+|goals2=[[Diniyar Bilyaletdinov|Bilyaletdinov]] {{goal|61}}
+|stadium=[[Ramat Gan Stadium]], [[Ramat-Gan]]
+|attendance=27,563
+|referee=[[Stefano Farina]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Croatia&quot;&gt;{{football box
+|date=17 November 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|MKD}}
+|score=2–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83951/index.html Report]
+|team2={{fb|CRO}}
+|goals1=[[Goran Maznov|Maznov]] {{goal|71}}&lt;br /&gt;[[Ilco Naumoski|Naumoski]] {{goal|83}}
+|goals2=
+|stadium=[[Skopje City Stadium]], [[Skopje]]
+|attendance=18,000
+|referee=[[Frank De Bleeckere]] ([[Belgian Football Association|Belgium]]) }}
+----
+&lt;div id=&quot;Israel v FYR Macedonia&quot;&gt;{{football box
+|date=21 November 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|ISR}}
+|score=1–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83955/index.html Report]
+|team2={{fb|MKD}}
+|goals1=[[Elyaniv Barda|Barda]] {{goal|35}}
+|goals2=
+|stadium=[[Ramat Gan Stadium]], [[Ramat-Gan]]
+|attendance=2,736
+|referee=[[Tomasz Mikulski]] ([[Polish Football Association|Poland]]) }}
+
+&lt;div id=&quot;Andorra v Russia&quot;&gt;{{football box
+|date=21 November 2007
+|time=21:00 [[UTC+1]]
+|team1={{fb-rt|AND}}
+|score=0–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83956/index.html Report]
+|team2={{fb|RUS}}
+|goals1=
+|goals2=[[Dmitri Sychev|Sychev]] {{goal|39}}
+|stadium=[[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance=200
+|referee=[[Terje Hauge]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;England v Croatia&quot;&gt;{{football box
+|date=21 November 2007
+|time=20:00 [[UTC+0]]
+|team1={{fb-rt|ENG}}
+|score=2–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83954/index.html Report]
+|team2={{fb|CRO}}
+|goals1=[[Frank Lampard|Lampard]] {{goal|56|pen.}}&lt;br /&gt;[[Peter Crouch|Crouch]] {{goal|65}}
+|goals2=[[Niko Kranjčar|Kranjčar]] {{goal|8}}&lt;br /&gt;[[Ivica Olić|Olić]] {{goal|14}}&lt;br /&gt;[[Mladen Petrić|Petrić]] {{goal|77}}
+|stadium=[[Wembley Stadium]], [[London]]
+|attendance=88,091
+|referee=[[Peter Fröjdfeldt]] ([[Swedish Football Association|Sweden]]) }}
+
+== Goalscorers ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| 1
+| align=&quot;left&quot;| [[Eduardo da Silva|Eduardo]]
+| align=&quot;left&quot;| {{fb|CRO}}
+| 10
+|-
+| 2
+| align=&quot;left&quot;| [[Mladen Petrić]]
+| align=&quot;left&quot;| {{fb|CRO}}
+| 7
+|-
+| 3
+| align=&quot;left&quot;| [[Roberto Colautti]]
+| align=&quot;left&quot;| {{fb|ISR}}
+| 6
+|-
+| rowspan=&quot;2&quot;|4
+| align=&quot;left&quot;| [[Peter Crouch]]
+| align=&quot;left&quot;| {{fb|ENG}}
+| rowspan=&quot;2&quot;|5
+|-
+| align=&quot;left&quot;| [[Aleksandr Kerzhakov]]
+| align=&quot;left&quot;| {{fb|RUS}}
+|-
+| 6
+| align=&quot;left&quot;| [[Michael Owen]]
+| align=&quot;left&quot;| {{fb|ENG}}
+| 4
+|-
+| rowspan=&quot;6&quot;|7
+| align=&quot;left&quot;| [[Andrey Arshavin]]
+| align=&quot;left&quot;| {{fb|RUS}}
+| rowspan=&quot;6&quot;|3
+|-
+| align=&quot;left&quot;| [[Steven Gerrard]]
+| align=&quot;left&quot;| {{fb|ENG}}
+|-
+| align=&quot;left&quot;| [[Ilčo Naumoski]]
+| align=&quot;left&quot;| {{fb|MKD}}
+|-
+| align=&quot;left&quot;| [[Goce Sedloski]]
+| align=&quot;left&quot;| {{fb|MKD}}
+|-
+| align=&quot;left&quot;| [[Darijo Srna]]
+| align=&quot;left&quot;| {{fb|CRO}}
+|-
+| align=&quot;left&quot;| [[Dmitri Sychev]]
+| align=&quot;left&quot;| {{fb|RUS}}
+|}
+
+;2 goals
+* '''{{fb|CRO}}:''' [[Niko Kranjčar]]
+* '''{{fb|ENG}}:''' [[Jermain Defoe]], [[Wayne Rooney]], [[Shaun Wright-Phillips]]
+* '''{{fb|EST}}:''' [[Raio Piiroja]]
+* '''{{fb|ISR}}:''' [[Elyaniv Barda]], [[Yossi Benayoun]], [[Amit Ben-Shushan]], [[Ben Sahar]], [[Toto Tamuz]]
+* '''{{fb|MKD}}:''' [[Goran Maznov]], [[Goran Pandev]]
+* '''{{fb|RUS}}:''' [[Vladimir Bystrov]], [[Roman Pavlyuchenko]]
+;1 goal
+* '''{{fb|AND}}:''' [[Juli Fernández]], [[Fernando Silva (footballer, born 1977)|Fernando Silva]]
+* '''{{fb|CRO}}:''' [[Boško Balaban]], [[Ivan Klasnić]], [[Luka Modrić]], [[Ivica Olić]], [[Ivan Rakitić]]
+* '''{{fb|ENG}}:''' [[Joe Cole]], [[Rio Ferdinand]], [[Frank Lampard]], [[David Nugent]], [[Micah Richards]]
+* '''{{fb|EST}}:''' [[Joel Lindpere]], [[Andres Oper]], [[Indrek Zelinski]]
+* '''{{fb|ISR}}:''' [[Shimon Gershon]], [[Omer Golan]], [[Idan Tal]], [[Barak Yitzhaki]]
+* '''{{fb|MKD}}:''' [[Nikolce Noveski]], [[Aco Stojkov]]
+* '''{{fb|RUS}}:''' [[Vasili Berezutskiy]], [[Diniyar Bilyaletdinov]], [[Pavel Pogrebnyak]]
+;Own goals
+* '''{{fb|ENG}}:''' [[Gary Neville]] (for {{fb|CRO}})
+* '''{{fb|EST}}:''' [[Taavi Rähn]] (for {{fb|ENG}})
+
+== References ==
+* [http://en.archive.uefa.com/competitions/euro2012/history/season=2008/round=2241/group=2634.html UEFA web site]
+{{reflist}}
+
+{{UEFA Euro 2008 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group E]]
+[[Category:2006–07 in English football]]
+[[Category:England at UEFA Euro 2008|Qual]]
+[[Category:2006–07 in Israeli football]]
+[[Category:2007–08 in Israeli football]]
+[[Category:2006 in Russian football]]
+[[Category:2007 in Russian football]]
+[[Category:2006–07 in Croatian football]]
+[[Category:2007–08 in Croatian football]]
+[[Category:2006–07 in Andorran football]]
+[[Category:2007–08 in Andorran football]]
+[[Category:2006 in Estonian football]]
+[[Category:2007 in Estonian football]]
+[[Category:2006–07 in Republic of Macedonia football]]
+[[Category:2007–08 in Republic of Macedonia football]]</text>
+      <sha1>2i9shuxlej37lk83m72j2w00nv65u8i</sha1>
+    </revision>
+  </page>
+</mediawiki>

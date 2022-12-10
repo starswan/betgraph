@@ -1,0 +1,625 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2016 qualifying Group H</title>
+    <ns>0</ns>
+    <id>42024170</id>
+    <revision>
+      <id>723994982</id>
+      <parentid>723992380</parentid>
+      <timestamp>2016-06-06T14:25:24Z</timestamp>
+      <contributor>
+        <username>Theurgist</username>
+        <id>11891322</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="33429">{{EngvarB|date=September 2014}}
+{{Use dmy dates|date=September 2014}}
+'''Group H''' of the '''[[UEFA Euro 2016 qualifying]]''' tournament was one of the nine groups to decide which teams would qualify for the [[UEFA Euro 2016]] finals tournament.&lt;ref name=&quot;procedure&quot;&gt;{{cite web |url=http://www.uefa.com/MultimediaFiles/Download/competitions/Draws/02/04/64/31/2046431_DOWNLOAD.pdf |title=UEFA EURO 2016 Qualifying Draw Procedure |publisher=UEFA |pages=1 |format=PDF |accessdate=22 February 2014}}&lt;/ref&gt; Group H consisted of six teams: [[Italy national football team|Italy]], [[Croatia national football team|Croatia]], [[Norway national football team|Norway]], [[Bulgaria national football team|Bulgaria]], [[Azerbaijan national football team|Azerbaijan]], and [[Malta national football team|Malta]],&lt;ref&gt;{{cite web|url=http://www.uefa.com/uefaeuro/finals/news/newsid=2059935.html|title=Spain face Ukraine return in EURO 2016 qualifying|publisher=UEFA.com|date=23 February 2014}}&lt;/ref&gt; where they played against each other home-and-away in a [[round-robin tournament|round-robin format]].&lt;ref name=&quot;regulations&quot;&gt;{{cite web|url=http://www.uefa.com/MultimediaFiles/Download/Regulations/uefaorg/Regulations/02/03/92/81/2039281_DOWNLOAD.pdf|title=Regulations of the UEFA European Football Championship 2014-16|publisher=UEFA.com}}&lt;/ref&gt;
+
+The top two teams would qualify directly for the finals. The third-placed team would qualify directly too if they had the best records among the third-placed teams of all qualifying groups, otherwise they would enter [[UEFA Euro 2016 qualifying play-offs|the play-offs]] for another chance to qualify.
+
+Italy and Croatia qualified for the finals as the group winners and runners-up respectively. As third-placed Norway [[UEFA Euro 2016 qualifying play-offs#Ranking of third-placed teams|weren't the highest-ranked among all third-placed teams]], they advanced to the play-offs, where they lost to [[Hungary national football team|Hungary]] and thus failed to qualify.
+
+== Standings ==
+{{UEFA Euro 2016 qualifying Group H|show_matches=yes}}
+
+== Matches ==
+
+The fixtures were released by UEFA the same day as the draw, which was held on 23 February 2014 in [[Nice]].&lt;ref&gt;{{cite web|url=http://www.uefa.com/MultimediaFiles/Download/competitions/Draws/02/06/14/61/2061461_DOWNLOAD.pdf|title=Qualifying fixtures|publisher=UEFA.com}}&lt;/ref&gt; Times are [[Central European Time|CET/CEST]],{{refn|[[Central European Time|CET]] ([[UTC+01:00|UTC+1]]) for matches on 16 November 2014 and 28 March 2015, and [[Central European Summer Time|CEST]] ([[UTC+02:00|UTC+2]]) for all other matches.|group=&quot;note&quot;|name=&quot;Time zone&quot;}} as listed by UEFA (local times are in parentheses).
+
+&lt;div id=&quot;Azerbaijan v Bulgaria&quot;/&gt;{{Football box
+| date={{Start date|2014|9|9|df=y}}
+| time=18:00&lt;br&gt;(21:00 [[UTC+05:00|UTC+5]])
+| team1={{fb-rt|AZE}}
+| score=1–2
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013837/index.html Report]
+| team2={{fb|BUL}}
+| goals1=[[Dimitrij Nazarov|Nazarov]] {{goal|54}}
+| goals2=[[Iliyan Mitsanski|Mitsanski]] {{goal|14}}&lt;br&gt;[[Ventsislav Hristov|V. Hristov]] {{goal|87}}
+| stadium=[[Bakcell Arena]], [[Baku]]
+| attendance=11,000
+| referee=[[Alon Yefet]] ([[Israel Football Association|Israel]])
+}}
+&lt;div id=&quot;Croatia v Malta&quot;/&gt;{{Football box
+| date={{Start date|2014|9|9|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|CRO}}
+| score=2–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013838/index.html Report]
+| team2={{fb|MLT}}
+| goals1=[[Luka Modrić|Modrić]] {{goal|46}}&lt;br&gt;[[Andrej Kramarić|Kramarić]] {{goal|81}}
+| goals2=
+| stadium=[[Stadion Maksimir]], [[Zagreb]]
+| attendance=8,333
+| referee=[[Vladislav Bezborodov]] ([[Russian Football Union|Russia]])
+}}
+&lt;div id=&quot;Norway v Italy&quot;/&gt;{{Football box
+| date={{Start date|2014|9|9|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|NOR}}
+| score=0–2
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013839/index.html Report]
+| team2={{fb|ITA}}
+| goals1=
+| goals2=[[Simone Zaza|Zaza]] {{goal|16}}&lt;br&gt;[[Leonardo Bonucci|Bonucci]] {{goal|62}}
+| stadium=[[Ullevaal Stadion]], [[Oslo]]
+| attendance=26,265
+| referee=[[Milorad Mažić]] ([[Football Association of Serbia|Serbia]])
+}}
+----
+&lt;div id=&quot;Bulgaria v Croatia&quot;/&gt;{{Football box
+| date={{Start date|2014|10|10|df=y}}
+| time=20:45&lt;br&gt;(21:45 [[UTC+03:00|UTC+3]])
+| team1={{fb-rt|BUL}}
+| score=0–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013855/index.html Report]
+| team2={{fb|CRO}}
+| goals1=
+| goals2=[[Nikolay Bodurov|Bodurov]] {{goal|36|o.g.}}
+| stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+| attendance=29,733&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2014/10/10/europe/european-championship-qualification/bulgaria/croatia/1653184/?ICID=PL_MS_02 | title = Bulgaria vs. Croatia|accessdate =17 September 2015}}&lt;/ref&gt;
+| referee=[[Antonio Mateu Lahoz]] ([[Royal Spanish Football Federation|Spain]])
+}}
+&lt;div id=&quot;Italy v Azerbaijan&quot;/&gt;{{Football box
+| date={{Start date|2014|10|10|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|ITA}}
+| score=2–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013856/index.html Report]
+| team2={{fb|AZE}}
+| goals1=[[Giorgio Chiellini|Chiellini]] {{goal|44||82}}
+| goals2=[[Giorgio Chiellini|Chiellini]] {{goal|76|o.g.}}
+| stadium=[[Stadio Renzo Barbera]], [[Palermo]]
+| attendance=33,000&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2014/10/10/europe/european-championship-qualification/italy/azerbaijan/1653185/?ICID=PL_MS_01 | title = Italy vs. Azerbaijan|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Hüseyin Göçek]] ([[Turkish Football Federation|Turkey]])
+}}
+&lt;div id=&quot;Malta v Norway&quot;/&gt;{{Football box
+| date={{Start date|2014|10|10|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|MLT}}
+| score=0–3
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013857/index.html Report]
+| team2={{fb|NOR}}
+| goals1=
+| goals2=[[Mats Møller Dæhli|Dæhli]] {{goal|22}}&lt;br&gt;[[Joshua King (footballer)|King]] {{goal|26||49}}
+| stadium=[[Ta' Qali National Stadium|National Stadium]], [[Ta' Qali]]
+| attendance=8,067&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2014/10/10/europe/european-championship-qualification/malta/norway/1653186/?ICID=PL_MS_04 | title = Malta vs. Norway|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Antony Gautier]] ([[French Football Federation|France]])
+}}
+----
+&lt;div id=&quot;Croatia v Azerbaijan&quot;/&gt;{{Football box
+| date={{Start date|2014|10|13|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|CRO}}
+| score=6–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013880/index.html Report]
+| team2={{fb|AZE}}
+| goals1=[[Andrej Kramarić|Kramarić]] {{goal|11}}&lt;br&gt;[[Ivan Perišić|Perišić]] {{goal|34||45}}&lt;br&gt;[[Marcelo Brozović|Brozović]] {{goal|45+1}}&lt;br&gt;[[Luka Modrić|Modrić]] {{goal|57|pen.}}&lt;br&gt;[[Rashad Sadygov|Sadygov]] {{goal|61|o.g.}}
+| goals2=
+| stadium=[[Stadion Gradski vrt]], [[Osijek]]
+| attendance=16,021&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2014/10/13/europe/european-championship-qualification/croatia/azerbaijan/1653209/?ICID=PL_MS_05 | title = Croatia vs. Azerbaijan|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Stephan Studer]] ([[Swiss Football Association|Switzerland]])
+}}
+&lt;div id=&quot;Malta v Italy&quot;/&gt;{{Football box
+| date={{Start date|2014|10|13|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|MLT}}
+| score=0–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013881/index.html Report]
+| team2={{fb|ITA}}
+| goals1=
+| goals2=[[Graziano Pellè|Pellè]] {{goal|24}}
+| stadium=[[Ta' Qali National Stadium|National Stadium]], [[Ta' Qali]]
+| attendance=16,942
+| referee=[[Ovidiu Hațegan]] ([[Romanian Football Federation|Romania]])
+}}
+&lt;div id=&quot;Norway v Bulgaria&quot;/&gt;{{Football box
+| date={{Start date|2014|10|13|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|NOR}}
+| score=2–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013882/index.html Report]
+| team2={{fb|BUL}}
+| goals1=[[Tarik Elyounoussi|T. Elyounoussi]] {{goal|13}}&lt;br&gt;[[Håvard Nielsen|Nielsen]] {{goal|72}}
+| goals2=[[Nikolay Bodurov|Bodurov]] {{goal|43}}
+| stadium=[[Ullevaal Stadion]], [[Oslo]]
+| attendance=18,990
+| referee=[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]])
+}}
+----
+&lt;div id=&quot;Azerbaijan v Norway&quot;/&gt;{{Football box
+| date={{Start date|2014|11|16|df=y}}
+| time=18:00&lt;br&gt;(21:00 [[UTC+04:00|UTC+4]])
+| team1={{fb-rt|AZE}}
+| score=0–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013914/index.html Report]
+| team2={{fb|NOR}}
+| goals1=
+| goals2=[[Håvard Nordtveit|Nordtveit]] {{goal|25}}
+| stadium=[[Bakcell Arena]], [[Baku]]
+| attendance=9,200&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2014/11/16/europe/european-championship-qualification/azerbaijan/norway/1653244/?ICID=PL_MS_06 | title = Azerbaijan vs. Norway|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Yevhen Aranovskiy]] ([[Football Federation of Ukraine|Ukraine]])
+}}
+&lt;div id=&quot;Bulgaria v Malta&quot;/&gt;{{Football box
+| date={{Start date|2014|11|16|df=y}}
+| time=20:45&lt;br&gt;(21:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|BUL}}
+| score=1–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013915/index.html Report]
+| team2={{fb|MLT}}
+| goals1=[[Andrey Galabinov|Galabinov]] {{goal|6}}
+| goals2=[[Clayton Failla|Failla]] {{goal|49|pen.}}
+| stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+| attendance=3,300&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2014/11/16/europe/european-championship-qualification/bulgaria/malta/1653245/?ICID=PL_MS_08 | title = Bulgaria vs. Malta|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Martin Strömbergsson]] ([[Swedish Football Association|Sweden]])
+}}
+&lt;div id=&quot;Italy v Croatia&quot;/&gt;{{Football box
+| date={{Start date|2014|11|16|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+01:00|UTC+1]])
+| team1={{fb-rt|ITA}}
+| score=1–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013916/index.html Report]
+| team2={{fb|CRO}}
+| goals1=[[Antonio Candreva|Candreva]] {{goal|11}}
+| goals2=[[Ivan Perišić|Perišić]] {{goal|15}}
+| stadium=[[San Siro]], [[Milan]]
+| attendance=63,222
+| referee=[[Björn Kuipers]] ([[Royal Dutch Football Association|Netherlands]])
+}}
+----
+&lt;div id=&quot;Azerbaijan v Malta&quot;/&gt;{{Football box
+| date={{Start date|2015|3|28|df=y}}
+| time=18:00&lt;br&gt;(21:00 [[UTC+04:00|UTC+4]])
+| team1={{fb-rt|AZE}}
+| score=2–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013933/index.html Report]
+| team2={{fb|MLT}}
+| goals1=[[Javid Huseynov|Huseynov]] {{goal|4}}&lt;br&gt;[[Dimitrij Nazarov|Nazarov]] {{goal|90+2}}
+| goals2=
+| stadium=[[Tofiq Bahramov Stadium|Tofiq Bahramov Republican Stadium]], [[Baku]]
+| attendance=14,600
+| referee=[[Halis Özkahya]] ([[Turkish Football Federation|Turkey]])
+}}
+&lt;div id=&quot;Croatia v Norway&quot;/&gt;{{Football box
+| date={{Start date|2015|3|28|df=y}}
+| time=18:00&lt;br&gt;(18:00 [[UTC+01:00|UTC+1]])
+| team1={{fb-rt|CRO}}
+| score=5–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013934/index.html Report]
+| team2={{fb|NOR}}
+| goals1=[[Marcelo Brozović|Brozović]] {{goal|30}}&lt;br&gt;[[Ivan Perišić|Perišić]] {{goal|53}}&lt;br&gt;[[Ivica Olić|Olić]] {{goal|65}}&lt;br&gt;[[Gordon Schildenfeld|Schildenfeld]] {{goal|87}}&lt;br&gt;[[Danijel Pranjić|Pranjić]] {{goal|90+4}}
+| goals2=[[Alexander Tettey|Tettey]] {{goal|80}}
+| stadium=[[Stadion Maksimir]], [[Zagreb]]
+| attendance=23,920
+| referee=[[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]])
+}}
+&lt;div id=&quot;Bulgaria v Italy&quot;/&gt;{{Football box
+| date={{Start date|2015|3|28|df=y}}
+| time=20:45&lt;br&gt;(21:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|BUL}}
+| score=2–2
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013935/index.html Report]
+| team2={{fb|ITA}}
+| goals1=[[Ivelin Popov|I. Popov]] {{goal|11}}&lt;br&gt;[[Iliyan Mitsanski|Mitsanski]] {{goal|17}}
+| goals2=[[Yordan Minev|Y. Minev]] {{goal|4|o.g.}}&lt;br&gt;[[Éder Citadin Martins|Éder]] {{goal|84}}
+| stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+| attendance= 6,000&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/03/28/europe/european-championship-qualification/bulgaria/italy/1653264/?ICID=PL_MS_01 | title = Bulgaria vs. Italy|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]])
+}}
+----
+&lt;div id=&quot;Croatia v Italy&quot;/&gt;{{Football box
+| date={{Start date|2015|6|12|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|CRO}}
+| score=1–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013950/index.html Report]
+| team2={{fb|ITA}}
+| goals1=[[Mario Mandžukić|Mandžukić]] {{goal|11}}
+| goals2=[[Antonio Candreva|Candreva]] {{goal|36|pen.}}
+| stadium=[[Stadion Poljud]], [[Split, Croatia|Split]]
+| attendance=0{{refn|Due to punishment handed by UEFA for crowd trouble in their home match against Norway on 28 March 2015, Croatia must play their next home qualifying game behind closed doors, and the Croatian FA were fined €50,000.&lt;ref&gt;{{cite web|url=http://www.bbc.com/sport/0/football/32225646|title=Russia given abandoned Montenegro tie by forfeit after riot|publisher=BBC Sport|date=8 April 2015}}&lt;/ref&gt;|group=&quot;note&quot;|name=&quot;croatia-ban&quot;}}
+| referee=[[Martin Atkinson]] ([[The Football Association|England]])
+}}
+&lt;div id=&quot;Malta v Bulgaria&quot;/&gt;{{Football box
+| date={{Start date|2015|6|12|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|MLT}}
+| score=0–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013951/index.html Report]
+| team2={{fb|BUL}}
+| goals1=
+| goals2=[[Ivelin Popov|I. Popov]] {{goal|56}}
+| stadium=[[Ta' Qali National Stadium|National Stadium]], [[Ta' Qali]]
+| attendance=3,924
+| referee=[[Aleksandar Stavrev]] ([[Football Federation of Macedonia|Macedonia]])
+}}
+&lt;div id=&quot;Norway v Azerbaijan&quot;/&gt;{{Football box
+| date={{Start date|2015|6|12|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|NOR}}
+| score=0–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013952/index.html Report]
+| team2={{fb|AZE}}
+| goals1=
+| goals2=
+| stadium=[[Ullevaal Stadion]], [[Oslo]]
+| attendance=21,228
+| referee=[[Paweł Gil]] ([[Polish Football Association|Poland]])
+}}
+----
+&lt;div id=&quot;Azerbaijan v Croatia&quot;/&gt;{{Football box
+| date={{Start date|2015|9|3|df=y}}
+| time=18:00&lt;br&gt;(21:00 [[UTC+05:00|UTC+5]])
+| team1={{fb-rt|AZE}}
+| score=0–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013976/index.html Report]
+| team2={{fb|CRO}}
+| goals1=
+| goals2=
+| stadium=[[Bakcell Arena]], [[Baku]]
+| attendance=10,000&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/09/03/europe/european-championship-qualification/azerbaijan/croatia/1653305/?ICID=PL_MS_05 | title = Azerbaijan vs. Croatia|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Ruddy Buquet]] ([[French Football Federation|France]])
+}}
+&lt;div id=&quot;Bulgaria v Norway&quot;/&gt;{{Football box
+| date={{Start date|2015|9|3|df=y}}
+| time=20:45&lt;br&gt;(21:45 [[UTC+03:00|UTC+3]])
+| team1={{fb-rt|BUL}}
+| score=0–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013977/index.html Report]
+| team2={{fb|NOR}}
+| goals1=
+| goals2=[[Vegard Forren|Forren]] {{goal|57}}
+| stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+| attendance=12,913&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/09/03/europe/european-championship-qualification/bulgaria/norway/1653306/?ICID=PL_MS_06 | title = Bulgaria vs. Norway|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Bas Nijhuis]] ([[Royal Dutch Football Association|Netherlands]])
+}}
+&lt;div id=&quot;Italy v Malta&quot;/&gt;{{Football box
+| date={{Start date|2015|9|3|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|ITA}}
+| score=1–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2013978/index.html Report]
+| team2={{fb|MLT}}
+| goals1=[[Graziano Pellè|Pellè]] {{goal|69}}
+| goals2=
+| stadium= [[Stadio Artemio Franchi]], [[Florence]]
+| attendance=12,551&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/09/03/europe/european-championship-qualification/italy/malta/1653307/?ICID=PL_MS_07 | title = Italy vs. Malta|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Ivan Kružliak]] ([[Slovak Football Association|Slovakia]])
+}}
+----
+&lt;div id=&quot;Malta v Azerbaijan&quot;/&gt;{{Football box
+| date={{Start date|2015|9|6|df=y}}
+| time=18:00&lt;br&gt;(18:00 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|MLT}}
+| score=2–2
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014002/index.html Report]
+| team2={{fb|AZE}}
+| goals1=[[Michael Mifsud|Mifsud]] {{goal|55}}&lt;br&gt;[[Alfred Effiong|Effiong]] {{goal|71}}
+| goals2=[[Rahid Amirguliyev|Amirguliyev]] {{goal|36||80}}
+| stadium=[[Ta' Qali National Stadium|National Stadium]], [[Ta' Qali]]
+| attendance=5,266&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/09/06/europe/european-championship-qualification/malta/azerbaijan/1653331/?ICID=PL_MS_08 | title = Malta vs. Azerbaijan|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Harald Lechner]] ([[Austrian Football Association|Austria]])
+}}
+&lt;div id=&quot;Norway v Croatia&quot;/&gt;{{Football box
+| date={{Start date|2015|9|6|df=y}}
+| time=18:00&lt;br&gt;(18:00 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|NOR}}
+| score=2–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014003/index.html Report]
+| team2={{fb|CRO}}
+| goals1=[[Jo Inge Berget|Berget]] {{goal|51}}&lt;br&gt;[[Vedran Ćorluka|Ćorluka]] {{goal|69|o.g.}}
+| goals2=
+| stadium=[[Ullevaal Stadion]], [[Oslo]]
+| attendance=26,751&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/09/06/europe/european-championship-qualification/norway/croatia/1653332/?ICID=PL_MS_09 | title = Norway vs. Croatia|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]])
+}}
+&lt;div id=&quot;Italy v Bulgaria&quot;/&gt;{{Football box
+| date={{Start date|2015|9|6|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|ITA}}
+| score=1–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014004/index.html Report]
+| team2={{fb|BUL}}
+| goals1=[[Daniele De Rossi|De Rossi]] {{goal|6|pen.}}
+| goals2=
+| stadium=[[Stadio Renzo Barbera]], [[Palermo]]
+| attendance=21,000&lt;ref&gt;{{cite web|url= http://int.soccerway.com/matches/2015/09/06/europe/european-championship-qualification/italy/bulgaria/1653333/?ICID=PL_MS_10 | title = Italy vs. Bulgaria|accessdate =16 September 2015}}&lt;/ref&gt;
+| referee=[[Sergei Karasev]] ([[Russian Football Union|Russia]])
+}}
+----
+&lt;div id=&quot;Azerbaijan v Italy&quot;/&gt;{{Football box
+| date={{Start date|2015|10|10|df=y}}
+| time=18:00&lt;br&gt;(21:00 [[UTC+05:00|UTC+5]])
+| team1={{fb-rt|AZE}}
+| score=1–3
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014045/index.html Report]
+| team2={{fb|ITA}}
+| goals1=[[Dimitrij Nazarov|Nazarov]] {{goal|31}}
+| goals2=[[Éder Citadin Martins|Éder]] {{goal|11}}&lt;br&gt;[[Stephan El Shaarawy|El Shaarawy]] {{goal|43}}&lt;br&gt;[[Matteo Darmian|Darmian]] {{goal|65}}
+| stadium=[[Baku National Stadium|National Stadium]], [[Baku]]
+| attendance= 48,000&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/10/10/europe/european-championship-qualification/azerbaijan/italy/1653374/?ICID=PL_MS_05|title=Azerbaijan vs. Italy - 10 October 2015 - Soccerway|work=soccerway.com|accessdate=15 October 2015}}&lt;/ref&gt;
+| referee=[[Willie Collum]] ([[Scotish Football Association|Scotland]])
+}}
+&lt;div id=&quot;Norway v Malta&quot;/&gt;{{Football box
+| date={{Start date|2015|10|10|df=y}}
+| time=18:00&lt;br&gt;(18:00 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|NOR}}
+| score=2–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014046/index.html Report]
+| team2={{fb|MLT}}
+| goals1=[[Alexander Tettey|Tettey]] {{goal|19}}&lt;br&gt;[[Alexander Søderlund|Søderlund]] {{goal|52}}
+| goals2=
+| stadium=[[Ullevaal Stadion]], [[Oslo]]
+| attendance= 27,120&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/10/10/europe/european-championship-qualification/norway/malta/1653375/?ICID=PL_MS_06|title=Norway vs. Malta - 10 October 2015 - Soccerway|work=soccerway.com|accessdate=15 October 2015}}&lt;/ref&gt;
+| referee=[[Arnold Hunter]] ([[Irish Football Association|Northern Ireland]])
+}}
+&lt;div id=&quot;Croatia v Bulgaria&quot;/&gt;{{Football box
+| date={{Start date|2015|10|10|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|CRO}}
+| score=3–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014047/index.html Report]
+| team2={{fb|BUL}}
+| goals1=[[Ivan Perišić|Perišić]] {{goal|2}}&lt;br&gt;[[Ivan Rakitić|Rakitić]] {{goal|42}}&lt;br&gt;[[Nikola Kalinić|N. Kalinić]] {{goal|81}}
+| goals2=
+| stadium=[[Stadion Maksimir]], [[Zagreb]]
+| attendance=0{{refn|[[Croatia national football team|Croatia]] were deducted one point after charges for racist behaviour in the match against [[Italy national football team|Italy]] at [[Stadion Poljud]]. In addition, the Croatian Football Federation were ordered to play their next two home matches of UEFA competition behind closed doors and not to play any of its remaining qualifying games at Poljud. A fine of €100,000 was also imposed.&lt;ref name=&quot;CROvITA&quot;&gt;{{cite web|url=http://www.uefa.com/uefaeuro/qualifiers/news/newsid=2267337.html|title=Croatia deducted one European Qualifiers point|publisher=UEFA.com|date=23 July 2015}}&lt;/ref&gt; The Croatian Football Federation appealed against the decision and a hearing was scheduled for 17 September 2015. Croatia's appeal was rejected.&lt;ref name=&quot;appeal denied&quot;&gt;{{cite web|url=http://www.uefa.com/uefaeuro/news/newsid=2284498.html|title=Point deduction stands for Croatia|publisher=UEFA.com|date=18 September 2015}}&lt;/ref&gt;|group=&quot;note&quot;|name=&quot;croatia-ban-2&quot;}}
+| referee=[[Artur Soares Dias]] ([[Portuguese Football Federation|Portugal]])
+}}
+----
+&lt;div id=&quot;Bulgaria v Azerbaijan&quot;/&gt;{{Football box
+| date={{Start date|2015|10|13|df=y}}
+| time=20:45&lt;br&gt;(21:45 [[UTC+03:00|UTC+3]])
+| team1={{fb-rt|BUL}}
+| score=2–0
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014071/index.html Report]
+| team2={{fb|AZE}}
+| goals1=[[Mihail Aleksandrov|M. Aleksandrov]] {{goal|20}}&lt;br&gt;[[Dimitar Rangelov|Rangelov]] {{goal|56}}
+| goals2=
+| stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+| attendance= 2,500&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/10/13/europe/european-championship-qualification/bulgaria/azerbaijan/1653400/?ICID=PL_MS_08|title=Bulgaria vs. Azerbaijan - 13 October 2015 - Soccerway|work=soccerway.com|accessdate=15 October 2015}}&lt;/ref&gt;
+| referee=[[Tamás Bognár]] ([[Hungarian Football Federation|Hungary]])
+}}
+&lt;div id=&quot;Italy v Norway&quot;/&gt;{{Football box
+| date={{Start date|2015|10|13|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|ITA}}
+| score=2–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014072/index.html Report]
+| team2={{fb|NOR}}
+| goals1=[[Alessandro Florenzi|Florenzi]] {{goal|73}}&lt;br&gt;[[Graziano Pellè|Pellè]] {{goal|82}}
+| goals2=[[Alexander Tettey|Tettey]] {{goal|23}}
+| stadium=[[Stadio Olimpico]], [[Rome]]
+| attendance= 30,000&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/10/13/europe/european-championship-qualification/italy/norway/1653401/?ICID=PL_MS_09|title=Italy vs. Norway - 13 October 2015 - Soccerway|work=soccerway.com|accessdate=15 October 2015}}&lt;/ref&gt;
+| referee=[[Felix Brych]] ([[German Football Association|Germany]])
+}}
+&lt;div id=&quot;Malta v Croatia&quot;/&gt;{{Football box
+| date={{Start date|2015|10|13|df=y}}
+| time=20:45&lt;br&gt;(20:45 [[UTC+02:00|UTC+2]])
+| team1={{fb-rt|MLT}}
+| score=0–1
+| report=[http://www.uefa.com/uefaeuro/qualifiers/season=2016/matches/round=2000446/match=2014073/index.html Report]
+| team2={{fb|CRO}}
+| goals1=
+| goals2=[[Ivan Perišić|Perišić]] {{goal|25}}
+| stadium=[[Ta' Qali National Stadium|National Stadium]], [[Ta' Qali]]
+| attendance= 5,835&lt;ref&gt;{{cite web|url=http://int.soccerway.com/matches/2015/10/13/europe/european-championship-qualification/malta/croatia/1653402/?ICID=PL_MS_10|title=Malta vs. Croatia - 13 October 2015 - Soccerway|work=soccerway.com|accessdate=15 October 2015}}&lt;/ref&gt;
+| referee=[[Mark Clattenburg]] ([[The Football Association|England]])
+}}
+
+== Goalscorers ==
+;6 goals
+*{{flagicon|CRO}} [[Ivan Perišić]]
+
+;3 goals
+{{Div col|3}}
+*{{flagicon|AZE}} [[Dimitrij Nazarov]]
+*{{flagicon|ITA}} [[Graziano Pellè]]
+*{{flagicon|NOR}} [[Alexander Tettey]]
+{{Div col end}}
+
+;2 goals
+{{Div col|3}}
+*{{flagicon|AZE}} [[Rahid Amirguliyev]]
+*{{flagicon|BUL}} [[Iliyan Mitsanski]]
+*{{flagicon|BUL}} [[Ivelin Popov]]
+*{{flagicon|CRO}} [[Marcelo Brozović]]
+*{{flagicon|CRO}} [[Andrej Kramarić]]
+*{{flagicon|CRO}} [[Luka Modrić]]
+*{{flagicon|ITA}} [[Antonio Candreva]]
+*{{flagicon|ITA}} [[Giorgio Chiellini]]
+*{{flagicon|ITA}} [[Éder Citadin Martins|Éder]]
+*{{flagicon|NOR}} [[Joshua King (footballer)|Joshua King]]
+{{Div col end}}
+
+;1 goal
+{{Div col|3}}
+*{{flagicon|AZE}} [[Javid Huseynov]]
+*{{flagicon|BUL}} [[Mihail Aleksandrov]]
+*{{flagicon|BUL}} [[Nikolay Bodurov]]
+*{{flagicon|BUL}} [[Andrey Galabinov]]
+*{{flagicon|BUL}} [[Ventsislav Hristov]]
+*{{flagicon|BUL}} [[Dimitar Rangelov]]
+*{{flagicon|CRO}} [[Nikola Kalinić]]
+*{{flagicon|CRO}} [[Mario Mandžukić]]
+*{{flagicon|CRO}} [[Ivica Olić]]
+*{{flagicon|CRO}} [[Danijel Pranjić]]
+*{{flagicon|CRO}} [[Ivan Rakitić]]
+*{{flagicon|CRO}} [[Gordon Schildenfeld]]
+*{{flagicon|ITA}} [[Leonardo Bonucci]]
+*{{flagicon|ITA}} [[Matteo Darmian]]
+*{{flagicon|ITA}} [[Daniele De Rossi]]
+*{{flagicon|ITA}} [[Stephan El Shaarawy]]
+*{{flagicon|ITA}} [[Alessandro Florenzi]]
+*{{flagicon|ITA}} [[Simone Zaza]]
+*{{flagicon|MLT}} [[Alfred Effiong]]
+*{{flagicon|MLT}} [[Clayton Failla]]
+*{{flagicon|MLT}} [[Michael Mifsud]]
+*{{flagicon|NOR}} [[Jo Inge Berget]]
+*{{flagicon|NOR}} [[Mats Møller Dæhli]]
+*{{flagicon|NOR}} [[Tarik Elyounoussi]]
+*{{flagicon|NOR}} [[Vegard Forren]]
+*{{flagicon|NOR}} [[Håvard Nielsen]]
+*{{flagicon|NOR}} [[Håvard Nordtveit]]
+*{{flagicon|NOR}} [[Alexander Søderlund]]
+{{Div col end}}
+
+;1 own goal
+{{Div col|2}}
+*{{flagicon|AZE}} [[Rashad Sadygov]] (playing against Croatia)
+*{{flagicon|BUL}} [[Nikolay Bodurov]] (playing against Croatia)
+*{{flagicon|BUL}} [[Yordan Minev]] (playing against Italy)
+*{{flagicon|CRO}} [[Vedran Ćorluka]] (playing against Norway)
+*{{flagicon|ITA}} [[Giorgio Chiellini]] (playing against Azerbaijan)
+{{Div col end}}
+
+== Discipline ==
+
+A player is automatically suspended for the next match for the following offences:&lt;ref name=&quot;regulations&quot;/&gt;
+* Receiving a red card (red card suspensions may be extended for serious offences)
+* Receiving three yellow cards in three different matches, as well as after fifth and any subsequent yellow card (yellow card suspensions are carried forward to the play-offs, but not the finals or any other future international matches)
+The following suspensions were (or will be) served during the qualifying matches:
+
+{| class=&quot;wikitable&quot; style=&quot;font-size:90%&quot;
+|-
+! Team
+! Player
+! Offence(s)
+! Suspended for match(es)
+|-
+| rowspan=2 | {{fb|AZE}} || [[Maksim Medvedev]] || {{sent off|0}} vs Russia (15 October 2013){{refn|The suspension was carried over from the [[2014 FIFA World Cup qualification]].|group=&quot;note&quot;|name=&quot;WCQ&quot;}} || vs Bulgaria (9 September 2014)
+|-
+| [[Badavi Guseynov]] || {{sent off|0}} vs Italy (10 October 2015) || vs Bulgaria (13 October 2015)
+|-
+| rowspan=4 | {{fb|BUL}} || [[Petar Zanev]] || {{sent off|2}} vs Czech Republic (15 October 2013)&lt;ref group=&quot;note&quot; name=&quot;WCQ&quot;/&gt; || vs Azerbaijan (9 September 2014)
+|-
+| [[Svetoslav Dyakov]] || {{yel}} vs Italy (28 March 2015)&lt;br&gt;{{yel}} vs Malta (12 June 2015)&lt;br&gt;{{yel}} vs Italy (6 September 2015) || vs Croatia (10 October 2015)
+|-
+| [[Yordan Minev]] || {{yel}} vs Norway (13 October 2014)&lt;br&gt;{{yel}} vs Norway (3 September 2015)&lt;br&gt;{{yel}} vs Italy (6 September 2015) || vs Croatia (10 October 2015)
+|-
+| [[Iliyan Mitsanski]] || {{sent off|0}} vs Italy (6 September 2015)&lt;ref&gt;{{cite web|url=http://www.sportline.bg/bgfootball/bgfootballother/UEFA-nakaza-Micanski-chak-do-starta-na-svetovnite-kvalifikacii-497075.html|title=УЕФА наказа Мицански чак до старта на световните квалификации|publisher=sportline.bg|date=23 September 2015}}&lt;/ref&gt; || vs Croatia (10 October 2015)&lt;br&gt;vs Azerbaijan (13 October 2015)
+|-
+| rowspan=7 | {{fb|CRO}} || [[Josip Šimunić]] || Discriminatory behaviour vs Iceland (19 November 2013)&lt;ref&gt;{{cite web|url=http://www.fifa.com/aboutfifa/organisation/news/newsid=2246473/|title=Croatian player sanctioned for discriminatory behaviour|publisher=FIFA.com|date=16 December 2013}}&lt;/ref&gt; || vs Malta (9 September 2014)&lt;br&gt;vs Bulgaria (10 October 2014)&lt;br&gt;vs Azerbaijan (13 October 2014)&lt;br&gt;vs Italy (16 November 2014)&lt;br&gt;vs Norway (28 March 2015)&lt;br&gt;vs Italy (12 June 2015)&lt;br&gt;vs Azerbaijan (3 September 2015)
+|-
+| [[Ante Rebić]] || {{sent off|0}} vs Mexico (23 June 2014){{refn|The suspension was carried over from the [[2014 FIFA World Cup]].&lt;ref name=&quot;world cup&quot;&gt;{{cite web|url=http://www.fifa.com/worldcup/news/y=2014/m=8/news=update-on-fifa-disciplinary-committee-decisions-on-world-2416083.html|title=Update on FIFA Disciplinary Committee decisions on World Cup cases|publisher=FIFA.com|date=4 August 2014}}&lt;/ref&gt;|group=&quot;note&quot;|name=&quot;WC&quot;}} || vs Malta (9 September 2014)
+|-
+| [[Vedran Ćorluka]] || {{sent off|2}} vs Norway (28 March 2015) || vs Italy (12 June 2015)
+|-
+| [[Darijo Srna]] || {{sent off|2}} vs Italy (12 June 2015) || vs Azerbaijan (3 September 2015)
+|-
+| [[Mateo Kovačić]] || {{yel}} vs Italy (16 November 2014)&lt;br&gt;{{yel}} vs Italy (12 June 2015)&lt;br&gt;{{yel}} vs Azerbaijan (3 September 2015) || vs Norway (6 September 2015)
+|-
+| [[Ivica Olić]] || {{yel}} vs Bulgaria (10 October 2014)&lt;br&gt;{{yel}} vs Italy (12 June 2015)&lt;br&gt;{{yel}} vs Norway (6 September 2015) || vs Bulgaria (10 October 2015)
+|-
+| [[Duje Čop]] || {{sent off|0}} vs Bulgaria (10 October 2015) || vs Malta (13 October 2015)
+|-
+| rowspan=3 | {{fb|ITA}} || [[Claudio Marchisio]] || {{sent off|0}} vs Uruguay (24 June 2014)&lt;ref group=&quot;note&quot; name=&quot;WC&quot;/&gt; || vs Norway (9 September 2014)
+|-
+| [[Leonardo Bonucci]] || {{sent off|0}} vs Malta (13 October 2014) || vs Croatia (16 November 2014)
+|-
+| [[Daniele De Rossi]] || {{sent off|0}} vs Bulgaria (6 September 2015)&lt;ref&gt;{{cite web|url=http://vivoazzurro.it/en/figcnews/sabato-i-convocati-per-le-gare-con-azerbaigian-e-norvegia-azzurri-dall11-a-roma-2/|title=Squad for European qualifiers against Azerbaijan and Norway to be announced on Saturday|publisher=http://vivoazzurro.it/|date=29 September 2015}}&lt;/ref&gt; || vs Azerbaijan (10 October 2015)&lt;br&gt;vs Norway (13 October 2015)
+|-
+| rowspan=3 | {{fb|MLT}} || [[Steve Borg]] || {{sent off|0}} vs Croatia (9 September 2014)&lt;ref&gt;{{cite web|url=http://www.timesofmalta.com/articles/view/20140924/football/Borg-handed-three-match-suspension-by-UEFA.537004|title=Borg handed three-match suspension by UEFA|publisher=Times of Malta|date=24 September 2014}}&lt;/ref&gt; || vs Norway (10 October 2014)&lt;br&gt;vs Italy (13 October 2014)&lt;br&gt;vs Bulgaria (16 November 2014)
+|-
+| [[Michael Mifsud]] || {{sent off|0}} vs Italy (13 October 2014)&lt;ref&gt;{{cite web|url=http://www.timesofmalta.com/articles/view/20150303/football/Effiong-feels-he-needs-to-prove-himself-to-national-team-coach.558322|title=Effiong feels he needs to prove himself to national team coach|publisher=Times of Malta|date=3 March 2015}}&lt;/ref&gt; || vs Bulgaria (16 November 2014)&lt;br&gt;vs Azerbaijan (28 March 2015)
+|-
+| [[Paul Fenech (footballer)|Paul Fenech]] || {{yel}} vs Bulgaria (16 November 2014)&lt;br&gt;{{yel}} vs Bulgaria (12 June 2015)&lt;br&gt;{{yel}} vs Italy (3 September 2015) || vs Azerbaijan (6 September 2015)
+|-
+| {{fb|NOR}} || [[Tarik Elyounoussi]] || {{yel}} vs Bulgaria (13 October 2014)&lt;br&gt;{{yel}} vs Azerbaijan (16 November 2014)&lt;br&gt;{{yel}} vs Croatia (28 March 2015) || vs Azerbaijan (12 June 2015)
+|}
+
+== Notes ==
+{{reflist|group=&quot;note&quot;}}
+
+== References ==
+{{reflist|30em}}
+
+== External links ==
+* [http://www.uefa.com/uefaeuro/qualifiers/season=2016/standings/round=2000446/group=2002435/index.html UEFA Euro 2016 qualifying round Group H]
+
+{{UEFA Euro 2016 qualifying}}
+
+{{DEFAULTSORT:Euro 2016}}
+[[Category:UEFA Euro 2016 qualifying|Group H]]
+[[Category:2014–15 in Italian football]]
+[[Category:2015–16 in Italian football]]
+[[Category:2014–15 in Croatian football]]
+[[Category:2015–16 in Croatian football]]
+[[Category:2014–15 in Azerbaijani football]]
+[[Category:2015–16 in Azerbaijani football]]
+[[Category:2014–15 in Maltese football]]
+[[Category:2015–16 in Maltese football]]
+[[Category:2014–15 in Bulgarian football]]
+[[Category:2015–16 in Bulgarian football]]
+[[Category:2014 in Norwegian football]]
+[[Category:2015 in Norwegian football]]</text>
+      <sha1>74y7x8qmwkmm1s8t8s5uyw53cclra8q</sha1>
+    </revision>
+  </page>
+</mediawiki>

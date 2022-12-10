@@ -1,0 +1,465 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group G</title>
+    <ns>0</ns>
+    <id>27005100</id>
+    <revision>
+      <id>711290293</id>
+      <parentid>672728020</parentid>
+      <timestamp>2016-03-22T00:20:55Z</timestamp>
+      <contributor>
+        <username>Daxion</username>
+        <id>10131337</id>
+      </contributor>
+      <minor/>
+      <comment>/* Attendances */ correction of England Total and Ave Crowds</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="22769">{{Use dmy dates|date=March 2012}}
+This page shows the standings and results for '''Group G''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group G |url=http://www.uefa.com/uefaeuro/season=2012/standings/round=15171/group=700963/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+== Standings ==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|- style=&quot;background:#cfc;&quot;
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|- style=&quot;background:#ccf;&quot;
+| Advanced to the [[UEFA Euro 2012 qualifying play-offs|play-offs]]
+|}
+{{UEFA Euro 2012 qualifying Group G
+|expanded=no
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+A meeting was held in [[Zürich]], [[Switzerland]], on 15 March to determine the Group G fixture schedule.&lt;ref&gt;{{cite news |title=Draw to decide qualification fixtures |url=http://www.thefa.com/England/News/2010/Euro2012FixturesMeeting |work=TheFA.com |publisher=The Football Association |date=15 March 2010 |accessdate=26 March 2010 }}&lt;/ref&gt;&lt;ref&gt;{{cite news |title=News - Euro 2012 - Group G Fixtures Meeting |url=http://www.faw.org.uk/news/1641 |work=faw.org.uk |publisher=Football Association of Wales |date=15 March 2010 |accessdate=26 March 2010 }}&lt;/ref&gt; After that meeting proved inconclusive, the fixture list was determined by what [[Sepp Blatter]] described as ''&quot;a random draw at the XXXIV Ordinary UEFA Congress in [[Tel Aviv]], [[Israel]], on 25 March 2010&quot;''.&lt;ref&gt;{{cite news |title=Fixtures draw completes qualifying schedule |url=http://www.uefa.com/uefaeuro2012/news/newsid=1467876.html |work=UEFA.com |publisher=Union of European Football Associations |date=25 March 2010 |accessdate=25 March 2010 }}&lt;/ref&gt;
+
+&lt;div id=&quot;Montenegro v Wales&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 19:30 [[UTC+2]]
+|team1 = {{fb-rt|MNE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002296/postmatch/report/index.html Report]
+|team2 = {{fb|WAL}}
+|goals1 = [[Mirko Vučinić|Vučinić]] {{goal|30}} 
+|goals2 =
+|stadium = [[Podgorica City Stadium]], [[Podgorica]]
+|attendance = 7,442&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/montenegro/wales/922649/ |title=Montenegro vs. Wales - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = Anastasios Kakos ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;England v Bulgaria&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}
+|score = 4–0 
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002278/postmatch/report/index.html Report]
+|team2 = {{fb|BUL}}
+|goals1 = [[Jermain Defoe|Defoe]] {{goal|3||61||86}}&lt;br/&gt;[[Adam Johnson (footballer)|A. Johnson]] {{goal|83}}
+|stadium = [[Wembley Stadium]], [[London]]
+|attendance = 73,426&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/england/bulgaria/922650/ |title=England vs. Bulgaria - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]]) }}
+----
+&lt;div id=&quot;Bulgaria v Montenegro&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:30 [[UTC+3]]
+|team1 = {{fb-rt|BUL}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002288/postmatch/report/index.html Report]
+|team2 = {{fb|MNE}}
+|goals2 = [[Elsad Zverotić|Zverotić]] {{goal|35}}
+|stadium = [[Vasil Levski National Stadium]], [[Sofia]]
+|attendance = 9,470&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/bulgaria/montenegro/922652/ |title=Bulgaria vs. Montenegro - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Vladislav Bezborodov]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Switzerland v England&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SUI}}
+|score = 1–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002281/postmatch/report/index.html Report]
+|team2 = {{fb|ENG}}
+|goals1 = [[Xherdan Shaqiri|Shaqiri]] {{goal|71}}
+|goals2 = [[Wayne Rooney|Rooney]] {{goal|10}}&lt;br/&gt; [[Adam Johnson (footballer)|A. Johnson]] {{goal|69}}&lt;br/&gt; [[Darren Bent|Bent]] {{goal|88}}
+|stadium = [[St. Jakob Park]], [[Basel]]
+|attendance = 37,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/switzerland/england/922654/ |title=Switzerland vs. England - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Nicola Rizzoli]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Montenegro v Switzerland&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|MNE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002294/postmatch/report/index.html Report]
+|team2 = {{fb|SUI}}
+|goals1 = [[Mirko Vučinić|Vučinić]] {{goal|67}}
+|stadium = [[Podgorica City Stadium]], [[Podgorica]]
+|attendance = 10,750&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/montenegro/switzerland/922656/ |title=Montenegro vs. Switzerland - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Eduardo Iturralde González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Wales v Bulgaria&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 19:30 [[UTC+1]]
+|team1 = {{fb-rt|WAL}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002291/postmatch/report/index.html Report]
+|team2 = {{fb|BUL}}
+|goals2 = [[Ivelin Popov|I. Popov]] {{goal|48}}
+|stadium = [[Cardiff City Stadium]], [[Cardiff]] 
+|attendance = 14,061&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/wales/bulgaria/922658/ |title=Wales vs. Bulgaria - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Jonas Eriksson (referee)|Jonas Eriksson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Switzerland v Wales&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SUI}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002283/postmatch/report/index.html Report]
+|team2 = {{fb|WAL}}
+|goals1 = [[Valentin Stocker|Stocker]] {{goal|8||89}}&lt;br/&gt;[[Marco Streller|Streller]] {{goal|21}}&lt;br/&gt;[[Gökhan Inler|Inler]] {{goal|82|pen.}}
+|goals2 = [[Gareth Bale|Bale]] {{goal|13}}
+|stadium = [[St. Jakob Park]], [[Basel]]
+|attendance = 26,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/switzerland/wales/922662/ |title=Switzerland vs. Wales - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Alain Hamer]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;England v Montenegro&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002280/postmatch/report/index.html Report]
+|team2 = {{fb|MNE}}
+|stadium = [[Wembley Stadium]], [[London]]
+|attendance = 73,451&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/england/montenegro/922660/ |title=England vs. Montenegro - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = Manuel Gräfe ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Wales v England&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 15:00 [[UTC]]
+|team1 = {{fb-rt|WAL}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002289/postmatch/report/index.html Report]
+|team2 = {{fb|ENG}}
+|goals2 = [[Frank Lampard|Lampard]] {{goal|7|pen.}}&lt;br/&gt;[[Darren Bent|Bent]] {{goal|15}}
+|stadium = [[Millennium Stadium]], [[Cardiff]] 
+|attendance = 68,959&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/26/europe/european-championships/wales/england/922664/ |title=Wales vs. England - 26 March 2011 |publisher=Soccerway |date=2011-03-26 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Bulgaria v Switzerland&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 18:45 [[UTC+2]]
+|team1 = {{fb-rt|BUL}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002286/postmatch/report/index.html Report]
+|team2 = {{fb|SUI}}
+|stadium = [[Vasil Levski National Stadium]], [[Sofia]]
+|attendance = 9,600&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/26/europe/european-championships/bulgaria/switzerland/922666/ |title=Bulgaria vs. Switzerland - 26 March 2011 |publisher=Soccerway |date=2011-03-26 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[William Collum (referee)|William Collum]] ([[Scottish Football Association|Scotland]]) }}
+----
+&lt;div id=&quot;England v Switzerland&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 16:45 [[UTC+1]] 
+|team1 = {{fb-rt|ENG}}
+|score = 2–2
+|report = [http://en.uefa.com/uefaeuro2012/matches/season=2012/round=15171/match=2002277/postmatch/report/index.html Report]
+|team2 = {{fb|SUI}}
+|goals1 = [[Frank Lampard|Lampard]] {{goal|37|pen.}}&lt;br /&gt;[[Ashley Young|Young]] {{goal|51}}
+|goals2 = [[Tranquillo Barnetta|Barnetta]] {{goal|32||35}}
+|stadium = [[Wembley Stadium]], [[London]]
+|attendance = 84,459&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/04/europe/european-championships/england/switzerland/922671/ |title=England vs. Switzerland - 4 June 2011 |publisher=Soccerway |date=2011-06-04 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Montenegro v Bulgaria&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|MNE}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002295/postmatch/report/index.html Report]
+|team2 = {{fb|BUL}}
+|goals1 = [[Radomir Đalović|Đalović]] {{goal|53}}
+|goals2 = [[Ivelin Popov|I. Popov]] {{goal|66}}
+|stadium = [[Podgorica City Stadium]], [[Podgorica]]
+|attendance = 11,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/04/europe/european-championships/montenegro/bulgaria/922670/ |title=Montenegro vs. Bulgaria - 4 June 2011 |publisher=Soccerway |date=2011-06-04 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Alon Yefet]] ([[Israel Football Association|Israel]]) }}
+----
+&lt;div id=&quot;Bulgaria v England&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 21:15 [[UTC+3]]
+|team1 = {{fb-rt|BUL}}
+|score = 0–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002285/postmatch/report/index.html Report]
+|team2 = {{fb|ENG}}
+|goals2 = [[Gary Cahill|Cahill]] {{goal|13}} &lt;br&gt; [[Wayne Rooney|Rooney]] {{goal|21||45+1}}
+|stadium = [[Vasil Levski National Stadium]], [[Sofia]]
+|attendance = 27,230&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/bulgaria/england/922674/ |title=Bulgaria vs. England - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee =[[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Wales v Montenegro&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|WAL}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002292/postmatch/report/index.html Report]
+|team2 = {{fb|MNE}}
+|goals1 = [[Steve Morison|Morison]] {{goal|28}} &lt;br&gt; [[Aaron Ramsey|Ramsey]] {{goal|50}}
+|goals2 = [[Stevan Jovetić|Jovetić]] {{goal|71}}
+|stadium = [[Cardiff City Stadium]], [[Cardiff]]
+|attendance =8,194&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/wales/montenegro/922672/ |title=Wales vs. Montenegro - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee =Luca Banti ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Switzerland v Bulgaria&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SUI}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002282/postmatch/report/index.html Report]
+|team2 = {{fb|BUL}}
+|goals1 = [[Xherdan Shaqiri|Shaqiri]] {{goal|45+2||62||90}} 
+|goals2 = [[Ivan Ivanov (footballer)|I. Ivanov]] {{goal|8}}
+|stadium = [[St. Jakob Park]], [[Basel]]
+|attendance =16,880&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/switzerland/bulgaria/922678/ |title=Switzerland vs. Bulgaria - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee =[[Pavel Kralovec]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+
+&lt;div id=&quot;England v Wales&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002279/postmatch/report/index.html Report]
+|team2 = {{fb|WAL}}
+|goals1 = [[Ashley Young|Young]] {{goal|35}} 
+|stadium = [[Wembley Stadium]], [[London]]
+|attendance =77,128&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/england/wales/922676/ |title=England vs. Wales - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee =Robert Schörgenhofer ([[Austrian Football Association|Austria]]) }}
+----
+&lt;div id=&quot;Wales v Switzerland&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|WAL}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002290/postmatch/report/index.html Report]
+|team2 = {{fb|SUI}}
+|goals1 = [[Aaron Ramsey|Ramsey]] {{goal|60|pen.}} &lt;br /&gt; [[Gareth Bale|Bale]] {{goal|71}}
+|goals2 = 
+|stadium = [[Liberty Stadium]], [[Swansea]] 
+|attendance = 12,317&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/wales/switzerland/922681/ |title=Wales vs. Switzerland - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Björn Kuipers]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Montenegro v England&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 21:00 [[UTC+2]]
+|team1 = {{fb-rt|MNE}}
+|score = 2–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002293/postmatch/report/index.html Report]
+|team2 = {{fb|ENG}}
+|goals1 = [[Elsad Zverotić|Zverotić]] {{goal|45}} &lt;br /&gt; [[Andrija Delibašić|Delibašić]] {{goal|90+1}}
+|goals2 = [[Ashley Young|Young]] {{goal|11}} &lt;br&gt; [[Darren Bent|Bent]] {{goal|31}}
+|stadium = [[Podgorica City Stadium]], [[Podgorica]]
+|attendance = 11,340&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/montenegro/england/922680/ |title=Montenegro vs. England - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee = [[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Bulgaria v Wales&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 21:05 [[UTC+3]]
+|team1 = {{fb-rt|BUL}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002287/postmatch/report/index.html Report]
+|team2 = {{fb|WAL}}
+|goals1 = 
+|goals2 = [[Gareth Bale|Bale]] {{goal|45}}
+|stadium = [[Vasil Levski National Stadium]], [[Sofia]]
+|attendance = 1,672&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/bulgaria/wales/922682/ |title=Bulgaria vs. Wales - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee =[[Paweł Gil]] ([[Polish Football Association|Poland]]) }}
+
+&lt;div id=&quot;Switzerland v Montenegro&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SUI}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002284/postmatch/report/index.html Report]
+|team2 = {{fb|MNE}}
+|goals1 = [[Eren Derdiyok|Derdiyok]] {{goal|51}} &lt;br /&gt; [[Stephan Lichtsteiner|Lichtsteiner]] {{goal|65}}
+|goals2 = 
+|stadium = [[St. Jakob Park]], [[Basel]]
+|attendance = 19,997&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/switzerland/montenegro/922684/ |title=Switzerland vs. Montenegro - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2012-06-06}}&lt;/ref&gt;
+|referee =[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+== Goalscorers ==
+;4 goals
+* {{flagicon|SUI}} [[Xherdan Shaqiri]]
+
+;3 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|ENG}} [[Darren Bent]]
+* {{flagicon|ENG}} [[Jermain Defoe]] 
+{{Col-3}}
+* {{flagicon|ENG}} [[Wayne Rooney]]
+* {{flagicon|ENG}} [[Ashley Young]]
+{{Col-3}}
+* {{flagicon|WAL}} [[Gareth Bale]] 
+{{Col-end}}
+
+;2 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|BUL}} [[Ivelin Popov]] 
+* {{flagicon|ENG}} [[Adam Johnson (footballer) |Adam Johnson]] 
+* {{flagicon|ENG}} [[Frank Lampard]]
+{{Col-3}}
+* {{flagicon|MNE}} [[Mirko Vučinić]] 
+* {{flagicon|MNE}} [[Elsad Zverotić]] 
+* {{flagicon|SUI}} [[Tranquillo Barnetta]] 
+{{Col-3}}
+* {{flagicon|SUI}} [[Valentin Stocker]] 
+* {{flagicon|WAL}} [[Aaron Ramsey]]
+{{Col-end}}
+
+;1 goal
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|BUL}} [[Ivan Ivanov (footballer)|Ivan Ivanov]]
+* {{flagicon|ENG}} [[Gary Cahill]]
+* {{flagicon|MNE}} [[Radomir Đalović]]
+* {{flagicon|MNE}} [[Andrija Delibašić]]
+{{Col-3}}
+* {{flagicon|MNE}} [[Stevan Jovetić]]
+* {{flagicon|SUI}} [[Eren Derdiyok]]
+* {{flagicon|SUI}} [[Gökhan Inler]] 
+{{Col-3}}
+* {{flagicon|SUI}} [[Stephan Lichtsteiner]]
+* {{flagicon|SUI}} [[Marco Streller]] 
+* {{flagicon|WAL}} [[Steve Morison]]
+{{Col-end}}
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|BUL}} || style=&quot;text-align:center;&quot;| 27,230 || style=&quot;text-align:center;&quot;| 1,672 || style=&quot;text-align:center;&quot;| 47,972 || style=&quot;text-align:center;&quot;| '''11,993'''
+|-
+| {{fb|ENG}} || style=&quot;text-align:center;&quot;| 84,459|| style=&quot;text-align:center;&quot;| 73,426 || style=&quot;text-align:center;&quot;| 308,284 || style=&quot;text-align:center;&quot;| '''77,071'''
+|-
+| {{fb|MNE}} || style=&quot;text-align:center;&quot;| 11,500 || style=&quot;text-align:center;&quot;| 7,442 || style=&quot;text-align:center;&quot;| 41,032 || style=&quot;text-align:center;&quot;| '''10,258'''
+|-
+| {{fb|SWI}} || style=&quot;text-align:center;&quot;| 37,500 || style=&quot;text-align:center;&quot;| 16,880 || style=&quot;text-align:center;&quot;| 100,377 || style=&quot;text-align:center;&quot;| '''25,094'''
+|-
+| {{fb|WAL}} || style=&quot;text-align:center;&quot;| 68,959 || style=&quot;text-align:center;&quot;| 8,194 || style=&quot;text-align:center;&quot;| 103,531 || style=&quot;text-align:center;&quot;| '''25,883'''
+|}
+
+== Discipline ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! {{yel}}
+! {{sent off}}
+! Suspended for match(es)
+! Reason
+|-
+| DF || [[Stephan Lichtsteiner]] || style=&quot;text-align:left;&quot;| {{fb|SUI}} || 4 || 1 || vs Montenegro (8 October 2010) || Sent off in a [[UEFA Euro 2012 qualifying]] match&lt;br /&gt;Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Zhivko Milanov]] ||align=&quot;left&quot;| {{fb|BUL}} || 3 || 1 || vs Wales (7 October 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| FW || [[Wayne Rooney]] ||align=&quot;left&quot;| {{fb|ENG}} || 2 || 1 || vs Switzerland (4 June 2011)&lt;br /&gt;First two [[UEFA Euro 2012]] group matches || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| MF || [[Milorad Peković]] ||align=&quot;left&quot;| {{fb|MNE}} || 4 || 0 || vs Switzerland (8 October 2010 and 11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Blagoy Georgiev]] ||align=&quot;left&quot;| {{fb|BUL}} || 3 || 0 || vs Montenegro (4 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[James Milner]] ||align=&quot;left&quot;| {{fb|ENG}} || 3 || 0 || vs Montenegro (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Simon Vukčević]] ||align=&quot;left&quot;| {{fb|MNE}} || 3 || 0 || vs Bulgaria (4 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Valon Behrami]] ||align=&quot;left&quot;| {{fb|SUI}} || 3 || 0 || vs Bulgaria (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Miodrag Džudović]] || style=&quot;text-align:left;&quot;| {{fb|MNE}} || 2 || 0 || vs Bulgaria (4 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Savo Pavićević]] || style=&quot;text-align:left;&quot;| {{fb|MNE}} || 2 || 0 || vs Wales (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Milorad Peković]] || style=&quot;text-align:left;&quot;| {{fb|MNE}} || 2 || 0 || vs Switzerland (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Johan Djourou]] ||align=&quot;left&quot;| {{fb|SUI}} || 2 || 0 || vs Wales (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Craig Bellamy]] || style=&quot;text-align:left;&quot;| {{fb|WAL}} || 2 || 0 || vs England (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[James Collins (footballer born 1983)|James Collins]] || style=&quot;text-align:left;&quot;| {{fb|WAL}} || 2 || 0 || vs Montenegro (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Sam Ricketts]] || style=&quot;text-align:left;&quot;| {{fb|WAL}} || 2 || 0 || vs Switzerland (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[David Vaughan (footballer)|David Vaughan]] || style=&quot;text-align:left;&quot;| {{fb|WAL}} || 2 || 0 || vs England (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Ashley Williams (footballer)|Ashley Williams]] || style=&quot;text-align:left;&quot;| {{fb|WAL}} || 2 || 0 || vs England (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|}
+
+== References ==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group G]]
+[[Category:2010–11 in English football]]
+[[Category:England at UEFA Euro 2012|qual]]
+[[Category:2010–11 in Welsh football]]
+[[Category:2011–12 in Welsh football]]
+[[Category:2010–11 in Bulgarian football]]
+[[Category:2011–12 in Bulgarian football]]
+[[Category:2010–11 in Swiss football]]
+[[Category:2011–12 in Swiss football]]
+[[Category:2010–11 in Montenegrin football]]
+[[Category:2011–12 in Montenegrin football]]</text>
+      <sha1>sueytk4vge8p9dvgmvrhijklgb6myqr</sha1>
+    </revision>
+  </page>
+</mediawiki>

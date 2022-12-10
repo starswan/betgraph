@@ -1,0 +1,640 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group F</title>
+    <ns>0</ns>
+    <id>26105434</id>
+    <revision>
+      <id>645004031</id>
+      <parentid>613651604</parentid>
+      <timestamp>2015-01-31T16:20:18Z</timestamp>
+      <contributor>
+        <username>Djln</username>
+        <id>547792</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="30725">This page shows the standings and results for '''Group F''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group F |url=http://www.uefa.com/uefaeuro/season=2012/standings/round=15171/group=700962/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|-bgcolor=#ccffcc
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|-bgcolor=#ccccff
+| Advanced to the [[UEFA Euro 2012 qualifying play-offs|play-offs]]
+|}
+{{UEFA Euro 2012 qualifying Group F
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+Group F fixtures were to be finalised at a meeting between the participants in [[Athens]], [[Greece]] on 7 March 2010.&lt;ref&gt;[http://www.sportnet.hr/vijesti/392127/nogomet-reprezentacija/i-wales-testira-hrvatsku Croatia and Wales Friendly (in Croatian)]&lt;/ref&gt; After that meeting proved inconclusive, the fixture list was determined by a random draw at the XXXIV Ordinary UEFA Congress in [[Tel Aviv]], [[Israel]], on 25 March.&lt;ref&gt;{{cite news |title=Fixtures draw completes qualifying schedule |url=http://www.uefa.com/uefaeuro2012/news/newsid=1467876.html |work=UEFA.com |publisher=Union of European Football Associations |date=25 March 2010 |accessdate=25 March 2010 }}&lt;/ref&gt;
+
+&lt;div id=&quot;Israel v Malta&quot;/&gt;{{footballbox
+|date = 2 September 2010
+|time = 21:15 [[UTC+3]]
+|team1 = {{fb-rt|ISR}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002261/postmatch/report/index.html Report]
+|team2 = {{fb|MLT}}
+|goals1 = [[Yossi Benayoun|Benayoun]] {{goal|7||64|pen.|75}}
+|goals2 = [[Jamie Pace|Pace]] {{goal|38}}
+|stadium = [[Ramat Gan Stadium]], [[Ramat Gan]]
+|attendance = 17,365&lt;ref&gt;[http://www.soccerway.com/matches/2010/09/02/europe/european-championships/israel/malta/922635/ Israel vs. Malta - 2 September 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Saïd Ennjimi]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Latvia v Croatia&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|LVA}}
+|score = 0–3 
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002262/postmatch/report/index.html Report]
+|team2 = {{fb|CRO}}
+|goals2 = [[Mladen Petrić|Petrić]] {{goal|43}}&lt;br /&gt;[[Ivica Olić|Olić]] {{goal|51}}&lt;br /&gt;[[Darijo Srna|Srna]] {{goal|82}}
+|stadium = [[Skonto Stadium]], [[Riga]]
+|attendance = 7,600&lt;ref&gt;[http://www.soccerway.com/matches/2010/09/03/europe/european-championships/latvia/croatia/922636/ Latvia vs. Croatia - 3 September 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Björn Kuipers]] ([[Royal Netherlands Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Greece v Georgia&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 21:45 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002255/postmatch/report/index.html Report]
+|team2 = {{fb|GEO}}
+|goals1 = [[Nikos Spyropoulos|Spyropoulos]] {{goal|72}}
+|goals2 = [[Aleksandr Iashvili|Iashvili]] {{goal|3}}
+|stadium = [[Karaiskakis Stadium]], [[Piraeus]]
+|attendance = 14,794&lt;ref&gt;[http://www.soccerway.com/matches/2010/09/03/europe/european-championships/greece/georgia/922634/ Greece vs. Georgia - 3 September 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Carlos Clos Gómez]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Georgia v Israel&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 21:00 [[UTC+4]]
+|team1 = {{fb-rt|GEO}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002269/postmatch/report/index.html Report]
+|team2 = {{fb|ISR}}
+|stadium = [[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance = 45,000&lt;ref&gt;[http://www.soccerway.com/matches/2010/09/07/europe/european-championships/georgia/israel/922637/ Georgia vs. Israel - 7 September 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Sascha Kever]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Malta v Latvia&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 19:30 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002276/postmatch/report/index.html Report]
+|team2 = {{fb|LVA}}
+|goals2 = [[Kaspars Gorkšs|Gorkšs]] {{goal|43}}&lt;br /&gt;[[Maris Verpakovskis|Verpakovskis]] {{goal|85}}
+|stadium = [[Ta'Qali Stadium]], [[Ta'Qali]] 
+|attendance = 6,255&lt;ref&gt;[http://www.soccerway.com/matches/2010/09/07/europe/european-championships/malta/latvia/922638/ Malta vs. Latvia - 7 September 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Tony Asumaa]] ([[Football Association of Finland|Finland]]) }}
+
+&lt;div id=&quot;Croatia v Greece&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|CRO}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002247/postmatch/report/index.html Report]
+|team2 = {{fb|GRE}}
+|stadium = [[Maksimir Stadium]], [[Zagreb]]
+|attendance = 24,399&lt;ref&gt;[http://www.soccerway.com/matches/2010/09/07/europe/european-championships/croatia/greece/922639/ Croatia vs. Greece - 7 September 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Claus Bo Larsen]] ([[Danish Football Association|Denmark]]) }}
+----
+&lt;div id=&quot;Georgia v Malta&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 21:00 [[UTC+4]]
+|team1 = {{fb-rt|GEO}}
+|score = 1–0
+|report =[http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002271/postmatch/report/index.html Report]
+|team2 = {{fb|MLT}}
+|goals1 = [[David Siradze|Siradze]] {{goal|90+1}}
+|stadium = [[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance = 38,000&lt;ref&gt;[http://www.soccerway.com/matches/2010/10/08/europe/european-championships/georgia/malta/922641/ Georgia vs. Malta - 8 October 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Alan Black (referee)|Alan Black]] ([[Irish Football Association|Northern Ireland]]) }}
+
+&lt;div id=&quot;Greece v Latvia&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 21:45 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002254/postmatch/report/index.html Report]
+|team2 = {{fb|LVA}}
+|goals1 = [[Vasilis Torosidis|Torosidis]] {{goal|58}}
+|stadium = [[Karaiskakis Stadium]], [[Piraeus]]
+|attendance = 13,520&lt;ref&gt;[http://www.soccerway.com/matches/2010/10/08/europe/european-championships/greece/latvia/922640/ Greece vs. Latvia - 8 October 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Antonio Damato]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Israel v Croatia&quot;/&gt;{{footballbox
+|date = 9 October 2010
+|time = 20:30 [[UTC+3]]
+|team1 = {{fb-rt|ISR}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002257/postmatch/report/index.html Report]
+|team2 = {{fb|CRO}}
+|goals1 = [[Itay Shechter|Shechter]] {{goal|81}}
+|goals2 = [[Niko Kranjčar|Kranjčar]] {{goal|36|pen.|41}}
+|stadium = [[Ramat Gan Stadium]], [[Ramat Gan]]
+|attendance = 33,421&lt;ref&gt;[http://www.soccerway.com/matches/2010/10/09/europe/european-championships/israel/croatia/922642/ Israel vs. Croatia - 9 October 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Latvia v Georgia&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|LVA}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002265/postmatch/report/index.html Report]
+|team2 = {{fb|GEO}}
+|goals1 = [[Aleksandrs Cauņa|Cauņa]] {{goal|90+1}}
+|goals2 = [[David Siradze|Siradze]] {{goal|74}}
+|stadium = [[Skonto Stadium]], [[Riga]]
+|attendance = 4,330&lt;ref&gt;[http://www.soccerway.com/matches/2010/10/12/europe/european-championships/latvia/georgia/922644/ Latvia vs. Georgia - 12 October 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Manuel De Sousa]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Greece v Israel&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 21:45 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002253/postmatch/report/index.html Report]
+|team2 = {{fb|ISR}}
+|goals1 = [[Dimitris Salpingidis|Salpingidis]] {{goal|22}}&lt;br&gt; [[Georgios Karagounis|Karagounis]] {{goal|63|pen.}}
+|goals2 = [[Nikos Spyropoulos|Spyropoulos]] {{goal|59|o.g.}}
+|stadium = [[Karaiskakis Stadium]], [[Piraeus]]
+|attendance = 16,935&lt;ref&gt;[http://www.soccerway.com/matches/2010/10/12/europe/european-championships/greece/israel/922643/ Greece vs. Israel - 12 October 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Croatia v Malta&quot;/&gt;{{footballbox
+|date = 17 November 2010
+|time = 17:30 [[UTC+1]]
+|team1 = {{fb-rt|CRO}}
+|score = 3–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002251/postmatch/report/index.html Report]
+|team2 = {{fb|MLT}}
+|goals1 = [[Niko Kranjčar|Kranjčar]] {{goal|19||42}}&lt;br&gt;[[Nikola Kalinić|Kalinić]] {{goal|81}}
+|stadium = [[Stadion Maksimir]], [[Zagreb]] 
+|attendance = 9,000&lt;ref&gt;[http://www.soccerway.com/matches/2010/11/17/europe/european-championships/croatia/malta/922645/ Croatia vs. Malta - 17 November 2010 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Duarte Gomes]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;Georgia v Croatia&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 21:00 [[UTC+4]]
+|team1 = {{fb-rt|GEO}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002267/postmatch/report/index.html Report]
+|team2 = {{fb|CRO}}
+|goals1 = [[Levan Kobiashvili|Kobiashvili]] {{goal|90}}
+|stadium = [[Boris Paichadze Stadium]], [[Tbilisi]]
+|attendance = 54,500&lt;ref&gt;[http://www.soccerway.com/matches/2011/03/26/europe/european-championships/georgia/croatia/922646/ Georgia vs. Croatia - 26 March 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Paolo Tagliavento]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Israel v Latvia&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 21:00 [[UTC+2]]
+|team1 = {{fb-rt|ISR}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002259/postmatch/report/index.html Report]
+|team2 = {{fb|LVA}}
+|goals1 = [[Elyaniv Barda|Barda]] {{goal|16}}&lt;br/&gt;[[Biram Kayal|Kayal]] {{goal|81}}
+|goals2 = [[Kaspars Gorkšs|Gorkšs]] {{goal|62}}
+|stadium = [[Bloomfield Stadium]], [[Tel Aviv]]
+|attendance = 10,801&lt;ref&gt;[http://www.soccerway.com/matches/2011/03/26/europe/european-championships/israel/latvia/922647/ Israel vs. Latvia - 26 March 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Milorad Mažić]] ([[Football Association of Serbia|Serbia]]) }}
+
+&lt;div id=&quot;Malta v Greece&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 20:30 [[UTC+1]]
+|team1 = {{fb-rt|MLT}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002273/postmatch/report/index.html Report]
+|team2 = {{fb|GRE}}
+|goals2 =  [[Vasilis Torosidis|Torosidis]] {{goal|90+4}}
+|stadium = [[Ta'Qali Stadium]], [[Ta'Qali]] 
+|attendance = 10,605&lt;ref&gt;[http://www.soccerway.com/matches/2011/03/26/europe/european-championships/malta/greece/922648/ Malta vs. Greece - 26 March 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Michael Weiner (referee)|Michael Weiner]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Israel v Georgia&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 21:05 [[UTC+2]]
+|team1 = {{fb-rt|ISR}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002260/postmatch/report/index.html Report]
+|team2 = {{fb|GEO}}
+|goals1 = [[Tal Ben Haim (footballer born 1989)|Ben Haim II]] {{goal|59}}
+|stadium = [[Bloomfield Stadium]], [[Tel Aviv]]
+|attendance = 13,716&lt;ref&gt;[http://www.soccerway.com/matches/2011/03/29/europe/european-championships/israel/georgia/922669/ Israel vs. Georgia - 29 March 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Fredy Fautrel]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Croatia v Georgia&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|CRO}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002250/postmatch/report/index.html Report]
+|team2 = {{fb|GEO}}
+|goals1 = [[Mario Mandžukić|Mandžukić]] {{goal|76}} &lt;br /&gt; [[Nikola Kalinić|Kalinić]] {{goal|78}}
+|goals2 = [[Jaba Kankava|Kankava]] {{goal|17}}
+|stadium = [[Stadion Poljud]], [[Split, Croatia|Split]]
+|attendance = 28,000&lt;ref&gt;[http://www.soccerway.com/matches/2011/06/03/europe/european-championships/croatia/georgia/922655/ Croatia vs. Georgia - 3 June 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Stefan Johannesson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Latvia v Israel&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 19:30 [[UTC+3]]
+|team1 = {{fb-rt|LVA}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002264/postmatch/report/index.html Report]
+|team2 = {{fb|ISR}}
+|goals1 = [[Aleksandrs Cauņa|Cauņa]] {{goal|62|pen.}}
+|goals2 = [[Yossi Benayoun|Benayoun]] {{goal|19}}&lt;br/&gt;[[Tal Ben Haim|Ben Haim I]] {{goal|43|pen.}}
+|stadium = [[Skonto Stadium]], [[Riga]]
+|attendance = 6,147&lt;ref&gt;[http://www.soccerway.com/matches/2011/06/04/europe/european-championships/latvia/israel/922653/ Latvia vs. Israel - 4 June 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Alan Kelly (referee)|Alan Kelly]] ([[Football Association of Ireland|Republic of Ireland]]) }}
+
+&lt;div id=&quot;Greece v Malta&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002256/postmatch/report/index.html Report]
+|team2 = {{fb|MLT}}
+|goals1 = [[Ioannis Fetfatzidis|Fetfatzidis]] {{goal|8||64}}&lt;br/&gt;[[Kyriakos Papadopoulos|K. Papadopoulos]] {{goal|26}}
+|goals2 = [[Michael Mifsud|Mifsud]] {{goal|54}}
+|stadium = [[Karaiskakis Stadium]], [[Piraeus]]
+|attendance = 14,746&lt;ref&gt;[http://www.soccerway.com/matches/2011/06/04/europe/european-championships/greece/malta/922651/ Greece vs. Malta - 4 June 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Pawel Gil]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Israel v Greece&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 16:05 [[UTC+3]]
+|team1 = {{fb-rt|ISR}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002258/postmatch/report/index.html Report]
+|team2 = {{fb|GRE}}
+|goals2 = [[Sotiris Ninis|Ninis]] {{goal|60}}
+|stadium = [[Bloomfield Stadium]], [[Tel Aviv]]
+|attendance = 13,100&lt;ref&gt;[http://www.soccerway.com/matches/2011/09/02/europe/european-championships/israel/greece/922659/ Israel vs. Greece - 2 September 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Georgia v Latvia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 21:00 [[UTC+4]]
+|team1 = {{fb-rt|GEO}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002270/postmatch/report/index.html Report]
+|team2 = {{fb|LVA}}
+|goals2 = [[Aleksandrs Cauņa|Cauņa]] {{goal|63}}
+|stadium = [[Mikheil Meskhi Stadium]], [[Tbilisi]]
+|attendance = 15,422&lt;ref&gt;[http://www.soccerway.com/matches/2011/09/02/europe/european-championships/georgia/latvia/922657/ Georgia vs. Latvia - 2 September 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Leontios Trattou]] ([[Cyprus Football Association|Cyprus]]) }}
+
+&lt;div id=&quot;Malta v Croatia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}
+|score = 1–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002272/postmatch/report/index.html Report]
+|team2 = {{fb|CRO}}
+|goals1 = [[Michael Mifsud|Mifsud]] {{goal|38}}
+|goals2 = [[Ognjen Vukojević|Vukojević]] {{goal|11}} &lt;br&gt; [[Milan Badelj|Badelj]] {{goal|32}} &lt;br&gt; [[Dejan Lovren|Lovren]] {{goal|68}}
+|stadium = [[Ta'Qali Stadium]], [[Ta'Qali]] 
+|attendance = 6,150&lt;ref&gt;[http://www.soccerway.com/matches/2011/09/02/europe/european-championships/malta/croatia/922661/ Malta vs. Croatia - 2 September 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Tony Chapron]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Croatia v Israel&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|CRO}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002248/postmatch/report/index.html Report]
+|team2 = {{fb|ISR}}
+|goals1 = [[Luka Modrić|Modrić]] {{goal|47}} &lt;br&gt; [[Eduardo da Silva|Eduardo]] {{goal|55||57}}
+|goals2 = [[Tomer Hemed|Hemed]] {{goal|44}}
+|stadium = [[Stadion Maksimir]], [[Zagreb, Croatia|Zagreb]]
+|attendance = 13,688&lt;ref&gt;[http://www.soccerway.com/matches/2011/09/06/europe/european-championships/croatia/israel/922667/ Croatia vs. Israel - 6 September 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Malta v Georgia&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002275/postmatch/report/index.html Report]
+|team2 = {{fb|GEO}}
+|goals1 = [[Michael Mifsud|Mifsud]] {{goal|25}}
+|goals2 = [[Jaba Kankava|Kankava]] {{goal|15}}
+|stadium = [[Ta'Qali Stadium]], [[Ta'Qali]] 
+|attendance = 5,000&lt;ref&gt;[http://www.soccerway.com/matches/2011/09/06/europe/european-championships/malta/georgia/922663/ Malta vs. Georgia - 6 September 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Pol van Boekel]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Latvia v Greece&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|LVA}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002263/postmatch/report/index.html Report]
+|team2 = {{fb|GRE}}
+|goals1 = [[Aleksandrs Cauņa|Cauņa]] {{goal|19}}
+|goals2 = [[Kyriakos Papadopoulos|K. Papadopoulos]] {{goal|84}}
+|stadium = [[Skonto Stadium]], [[Riga]]
+|attendance = 5,415&lt;ref&gt;[http://www.soccerway.com/matches/2011/09/06/europe/european-championships/latvia/greece/922665/ Latvia vs. Greece - 6 September 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Stanislav Todorov]] ([[Bulgarian Football Union|Bulgaria]]) }}
+----
+&lt;div id=&quot;Latvia v Malta&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|LVA}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002266/postmatch/report/index.html Report]
+|team2 = {{fb|MLT}}
+|goals1 = [[Aleksejs Višņakovs|Višņakovs]] {{goal|33}} &lt;br&gt; [[Artiom Rudņev|Rudņevs]] {{goal|83}}
+|goals2 = 
+|stadium = [[Skonto Stadium]], [[Riga]]
+|attendance = 4,315&lt;ref&gt;[http://www.soccerway.com/matches/2011/10/07/europe/european-championships/latvia/malta/922673/ Latvia vs. Malta - 7 October 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Richard Trutz]] ([[Slovak Football Association|Slovakia]]) }}
+
+&lt;div id=&quot;Greece v Croatia&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 21:45 [[UTC+3]]
+|team1 = {{fb-rt|GRE}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002252/postmatch/report/index.html Report]
+|team2 = {{fb|CRO}}
+|goals1 = [[Georgios Samaras|Samaras]] {{goal|71}} &lt;br&gt; [[Theofanis Gekas|Gekas]] {{goal|79}}
+|goals2 = 
+|stadium = [[Karaiskakis Stadium]], [[Piraeus]]
+|attendance = 27,200&lt;ref&gt;[http://www.soccerway.com/matches/2011/10/07/europe/european-championships/greece/croatia/922668/ Greece vs. Croatia - 7 October 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Howard Webb]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Georgia v Greece&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 21:00 [[UTC+4]]
+|team1 = {{fb-rt|GEO}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002268/postmatch/report/index.html Report]
+|team2 = {{fb|GRE}}
+|goals1 = [[David Targamadze|Targamadze]] {{goal|19}}
+|goals2 = [[Georgios Fotakis|Fotakis]] {{goal|79}} &lt;br&gt; [[Angelos Charisteas|Charisteas]] {{goal|85}}
+|stadium = [[Mikheil Meskhi Stadium]], [[Tbilisi]]
+|attendance = 7,824&lt;ref&gt;[http://www.soccerway.com/matches/2011/10/11/europe/european-championships/georgia/greece/922675/ Georgia vs. Greece - 11 October 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee = [[Daniele Orsato]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Malta v Israel&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002274/postmatch/report/index.html Report]
+|team2 = {{fb|ISR}}
+|goals1 = 
+|goals2 = [[Lior Refaelov|Refaelov]] {{goal|11}} &lt;br&gt; [[Rami Gershon|Gershon]] {{goal|90+3}}
+|stadium = [[Ta'Qali Stadium]], [[Ta'Qali]] 
+|attendance = 2,614&lt;ref&gt;[http://www.soccerway.com/matches/2011/10/11/europe/european-championships/malta/israel/922677/ Malta vs. Israel - 11 October 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Bruno Paixão]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Croatia v Latvia&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|CRO}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002249/postmatch/report/index.html Report]
+|team2 = {{fb|LVA}}
+|goals1 = [[Eduardo da Silva|Eduardo]] {{goal|66}} &lt;br&gt; [[Mario Mandžukić|Mandžukić]] {{goal|72}}
+|goals2 = 
+|stadium = [[Stadion Kantrida]], [[Rijeka]]
+|attendance = 8,370&lt;ref&gt;[http://www.soccerway.com/matches/2011/10/11/europe/european-championships/croatia/latvia/922679/ Croatia vs. Latvia - 11 October 2011 - Soccerway&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+|referee =[[Antony Gautier]] ([[French Football Federation|France]]) }}
+
+==Goalscorers==
+;4 goals
+{{Col-begin}}
+{{col-3}}
+*{{flagicon|CRO}} [[Niko Kranjčar]]
+{{col-3}}
+*{{flagicon|ISR}} [[Yossi Benayoun]]
+{{col-3}}
+*{{flagicon|LAT}} [[Aleksandrs Cauņa]]
+{{col-end}}
+
+;3 goals
+{{Col-begin}}
+{{col-3}}
+*{{flagicon|CRO}} [[Eduardo da Silva]]
+{{col-3}}
+*{{flagicon|MLT}} [[Michael Mifsud]]
+{{col-3}}
+{{col-end}}
+
+;2 goals
+{{Col-begin}}
+{{col-3}}
+*{{flagicon|CRO}} [[Nikola Kalinić]]
+*{{flagicon|CRO}} [[Mario Mandžukić]]
+*{{flagicon|GEO}} [[Jaba Kankava]]
+{{col-3}}
+*{{flagicon|GEO}} [[David Siradze]]
+*{{flagicon|GRE}} [[Ioannis Fetfatzidis]]
+*{{flagicon|GRE}} [[Kyriakos Papadopoulos]]
+{{col-3}}
+*{{flagicon|GRE}} [[Vasilis Torosidis]]
+*{{flagicon|LAT}} [[Kaspars Gorkšs]]
+{{col-end}}
+
+;1 goal
+{{Col-begin}}
+{{col-3}}
+*{{flagicon|CRO}} [[Milan Badelj]]
+*{{flagicon|CRO}} [[Dejan Lovren]]
+*{{flagicon|CRO}} [[Luka Modrić]]
+*{{flagicon|CRO}} [[Ivica Olić]]
+*{{flagicon|CRO}} [[Mladen Petrić]]
+*{{flagicon|CRO}} [[Darijo Srna]]
+*{{flagicon|CRO}} [[Ognjen Vukojević]]
+*{{flagicon|GEO}} [[Alexander Iashvili]]
+*{{flagicon|GEO}} [[Levan Kobiashvili]]
+*{{flagicon|GEO}} [[David Targamadze]]
+{{col-3}}
+*{{flagicon|GRE}} [[Angelos Charisteas]]
+*{{flagicon|GRE}} [[Georgios Fotakis]]
+*{{flagicon|GRE}} [[Theofanis Gekas]]
+*{{flagicon|GRE}} [[Georgios Karagounis]]
+*{{flagicon|GRE}} [[Sotiris Ninis]]
+*{{flagicon|GRE}} [[Dimitris Salpingidis]]
+*{{flagicon|GRE}} [[Georgios Samaras]]
+*{{flagicon|GRE}} [[Nikos Spyropoulos]]
+*{{flagicon|ISR}} [[Elyaniv Barda]]
+*{{flagicon|ISR}} [[Tal Ben Haim|Tal Ben Haim I]]
+{{col-3}}
+*{{flagicon|ISR}} [[Tal Ben Haim (footballer born 1989)|Tal Ben Haim II]]
+*{{flagicon|ISR}} [[Tomer Hemed]]
+*{{flagicon|ISR}} [[Rami Gershon]]
+*{{flagicon|ISR}} [[Itay Shechter]]
+*{{flagicon|ISR}} [[Biram Kayal]]
+*{{flagicon|ISR}} [[Lior Refaelov]]
+*{{flagicon|LAT}} [[Artjoms Rudņevs]]
+*{{flagicon|LAT}} [[Māris Verpakovskis]]
+*{{flagicon|LAT}} [[Aleksejs Višņakovs]]
+*{{flagicon|MLT}} [[Jamie Pace]]
+{{col-end}}
+
+;1 own goal
+*{{flagicon|GRE}} [[Nikos Spyropoulos]] (playing against Israel)
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|CRO}} || align=&quot;center&quot; | 28,000 || align=&quot;center&quot; | 8,370 || align=&quot;center&quot; | 83,457 || align=&quot;center&quot; | '''16,691'''
+|-
+| {{fb|GEO}} || align=&quot;center&quot; | 54,500 || align=&quot;center&quot; | 7,824 || align=&quot;center&quot; | 160,746 || align=&quot;center&quot; | '''32,149'''
+|-
+| {{fb|GRE}} || align=&quot;center&quot; | 27,200 || align=&quot;center&quot; | 13,520 || align=&quot;center&quot; | 87,195 || align=&quot;center&quot; | '''17,439'''
+|-
+| {{fb|ISR}} || align=&quot;center&quot; | 33,421 || align=&quot;center&quot; | 10,801 || align=&quot;center&quot; | 88,403 || align=&quot;center&quot; | '''17,681'''
+|-
+| {{fb|LAT}} || align=&quot;center&quot; | 7,600 || align=&quot;center&quot; | 4,315 || align=&quot;center&quot; | 27,807 || align=&quot;center&quot; | '''5,561'''
+|-
+| {{fb|MLT}} || align=&quot;center&quot; | 10,605 || align=&quot;center&quot; | 2,614 || align=&quot;center&quot; | 30,624 || align=&quot;center&quot; | '''6,125'''
+|}
+
+== Discipline ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Position
+! Player
+! Country
+! {{yel}}
+! {{sent off}}
+! Suspended for match(es)
+! Reason
+|-
+| Defender || [[Tal Ben Haim|Tal Ben Haim I]] ||align= &quot;left&quot;| {{fb|ISR}} || 2 || 1 || vs Greece (12 October 2010)&lt;br /&gt;vs Malta (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| Defender || [[Sokratis Papastathopoulos]] ||align=&quot;left&quot;| {{fb|GRE}} || 0 || 1 || vs Israel (2 September 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| Defender || [[Darijo Srna]] ||align= &quot;left&quot;| {{fb|CRO}} || 4 || 0 || vs Malta (17 November 2010)&lt;br /&gt;vs Latvia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Māris Verpakovskis]] ||align= &quot;left&quot;| {{fb|LAT}} || 4 || 0 || vs Greece (8 October 2010)&lt;br /&gt;vs Croatia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Zurab Khizanishvili]] ||align=&quot;left&quot;| {{fb|GEO}} || 3 || 0 || vs Slovakia (26 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Vasilis Torosidis]] ||align=&quot;left&quot;| {{fb|GRE}} || 3 || 0 || vs Israel (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Oskars Kļava]] ||align=&quot;left&quot;| {{fb|LAT}} || 3 || 0 || vs Israel (26 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Andrei Agius]] ||align=&quot;left&quot;| {{fb|MLT}} || 3 || 0 || vs Israel (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Andrew Cohen (footballer)|Andrew Cohen]] ||align=&quot;left&quot;| {{fb|MLT}} || 3 || 0 || vs Georgia (8 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Nikola Kalinić]] ||align=&quot;left&quot;| {{fb|CRO}} || 2 || 0 || vs Latvia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Midfielder || [[Niko Kranjčar]] ||align=&quot;left&quot;| {{fb|CRO}} || 2 || 0 || vs Georgia (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Midfielder || [[Ognjen Vukojević]] ||align=&quot;left&quot;| {{fb|CRO}} || 2 || 0 || vs Malta (17 November 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Ucha Lobjanidze]] ||align= &quot;left&quot;| {{fb|GEO}} || 2 || 0 || vs Malta (8 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Midfielder || [[Kostas Katsouranis]] ||align=&quot;left&quot;| {{fb|GRE}} || 2 || 0 || vs Latvia (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Midfielder || [[Giannis Maniatis]] ||align=&quot;left&quot;| {{fb|GRE}} || 2 || 0 || vs Croatia (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Avraam Papadopoulos]] ||align=&quot;left&quot;| {{fb|GRE}} || 2 || 0 || vs Georgia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Giorgios Samaras]] ||align=&quot;left&quot;| {{fb|GRE}} || 2 || 0 || vs Georgia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Midfielder || [[Alexandros Tziolis]] ||align=&quot;left&quot;| {{fb|GRE}} || 2 || 0 || vs Georgia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Goalkeeper || [[Alexandros Tzorvas]] ||align=&quot;left&quot;| {{fb|GRE}} || 2 || 0 || vs Georgia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Itay Shechter]] ||align= &quot;left&quot;| {{fb|ISR}} || 2 || 0 || vs Latvia (26 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Kaspars Gorkšs]] ||align= &quot;left&quot;| {{fb|LAT}} || 2 || 0 || vs Greece (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Oskars Kļava]] ||align=&quot;left&quot;| {{fb|LAT}} || 2 || 0 || vs Malta (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Ritus Krjauklis]] ||align= &quot;left&quot;| {{fb|LAT}} || 2 || 0 || vs Malta (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Midfielder || [[Jurijs Zigajevs]] ||align=&quot;left&quot;| {{fb|LAT}} || 2 || 0 || vs Malta (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Daniel Bogdanović]] ||align=&quot;left&quot;| {{fb|MLT}} || 2 || 0 || vs Georgia (8 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Forward || [[Andrew Cohen (footballer)|Andrew Cohen]] ||align=&quot;left&quot;| {{fb|MLT}} || 2 || 0 || vs Israel (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| Defender || [[Clayton Failla]] ||align=&quot;left&quot;| {{fb|MLT}} || 2 || 0 || vs Israel (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|}
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group F]]
+[[Category:2010–11 in Israeli football]]
+[[Category:2011–12 in Israeli football]]
+[[Category:2010 in Latvian football]]
+[[Category:2011 in Latvian football]]
+[[Category:2010–11 in Maltese football]]
+[[Category:2011–12 in Maltese football]]
+[[Category:2011–12 in Croatian football]]
+[[Category:2010–11 in Croatian football]]
+[[Category:2010–11 in Greek football]]
+[[Category:2011–12 in Greek football]]
+[[Category:2010–11 in Georgian football]]
+[[Category:2011–12 in Georgian football]]</text>
+      <sha1>0msg2dddcpgp3pwuoyd1godo55fv42c</sha1>
+    </revision>
+  </page>
+</mediawiki>

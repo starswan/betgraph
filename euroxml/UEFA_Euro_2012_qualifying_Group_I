@@ -1,0 +1,486 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group I</title>
+    <ns>0</ns>
+    <id>26105438</id>
+    <revision>
+      <id>703537733</id>
+      <parentid>671292606</parentid>
+      <timestamp>2016-02-06T02:55:42Z</timestamp>
+      <contributor>
+        <username>BrownHairedGirl</username>
+        <id>754619</id>
+      </contributor>
+      <minor/>
+      <comment>saints without dots; genfixes; bypass common redirects; etc using [[Project:AWB|AWB]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="23323">This page shows the standings and results for '''Group I''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group I |url=http://www.uefa.com/uefaeuro/season=2012/standings/round=15171/group=2000743/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+== Standings ==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|- style=&quot;background:#cfc;&quot;
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|- style=&quot;background:#ccf;&quot;
+| Advanced to the [[UEFA Euro 2012 qualifying play-offs|play-offs]]
+|}
+{{UEFA Euro 2012 qualifying Group I
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+Group I fixtures were negotiated between the participants at a meeting in [[Madrid]], [[Spain]], on 19 February 2010.&lt;ref&gt;[http://www.scottishfa.co.uk/scottish_fa_news.cfm?page=128&amp;newsCategoryID=6&amp;newsID=5535 UEFA Euro 2012 Qualifiers Dates Agreed] Scottish FA, 19 February 2010.&lt;/ref&gt;
+
+&lt;div id=&quot;Lithuania v Scotland&quot;/&gt;{{football box
+|date = 3 September 2010
+|time = 21:15 [[UTC+3]]
+|team1 = {{fb-rt|LTU}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002210/postmatch/report/index.html Report]
+|team2 = {{fb|SCO}}
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]]
+|attendance = 5,248&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/lithuania/scotland/914193/ |title=Lithuania vs. Scotland - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Cüneyt Çakır]] ([[Turkish Football Federation|Turkey]]) }}
+
+&lt;div id=&quot;Liechtenstein v Spain&quot;/&gt;{{football box
+|date = 3 September 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}
+|score = 0–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002212/postmatch/report/index.html Report]
+|team2 = {{fb|ESP}}
+|goals2 = [[Fernando Torres|Torres]] {{goal|18||54}}&lt;br /&gt;[[David Villa|Villa]] {{goal|26}}&lt;br /&gt;[[David Silva|Silva]] {{goal|62}}
+|stadium = [[Rheinpark Stadion]], [[Vaduz]]
+|attendance = 6,100&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/liechtenstein/spain/914194/ |title=Liechtenstein vs. Spain - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Bülent Yıldırım (referee)|Bülent Yıldırım]] ([[Turkish Football Federation|Turkey]]) }}
+----
+&lt;div id=&quot;Czech Republic v Lithuania&quot;/&gt;{{football box
+|date = 7 September 2010
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002202/postmatch/report/index.html Report]
+|team2 = {{fb|LTU}}
+|goals2 = [[Darvydas Šernas|Šernas]] {{goal|25}}
+|stadium = [[Andrův stadion]], [[Olomouc]]
+|attendance = 12,038&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/czech-republic/lithuania/914196/ |title=Czech Republic vs. Lithuania - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alon Yefet]] ([[Israel Football Association|Israel]]) }}
+
+&lt;div id=&quot;Scotland v Liechtenstein&quot;/&gt;{{football box
+|date = 7 September 2010
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002207/postmatch/report/index.html Report]
+|team2 = {{fb|LIE}}
+|goals1 = [[Kenny Miller|Miller]] {{goal|62}}&lt;br /&gt;[[Stephen McManus|McManus]] {{goal|90+7}}
+|goals2 = [[Mario Frick (footballer)|Frick]] {{goal|46}}
+|stadium = [[Hampden Park]], [[Glasgow]]
+|attendance = 37,050&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/scotland/liechtenstein/914195/ |title=Scotland vs. Liechtenstein - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Viktor Shvetsov]] ([[Football Federation of Ukraine|Ukraine]]) }}
+----
+&lt;div id=&quot;Czech Republic v Scotland&quot;/&gt;{{football box
+|date = 8 October 2010
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002201/postmatch/report/index.html Report]
+|team2 = {{fb|SCO}}
+|goals1 = [[Roman Hubník|Hubník]] {{goal|69}}
+|stadium = [[Synot Tip Arena]], [[Prague]]
+|attendance = 14,922&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/czech-republic/scotland/914197/ |title=Czech Republic vs. Scotland - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Ivan Bebek]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;Spain v Lithuania&quot;/&gt;{{football box
+|date = 8 October 2010
+|time = 22:00 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002198/postmatch/report/index.html Report]
+|team2 = {{fb|LTU}}
+|goals1 = [[Fernando Llorente|Llorente]] {{goal|47||56}}&lt;br /&gt;[[David Silva|Silva]] {{goal|79}}
+|goals2 = [[Darvydas Šernas|Šernas]] {{goal|54}}
+|stadium = [[Estadio El Helmántico]], [[Salamanca]]
+|attendance = 16,800&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/spain/lithuania/914198/ |title=Spain vs. Lithuania - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Gianluca Rocchi]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Liechtenstein v Czech Republic&quot;/&gt;{{football box
+|date = 12 October 2010
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002213/postmatch/report/index.html Report]
+|team2 = {{fb|CZE}}
+|goals2 = [[Tomáš Necid|Necid]] {{goal|12}}&lt;br /&gt;[[Václav Kadlec|V. Kadlec]] {{goal|29}}
+|stadium = [[Rheinpark Stadion]], [[Vaduz]]
+|attendance = 2,555&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/liechtenstein/czech-republic/914200/ |title=Liechtenstein vs. Czech Republic - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Stanislav Sukhina]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Scotland v Spain&quot;/&gt;{{football box
+|date = 12 October 2010
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}
+|score = 2–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002204/postmatch/report/index.html Report]
+|team2 = {{fb|ESP}}
+|goals1 = [[Steven Naismith|Naismith]] {{goal|58|}}&lt;br /&gt;[[Gerard Piqué|Piqué]] {{goal|67|o.g.}}
+|goals2 = [[David Villa|Villa]] {{goal|44|pen.}}&lt;br /&gt;[[Andrés Iniesta|Iniesta]] {{goal|55}}&lt;br /&gt;[[Fernando Llorente|Llorente]] {{goal|79}}
+|stadium = [[Hampden Park]], [[Glasgow]]
+|attendance = 51,322&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/scotland/spain/914199/ |title=Scotland vs. Spain - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Massimo Busacca]] ([[Swiss Football Association|Switzerland]]) }}
+----
+&lt;div id=&quot;Spain v Czech Republic&quot;/&gt;{{football box
+|date = 25 March 2011
+|time = 22:00 [[UTC+1]]
+|team1 = {{fb-rt|ESP}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002196/postmatch/report/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[David Villa|Villa]] {{goal|69||73|pen.}}
+|goals2 = [[Jaroslav Plašil|Plašil]] {{goal|29}}
+|stadium = [[Estadio Nuevo Los Cármenes]], [[Granada]]
+|attendance = 16,301&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/25/europe/european-championships/spain/czech-republic/914201/ |title=Spain vs. Czech Republic - 25 March 2011 |publisher=Soccerway |date=2011-03-25 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]]) }}
+----
+&lt;div id=&quot;Czech Republic v Liechtenstein&quot;/&gt;{{football box
+|date = 29 March 2011
+|time = 17:30 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002203/postmatch/report/index.html Report]
+|team2 = {{fb|LIE}}
+|goals1 = [[Milan Baroš|Baroš]] {{goal|3}}&lt;br /&gt;[[Michal Kadlec|M. Kadlec]] {{goal|70}}
+|stadium = [[Stadion Střelecký ostrov]], [[České Budějovice]]
+|attendance = 6,600&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/czech-republic/liechtenstein/914203/ |title=Czech Republic vs. Liechtenstein - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Ovidiu Alin Hategan]] ([[Romanian Football Federation|Romania]]) }}
+
+&lt;div id=&quot;Lithuania v Spain&quot;/&gt;{{football box
+|date = 29 March 2011
+|time = 20:45 [[UTC+3]]
+|team1 = {{fb-rt|LTU}}
+|score = 1–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002208/postmatch/report/index.html Report]
+|team2 = {{fb|ESP}}
+|goals1 = [[Marius Stankevičius|Stankevičius]] {{goal|57}}
+|goals2 = [[Xavi]] {{goal|19}}&lt;br /&gt;[[Tadas Kijanskas|Kijanskas]] {{goal|70|o.g.}}&lt;br /&gt;[[Juan Mata|Mata]] {{goal|83}}
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]]
+|attendance = 9,180&lt;ref name=&quot;soccerway1&quot;&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/lithuania/spain/914202/ |title=Lithuania vs. Spain - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Laurent Duhamel]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Liechtenstein v Lithuania&quot;/&gt;{{football box
+|date = 3 June 2011
+|time = 19:30 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002215/postmatch/report/index.html Report]
+|team2 = {{fb|LTU}}
+|goals1 = [[Philippe Erne|Erne]] {{goal|7}}&lt;br /&gt;[[Michele Polverino|Polverino]] {{goal|36}}
+|stadium = [[Rheinpark Stadion]], [[Vaduz]]
+|attendance = 1,886&lt;ref name=&quot;soccerway1&quot;/&gt;
+|referee = [[Artyom Kuchin]] ([[Football Federation of Kazakhstan|Kazakhstan]]) }}
+----
+&lt;div id=&quot;Lithuania v Liechtenstein&quot;/&gt;{{football box
+|date = 2 September 2011
+|time = 18:00 [[UTC+3]]
+|team1 = {{fb-rt|LTU}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002211/postmatch/report/index.html Report]
+|team2 = {{fb|LIE}}
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]]
+|attendance =3,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/lithuania/liechtenstein/914206/ |title=Lithuania vs. Liechtenstein - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Ken Henry Johnsen]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Scotland v Czech Republic&quot;/&gt;{{football box
+|date = 3 September 2011
+|time = 15:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}
+|score = 2–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002205/postmatch/report/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Kenny Miller|Miller]] {{goal|44}} &lt;br /&gt; [[Darren Fletcher|Fletcher]] {{goal|82}}
+|goals2 =  [[Jaroslav Plašil|Plašil]] {{goal|78}} &lt;br /&gt; [[Michal Kadlec|M. Kadlec]] {{goal|90|pen.}}
+|stadium = [[Hampden Park]], [[Glasgow]]
+|attendance =51,564&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/03/europe/european-championships/scotland/czech-republic/914205/ |title=Scotland vs. Czech Republic - 3 September 2011 |publisher=Soccerway |date=2011-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Kevin Blom]] ([[Royal Dutch Football Association|Netherlands]]) }}
+----
+&lt;div id=&quot;Scotland v Lithuania&quot;/&gt;{{football box
+|date = 6 September 2011
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002206/postmatch/report/index.html Report]
+|team2 = {{fb|LTU}}
+|goals1 = [[Steven Naismith|Naismith]] {{goal|50}}
+|stadium = [[Hampden Park]], [[Glasgow]]
+|attendance =34,071&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/scotland/lithuania/914208/ |title=Scotland vs. Lithuania - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]]) }}
+
+&lt;div id=&quot;Spain v Liechtenstein&quot;/&gt;{{football box
+|date = 6 September 2011
+|time = 22:00 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}
+|score = 6–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002199//postmatch/report/index.html Report]
+|team2 = {{fb|LIE}}
+|goals1 = [[Álvaro Negredo|Negredo]] {{goal|34||37}} &lt;br /&gt; [[Xavi]] {{goal|44}}&lt;br /&gt;[[Sergio Ramos|Ramos]] {{goal|52}} &lt;br /&gt; [[David Villa|Villa]] {{goal|60||79}}
+|stadium = [[Estadio Las Gaunas]], [[Logroño]]
+|attendance = 15,660&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/spain/liechtenstein/914207/ |title=Spain vs. Liechtenstein - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Harald Lechner]] ([[Austrian Football Association|Austria]]) }}
+----
+&lt;div id=&quot;Czech Republic v Spain&quot;/&gt;{{football box
+|date = 7 October 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002200/postmatch/report/index.html Report]
+|team2 = {{fb|ESP}}
+|goals1 = 
+|goals2 = [[Juan Mata|Mata]] {{goal|6}} &lt;br /&gt; [[Xabi Alonso|Alonso]] {{goal|23}}
+|stadium = [[Generali Arena]], [[Prague]]
+|attendance = 17,873&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/czech-republic/spain/914210/ |title=Czech Republic vs. Spain - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Paolo Tagliavento]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Liechtenstein v Scotland&quot;/&gt;{{football box
+|date = 8 October 2011
+|time = 19:30 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002214/postmatch/report/index.html Report]
+|team2 = {{fb|SCO}}
+|goals1 = 
+|goals2 =[[Craig Mackail-Smith|Mackail-Smith]] {{goal|32}} 
+|stadium = [[Rheinpark Stadion]], [[Vaduz]]
+|attendance = 5,636&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/08/europe/european-championships/liechtenstein/scotland/914209/ |title=Liechtenstein vs. Scotland - 8 October 2011 |publisher=Soccerway |date=2011-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Tom Harald Hagen]] ([[Football Association of Norway|Norway]]) }}
+----
+&lt;div id=&quot;Spain v Scotland&quot;/&gt;{{football box
+|date = 11 October 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ESP}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002197/postmatch/report/index.html Report]
+|team2 = {{fb|SCO}}
+|goals1 = [[David Silva|Silva]] {{goal|6||44}}&lt;br /&gt;[[David Villa|Villa]] {{goal|54}}
+|goals2 = [[David Goodwillie|Goodwillie]] {{goal|66|pen.}}
+|stadium = [[Estadio José Rico Pérez]], [[Alicante]]
+|attendance = 27,559&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/spain/scotland/914211/ |title=Spain vs. Scotland - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Stefan Johannesson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Lithuania v Czech Republic&quot;/&gt;{{football box
+|date = 11 October 2011
+|time = 21:45 [[UTC+3]]
+|team1 = {{fb-rt|LTU}}
+|score = 1–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002209/postmatch/report/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Darvydas Šernas|Šernas]] {{goal|68|pen.}}
+|goals2 = [[Michal Kadlec|M. Kadlec]] {{goal|2|pen.|85|pen.}}&lt;br /&gt;[[Jan Rezek|Rezek]] {{goal|16||45}}
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]]
+|attendance = 4,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/lithuania/czech-republic/914212/ |title=Lithuania vs. Czech Republic - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[David Fernández Borbalán]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+==Goalscorers==
+;7 goals
+* {{flagicon|ESP}} [[David Villa]]
+
+;4 goals
+{{col-begin}}
+{{col-3}}
+* {{flagicon|CZE}} [[Michal Kadlec]]
+{{col-3}}
+* {{flagicon|ESP}} [[David Silva]]
+{{col-3}}
+{{col-end}}
+
+;3 goals
+{{col-begin}}
+{{col-3}}
+* {{flagicon|LTU}} [[Darvydas Šernas]]
+{{col-3}}
+* {{flagicon|ESP}} [[Fernando Llorente]]
+{{col-3}}
+{{col-end}}
+
+;2 goals
+{{col-begin}}
+{{col-3}}
+* {{flagicon|CZE}} [[Jaroslav Plašil]]
+* {{flagicon|CZE}} [[Jan Rezek]]
+* {{flagicon|SCO}} [[Kenny Miller]]
+{{col-3}}
+* {{flagicon|SCO}} [[Steven Naismith]]
+* {{flagicon|ESP}} [[Juan Mata]]
+* {{flagicon|ESP}} [[Álvaro Negredo]]
+{{col-3}}
+* {{flagicon|ESP}} [[Fernando Torres]]
+* {{flagicon|ESP}} [[Xavi]]
+{{col-end}}
+
+;1 goal
+{{col-begin}}
+{{col-3}}
+* {{flagicon|CZE}} [[Milan Baroš]]
+* {{flagicon|CZE}} [[Roman Hubník]]
+* {{flagicon|CZE}} [[Václav Kadlec]]
+* {{flagicon|CZE}} [[Tomáš Necid]]
+* {{flagicon|LIE}} [[Philippe Erne]]
+{{col-3}}
+* {{flagicon|LIE}} [[Mario Frick (footballer)|Mario Frick]]
+* {{flagicon|LIE}} [[Michele Polverino]]
+* {{flagicon|LTU}} [[Marius Stankevičius]]
+* {{flagicon|SCO}} [[Darren Fletcher]]
+* {{flagicon|SCO}} [[David Goodwillie]]
+{{col-3}}
+* {{flagicon|SCO}} [[Craig Mackail-Smith]]
+* {{flagicon|SCO}} [[Stephen McManus]]
+* {{flagicon|ESP}} [[Xabi Alonso]]
+* {{flagicon|ESP}} [[Andrés Iniesta]]
+* {{flagicon|ESP}} [[Sergio Ramos]]
+{{col-end}}
+
+;1 own goal
+* {{flagicon|LTU}} [[Tadas Kijanskas]] (playing against Spain)
+* {{flagicon|ESP}} [[Gerard Piqué]] (playing against Scotland)
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|CZE}} || style=&quot;text-align:center;&quot;| 17,873 || style=&quot;text-align:center;&quot;| 6,600 || style=&quot;text-align:center;&quot;| 51,433 || style=&quot;text-align:center;&quot;| '''12,858'''
+|-
+| {{fb|LIE}} || style=&quot;text-align:center;&quot;| 6,100 || style=&quot;text-align:center;&quot;| 1,886 || style=&quot;text-align:center;&quot;| 16,177 || style=&quot;text-align:center;&quot;| '''4,044'''
+|-
+| {{fb|LIT}} || style=&quot;text-align:center;&quot;| 9,180 || style=&quot;text-align:center;&quot;| 3,500 || style=&quot;text-align:center;&quot;| 21,928 || style=&quot;text-align:center;&quot;| '''5,482'''
+|-
+| {{fb|SCO}} || style=&quot;text-align:center;&quot;| 51,564 || style=&quot;text-align:center;&quot;| 34,071 || style=&quot;text-align:center;&quot;| 174,007 || style=&quot;text-align:center;&quot;| '''43,502'''
+|-
+| {{fb|ESP}} || style=&quot;text-align:center;&quot;| 27,559 || style=&quot;text-align:center;&quot;| 15,660 || style=&quot;text-align:center;&quot;| 76,320 || style=&quot;text-align:center;&quot;| '''19,080'''
+|}
+
+== Discipline ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! {{yel}}
+! {{sent off}}
+! Suspended for match(es)
+! Reason
+|-
+| DF || [[Steven Whittaker]] || style=&quot;text-align:left;&quot;| {{fb|SCO}} || 3 || 1 || vs Czech Republic (3 September 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match&lt;br /&gt;Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Tomáš Hübschman]] || style=&quot;text-align:left;&quot;| {{fb|CZE}} || 2 || 1 || vs Lithuania (11 October 2011)&lt;br /&gt;vs Montenegro (11 and 15 November 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| MF || [[Edgaras Česnauskis]] || style=&quot;text-align:left;&quot;| {{fb|LTU}} || 2 || 1 || vs Scotland (6 September 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| MF || [[Roman Hubník]] || style=&quot;text-align:left;&quot;| {{fb|CZE}} || 0 || 1 || vs Montenegro (11 November 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| FW || [[Thomas Beck (footballer)|Thomas Beck]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 3 || 0 || vs Lithuania (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Mario Frick (footballer)|Mario Frick]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 3 || 0 || vs Lithuania (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Michele Polverino]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 3 || 0 || vs Czech Republic (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Martin Stocklasa]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 3 || 0 || vs Czech Republic (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Sandro Wieser]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 3 || 0 || vs Czech Republic (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Ramūnas Radavičius]] || style=&quot;text-align:left;&quot;| {{fb|LTU}} || 3 || 0 || vs Liechtenstein (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Jaroslav Plašil]] || style=&quot;text-align:left;&quot;| {{fb|CZE}} || 2 || 0 || vs Spain (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Jan Rezek]] || style=&quot;text-align:left;&quot;| {{fb|CZE}} || 2 || 0 || vs Spain (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Franz Burgmeier]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 2 || 0 || vs Scotland (8 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Martin Rechsteiner]] || style=&quot;text-align:left;&quot;| {{fb|LIE}} || 2 || 0 || vs Lithuania (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Deividas Šemberas]] || style=&quot;text-align:left;&quot;| {{fb|LTU}} || 2 || 0 || vs Czech Republic (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Darvydas Šernas]] || style=&quot;text-align:left;&quot;| {{fb|LTU}} || 2 || 0 || vs Liechtenstein (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Andrius Skerla]] || style=&quot;text-align:left;&quot;| {{fb|LTU}} || 2 || 0 || TBD || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Scott Brown (Scottish footballer)|Scott Brown]] || style=&quot;text-align:left;&quot;| {{fb|SCO}} || 2 || 0 || vs Lithuania (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Lee McCulloch]] || style=&quot;text-align:left;&quot;| {{fb|SCO}} || 2 || 0 || vs Czech Republic (8 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Kenny Miller]] || style=&quot;text-align:left;&quot;| {{fb|SCO}} || 2 || 0 || vs Lithuania (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Barry Robson]] || style=&quot;text-align:left;&quot;| {{fb|SCO}} || 2 || 0 || vs Spain (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|}
+
+== References ==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group I]]
+[[Category:2010–11 in Scottish football]]
+[[Category:2011–12 in Scottish football]]
+[[Category:2010–11 in Spanish football]]
+[[Category:Spain at UEFA Euro 2012|Qual]]
+[[Category:2010–11 in Czech football]]
+[[Category:2011–12 in Czech football]]
+[[Category:2010 in Lithuanian football]]
+[[Category:2011 in Lithuanian football]]
+[[Category:2010–11 in Liechtenstein football]]
+[[Category:2011–12 in Liechtenstein football]]</text>
+      <sha1>5onpzwayaofl307h06viyboo2905ty7</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,477 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 3</title>
+    <ns>0</ns>
+    <id>25358378</id>
+    <revision>
+      <id>704910054</id>
+      <parentid>704909966</parentid>
+      <timestamp>2016-02-14T10:21:49Z</timestamp>
+      <contributor>
+        <username>Willy2000</username>
+        <id>24925156</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="15313">Standings and results for '''Group 3''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 3 consisted of [[Austria national football team|Austria]], [[Belarus national football team|Belarus]], [[Czech Republic national football team|Czech Republic]], [[Moldova national football team|Moldova]] and [[Netherlands national football team|Netherlands]]. Group winners were Czech Republic, who finished 3 points clear of second-placed team Netherlands.
+
+==Standings==
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|CZE}}
+|8 |{{!!}} 7 {{!!}} 1 {{!!}} 0 {{!!}} 23 {{!!}} 5 {{!!}} +18 ||'''22'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|NED}}
+|8 |{{!!}} 6 {{!!}} 1 {{!!}} 1 {{!!}} 20 {{!!}} 6 {{!!}} +14 ||'''19'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|AUT}}
+|8 |{{!!}} 3 {{!!}} 0 {{!!}} 5 {{!!}} 12 {{!!}} 14 {{!!}} &amp;minus;2 ||'''9'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|MDA}}
+|8 |{{!!}} 2 {{!!}} 0 {{!!}} 6 {{!!}} 5 {{!!}} 19 {{!!}} &amp;minus;14 ||'''6'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|BLR|1995}}
+|8 |{{!!}} 1 {{!!}} 0 {{!!}} 7 {{!!}} 4 {{!!}} 20 {{!!}} &amp;minus;16 ||'''3'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|AUT}}
+!{{flagicon|BLR|1995}}
+!{{flagicon|CZE}}
+!{{flagicon|MDA}}
+!{{flagicon|NED}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|AUT}}
+| –
+| 5–0
+| 2–3
+| 2–0
+| 0–3
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|BLR|1995}}
+| 0–2
+| –
+| 1–3
+| 2–1
+| 0–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|CZE}}
+| 4–0
+| 2–0
+| –
+| 5–0
+| 3–1
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|MDA}}
+| 1–0
+| 2–1
+| 0–2
+| –
+| 1–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|NED}}
+| 3–1
+| 3–0
+| 1–1
+| 5–0
+| –
+|-
+|}
+
+|}
+
+==Matches==
+
+{{footballbox|date = 7 September 2002
+|time = 17:00 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 2–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69315/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Andreas Herzog|Herzog]] {{goal|4|pen.|29|pen.}}
+|goals2 =  
+|stadium = [[Ernst-Happel-Stadion]], [[Vienna]] |attendance = 18,300 |referee = [[Stuart Dougal]] ([[Scottish Football Federation|SCO]])}}
+
+{{footballbox|date = 7 September 2002
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 3–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69316/index.html Report]
+|team2 = {{fb|BLR|1995}}
+|goals1 = [[Edgar Davids|Davids]] {{goal|35}} &lt;br/&gt;[[Patrick Kluivert|Kluivert]] {{goal|37}} &lt;br/&gt; [[Jimmy Floyd Hasselbaink|Hasselbaink]] {{goal|73}}
+|goals2 = 
+|stadium = [[Philips Stadion]], [[Eindhoven]] |attendance = 34,000 |referee = [[Graham Barber]] ([[English Football Association|ENG]])}}
+
+----
+{{footballbox|date = 12 October 2002
+|time = 16:30 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69317/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = 
+|goals2 = [[Marek Jankulovski|Jankulovski]] {{goal|69|pen.}} &lt;br/&gt; [[Tomáš Rosický|Rosický]] {{goal|79}}
+|stadium = [[Stadionul Republican]], [[Chişinău]] |attendance = 3,500 |referee = [[Leslie Irvine]] ([[Northern Irish Football Association|NIR]])}}
+
+{{footballbox|date = 12 October 2002
+|time = 18:30 [[UTC+3]]
+|team1 = {{fb-rt|BLR|1995}}
+|score = 0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69318/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = 
+|goals2 = [[Markus Schopp|Schopp]] {{goal|58}} &lt;br/&gt; [[Muhammet Akagündüz|Akagündüz]] {{goal|88}}
+|stadium = [[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]] |attendance = 20,000 |referee = [[Eric Poulat]] ([[French Football Federation|FRA]])}}
+
+----
+{{footballbox|date = 16 October 2002
+|time = 16:30 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 2–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69320/index.html Report]
+|team2 = {{fb|BLR|1995}}
+|goals1 = [[Karel Poborský|Poborský]] {{goal|6}} &lt;br/&gt; [[Milan Baroš|Baroš]] {{goal|23}}
+|goals2 = 
+|stadium = [[Na Stínadlech]], [[Teplice]] |attendance = 12,850 |referee = [[Helmut Fleischer]] ([[German Football Association|GER]])}}
+
+{{footballbox|date = 16 October 2002
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 0–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69319/index.html Report]
+|team2 = {{fb|NED}}
+|goals1 = 
+|goals2 = [[Clarence Seedorf|Seedorf]] {{goal|15}} &lt;br/&gt; [[Phillip Cocu|Cocu]] {{goal|20}} &lt;br/&gt; [[Roy Makaay|Makaay]] {{goal|30}}
+|stadium = [[Ernst-Happel-Stadion]], [[Vienna]] |attendance = 46,300 |referee = [[Pierluigi Collina]] ([[Italian Football Federation|ITA]])}}
+
+----
+{{footballbox|date = 29 March 2003
+|time = 18:30 [[UTC+2]]
+|team1 = {{fb-rt|BLR|1995}}
+|score = 2–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69322/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 =  [[Vitali Kutuzov|Kutuzov]] {{goal|43}} &lt;br/&gt; [[Sergei Gurenko|Gurenko]] {{goal|58}}
+|goals2 = [[Boris Cebotari|Cebotari]] {{goal|14}}
+|stadium = [[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]] |attendance = 8,000 |referee = [[Johan Verbist]] ([[Belgian Football Association|BEL]])}}
+
+{{footballbox|date = 29 March 2003
+|time = 20:30 [[UTC+1]]
+|team1 = {{fb-rt|NED}}
+|score = 1–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69321/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|45}}
+|goals2 = [[Jan Koller|Koller]] {{goal|68}}
+|stadium = [[De Kuip]], [[Rotterdam]] |attendance = 44,000 |referee = [[Kim Milton Nielsen]] ([[Danish Football Association|DEN]])}}
+
+----
+{{footballbox|date = 2 April 2003
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 1–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69324/index.html Report]
+|team2 = {{fb|NED}}
+|goals1 = [[Vadim Boret|Boret]] {{goal|16}}
+|goals2 = [[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|37}} &lt;br/&gt; [[Mark van Bommel|Van Bommel]] {{goal|85}}
+|stadium = [[Sheriff Stadium]], [[Tiraspol]] |attendance = 12,500 |referee = [[Alain Sars]] ([[French Football Federation|FRA]])}}
+
+{{footballbox|date = 2 April 2003
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 4–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69323/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Pavel Nedvěd|Nedvěd]] {{goal|18}} &lt;br/&gt; [[Jan Koller|Koller]] {{goal|32||62}} &lt;br/&gt; [[Marek Jankulovski|Jankulovski]] {{goal|56|pen.}}
+|goals2 = 
+|stadium = [[Generali Arena|Toyota Arena]], [[Prague]] |attendance = 17,150 |referee =  [[Antonio Jesús López Nieto]] ([[Royal Spanish Football Federation|ESP]])}}
+
+----
+{{footballbox|date = 7 June 2003
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 1–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69325/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Viorel Frunză|Frunză]] {{goal|60}}
+|goals2 = 
+|stadium = [[Sheriff Stadium]], [[Tiraspol]] |attendance = 7,500 |referee =  [[Joaquim Paulo Paraty da Silva]] ([[Portuguese Football Federation|POR]])}}
+
+{{footballbox|date = 7 June 2003
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|BLR|1995}}
+|score = 0–2
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69326/index.html Report]
+|team2 = {{fb|NED}}
+|goals1 = 
+|goals2 = [[Marc Overmars|Overmars]] {{goal|61}} &lt;br/&gt; [[Patrick Kluivert|Kluivert]] {{goal|68}}
+|stadium = [[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]] |attendance = 25,000 |referee =  [[Tom Henning Øvrebø]] ([[Norwegian Football Association|NOR]])}}
+
+----
+{{footballbox|date = 11 June 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 5–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69327/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Vladimír Šmicer|Šmicer]] {{goal|41}} &lt;br/&gt; [[Jan Koller|Koller]] {{goal|73|pen.}} &lt;br/&gt; [[Jiří Štajner|Štajner]] {{goal|82}} &lt;br/&gt; [[Vratislav Lokvenc|Lokvenc]] {{goal|88||90}}
+|goals2 = 
+|stadium = [[Andrův Stadion]], [[Olomouc]] |attendance = 12,097 |referee =  [[Kristinn Jakobsson]] ([[Football Association of Iceland|ISL]])}}
+
+{{footballbox|date = 11 June 2003
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 5–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69328/index.html Report]
+|team2 = {{fb|BLR|1995}}
+|goals1 = [[René Aufhauser|Aufhauser]] {{goal|33}} &lt;br/&gt; [[Mario Haas|Haas]] {{goal|47}} &lt;br/&gt; [[Roland Kirchler|Kirchler]] {{goal|53}} &lt;br/&gt; [[Roman Wallner|Wallner]] {{goal|62}} &lt;br/&gt; [[Harald Cerny|Cerny]] {{goal|70}}
+|goals2 = 
+|stadium = [[Tivoli Neu]], [[Innsbruck]] |attendance = 8,100 |referee =  [[Peter Fröjdfeldt]] ([[Swedish Football Association|SWE]])}}
+
+----
+{{footballbox|date = 6 September 2003
+|time = 18:30 [[UTC+3]]
+|team1 = {{fb-rt|BLR|1995}}
+|score = 1–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69330/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Vital Bulyha|Bulyha]] {{goal|14}}
+|goals2 = [[Pavel Nedvěd|Nedvěd]] {{goal|37}} &lt;br/&gt; [[Milan Baroš|Baroš]] {{goal|54}} &lt;br/&gt; [[Vladimír Šmicer|Šmicer]] {{goal|85}}
+|stadium = [[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]] |attendance = 8,000 |referee = [[Mike McCurry (referee)|Mike McCurry]] ([[Scottish Football Association|Scotland]])}}
+
+{{footballbox|date = 6 September 2003
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 3–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69329/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Rafael van der Vaart|Van der Vaart]] {{goal|29}} &lt;br/&gt; [[Patrick Kluivert|Kluivert]] {{goal|60}} &lt;br/&gt;[[Phillip Cocu|Cocu]] {{goal|62}}
+|goals2 = [[Emanuel Pogatetz|Pogatetz]] {{goal|32}}
+|stadium = [[De Kuip]], [[Rotterdam]] |attendance = 48,000 |referee = [[Eric Poulat]] ([[French Football Federation|FRA]])}}
+
+----
+{{footballbox|date = 10 September 2003
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 2–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69332/index.html Report]
+|team2 = {{fb|BLR|1995}}
+|goals1 = [[Serghei Dadu|Dadu]] {{goal|26}} &lt;br/&gt; [[Serghei Covalciuc|Covalciuc]] {{goal|87}}
+|goals2 = [[Raman Vasilyuk|Vasilyuk]] {{goal|90|pen.}}
+|stadium = [[Sheriff Stadium]], [[Tiraspol]] |attendance = 7,000 |referee = [[Dejan Delević]] ([[Football Association of Serbia and Montenegro|SCG]])}}
+
+{{footballbox|date = 10 September 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|CZE}}
+|score = 3–1
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69331/index.html Report]
+|team2 = {{fb|NED}}
+|goals1 = [[Jan Koller|Koller]] {{goal|14|pen.}} &lt;br/&gt; [[Karel Poborský|Poborský]] {{goal|37}} &lt;br/&gt; [[Milan Baroš|Baroš]] {{goal|90}}
+|goals2 = [[Rafael van der Vaart|Van der Vaart]] {{goal|60}}
+|stadium = [[Generali Arena|Toyota Arena]], [[Prague]] |attendance = 18,356 |referee = [[Lucílio Batista]] ([[Portuguese Football Federation|POR]])}}
+
+----
+{{footballbox|date = 11 October 2003
+|time = 17:00 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 2–3
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69333/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Mario Haas|Haas]] {{goal|49}} &lt;br/&gt; [[Andreas Ivanschitz|Ivanschitz]] {{goal|77}}
+|goals2 = [[Marek Jankulovski|Jankulovski]] {{goal|26}} &lt;br/&gt; [[Štěpán Vachoušek|Vachoušek]] {{goal|78}} &lt;br/&gt; [[Jan Koller|Koller]] {{goal|90}}
+|stadium = [[Ernst-Happel-Stadion]], [[Vienna]] |attendance = 32,350 |referee = [[Georgios Kasnaferis]] ([[Greek Football Association|GRE]])}}
+
+{{footballbox|date = 11 October 2003
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 5–0
+|report=[http://en.archive.uefa.com/competitions/euro2012/history/season=2004/round=1579/match=69334/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Patrick Kluivert|Kluivert]] {{goal|43}} &lt;br/&gt; [[Wesley Sneijder|Sneijder]] {{goal|50}} &lt;br/&gt; [[Pierre van Hooijdonk|Van Hooijdonk]] {{goal|73|pen.}} &lt;br/&gt; [[Rafael van der Vaart|Van der Vaart]] {{goal|79}} &lt;br/&gt; [[Arjen Robben|Robben]] {{goal|88}}
+|goals2 = 
+|stadium = [[Philips Stadion]], [[Eindhoven]] |attendance = 30,995 |referee = [[Zeljko Siric]] ([[Croatian Football Federation|CRO]])}}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;1&quot; align=center|1
+|[[Jan Koller]]
+|{{fb|CZE}}
+|rowspan=&quot;1&quot; align=center|6
+|-
+|rowspan=&quot;1&quot; align=center|2
+|[[Patrick Kluivert]]
+|{{fb|NED}}
+|rowspan=&quot;1&quot; align=center|4
+|-
+|rowspan=&quot;3&quot; align=center|3
+|[[Milan Baroš]]
+|{{fb|CZE}}
+|rowspan=&quot;3&quot; align=center|3
+|-
+|[[Marek Jankulovski]]
+|{{fb|CZE}}
+|-
+|[[Rafael van der Vaart]]
+|{{fb|NED}}
+|-
+|rowspan=&quot;8&quot; align=center|4
+|[[Mario Haas]]
+|{{fb|AUT}}
+|rowspan=&quot;8&quot; align=center|2
+|-
+|[[Andreas Herzog]]
+|{{fb|AUT}}
+|-
+|[[Vratislav Lokvenc]]
+|{{fb|CZE}}
+|-
+|[[Pavel Nedvěd]]
+|{{fb|CZE}}
+|-
+|[[Karel Poborský]]
+|{{fb|CZE}}
+|-
+|[[Vladimír Šmicer]]
+|{{fb|CZE}}
+|-
+|[[Phillip Cocu]]
+|{{fb|NED}}
+|-
+|[[Ruud van Nistelrooy]]
+|{{fb|NED}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|AUT}}
+*[[Muhammet Akagündüz]]
+*[[René Aufhauser]]
+*[[Harald Cerny]]
+*[[Andreas Ivanschitz]]
+*[[Roland Kirchler]]
+*[[Emanuel Pogatetz]]
+*[[Markus Schopp]]
+*[[Roman Wallner]]
+;{{fb|BLR|1995}}
+*[[Vital Bulyha]]
+*[[Sergei Gurenko]]
+*[[Vitali Kutuzov]]
+*[[Raman Vasilyuk]]
+{{col-3}}
+;{{fb|CZE}}
+*[[Tomáš Rosický]]
+*[[Jiří Štajner]]
+*[[Štěpán Vachoušek]]
+;{{fb|MDA}}
+*[[Vadim Boret]]
+*[[Boris Cebotari]]
+*[[Serghei Covalciuc]]
+*[[Serghei Dadu]]
+*[[Viorel Frunză]]
+{{col-3}}
+;{{fb|NED}}
+*[[Edgar Davids]]
+*[[Jimmy Floyd Hasselbaink]]
+*[[Roy Makaay]]
+*[[Marc Overmars]]
+*[[Arjen Robben]]
+*[[Clarence Seedorf]]
+*[[Wesley Sneijder]]
+*[[Mark van Bommel]]
+*[[Pierre van Hooijdonk]]
+
+|}
+
+==References==
+*[http://www.uefa.com/competitions/euro2012/history/season=2004/round=1579/group=1456.html UEFA Page]
+*[http://www.rsssf.com/tables/04e-ext.html#grp3 RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2004 qualifying|Group 3]]
+[[Category:2002–03 in Dutch football]]
+[[Category:Netherlands at UEFA Euro 2004|qual]]
+[[Category:2002–03 in Czech football]]
+[[Category:2003–04 in Czech football]]
+[[Category:2002–03 in Austrian football]]
+[[Category:2003–04 in Austrian football]]
+[[Category:2002–03 in Moldovan football]]
+[[Category:2003–04 in Moldovan football]]
+[[Category:2002 in Belarusian football]]
+[[Category:2003 in Belarusian football]]</text>
+      <sha1>rkc6n5uv8driukkj8w2xwz5qnrevgyn</sha1>
+    </revision>
+  </page>
+</mediawiki>

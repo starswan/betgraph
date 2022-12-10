@@ -1,0 +1,972 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 Group D</title>
+    <ns>0</ns>
+    <id>33942111</id>
+    <revision>
+      <id>695008626</id>
+      <parentid>679785412</parentid>
+      <timestamp>2015-12-13T03:41:32Z</timestamp>
+      <contributor>
+        <username>DerBorg</username>
+        <id>5965514</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="31654">{{EngvarB|date=May 2014}}
+'''Group D of [[UEFA Euro 2012]]''' began on 11 June 2012 and ended on 19 June 2012. The pool was made up of [[Ukraine national football team|Ukraine]], [[Sweden national football team|Sweden]], [[France national football team|France]] and [[England national football team|England]]. The top two teams, England and France, progressed to the quarter-finals to play Italy and Spain respectively, while Ukraine and Sweden were eliminated from the tournament.
+
+{{TOC right}}
+
+==Incidents and controversies==
+On the second matchday, on 15 June, [[#Ukraine vs France|the match between Ukraine and France]] that began at 19:00 local time was interrupted by heavy rainfall and a thunderstorm. The conditions forced the referee to suspend the game during the fifth minute, and play was only resumed 58 minutes later.&lt;ref&gt;{{cite news |title=France find their stride to pick off Ukraine |first=Chris |last=Burke |url=http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003334/postmatch/report/index.html |work=Union of European Football Associations |date=15 June 2012 }}&lt;/ref&gt; UEFA therefore delayed [[#Sweden vs England|the match between Sweden and England]] to kick off 15 minutes later than originally scheduled, instead beginning at 22:00 local time, to avoid the matches overlapping.&lt;ref&gt;{{cite news |title=Euro 2012: Sweden v England |first=Phil |last=Dawkes |url=http://www.bbc.co.uk/sport/0/football/17875390 |work=BBC Sport |publisher=British Broadcasting Corporation |date=15 June 2012 }}&lt;/ref&gt;
+
+On the final matchday, on 19 June, [[#England vs Ukraine|the match between England and Ukraine]] featured a [[ghost goal]] by [[Marko Dević]]. In the second half, with Ukraine losing 1–0 to a [[Wayne Rooney]] goal, Dević's shot was hooked clear from behind the England goal-line by [[John Terry]] under the eyes of the additional assistant referee standing beside the goal (as confirmed by video replays). The incident reopened football's [[goal-line technology]] debate.&lt;ref&gt;{{cite news|first=Matt|last=Barlow|url=http://www.dailymail.co.uk/sport/euro2012/article-2161841/Euro-2012-England-1-Ukraine-0-Oleg-Blokhin-fumes-ghost-goal-Roy-Hodgson-happy-rub-green.html?ito=feeds-newsxml|title=Ghost goal fury of Blokhin while Hodgson's happy to get rub of the green|work=Daily Mail|date=19 June 2012|accessdate=19 June 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url=http://www.washingtonpost.com/sports/dcunited/5-famous-soccer-goal-line-controversies/2012/06/19/gJQA9x5ooV_story.html|title=5 Famous Soccer Goal-Line Controversies|work=The Washington Post|date=19 June 2012|accessdate=19 June 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url=http://www.heraldsun.com.au/sport/soccer/england-france-through-to-euro-2012-quarters/story-e6frfg8x-1226402433748|title=England, France through to Euro 2012 quarters|work=Herald Sun|date=20 June 2012|accessdate=20 June 2012}}&lt;/ref&gt; While replays showed the match officials failed to spot that [[Artem Milevskiy]] was in an offside position in the build-up to Dević's ghost goal,&lt;ref&gt;{{cite news|first=Will|last=Tidey|url=http://bleacherreport.com/articles/1228174-marko-devic-for-ukraine-vs-england-enters-goal-line-technology-hall-of-shame|title=Ukraine vs. England: Marko Devic Enters Goal-Line Technology Hall of Shame|work=The Bleacher Report|date=19 June 2012|accessdate=19 June 2012}}{{Verify credibility|date=June 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url=http://www.independent.co.uk/sport/football/international/rooney-seizes-his-chance-to-lift-englands-expectations-7866807.html|title=Rooney seizes his chance to lift England's expectations |work=The Independent|date=20 June 2012|accessdate=20 June 2012}}&lt;/ref&gt; [[UEFA]] and its chief refereeing officer [[Pierluigi Collina]] admitted on the following day that an error had been made and that Ukraine had been denied a legitimate goal.&lt;ref&gt;{{cite news|url=http://www.guardian.co.uk/football/2012/jun/20/euro-2012-uefa-goalline-technology|title=Euro 2012: Uefa admits Ukraine were deprived of a goal against England|work=The Guardian|date=20 June 2012|accessdate=20 June 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url=http://www.telegraph.co.uk/sport/football/competitions/euro-2012/9344475/Euro-2012-Ukraine-goal-crossed-the-line-and-should-have-been-given-says-Uefa-referee-chief-Pierluigi-Collina.html|title=Euro 2012: Ukraine goal crossed the line and should have been given says Uefa referee chief Pierluigi Collina|work=The Daily Telegraph|date=20 June 2012|accessdate=20 June 2012}}&lt;/ref&gt;
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+!Key to colours in group tables
+|- style=&quot;background:#cfc&quot;
+|Team progressed to the [[UEFA Euro 2012 knockout phase#Quarter-finals|quarter-finals]]
+|}
+
+&lt;onlyinclude&gt;{| class=wikitable style=&quot;text-align:center&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- style=&quot;background:#cfc&quot;
+|align=left|{{fb|ENG}}
+|3||2||1||0||5||3||+2||'''7'''
+|- style=&quot;background:#cfc&quot;
+|align=left|{{fb|FRA}}
+|3||1||1||1||3||3||0||'''4'''
+|- 
+|align=left|{{fb|UKR}}
+|3||1||0||2||2||4||−2||'''3'''
+|- 
+|align=left|{{fb|SWE}}
+|3||1||0||2||5||5||0||'''3'''
+|}&lt;/onlyinclude&gt;
+
+''Ukraine finished third ahead of Sweden based on their [[UEFA Euro 2012#Group stage|head-to-head record]] ([[#Ukraine vs Sweden|2–1]]).''
+
+''All times local ([[UTC+03:00|UTC+3]])''
+
+==France vs England==
+{{Football box
+|date = 11 June 2012
+|time = 19:00
+|team1 = {{fb-rt|FRA}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003326/postmatch/report/index.html Report]
+|team2 = {{fb|ENG}}
+|goals1 = [[Samir Nasri|Nasri]] {{goal|39}}
+|goals2 = [[Joleon Lescott|Lescott]] {{goal|30}}
+|stadium = [[Donbass Arena]], [[Donetsk]]
+|attendance = 47,400&lt;ref name=&quot;fra-eng report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003326_fr.pdf |title=Full-time report France-England |work=Union of European Football Associations |format=PDF |date=11 June 2012 |accessdate=11 June 2012 }}&lt;/ref&gt;
+|referee = [[Nicola Rizzoli]] ([[Italian Football Federation|Italy]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _france2012h
+ |pattern_b  = _france2012h
+ |pattern_ra = _france2012h
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = 253360
+ |body       = 253360
+ |rightarm   = 253360
+ |shorts     = 194188
+ |socks      = 194188
+ |title      = France&lt;ref name=&quot;fra-eng_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003326_lu.pdf|title=Tactical Line-up – Group D – France-England |date=11 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _eng12h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = _acm0506a
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = England&lt;ref name=&quot;fra-eng_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1''' ||[[Hugo Lloris]] ([[Captain (association football)|c]])
+|-
+| RB || '''2''' ||[[Mathieu Debuchy]]
+|-
+| CB || '''4''' ||[[Adil Rami]]
+|-
+| CB || '''5''' ||[[Philippe Mexès]]
+|-
+| LB || '''3''' ||[[Patrice Evra]]
+|-
+| DM || '''18''' ||[[Alou Diarra]]
+|-
+| CM || '''6''' ||[[Yohan Cabaye]] || || {{suboff|84}}
+|-
+| CM || '''15''' ||[[Florent Malouda]] || || {{suboff|85}}
+|-
+| RW || '''11''' ||[[Samir Nasri]]
+|-
+| LW || '''7''' ||[[Franck Ribéry]]
+|-
+| CF || '''10''' ||[[Karim Benzema]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''20''' ||[[Hatem Ben Arfa]] || || {{subon|84}}
+|-
+| MF || '''19''' ||[[Marvin Martin]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Laurent Blanc]]
+|}
+|valign=&quot;top&quot;|[[File:FRA-ENG 2012-06-11.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1''' ||[[Joe Hart]]
+|-
+| RB || '''2''' ||[[Glen Johnson (English footballer)|Glen Johnson]]
+|-
+| CB || '''6''' ||[[John Terry]]
+|-
+| CB || '''15''' ||[[Joleon Lescott]]
+|-
+| LB || '''3''' ||[[Ashley Cole]]
+|-
+| RM || '''16''' ||[[James Milner]]
+|-
+| CM || '''4''' ||[[Steven Gerrard]] ([[Captain (association football)|c]])
+|-
+| CM || '''17''' ||[[Scott Parker]] || || {{suboff|78}}
+|-
+| LM || '''20''' ||[[Alex Oxlade-Chamberlain]]{{0}} || {{yel|34}} || {{suboff|77}}
+|-
+| SS || '''11''' ||[[Ashley Young]] || {{yel|71}}
+|-
+| CF || '''22''' ||[[Danny Welbeck]] || || {{suboff|90+1}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''21''' ||[[Jermain Defoe]] || || {{subon|77}}
+|-
+| MF || '''8''' ||[[Jordan Henderson]] || || {{subon|78}}
+|-
+| MF || '''7''' ||[[Theo Walcott]] || || {{subon|90+1}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Roy Hodgson]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Samir Nasri]] (France)&lt;ref name=&quot;fra-eng report&quot; /&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Renato Faverani ([[Italian Football Federation|Italy]])
+&lt;br /&gt;Andrea Stefani ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Pavel Královec]] ([[Czech Football Association|Czech Republic]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Gianluca Rocchi]] ([[Italian Football Federation|Italy]])
+&lt;br /&gt;[[Paolo Tagliavento]] ([[Italian Football Federation|Italy]])
+|}
+
+==Ukraine vs Sweden==
+{{Football box
+|date = 11 June 2012
+|time = 21:45
+|team1 = {{fb-rt|UKR}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003325/postmatch/report/index.html Report]
+|team2 = {{fb|SWE}}
+|goals1 = [[Andriy Shevchenko|Shevchenko]] {{goal|55||62}}
+|goals2 = [[Zlatan Ibrahimović|Ibrahimović]] {{goal|52}}
+|stadium = [[Olimpiyskiy National Sports Complex|Olympic Stadium]], [[Kiev]]
+|attendance = 64,290&lt;ref name=&quot;ukr-swe report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003325_fr.pdf |title=Full-time report Ukraine-Sweden |work=Union of European Football Associations |format=PDF |date=11 June 2012 |accessdate=11 June 2012 }}&lt;/ref&gt;
+|referee = [[Cüneyt Çakır]] ([[Turkish Football Federation|Turkey]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _ukr12h
+ |pattern_b  = _ukr12h
+ |pattern_ra = _ukr12h
+ |pattern_sh = _tigres1011h
+ |pattern_so = _color_3_stripes_blue
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFDD00
+ |title      = Ukraine&lt;ref name=&quot;ukr-swe_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003325_lu.pdf|title=Tactical Line-up – Group D – Ukraine-Sweden |date=11 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=11 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _swe2012a
+ |pattern_b  = _swe2012a
+ |pattern_ra = _swe2012a
+ |pattern_sh = 
+ |pattern_so = _yellowtop
+ |leftarm    = 000060
+ |body       = 000060
+ |rightarm   = 000060
+ |shorts     = 000060
+ |socks      = 000060
+ |title      = Sweden&lt;ref name=&quot;ukr-swe_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''12''' ||[[Andriy Pyatov]]
+|-
+| RB || '''9'''  ||[[Oleh Husyev]]
+|-
+| CB || '''17''' ||[[Taras Mykhalyk]]
+|-
+| CB || '''3'''  ||[[Yevhen Khacheridi]]
+|-
+| LB || '''2'''  ||[[Yevhen Selin]]
+|-
+| RM || '''11''' ||[[Andriy Yarmolenko]]
+|-
+| CM || '''4'''  ||[[Anatoliy Tymoshchuk]]
+|-
+| LM || '''19''' ||[[Yevhen Konoplyanka]] || || {{suboff|90+3}}
+|-
+| AM || '''18''' ||[[Serhiy Nazarenko]]
+|-
+| SS || '''10''' ||[[Andriy Voronin]] || || {{suboff|85}}
+|-
+| CF || '''7'''  ||[[Andriy Shevchenko]] ([[Captain (association football)|c]]) || || {{suboff|81}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''15''' ||[[Artem Milevskiy]] || || {{subon|81}}
+|-
+| MF || '''14''' ||[[Ruslan Rotan]] || || {{subon|85}}
+|-
+| FW || '''22''' ||[[Marko Dević]] || || {{subon|90+3}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Oleh Blokhin]]
+|}
+|valign=&quot;top&quot;|[[File:UKR-SWE 2012-06-11.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Andreas Isaksson]]
+|-
+| RB || '''2'''  ||[[Mikael Lustig]]
+|-
+| CB || '''3'''  ||[[Olof Mellberg]]
+|-
+| CB || '''4'''  ||[[Andreas Granqvist]]
+|-
+| LB || '''5'''  ||[[Martin Olsson]]
+|-
+| CM || '''6'''  ||[[Rasmus Elm]] || {{yel|83}}
+|-
+| CM || '''9'''  ||[[Kim Källström]] || {{yel|11}}
+|-
+| RW || '''7'''  ||[[Sebastian Larsson]] || || {{suboff|68}}
+|-
+| AM || '''10''' ||[[Zlatan Ibrahimović]] ([[Captain (association football)|c]])
+|-
+| LW || '''20''' ||[[Ola Toivonen]] || || {{suboff|62}}
+|-
+| CF || '''22''' ||[[Markus Rosenberg]] || || {{suboff|71}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''8''' ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] || || {{subon|62}}
+|-
+| MF || '''21''' ||[[Christian Wilhelmsson]] || || {{subon|68}}
+|-
+| FW || '''11''' ||[[Johan Elmander]] || || {{subon|71}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Erik Hamrén]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Andriy Shevchenko]] (Ukraine)&lt;ref&gt;{{cite news |first=Andrew |last=Haslam |title=Shevchenko double gives Ukraine debut victory |url=http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003325/postmatch/report/index.html |work=UEFA.com |publisher=Union of European Football Associations |date=11 June 2012 |accessdate=12 June 2012 }}&lt;/ref&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Bahattin Duran ([[Turkish Football Federation|Turkey]])
+&lt;br /&gt;Tarık Ongun ([[Turkish Football Federation|Turkey]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Marcin Borski]] ([[Polish Football Association|Poland]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Hüseyin Göçek]] ([[Turkish Football Federation|Turkey]])
+&lt;br /&gt;[[Bülent Yıldırım (referee)|Bülent Yıldırım]] ([[Turkish Football Federation|Turkey]])
+|}
+
+==Ukraine vs France==
+{{Football box
+|date = 15 June 2012
+|time = 19:00
+|team1 = {{fb-rt|UKR}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003334/postmatch/report/index.html Report]
+|team2 = {{fb|FRA}}
+|goals1 = 
+|goals2 = [[Jérémy Ménez|Ménez]] {{goal|53}}&lt;br /&gt;[[Yohan Cabaye|Cabaye]] {{goal|56}}
+|stadium = [[Donbass Arena]], [[Donetsk]]
+|attendance = 48,000&lt;ref name=&quot;ukr-fra report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003334_fr.pdf |title=Full-time report Ukraine-France |work=Union of European Football Associations |format=PDF |date=15 June 2012 |accessdate=15 June 2012 }}&lt;/ref&gt;
+|referee = [[Björn Kuipers]] ([[Royal Dutch Football Association|Netherlands]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _ukr12h
+ |pattern_b  = _ukr12h
+ |pattern_ra = _ukr12h
+ |pattern_sh = _tigres1011h
+ |pattern_so = _color_3_stripes_blue
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFDD00
+ |title      = Ukraine&lt;ref name=&quot;ukr-fra_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003334_lu.pdf |title=Tactical Line-up – Group D – Ukraine-France |work=Union of European Football Associations |format=PDF |date=15 June 2012 |accessdate=15 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _france2012h
+ |pattern_b  = _france2012h
+ |pattern_ra = _france2012h
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = 253360
+ |body       = 253360
+ |rightarm   = 253360
+ |shorts     = 194188
+ |socks      = 194188
+ |title      = France&lt;ref name=&quot;ukr-fra_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''12''' ||[[Andriy Pyatov]]
+|-
+| RB || '''9'''  ||[[Oleh Husyev]]
+|-
+| CB || '''17''' ||[[Taras Mykhalyk]]
+|-
+| CB || '''3'''  ||[[Yevhen Khacheridi]]
+|-
+| LB || '''2'''  ||[[Yevhen Selin]] || {{yel|55}}
+|-
+| CM || '''4'''  ||[[Anatoliy Tymoshchuk]] || {{yel|87}}
+|-
+| CM || '''10''' ||[[Andriy Voronin]] || || {{suboff|46}}
+|-
+| RW || '''11''' ||[[Andriy Yarmolenko]] || || {{suboff|68}}
+|-
+| AM || '''18''' ||[[Serhiy Nazarenko]] || || {{suboff|60}}
+|-
+| LW || '''19''' ||[[Yevhen Konoplyanka]]
+|-
+| CF || '''7'''  ||[[Andriy Shevchenko]] ([[Captain (association football)|c]])
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''22''' ||[[Marko Dević]] || || {{subon|46}}
+|-
+| FW || '''15''' ||[[Artem Milevskiy]] || || {{subon|60}}
+|-
+| MF || '''8'''  ||[[Oleksandr Aliyev]] || || {{subon|68}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Oleh Blokhin]]
+|}
+|valign=&quot;top&quot;|[[File:UKR-FRA 2012-06-15.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Hugo Lloris]] ([[Captain (association football)|c]])
+|-
+| RB || '''2'''  ||[[Mathieu Debuchy]] || {{yel|79}}
+|-
+| CB || '''4'''  ||[[Adil Rami]]
+|-
+| CB || '''5'''  ||[[Philippe Mexès]] || {{yel|81}}
+|-
+| LB || '''22''' ||[[Gaël Clichy]]
+|-
+| DM || '''18''' ||[[Alou Diarra]]
+|-
+| CM || '''11''' ||[[Samir Nasri]]
+|-
+| CM || '''6'''  ||[[Yohan Cabaye]] || || {{suboff|68}}
+|-
+| RW || '''14''' ||[[Jérémy Ménez]] || {{yel|40}} || {{suboff|73}}
+|-
+| LW || '''7'''  ||[[Franck Ribéry]]
+|-
+| CF || '''10''' ||[[Karim Benzema]] || || {{suboff|76}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''17''' ||[[Yann M'Vila]] || || {{subon|68}}
+|-
+| MF || '''19''' ||[[Marvin Martin]] || || {{subon|73}}
+|-
+| FW || '''9'''  ||[[Olivier Giroud]] || || {{subon|76}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Laurent Blanc]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Franck Ribéry]] (France)&lt;ref name=&quot;ukr-fra report&quot; /&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Sander van Roekel ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;Erwin Zeinstra ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Tom Harald Hagen]] ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Pol van Boekel]] ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;Richard Liesveld ([[Royal Dutch Football Association|Netherlands]])
+|}
+
+==Sweden vs England==
+{{Football box
+|date = 15 June 2012
+|time = 22:00
+|team1 = {{fb-rt|SWE}}
+|score = 2–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003333/postmatch/report/index.html Report]
+|team2 = {{fb|ENG}}
+|goals1 = [[Glen Johnson (English footballer)|Johnson]] {{goal|49|o.g.}}&lt;br /&gt;[[Olof Mellberg|Mellberg]] {{goal|59}}
+|goals2 = [[Andy Carroll|Carroll]] {{goal|23}}&lt;br /&gt;[[Theo Walcott|Walcott]] {{goal|64}}&lt;br /&gt;[[Danny Welbeck|Welbeck]] {{goal|78}}
+|stadium = [[Olimpiyskiy National Sports Complex|Olympic Stadium]], [[Kiev]]
+|attendance = 64,640&lt;ref name=&quot;swe-eng report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003333_fr.pdf |title=Full-time report Sweden-England |work=Union of European Football Associations |format=PDF |date=15 June 2012 |accessdate=15 June 2012 }}&lt;/ref&gt;
+|referee = [[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _swe2012h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFDD33
+ |body       = FFDD33
+ |rightarm   = FFDD33
+ |shorts     = 0000DD
+ |socks      = FFDD33
+ |title      = Sweden&lt;ref name=&quot;swe-eng_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003333_lu.pdf |title=Tactical Line-up – Group D – Sweden-England |work=Union of European Football Associations |format=PDF |date=15 June 2012 |accessdate=15 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _englanda2011
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = _englanda2011
+ |leftarm    = 1E1E1E
+ |body       = 1E1E1E
+ |rightarm   = 1E1E1E
+ |shorts     = 1E1E1E
+ |socks      = 1E1E1E
+ |title      = England&lt;ref name=&quot;swe-eng_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Andreas Isaksson]]
+|-
+| RB || '''4'''  ||[[Andreas Granqvist]] || || {{suboff|66}}
+|-
+| CB || '''3'''  ||[[Olof Mellberg]] || {{yel|63}}
+|-
+| CB || '''13''' ||[[Jonas Olsson (footballer born 1983)|Jonas Olsson]] || {{yel|72}}
+|-
+| LB || '''5'''  ||[[Martin Olsson]]
+|-
+| RM || '''7'''  ||[[Sebastian Larsson]]
+|-
+| CM || '''8'''  ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] || {{yel|90+1}}
+|-
+| CM || '''9'''  ||[[Kim Källström]]
+|-
+| LM || '''6'''  ||[[Rasmus Elm]] || || {{suboff|81}}
+|-
+| SS || '''10''' ||[[Zlatan Ibrahimović]] ([[Captain (association football)|c]])
+|-
+| CF || '''11''' ||[[Johan Elmander]] || || {{suboff|79}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| DF || '''2'''  ||[[Mikael Lustig]] || || {{subon|66}}
+|-
+| FW || '''22''' ||[[Markus Rosenberg]] || || {{subon|79}}
+|-
+| MF || '''21''' ||[[Christian Wilhelmsson]] || || {{subon|81}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Erik Hamrén]]
+|}
+|valign=&quot;top&quot;|[[File:SWE-ENG 2012-06-15.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Joe Hart]]
+|-
+| RB || '''2'''  ||[[Glen Johnson (English footballer)|Glen Johnson]]
+|-
+| CB || '''6'''  ||[[John Terry]]
+|-
+| CB || '''15''' ||[[Joleon Lescott]]
+|-
+| LB || '''3'''  ||[[Ashley Cole]]
+|-
+| RM || '''16''' ||[[James Milner]] || {{yel|58}} || {{suboff|61}}
+|-
+| CM || '''4'''  ||[[Steven Gerrard]] ([[Captain (association football)|c]])
+|-
+| CM || '''17''' ||[[Scott Parker]]
+|-
+| LM || '''11''' ||[[Ashley Young]]
+|-
+| SS || '''22''' ||[[Danny Welbeck]] || || {{suboff|90}}
+|-
+| CF || '''9'''  ||[[Andy Carroll]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''7'''  ||[[Theo Walcott]] || || {{subon|61}}
+|-
+| MF || '''20''' ||[[Alex Oxlade-Chamberlain]] || || {{subon|90}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Roy Hodgson]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Olof Mellberg]] (Sweden)&lt;ref name=&quot;swe-eng report&quot; /&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Primož Arhar ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;Matej Žunič ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Florian Meyer]] ([[German Football Association|Germany]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Matej Jug]] ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;Slavko Vinčić ([[Football Association of Slovenia|Slovenia]])
+|}
+
+==England vs Ukraine==
+{{Football box
+|date = 19 June 2012
+|time = 21:45
+|team1 = {{fb-rt|ENG}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003342/postmatch/report/index.html Report]
+|team2 = {{fb|UKR}}
+|goals1 = [[Wayne Rooney|Rooney]] {{goal|48}}
+|goals2 =
+|stadium = [[Donbass Arena]], [[Donetsk]]
+|attendance = 48,700&lt;ref name=&quot;eng-ukr report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003342_fr.pdf |title=Full-time report England-Ukraine |work=Union of European Football Associations |format=PDF |date=19 June 2012 |accessdate=19 June 2012 }}&lt;/ref&gt;
+|referee = [[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _eng12h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = _acm0506a
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = England&lt;ref name=&quot;eng-ukr_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003342_lu.pdf|title=Tactical Line-up – Group D – England-Ukraine |date=19 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=19 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _ukr12a
+ |pattern_b  = _ukr12a
+ |pattern_ra = _ukr12a
+ |pattern_sh = _esp10h
+ |pattern_so = _tigres1011a
+ |leftarm    = 0000FF
+ |body       = 0000FF
+ |rightarm   = 0000FF
+ |shorts     = 0000FF
+ |socks      = 0000FF
+ |title      = Ukraine&lt;ref name=&quot;eng-ukr_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Joe Hart]]
+|-
+| RB || '''2'''  ||[[Glen Johnson (English footballer)|Glen Johnson]]
+|-
+| CB || '''6'''  ||[[John Terry]]
+|-
+| CB || '''15''' ||[[Joleon Lescott]]
+|-
+| LB || '''3'''  ||[[Ashley Cole]] || {{yel|78}}
+|-
+| RM || '''16''' ||[[James Milner]] || || {{suboff|70}}
+|-
+| CM || '''4'''  ||[[Steven Gerrard]] ([[Captain (association football)|c]]) || {{yel|73}}
+|-
+| CM || '''17''' ||[[Scott Parker]]
+|-
+| LM || '''11''' ||[[Ashley Young]]
+|-
+| SS || '''10''' ||[[Wayne Rooney]] || || {{suboff|87}}
+|-
+| CF || '''22''' ||[[Danny Welbeck]] || || {{suboff|82}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''7'''  ||[[Theo Walcott]] || || {{subon|70}}
+|-
+| FW || '''9'''  ||[[Andy Carroll]] || || {{subon|82}}
+|-
+| MF || '''20''' ||[[Alex Oxlade-Chamberlain]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Roy Hodgson]]
+|}
+|valign=&quot;top&quot;|[[File:ENG-UKR 2012-06-19.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''12''' ||[[Andriy Pyatov]]
+|-
+| RB || '''9'''  ||[[Oleh Husyev]]
+|-
+| CB || '''3'''  ||[[Yevhen Khacheridi]]
+|-
+| CB || '''20''' ||[[Yaroslav Rakitskiy]] || {{yel|74}}
+|-
+| LB || '''2'''  ||[[Yevhen Selin]]
+|-
+| DM || '''4'''  ||[[Anatoliy Tymoshchuk]] ([[Captain (association football)|c]]){{0}} || {{yel|63}}
+|-
+| RM || '''11''' ||[[Andriy Yarmolenko]]
+|-
+| LM || '''19''' ||[[Yevhen Konoplyanka]]
+|-
+| AM || '''6'''  ||[[Denys Harmash]] || || {{suboff|78}}
+|-
+| SS || '''15''' ||[[Artem Milevskiy]] || || {{suboff|77}}
+|-
+| CF || '''22''' ||[[Marko Dević]] || || {{suboff|70}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''7'''  ||[[Andriy Shevchenko]] || {{yel|86}} || {{subon|70}}
+|-
+| DF || '''21''' ||[[Bohdan Butko]] || || {{subon|77}}
+|-
+| MF || '''18''' ||[[Serhiy Nazarenko]] || || {{subon|78}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Oleh Blokhin]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Steven Gerrard]] (England)&lt;ref name=&quot;eng-ukr report&quot; /&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Gábor Erős ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;György Ring ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Tom Harald Hagen]] ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[István Vad]] ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;Tamás Bognár ([[Hungarian Football Federation|Hungary]])
+|}
+
+==Sweden vs France==
+{{Football box
+|date = 19 June 2012
+|time = 21:45
+|team1 = {{fb-rt|SWE}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003341/postmatch/report/index.html Report]
+|team2 = {{fb|FRA}}
+|goals1 = [[Zlatan Ibrahimović|Ibrahimović]] {{goal|54}}&lt;br /&gt;[[Sebastian Larsson|Larsson]] {{goal|90+1}}
+|goals2 =
+|stadium = [[Olimpiyskiy National Sports Complex|Olympic Stadium]], [[Kiev]]
+|attendance = 63,010&lt;ref name=&quot;swe-fra report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003341_fr.pdf |title=Full-time report Sweden-France |work=Union of European Football Associations |format=PDF |date=19 June 2012 |accessdate=19 June 2012 }}&lt;/ref&gt;
+|referee = [[Pedro Proença]] ([[Portuguese Football Federation|Portugal]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _swe2012h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFDD33
+ |body       = FFDD33
+ |rightarm   = FFDD33
+ |shorts     = 0000DD
+ |socks      = FFDD33
+ |title      = Sweden&lt;ref name=&quot;swe-fra_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003325_lu.pdf|title=Tactical Line-up – Group D – Sweden-France |date=19 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=19 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _fra12a
+ |pattern_b  = _fra12a
+ |pattern_ra = _fra12a
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = France&lt;ref name=&quot;swe-fra_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Andreas Isaksson]]
+|-
+| RB || '''4'''  ||[[Andreas Granqvist]]
+|-
+| CB || '''3'''  ||[[Olof Mellberg]]
+|-
+| CB || '''13''' ||[[Jonas Olsson (footballer born 1983)|Jonas Olsson]]
+|-
+| LB || '''5'''  ||[[Martin Olsson]]
+|-
+| CM || '''8'''  ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] || {{yel|70}} || {{suboff|79}}
+|-
+| CM || '''9'''  ||[[Kim Källström]]
+|-
+| RW || '''7'''  ||[[Sebastian Larsson]]
+|-
+| AM || '''10''' ||[[Zlatan Ibrahimović]] ([[Captain (association football)|c]])
+|-
+| LW || '''19''' ||[[Emir Bajrami]] || || {{suboff|46}}
+|-
+| CF || '''20''' ||[[Ola Toivonen]] || || {{suboff|78}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''21''' ||[[Christian Wilhelmsson]] || || {{subon|46}}
+|-
+| MF || '''16''' ||[[Pontus Wernbloom]] || || {{subon|78}}
+|-
+| MF || '''18''' ||[[Samuel Holmén]] || {{yel|81}} || {{subon|79}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Erik Hamrén]]
+|}
+|valign=&quot;top&quot;|[[File:SWE-FRA 2012-06-19.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Hugo Lloris]] ([[Captain (association football)|c]])
+|-
+| RB || '''2'''  ||[[Mathieu Debuchy]]
+|-
+| CB || '''4'''  ||[[Adil Rami]]
+|-
+| CB || '''5'''  ||[[Philippe Mexès]] || {{yel|68}}
+|-
+| LB || '''22''' ||[[Gaël Clichy]]
+|-
+| DM || '''18''' ||[[Alou Diarra]]
+|-
+| CM || '''11''' ||[[Samir Nasri]] || || {{suboff|77}}
+|-
+| CM || '''17''' ||[[Yann M'Vila]] || || {{suboff|83}}
+|-
+| RW || '''20''' ||[[Hatem Ben Arfa]] || || {{suboff|59}}
+|-
+| LW || '''7'''  ||[[Franck Ribéry]]
+|-
+| CF || '''10''' ||[[Karim Benzema]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''15''' ||[[Florent Malouda]] || || {{subon|59}}
+|-
+| FW || '''14''' ||[[Jérémy Ménez]] || || {{subon|77}}
+|-
+| FW || '''9'''  ||[[Olivier Giroud]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Laurent Blanc]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Zlatan Ibrahimović]] (Sweden)&lt;ref name=&quot;swe-fra report&quot; /&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Bertino Miranda ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;Ricardo Santos ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;Pol van Boekel ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;Manuel De Sousa ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;Duarte Gomes ([[Portuguese Football Federation|Portugal]])
+|}
+
+==References==
+{{reflist|colwidth=40em}}
+
+==External links==
+*[http://www.uefa.com/uefaeuro/season=2012/standings/round=15172/group=700967/index.html UEFA Euro 2012 Group D]
+
+{{UEFA Euro 2012}}
+
+[[Category:UEFA Euro 2012|Group D]]
+[[Category:England at UEFA Euro 2012|Group]]
+[[Category:France at UEFA Euro 2012|Group]]
+[[Category:2011–12 in Ukrainian football]]
+[[Category:2012 in Swedish football|Euro]]</text>
+      <sha1>5pa792q7twelkpv5idc84r6hncmvnls</sha1>
+    </revision>
+  </page>
+</mediawiki>

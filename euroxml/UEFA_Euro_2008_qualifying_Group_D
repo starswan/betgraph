@@ -1,0 +1,752 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group D</title>
+    <ns>0</ns>
+    <id>6885793</id>
+    <revision>
+      <id>711504473</id>
+      <parentid>696529347</parentid>
+      <timestamp>2016-03-23T08:26:51Z</timestamp>
+      <contributor>
+        <username>C. Ronaldo Aveiro</username>
+        <id>27526362</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="28170">{{Use dmy dates|date=February 2012}}
+Standings and results for '''Group D''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+==Standings==
+'''Key''':
+*Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]].
+
+{{UEFA Euro 2008 qualifying Group D
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes
+}}
+
+Notes on the qualified teams:
+*Germany secured qualification to the tournament proper on 13 October 2007 following a 0–0 draw against the Republic of Ireland, becoming the first team in the whole of the qualification stage to do so.&lt;ref&gt;{{cite web|url=http://www.uefa.com/uefaeuro/news/newsid=602221.html|title=Germany qualify with Dublin draw|work=UEFA|date=14 October 2007|accessdate=17 May 2014}}&lt;/ref&gt;
+*Czech Republic secured qualification to the tournament proper on 17 October 2007 following a 3–0 win against Germany, becoming the third team in the whole of the qualification stage to do so.
+
+==Matches==
+'''Group D''' fixtures were negotiated at a meeting between the participants in [[Frankfurt]], Germany on 9 February 2006.
+
+----
+&lt;div id=&quot;Czech Republic v Wales&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|CZE}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83620/index.html Report]
+|team2={{fb|WAL}}
+|goals1=[[David Lafata|Lafata]] {{goal|76||89}}
+|goals2=[[Martin Jiránek|Jiránek]] {{goal|85|o.g.}}
+|stadium=[[Na Stínadlech]], [[Teplice]]
+|attendance=16,204
+|referee=[[Jonas Eriksson (referee)|Jonas Eriksson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Slovakia v Cyprus&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|SVK}}
+|score=6–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83622/index.html Report]
+|team2={{fb|CYP}}
+|goals1=[[Martin Škrtel|Škrtel]] {{goal|9}}&lt;br /&gt;[[Marek Mintál|Mintál]] {{goal|33||55}}&lt;br /&gt;[[Filip Šebo|Šebo]] {{goal|43||48}}&lt;br /&gt;[[Miroslav Karhan|Karhan]] {{goal|52}}
+|goals2=[[Yiasoumis Yiasoumi|Yiasoumi]] {{goal|90}}
+|stadium=[[Tehelné pole]], [[Bratislava]]
+|attendance=4,783
+|referee=[[Oleh Orekhov]] ([[Football Federation of Ukraine|Ukraine]]) }}
+
+&lt;div id=&quot;Germany v Republic of Ireland&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|GER}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83621/index.html Report]
+|team2={{fb|IRL}}
+|goals1=[[Lukas Podolski|Podolski]] {{goal|57}}
+|goals2=
+|stadium=[[Gottlieb-Daimler-Stadion]], [[Stuttgart]]
+|attendance=53,198
+|referee=[[Luis Medina Cantalejo]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Slovakia v Czech Republic&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|SVK}}
+|score=0–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83624/index.html Report]
+|team2={{fb|CZE}}
+|goals1=
+|goals2=[[Libor Sionko|Sionko]] {{goal|10||21}}&lt;br /&gt;[[Jan Koller|Koller]] {{goal|57}}
+|stadium=[[Tehelné pole]], [[Bratislava]]
+|attendance=27,683
+|referee=[[Steve Bennett (referee)|Steve Bennett]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;San Marino v Germany&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|SMR}}
+|score=0–13
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83623/index.html Report]
+|team2={{fb|GER}}
+|goals1=
+|goals2=[[Lukas Podolski|Podolski]] {{goal|12||43||64||73}}&lt;br /&gt;[[Bastian Schweinsteiger|Schweinsteiger]] {{goal|29||47}}&lt;br /&gt;[[Miroslav Klose|Klose]] {{goal|30||45+1}}&lt;br /&gt;[[Michael Ballack|Ballack]] {{goal|35}}&lt;br /&gt;[[Thomas Hitzlsperger|Hitzlsperger]] {{goal|66||72}}&lt;br /&gt;[[Manuel Friedrich|M. Friedrich]] {{goal|87}}&lt;br /&gt;[[Bernd Schneider (footballer)|Schneider]] {{goal|90|pen.}}
+|stadium=[[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle, San Marino|Serravalle]]
+|attendance=5,019
+|referee=[[Selçuk Dereli]] ([[Turkish Football Federation|Turkey]]) }}
+----
+&lt;div id=&quot;Wales v Slovakia&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|WAL}}
+|score=1–5
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83626/index.html Report]
+|team2={{fb|SVK}}
+|goals1=[[Gareth Bale|Bale]] {{goal|37}}
+|goals2=[[Dusan Švento|Švento]] {{goal|14}}&lt;br /&gt;[[Marek Mintál|Mintál]] {{goal|32||38}}&lt;br /&gt;[[Miroslav Karhan|Karhan]] {{goal|51}}&lt;br /&gt;[[Robert Vittek|Vittek]] {{goal|59}}
+|stadium=[[Millennium Stadium]], [[Cardiff]]
+|attendance=28,493
+|referee=[[Dick van Egmond]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Czech Republic v San Marino&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=17:15 [[UTC+2]]
+|team1={{fb-rt|CZE}}
+|score=7–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83625/index.html Report]
+|team2={{fb|SMR}}
+|goals1=[[Marek Kulič|Kulič]] {{goal|15}}&lt;br /&gt;[[Jan Polák|Polák]] {{goal|22}}&lt;br /&gt;[[Milan Baroš|Baroš]] {{goal|32||68}}&lt;br /&gt;[[Jan Koller|Koller]] {{goal|42||52}}&lt;br /&gt;[[David Jarolím|Jarolím]] {{goal|49}}
+|goals2=
+|stadium=[[U Nisy Stadion]], [[Liberec]]
+|attendance=9,514
+|referee=[[Vusal Aliyev]] ([[Association of Football Federations of Azerbaijan|Azerbaijan]]) }}
+
+&lt;div id=&quot;Cyprus v Republic of Ireland&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=17:00 [[UTC+3]]
+|team1={{fb-rt|CYP}}
+|score=5–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83627/postmatch/report/ Report]
+|team2={{fb|IRL}}
+|goals1=[[Michalis Konstantinou|Konstantinou]] {{goal|10||50|pen.}}&lt;br /&gt;[[Alexandros Garpozis|Garpozis]] {{goal|16}}&lt;br /&gt;[[Constantinos Charalambides|Charalambides]] {{goal|60||75}}
+|goals2=[[Stephen Ireland|Ireland]] {{goal|8}}&lt;br /&gt;[[Richard Dunne|Dunne]] {{goal|44}}
+|stadium=[[Neo GSP Stadium]], [[Nicosia]]
+|attendance=12,000
+|referee=[[Lucilio Batista]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;Republic of Ireland v Czech Republic&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=19:30 [[UTC+1]]
+|team1={{fb-rt|IRL}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83628/index.html Report]
+|team2={{fb|CZE}}
+|goals1=[[Kevin Kilbane|Kilbane]] {{goal|62}}
+|goals2=[[Jan Koller|Koller]] {{goal|64}}
+|stadium=[[Lansdowne Road]], [[Dublin]]
+|attendance=35,500
+|referee=[[Bertrand Layec]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Slovakia v Germany&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|SVK}}
+|score=1–4
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83629/index.html Report]
+|team2={{fb|GER}}
+|goals1=[[Stanislav Varga|Varga]] {{goal|58}}
+|goals2=[[Lukas Podolski|Podolski]] {{goal|13||72}}&lt;br /&gt;[[Michael Ballack|Ballack]] {{goal|25}}&lt;br /&gt;[[Bastian Schweinsteiger|Schweinsteiger]] {{goal|36}}
+|stadium=[[Tehelné Pole]], [[Bratislava]]
+|attendance=21,582
+|referee=[[Terje Hauge]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Wales v Cyprus&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|WAL}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83630/index.html Report]
+|team2={{fb|CYP}}
+|goals1=[[Jason Koumas|Koumas]] {{goal|33}}&lt;br /&gt;[[Robert Earnshaw|Earnshaw]] {{goal|39}}&lt;br /&gt;[[Craig Bellamy|Bellamy]] {{goal|72}}
+|goals2=[[Ioannis Okkas|Okkas]] {{goal|83}}
+|stadium=[[Millennium Stadium]], [[Cardiff]]
+|attendance=20,456
+|referee=[[Jacek Granat]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Cyprus v Germany&quot;&gt;{{footballbox
+|date=15 November 2006
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|CYP}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83632/index.html Report]
+|team2={{fb|GER}}
+|goals1=[[Ioannis Okkas|Okkas]] {{goal|43}}
+|goals2=[[Michael Ballack|Ballack]] {{goal|16}}
+|stadium=[[Neo GSP Stadium]], [[Nicosia]]
+|attendance=15,000
+|referee=[[Peter Fröjdfeldt]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Republic of Ireland v San Marino&quot;&gt;{{footballbox
+|date=15 November 2006
+|time=19:30 [[UTC+0]]
+|team1={{fb-rt|IRL}}
+|score=5–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83631/index.html Report]
+|team2={{fb|SMR}}
+|goals1=[[Andy Reid (Irish footballer)|Reid]] {{goal|7}}&lt;br /&gt;[[Kevin Doyle|Doyle]] {{goal|24}}&lt;br /&gt;[[Robbie Keane|Keane]] {{goal|31||58|pen.|85}}
+|goals2=
+|stadium=[[Lansdowne Road]], [[Dublin]]
+|attendance=34,018
+|referee=[[Lassin Isaksen]] ([[Faroe Islands Football Association|Faroe Islands]]) }}
+----
+&lt;div id=&quot;San Marino v Republic of Ireland&quot;&gt;{{footballbox
+|date=7 February 2007
+|time=20:45 [[UTC+1]]
+|team1={{fb-rt|SMR}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83633/index.html Report]
+|team2={{fb|IRL}}
+|goals1=[[Manuel Marani]] {{goal|86}}
+|goals2=[[Kevin Kilbane|Kilbane]] {{goal|49}}&lt;br /&gt;[[Stephen Ireland|Ireland]] {{goal|90+4}}
+|stadium=[[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle, San Marino|Serravalle]]
+|attendance=3,294
+|referee=[[Peter Rasmussen (referee)|Peter Rasmussen]] ([[Danish Football Association|Denmark]]) }}
+----
+&lt;div id=&quot;Republic of Ireland v Wales&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=15:00 [[UTC+0]]
+|team1={{fb-rt|IRL}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83635/index.html Report]
+|team2={{fb|WAL}}
+|goals1=[[Stephen Ireland|Ireland]] {{goal|39}}
+|goals2=
+|stadium=[[Croke Park]], [[Dublin]]
+|attendance=72,539
+|referee=[[Terje Hauge]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Cyprus v Slovakia&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|CYP}}
+|score=1–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83636/index.html Report]
+|team2={{fb|SVK}}
+|goals1=[[Efstathios Aloneftis|Aloneftis]] {{goal|45}}
+|goals2=[[Robert Vittek|Vittek]] {{goal|54}}&lt;br /&gt;[[Martin Škrtel|Škrtel]] {{goal|67}}&lt;br /&gt;[[Martin Jakubko|Jakubko]] {{goal|77}}
+|stadium=[[Neo GSP Stadium]], [[Nicosia]]
+|attendance=2,696
+|referee=[[Gerald Lehner (referee)|Gerald Lehner]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Czech Republic v Germany&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=20:45 [[UTC+1]]
+|team1={{fb-rt|CZE}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83634/index.html Report]
+|team2={{fb|GER}}
+|goals1=[[Milan Baroš|Baroš]] {{goal|77}}
+|goals2=[[Kevin Kurányi|Kurányi]] {{goal|42||62}}
+|stadium=[[Generali Arena|Toyota Arena]], [[Prague]]
+|attendance=17,821
+|referee=[[Roberto Rosetti]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Czech Republic v Cyprus&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=17:25 [[UTC+2]]
+|team1={{fb-rt|CZE}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83639/index.html Report]
+|team2={{fb|CYP}}
+|goals1=[[Radoslav Kováč|Kováč]] {{goal|22}}
+|goals2=
+|stadium=[[U Nisy Stadium|U Nisy]], [[Liberec]]
+|attendance=9,310
+|referee=[[Ivan Bebek]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;Republic of Ireland v Slovakia&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=19:45 [[UTC+1]]
+|team1={{fb-rt|IRL}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83638/index.html Report]
+|team2={{fb|SVK}}
+|goals1=[[Kevin Doyle|Doyle]] {{goal|13}}
+|goals2=
+|stadium=[[Croke Park]], [[Dublin]]
+|attendance=71,297
+|referee=[[Yuri Baskakov]] ([[Football Union of Russia|Russia]]) }}
+
+&lt;div id=&quot;Wales v San Marino&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|WAL}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83637/index.html Report]
+|team2={{fb|SMR}}
+|goals1=[[Ryan Giggs|Giggs]] {{goal|3}}&lt;br /&gt;[[Gareth Bale|Bale]] {{goal|20}}&lt;br /&gt;[[Jason Koumas|Koumas]] {{goal|63|pen.}}
+|goals2=
+|stadium=[[Millennium Stadium]], [[Cardiff]]
+|attendance=18,752
+|referee=[[Ararat Tshagharyan]] ([[Football Federation of Armenia|Armenia]]) }}
+----
+&lt;div id=&quot;Wales v Czech Republic&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|WAL}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83641/index.html Report]
+|team2={{fb|CZE}}
+|goals1=
+|goals2=
+|stadium=[[Millennium Stadium]], [[Cardiff]]
+|attendance=30,714
+|referee=[[Paul Allaerts]] ([[Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Germany v San Marino&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|GER}}
+|score=6–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83640/index.html Report]
+|team2={{fb|SMR}}
+|goals1=[[Kevin Kurányi|Kurányi]] {{goal|45}}&lt;br /&gt;[[Marcell Jansen|Jansen]] {{goal|52}}&lt;br /&gt;[[Torsten Frings|Frings]] {{goal|56|pen.}}&lt;br /&gt;[[Mario Gómez|Gómez]] {{goal|63||65}}&lt;br /&gt;[[Clemens Fritz|Fritz]] {{goal|67}}
+|goals2=
+|stadium=[[Frankenstadion]], [[Nuremberg]]
+|attendance=43,967
+|referee=[[Jouni Hyytiä]] ([[Football Association of Finland|Finland]]) }}
+----
+&lt;div id=&quot;Germany v Slovakia&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|GER}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83642/index.html Report]
+|team2={{fb|SVK}}
+|goals1=[[Ján Ďurica|Ďurica]] {{goal|10|o.g.}}&lt;br /&gt;[[Thomas Hitzlsperger|Hitzlsperger]] {{goal|43}}
+|goals2=[[Christoph Metzelder|Metzelder]] {{goal|20|o.g.}}
+|stadium=[[AOL Arena]], [[Hamburg]]
+|attendance=51,500
+|referee=[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;San Marino v Cyprus&quot;&gt;{{footballbox
+|date=22 August 2007
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|SMR}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83643/index.html Report]
+|team2={{fb|CYP}}
+|goals1=
+|goals2=[[Ioannis Okkas|Okkas]] {{goal|54}}
+|stadium=[[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle, San Marino|Serravalle]]
+|attendance=552
+|referee=[[Albano Janku]] ([[Football Association of Albania|Albania]]) }}
+----
+&lt;div id=&quot;San Marino v Czech Republic&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|SMR}}
+|score=0–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83644/index.html Report]
+|team2={{fb|CZE}}
+|goals1=
+|goals2=[[Tomáš Rosický|Rosický]] {{goal|33}}&lt;br /&gt;[[Marek Jankulovski|Jankulovski]] {{goal|75}}&lt;br /&gt;[[Jan Koller|Koller]] {{goal|90+3}}
+|stadium=[[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle, San Marino|Serravalle]]
+|attendance=3,412
+|referee=[[Dejan Filipović]] ([[Football Association of Serbia|Serbia]]) }}
+
+&lt;div id=&quot;Slovakia v Republic of Ireland&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|SVK}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83646/index.html Report]
+|team2={{fb|IRL}}
+|goals1=[[Maroš Klimpl|Klimpl]] {{goal|37}}&lt;br /&gt;[[Marek Čech (Slovak footballer)|Čech]] {{goal|90+1}}
+|goals2=[[Stephen Ireland|Ireland]] {{goal|7}}&lt;br /&gt;[[Kevin Doyle|Doyle]] {{goal|57}}
+|stadium=[[Tehelné pole]], [[Bratislava]]
+|attendance=12,360
+|referee=[[Stefano Farina]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Wales v Germany&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=19:30 [[UTC+1]]
+|team1={{fb-rt|WAL}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83645/index.html Report]
+|team2={{fb|GER}}
+|goals1=
+|goals2=[[Miroslav Klose|Klose]] {{goal|5||60}}
+|stadium=[[Millennium Stadium]], [[Cardiff]]
+|attendance=25,000
+|referee=[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Slovakia v Wales&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=18:30 [[UTC+2]]
+|team1={{fb-rt|SVK}}
+|score=2–5
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83648/index.html Report]
+|team2={{fb|WAL}}
+|goals1=[[Marek Mintál|Mintál]] {{goal|12||57}}
+|goals2=[[Freddy Eastwood|Eastwood]] {{goal|22}}&lt;br /&gt;[[Craig Bellamy|Bellamy]] {{goal|34||41}}&lt;br /&gt;[[Ján Ďurica|Ďurica]] {{goal|78|o.g.}}&lt;br /&gt;[[Simon Davies (footballer born 1979)|S. Davies]] {{goal|90}}
+|stadium=[[Štadión Antona Malatinského]], [[Trnava]]
+|attendance=5,486
+|referee=[[Laurent Duhamel]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Cyprus v San Marino&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:00 [[UTC+3]]
+|team1={{fb-rt|CYP}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83649/index.html Report]
+|team2={{fb|SMR}}
+|goals1=[[Konstantinos Makridis|Makridis]] {{goal|15}}&lt;br /&gt;[[Efstathios Aloneftis|Aloneftis]] {{goal|41||90+2}}
+|goals2=
+|stadium=[[Neo GSP Stadium]], [[Nicosia]]
+|attendance=600
+|referee=[[Alexey Kulbakov]] ([[Football Federation of Belarus|Belarus]]) }}
+
+&lt;div id=&quot;Czech Republic v Republic of Ireland&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|CZE}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83647/index.html Report]
+|team2={{fb|IRL}}
+|goals1=[[Marek Jankulovski|Jankulovski]] {{goal|15}}
+|goals2=
+|stadium=[[AXA Arena]], [[Prague]]
+|attendance=16,648
+|referee=[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]]) }}
+----
+&lt;div id=&quot;Slovakia v San Marino&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=15:00 [[UTC+2]]
+|team1={{fb-rt|SVK}}
+|score=7–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83652/index.html Report]
+|team2={{fb|SMR}}
+|goals1=[[Marek Hamšík|Hamšík]] {{goal|24}}&lt;br /&gt;[[Stanislav Šesták|Šesták]] {{goal|32||57}}&lt;br /&gt;[[Marek Sapara|Sapara]] {{goal|37}}&lt;br /&gt;[[Martin Škrtel|Škrtel]] {{goal|51}}&lt;br /&gt;[[Filip Hološko|Hološko]] {{goal|54}}&lt;br /&gt;[[Ján Ďurica|Ďurica]] {{goal|76|pen.}}
+|goals2=
+|stadium=[[Mestský štadión (Dubnica)|Mestský štadión]], [[Dubnica nad Váhom]]
+|attendance=2,576
+|referee=[[Luc Wilmes]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Cyprus v Wales&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=19:15 [[UTC+3]]
+|team1={{fb-rt|CYP}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83650/index.html Report]
+|team2={{fb|WAL}}
+|goals1=[[Ioannis Okkas|Okkas]] {{goal|59||68}}&lt;br /&gt;[[Constantinos Charalambides|Charalampidis]] {{goal|79}}
+|goals2=[[James Collins (footballer)|Collins]] {{goal|21}}
+|stadium=[[Neo GSP Stadium]], [[Nicosia]]
+|attendance=8,500
+|referee=[[Carlo Bertolini]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Republic of Ireland v Germany&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=19:45 [[UTC+1]]
+|team1={{fb-rt|IRL}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83651/index.html Report]
+|team2={{fb|GER}}
+|goals1=
+|goals2=
+|stadium=[[Croke Park]], [[Dublin]]
+|attendance=67,495
+|referee=[[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;San Marino v Wales&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|SMR}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83655/index.html Report]
+|team2={{fb|WAL}}
+|goals1=[[Andy Selva|Selva]] {{goal|73}}
+|goals2=[[Robert Earnshaw|Earnshaw]] {{goal|13}}&lt;br /&gt;[[Joe Ledley|Ledley]] {{goal|36}}
+|stadium=[[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle, San Marino|Serravalle]]
+|attendance=1,182
+|referee=[[Anthony Zammit]] ([[Malta Football Association|Malta]]) }}
+
+&lt;div id=&quot;Republic of Ireland v Cyprus&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=19:30 [[UTC+1]]
+|team1={{fb-rt|IRL}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83654/index.html Report]
+|team2={{fb|CYP}}
+|goals1=[[Steve Finnan|Finnan]] {{goal|90+2}}
+|goals2=[[Stelios Okkarides|Okkarides]] {{goal|80}}
+|stadium=[[Croke Park]], [[Dublin]]
+|attendance=54,000
+|referee=[[Mikko Vuorela]] ([[Football Association of Finland|Finland]]) }}
+
+&lt;div id=&quot;Germany v Czech Republic&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|GER}}
+|score=0–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83653/index.html Report]
+|team2={{fb|CZE}}
+|goals1=
+|goals2=[[Libor Sionko|Sionko]] {{goal|2}}&lt;br /&gt;[[Marek Matějovský|Matějovský]] {{goal|23}}&lt;br /&gt;[[Jaroslav Plašil|Plašil]] {{goal|63}}
+|stadium=[[Allianz Arena]], [[Munich]]
+|attendance=66,600
+|referee=[[Howard Webb]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Wales v Republic of Ireland&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=15:00 [[UTC+0]]
+|team1={{fb-rt|WAL}}
+|score=2–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83658/index.html Report]
+|team2={{fb|IRL}}
+|goals1=[[Jason Koumas|Koumas]] {{goal|23||89|pen.}}
+|goals2=[[Robbie Keane|Keane]] {{goal|31}}&lt;br /&gt;[[Kevin Doyle|Doyle]] {{goal|60}}
+|stadium=[[Millennium Stadium]], [[Cardiff]]
+|attendance=24,619
+|referee=[[Oleh Oriekhov]] ([[Football Federation of Ukraine|Ukraine]]) }}
+
+&lt;div id=&quot;Germany v Cyprus&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|GER}}
+|score=4–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83657/index.html Report]
+|team2={{fb|CYP}}
+|goals1=[[Clemens Fritz|Fritz]] {{goal|2}}&lt;br /&gt;[[Miroslav Klose|Klose]] {{goal|20}}&lt;br /&gt;[[Lukas Podolski|Podolski]] {{goal|53}}&lt;br /&gt;[[Thomas Hitzlsperger|Hitzlsperger]] {{goal|82}}
+|goals2=
+|stadium=[[AWD-Arena]], [[Hanover]]
+|attendance=45,016
+|referee=[[Peter Rasmussen (referee)|Peter Rasmussen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Czech Republic v Slovakia&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=20:30 [[UTC+1]]
+|team1={{fb-rt|CZE}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83656/index.html Report]
+|team2={{fb|SVK}}
+|goals1=[[Zdeněk Grygera|Grygera]] {{goal|13}}&lt;br /&gt;[[Marek Kulič|Kulič]] {{goal|76}}&lt;br /&gt;[[Tomáš Rosický|Rosický]] {{goal|83}}
+|goals2=[[Michal Kadlec|Kadlec]] {{goal|79|o.g.}}
+|stadium=[[AXA Arena]], [[Prague]]
+|attendance=15,681
+|referee=[[Tony Asumaa]] ([[Football Association of Finland|Finland]]) }}
+----
+&lt;div id=&quot;Cyprus v Czech Republic&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=18:30 [[UTC+2]]
+|team1={{fb-rt|CYP}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83659/index.html Report]
+|team2={{fb|CZE}}
+|goals1=
+|goals2=[[Daniel Pudil|Pudil]] {{goal|11}}&lt;br /&gt;[[Jan Koller|Koller]] {{goal|74}}
+|stadium=[[Neo GSP Stadium]], [[Nicosia]]
+|attendance=8,000
+|referee=[[Levan Paniashvili]] ([[Georgian Football Federation|Georgia]]) }}
+
+&lt;div id=&quot;Germany v Wales&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:30 [[UTC+1]]
+|team1={{fb-rt|GER}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83660/index.html Report]
+|team2={{fb|WAL}}
+|goals1=
+|goals2=
+|stadium=[[Commerzbank-Arena]], [[Frankfurt]]
+|attendance=49,252
+|referee=[[Cristian Balaj]] ([[Romanian Football Federation|Romania]]) }}
+
+&lt;div id=&quot;San Marino v Slovakia&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:30 [[UTC+1]]
+|team1={{fb-rt|SMR}}
+|score=0–5
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83661/index.html Report]
+|team2={{fb|SVK}}
+|goals1=
+|goals2=[[Ľubomír Michalík|Michalík]] {{goal|42}}&lt;br /&gt;[[Filip Hološko|Hološko]] {{goal|51}}&lt;br /&gt;[[Marek Hamšík|Hamšík]] {{goal|53}}&lt;br /&gt;[[Marek Čech (Slovak footballer)|Čech]] {{goal|57||83}}
+|stadium=[[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle (San Marino)|Serravalle]]
+|attendance=500
+|referee=[[Andrejs Sipailo]] ([[Latvian Football Federation|Latvia]]) }}
+
+==Goalscorers==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| 1
+| align=&quot;left&quot;| [[Lukas Podolski]]
+| align=&quot;left&quot;| {{fb|GER}}
+| 8
+|-
+| rowspan=&quot;2&quot;|2
+| align=&quot;left&quot;| [[Jan Koller]]
+| align=&quot;left&quot;| {{fb|CZE}}
+| rowspan=&quot;2&quot;|6
+|-
+| align=&quot;left&quot;| [[Marek Mintál]]
+| align=&quot;left&quot;| {{fb|SVK}}
+|-
+| rowspan=&quot;2&quot;|4
+| align=&quot;left&quot;| [[Miroslav Klose]]
+| align=&quot;left&quot;| {{fb|GER}}
+| rowspan=&quot;2&quot;|5
+|-
+| align=&quot;left&quot;| [[Ioannis Okkas]]
+| align=&quot;left&quot;| {{fb|CYP}}
+|-
+| rowspan=&quot;5&quot;|6
+| align=&quot;left&quot;| [[Kevin Doyle]]
+| align=&quot;left&quot;| {{fb|IRL}}
+| rowspan=&quot;5&quot;|4
+|-
+| align=&quot;left&quot;| [[Thomas Hitzlsperger]]
+| align=&quot;left&quot;| {{fb|GER}}
+|-
+| align=&quot;left&quot;| [[Stephen Ireland]]
+| align=&quot;left&quot;| {{fb|IRL}}
+|-
+| align=&quot;left&quot;| [[Robbie Keane]]
+| align=&quot;left&quot;| {{fb|IRL}}
+|-
+| align=&quot;left&quot;| [[Jason Koumas]]
+| align=&quot;left&quot;| {{fb|WAL}}
+|-
+| rowspan=&quot;10&quot;|11
+| align=&quot;left&quot;| [[Efstathios Aloneftis]]
+| align=&quot;left&quot;| {{fb|CYP}}
+| rowspan=&quot;10&quot;|3
+|-
+| align=&quot;left&quot;| [[Michael Ballack]]
+| align=&quot;left&quot;| {{fb|GER}}
+|-
+| align=&quot;left&quot;| [[Milan Baroš]]
+| align=&quot;left&quot;| {{fb|CZE}}
+|-
+| align=&quot;left&quot;| [[Craig Bellamy]]
+| align=&quot;left&quot;| {{fb|WAL}}
+|-
+| align=&quot;left&quot;| [[Marek Čech (Slovak footballer)|Marek Čech]]
+| align=&quot;left&quot;| {{fb|SVK}}
+|-
+| align=&quot;left&quot;| [[Constantinos Charalambidis]]
+| align=&quot;left&quot;| {{fb|CYP}}
+|-
+| align=&quot;left&quot;| [[Kevin Kurányi]]
+| align=&quot;left&quot;| {{fb|GER}}
+|-
+| align=&quot;left&quot;| [[Bastian Schweinsteiger]]
+| align=&quot;left&quot;| {{fb|GER}}
+|-
+| align=&quot;left&quot;| [[Libor Sionko]]
+| align=&quot;left&quot;| {{fb|CZE}}
+|-
+| align=&quot;left&quot;| [[Martin Škrtel]]
+| align=&quot;left&quot;| {{fb|SVK}}
+|}
+
+;2 goals
+*'''{{fb|CYP}}:''' [[Michalis Konstantinou]]
+*'''{{fb|CZE}}:''' [[Marek Jankulovski]], [[Marek Kulič]], [[David Lafata]], [[Tomáš Rosický]]
+*'''{{fb|GER}}:''' [[Clemens Fritz]], [[Mario Gomez]]
+*'''{{fb|IRL}}:''' [[Kevin Kilbane]]
+*'''{{fb|SVK}}:''' [[Marek Hamšík]], [[Filip Hološko]], [[Miroslav Karhan]], [[Filip Šebo]], [[Stanislav Šesták]], [[Róbert Vittek]]
+*'''{{fb|WAL}}:''' [[Gareth Bale]], [[Robert Earnshaw]]
+;1 goal
+*'''{{fb|CYP}}:''' [[Alexandros Garpozis]], [[Constantinos Makrides]], [[Stelios Okkarides]], [[Yiasoumis Yiasoumi]]
+*'''{{fb|CZE}}:''' [[Zdeněk Grygera]], [[David Jarolím]], [[Radoslav Kováč]], [[Marek Matějovský]], [[Jaroslav Plašil]], [[Jan Polák]], [[Daniel Pudil]]
+*'''{{fb|GER}}:''' [[Manuel Friedrich]], [[Torsten Frings]], [[Marcell Jansen]], [[Bernd Schneider (footballer)|Bernd Schneider]]
+*'''{{fb|IRL}}:''' [[Richard Dunne]], [[Steve Finnan]], [[Andy Reid (Irish footballer)|Andy Reid]]
+*'''{{fb|SMR}}:''' [[Manuel Marani]], [[Andy Selva]]
+*'''{{fb|SVK}}:''' [[Ján Ďurica]], [[Martin Jakubko]], [[Maroš Klimpl]], [[Ľubomír Michalík]], [[Marek Sapara]], [[Dušan Švento]], [[Stanislav Varga]]
+*'''{{fb|WAL}}:''' [[James Collins (footballer)|James Collins]], [[Simon Davies (footballer born 1979)|Simon Davies]], [[Freddy Eastwood]], [[Ryan Giggs]], [[Joe Ledley]]
+;Own goals
+*'''{{fb|CZE}}''': [[Martin Jiránek]] (for {{fb|WAL}}), [[Michal Kadlec]] (for {{fb|SVK}})
+*'''{{fb|GER}}''': [[Christoph Metzelder]] (for {{fb|SVK}})
+*'''{{fb|SVK}}''': [[Ján Ďurica]] (for {{fb|GER}} and for {{fb|WAL}})
+
+==References==
+{{Reflist}}
+*[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/group=2633.html UEFA web site]
+
+{{UEFA Euro 2008 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group D]]
+[[Category:2006–07 in Welsh football]]
+[[Category:2007–08 in Welsh football]]
+[[Category:2006 in Republic of Ireland football]]
+[[Category:2007 in Republic of Ireland football]]
+[[Category:2006–07 in German football]]
+[[Category:Germany at UEFA Euro 2008|qual]]
+[[Category:2006–07 in Czech football]]
+[[Category:2007–08 in Czech football]]
+[[Category:2006–07 in Cypriot football]]
+[[Category:2007–08 in Cypriot football]]
+[[Category:2006–07 in Slovak football]]
+[[Category:2007–08 in Slovak football]]
+[[Category:2006–07 in San Marino football]]
+[[Category:2007–08 in San Marino football]]</text>
+      <sha1>b85fs2qekf3vx62kspu5pw44ppd1nwg</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,206 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2016 Group C</title>
+    <ns>0</ns>
+    <id>48801919</id>
+    <revision>
+      <id>724543394</id>
+      <parentid>724537534</parentid>
+      <timestamp>2016-06-09T22:58:03Z</timestamp>
+      <contributor>
+        <username>Qed237</username>
+        <id>19204020</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted 1 edit by [[Special:Contributions/2A02:C7D:70B3:7500:55A6:925E:8AE9:3771|2A02:C7D:70B3:7500:55A6:925E:8AE9:3771]] ([[User talk:2A02:C7D:70B3:7500:55A6:925E:8AE9:3771|talk]]) to last revision by Arbero. ([[WP:TW|TW]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4546">'''Group C of [[UEFA Euro 2016]]''' contains [[Germany national football team|Germany]], [[Ukraine national football team|Ukraine]], [[Poland national football team|Poland]] and [[Northern Ireland national football team|Northern Ireland]]. Germany is the only former European champion in this group, having won the championship three times (in [[Euro 1972|1972]] and [[Euro 1980|1980]] as West Germany and in [[Euro 1996|1996]] as unified Germany). Matches will be played from 12 to 21 June 2016.
+
+{{TOC right}}
+
+==Teams==
+{{Empty section|date=December 2015}}
+
+==Standings==
+{{UEFA Euro 2016 Group C table}}
+
+==Matches==
+''All times [[Central European Summer Time]] ([[UTC+02:00]])''
+===Poland vs Northern Ireland===
+&lt;section begin=c1 /&gt;{{Football box
+|date={{Start date|2016|6|12|df=y}}
+|time=18:00
+|team1={{fb-rt|POL}}
+|score=Match 6
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017882/index.html Report]
+|team2={{fb|NIR}}
+|goals1=
+|goals2=
+|stadium=[[Allianz Riviera]], [[Nice]]
+|attendance=
+|referee=[[Ovidiu Hațegan]] ([[Romanian Football Federation|Romania]])
+}}&lt;section end=c1/&gt;
+{| width=100% style=&quot;font-size:90%&quot;
+|
+&lt;br /&gt;
+&lt;!--'''Man of the Match:'''--&gt;
+'''Assistant referees:'''
+&lt;br /&gt;Octavian Şovre ([[Romanian Football Federation|Romania]])
+&lt;br /&gt;Sebastian Gheorghe ([[Romanian Football Federation|Romania]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Anastasios Sidiropoulos]] ([[Hellenic Football Federation|Greece]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Alexandru Tudor]] ([[Romanian Football Federation|Romania]])
+&lt;br /&gt;Sebastian Colţescu ([[Romanian Football Federation|Romania]])
+|}
+
+===Germany vs Ukraine===
+&lt;section begin=c2 /&gt;{{Football box
+|date={{Start date|2016|6|12|df=y}}
+|time=21:00
+|team1={{fb-rt|GER}}
+|score=Match 7
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017881/index.html Report]
+|team2={{fb|UKR}}
+|goals1=
+|goals2=
+|stadium=[[Stade Pierre-Mauroy]], [[Lille]]
+|attendance=
+|referee=[[Martin Atkinson]] ([[The Football Association|England]])
+}}&lt;section end=c2 /&gt;
+{| width=100% style=&quot;font-size:90%&quot;
+|
+&lt;br /&gt;
+&lt;!--'''Man of the Match:'''--&gt;
+'''Assistant referees:'''
+&lt;br /&gt;Michael Mullarkey ([[The Football Association|England]])
+&lt;br /&gt;Stephen Child ([[The Football Association|England]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Bobby Madden]] ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Michael Oliver (referee)|Michael Oliver]] ([[The Football Association|England]])
+&lt;br /&gt;[[Craig Pawson]] ([[The Football Association|England]])
+|}
+
+===Ukraine vs Northern Ireland===
+&lt;section begin=c3 /&gt;{{Football box
+|date={{Start date|2016|6|16|df=y}}
+|time=18:00
+|team1={{fb-rt|UKR}}
+|score=Match 17
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017890/index.html Report]
+|team2={{fb|NIR}}
+|goals1=
+|goals2=
+|stadium=[[Parc Olympique Lyonnais]], [[Lyon]]
+|attendance=
+|referee=
+}}&lt;section end=c3 /&gt;
+
+===Germany vs Poland===
+&lt;section begin=c4 /&gt;{{Football box
+|date={{Start date|2016|6|16|df=y}}
+|time=21:00
+|team1={{fb-rt|GER}}
+|score=Match 18
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017889/index.html Report]
+|team2={{fb|POL}}
+|goals1=
+|goals2=
+|stadium=[[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]]
+|attendance=
+|referee=
+}}&lt;section end=c4 /&gt;
+
+===Ukraine vs Poland===
+&lt;section begin=c5 /&gt;{{Football box
+|date={{Start date|2016|6|21|df=y}}
+|time=18:00
+|team1={{fb-rt|UKR}}
+|score=Match 29
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017898/index.html Report]
+|team2={{fb|POL}}
+|goals1=
+|goals2=
+|stadium=[[Stade Vélodrome]], [[Marseille]]
+|attendance=
+|referee=
+}}&lt;section end=c5 /&gt;
+
+===Northern Ireland vs Germany===
+&lt;section begin=c6 /&gt;{{Football box
+|date={{Start date|2016|6|21|df=y}}
+|time=18:00
+|team1={{fb-rt|NIR}}
+|score=Match 30
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017897/index.html Report]
+|team2={{fb|GER}}
+|goals1=
+|goals2=
+|stadium=[[Parc des Princes]], [[Paris]]
+|attendance=
+|referee=
+}}&lt;section end=c6 /&gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.uefa.com/uefaeuro/season=2016/standings/round=2000448/group=2002443/index.html UEFA Euro 2016 Group C]
+
+{{UEFA Euro 2016}}
+
+[[Category:UEFA Euro 2016|Group C]]
+[[Category:2015–16 in German football]]
+[[Category:2015–16 in Ukrainian football]]
+[[Category:2015–16 in Polish football]]
+[[Category:2015–16 in Northern Ireland football]]</text>
+      <sha1>loaiawjy2047sd5sk3bismij6xv1fgl</sha1>
+    </revision>
+  </page>
+</mediawiki>

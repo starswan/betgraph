@@ -1,0 +1,330 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2016 Group A</title>
+    <ns>0</ns>
+    <id>48801220</id>
+    <revision>
+      <id>724676628</id>
+      <parentid>724674837</parentid>
+      <timestamp>2016-06-10T19:30:07Z</timestamp>
+      <contributor>
+        <username>Kante4</username>
+        <id>10371471</id>
+      </contributor>
+      <comment>/* France vs Romania */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="8651">'''Group A of [[UEFA Euro 2016]]''' contains [[France national football team|France]], [[Romania national football team|Romania]], debutant [[Albania national football team|Albania]] and [[Switzerland national football team|Switzerland]]. France is the only former European champion in this group, having won the championship two times (in [[UEFA Euro 1984|1984]] and [[UEFA Euro 2000|2000]]). Matches will be played from 10 to 19 June 2016.
+
+{{TOC right}}
+
+==Teams==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Draw position
+! Team
+! Method of&lt;br /&gt;qualification
+! Finals&lt;br /&gt;appearance
+! Last&lt;br /&gt;appearance
+! Previous best&lt;br /&gt;performance
+! [[UEFA coefficient#National team coefficient|UEFA Rankings]]&lt;br /&gt;October 2015{{refn|group=nb|The UEFA rankings of October 2015 were used for seeding for the final draw.}}
+! [[FIFA World Rankings|FIFA Rankings]]&lt;br /&gt;June 2016
+|-
+| A1 || style=white-space:nowrap | {{fb|FRA}} || Hosts || {{sort|09|9th}} || [[UEFA Euro 2012|2012]] || {{sort|01|'''Winners'''}} ([[UEFA Euro 1984|1984]], [[UEFA Euro 2000|2000]]) || 8 || 17
+|-
+| A2 || style=white-space:nowrap | {{fb|ROU}} || [[UEFA Euro 2016 qualifying Group F|Group F]] runners-up || {{sort|05|5th}} || [[UEFA Euro 2008|2008]] || {{sort|05|Quarter-finals}} ([[UEFA Euro 2000|2000]]) || 18 || 22
+|-
+| A3 || style=white-space:nowrap | {{fb|ALB}} || [[UEFA Euro 2016 qualifying Group I|Group I]] runners-up || {{sort|01|1st}} || — || {{sort|99|Debut}} || 31 || 42
+|-
+| A4 || style=white-space:nowrap | {{fb|SUI}} || [[UEFA Euro 2016 qualifying Group E|Group E]] runners-up || {{sort|04|4th}} || [[UEFA Euro 2008|2008]] || {{sort|07|Group stage}} ([[UEFA Euro 1996|1996]], [[UEFA Euro 2004|2004]], [[UEFA Euro 2008|2008]]) || 10 || 15
+|}
+
+;Notes
+{{reflist|group=nb}}
+
+==Standings==
+{{UEFA Euro 2016 Group A table}}
+
+==Matches==
+''All times [[Central European Summer Time]] ([[UTC+02:00]])''
+===France vs Romania===
+&lt;section begin=a1 /&gt;{{Football box
+|date={{Start date|2016|6|10|df=y}}
+|time=21:00
+|team1={{fb-rt|FRA}}
+|score=Match 1
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017877/index.html Report]
+|team2={{fb|ROU}}
+|goals1=
+|goals2=
+|stadium=[[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]]
+|attendance=
+|referee=[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]])
+}}&lt;section end=a1 /&gt;
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _fra16h
+ |pattern_b  = _fra16H
+ |pattern_ra = _fra16h
+ |pattern_sh = _fra16h
+ |pattern_so = _fra16h 
+ |leftarm    = 12366B
+ |body       = 115AB9
+ |rightarm   = 12366B
+ |shorts     = 0000FF
+ |socks      = FF0000
+ |title      = France&lt;ref name=&quot;fra-rou_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2016/2017877_lu.pdf|title=Tactical Line-ups – France-Romania |website=UEFA.com |publisher=Union of European Football Associations |date=10 June 2016 |accessdate=10 June 2016 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _roem16h
+ |pattern_b  = _roem16h
+ |pattern_ra = _roem16h
+ |pattern_sh = _roem16h
+ |pattern_so = _roem16h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFDD00
+ |socks      = FFDD00
+ |title      = Romania&lt;ref name=&quot;fra-rou_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1''' ||[[Hugo Lloris]] ([[Captain (association football)|c]])
+|-
+| RB || '''19'''||[[Bacary Sagna]]
+|-
+| CB || '''4''' ||[[Adil Rami]]
+|-
+| CB || '''21'''||[[Laurent Koscielny]]
+|-
+| LB || '''3''' ||[[Patrice Evra]]
+|-
+| CM || '''15'''||[[Paul Pogba]]
+|-
+| CM || '''5''' ||[[N'Golo Kanté]]
+|-
+| CM || '''14'''||[[Blaise Matuidi]]
+|-
+| RW || '''7''' ||[[Antoine Griezmann]]
+|-
+| LW || '''8''' ||[[Dimitri Payet]]
+|-
+| CF || '''9''' ||[[Olivier Giroud]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Didier Deschamps]]
+|}
+|valign=&quot;top&quot;|&lt;!--[[File:FRA-ROU 2016-06-10.svg|300px]]--&gt;
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''12'''||[[Ciprian Tătărușanu]]
+|-
+| RB || '''22'''||[[Cristian Săpunaru]]
+|-
+| CB || '''6''' ||[[Vlad Chiricheș]] ([[Captain (association football)|c]])
+|-
+| CB || '''21'''||[[Dragoș Grigore]]
+|-
+| LB || '''3''' ||[[Răzvan Raț]]
+|-
+| CM || '''10'''||[[Nicolae Stanciu]]
+|-
+| CM || '''5''' ||[[Ovidiu Hoban]]
+|-
+| CM || '''8''' ||[[Mihai Pintilii]]
+|-
+| RW || '''20'''||[[Adrian Popa (footballer, born 1988)|Adrian Popa]]
+|-
+| LW || '''14'''||[[Florin Andone]]
+|-
+| CF || '''19'''||[[Bogdan Stancu]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Anghel Iordănescu]]
+|}
+|}
+{| width=100% style=&quot;font-size:90%&quot;
+|
+&lt;br /&gt;
+&lt;!--'''Man of the Match:'''--&gt;
+'''Assistant referees:'''&lt;ref name=&quot;referees&quot;&gt;{{cite web |title=Who is the referee? UEFA EURO 2016 appointments |url=http://www.uefa.com/uefaeuro/news/newsid=2372154.html |website=UEFA.com |publisher=Union of European Football Associations |date=10 June 2016 |accessdate=10 June 2016 }}&lt;/ref&gt;
+&lt;br /&gt;György Ring ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;Vencel Tóth ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Björn Kuipers]] ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Tamás Bognár]] ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;Ádám Farkas ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;'''Reserve official:'''
+&lt;br /&gt;Sander van Roekel ([[Royal Dutch Football Association|Netherlands]])
+|}
+
+===Albania vs Switzerland===
+&lt;section begin=a2 /&gt;{{Football box
+|date={{Start date|2016|6|11|df=y}}
+|time=15:00
+|team1={{fb-rt|ALB}}
+|score=Match 2
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017878/index.html Report]
+|team2={{fb|SUI}}
+|goals1=
+|goals2=
+|stadium=[[Stade Bollaert-Delelis]], [[Lens, Pas-de-Calais|Lens]]
+|attendance=
+|referee=[[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]])
+}}&lt;section end=a2 /&gt;
+{| width=100% style=&quot;font-size:90%&quot;
+|
+&lt;br /&gt;
+&lt;!--'''Man of the Match:'''--&gt;
+'''Assistant referees:'''&lt;ref name=&quot;referees&quot;/&gt;
+&lt;br /&gt;Roberto Alonso Fernández ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;Juan Carlos Yuste Jiménez ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Pol van Boekel]] ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Jesús Gil Manzano]] ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;[[Carlos del Cerro Grande]] ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''Reserve official:'''
+&lt;br /&gt;Erwin Zeinstra ([[Royal Dutch Football Association|Netherlands]])
+|}
+
+===Romania vs Switzerland===
+&lt;section begin=a3 /&gt;{{Football box
+|date={{Start date|2016|6|15|df=y}}
+|time=18:00
+|team1={{fb-rt|ROU}}
+|score=Match 14
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017886/index.html Report]
+|team2={{fb|SUI}}
+|goals1=
+|goals2=
+|stadium=[[Parc des Princes]], [[Paris]]
+|attendance=
+|referee=
+}}&lt;section end=a3 /&gt;
+
+===France vs Albania===
+&lt;section begin=a4 /&gt;{{Football box
+|date={{Start date|2016|6|15|df=y}}
+|time=21:00
+|team1={{fb-rt|FRA}}
+|score=Match 15
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017885/index.html Report]
+|team2={{fb|ALB}}
+|goals1=
+|goals2=
+|stadium=[[Stade Vélodrome]], [[Marseille]]
+|attendance=
+|referee=
+}}&lt;section end=a4 /&gt;
+
+===Romania vs Albania===
+&lt;section begin=a5 /&gt;{{Football box
+|date={{Start date|2016|6|19|df=y}}
+|time=21:00
+|team1={{fb-rt|ROU}}
+|score=Match 25
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017894/index.html Report]
+|team2={{fb|ALB}}
+|goals1=
+|goals2=
+|stadium=[[Parc Olympique Lyonnais]], [[Lyon]]
+|attendance=
+|referee=
+}}&lt;section end=a5 /&gt;
+
+===Switzerland vs France===
+&lt;section begin=a6 /&gt;{{Football box
+|date={{Start date|2016|6|19|df=y}}
+|time=21:00
+|team1={{fb-rt|SUI}}
+|score=Match 26
+|report=[http://www.uefa.com/uefaeuro/season=2016/matches/round=2000448/match=2017893/index.html Report]
+|team2={{fb|FRA}}
+|goals1=
+|goals2=
+|stadium=[[Stade Pierre-Mauroy]], [[Lille]]
+|attendance=
+|referee=
+}}&lt;section end=a6 /&gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.uefa.com/uefaeuro/season=2016/standings/round=2000448/group=2002441/index.html UEFA Euro 2016 Group A]
+
+{{UEFA Euro 2016}}
+
+[[Category:UEFA Euro 2016|Group A]]
+[[Category:2015–16 in French football]]
+[[Category:2015–16 in Romanian football]]
+[[Category:2015–16 in Albanian football]]
+[[Category:2015–16 in Swiss football]]</text>
+      <sha1>5j5p6dqid4xiqd4y7k5g8sull6pha7j</sha1>
+    </revision>
+  </page>
+</mediawiki>

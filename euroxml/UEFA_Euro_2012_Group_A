@@ -1,0 +1,962 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 Group A</title>
+    <ns>0</ns>
+    <id>33942106</id>
+    <revision>
+      <id>706313006</id>
+      <parentid>706141957</parentid>
+      <timestamp>2016-02-22T17:11:53Z</timestamp>
+      <contributor>
+        <username>PeeJay2K3</username>
+        <id>492929</id>
+      </contributor>
+      <comment>rvv</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="28597">'''Group A of [[UEFA Euro 2012]]''' was played from 8 to 16 June 2012. The pool was made up of co-host [[Poland national football team|Poland]], [[Czech Republic national football team|Czech Republic]], [[Greece national football team|Greece]] and [[Russia national football team|Russia]]. The top two finishing teams, Czech Republic and Greece, progressed to the quarter-finals, while Russia and Poland were eliminated from the tournament.
+
+{{TOC right}}
+
+== Standings ==
+{| class=&quot;wikitable&quot;
+|-
+!Key to colours in group tables
+|- style=&quot;background:#cfc&quot;
+|Team progressed to the [[UEFA Euro 2012 knockout phase#Quarter-finals|quarter-finals]]
+|}
+
+&lt;onlyinclude&gt;{| class=wikitable style=&quot;text-align:center&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- style=&quot;background:#cfc&quot;
+|align=left|{{fb|CZE}}
+|3||2||0||1||4||5||−1||'''6'''
+|- style=&quot;background:#cfc&quot;
+|align=left|{{fb|GRE}}
+|3||1||1||1||3||3||0||'''4'''
+|- 
+|align=left|{{fb|RUS}}
+|3||1||1||1||5||3||+2||'''4'''
+|- 
+|align=left|{{fb|POL}}
+|3||0||2||1||2||3||−1||'''2'''
+|}&lt;/onlyinclude&gt;
+
+''Greece finished second ahead of Russia based on their [[UEFA Euro 2012#Group stage|head-to-head record]] ([[#Greece vs Russia|1–0]]).''&lt;ref&gt;{{cite news |url= http://www.bbc.co.uk/sport/0/football/18138461 |title= Greece 1–0 Russia |author= Mandeep Sanghera |publisher= BBC Sport |date= 16 June 2012 |accessdate= 17 June 2012}}&lt;/ref&gt;
+
+''All times local ([[UTC+02:00|UTC+2]])''
+
+== Poland vs Greece ==
+{{Football box
+|date = 8 June 2012
+|time = 18:00
+|team1 = {{fb-rt|POL}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003319/postmatch/report/index.html Report]
+|team2 = {{fb|GRE}}
+|goals1 = [[Robert Lewandowski|Lewandowski]] {{goal|17}}
+|goals2 = [[Dimitris Salpingidis|Salpingidis]] {{goal|51}}
+|stadium = [[National Stadium, Warsaw|National Stadium]], [[Warsaw]]
+|attendance = 56,070&lt;ref name=&quot;pol-gre report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003319_fr.pdf |title=Full-time report Poland-Greece |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=8 June 2012 |accessdate=8 June 2012 }}&lt;/ref&gt;
+|referee = [[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]])&lt;ref name=&quot;referees1-4&quot;&gt;{{cite news |title=Match officials appointed for first four UEFA Euro 2012 matches |url=http://www.uefa.com/uefa/mediaservices/mediareleases/newsid=1806151.html |work=UEFA.com |publisher=Union of European Football Associations |date=6 June 2012 |accessdate=6 June 2012 }}&lt;/ref&gt;
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _pol12h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = _pol12h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FF0000
+ |socks      = FFFFFF
+ |title      = Poland&lt;ref name=&quot;pol-gre_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003319_lu.pdf|title=Tactical Line-up – Group A – Poland-Greece |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=8 June 2012 |accessdate=8 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _gre12a
+ |pattern_b  = _gre12a
+ |pattern_ra = _gre12a
+ |pattern_sh = _gre12a
+ |pattern_so = _color_3_stripes_white
+ |leftarm    = 0000FF
+ |body       = 0000FF
+ |rightarm   = 0000FF
+ |shorts     = 0000BF
+ |socks      = 0000BF
+ |title      = Greece&lt;ref name=&quot;pol-gre_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  ||[[Wojciech Szczęsny]] || {{sent off|0|68}}
+|-
+| RB || '''20''' ||[[Łukasz Piszczek]]
+|-
+| CB || '''13''' ||[[Marcin Wasilewski]]
+|-
+| CB || '''15''' ||[[Damien Perquis]]
+|-
+| LB || '''2'''  ||[[Sebastian Boenisch]]
+|-
+| CM || '''11''' ||[[Rafał Murawski]]
+|-
+| CM || '''7'''  ||[[Eugen Polanski]]
+|-
+| RW || '''16''' ||[[Jakub Błaszczykowski]] ([[Captain (association football)|c]])
+|-
+| AM || '''10''' ||[[Ludovic Obraniak]]
+|-
+| LW || '''8'''  ||[[Maciej Rybus]] || || {{suboff|70}}
+|-
+| CF || '''9'''  ||[[Robert Lewandowski]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| GK || '''22'''  ||[[Przemysław Tytoń]] || || {{subon|70}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Franciszek Smuda]]
+|}
+|valign=&quot;top&quot;|[[File:POL-GRE 2012-06-08.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Kostas Chalkias]]
+|-
+| RB || '''15''' ||[[Vasilis Torosidis]]
+|-
+| CB || '''19''' ||[[Sokratis Papastathopoulos]] || {{sent off|2|35|44}}
+|-
+| CB || '''8'''  ||[[Avraam Papadopoulos]] || || {{suboff|37}}
+|-
+| LB || '''20''' ||[[José Holebas]] || {{yel|45+2}}
+|-
+| RM || '''2'''  ||[[Ioannis Maniatis]]
+|-
+| CM || '''21''' ||[[Kostas Katsouranis]]
+|-
+| LM || '''10''' ||[[Giorgos Karagounis]] ([[Captain (association football)|c]]) || {{yel|54}}
+|-
+| RF || '''18''' ||[[Sotiris Ninis]] || || {{suboff|46}}
+|-
+| CF || '''17''' ||[[Theofanis Gekas]] || || {{suboff|68}}
+|-
+| LF || '''7'''  ||[[Georgios Samaras]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| DF || '''5'''  ||[[Kyriakos Papadopoulos]] || || {{subon|37}}
+|-
+| FW || '''14'''  ||[[Dimitris Salpingidis]] || || {{subon|46}}
+|-
+| MF || '''22'''  ||[[Kostas Fortounis]] || || {{subon|68}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|{{flagicon|POR}} [[Fernando Santos (Portuguese footballer)|Fernando Santos]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|{{Commons category|Poland - Greece, 8 Jun 2012}}
+'''Man of the Match:'''
+&lt;br /&gt;[[Robert Lewandowski]] (Poland)&lt;ref name=&quot;pol-gre report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Roberto Alonso Fernández ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;Juan Carlos Yuste Jiménez ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Gianluca Rocchi]] ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[David Fernández Borbalán]] ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;[[Carlos Clos Gómez]] ([[Royal Spanish Football Federation|Spain]])
+|}
+
+== Russia vs Czech Republic ==
+{{Football box
+|date = 8 June 2012
+|time = 20:45
+|team1 = {{fb-rt|RUS}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003320/postmatch/report/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Alan Dzagoev|Dzagoev]] {{goal|15||79}}&lt;br /&gt;[[Roman Shirokov|Shirokov]] {{goal|24}}&lt;br /&gt;[[Roman Pavlyuchenko|Pavlyuchenko]] {{goal|82}}
+|goals2 = [[Václav Pilař|Pilař]] {{goal|52}}
+|stadium = [[Stadion Miejski (Wrocław)|Municipal Stadium]], [[Wrocław]]
+|attendance = 40,803&lt;ref name=&quot;rus-cze report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003320_fr.pdf |title=Full-time report Russia-Czech Republic |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=8 June 2012 |accessdate=8 June 2012 }}&lt;/ref&gt;
+|referee = [[Howard Webb]] ([[The Football Association|England]])&lt;ref name=&quot;referees1-4&quot;/&gt;
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _rus12h
+ |pattern_b  = _rus12h
+ |pattern_ra = _rus12h
+ |pattern_sh = _acm1011t1
+ |pattern_so = _rus12h
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Russia&lt;ref name=&quot;rus-cze_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003320_lu.pdf|title=Tactical Line-up – Group A – Russia-Czech Republic |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=8 June 2012 |accessdate=8 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _blueborder
+ |pattern_b  = _redcollar
+ |pattern_ra = _borderonwhite
+ |pattern_sh = 
+ |pattern_so = _ita12a
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = 0000FF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Czech Republic&lt;ref name=&quot;rus-cze_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''16''' ||[[Vyacheslav Malafeev]]
+|-
+| RB || '''2'''  ||[[Aleksandr Anyukov]]
+|-
+| CB || '''12''' ||[[Aleksei Berezutski]]
+|-
+| CB || '''4'''  ||[[Sergei Ignashevich]]
+|-
+| LB || '''5'''  ||[[Yuri Zhirkov]]
+|-
+| RM || '''6'''  ||[[Roman Shirokov]]
+|-
+| CM || '''7'''  ||[[Igor Denisov]]
+|-
+| LM || '''8'''  ||[[Konstantin Zyryanov]]
+|-
+| RW || '''17''' ||[[Alan Dzagoev]] || || {{suboff|84}}
+|-
+| LW || '''10''' ||[[Andrei Arshavin]] ([[Captain (association football)|c]])
+|-
+| CF || '''11''' ||[[Aleksandr Kerzhakov]] || || {{suboff|73}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''14'''  ||[[Roman Pavlyuchenko]] || || {{subon|73}}
+|-
+| FW || '''18'''  ||[[Aleksandr Kokorin]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|{{flagicon|NED}} [[Dick Advocaat]]
+|}
+|valign=&quot;top&quot;|[[File:RUS-CZE 2012-06-08.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Petr Čech]]
+|-
+| RB || '''2'''  ||[[Theodor Gebre Selassie]]
+|-
+| CB || '''5'''  ||[[Roman Hubník]]
+|-
+| CB || '''6'''  ||[[Tomáš Sivok]]
+|-
+| LB || '''3'''  ||[[Michal Kadlec]]
+|-
+| CM || '''13''' ||[[Jaroslav Plašil]]
+|-
+| CM || '''19''' ||[[Petr Jiráček]] || || {{suboff|76}}
+|-
+| RW || '''14''' ||[[Václav Pilař]]
+|-
+| AM || '''10''' ||[[Tomáš Rosický]] ([[Captain (association football)|c]])
+|-
+| LW || '''9'''  ||[[Jan Rezek]] || || {{suboff|46}}
+|-
+| CF || '''15''' ||[[Milan Baroš]] || || {{suboff|85}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''17'''  ||[[Tomáš Hübschman]] || || {{subon|46}}
+|-
+| MF || '''11'''  ||[[Milan Petržela]] || || {{subon|76}}
+|-
+| FW || '''21'''  ||[[David Lafata]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Michal Bílek]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Alan Dzagoev]] (Russia)&lt;ref name=&quot;rus-cze report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Michael Mullarkey ([[The Football Association|England]])
+&lt;br /&gt;Peter Kirkup ([[The Football Association|England]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;Jorge Sousa ([[Portuguese Football Federation|Portugal]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Martin Atkinson]] ([[The Football Association|England]])
+&lt;br /&gt;[[Mark Clattenburg]] ([[The Football Association|England]])
+|}
+
+== Greece vs Czech Republic ==
+{{Football box
+|date = 12 June 2012
+|time = 18:00
+|team1 = {{fb-rt|GRE}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003328/postmatch/report/index.html Report]
+|team2 = {{fb|CZE}}
+|goals1 = [[Theofanis Gekas|Gekas]] {{goal|53}}
+|goals2 = [[Petr Jiráček|Jiráček]] {{goal|3}}&lt;br /&gt;[[Václav Pilař|Pilař]] {{goal|6}}
+|stadium = [[Stadion Miejski (Wrocław)|Municipal Stadium]], [[Wrocław]]
+|attendance = 41,105&lt;ref name=&quot;gre-cze report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003328_fr.pdf |title=Full-time report Greece-Czech Republic |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=12 June 2012 |accessdate=12 June 2012 }}&lt;/ref&gt;
+|referee = [[Stéphane Lannoy]] ([[French Football Federation|France]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _gre12h
+ |pattern_b  = _gre12h
+ |pattern_ra = _gre12h
+ |pattern_sh = _isr12a
+ |pattern_so = _color_3_stripes_blue
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Greece&lt;ref name=&quot;gre-cze_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003328_lu.pdf |title=Tactical Line-up – Group A – Greece-Czech Republic |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=12 June 2012 |accessdate=12 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _cze12h
+ |pattern_b  = _cze12h
+ |pattern_ra = _cze12h
+ |pattern_sh = 
+ |pattern_so = _cze12h
+ |leftarm    = FF0000
+ |body       = E12500
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Czech Republic&lt;ref name=&quot;gre-cze_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  ||[[Kostas Chalkias]] || || {{suboff|23}}
+|-
+| RB || '''15''' ||[[Vasilis Torosidis]] || {{yel|34}}
+|-
+| CB || '''5'''  ||[[Kyriakos Papadopoulos]] || {{yel|56}}
+|-
+| CB || '''21''' ||[[Kostas Katsouranis]]
+|-
+| LB || '''20''' ||[[José Holebas]]
+|-
+| RM || '''16''' ||[[Georgios Fotakis]] || || {{suboff|46}}
+|-
+| CM || '''2'''  ||[[Ioannis Maniatis]]
+|-
+| LM || '''10''' ||[[Giorgos Karagounis]] ([[Captain (association football)|c]])
+|-
+| RF || '''14''' ||[[Dimitris Salpingidis]] || {{yel|57}}
+|-
+| CF || '''7'''  ||[[Georgios Samaras]]
+|-
+| LF || '''22''' ||[[Kostas Fortounis]] || || {{suboff|71}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| GK || '''13''' ||[[Michalis Sifakis]] || || {{subon|23}}
+|-
+| FW || '''17''' ||[[Theofanis Gekas]] || || {{subon|46}}
+|-
+| FW || '''11''' ||[[Konstantinos Mitroglou]] || || {{subon|71}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|{{flagicon|POR}} [[Fernando Santos (Portuguese footballer)|Fernando Santos]]
+|}
+|valign=&quot;top&quot;|[[File:GRE-CZE 2012-06-12.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Petr Čech]]
+|-
+| RB || '''2'''  ||[[Theodor Gebre Selassie]]
+|-
+| CB || '''6'''  ||[[Tomáš Sivok]]
+|-
+| CB || '''3'''  ||[[Michal Kadlec]]
+|-
+| LB || '''8'''  ||[[David Limberský]]
+|-
+| CM || '''17''' ||[[Tomáš Hübschman]]
+|-
+| CM || '''13''' ||[[Jaroslav Plašil]]
+|-
+| RW || '''19''' ||[[Petr Jiráček]] || {{yel|36}}
+|-
+| AM || '''10''' ||[[Tomáš Rosický]] ([[Captain (association football)|c]]) || {{yel|27}} || {{suboff|46}}
+|-
+| LW || '''14''' ||[[Václav Pilař]]
+|-
+| CF || '''15''' ||[[Milan Baroš]] || || {{suboff|64}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''18''' ||[[Daniel Kolář]] || {{yel|65}} || {{subon|46}} || {{suboff|90}}
+|-
+| FW || '''20''' ||[[Tomáš Pekhart]] || || {{subon|64}}
+|-
+| FW || '''12''' ||[[František Rajtoral]] || || || {{subon|90}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Michal Bílek]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Václav Pilař]] (Czech Republic)&lt;ref name=&quot;gre-cze report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Frédéric Cano ([[French Football Federation|France]])
+&lt;br /&gt;Michaël Annonier  ([[French Football Federation|France]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Matej Jug]] ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Fredy Fautrel]] ([[French Football Federation|France]])
+&lt;br /&gt;Ruddy Buquet ([[French Football Federation|France]])
+|}
+
+== Poland vs Russia ==
+{{Football box
+|date = 12 June 2012
+|time = 20:45
+|team1 = {{fb-rt|POL}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003327/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|goals1 = [[Jakub Błaszczykowski|Błaszczykowski]] {{goal|57}}
+|goals2 = [[Alan Dzagoev|Dzagoev]] {{goal|37}}
+|stadium = [[National Stadium, Warsaw|National Stadium]], [[Warsaw]]
+|attendance = 55,920&lt;ref name=&quot;pol-rus report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003327_fr.pdf |title=Full-time report Poland-Russia |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=12 June 2012 |accessdate=12 June 2012 }}&lt;/ref&gt;
+|referee = [[Wolfgang Stark]] ([[German Football Association|Germany]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _pol12h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = _pol12h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Poland&lt;ref name=&quot;pol-rus_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003327_lu.pdf|title=Tactical Line-up – Group A – Poland-Russia |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=12 June 2012 |accessdate=12 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _rus12h
+ |pattern_b  = _rus12h
+ |pattern_ra = _rus12h
+ |pattern_sh = _acm1011t1
+ |pattern_so = _rus12h
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Russia&lt;ref name=&quot;pol-rus_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''22''' ||[[Przemysław Tytoń]]
+|-
+| RB || '''20''' ||[[Łukasz Piszczek]]
+|-
+| CB || '''13''' ||[[Marcin Wasilewski]]
+|-
+| CB || '''15''' ||[[Damien Perquis]]
+|-
+| LB || '''2'''  ||[[Sebastian Boenisch]]
+|-
+| CM || '''5'''  ||[[Dariusz Dudka]] || || {{suboff|73}}
+|-
+| CM || '''7'''  ||[[Eugen Polanski]] || {{yel|79}} || {{suboff|85}}
+|-
+| RW || '''16''' ||[[Jakub Błaszczykowski]] ([[Captain (association football)|c]])
+|-
+| AM || '''11''' ||[[Rafał Murawski]]
+|-
+| LW || '''10''' ||[[Ludovic Obraniak]] || || {{suboff|90+3}}
+|-
+| CF || '''9'''  ||[[Robert Lewandowski]] || {{yel|60}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''18''' ||[[Adrian Mierzejewski]] || || {{subon|73}}
+|-
+| MF || '''6''' ||[[Adam Matuszczyk]] || || {{subon|85}}
+|-
+| FW || '''23''' ||[[Paweł Brożek]] || || {{subon|90+3}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Franciszek Smuda]]
+|}
+|valign=&quot;top&quot;|[[File:POL-RUS 2012-06-12.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''16''' ||[[Vyacheslav Malafeev]]
+|-
+| RB || '''2'''  ||[[Aleksandr Anyukov]]
+|-
+| CB || '''12''' ||[[Aleksei Berezutski]]
+|-
+| CB || '''4'''  ||[[Sergei Ignashevich]]
+|-
+| LB || '''5'''  ||[[Yuri Zhirkov]]
+|-
+| RM || '''6'''  ||[[Roman Shirokov]]
+|-
+| CM || '''7'''  ||[[Igor Denisov]] || {{yel|60}}
+|-
+| LM || '''8'''  ||[[Konstantin Zyryanov]]
+|-
+| RW || '''17''' ||[[Alan Dzagoev]] || {{yel|75}} || {{suboff|79}}
+|-
+| LW || '''10''' ||[[Andrei Arshavin]] ([[Captain (association football)|c]])
+|-
+| CF || '''11''' ||[[Aleksandr Kerzhakov]] || || {{suboff|70}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''14''' ||[[Roman Pavlyuchenko]] || || {{subon|70}}
+|-
+| MF || '''9''' ||[[Marat Izmailov]] || || {{subon|79}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|{{flagicon|NED}} [[Dick Advocaat]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|{{Commons category|Poland - Russia, 12 Jun 2012}}
+'''Man of the Match:'''
+&lt;br /&gt;[[Jakub Błaszczykowski]] (Poland)&lt;ref name=&quot;pol-rus report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Jan-Hendrik Salver ([[German Football Association|Germany]])
+&lt;br /&gt;Mike Pickel ([[German Football Association|Germany]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[István Vad]] ([[Hungarian Football Federation|Hungary]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Florian Meyer]] ([[German Football Association|Germany]])
+&lt;br /&gt;[[Deniz Aytekin]] ([[German Football Association|Germany]])
+|}
+
+== Czech Republic vs Poland ==
+{{Football box
+|date = 16 June 2012
+|time = 20:45
+|team1 = {{fb-rt|CZE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003336/postmatch/report/index.html Report]
+|team2 = {{fb|POL}}
+|goals1 = [[Petr Jiráček|Jiráček]] {{goal|72}}
+|goals2 =
+|stadium = [[Stadion Miejski (Wrocław)|Municipal Stadium]], [[Wrocław]]
+|attendance = 41,480&lt;ref name=&quot;cze-pol report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003336_fr.pdf |title=Full-time report Czech Republic-Poland |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=16 June 2012 |accessdate=16 June 2012 }}&lt;/ref&gt;
+|referee = [[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _cze12h
+ |pattern_b  = _cze12h
+ |pattern_ra = _cze12h
+ |pattern_sh = 
+ |pattern_so = _cze12h
+ |leftarm    = FF0000
+ |body       = E12500
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Czech Republic&lt;ref name=&quot;cze-pol_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003336_lu.pdf|title=Tactical Line-up – Group A – Czech Republic-Poland |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=16 June 2012 |accessdate=16 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = 
+ |pattern_b  = _pol12h
+ |pattern_ra = 
+ |pattern_sh = 
+ |pattern_so = _pol12h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Poland&lt;ref name=&quot;cze-pol_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  ||[[Petr Čech]] ([[Captain (association football)|c]])
+|-
+| RB || '''2'''  ||[[Theodor Gebre Selassie]]
+|-
+| CB || '''6'''  ||[[Tomáš Sivok]]
+|-
+| CB || '''3'''  ||[[Michal Kadlec]]
+|-
+| LB || '''8'''  ||[[David Limberský]] || {{yel|12}}
+|-
+| CM || '''17''' ||[[Tomáš Hübschman]]
+|-
+| CM || '''13''' ||[[Jaroslav Plašil]] || {{yel|87}}
+|-
+| RW || '''19''' ||[[Petr Jiráček]] || || {{suboff|84}}
+|-
+| AM || '''18''' ||[[Daniel Kolář]]
+|-
+| LW || '''14''' ||[[Václav Pilař]] || || {{suboff|88}}
+|-
+| CF || '''15''' ||[[Milan Baroš]] || || {{suboff|90+1}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| DF || '''12''' ||[[František Rajtoral]] || || {{subon|84}}
+|-
+| FW || '''9'''  ||[[Jan Rezek]] || || {{subon|88}}
+|-
+| FW || '''20''' ||[[Tomáš Pekhart]] || {{yel|90+4}} || {{subon|90+1}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Michal Bílek]]
+|}
+|valign=&quot;top&quot;|[[File:CZE-POL 2012-06-16.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''22''' ||[[Przemysław Tytoń]]
+|-
+| RB || '''20''' ||[[Łukasz Piszczek]]
+|-
+| CB || '''13''' ||[[Marcin Wasilewski]] || {{yel|61}}
+|-
+| CB || '''15''' ||[[Damien Perquis]] || {{yel|90}}
+|-
+| LB || '''2'''  ||[[Sebastian Boenisch]]
+|-
+| CM || '''5'''  ||[[Dariusz Dudka]] 
+|-
+| CM || '''7'''  ||[[Eugen Polanski]] || {{yel|48}} || {{suboff|56}}
+|-
+| RW || '''16''' ||[[Jakub Błaszczykowski]] ([[Captain (association football)|c]]) || {{yel|87}}
+|-
+| AM || '''11''' ||[[Rafał Murawski]] || {{yel|22}} || {{suboff|73}}
+|-
+| LW || '''10''' ||[[Ludovic Obraniak]] || || {{suboff|73}}
+|-
+| CF || '''9'''  ||[[Robert Lewandowski]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''21''' ||[[Kamil Grosicki]] || || {{subon|56}}
+|-
+| FW || '''23''' ||[[Paweł Brożek]] || || {{subon|73}}
+|-
+| MF || '''18''' ||[[Adrian Mierzejewski]] || || {{subon|73}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Franciszek Smuda]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|{{Commons category|Czech Republic - Poland, 16 Jun 2012}}
+'''Man of the Match:'''
+&lt;br /&gt;[[Petr Jiráček]] (Czech Republic)&lt;ref name=&quot;cze-pol report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Alasdair Ross ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;Derek Rose ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Fredy Fautrel]] ([[French Football Federation|France]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[William Collum]] ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;[[Euan Norris]] ([[Scottish Football Association|Scotland]])
+|}
+
+== Greece vs Russia ==
+{{Football box
+|date = 16 June 2012
+|time = 20:45
+|team1 = {{fb-rt|GRE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003335/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|goals1 = [[Giorgos Karagounis|Karagounis]] {{goal|45+2}}
+|goals2 =
+|stadium = [[National Stadium, Warsaw|National Stadium]], [[Warsaw]]
+|attendance = 55,614&lt;ref name=&quot;gre-rus report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003335_fr.pdf |title=Full-time report Greece-Russia |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=16 June 2012 |accessdate=16 June 2012 }}&lt;/ref&gt;
+|referee = [[Jonas Eriksson (referee)|Jonas Eriksson]] ([[Swedish Football Association|Sweden]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _gre12h
+ |pattern_b  = _gre12h
+ |pattern_ra = _gre12h
+ |pattern_sh = _isr12a
+ |pattern_so = _color_3_stripes_blue
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Greece&lt;ref name=&quot;gre-rus_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003335_lu.pdf|title=Tactical Line-up – Group A – Greece-Russia |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=16 June 2012 |accessdate=16 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _rus12h
+ |pattern_b  = _rus12h
+ |pattern_ra = _rus12h
+ |pattern_sh = _acm1011t1
+ |pattern_so = _rus12h
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Russia&lt;ref name=&quot;gre-rus_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''13''' ||[[Michalis Sifakis]] 
+|-
+| RB || '''15''' ||[[Vasilis Torosidis]]
+|-
+| CB || '''19''' ||[[Sokratis Papastathopoulos]] 
+|-
+| CB || '''5'''  ||[[Kyriakos Papadopoulos]] 
+|-
+| LB || '''3'''  ||[[Georgios Tzavelas]]
+|-
+| CM || '''21''' ||[[Kostas Katsouranis]]
+|-
+| CM || '''2'''  ||[[Ioannis Maniatis]]
+|-
+| RW || '''14''' ||[[Dimitris Salpingidis]] || || {{suboff|83}}
+|-
+| AM || '''10''' ||[[Giorgos Karagounis]] ([[Captain (association football)|c]]) || {{yel|61}} || {{suboff|67}}
+|-
+| LW || '''7'''  ||[[Georgios Samaras]]
+|-
+| CF || '''17''' ||[[Theofanis Gekas]] || || {{suboff|64}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''20''' ||[[José Holebas]] || {{yel|90+4}} || {{subon|64}}
+|-
+| MF || '''6'''  ||[[Grigoris Makos]] || || {{subon|67}}
+|-
+| MF || '''18''' ||[[Sotiris Ninis]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|{{flagicon|POR}} [[Fernando Santos (Portuguese footballer)|Fernando Santos]]
+|}
+|valign=&quot;top&quot;|[[File:GRE-RUS 2012-06-16.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''16''' ||[[Vyacheslav Malafeev]]
+|-
+| RB || '''2'''  ||[[Aleksandr Anyukov]] || {{yel|61}} || {{suboff|81}}
+|-
+| CB || '''12''' ||[[Aleksei Berezutski]]
+|-
+| CB || '''4'''  ||[[Sergei Ignashevich]]
+|-
+| LB || '''5'''  ||[[Yuri Zhirkov]] || {{yel|69}}
+|-
+| RM || '''6'''  ||[[Roman Shirokov]]
+|-
+| CM || '''7'''  ||[[Igor Denisov]]
+|-
+| LM || '''22''' ||[[Denis Glushakov]] || || {{suboff|72}}
+|-
+| RF || '''17''' ||[[Alan Dzagoev]] || {{yel|70}}
+|-
+| CF || '''11''' ||[[Aleksandr Kerzhakov]] || || {{suboff|46}}
+|-
+| LF || '''10''' ||[[Andrei Arshavin]] ([[Captain (association football)|c]])
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''14''' ||[[Roman Pavlyuchenko]] || || {{subon|46}}
+|-
+| FW || '''20''' ||[[Pavel Pogrebnyak]] || {{yel|90+3}} || {{subon|72}}
+|-
+| MF || '''9'''  ||[[Marat Izmailov]] || || {{subon|81}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|{{flagicon|NED}} [[Dick Advocaat]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Giorgos Karagounis]] (Greece)&lt;ref name=&quot;gre-rus report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Stefan Wittberg ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;Mathias Klasenius ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Hüseyin Göçek]] ([[Turkish Football Federation|Turkey]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Markus Strömbergsson]] ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;[[Stefan Johannesson]] ([[Swedish Football Association|Sweden]])
+|}
+
+== References ==
+{{reflist|colwidth=40em}}
+
+== External links ==
+*[http://www.uefa.com/uefaeuro/season=2012/standings/round=15172/group=700964/index.html UEFA Euro 2012 Group A]
+
+{{UEFA Euro 2012}}
+
+[[Category:UEFA Euro 2012|Group A]]
+[[Category:2011–12 in Polish football]]
+[[Category:2011–12 in Russian football|Euro]]
+[[Category:2011–12 in Czech football]]
+[[Category:2011–12 in Greek football]]</text>
+      <sha1>pnqndvekpq97ejmc5mc04jwq1p4k9mv</sha1>
+    </revision>
+  </page>
+</mediawiki>

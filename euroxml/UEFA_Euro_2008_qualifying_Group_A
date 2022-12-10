@@ -1,0 +1,913 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group A</title>
+    <ns>0</ns>
+    <id>6885312</id>
+    <revision>
+      <id>714178798</id>
+      <parentid>714178780</parentid>
+      <timestamp>2016-04-08T03:39:22Z</timestamp>
+      <contributor>
+        <username>Cydebot</username>
+        <id>1215485</id>
+      </contributor>
+      <minor/>
+      <comment>Robot - Speedily moving category 2007 in Kazakhstan football to [[:Category:2007 in Kazakhstani football]] per [[WP:CFDS|CFDS]].</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="32755">Standings and results for '''Group A''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+==Standings==
+'''Key''':
+*Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]]
+
+{{UEFA Euro 2008 qualifying Group A
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+Notes on the qualified teams:
+*Poland secured qualification to the tournament proper on 17 November 2007 following a 2-0 win against Belgium, becoming the eighth team in the whole of the qualification stage to do so
+*Portugal secured qualification to the tournament proper on 21 November 2007 following a 0-0 draw against Finland, becoming the thirteenth team in the whole of the qualification stage to do so
+
+==Matches==
+Group A fixtures were negotiated at a meeting between the participants on 10 February 2006.{{Citation needed|date=September 2008}}
+
+----
+&lt;div id=&quot;Belgium v Kazakhstan&quot;&gt;{{footballbox
+|date=16 August 2006
+|time=19:45 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|BEL}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=
+|goals2=
+|stadium=[[Constant Vanden Stock Stadium|Constant Vanden Stock]], [[Brussels]]
+|attendance=15,495
+|referee=[[Mark Courtney (referee)|Mark Courtney]] ([[Irish Football Association|Northern Ireland]]) }}
+----
+&lt;div id=&quot;Serbia v Azerbaijan&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:15 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|SER}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecYUG_v_AZE Report]
+|team2={{fb|AZE}}
+|goals1=[[Nikola Žigić|Žigić]] {{goal|72}}
+|goals2=
+|stadium=[[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance=0&lt;ref&gt;{{cite web|author=Zoran Milosavljevic |title=Zigic goal gives Serbia 1-0 win over Azerbaijan |publisher=Reuters |accessdate=3 September 2006 |url=http://today.reuters.co.uk/news/articlenews.aspx?type=worldFootballNews&amp;storyID=2006-09-02T215437Z_01_L02708598_RTRIDST_0_SPORT-SOCCER-EURO-SERBIA-UPDATE-1.XML |deadurl=yes |archiveurl=https://web.archive.org/20070102053936/http://today.reuters.co.uk:80/news/articlenews.aspx?type=worldFootballNews |archivedate=January 2, 2007 }}&lt;/ref&gt;
+|referee=[[Knut Kircher]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Poland v Finland&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:30 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|POL}}
+|score=1–3
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=[[Łukasz Garguła|Garguła]] {{goal|89}}
+|goals2=[[Jari Litmanen|Litmanen]] {{goal|54||76|pen.}}&lt;br /&gt;[[Mika Väyrynen|Väyrynen]] {{goal|84}}
+|stadium=[[Stadion Zawiszy Bydgoszcz im. Zdzisława Krzyszkowiaka|Zdzisław Krzyszkowiak]], [[Bydgoszcz]]
+|attendance=17,000
+|referee=[[Laurent Duhamel]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Kazakhstan&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=19:00 [[UTC+5]]
+|team1={{fb-rt|AZE}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Azerbaijan/2008uecAZE_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=[[Andre Luiz Ladaga|Ladaga]] {{goal|16}}
+|goals2=[[Dmitry Byakov|Byakov]] {{goal|36}}
+|stadium=[[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance=18,000
+|referee=[[Zsolt Szabo]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Armenia v Belgium&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=21:00 [[UTC+5]]
+|team1={{fb-rt|ARM}}
+|score=0–1
+|report = [http://scoreshelf.com/gjbb/en/Armenia/2008uecARM_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=
+|goals2=[[Daniel Van Buyten|Van Buyten]] {{goal|41}}
+|stadium=[[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance=8,000
+|referee=[[Gerald Lehner (referee)|Gerald Lehner]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Finland v Portugal&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:00 [[Eastern European Summer Time|EEST]]
+|team1={{fb-rt|FIN}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_POR Report]
+|team2={{fb|POR}}
+|goals1=[[Jonatan Johansson (footballer)|Johansson]] {{goal|22}}
+|goals2=[[Nuno Gomes]] {{goal|42}}
+|stadium=[[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance=38,015
+|referee=[[Konrad Plautz]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Poland v Serbia&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:30 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|POL}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_YUG Report]
+|team2={{fb|SER}}
+|goals1=[[Radosław Matusiak|Matusiak]] {{goal|30}}
+|goals2=[[Danko Lazović|Lazović]] {{goal|71}}
+|stadium=[[Polish Army Stadium|Stadion Wojska Polskiego]], [[Warsaw]]
+|attendance=5,000
+|referee=[[Graham Poll]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Poland&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=21:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=0–1
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_POL Report]
+|team2={{fb|POL}}
+|goals1=
+|goals2=[[Euzebiusz Smolarek|Smolarek]] {{goal|52}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=18,000
+|referee=[[Edo Trivkovic]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;Armenia v Finland&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=21:00 [[UTC+5]]
+|team1={{fb-rt|ARM}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Armenia/2008uecARM_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=
+|goals2=
+|stadium=[[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance=7,500
+|referee=[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Serbia v Belgium&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=20:15 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|SER}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecYUG_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=[[Nikola Žigić|Žigić]] {{goal|54}}
+|goals2=
+|stadium=[[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance=35,000
+|referee=[[Domenico Messina]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Portugal v Azerbaijan&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=21:00 [[Western European Summer Time|WEST]]
+|team1={{fb-rt|POR}}
+|score=3–0
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecPOR_v_AZE Report]
+|team2={{fb|AZE}}
+|goals1=[[Cristiano Ronaldo|Ronaldo]] {{goal|25||63}}&lt;br /&gt;[[Ricardo Carvalho|Carvalho]] {{goal|31}}
+|goals2=
+|stadium=[[Estádio do Bessa|Bessa XXI]], [[Porto]]
+|attendance=20,000
+|referee=[[Mark Halsey]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Finland&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=22:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=0–2
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=
+|goals2=[[Jari Litmanen|Litmanen]] {{goal|29}}&lt;br /&gt;[[Sami Hyypiä|Hyypiä]] {{goal|64}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=17,000
+|referee=[[Athanassios Briakos]] ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;Serbia v Armenia&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:15 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|SER}}
+|score=3–0
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecYUG_v_ARM Report]
+|team2={{fb|ARM}}
+|goals1=[[Dejan Stanković|Stanković]] {{goal|54|pen.}}&lt;br /&gt;[[Danko Lazović|Lazović]] {{goal|62}}&lt;br /&gt;[[Nikola Žigić|Žigić]] {{goal|90+2}}
+|goals2=
+|stadium=[[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance=20,000
+|referee=[[Georgios Kasnaferis]] ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;Poland v Portugal&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:30 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|POL}}
+|score=2–1
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_POR Report]
+|team2={{fb|POR}}
+|goals1=[[Euzebiusz Smolarek|Smolarek]] {{goal|9||18}}
+|goals2=[[Nuno Gomes]] {{goal|90+2}}
+|stadium=[[Stadion Śląski]], [[Chorzów]]
+|attendance=40,000
+|referee=[[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Belgium v Azerbaijan&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:45 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|BEL}}
+|score=3–0
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_AZE Report]
+|team2={{fb|AZE}}
+|goals1=[[Timmy Simons|Simons]] {{goal|24|pen.}}&lt;br /&gt;[[Kevin Vandenbergh|Vandenbergh]] {{goal|47}}&lt;br /&gt;[[Mousa Dembélé (footballer, born 1987)|Dembélé]] {{goal|82}}
+|goals2=
+|stadium=[[Constant Vanden Stock Stadium|Constant Vanden Stock]], [[Brussels]]
+|attendance=12,000
+|referee=[[Romans Lajuks]] ([[Latvian Football Federation|Latvia]]) }}
+----
+&lt;div id=&quot;Finland v Armenia&quot;&gt;{{footballbox
+|date=15 November 2006
+|time=19:00 [[Eastern European Time|EET]]
+|team1={{fb-rt|FIN}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_ARM Report]
+|team2={{fb|ARM}}
+|goals1=[[Mika Nurmela|Nurmela]] {{goal|10}}
+|goals2=
+|stadium=[[Finnair Stadium]], [[Helsinki]]
+|attendance=9,445
+|referee=[[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Belgium v Poland&quot;&gt;{{footballbox
+|date=15 November 2006
+|time=20:30 [[Central European Time|CET]]
+|team1={{fb-rt|BEL}}
+|score=0–1
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_POL Report]
+|team2={{fb|POL}}
+|goals1=
+|goals2=[[Radosław Matusiak|Matusiak]] {{goal|19}}
+|stadium=[[King Baudouin Stadium]], [[Brussels]]
+|attendance=37,578
+|referee=[[Stuart Dougal]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Portugal v Kazakhstan&quot;&gt;{{footballbox
+|date=15 November 2006
+|time=21:00 [[Western European Time|WET]]
+|team1={{fb-rt|POR}}
+|score=3–0
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecPOR_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=[[Simão Sabrosa|Simão]] {{goal|8||86}}&lt;br /&gt;[[Cristiano Ronaldo|Ronaldo]] {{goal|30}}
+|goals2=
+|stadium=[[Estádio Cidade de Coimbra]], [[Coimbra]]
+|attendance=27,000
+|referee=[[René Rogalla]] ([[Swiss Football Association|Switzerland]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Serbia&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=19:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=2–1
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_YUG Report]
+|team2={{fb|SER}}
+|goals1=[[Kairat Ashirbekov|Ashirbekov]] {{goal|47}}&lt;br /&gt;[[Nurbol Zhumaskaliyev|Zhumaskaliyev]] {{goal|61}}
+|goals2=[[Nikola Žigić|Žigić]] {{goal|68}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=15,000
+|referee=[[Vladimir Hriňák]] ([[Slovak Football Association|Slovakia]]) }}
+
+&lt;div id=&quot;Poland v Azerbaijan&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=18:00 [[Central European Time|CET]]
+|team1={{fb-rt|POL}}
+|score=5–0
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_AZE Report]
+|team2={{fb|AZE}}
+|goals1=[[Jacek Bąk|Bąk]] {{goal|3}}&lt;br /&gt;[[Dariusz Dudka|Dudka]] {{goal|6}}&lt;br /&gt;[[Wojciech Łobodziński|Łobodziński]] {{goal|34}}&lt;br /&gt;[[Jacek Krzynówek|Krzynówek]] {{goal|58}}&lt;br /&gt;[[Przemysław Kaźmierczak|Kaźmierczak]] {{goal|84}}
+|goals2=
+|stadium=[[Polish Army Stadium|Stadion Wojska Polskiego]], [[Warsaw]]
+|attendance=12,000
+|referee=[[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]]) }}
+
+&lt;div id=&quot;Portugal v Belgium&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=21:00 [[Western European Time|WET]]
+|team1={{fb-rt|POR}}
+|score=4–0
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecPOR_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=[[Nuno Gomes]] {{goal|53}}&lt;br /&gt;[[Cristiano Ronaldo|Ronaldo]] {{goal|55||75}}&lt;br /&gt;[[Ricardo Quaresma|Quaresma]] {{goal|68}}
+|goals2=
+|stadium=[[Estádio José Alvalade|José Alvalade]], [[Lisbon]]
+|attendance=47,009
+|referee=[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Finland&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=20:00 [[UTC+5]]
+|team1={{fb-rt|AZE}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Azerbaijan/2008uecAZE_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=[[Emin Imamaliev|Imamaliev]] {{goal|83}}
+|goals2=
+|stadium=[[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance=14,000
+|referee=[[Domenico Messina]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Poland v Armenia&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=20:30 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|POL}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_ARM Report]
+|team2={{fb|ARM}}
+|goals1=[[Maciej Żurawski|Żurawski]] {{goal|26}}
+|goals2=
+|stadium=[[Kielce City Stadium]], [[Kielce]]
+|attendance=15,000
+|referee=[[Alberto Undiano Mallenco]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Serbia v Portugal&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=20:30 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|SER}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecPOR_v_YUG Report]
+|team2={{fb|POR}}
+|goals1=[[Boško Janković|Janković]] {{goal|37}}
+|goals2=[[Tiago Mendes|Tiago]] {{goal|5}}
+|stadium=[[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance=55,000
+|referee=[[Bertrand Layec]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Armenia&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=18:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=1–2
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_ARM Report]
+|team2={{fb|ARM}}
+|goals1=[[Ruslan Baltiev|Baltiev]] {{goal|88|pen.}}
+|goals2=[[Robert Arzumanyan|Arzumanyan]] {{goal|31}}&lt;br /&gt;[[Sarkis Hovsepian|Hovsepian]] {{goal|39|pen.}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=17,100
+|referee=[[Pavel Královec]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+
+&lt;div id=&quot;Azerbaijan v Poland&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=21:00 [[UTC+5]]
+|team1={{fb-rt|AZE}}
+|score=1–3
+|report = [http://scoreshelf.com/gjbb/en/Azerbaijan/2008uecAZE_v_POL Report]
+|team2={{fb|POL}}
+|goals1=[[Branimir Subašić|Subašić]] {{goal|6}}
+|goals2=[[Euzebiusz Smolarek|Smolarek]] {{goal|63}}&lt;br /&gt;[[Jacek Krzynówek|Krzynówek]] {{goal|66||90}}
+|stadium=[[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance=4,500
+|referee=[[Costas Kapitanis]] ([[Cyprus Football Association|Cyprus]]) }}
+
+&lt;div id=&quot;Finland v Serbia&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=19:15 [[Eastern European Summer Time|EEST]]
+|team1={{fb-rt|FIN}}
+|score=0–2
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_YUG Report]
+|team2={{fb|SER}}
+|goals1=
+|goals2=[[Boško Janković|Janković]] {{goal|3}}&lt;br /&gt;[[Milan Jovanović (born 1981)|Jovanović]] {{goal|86}}
+|stadium=[[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance=33,615
+|referee=[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Belgium v Portugal&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=20:45 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|BEL}}
+|score=1–2
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_POR Report]
+|team2={{fb|POR}}
+|goals1=[[Marouane Fellaini|Fellaini]] {{goal|55}}
+|goals2=[[Nani]] {{goal|43}}&lt;br /&gt;[[Hélder Postiga|Postiga]] {{goal|64}}
+|stadium=[[King Baudouin Stadium]], [[Brussels]]
+|attendance=45,585
+|referee=[[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Azerbaijan&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=19:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_AZE Report]
+|team2={{fb|AZE}}
+|goals1=[[Ruslan Baltiev|Baltiev]] {{goal|53}}
+|goals2=[[Vügar Nadirov|Nadirov]] {{goal|30}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=11,800
+|referee=[[Albert Toussaint]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Finland v Belgium&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:15 [[Eastern European Summer Time|EEST]]
+|team1={{fb-rt|FIN}}
+|score=2–0
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=[[Jonatan Johansson (footballer)|Johansson]] {{goal|27}}&lt;br /&gt;[[Alexei Eremenko|A. Eremenko]] {{goal|71}}
+|goals2=
+|stadium=[[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance=34,818
+|referee=[[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Armenia v Poland&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:30 [[UTC+5]]
+|team1={{fb-rt|ARM}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Armenia/2008uecARM_v_POL Report]
+|team2={{fb|POL}}
+|goals1=[[Hamlet Mkhitaryan]] {{goal|66}}
+|goals2=
+|stadium=[[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance=12,500
+|referee=[[Cristian Balaj]] ([[Romanian Football Federation|Romania]]) }}
+----
+&lt;div id=&quot;Armenia v Portugal&quot;&gt;{{footballbox
+|date=22 August 2007
+|time=19:00 [[UTC+5]]
+|team1={{fb-rt|ARM}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Armenia/2008uecARM_v_POR Report]
+|team2={{fb|POR}}
+|goals1=[[Robert Arzumanyan|Arzumanyan]] {{goal|10}}
+|goals2=[[Cristiano Ronaldo|Ronaldo]] {{goal|37}}
+|stadium=[[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance=15,550
+|referee=[[Claus Bo Larsen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Finland v Kazakhstan&quot;&gt;{{footballbox
+|date=22 August 2007
+|time=19:00 [[Eastern European Summer Time|EEST]]
+|team1={{fb-rt|FIN}}
+|score=2–1
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=[[Alexei Eremenko|A. Eremenko]] {{goal|13}}&lt;br /&gt;[[Teemu Tainio|Tainio]] {{goal|61}}
+|goals2=[[Dmitriy Byakov|Byakov]] {{goal|23}}
+|stadium=[[Ratina Stadion]], [[Tampere]]
+|attendance=13,000
+|referee=[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Belgium v Serbia&quot;&gt;{{footballbox
+|date=22 August 2007
+|time=20:45 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|BEL}}
+|score=3–2
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_YUG Report]
+|team2={{fb|SER}}
+|goals1=[[Mousa Dembélé (footballer, born 1987)|Dembélé]] {{goal|10||88}}&lt;br /&gt;[[Kevin Mirallas|Mirallas]] {{goal|30}}
+|goals2=[[Zdravko Kuzmanović|Kuzmanović]] {{goal|73||90+1}}
+|stadium=[[King Baudouin Stadium]], [[Brussels]]
+|attendance=19,202
+|referee=[[Terje Hauge]] ([[Football Association of Norway|Norway]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Armenia&quot;&gt;{{footballbox
+|date=8 September 2007
+|team1={{fb-rt|AZE}}
+|score=Cancelled&lt;ref name=&quot;arm vs aze&quot;&gt;The matches between Azerbaijan and Armenia were cancelled by UEFA with both associations receiving no points. This was due to the failure of the two national associations to resolve political and security disagreements [http://www.uefa.com/uefa/keytopics/kind=64/newsid=554858.html UEFA] [http://uk.reuters.com/article/worldFootballNews/idUKL2321872720070623 UEFA cancel Armenia v Azerbaijan Euro qualifiers] Reuters, 23 June 2007 {{wayback|url=http://www.uefa.com/uefa/keytopics/kind=64/newsid=554858.html |date=20070629220842 }}&lt;/ref&gt;
+|report=
+|team2={{fb|ARM}}
+|goals1=
+|goals2=
+|stadium=
+|attendance=
+|referee= }}
+
+&lt;div id=&quot;Serbia v Finland&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=20:15 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|SER}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecYUG_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=
+|goals2=
+|stadium=[[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance=15,000
+|referee=[[Eric Braamhaar]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Portugal v Poland&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=21:00 [[Western European Summer Time|WEST]]
+|team1={{fb-rt|POR}}
+|score=2–2
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecPOR_v_POL Report]
+|team2={{fb|POL}}
+|goals1=[[Maniche]] {{goal|50}}&lt;br /&gt;[[Cristiano Ronaldo|Ronaldo]] {{goal|73}}
+|goals2=[[Mariusz Lewandowski|Lewandowski]] {{goal|44}}&lt;br /&gt;[[Jacek Krzynówek|Krzynówek]] {{goal|88}}
+|stadium=[[Estádio da Luz]], [[Lisbon]]
+|attendance=55,000
+|referee=[[Roberto Rosetti]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Armenia v Azerbaijan&quot;&gt;{{footballbox
+|date=12 September 2007
+|team1={{fb-rt|ARM}}
+|score=Cancelled&lt;ref name=&quot;arm vs aze&quot;/&gt;
+|report=
+|team2={{fb|AZE}}
+|goals1=
+|goals2=
+|stadium=
+|attendance=
+|referee= }}
+
+&lt;div id=&quot;Kazakhstan v Belgium&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=21:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=2–2
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=[[Dmitriy Byakov|Byakov]] {{goal|39}}&lt;br /&gt;[[Samat Smakov|Smakov]] {{goal|77|pen.}}
+|goals2=[[Karel Geraerts|Geraerts]] {{goal|13}}&lt;br /&gt;[[Kevin Mirallas|Mirallas]] {{goal|24}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=18,000
+|referee=[[Alexandru Tudor]] ([[Romanian Football Federation|Romania]]) }}
+
+&lt;div id=&quot;Finland v Poland&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=19:00 [[Eastern European Summer Time|EEST]]
+|team1={{fb-rt|FIN}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_POL Report]
+|team2={{fb|POL}}
+|goals1=
+|goals2=
+|stadium=[[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance=34,088
+|referee=[[Herbert Fandel]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Portugal v Serbia&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=21:00 [[Western European Summer Time|WEST]]
+|team1={{fb-rt|POR}}
+|score=1–1
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecYUG_v_POR Report]
+|team2={{fb|SER}}
+|goals1=[[Simão Sabrosa|Simão]] {{goal|11}}
+|goals2=[[Branislav Ivanović|Ivanović]] {{goal|88}}
+|stadium=[[Estádio José Alvalade]], [[Lisbon]]
+|attendance=47,000
+|referee=[[Markus Merk]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Armenia v Serbia&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=20:00 [[UTC+5]]
+|team1={{fb-rt|ARM}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Armenia/2008uecARM_v_YUG Report]
+|team2={{fb|SER}}
+|goals1=
+|goals2=
+|stadium=[[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance=10,000
+|referee=[[Stefan Johannesson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Azerbaijan v Portugal&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=21:00 [[UTC+5]]
+|team1={{fb-rt|AZE}}
+|score=0–2
+|report = [http://scoreshelf.com/gjbb/en/Azerbaijan/2008uecAZE_v_POR Report]
+|team2={{fb|POR}}
+|goals1=
+|goals2=[[Bruno Alves]] {{goal|12}}&lt;br /&gt;[[Hugo Almeida|Almeida]] {{goal|45}}
+|stadium=[[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance=30,000
+|referee=[[Ivan Bebek]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;Poland v Kazakhstan&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=20:30 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|POL}}
+|score=3–1
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=[[Euzebiusz Smolarek|Smolarek]] {{goal|56||64||65}}
+|goals2=[[Dmitriy Byakov|Byakov]] {{goal|20}}
+|stadium=[[Polish Army Stadium|Stadion Wojska Polskiego]], [[Warsaw]]
+|attendance=12,000
+|referee=[[Espen Berntsen]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Belgium v Finland&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=20:45 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|BEL}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=
+|goals2=
+|stadium=[[King Baudouin Stadium]], [[Brussels]]
+|attendance=4,131
+|referee=[[Costas Kapitanis]] ([[Cyprus Football Association|Cyprus]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Portugal&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:00 [[UTC+6]]
+|team1={{fb-rt|KAZ}}
+|score=1–2
+|report = [http://scoreshelf.com/gjbb/en/Kazahkstan/2008uecKAZ_v_POR Report]
+|team2={{fb|POR}}
+|goals1=[[Dmitry Byakov|Byakov]] {{goal|90+5}}
+|goals2=[[Ariza Makukula|Makukula]] {{goal|84}}&lt;br /&gt;[[Cristiano Ronaldo|Ronaldo]] {{goal|90+1}}
+|stadium=[[Almaty Central Stadium]], [[Almaty]]
+|attendance=25,000
+|referee=[[Jan Wegereef]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Azerbaijan v Serbia&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=21:00 [[UTC+5]]
+|team1={{fb-rt|AZE}}
+|score=1–6
+|report = [http://scoreshelf.com/gjbb/en/Azerbaijan/2008uecAZE_v_YUG Report]
+|team2={{fb|SER}}
+|goals1=[[Samir Aliyev|Aliyev]] {{goal|26}}
+|goals2=[[Duško Tošić|D. Tošić]] {{goal|4}}&lt;br /&gt;[[Nikola Žigić|Žigić]] {{goal|22||42}}&lt;br /&gt;[[Boško Janković|Janković]] {{goal|41}}&lt;br /&gt;[[Milan Smiljanic|Smiljanic]] {{goal|75}}&lt;br /&gt;[[Danko Lazović|Lazović]] {{goal|84}}
+|stadium=[[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance=9,000
+|referee=[[Thomas Einwaller]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Belgium v Armenia&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:45 [[Central European Summer Time|CEST]]
+|team1={{fb-rt|BEL}}
+|score=3–0
+|report = [http://scoreshelf.com/gjbb/en/Belgium/2008uecBEL_v_ARM Report]
+|team2={{fb|ARM}}
+|goals1=[[Wesley Sonck|Sonck]] {{goal|63}}&lt;br /&gt;[[Mousa Dembélé (footballer, born 1987)|Dembélé]] {{goal|69}}&lt;br /&gt;[[Karel Geraerts|Geraerts]] {{goal|76}}
+|goals2=
+|stadium=[[King Baudouin Stadium]], [[Brussels]]
+|attendance=14,812
+|referee=[[Johannes Valgeirsson]] ([[Football Association of Iceland|Iceland]]) }}
+----
+&lt;div id=&quot;Finland v Azerbaijan&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=16:05 [[Eastern European Time|EET]]
+|team1={{fb-rt|FIN}}
+|score=2–1
+|report = [http://scoreshelf.com/gjbb/en/Finland/2008uecFIN_v_AZE Report]
+|team2={{fb|AZE}}
+|goals1=[[Mikael Forssell|Forssell]] {{goal|79}}&lt;br /&gt;[[Shefki Kuqi|Kuqi]] {{goal|86}}
+|goals2=[[Mahmud Gurbanov|Gurbanov]] {{goal|63}}
+|stadium=[[Helsinki Olympic Stadium]], [[Helsinki]]
+|attendance=10,325
+|referee=[[Alain Hamer]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Poland v Belgium&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=20:30 [[Central European Time|CET]]
+|team1={{fb-rt|POL}}
+|score=2–0
+|report = [http://scoreshelf.com/gjbb/en/Poland/2008uecPOL_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=[[Euzebiusz Smolarek|Smolarek]] {{goal|45||49}}
+|goals2=
+|stadium=[[Stadion Śląski]], [[Chorzów]]
+|attendance=47,000
+|referee=[[Claus Bo Larsen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Portugal v Armenia&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=21:00 [[Western European Time|WET]]
+|team1={{fb-rt|POR}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecPOR_v_ARM Report]
+|team2={{fb|ARM}}
+|goals1=[[Hugo Almeida|Almeida]] {{goal|42}}
+|goals2=
+|stadium=[[Estádio Dr. Magalhães Pessoa]], [[Leiria]]
+|attendance=23,000
+|referee=[[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Armenia v Kazakhstan&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=19:00 [[UTC+4]]
+|team1={{fb-rt|ARM}}
+|score=0–1
+|report = [http://scoreshelf.com/gjbb/en/Armenia/2008uecARM_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=
+|goals2=[[Sergei Ostapenko|Ostapenko]] {{goal|64}}
+|stadium=[[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance=8,000
+|referee=[[Bruno Faye]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Azerbaijan v Belgium&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=21:00 [[UTC+4]]
+|team1={{fb-rt|AZE}}
+|score=0–1
+|report = [http://scoreshelf.com/gjbb/en/Azerbaijan/2008uecAZE_v_BEL Report]
+|team2={{fb|BEL}}
+|goals1=
+|goals2=[[Luigi Pieroni|Pieroni]] {{goal|52}}
+|stadium=[[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance=18,000
+|referee=[[Asaf Kenan]] ([[Israel Football Association|Israel]]) }}
+
+&lt;div id=&quot;Portugal v Finland&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=19:45 [[Western European Time|WET]]
+|team1={{fb-rt|POR}}
+|score=0–0
+|report = [http://scoreshelf.com/gjbb/en/Portugal/2008uecPOR_v_FIN Report]
+|team2={{fb|FIN}}
+|goals1=
+|goals2=
+|stadium=[[Estádio do Dragão]], [[Porto]]
+|attendance=50,000
+|referee=[[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]]) }}
+
+&lt;div id=&quot;Serbia v Poland&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:45 [[Central European Time|CET]]
+|team1={{fb-rt|SER}}
+|score=2–2
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecYUG_v_POL Report]
+|team2={{fb|POL}}
+|goals1=[[Nikola Žigić|Žigić]] {{goal|68}}&lt;br /&gt;[[Danko Lazović|Lazović]] {{goal|70}}
+|goals2=[[Rafał Murawski|Murawski]] {{goal|28}}&lt;br /&gt;[[Radosław Matusiak|Matusiak]] {{goal|46}}
+|stadium=[[Stadion Crvena Zvezda]], [[Belgrade]]
+|attendance=3,000
+|referee=[[Massimo Busacca]] ([[Swiss Football Association|Switzerland]]) }}
+----
+&lt;div id=&quot;Serbia v Kazakhstan&quot;&gt;{{footballbox
+|date=24 November 2007&lt;ref&gt;The match was originally scheduled for 17 November 2007, 20:45 CET, at [[Stadion Partizana]], [[Belgrade]], but was postponed prior to kick-off by [[Royal Spanish Football Federation|Spanish]] referee [[Luis Medina Cantalejo|Cantalejo]], due to heavy snowfall in Belgrade.[http://www.uefa.com/competitions/euro/news/kind=1/newsid=620922.html UEFA] The match was re-scheduled for 18 November 2007, 14:00 CET, but was postponed again to 24 November 2007 due to heavy snowfall. [http://www.uefa.com/competitions/euro/news/kind=1/newsid=621262.html UEFA] {{wayback|url=http://www.uefa.com/competitions/euro/news/kind=1/newsid=620922.html |date=20080206114433 }}&lt;/ref&gt;
+|time=18:00 [[Central European Time|CET]]
+|team1={{fb-rt|SER}}
+|score=1–0
+|report = [http://scoreshelf.com/gjbb/en/Yugoslavia/2008uecYUG_v_KAZ Report]
+|team2={{fb|KAZ}}
+|goals1=[[Sergei Ostapenko|Ostapenko]] {{goal|79|o.g.}}
+|goals2=
+|stadium=[[Stadion Partizana]], [[Belgrade]]
+|attendance=400
+|referee=[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]]) }}
+
+==Goalscorers==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| rowspan=&quot;1&quot;|1
+| align=&quot;left&quot;| [[Euzebiusz Smolarek]]
+| align=&quot;left&quot;| {{fb|POL}}
+| rowspan=&quot;1&quot;|9
+|-
+| rowspan=&quot;1&quot;|2
+| align=&quot;left&quot;| [[Cristiano Ronaldo]]
+| align=&quot;left&quot;| {{fb|POR}}
+| rowspan=&quot;1&quot;|8
+|-
+| rowspan=&quot;1&quot;|3
+| align=&quot;left&quot;| [[Nikola Žigić]]
+| align=&quot;left&quot;| {{fb|SRB}}
+| rowspan=&quot;1&quot;|7
+|-
+| rowspan=&quot;1&quot;|4
+| align=&quot;left&quot;| [[Dmitriy Byakov]]
+| align=&quot;left&quot;| {{fb|KAZ}}
+| rowspan=&quot;1&quot;|5
+|-
+| rowspan=&quot;3&quot;|5
+| align=&quot;left&quot;| [[Mousa Dembélé (footballer, born 1987)|Mousa Dembélé]]
+| align=&quot;left&quot;| {{fb|BEL}}
+| rowspan=&quot;3&quot;|4
+|-
+| align=&quot;left&quot;| [[Jacek Krzynówek]]
+| align=&quot;left&quot;| {{fb|POL}}
+|-
+| align=&quot;left&quot;| [[Danko Lazović]]
+| align=&quot;left&quot;| {{fb|SRB}}
+|-
+| rowspan=&quot;5&quot;|8
+| align=&quot;left&quot;| [[Nuno Gomes]]
+| align=&quot;left&quot;| {{fb|POR}}
+| rowspan=&quot;5&quot;|3
+|-
+| align=&quot;left&quot;| [[Boško Janković]]
+| align=&quot;left&quot;| {{fb|SRB}}
+|-
+| align=&quot;left&quot;| [[Jari Litmanen]]
+| align=&quot;left&quot;| {{fb|FIN}}
+|-
+| align=&quot;left&quot;| [[Radosław Matusiak]]
+| align=&quot;left&quot;| {{fb|POL}}
+|-
+| align=&quot;left&quot;| [[Simão Sabrosa|Simão]]
+| align=&quot;left&quot;| {{fb|POR}}
+|-
+|}
+
+*'''2 goals:'''
+'''{{fb|ARM}}:''' [[Robert Arzumanyan]]&lt;br&gt;
+'''{{fb|BEL}}:''' [[Karel Geraerts]], [[Kevin Mirallas]]&lt;br&gt;
+'''{{fb|FIN}}:''' [[Alexei Eremenko]], [[Jonatan Johansson (footballer)|Jonatan Johansson]]&lt;br&gt;
+'''{{fb|KAZ}}:''' [[Ruslan Baltiev]]&lt;br&gt;
+'''{{fb|POR}}:''' [[Hugo Almeida]]&lt;br&gt;
+'''{{fb|SRB}}:''' [[Zdravko Kuzmanović]]
+
+*'''1 goal:'''
+'''{{fb|ARM}}:''' [[Sarkis Hovsepyan]], [[Hamlet Mkhitaryan]]&lt;br&gt;
+'''{{fb|AZE}}:''' [[Samir Aliyev]], [[Mahmud Gurbanov]], [[Emin Imamaliev]], [[André Luiz Ladaga]], [[Vügar Nadirov]], [[Branimir Subašić]]&lt;br&gt;
+'''{{fb|BEL}}:''' [[Marouane Fellaini]], [[Luigi Pieroni]], [[Timmy Simons]], [[Wesley Sonck]], [[Daniel Van Buyten]], [[Kevin Vandenbergh]]&lt;br&gt;
+'''{{fb|FIN}}:''' [[Mikael Forssell]], [[Sami Hyypiä]], [[Shefki Kuqi]], [[Mika Nurmela]], [[Teemu Tainio]], [[Mika Väyrynen]]&lt;br&gt;
+'''{{fb|KAZ}}:''' [[Kairat Ashirbekov]], [[Sergei Ostapenko]], [[Samat Smakov]], [[Nurbol Zhumaskaliyev]]&lt;br&gt;
+'''{{fb|POL}}:''' [[Jacek Bąk]], [[Dariusz Dudka]], [[Łukasz Garguła]], [[Przemysław Kaźmierczak]], [[Mariusz Lewandowski]], [[Wojciech Łobodziński]], [[Rafał Murawski]], [[Maciej Żurawski]]&lt;br&gt;
+'''{{fb|POR}}:''' [[Bruno Alves]], [[Ricardo Carvalho]], [[Ariza Makukula]], [[Maniche]], [[Nani]], [[Hélder Postiga]], [[Ricardo Quaresma]], [[Tiago Mendes|Tiago]]&lt;br&gt;
+'''{{fb|SRB}}:''' [[Branislav Ivanović]], [[Dejan Stanković]], [[Duško Tošić]], [[Milan Jovanović (born 1981)|Milan Jovanović]], [[Milan Smiljanić]]
+
+*'''Own goal:'''
+'''{{fb|KAZ}}:''' [[Sergei Ostapenko]] (for {{fb|SRB}})
+
+==References==
+{{reflist}}
+* [https://web.archive.org/20091002100129/http://www.uefa.com:80/competitions/euro2012/history/season=2008/round=2241/group=2630.html UEFA website]
+
+{{UEFA Euro 2008 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group A]]
+[[Category:2006 in Kazakhstani football]]
+[[Category:2007 in Kazakhstani football]]
+[[Category:2006 in Armenian football]]
+[[Category:2007 in Armenian football]]
+[[Category:2006 in Finnish football]]
+[[Category:2007 in Finnish football]]
+[[Category:2007–08 in Polish football]]
+[[Category:2006–07 in Polish football]]
+[[Category:2007–08 in Portuguese football]]
+[[Category:2006–07 in Portuguese football]]
+[[Category:2007–08 in Azerbaijani football]]
+[[Category:2006–07 in Azerbaijani football]]
+[[Category:2007–08 in Belgian football]]
+[[Category:2006–07 in Belgian football]]
+[[Category:2007–08 in Serbian football]]
+[[Category:2006–07 in Serbian football]]</text>
+      <sha1>lkfee00m2gedtypap61qolal9uovthi</sha1>
+    </revision>
+  </page>
+</mediawiki>

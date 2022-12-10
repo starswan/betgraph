@@ -1,0 +1,636 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group B</title>
+    <ns>0</ns>
+    <id>26105427</id>
+    <revision>
+      <id>691598618</id>
+      <parentid>691584950</parentid>
+      <timestamp>2015-11-20T22:36:57Z</timestamp>
+      <contributor>
+        <username>Qed237</username>
+        <id>19204020</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted 1 edit by [[Special:Contributions/46.217.120.133|46.217.120.133]] ([[User talk:46.217.120.133|talk]]) to last revision by 79.97.30.76. ([[WP:TW|TW]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="33454">This page shows the standings and results for '''Group B''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group B |url=http://www.uefa.com/uefaeuro/season=2012/standings/round=15171/group=700958/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|- style=&quot;background:#cfc;&quot;
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|- style=&quot;background:#ccf;&quot;
+| Advanced to the [[UEFA Euro 2012 qualifying play-offs|play-offs]]
+|}
+{{UEFA Euro 2012 qualifying Group B
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+Group B fixtures were to be negotiated between the participants at a meeting in [[Moscow]], [[Russia]], on 15 and 16 March 2010.&lt;ref&gt;[http://www.rfs.ru/node/120776 Fixture Meeting for Group B] Russian Football Union (in Russian).&lt;/ref&gt;&lt;ref&gt;[http://www.rte.ie/sport/soccer/2010/0316/fai_ireland.html No deal on dates for Ireland's 2012 qualifiers] RTÉ Sport, 16 March 2010.&lt;/ref&gt; After that meeting proved inconclusive, the fixture list was determined by a random draw at the XXXIV Ordinary UEFA Congress in [[Tel Aviv]], [[Israel]], on 25 March.&lt;ref&gt;{{cite news |title=Fixtures draw completes qualifying schedule |url=http://www.uefa.com/uefaeuro2012/news/newsid=1467876.html |work=UEFA.com |publisher=Union of European Football Associations |date=25 March 2010 |accessdate=25 March 2010 }}&lt;/ref&gt;
+
+&lt;div id=&quot;Armenia v Republic of Ireland&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002239/postmatch/report/index.html Report]
+|team2 = {{fb|IRL}}
+|goals2 = [[Keith Fahey|Fahey]] {{goal|76}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]] 
+|attendance = 8,600&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/armenia/ireland-republic/922604/ |title=Armenia vs. Ireland Republic - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Zsolt Szabó]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Andorra v Russia&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 18:30 [[UTC+2]]
+|team1 = {{fb-rt|AND}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002242/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|goals2 = [[Pavel Pogrebnyak|Pogrebnyak]] {{goal|14||64|pen.}}
+|stadium = [[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance = 1,100&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/andorra/russia/922605/ |title=Andorra vs. Russia - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Marco Borg]] ([[Malta Football Association|Malta]]) }}
+
+&lt;div id=&quot;Slovakia v FYR Macedonia&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002224/postmatch/report/index.html Report]
+|team2 = {{fb|MKD}}
+|goals1 = [[Filip Hološko|Hološko]] {{goal|90+1}}
+|stadium = [[Štadión Pasienky]], [[Bratislava]]
+|attendance = 5,980&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/slovakia/macedonia-fyr/922606/ |title=Slovakia vs. Macedonia FYR - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Claudio Circhetta]] ([[Swiss Football Association|Switzerland]]) }}
+----
+&lt;div id=&quot;Russia v Slovakia&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 19:00 [[UTC+4]]
+|team1 = {{fb-rt|RUS}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002217/postmatch/report/index.html Report]
+|team2 = {{fb|SVK}}
+|goals2 = [[Miroslav Stoch|Stoch]] {{goal|27}}
+|stadium = [[Lokomotiv Stadium (Moscow)|Lokomotiv Stadium]], [[Moscow]]
+|attendance = 27,052&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/russia/slovakia/922608/ |title=Russia vs. Slovakia - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Armenia&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}
+|score = 2–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002235/postmatch/report/index.html Report]
+|team2 = {{fb|ARM}}
+|goals1 = [[Mario Gjurovski|Gjurovski]] {{goal|42}}&lt;br /&gt;[[Ilčo Naumoski|Naumoski]] {{goal|90+6|pen.}}
+|goals2 = [[Yura Movsisyan|Movsisyan]] {{goal|41}}&lt;br /&gt;[[Edgar Manucharyan|Manucharyan]] {{goal|90+1}}
+|stadium = [[Philip II Arena]], [[Skopje]]
+|attendance = 9,000
+|referee = [[Espen Berntsen]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Republic of Ireland v Andorra&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 19:45 [[UTC±0]]
+|team1 = {{fb-rt|IRL}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002231/postmatch/report/index.html Report]
+|team2 = {{fb|AND}}
+|goals1 = [[Kevin Kilbane|Kilbane]] {{goal|15}}&lt;br /&gt;[[Kevin Doyle|Doyle]] {{goal|41}}&lt;br /&gt;[[Robbie Keane|Keane]] {{goal|54}}
+|goals2 = [[Cristian Martínez (Andorran footballer)|Martínez]] {{goal|45}}
+|stadium = [[Aviva Stadium|Landsdowne Road]], [[Dublin]]
+|attendance = 40,283&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/ireland-republic/andorra/922607/ |title=Ireland Republic vs. Andorra - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Leontios Trattou]] ([[Cyprus Football Association|Cyprus]]) }}
+----
+&lt;div id=&quot;Armenia v Slovakia&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002238/postmatch/report/index.html Report]
+|team2 = {{fb|SVK}}
+|goals1 = [[Yura Movsisyan|Movsisyan]] {{goal|23}}&lt;br /&gt;[[Gevorg Ghazaryan|Ghazaryan]] {{goal|50}}&lt;br /&gt;[[Henrikh Mkhitaryan|Mkhitaryan]] {{goal|89}}
+|goals2 = [[Vladimír Weiss (footballer born 1989)|Weiss]] {{goal|37}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance = 8,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/armenia/slovakia/922610/ |title=Armenia vs. Slovakia - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Daniele Orsato]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Andorra v FYR Macedonia&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|AND}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002245/postmatch/report/index.html Report]
+|team2 = {{fb|MKD}}
+|goals2 = [[Ilčo Naumoski|Naumoski]] {{goal|42}}&lt;br /&gt;[[Vanče Šikov|Šikov]] {{goal|60}}
+|stadium = [[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance = 550&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/andorra/macedonia-fyr/922612/ |title=Andorra vs. Macedonia FYR - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Gediminas Mažeika]] ([[Lithuanian Football Federation|Lithuania]])
+}}
+
+&lt;div id=&quot;Republic of Ireland v Russia&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|IRL}}
+|score = 2–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002227/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|goals1 = [[Robbie Keane|Keane]] {{goal|72|pen.}}&lt;br /&gt;[[Shane Long|Long]] {{goal|78}}
+|goals2 = [[Aleksandr Kerzhakov|Kerzhakov]] {{goal|11}}&lt;br /&gt;[[Alan Dzagoev|Dzagoev]] {{goal|29}}&lt;br /&gt;[[Roman Shirokov|Shirokov]] {{goal|50}}
+|stadium = [[Aviva Stadium|Landsdowne Road]], [[Dublin]]
+|attendance = 50,411&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/ireland-republic/russia/922611/ |title=Ireland Republic vs. Russia - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Kevin Blom]] ([[Royal Dutch Football Association|Netherlands]]) }}
+----
+&lt;div id=&quot;Armenia v Andorra&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}
+|score = 4–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002241/postmatch/report/index.html Report]
+|team2 = {{fb|AND}}
+|goals1 = [[Gevorg Ghazaryan|Ghazaryan]] {{goal|4}}&lt;br /&gt;[[Henrikh Mkhitaryan|Mkhitaryan]] {{goal|16}}&lt;br /&gt;[[Yura Movsisyan|Movsisyan]] {{goal|32}}&lt;br /&gt;[[Marcos Pizzelli|Pizzelli]] {{goal|52}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance = 12,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/armenia/andorra/922613/ |title=Armenia vs. Andorra - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Tomasz Mikulski]] ([[Polish Football Association|Poland]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Russia&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002232/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|goals2 = [[Aleksandr Kerzhakov|Kerzhakov]] {{goal|8}} 
+|stadium = [[Philip II Arena]], [[Skopje]] 
+|attendance = 10,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/macedonia-fyr/russia/922615/ |title=Macedonia FYR vs. Russia - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Stefan Johannesson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Slovakia v Republic of Ireland&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002223/postmatch/report/index.html Report]
+|team2 = {{fb|IRL}}
+|goals1 = [[Ján Ďurica|Ďurica]] {{goal|36}}
+|goals2 = [[Sean St Ledger|St Ledger]] {{goal|16}}
+|stadium = [[Stadium Pod Dubňom]], [[Žilina]]
+|attendance = 10,892&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/slovakia/ireland-republic/922614/ |title=Slovakia vs. Ireland Republic - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alberto Undiano Mallenco]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Armenia v Russia&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 19:00 [[UTC+4]]
+|team1 = {{fb-rt|ARM}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002237/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]]
+|attendance = 14,400&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/26/europe/european-championships/armenia/russia/922618/ |title=Armenia vs. Russia - 26 March 2011 |publisher=Soccerway |date=2011-03-26 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Andorra v Slovakia&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|AND}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002243/postmatch/report/index.html Report]
+|team2 = {{fb|SVK}}
+|goals2 = [[Filip Šebo|Šebo]] {{goal|21}}
+|stadium = [[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance = 850
+|referee = [[Menashe Masiah]] ([[Israel Football Association|Israel]]) }}
+
+&lt;div id=&quot;Republic of Ireland v FYR Macedonia&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 19:45 [[UTC±0]]
+|team1 = {{fb-rt|IRL}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002229/postmatch/report/index.html Report]
+|team2 = {{fb|MKD}}
+|goals1 = [[Aiden McGeady|McGeady]] {{goal|2}}&lt;br/&gt;[[Robbie Keane|Keane]] {{goal|21}}
+|goals2 = [[Ivan Tričkovski|Tričkovski]] {{goal|45}}
+|stadium = [[Aviva Stadium|Landsdowne Road]], [[Dublin]]
+|attendance = 33,200&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/26/europe/european-championships/ireland-republic/macedonia-fyr/922616/ |title=Ireland Republic vs. Macedonia FYR - 26 March 2011 |publisher=Soccerway |date=2011-03-26 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[István Vad]] ([[Hungarian Football Federation|Hungary]]) }}
+----
+&lt;div id=&quot;Russia v Armenia&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 19:00 [[UTC+4]]
+|team1 = {{fb-rt|RUS}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002220/postmatch/report/index.html Report]
+|team2 = {{fb|ARM}}
+|goals1 = [[Roman Pavlyuchenko|Pavlyuchenko]] {{goal|26||59||73|pen.}}
+|goals2 = [[Marcos Pizzelli|Pizzelli]] {{goal|25}}
+|stadium = [[Petrovsky Stadium]], [[Saint Petersburg]]
+|attendance = 18,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/04/europe/european-championships/russia/armenia/922619/ |title=Russia vs. Armenia - 4 June 2011 |publisher=Soccerway |date=2011-06-04 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Stéphane Lannoy]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Slovakia v Andorra&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002226/postmatch/report/index.html Report]
+|team2 = {{fb|AND}}
+|goals1 = [[Miroslav Karhan|Karhan]] {{goal|63}}
+|stadium = [[Štadión Pasienky]], [[Bratislava]]
+|attendance = 4,300&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/04/europe/european-championships/slovakia/andorra/922620/ |title=Slovakia vs. Andorra - 4 June 2011 |publisher=Soccerway |date=2011-06-04 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Lorenc Jemini]] ([[Albanian Football Association|Albania]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Republic of Ireland&quot;/&gt;{{footballbox
+|date = 4 June 2011
+|time = 21:30 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002234/postmatch/report/index.html Report]
+|team2 = {{fb|IRL}}
+|goals2 = [[Robbie Keane|Keane]] {{goal|7||37}}
+|stadium = [[Philip II Arena]], [[Skopje]]
+|attendance = 29,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/04/europe/european-championships/macedonia-fyr/ireland-republic/922621/ |title=Macedonia FYR vs. Ireland Republic - 4 June 2011 |publisher=Soccerway |date=2011-06-04 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Florian Meyer]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Andorra v Armenia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 18:00 [[UTC+2]]
+|team1 = {{fb-rt|AND}}
+|score = 0–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002246/postmatch/report/index.html Report]
+|team2 = {{fb|ARM}}
+|goals2 = [[Marcos Pizzelli|Pizzelli]] {{goal|34}}&lt;br /&gt;[[Gevorg Ghazaryan|Ghazaryan]] {{goal|75}}&lt;br /&gt;[[Henrikh Mkhitaryan|Mkhitaryan]] {{goal|90+2|pen.}}
+|stadium = [[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance = 750&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/andorra/armenia/922623/ |title=Andorra vs. Armenia - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Alexander Kostadinov]] ([[Bulgarian Football Union|Bulgaria]]) }}
+
+&lt;div id=&quot;Russia v FYR Macedonia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 20:00 [[UTC+4]]
+|team1 = {{fb-rt|RUS}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002219/postmatch/report/index.html Report]
+|team2 = {{fb|MKD}}
+|goals1 = [[Igor Semshov|Semshov]] {{goal|41}}
+|stadium = [[Luzhniki Stadium]], [[Moscow]]
+|attendance = 31,028&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/russia/macedonia-fyr/922624/ |title=Russia vs. Macedonia FYR - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Bülent Yıldırım (referee)|Bülent Yıldırım]] ([[Turkish Football Federation|Turkey]])}}
+
+&lt;div id=&quot;Republic of Ireland v Slovakia&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|IRL}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002228/postmatch/report/index.html Report]
+|team2 = {{fb|SVK}}
+|stadium = [[Aviva Stadium|Landsdowne Road]], [[Dublin]]
+|attendance =35,480&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/ireland-republic/slovakia/922622/ |title=Ireland Republic vs. Slovakia - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Pedro Proença]] ([[Portuguese Football Federation|Portugal]])}}
+----
+&lt;div id=&quot;Russia v Republic of Ireland&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 19:00 [[UTC+4]]
+|team1 = {{fb-rt|RUS}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002218/postmatch/report/index.html Report]
+|team2 = {{fb|IRL}}
+|stadium = [[Luzhniki Stadium]], [[Moscow]]
+|attendance = 49,515&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/russia/ireland-republic/922625/ |title=Russia vs. Ireland Republic - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Felix Brych]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Andorra&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002236/postmatch/report/index.html Report]
+|team2 = {{fb|AND}}
+|goals1 = [[Mirko Ivanovski|Ivanovski]] {{goal|59}}
+|stadium = [[Philip II Arena]], [[Skopje]]
+|attendance = 5,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/macedonia-fyr/andorra/922627/ |title=Macedonia FYR vs. Andorra - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Mark Steven Whitby]] ([[Football Association of Wales|Wales]]) }}
+
+&lt;div id=&quot;Slovakia v Armenia&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}
+|score = 0–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002225/postmatch/report/index.html Report]
+|team2 = {{fb|ARM}}
+|goals1 = 
+|goals2 = [[Yura Movsisyan|Movsisyan]] {{goal|57}}&lt;br /&gt;[[Henrikh Mkhitaryan|Mkhitaryan]] {{goal|70}}&lt;br /&gt;[[Gevorg Ghazaryan|Ghazaryan]] {{goal|80}}&lt;br /&gt;[[Artur Sarkisov|Sarkisov]] {{goal|90+1}}
+|stadium = [[Stadium Pod Dubňom]], [[Žilina]]
+|attendance = 7,238&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/slovakia/armenia/922626/ |title=Slovakia vs. Armenia - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Marcin Borski]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Armenia v FYR Macedonia&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|ARM}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002240/postmatch/report/index.html Report]
+|team2 = {{fb|MKD}}
+|goals1 = [[Marcos Pizzelli|Pizzelli]] {{goal|28}} &lt;br&gt; [[Henrik Mkhitaryan|Mkhitaryan]] {{goal|34}} &lt;br&gt; [[Gevorg Ghazaryan|Ghazaryan]] {{goal|69}} &lt;br&gt; [[Artur Sarkisov|Sarkisov]] {{goal|90+1}}
+|goals2 = [[Vanče Šikov|Šikov]] {{goal|86}}
+|stadium = [[Hanrapetakan Stadium]], [[Yerevan]] 
+|attendance = 14,403&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/armenia/macedonia-fyr/922628/ |title=Armenia vs. Macedonia FYR - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Robert Schörgenhofer]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Slovakia v Russia&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002222/postmatch/report/index.html Report]
+|team2 = {{fb|RUS}}
+|goals1 = 
+|goals2 = [[Alan Dzagoev|Dzagoev]] {{goal|71}}
+|stadium = [[Stadium Pod Dubňom]], [[Žilina]]
+|attendance = 10,087&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/slovakia/russia/922630/ |title=Slovakia vs. Russia - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Jonas Eriksson (referee)|Jonas Eriksson]] ([[Swedish Football Association|Sweden]])}}
+
+&lt;div id=&quot;Andorra v Republic of Ireland&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 21:30 [[UTC+2]]
+|team1 = {{fb-rt|AND}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002244/postmatch/report/index.html Report]
+|team2 = {{fb|IRL}}
+|goals1 = 
+|goals2 = [[Kevin Doyle|Doyle]] {{goal|7}} &lt;br&gt; [[Aiden McGeady|McGeady]] {{goal|20}}
+|stadium = [[Estadi Comunal d'Andorra la Vella|Estadi Comunal]], [[Andorra la Vella]]
+|attendance = 860&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/andorra/ireland-republic/922629/ |title=Andorra vs. Ireland Republic - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Libor Kovařik]] ([[Czech Football Association|Czech Republic]]) }}
+----
+&lt;div id=&quot;Russia v Andorra&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 21:45 [[UTC+4]]
+|team1 = {{fb-rt|RUS}}
+|score = 6–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002221/postmatch/report/index.html Report]
+|team2 = {{fb|AND}}
+|goals1 = [[Alan Dzagoev|Dzagoev]] {{goal|5||44}} &lt;br&gt; [[Sergei Ignashevich|Ignashevich]] {{goal|26}} &lt;br&gt; [[Roman Pavlyuchenko|Pavlyuchenko]] {{goal|30}} &lt;br&gt; [[Denis Glushakov|Glushakov]] {{goal|59}} &lt;br&gt; [[Diniyar Bilyaletdinov|Bilyaletdinov]] {{goal|78}}
+|goals2 = 
+|stadium = [[Luzhniki Stadium]], [[Moscow]]
+|attendance = 38,790&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/russia/andorra/922632/ |title=Russia vs. Andorra - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Eli Hacmon]] ([[Israel Football Association|Israel]]) }}
+
+&lt;div id=&quot;Republic of Ireland v Armenia&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 18:45 [[UTC+1]]
+|team1 = {{fb-rt|IRL}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002230/postmatch/report/index.html Report]
+|team2 = {{fb|ARM}}
+|goals1 = [[Valeri Aleksanyan|V. Aleksanyan]] {{goal|43|o.g.}} &lt;br&gt; [[Richard Dunne|Dunne]] {{goal|59}}
+|goals2 = [[Henrikh Mkhitaryan|Mkhitaryan]] {{goal|62}}
+|stadium = [[Aviva Stadium|Landsdowne Road]], [[Dublin]]
+|attendance = 45,200&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/ireland-republic/armenia/922631/ |title=Ireland Republic vs. Armenia - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Eduardo Iturralde González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;FYR Macedonia v Slovakia&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 19:45 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002233/postmatch/report/index.html Report]
+|team2 = {{fb|SVK}}
+|goals1 = [[Nikolče Noveski|Noveski]] {{goal|80}}
+|goals2 = [[Juraj Piroska|Piroska]] {{goal|54}}
+|stadium = [[Philip II Arena]], [[Skopje]]
+|attendance = 4,100&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/macedonia-fyr/slovakia/922633/ |title=Macedonia FYR vs. Slovakia - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Tony Chapron]] ([[French Football Federation|France]]) }}
+
+==Goalscorers==
+;6 goals
+*{{flagicon|ARM}} [[Henrikh Mkhitaryan]]
+;5 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|ARM}} [[Gevorg Ghazaryan]]
+{{Col-3}}
+*{{flagicon|IRL}} [[Robbie Keane]]
+{{Col-3}}
+{{Col-end}}
+
+;4 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|ARM}} [[Yura Movsisyan]]
+*{{flagicon|ARM}} [[Marcos Pizzelli]]
+{{Col-3}}
+*{{flagicon|RUS}} [[Alan Dzagoev]]
+{{Col-3}}
+*{{flagicon|RUS}} [[Roman Pavlyuchenko]]
+{{Col-end}}
+
+;2 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|ARM}} [[Artur Sarkisov]]
+*{{flagicon|MKD}} [[Ilčo Naumoski]]
+*{{flagicon|MKD}} [[Vanče Šikov]]
+{{Col-3}}
+*{{flagicon|IRL}} [[Kevin Doyle]]
+*{{flagicon|IRL}} [[Aiden McGeady]]
+{{Col-3}}
+*{{flagicon|RUS}} [[Aleksandr Kerzhakov]]
+*{{flagicon|RUS}} [[Pavel Pogrebnyak]]
+{{Col-end}}
+
+;1 goal
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|AND}} [[Cristian Martínez (Andorran footballer)|Cristian Martínez]]
+*{{flagicon|ARM}} [[Edgar Manucharyan]]
+*{{flagicon|MKD}} [[Mario Gjurovski]]
+*{{flagicon|MKD}} [[Mirko Ivanovski]]
+*{{flagicon|MKD}} [[Nikolče Noveski]]
+*{{flagicon|MKD}} [[Ivan Tričkovski]]
+*{{flagicon|IRL}} [[Richard Dunne]]
+*{{flagicon|IRL}} [[Keith Fahey]]
+{{Col-3}}
+*{{flagicon|IRL}} [[Kevin Kilbane]]
+*{{flagicon|IRL}} [[Shane Long]]
+*{{flagicon|IRL}} [[Sean St Ledger]]
+*{{flagicon|RUS}} [[Diniyar Bilyaletdinov]]
+*{{flagicon|RUS}} [[Denis Glushakov]]
+*{{flagicon|RUS}} [[Sergei Ignashevich]]
+*{{flagicon|RUS}} [[Igor Semshov]]
+*{{flagicon|RUS}} [[Roman Shirokov]]
+{{Col-3}}
+*{{flagicon|SVK}} [[Ján Ďurica]]
+*{{flagicon|SVK}} [[Filip Hološko]]
+*{{flagicon|SVK}} [[Miroslav Karhan]]
+*{{flagicon|SVK}} [[Juraj Piroska]]
+*{{flagicon|SVK}} [[Filip Šebo]]
+*{{flagicon|SVK}} [[Miroslav Stoch]]
+*{{flagicon|SVK}} [[Vladimír Weiss (footballer born 1989)|Vladimír Weiss]]
+{{Col-end}}
+
+;1 own goal
+*{{flagicon|ARM}} [[Valeri Aleksanyan]] (playing against Republic of Ireland)
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|AND}} || style=&quot;text-align:center;&quot;| 1,100 || style=&quot;text-align:center;&quot;| 550 || style=&quot;text-align:center;&quot;| 4,110 || style=&quot;text-align:center;&quot;| '''822'''
+|-
+| {{fb|ARM}} || style=&quot;text-align:center;&quot;| 14,403 || style=&quot;text-align:center;&quot;| 8,500 || style=&quot;text-align:center;&quot;| 57,903 || style=&quot;text-align:center;&quot;| '''11,581'''
+|-
+| {{fb|MKD}} || style=&quot;text-align:center;&quot;| 29,500 || style=&quot;text-align:center;&quot;| 4,100 || style=&quot;text-align:center;&quot;| 58,100 || style=&quot;text-align:center;&quot;| '''11,620'''
+|-
+| {{fb|IRL}} || style=&quot;text-align:center;&quot;| 50,411 || style=&quot;text-align:center;&quot;| 33,200 || style=&quot;text-align:center;&quot;| 204,574 || style=&quot;text-align:center;&quot;| '''40,915'''
+|-
+| {{fb|RUS}} || style=&quot;text-align:center;&quot;| 49,515 || style=&quot;text-align:center;&quot;| 18,000|| style=&quot;text-align:center;&quot;| 164,385 || style=&quot;text-align:center;&quot;| '''32,877'''
+|-
+| {{fb|SVK}} || style=&quot;text-align:center;&quot;| 10,892 || style=&quot;text-align:center;&quot;| 4,300 || style=&quot;text-align:center;&quot;| 38,497 || style=&quot;text-align:center;&quot;| '''7,699'''
+|}
+
+== Discipline ==
+{| class=&quot;wikitable sortable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! {{yel}}
+! {{sent off}}
+! Suspended for match(es)
+! Reason
+|-
+| DF || [[Ildefons Lima]] ||align=&quot;left&quot;| {{fb|AND}} || 4 || 1 || vs Macedonia (8 October 2010)&lt;br /&gt;vs Macedonia (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Sent off in a UEFA Euro 2012 qualifying match
+|-
+| MF || [[Goran Pandev]] ||align=&quot;left&quot;| {{fb|MKD}} || 3 || 1 || vs Andorra (6 September 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| MF || [[Velice Sumulikoski]] ||align=&quot;left&quot;| {{fb|MKD}} || 3 || 1 || vs Slovakia (11 October 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| FW || [[Kevin Doyle]] || style=&quot;text-align:left;&quot;| {{fb|IRL}} || 3 || 1 || vs Estonia (11 and 15 November 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| DF || [[Richard Dunne]] ||align=&quot;left&quot;| {{fb|IRL}} || 4 || 0 || vs Macedonia (3 June 2011)&lt;br /&gt;vs Andorra (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Aleksandr Anyukov]] ||align=&quot;left&quot;| {{fb|RUS}} || 4 || 0 || vs Armenia (26 March 2011)&lt;br /&gt;vs Andorra (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Miroslav Stoch]] || style=&quot;text-align:left;&quot;| {{fb|SVK}} || 4 || 0 || vs Andorra (3 June 2011)&lt;br /&gt;vs Macedonia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Marc Pujol]] ||align=&quot;left&quot;| {{fb|AND}} || 3 || 0 || vs Macedonia (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Fernando Silva (footballer born 1977)|Fernando Silva]] ||align=&quot;left&quot;| {{fb|AND}} || 3 || 0 || vs Slovakia (26 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Sean St Ledger]] || style=&quot;text-align:left;&quot;| {{fb|IRL}} || 3 || 0 || vs Russia (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Igor Denisov]] ||align=&quot;left&quot;| {{fb|RUS}} || 3 || 0 || vs Republic of Ireland (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| GK || [[Ján Mucha]] || style=&quot;text-align:left;&quot;| {{fb|SVK}} || 3 || 0 || vs Andorra (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Martin Škrtel]] || style=&quot;text-align:left;&quot;| {{fb|SVK}} || 3 || 0 || vs Republic of Ireland (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Xavi Andorrà]] ||align=&quot;left&quot;| {{fb|AND}} || 2 || 0 || vs Armenia (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Josep Ayala]] || style=&quot;text-align:left;&quot;| {{fb|AND}} || 2 || 0 || vs Russia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Cristian Martínez (Andorran footballer)|Cristian Martínez]] || style=&quot;text-align:left;&quot;| {{fb|AND}} || 2 || 0 || vs Russia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Sergi Moreno]] ||align=&quot;left&quot;| {{fb|AND}} || 2 || 0 || vs Slovakia (3 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Marc Vales]] || style=&quot;text-align:left;&quot;| {{fb|AND}} || 2 || 0 || vs Republic of Ireland (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Karlen Mkrtchyan]] || style=&quot;text-align:left;&quot;| {{fb|ARM}} || 2 || 0 || vs Andorra (12 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Yura Movsisyan]] || style=&quot;text-align:left;&quot;| {{fb|ARM}} || 2 || 0 || vs Andorra (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Muhamed Demiri]] ||align=&quot;left&quot;| {{fb|MKD}} || 2 || 0 || vs Andorra (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Mirko Ivanovski]] ||align=&quot;left&quot;| {{fb|MKD}} || 2 || 0 || vs Slovakia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Nikolče Noveski]] ||align=&quot;left&quot;| {{fb|MKD}} || 2 || 0 || vs Andorra (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Goran Popov]] ||align=&quot;left&quot;| {{fb|MKD}} || 2 || 0 || vs Slovakia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Stephen Ward (footballer)|Stephen Ward]] || style=&quot;text-align:left;&quot;| {{fb|IRL}} || 2 || 0 || vs Armenia (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Sergei Ignashevich]] ||align=&quot;left&quot;| {{fb|RUS}} || 2 || 0 || vs Macedonia (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| MF || [[Konstantin Zyryanov]] ||align=&quot;left&quot;| {{fb|RUS}} || 2 || 0 || vs Andorra (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Juraj Kucka]] || style=&quot;text-align:left;&quot;| {{fb|SVK}} || 2 || 0 || vs Armenia (6 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Stanislav Šesták]] || style=&quot;text-align:left;&quot;| {{fb|SVK}} || 2 || 0 || vs Russia (7 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|}
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group B]]
+[[Category:2010 in Russian football|Qual]]
+[[Category:2011–12 in Russian football]]
+[[Category:2010–11 in Republic of Macedonia football]]
+[[Category:2011–12 in Republic of Macedonia football]]
+[[Category:2010–11 in Andorran football]]
+[[Category:2011–12 in Andorran football]]
+[[Category:2010–11 in Slovak football]]
+[[Category:2011–12 in Slovak football]]
+[[Category:2010 in Armenian football]]
+[[Category:2011 in Armenian football]]
+[[Category:Republic of Ireland at UEFA Euro 2012|Qual]]</text>
+      <sha1>rk5l40fcjgumjj9tzsbzxdnq3v0wsdz</sha1>
+    </revision>
+  </page>
+</mediawiki>

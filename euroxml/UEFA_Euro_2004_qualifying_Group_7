@@ -1,0 +1,451 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 7</title>
+    <ns>0</ns>
+    <id>25726695</id>
+    <revision>
+      <id>724433330</id>
+      <parentid>724433198</parentid>
+      <timestamp>2016-06-09T06:59:00Z</timestamp>
+      <contributor>
+        <username>Sangjinhwa</username>
+        <id>10500908</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="12813">Standings and results for '''Group 7''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 7 consisted of [[England national football team|England]], [[Liechtenstein national football team|Liechtenstein]], [[FYR Macedonia national football team|Macedonia]], [[Slovakia national football team|Slovakia]] and [[Turkey national football team|Turkey]]. Group winners were England, who finished one point clear of second-placed team Turkey who qualified for the play-offs.
+
+==Standings==
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|ENG}}
+|8 |{{!!}} 6 {{!!}} 2 {{!!}} 0 {{!!}} 14 {{!!}} 5 {{!!}} +9 ||'''20'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|TUR}}
+|8 |{{!!}} 6 {{!!}} 1 {{!!}} 1 {{!!}} 17 {{!!}} 5 {{!!}} +12 ||'''19'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|SVK}}
+|8 |{{!!}} 3 {{!!}} 1 {{!!}} 4 {{!!}} 11 {{!!}} 9 {{!!}} +2 ||'''10'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|MKD}}
+|8 |{{!!}} 1 {{!!}} 3 {{!!}} 4 {{!!}} 11 {{!!}} 14 {{!!}} &amp;minus;3 ||'''6'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|LIE}}
+|8 |{{!!}} 0 {{!!}} 1 {{!!}} 7 {{!!}} 2 {{!!}} 22 {{!!}} &amp;minus;20 ||'''1'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|ENG}}
+!{{flagicon|LIE}}
+!{{flagicon|MKD}}
+!{{flagicon|SVK}}
+!{{flagicon|TUR}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ENG}}
+| –
+| 2–0
+| 2–2
+| 2–1
+| 2–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|LIE}}
+| 0–2
+| –
+| 1–1
+| 0–2
+| 0–3
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|MKD}}
+| 1–2
+| 3–1
+| –
+| 0–2
+| 1–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|SVK}}
+| 1–2
+| 4–0
+| 1–1
+| –
+| 0–1
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|TUR}}
+| 0–0
+| 5–0
+| 3–2
+| 3–0
+| –
+|-
+|}
+
+|}
+
+==Matches==
+
+{{footballbox|date = September 7, 2002
+|time = 20:30 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}  
+|score = 3–0 
+|team2 = {{fb|SVK}}  
+|goals1 = [[Serhat Akın|Akın]] {{goal|14}} &lt;br/&gt;[[Arif Erdem|Erdem]] {{goal|44||65}}
+|goals2 = 
+|stadium = [[Ali Sami Yen Stadium]], [[Istanbul]] |attendance = 18,000 |referee = [[Antonio Jesús López Nieto]] ([[Royal Spanish Football Federation|ESP]])|report =}}
+
+{{footballbox|date = September 8, 2002
+|time = 17:00 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}  
+|score = 1–1 
+|team2 = {{fb|MKD}}  
+|goals1 =  [[Michael Stocklasa|Stocklasa]] {{goal|90}}   
+|goals2 = [[Ǵorǵi Hristov|Hristov]] {{goal|8}} 
+|stadium = [[Rheinpark Stadion]], [[Vaduz]] |attendance = 2,300 |referee = [[Vitaliy Godulyan]] ([[Football Federation of Ukraine|UKR]])|report =}}
+
+----
+{{footballbox|date = October 12, 2002
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}  
+|score = 1–2 
+|team2 = {{fb|TUR}}  
+|goals1 = [[Vlatko Grozdanoski|Grozdanoski]] {{goal|2}} 
+|goals2 = [[Okan Buruk|Okan]] {{goal|29}} &lt;br/&gt; [[Nihat Kahveci|Nihat]] {{goal|53}}
+|stadium = [[Philip II Arena|Gradski Stadium]], [[Skopje]] |attendance = 12,000 |referee = [[Knud Erik Fisker]] ([[Danish Football Association|DEN]])|report = }}
+
+{{footballbox|date = October 12, 2002
+|time = 19:30 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}  
+|score = 1–2 
+|team2 = {{fb|ENG}}  
+|goals1 = [[Szilárd Németh|Németh]] {{goal|23}} 
+|goals2 = [[David Beckham|Beckham]] {{goal|64}} &lt;br/&gt; [[Michael Owen|Owen]] {{goal|82}}
+|stadium = [[Tehelné pole#Football (soccer)|Tehelné pole]], [[Bratislava]] |attendance = 27,000 |referee = [[Domenico Messina]] ([[Italian Football Federation|ITA]])|report = }}
+
+----
+{{footballbox|date = October 16, 2002
+|time = 20:30 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}  
+|score = 5–0 
+|team2 = {{fb|LIE}}  
+|goals1 = [[Okan Buruk|Okan]] {{goal|7}} &lt;br/&gt; [[Ümit Davala|Davala]] {{goal|14}} &lt;br/&gt; [[İlhan Mansız|Mansız]] {{goal|23}} &lt;br/&gt; [[Serhat Akın|Akın]] {{goal|81||90}}
+|goals2 = 
+|stadium = [[Ali Sami Yen Stadium]], [[Istanbul]] |attendance = 19,000 |referee = [[Yuri Baskakov]] ([[Russian Football Union|RUS]])|report =}}
+
+{{footballbox|date = October 16, 2002
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}  
+|score = 2–2 
+|team2 = {{fb|MKD}}  
+|goals1 = [[David Beckham|Beckham]] {{goal|12}} &lt;br/&gt; [[Steven Gerrard|Gerrard]] {{goal|35}} 
+|goals2 = [[Artim Šakiri|Šakiri]] {{goal|10}} &lt;br/&gt; [[Vančo Trajanov|Trajanov]] {{goal|24}}  
+|stadium = [[St Mary's Stadium]], [[Southampton]] |attendance = 32,095 |referee = [[Arturo Daudén Ibáñez]] ([[Royal Spanish Football Federation|ESP]])|report = }}
+
+----
+{{footballbox|date = March 29, 2003
+|time = 18:30 [[UTC+1]]
+|team1 = {{fb-rt|LIE}}  
+|score = 0–2 
+|team2 = {{fb|ENG}}  
+|goals1 = 
+|goals2 = [[Michael Owen|Owen]] {{goal|28}} &lt;br/&gt; [[David Beckham|Beckham]] {{goal|53}}
+|stadium = [[Rheinpark Stadion]], [[Vaduz]] |attendance = 3,548 |referee = [[Georgios Kasnaferis]] ([[Greek Football Association|GRE]])|report =}}
+
+{{footballbox|date = March 29, 2003
+|time = 19:00 [[UTC+1]]
+|team1 = {{fb-rt|MKD}}  
+|score = 0–2 
+|team2 = {{fb|SVK}}  
+|goals1 = 
+|goals2 = [[Martin Petráš|Petráš]] {{goal|28}} &lt;br/&gt; [[Ľubomír Reiter|Reiter]] {{goal|90}} 
+|stadium = [[Philip II Arena|Gradski Stadium]], [[Skopje]] |attendance = 10,000 |referee = [[Laurent Duhamel]] ([[French Football Federation|FRA]])|report =}}
+
+----
+{{footballbox|date = April 2, 2003
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}  
+|score = 4–0 
+|team2 = {{fb|LIE}}  
+|goals1 = [[Ľubomír Reiter|Reiter]] {{goal|19}} &lt;br/&gt; [[Szilárd Németh|Németh]] {{goal|50||64}} &lt;br/&gt; [[Vladimír Janočko|Janočko]] {{goal|89}}
+|goals2 = 
+|stadium = [[Štadión Antona Malatinského]], [[Trnava]] |attendance = 0{{refn|Slovakia v Liechtenstein was played without spectators due to sanctions imposed by UEFA as a result of racist behaviour by Slovak supporters at the home match against England.&lt;ref&gt;{{cite news |url=http://www.uefa.org/disciplinary/news/newsid=49648.html |title=Stadium ban for Slovakia |work=UEFA |date=13 January 2003 |accessdate=4 May 2016 }}&lt;/ref&gt;|name=&quot;slovakia-liechtenstein&quot;|group=&quot;note&quot;}} |referee = [[Darko Ceferin]] ([[Football Association of Slovenia|SVN]])|report = }}
+
+{{footballbox|date = April 2, 2003
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}  
+|score = 2–0 
+|team2 = {{fb|TUR}}  
+|goals1 = [[Darius Vassell|Vassell]] {{goal|75}} &lt;br/&gt; [[David Beckham|Beckham]] {{goal|90|pen.}}
+|goals2 = 
+|stadium = [[Stadium of Light]], [[Sunderland, Tyne and Wear|Sunderland]] |attendance = 46,667 |referee = [[Urs Meier]] ([[Swiss Football Association|SUI]])|report = }}
+
+----
+{{footballbox|date = June 7, 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}  
+|score = 3–1 
+|team2 = {{fb|LIE}}  
+|goals1 = [[Goce Sedloski|Sedloski]] {{goal|39|pen.}} &lt;br/&gt; [[Mile Krstev|Krstev]] {{goal|52}} &lt;br/&gt; [[Aco Stojkov|Stojkov]] {{goal|82}}
+|goals2 = [[Roger Beck|Beck]] {{goal|20}} 
+|stadium = [[Philip II Arena|Gradski Stadium]], [[Skopje]] |attendance = 6,000 |referee =  [[Jaroslav Jara]] ([[Czechoslovak Football Association|CZE]])|report = }}
+
+{{footballbox|date = June 7, 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}  
+|score = 0–1 
+|team2 = {{fb|TUR}}  
+|goals1 = 
+|goals2 = [[Nihat Kahveci|Nihat]] {{goal|12}}
+|stadium = [[Tehelné pole#Football (soccer)|Tehelné pole]], [[Bratislava]] |attendance = 15,000 |referee =  [[Terje Hauge]] ([[Norwegian Football Association|NOR]])|report = }}
+
+----
+{{footballbox|date = June 11, 2003
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}  
+|score = 3–2 
+|team2 = {{fb|MKD}}  
+|goals1 = [[Nihat Kahveci|Nihat]] {{goal|25}} &lt;br/&gt; [[Gökdeniz Karadeniz|Karadeniz]] {{goal|47}} &lt;br/&gt; [[Hakan Şükür]] {{goal|57}}
+|goals2 = [[Vlatko Grozdanoski|Grozdanoski]] {{goal|23}} &lt;br/&gt; [[Artim Šakiri|Šakiri]] {{goal|27}} 
+|stadium = [[BJK İnönü Stadium]], [[Istanbul]] |attendance = 22,000 |referee = [[Roberto Rosetti]] ([[Italian Football Federation|ITA]])|report = }}
+
+{{footballbox|date = June 11, 2003
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}  
+|score = 2–1 
+|team2 = {{fb|SVK}}  
+|goals1 = [[Michael Owen|Owen]] {{goal|61|pen.|72}}
+|goals2 = [[Vladimír Janočko|Janočko]] {{goal|31}}
+|stadium = [[Riverside Stadium]], [[Middlesbrough]] |attendance = 35,000 |referee = [[Wolfgang Stark]] ([[German Football Association|GER]])|report = }}
+
+----
+{{footballbox|date = September 6, 2003
+|time = 18:30 [[UTC+2]]
+|team1 = {{fb-rt|MKD}}  
+|score = 1–2 
+|team2 = {{fb|ENG}}  
+|goals1 = [[Ǵorǵi Hristov|Hristov]] {{goal|28}}
+|goals2 = [[Wayne Rooney|Rooney]] {{goal|52}} &lt;br/&gt; [[David Beckham|Beckham]] {{goal|63|pen.}}
+|stadium = [[Philip II Arena|Gradski Stadium]], [[Skopje]] |attendance = 10,000 |referee = [[Frank de Bleeckere]] ([[Belgian Football Association|BEL]])|report = }}
+
+{{footballbox|date = September 6, 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}  
+|score = 0–3 
+|team2 = {{fb|TUR}}  
+|goals1 = 
+|goals2 = [[Tümer Metin|Metin]] {{goal|14}} &lt;br/&gt; [[Okan Buruk|Okan]] {{goal|41}} &lt;br/&gt; [[Hakan Sükür]] {{goal|50}}
+|stadium = [[Rheinpark Stadion]], [[Vaduz]] |attendance = 3,548 |referee = [[Dick van Egmond]] ([[Royal Dutch Football Association|NED]])|report = }}
+
+----
+{{footballbox|date = September 10, 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVK}}  
+|score = 1–1 
+|team2 = {{fb|MKD}}  
+|goals1 =  [[Szilárd Németh|Németh]] {{goal|25}}
+|goals2 =  [[Dragan Dimitrovski|Dimitrovski]] {{goal|62}}
+|stadium = [[Stadium Pod Dubňom]], [[Žilina]] |attendance = 2,286 |referee = [[Leif Sundell]] ([[Swedish Football Association|SWE]])|report = }}
+
+{{footballbox|date = September 10, 2003
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|ENG}}  
+|score = 2–0 
+|team2 = {{fb|LIE}}  
+|goals1 = [[Michael Owen|Owen]] {{goal|46}} &lt;br/&gt; [[Wayne Rooney|Rooney]] {{goal|52}}
+|goals2 =  
+|stadium = [[Old Trafford]], [[Manchester]] |attendance = 64,931 |referee = [[Knud Erik Fisker]] ([[Danish Football Association|DEN]])|report = }}
+
+----
+{{footballbox|date = October 11, 2003
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}  
+|score = 0–0 
+|team2 = {{fb|ENG}}  
+|goals1 =
+|goals2 = 
+|stadium = [[Şükrü Saracoğlu Stadium]], [[Istanbul]] |attendance = 45,000 |referee = [[Pierluigi Collina]] ([[Italian Football Federation|ITA]])|report = }}
+
+{{footballbox|date = October 11, 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LIE}}  
+|score = 0–2 
+|team2 = {{fb|SVK}}  
+|goals1 = 
+|goals2 = [[Róbert Vittek|Vittek]] {{goal|40||56}}
+|stadium = [[Rheinpark Stadion]], [[Vaduz]] |attendance = 800 |referee = [[Jouni Hyytiä]] ([[Football Association of Finland|FIN]])|report = }}
+
+{{reflist|group=note}}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;2&quot; align=center|1
+|[[David Beckham]] 
+|{{fb|ENG}}
+|rowspan=&quot;2&quot; align=center|5
+|-
+|[[Michael Owen]] 
+|{{fb|ENG}}
+|-
+|rowspan=&quot;1&quot; align=center|2
+|[[Szilárd Németh]] 
+|{{fb|SVK}}
+|rowspan=&quot;1&quot; align=center|4
+|-
+|rowspan=&quot;3&quot; align=center|3
+|[[Serhat Akın]] 
+|{{fb|TUR}}
+|rowspan=&quot;3&quot; align=center|3
+|-
+|[[Nihat Kahveci|Nihat]] 
+|{{fb|TUR}}
+|-
+|[[Okan Buruk|Okan]] 
+|{{fb|TUR}}
+|-
+|rowspan=&quot;9&quot; align=center|4
+|[[Wayne Rooney]]
+|{{fb|ENG}}
+|rowspan=&quot;9&quot; align=center|2
+|-
+|[[Vlatko Grozdanoski]]
+|{{fb|MKD}}
+|-
+|[[Ǵorǵi Hristov]]
+|{{fb|MKD}}
+|-
+|[[Artim Šakiri]]
+|{{fb|MKD}}
+|-
+|[[Vladimír Janočko]]
+|{{fb|SVK}}
+|-
+|[[Ľubomír Reiter]]
+|{{fb|SVK}}
+|-
+|[[Róbert Vittek]]
+|{{fb|SVK}}
+|-
+|[[Arif Erdem]]
+|{{fb|TUR}}
+|-
+|[[Hakan Şükür]]
+|{{fb|TUR}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|ENG}}
+*[[Steven Gerrard]]
+*[[Darius Vassell]]
+;{{fb|LIE}}
+*[[Michael Stocklasa]]
+*[[Roger Beck]]
+{{col-3}}
+;{{fb|MKD}}
+*[[Dragan Dimitrovski]]
+*[[Mile Krstev]]
+*[[Goce Sedloski]]
+*[[Aco Stojkov]]
+*[[Vančo Trajanov]]
+;{{fb|SVK}}
+*[[Martin Petráš]]
+{{col-3}}
+;{{fb|TUR}}
+*[[Ümit Davala]]
+*[[Gökdeniz Karadeniz]]
+*[[İlhan Mansız]]
+*[[Tümer Metin]]
+|}
+
+==References==
+{{Reflist}}
+
+*[http://www.uefa.com/competitions/euro2012/history/season=2004/round=1579/group=1459.html UEFA Page]
+*[http://www.rsssf.com/tables/04e-ext.html#grp6 RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro 2004}}
+[[Category:UEFA Euro 2004 qualifying|Group 7]]
+[[Category:2002–03 in English football|Euro]]
+[[Category:England at UEFA Euro 2004|qual]]
+[[Category:2002–03 in Turkish football]]
+[[Category:2003–04 in Turkish football]]
+[[Category:2002–03 in Republic of Macedonia football]]
+[[Category:2003–04 in Republic of Macedonia football]]
+[[Category:2002–03 in Slovak football]]
+[[Category:2003–04 in Slovak football]]
+[[Category:2002–03 in Liechtenstein football]]
+[[Category:2003–04 in Liechtenstein football]]</text>
+      <sha1>495gjutr93eymvj02dlkvyaloaxy7hc</sha1>
+    </revision>
+  </page>
+</mediawiki>

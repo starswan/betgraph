@@ -1,0 +1,649 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group E</title>
+    <ns>0</ns>
+    <id>26105433</id>
+    <revision>
+      <id>711289647</id>
+      <parentid>684119707</parentid>
+      <timestamp>2016-03-22T00:16:05Z</timestamp>
+      <contributor>
+        <username>Daxion</username>
+        <id>10131337</id>
+      </contributor>
+      <minor/>
+      <comment>/* Attendances */ Correct sum of attendances for Hungary, Max Attendance and Total Attendance for Netherlands.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="33753">This page shows the standings and results for '''Group E''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group E |url=http://www.uefa.com/uefaeuro/season=2012/standings/round=15171/group=700961/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|- style=&quot;background:#cfc;&quot;
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|}
+*Note: Sweden qualified directly for the finals as the [[UEFA Euro 2012 qualifying#Ranking of second-placed teams|best runner-up]].
+{{UEFA Euro 2012 qualifying Group E
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+Group E fixtures were negotiated between the participants at a meeting in [[Amsterdam]], [[Netherlands]] on 17 February 2010.&lt;ref&gt;[http://svenskfotboll.se/arkiv/landslag/2010/02/herr-premiar-mot-ungern-final-mot-holland Premiär mot Ungern, final mot Holland]&lt;/ref&gt;
+
+&lt;div id=&quot;Moldova v Finland&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 19:30 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002072/postmatch/report/index.html Report]
+|team2 = {{fb|FIN}}
+|goals1 = [[Alexandr Suvorov|Suvorov]] {{goal|69}}&lt;br /&gt;[[Anatolie Doroş|Doroş]] {{goal|74}}
+|stadium = [[Zimbru Stadium]], [[Chişinău]]
+|attendance = 10,300&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/moldova/finland/913612/ |title=Moldova vs. Finland - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Robert Małek]] ([[Polish Football Association|Poland]]) }}
+
+&lt;div id=&quot;Sweden v Hungary&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|SWE}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002057/postmatch/report/index.html Report]
+|team2 = {{fb|HUN}}
+|goals1 = [[Pontus Wernbloom|Wernbloom]] {{goal|51||73}}
+|stadium = [[Råsunda Stadium]], [[Solna Municipality|Solna]]
+|attendance = 32,304&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/sweden/hungary/913611/ |title=Sweden vs. Hungary - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Martin Atkinson]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;San Marino v Netherlands&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SMR}}
+|score = 0–5 
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002075/postmatch/report/index.html Report]
+|team2 = {{fb|NED}}
+|goals2 = [[Dirk Kuyt|Kuyt]] {{goal|16|pen.}}&lt;br /&gt;[[Klaas-Jan Huntelaar|Huntelaar]] {{goal|38||48||66}}&lt;br /&gt;[[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|89}}
+|stadium = [[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle (San Marino)|Serravalle]]
+|attendance = 4,127&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/san-marino/netherlands/913593/ |title=San Marino vs. Netherlands - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Simon Lee Evans]] ([[Football Association of Wales|Wales]]) }}
+----
+&lt;div id=&quot;Sweden v San Marino&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|SWE}}
+|score = 6–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002059/postmatch/report/index.html Report]
+|team2 = {{fb|SMR}}
+|goals1 = [[Zlatan Ibrahimović|Ibrahimović]] {{goal|7||77}}&lt;br/&gt;[[Davide Simoncini|D. Simoncini]] {{goal|12|o.g.}} &lt;br/&gt; [[Aldo Simoncini|A. Simoncini]] {{goal|26|o.g.}} &lt;br/&gt;[[Andreas Granqvist|Granqvist]] {{goal|51}} &lt;br/&gt;[[Marcus Berg|Berg]] {{goal|90+3}}
+|stadium = [[Swedbank Stadion]], [[Malmö]]
+|attendance =21,083&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/sweden/san-marino/913594/ |title=Sweden vs. San Marino - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[David McKeon (referee)|David McKeon]] ([[Football Association of Ireland|Republic of Ireland]]) }}
+
+&lt;div id=&quot;Hungary v Moldova&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|HUN}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002068/postmatch/report/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Gergely Rudolf|Rudolf]] {{goal|50}}&lt;br/&gt;[[Vladimir Koman|Koman]] {{goal|66}}
+|goals2 = [[Alexandr Suvorov|Suvorov]] {{goal|79}}
+|stadium = [[Szusza Ferenc Stadium]], [[Budapest]]
+|attendance =9,209&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/hungary/moldova/913613/ |title=Hungary vs. Moldova - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Libor Kovařík]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+
+&lt;div id=&quot;Netherlands v Finland&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002051/postmatch/report/index.html Report]
+|team2 = {{fb|FIN}}
+|goals1 = [[Klaas-Jan Huntelaar|Huntelaar]] {{goal|7||16|pen.}}
+|goals2 = [[Mikael Forssell|Forssell]] {{goal|18}}
+|stadium = [[Stadion Feijenoord|De Kuip]], [[Rotterdam]]
+|attendance = 25,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/netherlands/finland/913603/ |title=Netherlands vs. Finland - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Aleksei Nikolaev (referee)|Alexey Nikolaev]] ([[Russian Football Union|Russia]]) }}
+----
+&lt;div id=&quot;Hungary v San Marino&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|HUN}}
+|score = 8–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002069/postmatch/report/index.html Report]
+|team2 = {{fb|SMR}}
+|goals1 = [[Gergely Rudolf|Rudolf]] {{goal|11||25}}&lt;br /&gt;[[Ádám Szalai|Szalai]] {{goal|18||27||48}}&lt;br /&gt;[[Vladimir Koman|Koman]] {{goal|60}}&lt;br /&gt;[[Balázs Dzsudzsák|Dzsudzsák]] {{goal|89}} &lt;br /&gt; [[Zoltán Gera|Gera]] {{goal|90+4|pen.}}
+|stadium = [[Stadium Puskás Ferenc]], [[Budapest]]
+|attendance = 10,596&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/hungary/san-marino/913595/ |title=Hungary vs. San Marino - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Hannes Kaasik]] ([[Estonian Football Association|Estonia]]) }}
+
+&lt;div id=&quot;Moldova v Netherlands&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002070/postmatch/report/index.html Report]
+|team2 = {{fb|NED}}
+|goals2 = [[Klaas-Jan Huntelaar|Huntelaar]] {{goal|37}}
+|stadium = [[Zimbru Stadium]], [[Chişinău]]
+|attendance = 10,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/moldova/netherlands/913604/ |title=Moldova vs. Netherlands - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Florian Meyer]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Finland v Hungary&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 18:30 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002062/postmatch/report/index.html Report]
+|team2 = {{fb|HUN}}
+|goals1 = [[Mikael Forssell|Forssell]] {{goal|86}}
+|goals2 = [[Ádám Szalai|Szalai]] {{goal|50}}&lt;br/&gt;[[Balázs Dzsudzsák|Dzsudzsák]] {{goal|90+4}}
+|stadium = [[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance = 18,532&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/finland/hungary/913614/ |title=Finland vs. Hungary - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alan Kelly (referee)|Alan Kelly]] ([[Football Association of Ireland|Republic of Ireland]]) }}
+
+&lt;div id=&quot;Netherlands v Sweden&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002050/postmatch/report/index.html Report]
+|team2 = {{fb|SWE}}
+|goals1 = [[Klaas-Jan Huntelaar|Huntelaar]] {{goal|4||55}}&lt;br/&gt;[[Ibrahim Afellay|Afellay]] {{goal|37||59}}
+|goals2 = [[Andreas Granqvist|Granqvist]] {{goal|69}}
+|stadium = [[Amsterdam ArenA]], [[Amsterdam]]
+|attendance = 46,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/netherlands/sweden/913605/ |title=Netherlands vs. Sweden - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Stéphane Lannoy]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;San Marino v Moldova&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SMR}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002079/postmatch/report/index.html Report]
+|team2 = {{fb|MDA}}
+|goals2 = [[Nicolae Josan|Josan]] {{goal|20}} &lt;br&gt; [[Anatolie Doroş|Doroş]] {{goal|86|pen.}} 
+|stadium = [[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle (San Marino)|Serravalle]]
+|attendance = 714&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/san-marino/moldova/913596/ |title=San Marino vs. Moldova - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Mark Courtney (referee)|Mark Courtney]] ([[Irish Football Association|Northern Ireland]]) }}
+----
+&lt;div id=&quot;Finland v San Marino&quot;/&gt;{{footballbox
+|date = 17 November 2010
+|time = 18:30 [[UTC+2]]
+|team1 = {{fb-rt|FIN}}
+|score = 8–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002064/postmatch/report/index.html Report]
+|team2 = {{fb|SMR}}
+|goals1 = [[Mika Väyrynen|Väyrynen]] {{goal|39}} &lt;br&gt; [[Kasper Hämäläinen|Hämäläinen]] {{goal|49||67}} &lt;br&gt; [[Mikael Forssell|Forssell]] {{goal|51||59||78}}&lt;br&gt;[[Jari Litmanen|Litmanen]] {{goal|71|pen.}}&lt;br&gt;[[Roni Porokara|Porokara]] {{goal|73}}
+|stadium = [[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance = 8,192&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/11/17/europe/european-championships/finland/san-marino/913597/ |title=Finland vs. San Marino - 17 November 2010 |publisher=Soccerway |date=2010-11-17 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Radek Matejek]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+----
+&lt;div id=&quot;Hungary v Netherlands&quot;/&gt;{{footballbox
+|date = 25 March 2011
+|time = 20:30 [[UTC+1]]
+|team1 = {{fb-rt|HUN}}
+|score = 0–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002065/postmatch/report/index.html Report]
+|team2 = {{fb|NED}}
+|goals2 = [[Rafael van der Vaart|Van der Vaart]] {{goal|8}} &lt;br&gt; [[Ibrahim Afellay|Afellay]] {{goal|45}} &lt;br&gt; [[Dirk Kuyt|Kuyt]] {{goal|54}}&lt;br&gt;[[Robin van Persie|Van Persie]] {{goal|62}}
+|stadium = [[Stadium Puskás Ferenc]], [[Budapest]]
+|attendance = 23,817&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/25/europe/european-championships/hungary/netherlands/913606/ |title=Hungary vs. Netherlands - 25 March 2011 |publisher=Soccerway |date=2011-03-25 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Sweden v Moldova&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|SWE}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002058/postmatch/report/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Mikael Lustig|Lustig]] {{goal|30}} &lt;br&gt; [[Sebastian Larsson|Larsson]] {{goal|82}}
+|goals2 = [[Alexandr Suvorov|Suvorov]] {{goal|90+2}}
+|stadium = [[Råsunda Stadium]], [[Solna Municipality|Solna]]
+|attendance = 25,544&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/sweden/moldova/913615/ |title=Sweden vs. Moldova - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Knut Kircher]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Netherlands v Hungary&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score =  5–3 
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002052/postmatch/report/index.html Report]
+|team2 = {{fb|HUN}}
+|goals1 = [[Robin van Persie|Van Persie]] {{goal|13}} &lt;br&gt; [[Wesley Sneijder|Sneijder]] {{goal|61}} &lt;br&gt; [[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|73}} &lt;br&gt; [[Dirk Kuyt|Kuyt]] {{goal|78||81}}
+|goals2 = [[Gergely Rudolf|Rudolf]] {{goal|46}} &lt;br&gt; [[Zoltan Gera|Gera]] {{goal|50||75}}
+|stadium = [[Amsterdam ArenA]], [[Amsterdam]]
+|attendance = 51,774&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/netherlands/hungary/913607/ |title=Netherlands vs. Hungary - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Svein Oddvar Moen]] ([[Football Association of Norway|Norway]]) }}
+----
+&lt;div id=&quot;San Marino v Finland&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SMR}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002077/postmatch/report/index.html Report]
+|team2 = {{fb|FIN}}
+|goals2 = [[Mikael Forssell|Forssell]] {{goal|41}}
+|stadium = [[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle (San Marino)|Serravalle]]
+|attendance = 1,218&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/san-marino/finland/913598/ |title=San Marino vs. Finland - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Andrejs Sipailo]] ([[Latvian Football Federation|Latvia]]) }}
+
+&lt;div id=&quot;Moldova v Sweden&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 1–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002071/postmatch/report/index.html Report]
+|team2 = {{fb|SWE}}
+|goals1 = [[Igor Bugaiov|Bugaiov]] {{goal|61}}
+|goals2 = [[Ola Toivonen|Toivonen]] {{goal|11}} &lt;br /&gt; [[Johan Elmander|Elmander]] {{goal|30||58}} &lt;br /&gt; [[Alexander Gerndt|Gerndt]] {{goal|88}}
+|stadium = [[Zimbru Stadium]], [[Chişinău]]
+|attendance = 10,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/moldova/sweden/913616/ |title=Moldova vs. Sweden - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Andre Marriner]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Sweden v Finland&quot;/&gt;{{footballbox
+|date = 7 June 2011
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|SWE}}
+|score = 5–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002056/postmatch/report/index.html Report]
+|team2 = {{fb|FIN}}
+|goals1 = [[Kim Källström|Källström]] {{goal|12}}&lt;br/&gt;[[Zlatan Ibrahimović|Ibrahimović]] {{goal|31||35||53}}&lt;br/&gt;[[Emir Bajrami|Bajrami]] {{goal|84}}
+|stadium = [[Råsunda Stadium]], [[Solna Municipality|Solna]]
+|attendance = 32,128&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/07/europe/european-championships/sweden/finland/913617/ |title=Sweden vs. Finland - 7 June 2011 |publisher=Soccerway |date=2011-06-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Antony Gautier]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;San Marino v Hungary&quot;/&gt;{{footballbox
+|date = 7 June 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SMR}}
+|score = 0–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002078/postmatch/report/index.html Report]
+|team2 = {{fb|HUN}}
+|goals2 = [[Zoltán Lipták|Lipták]] {{goal|40}} &lt;br /&gt; [[Imre Szabics|Szabics]] {{goal|49}} &lt;br/&gt; [[Vladimir Koman|Koman]] {{goal|83}}
+|stadium = [[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle (San Marino)|Serravalle]]
+|attendance = 1,915&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/07/europe/european-championships/san-marino/hungary/913599/ |title=San Marino vs. Hungary - 7 June 2011 |publisher=Soccerway |date=2011-06-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Pavle Radovanović]] ([[Football Association of Montenegro|Montenegro]]) }}
+----
+&lt;div id=&quot;Finland v Moldova&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 18:30 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}
+|score = 4–1 
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002063/postmatch/report/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Kasper Hämäläinen|Hämäläinen]] {{goal|11||43}} &lt;br&gt; [[Mikael Forssell|Forssell]] {{goal|52|pen.}} &lt;br&gt; [[Igor Armaş|Armaş]] {{goal|71|o.g.}}
+|goals2 = [[Serghei Alexeev|Alexeev]] {{goal|85}}
+|stadium = [[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance = 9,056&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/finland/moldova/913619/ |title=Finland vs. Moldova - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Anastassios Kakos]] ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;Hungary v Sweden&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 19:45 [[UTC+2]]
+|team1 = {{fb-rt|HUN}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002066/postmatch/report/index.html Report]
+|team2 = {{fb|SWE}}
+|goals1 = [[Imre Szabics|Szabics]] {{goal|44}} &lt;br&gt; [[Gergely Rudolf|Rudolf]] {{goal|90}}
+|goals2 = [[Christian Wilhelmsson|Wilhelmsson]] {{goal|60}}
+|stadium = [[Stadium Puskás Ferenc]], [[Budapest]]
+|attendance = 23,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/hungary/sweden/913618/ |title=Hungary vs. Sweden - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Netherlands v San Marino&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 11–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002054/postmatch/report/index.html Report]
+|team2 = {{fb|SMR}}
+|goals1 = [[Robin van Persie|Van Persie]] {{goal|7||65||67||79}}&lt;br/&gt;[[Wesley Sneijder|Sneijder]] {{goal|12||87}}&lt;br/&gt;[[John Heitinga|Heitinga]] {{goal|17}} &lt;br&gt; [[Dirk Kuyt|Kuyt]] {{goal|49}} &lt;br&gt; [[Klaas-Jan Huntelaar|Huntelaar]] {{goal|56||77}} &lt;br&gt; [[Georginio Wijnaldum|Wijnaldum]] {{goal|89}}
+|stadium = [[Philips Stadion]], [[Eindhoven]]
+|attendance = 35,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/netherlands/san-marino/913601/ |title=Netherlands vs. San Marino - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Liran Liany]] ([[Israel Football Association|Israel]]) }}
+----
+&lt;div id=&quot;Finland v Netherlands&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002060/postmatch/report/index.html Report]
+|team2 = {{fb|NED}}
+|goals2 = [[Kevin Strootman|Strootman]] {{goal|29}}&lt;br /&gt;[[Luuk de Jong|L. de Jong]] {{goal|90+3}}
+|stadium = [[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance = 21,580&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/finland/netherlands/913608/ |title=Finland vs. Netherlands - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Manuel Gräfe]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Moldova v Hungary&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:45 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002073/postmatch/report/index.html Report]
+|team2 = {{fb|HUN}}
+|goals2 = [[Vilmos Vanczák|Vanczák]] {{goal|7}} &lt;br&gt; [[Gergely Rudolf|Rudolf]] {{goal|83}}
+|stadium = [[Zimbru Stadium]], [[Chişinău]]
+|attendance = 10,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/moldova/hungary/913620/ |title=Moldova vs. Hungary - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Ivan Bebek]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;San Marino v Sweden&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|SMR}}
+|score = 0–5
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002076/postmatch/report/index.html Report]
+|team2 = {{fb|SWE}}
+|goals2 = [[Kim Källström|Källström]] {{goal|64}}&lt;br /&gt;[[Christian Wilhelmsson|Wilhelmsson]] {{goal|70||90+3}}&lt;br /&gt;[[Martin Olsson|M. Olsson]] {{goal|81}}&lt;br /&gt;[[Tobias Hysén|Hysén]] {{goal|89}}
+|stadium = [[Stadio Olimpico (San Marino)|Stadio Olimpico]], [[Serravalle (San Marino)|Serravalle]]
+|attendance = 2,946&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/san-marino/sweden/913602/ |title=San Marino vs. Sweden - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Steven McLean (referee)|Steven McLean]] ([[Scottish Football Association|Scotland]]) }}
+----
+&lt;div id=&quot;Finland v Sweden&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 19:15 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002061/postmatch/report/index.html Report]
+|team2 = {{fb|SWE}}
+|goals1 = [[Joona Toivio|Toivio]] {{goal|73}}
+|goals2 = [[Sebastian Larsson|Larsson]] {{goal|8}} &lt;br&gt; [[Martin Olsson|M. Olsson]] {{goal|52}}
+|stadium = [[Helsinki Olympic Stadium|Olympic Stadium]], [[Helsinki]]
+|attendance = 23,257&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/finland/sweden/913621/ |title=Finland vs. Sweden - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Mark Clattenburg]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Netherlands v Moldova&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|NED}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002053/postmatch/report/index.html Report]
+|team2 = {{fb|MDA}}
+|goals1 = [[Klaas-Jan Huntelaar|Huntelaar]] {{goal|40}}
+|goals2 = 
+|stadium = [[Stadion Feijenoord|De Kuip]], [[Rotterdam]]
+|attendance = 47,226&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/netherlands/moldova/913609/ |title=Netherlands vs. Moldova - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Matej Jug]] ([[Football Association of Slovenia|Slovenia]]) }}
+----
+&lt;div id=&quot;Hungary v Finland&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|HUN}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002067/postmatch/report/index.html Report]
+|team2 = {{fb|FIN}}
+|goals1 = 
+|goals2 = 
+|stadium = [[Stadium Puskás Ferenc]], [[Budapest]]
+|attendance = 25,169&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/hungary/finland/913622/ |title=Hungary vs. Finland - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alberto Undiano Mallenco]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Moldova v San Marino&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|MDA}}
+|score = 4–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002074/postmatch/report/index.html Report]
+|team2 = {{fb|SMR}}
+|goals1 = [[Denis Zmeu|Zmeu]] {{goal|30}}&lt;br&gt;[[Simone Bacciocchi|Bacciocchi]] {{goal|61|o.g.}}&lt;br&gt;[[Alexandr Suvorov|Suvorov]] {{goal|66}}&lt;br&gt;[[Gheorghe Andronic|Andronic]] {{goal|87}}
+|goals2 = 
+|stadium = [[Zimbru Stadium]], [[Chişinău]]
+|attendance = 6,534&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/moldova/san-marino/913600/ |title=Moldova vs. San Marino - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Petur Reinert]] ([[Faroe Islands Football Association|Faroe Islands]]) }}
+
+&lt;div id=&quot;Sweden v Netherlands&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SWE}}
+|score = 3–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002055/postmatch/report/index.html Report]
+|team2 = {{fb|NED}}
+|goals1 = [[Kim Källström|Källström]] {{goal|14}} &lt;br&gt; [[Sebastian Larsson|Larsson]] {{goal|52|pen.}} &lt;br&gt; [[Ola Toivonen|Toivonen]] {{goal|53}}
+|goals2 = [[Klaas-Jan Huntelaar|Huntelaar]] {{goal|23}} &lt;br&gt; [[Dirk Kuyt|Kuyt]] {{goal|50}}
+|stadium = [[Råsunda Stadium]], [[Solna Municipality|Solna]]
+|attendance = 33,066&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/sweden/netherlands/913610/ |title=Sweden vs. Netherlands - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Cüneyt Çakır]] ([[Turkish Football Federation|Turkey]]) }}
+
+==Goalscorers==
+;12 goals
+* {{flagicon|NED}} [[Klaas-Jan Huntelaar]]
+
+;7 goals
+* {{flagicon|FIN}} [[Mikael Forssell]]
+
+;6 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|HUN}} [[Gergely Rudolf]]
+{{Col-3}}
+* {{flagicon|NED}} [[Dirk Kuyt]]
+{{Col-3}}
+* {{flagicon|NED}} [[Robin van Persie]]
+{{Col-end}}
+
+;5 goals
+* {{flagicon|SWE}} [[Zlatan Ibrahimović]]
+
+;4 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|FIN}} [[Kasper Hämäläinen]]
+{{Col-3}}
+* {{flagicon|HUN}} [[Ádám Szalai]]
+{{Col-3}}
+* {{flagicon|MDA}} [[Alexandr Suvorov]]
+{{Col-end}}
+
+;3 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|HUN}} [[Zoltán Gera]]
+* {{flagicon|HUN}} [[Vladimir Koman]]
+* {{flagicon|NED}} [[Ibrahim Afellay]]
+{{Col-3}}
+* {{flagicon|NED}} [[Wesley Sneijder]]
+* {{flagicon|SWE}} [[Kim Källström]]
+{{Col-3}}
+* {{flagicon|SWE}} [[Sebastian Larsson]]
+* {{flagicon|SWE}} [[Christian Wilhelmsson]]
+{{Col-end}}
+
+;2 goals
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|HUN}} [[Balázs Dzsudzsák]]
+* {{flagicon|HUN}} [[Imre Szabics]]
+* {{flagicon|MDA}} [[Anatolie Doroş]]
+{{Col-3}}
+* {{flagicon|NED}} [[Ruud van Nistelrooy]]
+* {{flagicon|SWE}} [[Johan Elmander]]
+* {{flagicon|SWE}} [[Andreas Granqvist]]
+{{Col-3}}
+* {{flagicon|SWE}} [[Martin Olsson]]
+* {{flagicon|SWE}} [[Ola Toivonen]]
+* {{flagicon|SWE}} [[Pontus Wernbloom]]
+{{Col-end}}
+
+;1 goal
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|FIN}} [[Jari Litmanen]]  
+* {{flagicon|FIN}} [[Roni Porokara]] 
+* {{flagicon|FIN}} [[Joona Toivio]]
+* {{flagicon|FIN}} [[Mika Väyrynen]]
+* {{flagicon|HUN}} [[Zoltán Lipták]]
+* {{flagicon|HUN}} [[Vilmos Vanczák]]
+* {{flagicon|MDA}} [[Serghei Alexeev]]
+{{Col-3}}
+* {{flagicon|MDA}} [[Gheorghe Andronic]]
+* {{flagicon|MDA}} [[Igor Bugaiov]]
+* {{flagicon|MDA}} [[Nicolae Josan]]
+* {{flagicon|MDA}} [[Denis Zmeu]]
+* {{flagicon|NED}} [[Luuk de Jong]]
+* {{flagicon|NED}} [[John Heitinga]]
+* {{flagicon|NED}} [[Kevin Strootman]]
+{{Col-3}}
+* {{flagicon|NED}} [[Rafael van der Vaart]]
+* {{flagicon|NED}} [[Georginio Wijnaldum]]
+* {{flagicon|SWE}} [[Emir Bajrami]]
+* {{flagicon|SWE}} [[Marcus Berg]]
+* {{flagicon|SWE}} [[Alexander Gerndt]]
+* {{flagicon|SWE}} [[Tobias Hysén]]
+* {{flagicon|SWE}} [[Mikael Lustig]]
+{{Col-end}}
+
+;1 own goal
+{{Col-begin}}
+{{Col-3}}
+* {{flagicon|MDA}} [[Igor Armaş]] (playing against Finland)
+* {{flagicon|SMR}} [[Simone Bacciocchi]] (playing against Moldova)
+{{Col-3}}
+* {{flagicon|SMR}} [[Aldo Simoncini]] (playing against Sweden)
+{{Col-3}}
+* {{flagicon|SMR}} [[Davide Simoncini]] (playing against Sweden)
+{{Col-end}}
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|FIN}} || style=&quot;text-align:center;&quot;| 23,257 || style=&quot;text-align:center;&quot;| 8,192 || style=&quot;text-align:center;&quot;| 80,617 || style=&quot;text-align:center;&quot;| '''16,123'''
+|-
+| {{fb|HUN}} || style=&quot;text-align:center;&quot;| 25,169 || style=&quot;text-align:center;&quot;| 9,209 || style=&quot;text-align:center;&quot;| 92,291 || style=&quot;text-align:center;&quot;| '''18,458'''
+|-
+| {{fb|MDA}} || style=&quot;text-align:center;&quot;| 10,500 || style=&quot;text-align:center;&quot;| 6,534 || style=&quot;text-align:center;&quot;| 48,334 || style=&quot;text-align:center;&quot;| '''9,667'''
+|-
+| {{fb|NED}} || style=&quot;text-align:center;&quot;| 51,774 || style=&quot;text-align:center;&quot;| 25,000 || style=&quot;text-align:center;&quot;| 205,000 || style=&quot;text-align:center;&quot;| '''41,000'''
+|-
+| {{fb|SMR}} || style=&quot;text-align:center;&quot;| 4,127 || style=&quot;text-align:center;&quot;| 714 || style=&quot;text-align:center;&quot;| 10,920 || style=&quot;text-align:center;&quot;| '''2,184'''
+|-
+| {{fb|SWE}} || style=&quot;text-align:center;&quot;| 33,066|| style=&quot;text-align:center;&quot;| 21,083 || style=&quot;text-align:center;&quot;| 144,125 || style=&quot;text-align:center;&quot;| '''28,825'''
+|}
+
+== Discipline ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! {{yel}}
+! {{sent off}}
+! Suspended for match(es)
+! Reason
+|-
+| DF || [[Davide Simoncini]] ||align-&quot;left&quot;| {{fb|SMR}} || 4 || 1 || vs Sweden (6 September 2011)&lt;br /&gt;vs Moldova (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches&lt;br /&gt;Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| FW || [[Përparim Hetemaj]] ||align=&quot;left&quot;| {{fb|FIN}} || 3 || 1 || vs Sweden (7 October 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| FW || [[Carlo Valentini]] ||align=&quot;left&quot;| {{fb|SMR}} || 2 || 1 || vs Moldova (12 October 2010) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| MF || [[Igor Tîgîrlaş]] || style=&quot;text-align:left;&quot;| {{fb|MDA}} || 1 || 1 || TBD || Sent off in [[UEFA Euro 2012 qualifying]] match
+|-
+| DF ||  [[Sami Hyypiä]] || style=&quot;text-align:left;&quot;| {{fb|FIN}} || 0 || 1 || vs Netherlands (7 September 2010) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| DF || [[Olof Mellberg]] ||align=&quot;left&quot;| {{fb|SWE}} || 0 || 1 || vs Netherlands (12 October 2010)&lt;br&gt;vs Moldova (29 March 2011) || Sent off in a [[UEFA Euro 2012 qualifying]] match
+|-
+| DF || [[Zoltán Lipták]] || style=&quot;text-align:left;&quot;| {{fb|HUN}} || 5 || 0 || vs San Marino (8 October 2010)&lt;br&gt;vs Netherlands (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Roland Juhász]] || style=&quot;text-align:left;&quot;| {{fb|HUN}} || 4 || 0 || vs Sweden (2 September 2011)&lt;br /&gt;vs Finland (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Alessandro Della Valle]] || style=&quot;text-align:left;&quot;| {{fb|SMR}} || 4 || 0 || vs Moldova (12 October 2010)&lt;br&gt;vs Netherlands (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Pál Lázár]] || style=&quot;text-align:left;&quot;| {{fb|HUN}} || 3 || 0 || vs San Marino (8 October 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Simone Bacciocchi]] ||align=&quot;left&quot;| {{fb|SMR}} || 3 || 0 || vs Finland (17 November 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Maicol Berretti]] || style=&quot;text-align:left;&quot;| {{fb|SMR}} || 3 || 0 || vs Netherlands (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Fabio Vitaioli]] ||align=&quot;left&quot;| {{fb|SMR}} || 3 || 0 || vs Finland (17 November 2010) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Ákos Elek]] || style=&quot;text-align:left;&quot;| {{fb|HUN}} || 2 || 0 || vs Netherlands (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Zsolt Laczkó]] ||align=&quot;left&quot;| {{fb|HUN}} || 2 || 0 || vs Finland (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Vilmos Vanczák]] || style=&quot;text-align:left;&quot;| {{fb|HUN}} || 2 || 0 || vs Sweden (2 September 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| DF || [[Davide Simoncini]] ||align=&quot;left&quot;| {{fb|SMR}} || 2 || 0 || vs Hungary (7 June 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Matteo Vitaioli]] || style=&quot;text-align:left;&quot;| {{fb|SMR}} || 2 || 0 ||TBD || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Zlatan Ibrahimović]] ||align=&quot;left&quot;| {{fb|SWE}} || 2 || 0 || vs Netherlands (11 October 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|-
+| FW || [[Ola Toivonen]] ||align=&quot;left&quot;| {{fb|SWE}} || 2 || 0 || vs Moldova (29 March 2011) || Booked in 2 [[UEFA Euro 2012 qualifying]] matches
+|}
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group E]]
+[[Category:2010 in Swedish football]]
+[[Category:2011 in Swedish football]]
+[[Category:2010–11 in San Marino football]]
+[[Category:2011–12 in San Marino football]]
+[[Category:2011–12 in Moldovan football]]
+[[Category:2010–11 in Moldovan football]]
+[[Category:2010–11 in Dutch football]]
+[[Category:Netherlands at UEFA Euro 2012|Qual]]
+[[Category:2010–11 in Hungarian football]]
+[[Category:2011–12 in Hungarian football]]
+[[Category:2010 in Finnish football]]
+[[Category:2011 in Finnish football]]</text>
+      <sha1>6iz4855d0v89rv38n2xpnjqu8nv1jpm</sha1>
+    </revision>
+  </page>
+</mediawiki>

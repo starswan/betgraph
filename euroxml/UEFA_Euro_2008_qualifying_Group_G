@@ -1,0 +1,721 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group G</title>
+    <ns>0</ns>
+    <id>6885915</id>
+    <revision>
+      <id>723292313</id>
+      <parentid>684911887</parentid>
+      <timestamp>2016-06-02T05:34:43Z</timestamp>
+      <contributor>
+        <username>Chobot</username>
+        <id>259798</id>
+      </contributor>
+      <minor/>
+      <comment>Bot: Automated text replacement  (-Category:UEFA Euro 2004 qualifying +Category:UEFA Euro 2008 qualifying); cosmetic changes</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="25470">Standings and results for '''Group G''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+== Standings ==
+'''Key''':
+* Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]].
+
+{{UEFA Euro 2008 qualifying Group G
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes
+}}
+
+Notes on the qualified teams:
+* Romania secured qualification to the tournament proper on 17 October 2007 following a 2–0 win against Luxembourg, and a 1–1 draw between Albania and Bulgaria, becoming the fourth team in the whole of the qualification stage to do so.
+* Netherlands secured qualification to the tournament proper on 17 November 2007 following a 1–0 win against Luxembourg, becoming the ninth team in the whole of the qualification stage to do so.
+
+== Matches ==
+'''Group G''' fixtures were negotiated at a meeting between the participants in [[Amsterdam]], [[Netherlands]] on 16 February 2006.
+
+----
+&lt;div id=&quot;Belarus v Albania&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|BLR|1995}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83663/index.html Report]
+|team2={{fb|ALB}}
+|goals1=[[Timofei Kalachev|Kalachev]] {{goal|2}}&lt;br /&gt;[[Maxim Romaschenko|Romaschenko]] {{goal|24}}
+|goals2=[[Ervin Skela|Skela]] {{goal|7|pen.}}&lt;br /&gt;[[Besnik Hasi|Hasi]] {{goal|86}}
+|stadium=[[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]]
+|attendance=23,000
+|referee=[[Tony Asumaa]]  ([[Football Association of Finland|Finland]]) }}
+
+&lt;div id=&quot;Romania v Bulgaria&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|ROU}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83662/index.html Report]
+|team2={{fb|BUL}}
+|goals1=[[Laurenţiu Roşu|Roşu]] {{goal|40}}&lt;br /&gt;[[Ciprian Marica|Marica]] {{goal|54}}
+|goals2=[[Martin Petrov|M. Petrov]] {{goal|82||84}}
+|stadium=[[Gheorghe Hagi Stadium]], [[Constanţa]]
+|attendance=15,000
+|referee=[[Stefano Farina]] ([[Federazione Italiana Giuoco Calcio|Italy]]) }}
+
+&lt;div id=&quot;Luxembourg v Netherlands&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|LUX}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83664/index.html Report]
+|team2={{fb|NED}}
+|goals1=
+|goals2=[[Joris Mathijsen|Mathijsen]] {{goal|26}}
+|stadium=[[Stade Josy Barthel]], [[Luxembourg (city)|Luxembourg]]
+|attendance=8,000
+|referee=[[João Ferreira (referee)|João Ferreira]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;Bulgaria v Slovenia&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:00 [[UTC+3]]
+|team1={{fb-rt|BUL}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83667/index.html Report]
+|team2={{fb|SVN}}
+|goals1=[[Valeri Bojinov|Bojinov]] {{goal|58}}&lt;br /&gt;[[Martin Petrov|M. Petrov]] {{goal|70}}&lt;br /&gt;[[Dimitar Telkiyski|Telkiyski]] {{goal|79}}
+|goals2=
+|stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+|attendance=16,000
+|referee=[[Claus Bo Larsen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Albania v Romania&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|ALB}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83666/index.html Report]
+|team2={{fb|ROU}}
+|goals1=
+|goals2=[[Nicolae Dică|Dică]] {{goal|65}}&lt;br /&gt;[[Adrian Mutu|Mutu]] {{goal|75|pen.}}
+|stadium=[[Qemal Stafa (stadium)|Qemal Stafa]], [[Tirana]]
+|attendance=10,000
+|referee=[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Netherlands v Belarus&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|NED}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83665/index.html Report]
+|team2={{fb|BLR|1995}}
+|goals1=[[Robin van Persie|Van Persie]] {{goal|33||78}}&lt;br /&gt;[[Dirk Kuyt|Kuyt]] {{goal|90+2}}
+|goals2=
+|stadium=[[Philips Stadion]], [[Eindhoven]]
+|attendance=35,000
+|referee=[[Howard Webb]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Romania v Belarus&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=20:15 [[UTC+3]]
+|team1={{fb-rt|ROU}}
+|score=3–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83668/index.html Report]
+|team2={{fb|BLR|1995}}
+|goals1=[[Adrian Mutu|Mutu]] {{goal|7}}&lt;br /&gt;[[Ciprian Marica|Marica]] {{goal|10}}&lt;br /&gt;[[Dorin Goian|Goian]] {{goal|76}}
+|goals2=[[Sergei Kornilenko|Kornilenko]] {{goal|20}}
+|stadium=[[Ghencea Stadium]], [[Bucharest]]
+|attendance=12,000
+|referee=[[Alberto Undiano Mallenco]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Bulgaria v Netherlands&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|BUL}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83669/index.html Report]
+|team2={{fb|NED}}
+|goals1=[[Martin Petrov|M. Petrov]] {{goal|12}}
+|goals2=[[Robin van Persie|Van Persie]] {{goal|62}}
+|stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+|attendance=40,547
+|referee=[[Tom Henning Øvrebø]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Slovenia v Luxembourg&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|SVN}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83670/index.html Report]
+|team2={{fb|LUX}}
+|goals1=[[Milivoje Novaković|Novaković]] {{goal|30}}&lt;br /&gt;[[Robert Koren|Koren]] {{goal|44}}
+|goals2=
+|stadium=[[Arena Petrol]], [[Celje]]
+|attendance=3,500
+|referee=[[Panicos Kailis]] ([[Cyprus Football Association|Cyprus]]) }}
+----
+&lt;div id=&quot;Belarus v Slovenia&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=18:00 [[UTC+3]]
+|team1={{fb-rt|BLR|1995}}
+|score=4–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83671/index.html Report]
+|team2={{fb|SVN}}
+|goals1=[[Denis Kovba|Kovba]] {{goal|18}}&lt;br /&gt;[[Sergei Kornilenko|Kornilenko]] {{goal|52||60}}&lt;br /&gt;[[Vladimir Korytko|Korytko]] {{goal|85}}
+|goals2=[[Boštjan Cesar|Cesar]] {{goal|19}}&lt;br /&gt;[[Klemen Lavrič|Lavrič]] {{goal|43}}
+|stadium=[[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]]
+|attendance=23,000
+|referee=[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Luxembourg v Bulgaria&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|LUX}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83672/index.html Report]
+|team2={{fb|BUL}}
+|goals1=
+|goals2=[[Aleksandar Tunchev|Tunchev]] {{goal|26}}
+|stadium=[[Stade Josy Barthel]], [[Luxembourg (city)|Luxembourg]]
+|attendance=3,156
+|referee=[[Novo Panic]] ([[Football Association of Bosnia and Herzegovina|Bosnia and Herzegovina]]) }}
+
+&lt;div id=&quot;Netherlands v Albania&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|NED}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83673/index.html Report]
+|team2={{fb|ALB}}
+|goals1=[[Robin van Persie|Van Persie]] {{goal|15}}&lt;br /&gt;[[Arjan Beqaj|Beqaj]] {{goal|42|o.g.}}
+|goals2=[[Debatik Curri|Curri]] {{goal|67}}
+|stadium=[[Amsterdam ArenA]], [[Amsterdam]]
+|attendance=40,000
+|referee=[[Alon Yefet]] ([[Israel Football Association|Israel]]) }}
+----
+&lt;div id=&quot;Luxembourg v Belarus&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|LUX}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83675/index.html Report]
+|team2={{fb|BLR|1995}}
+|goals1=[[Chris Sagramola|Sagramola]] {{goal|68}}
+|goals2=[[Timofei Kalachev|Kalachev]] {{goal|25}}&lt;br /&gt;[[Vitali Kutuzov|Kutuzov]] {{goal|54}}
+|stadium=[[Stade Josy Barthel]], [[Luxembourg (city)|Luxembourg]]
+|attendance=2,000
+|referee=[[Mark Steven Whitby]] ([[Football Association of Wales|Wales]]) }}
+
+&lt;div id=&quot;Albania v Slovenia&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=17:00 [[UTC+1]]
+|team1={{fb-rt|ALB}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83676/index.html Report]
+|team2={{fb|SVN}}
+|goals1=
+|goals2=
+|stadium=[[Loro-Boriçi Stadium]], [[Shkodër]]
+|attendance=12,000
+|referee=[[Joseph Attard]] ([[Malta Football Association|Malta]]) }}
+
+&lt;div id=&quot;Netherlands v Romania&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=20:30 [[UTC+1]]
+|team1={{fb-rt|NED}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83674/index.html Report]
+|team2={{fb|ROU}}
+|goals1=
+|goals2=
+|stadium=[[Feijenoord Stadion]], [[Rotterdam]]
+|attendance=49,000
+|referee=[[Marcus Merk]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Bulgaria v Albania&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=18:00 [[UTC+3]]
+|team1={{fb-rt|BUL}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83679/index.html Report]
+|team2={{fb|ALB}}
+|goals1=
+|goals2=
+|stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+|attendance=25,000
+|referee=[[Jonas Eriksson (referee)|Jonas Eriksson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Romania v Luxembourg&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=18:30 [[UTC+3]]
+|team1={{fb-rt|ROU}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83677/index.html Report]
+|team2={{fb|LUX}}
+|goals1=[[Adrian Mutu|Mutu]] {{goal|26}}&lt;br /&gt;[[Cosmin Contra|Contra]] {{goal|56}}&lt;br /&gt;[[Ciprian Marica|Marica]] {{goal|90}}
+|goals2=
+|stadium=[[Ceahlăul Stadium]], [[Piatra Neamţ]]
+|attendance=12,000
+|referee=[[Romans Lajuks]] ([[Latvian Football Federation|Latvia]]) }}
+
+&lt;div id=&quot;Slovenia v Netherlands&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|SVN}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83678/index.html Report]
+|team2={{fb|NED}}
+|goals1=
+|goals2=[[Giovanni van Bronckhorst|Van Bronckhorst]] {{goal|86}}
+|stadium=[[Arena Petrol]], [[Celje]]
+|attendance=9,500
+|referee=[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Albania v Luxembourg&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|ALB}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83680/index.html Report]
+|team2={{fb|LUX}}
+|goals1=[[Edmond Kapllani|Kapllani]] {{goal|38}}&lt;br /&gt;[[Altin Haxhi|Haxhi]] {{goal|57}}
+|goals2=
+|stadium=[[Qemal Stafa (stadium)|Qemal Stafa]], [[Tirana]]
+|attendance=8,000
+|referee=[[Lasha Silagava]] ([[Georgian Football Federation|Georgia]]) }}
+
+&lt;div id=&quot;Slovenia v Romania&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|SVN}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83682/index.html Report]
+|team2={{fb|ROU}}
+|goals1=[[Dare Vršič|Vršič]] {{goal|90+4}}
+|goals2=[[Gabriel Tamaş|Tamaş]] {{goal|52}}&lt;br /&gt;[[Bănel Nicoliţă|Nicoliţă]] {{goal|69}}
+|stadium=[[Arena Petrol]], [[Celje]]
+|attendance=6,000
+|referee=[[Stuart Dougal]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Belarus v Bulgaria&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|BLR|1995}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83681/index.html Report]
+|team2={{fb|BUL}}
+|goals1=
+|goals2=[[Dimitar Berbatov|Berbatov]] {{goal|28||46}}
+|stadium=[[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]]
+|attendance=29,000
+|referee=[[Jaroslav Jára]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+----
+&lt;div id=&quot;Bulgaria v Belarus&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:00 [[UTC+3]]
+|team1={{fb-rt|BUL}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83684/index.html Report]
+|team2={{fb|BLR|1995}}
+|goals1=[[Martin Petrov|M. Petrov]] {{goal|10}}&lt;br /&gt;[[Chavdar Yankov|Yankov]] {{goal|40}}
+|goals2=[[Raman Vasilyuk|Vasilyuk]] {{goal|5|pen.}}
+|stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+|attendance=10,227
+|referee=[[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]]) }}
+
+&lt;div id=&quot;Luxembourg v Albania&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|LUX}}
+|score=0–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83683/index.html Report]
+|team2={{fb|ALB}}
+|goals1=
+|goals2=[[Ervin Skela|Skela]] {{goal|25}}&lt;br /&gt;[[Edmond Kapllani|Kapllani]] {{goal|36||72}}
+|stadium=[[Stade Josy Barthel]], [[Luxembourg (city)|Luxembourg]]
+|attendance=4,325
+|referee=[[Paulius Malzinskas]] ([[Lithuanian Football Federation|Lithuania]]) }}
+
+&lt;div id=&quot;Romania v Slovenia&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|ROU}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83685/index.html Report]
+|team2={{fb|SVN}}
+|goals1=[[Adrian Mutu|Mutu]] {{goal|40}}&lt;br /&gt;[[Cosmin Contra|Contra]] {{goal|70}}
+|goals2=
+|stadium=[[Stadionul Dan Păltinişanu|Dan Păltinişanu]], [[Timişoara]]
+|attendance=22,000
+|referee=[[Alon Yefet]] ([[Israel Football Association|Israel]]) }}
+----
+&lt;div id=&quot;Luxembourg v Slovenia&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=17:00 [[UTC+2]]
+|team1={{fb-rt|LUX}}
+|score=0–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83688/index.html Report]
+|team2={{fb|SVN}}
+|goals1=
+|goals2=[[Klemen Lavrič|Lavrič]] {{goal|7||47}}&lt;br /&gt;[[Milivoje Novaković|Novaković]] {{goal|37}}
+|stadium=[[Stade Josy Barthel]], [[Luxembourg (city)|Luxembourg]]
+|attendance=2,012
+|referee=[[Sergiy Berezka]] ([[Football Federation of Ukraine|Ukraine]]) }}
+
+&lt;div id=&quot;Belarus v Romania&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|BLR|1995}}
+|score=1–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83686/index.html Report]
+|team2={{fb|ROU}}
+|goals1=[[Maxim Romaschenko|Romaschenko]] {{goal|20}}
+|goals2=[[Adrian Mutu|Mutu]] {{goal|16||77|pen.}}&lt;br /&gt;[[Nicolae Dică|Dică]] {{goal|42}}
+|stadium=[[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]]
+|attendance=19,320
+|referee=[[Peter Fröjdfeldt]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Netherlands v Bulgaria&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|NED}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83687/index.html Report]
+|team2={{fb|BUL}}
+|goals1=[[Wesley Sneijder|Sneijder]] {{goal|23}}&lt;br /&gt;[[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|58}}
+|goals2=
+|stadium=[[Amsterdam ArenA]], [[Amsterdam]]
+|attendance=50,000
+|referee=[[Luis Medina Cantalejo]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Bulgaria v Luxembourg&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:30 [[UTC+3]]
+|team1={{fb-rt|BUL}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83690/index.html Report]
+|team2={{fb|LUX}}
+|goals1=[[Dimitar Berbatov|Berbatov]] {{goal|27||28}}&lt;br /&gt;[[Martin Petrov|M. Petrov]] {{goal|54|pen.}}
+|goals2=
+|stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+|attendance=8,000
+|referee=[[Bülent Demirlek]] ([[Turkish Football Federation|Turkey]]) }}
+
+&lt;div id=&quot;Slovenia v Belarus&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=19:45 [[UTC+2]]
+|team1={{fb-rt|SVN}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83689/index.html Report]
+|team2={{fb|BLR|1995}}
+|goals1=[[Klemen Lavrič|Lavrič]] {{goal|3|pen.}}
+|goals2=
+|stadium=[[Arena Petrol]], [[Celje]]
+|attendance=4,000
+|referee=[[Veaceslav Banari]] ([[Football Association of Moldova|Moldova]]) }}
+
+&lt;div id=&quot;Albania v Netherlands&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|ALB}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83691/index.html Report]
+|team2={{fb|NED}}
+|goals1=
+|goals2=[[Ruud van Nistelrooy|Van Nistelrooy]] {{goal|90+1}}
+|stadium=[[Qemal Stafa (stadium)|Qemal Stafa]], [[Tirana]]
+|attendance=19,600
+|referee=[[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Belarus v Luxembourg&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=18:00 [[UTC+3]]
+|team1={{fb-rt|BLR|1995}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83693/index.html Report]
+|team2={{fb|LUX}}
+|goals1=
+|goals2=[[Alphonse Leweck|Leweck]] {{goal|90+5}}
+|stadium=[[Central Stadion]], [[Gomel]]
+|attendance=14,000
+|referee=[[Michael Svendsen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Romania v Netherlands&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=20:15 [[UTC+3]]
+|team1={{fb-rt|ROU}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83692/index.html Report]
+|team2={{fb|NED}}
+|goals1=[[Dorin Goian|Goian]] {{goal|71}}
+|goals2=
+|stadium=[[Gheorghe Hagi Stadium]], [[Constanţa]]
+|attendance=13,000
+|referee=[[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;Slovenia v Albania&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|SVN}}
+|score=0–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83694/index.html Report]
+|team2={{fb|ALB}}
+|goals1=
+|goals2=
+|stadium=[[Arena Petrol]], [[Celje]]
+|attendance=4,625
+|referee=[[Duarte Nuno Pereira Gomes]] ([[Portuguese Football Federation|Portugal]]) }}
+----
+&lt;div id=&quot;Luxembourg v Romania&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|LUX}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83695/index.html Report]
+|team2={{fb|ROU}}
+|goals1=
+|goals2=[[Florentin Petre|F. Petre]] {{goal|42}}&lt;br /&gt;[[Ciprian Marica|Marica]] {{goal|61}}
+|stadium=[[Stade Josy Barthel]], [[Luxembourg (city)|Luxembourg]]
+|attendance=3,584
+|referee=[[Felix Brych]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Netherlands v Slovenia&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|NED}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83696/index.html Report]
+|team2={{fb|SVN}}
+|goals1=[[Wesley Sneijder|Sneijder]] {{goal|14}}&lt;br /&gt;[[Klaas-Jan Huntelaar|Huntelaar]] {{goal|88}}
+|goals2=
+|stadium=[[Philips Stadion]], [[Eindhoven]]
+|attendance=35,000
+|referee=[[Nicola Rizzoli]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Albania v Bulgaria&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:45 [[UTC+2]]
+|team1={{fb-rt|ALB}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83697/index.html Report]
+|team2={{fb|BUL}}
+|goals1=[[Radostin Kishishev|Kishishev]] {{goal|32|o.g.}}
+|goals2=[[Dimitar Berbatov|Berbatov]] {{goal|87}}
+|stadium=[[Qemal Stafa (stadium)|Qemal Stafa]], [[Tirana]]
+|attendance=8,000
+|referee=[[Fritz Stuchlik]] ([[Austrian Football Association|Austria]]) }}
+----
+&lt;div id=&quot;Bulgaria v Romania&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=18:00 [[UTC+2]]
+|team1={{fb-rt|BUL}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83698/index.html Report]
+|team2={{fb|ROU}}
+|goals1=[[Velizar Dimitrov|Dimitrov]] {{goal|6}}
+|goals2=
+|stadium=[[Vasil Levski National Stadium]], [[Sofia]]
+|attendance=15,000
+|referee=[[Konrad Plautz]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Albania v Belarus&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|ALB}}
+|score=2–4
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83699/index.html Report]
+|team2={{fb|BLR|1995}}
+|goals1=[[Erion Bogdani|Bogdani]] {{goal|39}}&lt;br /&gt;[[Edmond Kapllani|Kapllani]] {{goal|43}}
+|goals2=[[Maksim Romaschenko|Romaschenko]] {{goal|28||63|pen.}}&lt;br /&gt;[[Vitali Kutuzov|Kutuzov]] {{goal|45+1||54}}
+|stadium=[[Qemal Stafa (stadium)|Qemal Stafa]], [[Tirana]]
+|attendance=5,000
+|referee=[[Bülent Demirlek]] ([[Turkish Football Association|Turkey]]) }}
+
+&lt;div id=&quot;Netherlands v Luxembourg&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=20:30 [[UTC+1]]
+|team1={{fb-rt|NED}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83700/index.html Report]
+|team2={{fb|LUX}}
+|goals1=[[Danny Koevermans|Koevermans]] {{goal|43}}
+|goals2=
+|stadium=[[Feijenoord Stadion]], [[Rotterdam]]
+|attendance=49,000
+|referee=[[Martin Hansson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Romania v Albania&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=18:00 [[UTC+2]]
+|team1={{fb-rt|ROU}}
+|score=6–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83702/index.html Report]
+|team2={{fb|ALB}}
+|goals1=[[Nicolae Dică|Dică]] {{goal|22||71|pen.}}&lt;br /&gt;[[Gabriel Tamaş|Tamaş]] {{goal|53}}&lt;br /&gt;[[Daniel Niculae|Niculae]] {{goal|62||65}}&lt;br /&gt;[[Ciprian Marica|Marica]] {{goal|69|pen.}}
+|goals2=[[Edmond Kapllani|Kapllani]] {{goal|64}}
+|stadium=[[Stadionul Naţional (1953)|Lia Manoliu Stadium]], [[Bucharest]]
+|attendance=25,000
+|referee=[[Edo Trivkovic]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;Belarus v Netherlands&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|BLR|1995}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83701/index.html Report]
+|team2={{fb|NED}}
+|goals1=[[Vital Bulyha|Bulyha]] {{goal|49}}&lt;br /&gt;[[Vladimir Korytko|Korytko]] {{goal|65}}
+|goals2=[[Rafael van der Vaart|Van der Vaart]] {{goal|88}}
+|stadium=[[Dinamo Stadium (Minsk)|Dinamo Stadium]], [[Minsk]]
+|attendance=12,000
+|referee=[[Philippe Kalt]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Slovenia v Bulgaria&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=18:00 [[UTC+1]]
+|team1={{fb-rt|SVN}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83703/index.html Report]
+|team2={{fb|BUL}}
+|goals1=
+|goals2=[[Blagoy Georgiev|Georgiev]] {{goal|81}}&lt;br /&gt;[[Dimitar Berbatov|Berbatov]] {{goal|84}}
+|stadium=[[Arena Petrol]], [[Celje]]
+|attendance=4,000
+|referee=[[Mike Mullarkey]] ([[The Football Association|England]]) }}
+
+== Goalscorers ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| rowspan=&quot;3&quot;|1
+| align=&quot;left&quot;| [[Adrian Mutu]]
+| align=&quot;left&quot;| {{fb|ROU}}
+| rowspan=&quot;3&quot;|6
+|-
+| align=&quot;left&quot;| [[Dimitar Berbatov]]
+| align=&quot;left&quot;| {{fb|BUL}}
+|-
+| align=&quot;left&quot;| [[Martin Petrov]]
+| align=&quot;left&quot;| {{fb|BUL}}
+|-
+| rowspan=&quot;2&quot;|4
+| align=&quot;left&quot;| [[Edmond Kapllani]]
+| align=&quot;left&quot;| {{fb|ALB}}
+| rowspan=&quot;2&quot;|5
+|-
+| align=&quot;left&quot;| [[Ciprian Marica]]
+| align=&quot;left&quot;| {{fb|ROU}}
+|-
+| rowspan=&quot;4&quot;|6
+| align=&quot;left&quot;| [[Nicolae Dică]]
+| align=&quot;left&quot;| {{fb|ROU}}
+| rowspan=&quot;4&quot;|4
+|-
+| align=&quot;left&quot;| [[Klemen Lavrič]]
+| align=&quot;left&quot;| {{fb|SVN}}
+|-
+| align=&quot;left&quot;| [[Maxim Romaschenko]]
+| align=&quot;left&quot;| {{fb|BLR|1995}}
+|-
+| align=&quot;left&quot;| [[Robin van Persie]]
+| align=&quot;left&quot;| {{fb|NED}}
+|-
+| rowspan=&quot;2&quot;|10
+| align=&quot;left&quot;| [[Sergei Kornilenko]]
+| align=&quot;left&quot;| {{fb|BLR|1995}}
+| rowspan=&quot;2&quot;|3
+|-
+| align=&quot;left&quot;| [[Vitali Kutuzov]]
+| align=&quot;left&quot;| {{fb|BLR|1995}}
+|}
+
+;2 goals
+* '''{{fb|ALB}}:''' [[Ervin Skela]]
+* '''{{fb|BLR|1995}}:''' [[Timofei Kalachev]], [[Vladimir Korytko]]
+* '''{{fb|NED}}:''' [[Wesley Sneijder]], [[Ruud van Nistelrooy]]
+* '''{{fb|ROU}}:''' [[Cosmin Contra]], [[Dorin Goian]], [[Daniel Niculae]], [[Gabriel Tamaş]]
+* '''{{fb|SVN}}:''' [[Milivoje Novakovič]]
+;1 goal
+* '''{{fb|ALB}}:''' [[Erjon Bogdani]], [[Debatik Curri]], [[Besnik Hasi]], [[Altin Haxhi]]
+* '''{{fb|BLR|1995}}:''' [[Vital Bulyha]], [[Denis Kovba]], [[Raman Vasilyuk]]
+* '''{{fb|BUL}}:''' [[Valeri Bojinov]], [[Velizar Dimitrov]], [[Blagoy Georgiev]], [[Dimitar Telkiyski]], [[Aleksandar Tunchev]], [[Chavdar Yankov]]
+* '''{{fb|LUX}}:''' [[Alphonse Leweck]], [[Chris Sagramola]]
+* '''{{fb|NED}}:''' [[Klaas-Jan Huntelaar]], [[Danny Koevermans]], [[Dirk Kuyt]], [[Joris Mathijsen]], [[Giovanni van Bronckhorst]], [[Rafael van der Vaart]]
+* '''{{fb|ROU}}:''' [[Bănel Nicoliţă]], [[Florentin Petre]], [[Laurenţiu Roşu]]
+* '''{{fb|SVN}}:''' [[Boštjan Cesar]], [[Robert Koren]], [[Dare Vršič]]
+;Own goals
+* '''{{fb|ALB}}:''' [[Arjan Beqaj]] (for {{fb|NED}})
+* '''{{fb|BUL}}:''' [[Radostin Kishishev]] (for {{fb|ALB}})
+
+== References ==
+* [http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/group=2636.html UEFA web site]
+
+{{UEFA Euro 2008 qualifying}}
+{{Use dmy dates|date=February 2012}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group G]]
+[[Category:2006–07 in Albanian football]]
+[[Category:2007–08 in Albanian football]]
+[[Category:2006–07 in Bulgarian football]]
+[[Category:2007–08 in Bulgarian football]]
+[[Category:2006–07 in Dutch football]]
+[[Category:Netherlands at UEFA Euro 2008|Qual]]
+[[Category:2006–07 in Romanian football]]
+[[Category:2007–08 in Romanian football]]
+[[Category:2006–07 in Slovenian football]]
+[[Category:2007–08 in Slovenian football]]
+[[Category:2006–07 in Luxembourgian football]]
+[[Category:2007–08 in Luxembourgian football]]
+[[Category:2006 in Belarusian football]]
+[[Category:2007 in Belarusian football]]</text>
+      <sha1>4pkbsb8319ed259x0x462ynlp2e3q53</sha1>
+    </revision>
+  </page>
+</mediawiki>

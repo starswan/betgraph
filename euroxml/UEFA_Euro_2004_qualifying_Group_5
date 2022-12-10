@@ -1,0 +1,444 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 5</title>
+    <ns>0</ns>
+    <id>25454434</id>
+    <revision>
+      <id>704914345</id>
+      <parentid>704914295</parentid>
+      <timestamp>2016-02-14T11:15:46Z</timestamp>
+      <contributor>
+        <username>Willy2000</username>
+        <id>24925156</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="12474">Standings and results for '''Group 5''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 5 consisted of [[Faroe Islands national football team|Faroe Islands]], [[Germany national football team|Germany]], [[Iceland national football team|Iceland]], [[Lithuania national football team|Lithuania]] and [[Scotland national football team|Scotland]]. Group winners were Germany, who finished four points clear of second-placed team Scotland who qualified for the play-offs.
+
+==Standings==
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|GER}}
+|8 |{{!!}} 5 {{!!}} 3 {{!!}} 0 {{!!}} 13 {{!!}} 4 {{!!}} +9 ||'''18'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|SCO}}
+|8 |{{!!}} 4 {{!!}} 2 {{!!}} 2 {{!!}} 12 {{!!}} 8 {{!!}} +4 ||'''14'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|ISL}}
+|8 |{{!!}} 4 {{!!}} 1 {{!!}} 3 {{!!}} 11 {{!!}} 9 {{!!}} +2 ||'''13'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|LTU|1988}}
+|8 |{{!!}} 3 {{!!}} 1 {{!!}} 4 {{!!}} 7 {{!!}} 11 {{!!}} &amp;minus;4 ||'''10'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|FRO}}
+|8 |{{!!}} 0 {{!!}} 1 {{!!}} 7 {{!!}} 7 {{!!}} 18 {{!!}} &amp;minus;11 ||'''1'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|FRO}}
+!{{flagicon|GER}}
+!{{flagicon|ISL}}
+!{{flagicon|LTU|1988}}
+!{{flagicon|SCO}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|FRO}}
+| —
+| 0–2
+| 1–2
+| 1–3
+| 2–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|GER}}
+| 2–1
+| —
+| 3–0
+| 1–1
+| 2–1
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ISL}}
+| 2–1
+| 0–0
+| —
+| 3–0
+| 0–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|LTU|1988}}
+| 2–0
+| 0–2
+| 0–3
+| —
+| 1–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|SCO}}
+| 3–1
+| 1–1
+| 2–1
+| 1–0
+| —
+|-
+|}
+
+|}
+
+==Matches==
+
+{{football box|date = September 7, 2002
+|time = 15:00 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}  
+|score = 2–2 
+|team2 = {{fb|SCO}}  
+|goals1 = [[John Petersen (footballer)|Petersen]] {{goal|7||13}} 
+|goals2 = [[Paul Lambert|Lambert]] {{goal|62}} &lt;br /&gt;[[Barry Ferguson|Ferguson]] {{goal|83}}   
+|stadium = [[Svangaskarð]], [[Toftir]] |attendance = 4,000 |referee = [[Jacek Granat]] ([[Polish Football Association|POL]])|report =}}
+
+{{football box|date = September 7, 2002
+|time = 18:30 [[UTC+2]]
+|team1 = {{fb-rt|LTU|1988}}  
+|score = 0–2 
+|team2 = {{fb|GER}}  
+|goals1 = 
+|goals2 = [[Michael Ballack|Ballack]] {{goal|27}} &lt;br /&gt;[[Marius Stankevičius|Stankevičius]] {{goal|59|o.g.}} 
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]] |attendance = 8,500 |referee = [[Graham Poll]] ([[English Football Association|ENG]])|report =}}
+
+----
+{{football box|date = October 12, 2002
+|time = 14:00 [[UTC]]
+|team1 = {{fb-rt|ISL}}  
+|score = 0–2 
+|team2 = {{fb|SCO}}  
+|goals1 = 
+|goals2 = [[Christian Dailly|Dailly]] {{goal|6}} &lt;br /&gt; [[Gary Naysmith|Naysmith]] {{goal|63}}
+|stadium = [[Laugardalsvöllur]], [[Reykjavík]] |attendance = 7,056 |referee = [[Alain Sars]] ([[French Football Federation|FRA]])|report = }}
+
+{{football box|date = October 12, 2002
+|time = 17:00 [[UTC+2]]
+|team1 = {{fb-rt|LTU|1988}}  
+|score = 2–0 
+|team2 = {{fb|FRO}}  
+|goals1 = [[Tomas Ražanauskas|Ražanauskas]] {{goal|23|pen.}} &lt;br /&gt; [[Robertas Poškus|Poškus]] {{goal|37}}
+|goals2 = 
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]] |attendance = 1,500 |referee = [[Dejan Delević]] ([[Football Association of Serbia and Montenegro|SCG]])|report = }}
+
+----
+{{football box|date = October 16, 2002
+|time = 18:10 [[UTC]]
+|team1 = {{fb-rt|ISL}}  
+|score = 3–0 
+|team2 = {{fb|LTU|1988}}  
+|goals1 = [[Heiðar Helguson|Helguson]] {{goal|50}} &lt;br /&gt; [[Eiður Guðjohnsen|Guðjohnsen]] {{goal|61||74}}
+|goals2 = 
+|stadium = [[Laugardalsvöllur]], [[Reykjavík]] |attendance = 3,513 |referee = [[Grzegorz Gilewski]] ([[Polish Football Association|POL]])|report =}}
+
+{{football box|date = October 16, 2002
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|GER}}  
+|score = 2–1 
+|team2 = {{fb|FRO}}  
+|goals1 = [[Michael Ballack|Ballack]] {{goal|2|pen.}}  &lt;br /&gt; [[Miroslav Klose|Klose]] {{goal|59}} 
+|goals2 = [[Arne Friedrich|Friedrich]] {{goal|45|o.g.}} 
+|stadium = [[AWD-Arena]], [[Hanover]] |attendance = 36,628 |referee = [[Dani Koren (referee)|Dani Koren]] ([[Israel Football Association|ISR]])|report = }}
+
+----
+{{football box|date = March 29, 2003
+|time = 15:00 [[UTC]]
+|team1 = {{fb-rt|SCO}}  
+|score = 2–1 
+|team2 = {{fb|ISL}}  
+|goals1 = [[Kenny Miller|Miller]] {{goal|12}}  &lt;br /&gt; [[Lee Wilkie|Wilkie]] {{goal|71}} 
+|goals2 = [[Eiður Guðjohnsen|Guðjohnsen]] {{goal|49}}
+|stadium = [[Hampden Park]], [[Glasgow]] |attendance = 37,938 |referee = [[René Temmink]] ([[Royal Dutch Football Association|NED]])|report =}}
+
+{{football box|date = March 29, 2003
+|time = 19:00 [[UTC+1]]
+|team1 = {{fb-rt|GER}}  
+|score = 1–1 
+|team2 = {{fb|LTU|1988}}  
+|goals1 = [[Carsten Ramelow|Ramelow]] {{goal|7}} 
+|goals2 = [[Tomas Ražanauskas|Ražanauskas]] {{goal|72}}
+|stadium = [[Frankenstadion]], [[Nuremberg]] |attendance = 40,754 |referee = [[Victor José Esquinas Torres]] ([[Royal Spanish Football Federation|ESP]])|report =}}
+
+----
+{{football box|date = April 2, 2003
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|LTU|1988}}  
+|score = 1–0 
+|team2 = {{fb|SCO}}  
+|goals1 = [[Tomas Ražanauskas|Ražanauskas]] {{goal|74|pen.}}
+|goals2 = 
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]] |attendance = 8,500 |referee = [[Fritz Stuchlik]] ([[Austrian Football Association|AUT]])|report = }}
+
+----
+{{football box|date = June 7, 2003
+|time = 15:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}  
+|score = 1–1 
+|team2 = {{fb|GER}}  
+|goals1 = [[Kenny Miller|Miller]] {{goal|69}}
+|goals2 = [[Fredi Bobic|Bobic]] {{goal|22}}
+|stadium = [[Hampden Park]], [[Glasgow]] |attendance = 48,047 |referee =  [[Domenico Messina]] ([[Italian Football Federation|ITA]])|report = }}
+
+{{football box|date = June 7, 2003
+|time = 16:00 [[UTC]]
+|team1 = {{fb-rt|ISL}}  
+|score = 2–1 
+|team2 = {{fb|FRO}}  
+|goals1 = [[Helgi Sigurðsson|Sigurðsson]] {{goal|51}} &lt;br /&gt; [[Tryggvi Guðmundsson|Guðmundsson]] {{goal|90}}
+|goals2 = [[Rógvi Jacobsen|Jacobsen]] {{goal|63}} 
+|stadium = [[Laugardalsvöllur]], [[Reykjavík]] |attendance = 6,038 |referee =  [[Miroslav Liba]] ([[Football Association of the Czech Republic|CZE]])|report = }}
+
+----
+{{football box|date = June 11, 2003
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|LTU|1988}}  
+|score = 0–3 
+|team2 = {{fb|ISL}}  
+|goals1 =  
+|goals2 = [[Þórður Guðjónsson|Guðjónsson]] {{goal|60}} &lt;br /&gt; [[Eiður Guðjohnsen|Guðjohnsen]] {{goal|71}} &lt;br /&gt; [[Hermann Hreiðarsson|Hreiðarsson]] {{goal|90}}
+|stadium = [[S. Darius and S. Girėnas Stadium]], [[Kaunas]] |attendance = 8,000 |referee = [[Sorin Corpodean]] ([[Romanian Football Federation|ROU]])|report = }}
+
+{{football box|date = June 11, 2003
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}  
+|score = 0–2 
+|team2 = {{fb|GER}}  
+|goals1 =
+|goals2 =  [[Miroslav Klose|Klose]] {{goal|89}} &lt;br /&gt; [[Fredi Bobic|Bobic]] {{goal|90}}
+|stadium = [[Tórsvøllur]], [[Tórshavn]] |attendance = 6,500 |referee = [[Jan Wegereef]] ([[Royal Dutch Football Association|NED]])|report = }}
+
+----
+{{football box|date = August 20, 2003
+|time = 19:10 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}  
+|score = 1–2 
+|team2 = {{fb|ISL}}  
+|goals1 = [[Rógvi Jacobsen|Jacobsen]] {{goal|65}} 
+|goals2 = [[Eiður Guðjohnsen|Guðjohnsen]] {{goal|6}} &lt;br /&gt; [[Pétur Marteinsson|Marteinsson]] {{goal|70}}
+|stadium = [[Tórsvøllur]], [[Tórshavn]] |attendance = 5,000 |referee = [[Eduardo Iturralde González]] ([[Royal Spanish Football Federation|ESP]])|report = }}
+
+----
+{{football box|date = September 6, 2003
+|time = 15:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}  
+|score = 3–1 
+|team2 = {{fb|FRO}}  
+|goals1 = [[Neil McCann|McCann]] {{goal|8}} &lt;br /&gt; [[Paul Dickov|Dickov]] {{goal|45}} &lt;br /&gt;[[James McFadden|McFadden]] {{goal|73}}
+|goals2 = [[Julian Johnsson|Johnsson]] {{goal|35}}
+|stadium = [[Hampden Park]], [[Glasgow]] |attendance = 40,901 |referee = [[Darko Ceferin]] ([[Football Association of Slovenia|SVN]])|report = }}
+
+{{football box|date = September 6, 2003
+|time = 17:30 [[UTC]]
+|team1 = {{fb-rt|ISL}}  
+|score = 0–0 
+|team2 = {{fb|GER}}  
+|goals1 = 
+|goals2 = 
+|stadium = [[Laugardalsvöllur]], [[Reykjavík]] |attendance = 7,000 |referee = [[Graham Barber]] ([[English Football Association|ENG]])|report = }}
+
+----
+
+{{football box|date = September 10, 2003
+|time = 18:30 [[UTC+1]]
+|team1 = {{fb-rt|FRO}}  
+|score = 1–3 
+|team2 = {{fb|LTU|1988}}  
+|goals1 =  [[Súni Olsen|Olsen]] {{goal|42}}
+|goals2 =  [[Igoris Morinas|Morinas]] {{goal|22||57}} &lt;br /&gt; [[Donatas Vencevicius|Vencevicius]] {{goal|88}}
+|stadium = [[Svangaskarð]], [[Toftir]] |attendance = 2,175 |referee = [[Edo Trivkovic]] ([[Croatian Football Federation|CRO]])|report = }}
+
+{{football box|date = September 10, 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|GER}}  
+|score = 2–1 
+|team2 = {{fb|SCO}}  
+|goals1 = [[Fredi Bobic|Bobic]] {{goal|26}} &lt;br /&gt; [[Michael Ballack|Ballack]] {{goal|50|pen.}}
+|goals2 = [[Neil McCann|McCann]] {{goal|60}}
+|stadium = [[Westfalenstadion]], [[Dortmund]] |attendance = 67,000 |referee = [[Anders Frisk]] ([[Swedish Football Association|SWE]])|report = }}
+
+----
+{{football box|date = October 11, 2003
+|time = 16:00 [[UTC+1]]
+|team1 = {{fb-rt|SCO}}  
+|score = 1–0 
+|team2 = {{fb|LTU|1988}}  
+|goals1 = [[Darren Fletcher|Fletcher]] {{goal|70}}
+|goals2 = 
+|stadium = [[Hampden Park]], [[Glasgow]] |attendance = 50,343 |referee = [[Claude Colombo]] ([[French Football Federation|FRA]])|report = }}
+
+{{football box|date = October 11, 2003
+|time = 17:00 [[UTC+2]]
+|team1 = {{fb-rt|GER}}  
+|score = 3–0 
+|team2 = {{fb|ISL}}  
+|goals1 = [[Michael Ballack|Ballack]] {{goal|9}} &lt;br /&gt; [[Fredi Bobic|Bobic]] {{goal|59}} &lt;br /&gt; [[Kevin Kurányi|Kurányi]] {{goal|79}}
+|goals2 = 
+|stadium = [[AOL Arena]], [[Hamburg]] |attendance = 50,780 |referee = [[Valentin Valentinovich Ivanov|Valentin Ivanov]] ([[Russian Football Union|RUS]])|report = }}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;1&quot; align=center|1
+|[[Eiður Guðjohnsen]] 
+|{{fb|ISL}}
+|rowspan=&quot;1&quot; align=center|5
+|-
+|rowspan=&quot;2&quot; align=center|2
+|[[Michael Ballack]] 
+|{{fb|GER}}
+|rowspan=&quot;2&quot; align=center|4
+|-
+|[[Fredi Bobic]] 
+|{{fb|GER}}
+|-
+|rowspan=&quot;1&quot; align=center|3
+|[[Tomas Ražanauskas]]
+|{{fb|LTU|1988}}
+|rowspan=&quot;1&quot; align=center|3
+|-
+|rowspan=&quot;6&quot; align=center|4
+|[[Rógvi Jacobsen]]
+|{{fb|FRO}}
+|rowspan=&quot;6&quot; align=center|2
+|-
+|[[John Petersen (footballer)|John Petersen]]
+|{{fb|FRO}}
+|-
+|[[Miroslav Klose]]
+|{{fb|GER}}
+|-
+|[[Donatas Vencevičius]]
+|{{fb|LTU|1988}}
+|-
+|[[Neil McCann]]
+|{{fb|SCO}}
+|-
+|[[Kenny Miller]]
+|{{fb|SCO}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|FRO}}
+*[[Julian Johnsson]]
+*[[Súni Olsen]]
+;{{fb|GER}}
+*[[Kevin Kurányi]]
+*[[Carsten Ramelow]]
+{{col-3}}
+;{{fb|ISL}}
+*[[Þórður Guðjónsson]]
+*[[Tryggvi Guðmundsson]]
+*[[Heiðar Helguson]]
+*[[Hermann Hreiðarsson]]
+*[[Pétur Marteinsson]]
+*[[Helgi Sigurðsson]]
+;{{fb|LTU|1988}}
+*[[Igoris Morinas]]
+*[[Robertas Poškus]]
+{{col-3}}
+;{{fb|SCO}}
+*[[Christian Dailly]]
+*[[Paul Dickov]]
+*[[Barry Ferguson]]
+*[[Darren Fletcher]]
+*[[Paul Lambert]]
+*[[Neil McCann]]
+*[[James McFadden]]
+*[[Gary Naysmith]]
+*[[Lee Wilkie]]
+;Own Goals
+*[[Arne Friedrich]] ({{fb|GER}} for {{fb|FRO}})
+*[[Marius Stankevičius]] ({{fb|LTU|1988}} for {{fb|GER}})
+|}
+
+==References==
+*[http://www.uefa.com/competitions/euro2012/history/season=2004/round=1579/group=1458.html UEFA Page]
+*[http://www.rsssf.com/tables/04e-ext.html#grp5 RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro 2004}}
+[[Category:UEFA Euro 2004 qualifying|Group 5]]
+[[Category:2002–03 in Scottish football]]
+[[Category:2003–04 in Scottish football]]
+[[Category:2002–03 in German football]]
+[[Category:Germany at UEFA Euro 2004|Qual]]
+[[Category:2002 in Icelandic football]]
+[[Category:2003 in Icelandic football]]
+[[Category:2002 in Lithuanian football]]
+[[Category:2003 in Lithuanian football]]
+[[Category:2002 in the Faroe Islands]]
+[[Category:2003 in the Faroe Islands]]</text>
+      <sha1>oxn3soqultnr1y9zo6mwvizxoi7qmyl</sha1>
+    </revision>
+  </page>
+</mediawiki>

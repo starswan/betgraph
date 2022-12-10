@@ -1,0 +1,449 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 1</title>
+    <ns>0</ns>
+    <id>25221155</id>
+    <revision>
+      <id>704903023</id>
+      <parentid>704902745</parentid>
+      <timestamp>2016-02-14T08:58:05Z</timestamp>
+      <contributor>
+        <username>Willy2000</username>
+        <id>24925156</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="12841">Standings and results for '''Group 1''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 1 consisted of [[Cyprus national football team|Cyprus]], [[France national football team|France]], [[Israel national football team|Israel]], [[Malta national football team|Malta]] and [[Slovenia national football team|Slovenia]]. Group winners were France, who finished with a 100% record, ten points clear of second-placed Slovenia who in turn qualified for the playoffs.
+
+==Standings==
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|FRA}}
+|8 |{{!!}} 8 {{!!}} 0 {{!!}} 0 {{!!}} 29 {{!!}} 2 {{!!}} +27 ||'''24'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|SVN}}
+|8 |{{!!}} 4 {{!!}} 2 {{!!}} 2 {{!!}} 15 {{!!}} 12 {{!!}} +3 ||'''14'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|ISR}}
+|8 |{{!!}} 2 {{!!}} 3 {{!!}} 3 {{!!}} 9 {{!!}} 11 {{!!}} &amp;minus;2 ||'''9'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|CYP|1960}}
+|8 |{{!!}} 2 {{!!}} 2 {{!!}} 4 {{!!}} 9 {{!!}} 18 {{!!}} &amp;minus;9 ||'''8'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|MLT}}
+|8 |{{!!}} 0 {{!!}} 1 {{!!}} 7 {{!!}} 5 {{!!}} 24 {{!!}} &amp;minus;19 ||'''1'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|CYP|1960}}
+!{{flagicon|FRA}}
+!{{flagicon|ISR}}
+!{{flagicon|MLT}}
+!{{flagicon|SVN}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|CYP|1960}} 
+| —
+| 1–2
+| 1–1
+| 2–1
+| 2–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|FRA}} 
+| 5–0
+| —
+| 3–0
+| 6–0
+| 5–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ISR}} 
+| 2–0
+| 1–2
+| —
+| 2–2
+| 0–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|MLT}} 
+| 1–2
+| 0–4
+| 0–2
+| —
+| 1–3
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|SVN}} 
+| 4–1
+| 0–2
+| 3–1
+| 3–0
+| —
+|-
+|}
+
+|}
+
+==Matches==
+
+{{footballbox|date = 7 September 2002
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|CYP|1960}}  
+|score = 1–2 
+|team2 = {{fb|FRA}}  
+|goals1 = [[Ioannis Okkas|Okkas]] {{goal|14}}
+|goals2 = [[Djibril Cissé|Cissé]] {{goal|39}}&lt;br/&gt;[[Sylvain Wiltord|Wiltord]] {{goal|51}}
+|stadium = [[GSP Stadium]], [[Nicosia]] |attendance = 11,898 |referee = [[Herbert Fandel]] ([[German Football Association|GER]])|report =}}
+
+{{footballbox|date = 7 September 2002
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}  
+|score = 3–0 
+|team2 = {{fb|MLT}}  
+|goals1 = [[Darren Debono|Debono]] {{goal|37|o.g.}} &lt;br/&gt;[[Ermin Šiljak|Šiljak]] {{goal|59}} &lt;br/&gt; [[Sebastjan Cimirotič|Cimirotič]] {{goal|90}}
+|goals2 = 
+|stadium = [[Bežigrad Stadium]], [[Ljubljana]] |attendance = 7,000 |referee = [[Georgios Borovilos]] ([[Greek Football Association|GRE]])|report =}}
+
+----
+{{footballbox|date = 12 October 2002
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}  
+|score = 0–2 
+|team2 = {{fb|ISR}}  
+|goals1 = 
+|goals2 = [[Pini Balili|Balili]] {{goal|56}} &lt;br/&gt; [[Haim Revivo|Revivo]] {{goal|76}}
+|stadium = [[Ta' Qali National Stadium]], [[Ta' Qali]] |attendance = 5,200 |referee = [[Sergei Shebek]] ([[Football Federation of Ukraine|UKR]])|report =}}
+
+{{footballbox|date = 12 October 2002
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|FRA}}  
+|score = 5–0 
+|team2 = {{fb|SVN}}  
+|goals1 = [[Patrick Vieira|Vieira]] {{goal|10}} &lt;br/&gt; [[Steve Marlet|Marlet]] {{goal|35||64}} &lt;br/&gt; [[Sylvain Wiltord|Wiltord]] {{goal|79}} &lt;br/&gt; [[Sidney Govou|Govou]] {{goal|86}}
+|goals2 = 
+|stadium = [[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]] |attendance = 77,619 |referee = [[Kim Milton Nielsen]] ([[Danish Football Association|NOR]])|report = }}
+
+----
+{{footballbox|date = 16 October 2002
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}  
+|score = 0–4 
+|team2 = {{fb|FRA}}  
+|goals1 = 
+|goals2 = [[Thierry Henry|Henry]] {{goal|25||35}} &lt;br/&gt; [[Sylvain Wiltord|Wiltord]] {{goal|59}} &lt;br/&gt; [[Éric Carrière|Carrière]] {{goal|84}}
+|stadium = [[Ta' Qali National Stadium]], [[Ta' Qali]] |attendance = 10,000 |referee = [[Alexandru Tudor]] ([[Romanian Football Federation|ROM]])|report =}}
+
+----
+{{footballbox|date = 20 November 2002
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|CYP|1960}}  
+|score = 2–1 
+|team2 = {{fb|MLT}}  
+|goals1 = [[Rainer Rauffmann|Rauffmann]] {{goal|50}} &lt;br/&gt; [[Ioannis Okkas|Okkas]] {{goal|74}} 
+|goals2 = [[Michael Mifsud|Mifsud]] {{goal|90}} 
+|stadium = [[GSP Stadium]], [[Nicosia]] |attendance = 5,000 |referee = [[Anton Guenov]] ([[Bulgarian Football Union|BUL]])|report = }}
+
+----
+{{footballbox|date = 29 March 2003
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|CYP|1960}}  
+|score = 1–1 
+|team2 = {{fb|ISR}}  
+|goals1 =  [[Rainer Rauffmann|Rauffmann]] {{goal|61}}
+|goals2 = [[Omri Afek|Afek]] {{goal|2}}
+|stadium = [[Tsirion Stadium]], [[Limassol]] |attendance = 9,000 |referee = [[Mike McCurry (referee)|Mike McCurry]] ([[Scottish Football Association|Scotland]])|report =}}
+
+{{footballbox|date = 29 March 2003
+|time = 20:45 [[UTC+1]]
+|team1 = {{fb-rt|FRA}}  
+|score = 6–0 
+|team2 = {{fb|MLT}}  
+|goals1 = [[Sylvain Wiltord|Wiltord]] {{goal|36}} &lt;br/&gt; [[Thierry Henry|Henry]] {{goal|38||54}} &lt;br/&gt; [[Zinédine Zidane|Zidane]] {{goal|57|pen.|80}} &lt;br/&gt; [[David Trezeguet|Trezeguet]] {{goal|70}}
+|goals2 = 
+|stadium = [[Stade Félix-Bollaert]], [[Lens, Pas-de-Calais|Lens]] |attendance = 40,775|referee = [[Emil Bozinovski]] ([[Football Federation of Macedonia|MKD]])|report =}}
+
+----
+{{footballbox|date = 2 April 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}  
+|score = 4–1 
+|team2 = {{fb|CYP|1960}}  
+|goals1 = [[Ermin Šiljak|Šiljak]] {{goal|4||14}} &lt;br/&gt; [[Zlatko Zahovič|Zahovič]] {{goal|38|pen.}} &lt;br/&gt; [[Nastja Čeh|Čeh]] {{goal|43}}
+|goals2 = [[Michalis Konstantinou|Konstantinou]] {{goal|10}} 
+|stadium = [[Bežigrad Stadium]], [[Ljubljana]] |attendance = 5,000 |referee = [[Paulo Manuel Gomes Costa]] ([[Portuguese Football Federation|POR]])|report = }}
+
+{{footballbox|date = 2 April 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ISR}}  
+|score = 1–2 
+|team2 = {{fb|FRA}}  
+|goals1 = [[Omri Afek|Afek]] {{goal|2}}
+|goals2 = [[David Trezeguet|Trezeguet]] {{goal|23}} &lt;br/&gt; [[Zinédine Zidane|Zidane]] {{goal|45}}
+|stadium = [[Renzo Barbera Stadium]], [[Palermo]] |attendance = 2,455 |referee =  [[Graham Barber]] ([[English Football Association|ENG]])|report = }}
+
+----
+{{footballbox|date = 30 April 2003
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|ISR}}  
+|score = 2–0 
+|team2 = {{fb|CYP|1960}}  
+|goals1 = [[Walid Badir|Badir]] {{goal|88}} &lt;br/&gt; [[Shay Holtzman|Holtzman]] {{goal|90}}
+|goals2 = 
+|stadium = [[Renzo Barbera Stadium]], [[Palermo]] |attendance = 300 |referee =  [[Michal Benes]] ([[Czechoslovak Football Association|CZE]])|report = }}
+
+{{footballbox|date = 30 April 2003
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}  
+|score = 1–3 
+|team2 = {{fb|SVN}}  
+|goals1 = [[Michael Mifsud|Mifsud]] {{goal|90}} 
+|goals2 = [[Zlatko Zahovič|Zahovič]] {{goal|15}} &lt;br/&gt; [[Ermin Šiljak|Šiljak]] {{goal|36||57}}
+|stadium = [[Ta' Qali National Stadium]], [[Ta' Qali]] |attendance = 2,500 |referee = [[Attila Hanacsek]] ([[Hungarian Football Federation|HUN]])|report = 
+}}
+----
+{{footballbox|date = 7 June 2003
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|MLT}}  
+|score = 1–2 
+|team2 = {{fb|CYP|1960}}  
+|goals1 = [[Luke Dimech|Dimech]] {{goal|73}}
+|goals2 = [[Michalis Konstantinou|Konstantinou]] {{goal|23|pen.|62}} 
+|stadium = [[Ta' Qali National Stadium]], [[Ta' Qali]] |attendance = 3,000 |referee =  [[Bernhard Brugger]] ([[Austrian Football Association|AUT]])|report = }}
+
+{{footballbox|date = 7 June 2003
+|time = 21:15 [[UTC+3]]
+|team1 = {{fb-rt|ISR}}  
+|score = 0–0 
+|team2 = {{fb|SVN}}  
+|goals1 = 
+|goals2 = 
+|stadium = [[Antalya Atatürk Stadium|Atatürk Stadium]], [[Antalya]] |attendance = 1,800  |referee = [[Massimo Busacca]] ([[Swiss Football Association|SUI]])|report = }}
+
+----
+{{footballbox|date = 6 September 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}  
+|score = 3–1 
+|team2 = {{fb|ISR}}  
+|goals1 = [[Ermin Šiljak|Šiljak]] {{goal|35}} &lt;br/&gt; [[Aleksander Knavs|Knavs]] {{goal|37}} &lt;br/&gt; [[Nastja Čeh|Čeh]] {{goal|78}}
+|goals2 = [[Haim Revivo|Revivo]] {{goal|69}}
+|stadium = [[Bežigrad Stadium]], [[Ljubljana]] |attendance = 8,000 |referee = [[Herbert Fandel]] ([[German Football Association|GER]])|report = }}
+
+{{footballbox|date = 6 September 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|FRA}}  
+|score = 5–0 
+|team2 = {{fb|CYP|1960}}  
+|goals1 = [[David Trezeguet|Trezeguet]] {{goal|7||81}} &lt;br/&gt; [[Sylvain Wiltord|Wiltord]] {{goal|20||41}} &lt;br/&gt; [[Thierry Henry|Henry]] {{goal|60}}
+|goals2 = 
+|stadium = [[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]] |attendance = 45,000 |referee = [[Leslie Irvine]] ([[Scottish Football Association|SCO]])|report = }}
+
+----
+{{footballbox|date = 10 September 2003
+|time = 18:00 [[UTC+3]]
+|team1 = {{fb-rt|ISR}}  
+|score = 2–2 
+|team2 = {{fb|MLT}}  
+|goals1 = [[Haim Revivo|Revivo]] {{goal|16}} &lt;br/&gt; [[Pini Balili|Balili]] {{goal|79}} 
+|goals2 = [[Michael Mifsud|Mifsud]] {{goal|51|pen.}} &lt;br/&gt; [[David Carabott|Carabott]] {{goal|52}}
+|stadium = [[Antalya Atatürk Stadium|Atatürk Stadium]], [[Antalya]] |attendance = 1,300 |referee = [[Eric Blareau]] ([[Belgian Football Association|BEL]])|report = }}
+
+{{footballbox|date = 10 September 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|SVN}}  
+|score = 0–2 
+|team2 = {{fb|FRA}}  
+|goals1 = 
+|goals2 = [[David Trezeguet|Trezeguet]] {{goal|9}} &lt;br/&gt; [[Olivier Dacourt|Dacourt]] {{goal|71}}
+|stadium = [[Bežigrad Stadium]], [[Ljubljana]] |attendance = 9,500 |referee = [[Domenico Messina]] ([[Italian Football Federation|ITA]])|report = }}
+
+----
+{{footballbox|date = 11 October 2003
+|time = 19:30 [[UTC+3]]
+|team1 = {{fb-rt|CYP|1960}}  
+|score = 2–2 
+|team2 = {{fb|SVN}}  
+|goals1 = [[Stavros Georgiou|Georgiou]] {{goal|71}} &lt;br/&gt; [[Yiasoumis Yiasoumi|Yiasoumi]] {{goal|81}}
+|goals2 = [[Ermin Šiljak|Šiljak]] {{goal|11||41}}
+|stadium = [[Tsirion Stadium]], [[Limassol]] |attendance = 2,346 |referee = [[Tom Henning Øvrebø]] ([[Norwegian Football Association|NOR]])|report = }}
+
+{{footballbox|date = 11 October 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|FRA}}  
+|score = 3–0 
+|team2 = {{fb|ISR}}  
+|goals1 = [[Thierry Henry|Henry]] {{goal|9}} &lt;br/&gt; [[David Trezeguet|Trezeguet]] {{goal|24}} &lt;br/&gt; [[Jean-Alain Boumsong|Boumsong]] {{goal|42}}
+|goals2 = 
+|stadium = [[Stade de France]], [[Saint-Denis, Seine-Saint-Denis|Saint-Denis]] |attendance = 57,009 |referee = [[Cosimo-Giancarlo Bolognino]] ([[Italian Football Federation|ITA]])|report = }}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;1&quot; align=center|1
+|[[Ermin Šiljak]] 
+|{{fb|SVN}}
+|rowspan=&quot;1&quot; align=center|8
+|-
+|rowspan=&quot;3&quot; align=center|2
+|[[Thierry Henry]] 
+|{{fb|FRA}}
+|rowspan=&quot;3&quot; align=center|6
+|-
+|[[David Trezeguet]]
+|{{fb|FRA}}
+|-
+|[[Sylvain Wiltord]]
+|{{fb|FRA}}
+|-
+|rowspan=&quot;4&quot; align=center|3
+|[[Michalis Konstantinou]]
+|{{fb|CYP|1960}}
+|rowspan=&quot;4&quot; align=center|3
+|-
+|[[Zinédine Zidane]]
+|{{fb|FRA}}
+|-
+|[[Haim Revivo]]
+|{{fb|ISR}}
+|-
+|[[Michael Mifsud]]
+|{{fb|MLT}}
+|-
+|rowspan=&quot;7&quot; align=center|4
+|[[Ioannis Okkas]]
+|{{fb|CYP|1960}}
+|rowspan=&quot;7&quot; align=center|2
+|-
+|[[Rainer Rauffmann]]
+|{{fb|CYP|1960}}
+|-
+|[[Steve Marlet]]
+|{{fb|FRA}}
+|-
+|[[Omri Afek]]
+|{{fb|ISR}}
+|-
+|[[Pini Balili]]
+|{{fb|ISR}}
+|-
+|[[Nastja Čeh]]
+|{{fb|SVN}}
+|-
+|[[Zlatko Zahovič]]
+|{{fb|SVN}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|CYP|1960}}
+*[[Stavros Georgiou]]
+*[[Yiasoumis Yiasoumi]]
+;{{fb|FRA}}
+*[[Djibril Cissé]]
+*[[Jean-Alain Boumsong]]
+*[[Olivier Dacourt]]
+*[[Sidney Govou]]
+*[[Patrick Vieira]]
+{{col-3}}
+;{{fb|ISR}}
+*[[Walid Badir]]
+*[[Shay Holtzman]]
+;{{fb|MLT}}
+*[[Luke Dimech]]
+*[[David Carabott]]
+{{col-3}}
+;{{fb|SVN}}
+*[[Sebastjan Cimirotič]]
+*[[Aleksander Knavs]]
+;Own goals
+*[[Darren Debono]] {{fb|MLT}} (for {{fb|SVN}}
+|}
+
+==References==
+*[http://www.uefa.com/competitions/euro2012/history/season=2004/round=1579/group=1454.html UEFA Page]
+*[http://www.rsssf.com/tables/04e-ext.html RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2004 qualifying|Group 1]]
+[[Category:2002–03 in Israeli football]]
+[[Category:2003–04 in Israeli football]]
+[[Category:2002–03 in Slovenian football]]
+[[Category:2003–04 in Slovenian football]]
+[[Category:2002–03 in French football]]
+[[Category:France at UEFA Euro 2004|Qual]]
+[[Category:2002–03 in Cypriot football]]
+[[Category:2003–04 in Cypriot football]]
+[[Category:2002–03 in Maltese football]]
+[[Category:2003–04 in Maltese football]]</text>
+      <sha1>4cqe1qb33lah4op6gc865xikm0fsf8x</sha1>
+    </revision>
+  </page>
+</mediawiki>

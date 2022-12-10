@@ -1,0 +1,444 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 2</title>
+    <ns>0</ns>
+    <id>25291218</id>
+    <revision>
+      <id>704904760</id>
+      <parentid>704904665</parentid>
+      <timestamp>2016-02-14T09:13:40Z</timestamp>
+      <contributor>
+        <username>Willy2000</username>
+        <id>24925156</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="12336">Standings and results for '''Group 2''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 2 consisted of [[Bosnia-Herzegovina national football team|Bosnia-Herzegovina]], [[Denmark national football team|Denmark]], [[Luxembourg national football team|Luxembourg]], [[Norway national football team|Norway]] and [[Romania national football team|Romania]]. Group winners were Denmark, who finished a point clear of joint second-placed teams Norway and Romania. Norway qualified for the playoffs due to a better head to head record against Romania.
+
+==Standings==
+[[File:Bosnia and Herzegovina national football team in 2002.jpg|thumb|250px|[[Bosnia and Herzegovina national football team|Bosnia-Herzegovina]] squad during UEFA Euro 2004 qualifying.]] 
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|DEN}}
+|8 |{{!!}} 4 {{!!}} 3 {{!!}} 1 {{!!}} 15 {{!!}} 9 {{!!}} +6 ||'''15'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|NOR}}
+|8 |{{!!}} 4 {{!!}} 2 {{!!}} 2 {{!!}} 9 {{!!}} 5 {{!!}} +4 ||'''14'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|ROM}}
+|8 |{{!!}} 4 {{!!}} 2 {{!!}} 2 {{!!}} 21 {{!!}} 9 {{!!}} +12 ||'''14'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|BIH}}
+|8 |{{!!}} 4 {{!!}} 1 {{!!}} 3 {{!!}} 7 {{!!}} 8 {{!!}} &amp;minus;1 ||'''13'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|LUX}}
+|8 |{{!!}} 0 {{!!}} 0 {{!!}} 8 {{!!}} 0 {{!!}} 21 {{!!}} &amp;minus;21 ||'''0'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|BIH}}
+!{{flagicon|DEN}}
+!{{flagicon|LUX}}
+!{{flagicon|NOR}}
+!{{flagicon|ROM}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|BIH}}
+| —
+| 1–1
+| 2–0
+| 1–0
+| 0–3
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|DEN}}
+| 0–2
+| —
+| 2–0
+| 1–0
+| 2–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|LUX}}
+| 0–1
+| 0–2
+| —
+| 0–2
+| 0–7
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|NOR}}
+| 2–0
+| 2–2
+| 1–0
+| —
+| 1–1
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ROM}}
+| 2–0
+| 2–5
+| 4–0
+| 0–1
+| —
+|-
+|}
+|}
+
+==Matches==
+
+{{footballbox|date = 7 September 2002
+|time = 16:00 [[UTC+2]]
+|team1 = {{fb-rt|NOR}}  
+|score = 2–2 
+|team2 = {{fb|DEN}}  
+|goals1 = [[John Arne Riise|Riise]] {{goal|54}} &lt;br/&gt;[[John Carew|Carew]] {{goal|90}}
+|goals2 = [[Jon Dahl Tomasson|Tomasson]] {{goal|22||72}}
+|stadium = [[Ullevaal Stadion]], [[Oslo]] |attendance = 25,114 |referee = [[Hugh Dallas]] ([[Scottish Football Association|SCO]])|report =}}
+
+{{footballbox|date = 7 September 2002
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|BIH}}  
+|score = 0–3 
+|team2 = {{fb|ROM}}  
+|goals1 = 
+|goals2 = [[Cristian Chivu|Chivu]] {{goal|7}} &lt;br/&gt; [[Dorinel Munteanu|Munteanu]] {{goal|8}} &lt;br/&gt; [[Ionel Ganea|Ganea]] {{goal|27}}
+|stadium = [[Koševo Stadium]], [[Sarajevo]] |attendance = 4,000 |referee = [[Lucílio Batista]] ([[Portuguese Football Federation|POR]])|report =}}
+
+----
+{{footballbox|date = 12 October 2002
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|ROM}}  
+|score = 0–1 
+|team2 = {{fb|NOR}}  
+|goals1 = 
+|goals2 = [[Steffen Iversen|Iversen]] {{goal|83}}
+|stadium = [[Stadionul Steaua]], [[Bucharest]] |attendance = 25,000 |referee = [[Valentin Valentinovich Ivanov|Valentin Ivanov]] ([[Russian Football Union|RUS]])|report =}}
+
+{{footballbox|date = 12 October 2002
+|time = 19:15 [[UTC+2]]
+|team1 = {{fb-rt|DEN}}  
+|score = 2–0 
+|team2 = {{fb|LUX}}  
+|goals1 = [[Jon Dahl Tomasson|Tomasson]] {{goal|52|pen.}} &lt;br/&gt; [[Ebbe Sand|Sand]] {{goal|72}}
+|goals2 = 
+|stadium = [[Parken Stadium]], [[Copenhagen]] |attendance = 40,259 |referee = [[Ferenc Bede]] ([[Hungarian Football Federation|HUN]])|report = }}
+
+----
+{{footballbox|date = 16 October 2002
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|NOR}}  
+|score = 2–0 
+|team2 = {{fb|BIH}}  
+|goals1 = [[Claus Lundekvam|Lundekvam]] {{goal|7}} &lt;br/&gt; [[John Arne Riise|Riise]] {{goal|27}} 
+|goals2 = 
+|stadium = [[Ullevaal Stadion]], [[Oslo]] |attendance = 24,169 |referee = [[Michael Benes]] ([[Football Association of the Czech Republic|CZE]])|report =}}
+
+{{footballbox|date = 16 October 2002
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LUX}}  
+|score = 0–7 
+|team2 = {{fb|ROM}}  
+|goals1 = 
+|goals2 = [[Viorel Moldovan|Moldovan]] {{goal|2||5}} &lt;br/&gt; [[Mirel Rădoi|Rădoi]] {{goal|25}} &lt;br/&gt; [[Cosmin Contra|Contra]] {{goal|45||47||86}} &lt;br/&gt; [[Tiberiu Ghioane|Ghioane]] {{goal|81}}
+|stadium = [[Stade Josy Barthel]], [[Luxembourg]] |attendance = 2,056 |referee = [[Romans Lajuks]] ([[Latvian Football Federation|LVA]])|report = }}
+
+----
+{{footballbox|date = 29 March 2003
+|time = 18:00 [[UTC+2]]
+|team1 = {{fb-rt|ROM}}  
+|score = 2–5 
+|team2 = {{fb|DEN}}  
+|goals1 = [[Adrian Mutu|Mutu]] {{goal|5}} &lt;br/&gt; [[Dorinel Munteanu|Munteanu]] {{goal|47}}
+|goals2 = [[Dennis Rommedahl|Rommedahl]] {{goal|8||90}} &lt;br/&gt; [[Thomas Gravesen|Gravesen]] {{goal|53}} &lt;br/&gt; [[Jon Dahl Tomasson|Tomasson]] {{goal|71}} &lt;br/&gt; [[Cosmin Contra|Contra]] {{goal|73|o.g.}}
+|stadium = [[Stadionul Naţional]], [[Bucharest]] |attendance = 55,000 |referee = [[Manuel Mejuto González]] ([[Royal Spanish Football Federation|ESP]])|report =}}
+
+{{footballbox|date = 29 March 2003
+|time = 20:15 [[UTC+1]]
+|team1 = {{fb-rt|BIH}}  
+|score = 2–0 
+|team2 = {{fb|LUX}}  
+|goals1 =  [[Elvir Bolić|Bolić]] {{goal|58}} &lt;br/&gt; [[Sergej Barbarez|Barbarez]] {{goal|75}}
+|goals2 = 
+|stadium = [[Bilino Polje]], [[Zenica]] |attendance = 10,000 |referee = [[Jouni Hyytiä]] ([[Football Association of Finland|FIN]])|report =}}
+
+----
+{{footballbox|date = 2 April 2003
+|time = 19:15 [[UTC+2]]
+|team1 = {{fb-rt|DEN}}  
+|score = 0–2 
+|team2 = {{fb|BIH}}  
+|goals1 = 
+|goals2 = [[Sergej Barbarez|Barbarez]] {{goal|23}} &lt;br/&gt; [[Elvir Baljić|Baljić]] {{goal|29}}
+|stadium = [[Parken Stadium]], [[Copenhagen]] |attendance = 30,845 |referee =  [[Anton Stredak]] ([[Slovak Football Association|SVK]])|report = }}
+
+{{footballbox|date = 2 April 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LUX}}  
+|score = 0–2 
+|team2 = {{fb|NOR}}  
+|goals1 = 
+|goals2 = [[Sigurd Rushfeldt|Rushfeldt]] {{goal|57}} &lt;br/&gt; [[Ole Gunnar Solskjær|Solskjær]] {{goal|73}}
+|stadium = [[Stade Josy Barthel]], [[Luxembourg]] |attendance = 3,000 |referee = [[Ivan Dobrinov]] ([[Bulgarian Football Union|BUL]])|report = }}
+
+----
+{{footballbox|date = 7 June 2003
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|ROM}}  
+|score = 2–0 
+|team2 = {{fb|BIH}}  
+|goals1 = [[Adrian Mutu|Mutu]] {{goal|46}} &lt;br/&gt; [[Ionel Ganea|Ganea]] {{goal|87}}
+|goals2 = 
+|stadium = [[Stadionul Ion Oblemenco]], [[Craiova]] |attendance = 36,000 |referee =  [[Ruud Bossen]] ([[Royal Dutch Football Association|NED]])|report = }}
+
+{{footballbox|date = 7 June 2003
+|time = 19:15 [[UTC+2]]
+|team1 = {{fb-rt|DEN}}  
+|score = 1–0 
+|team2 = {{fb|NOR}}  
+|goals1 = [[Jesper Grønkjær|Grønkjær]] {{goal|5}}
+|goals2 = 
+|stadium = [[Parken Stadium]], [[Copenhagen]] |attendance = 41,824 |referee =  [[Graham Poll]] ([[English Football Association|ENG]])|report = }}
+
+----
+{{footballbox|date = 11 June 2003
+|time = 19:45 [[UTC+2]]
+|team1 = {{fb-rt|NOR}}  
+|score = 1–1 
+|team2 = {{fb|ROM}}  
+|goals1 = [[Ole Gunnar Solskjær|Solskjær]] {{goal|78|pen.}} 
+|goals2 = [[Ionel Ganea|Ganea]] {{goal|64}}
+|stadium = [[Ullevaal Stadion]], [[Oslo]] |attendance = 24,890 |referee =  [[Lubos Michel]] ([[Slovak Football Association|SVK]])|report = }}
+
+{{footballbox|date = 11 June 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LUX}}  
+|score = 0–2 
+|team2 = {{fb|DEN}}  
+|goals1 = 
+|goals2 = [[Claus Jensen|Jensen]] {{goal|2}} &lt;br/&gt; [[Thomas Gravesen|Gravesen]] {{goal|50}}
+|stadium = [[Stade Josy Barthel]], [[Luxembourg]] |attendance = 6,869 |referee =  [[Yuri Baskakov]] ([[Russian Football Union|RUS]])|report = }}
+
+----
+{{footballbox|date = 6 September 2003
+|time = 19:30 [[UTC+3]]
+|team1 = {{fb-rt|ROM}}  
+|score = 4–0 
+|team2 = {{fb|LUX}}  
+|goals1 = [[Adrian Mutu|Mutu]] {{goal|38}} &lt;br/&gt; [[Daniel Pancu|Pancu]] {{goal|40}} &lt;br/&gt;[[Ionel Ganea|Ganea]] {{goal|43}} &lt;br/&gt; [[Florin Bratu|Bratu]] {{goal|77}}
+|goals2 = 
+|stadium = [[Stadionul Astra]], [[Ploieşti]] |attendance = 4,000 |referee = [[Alon Yefet]] ([[Israel Football Association|ISR]])|report = }}
+
+{{footballbox|date = 6 September 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|BIH}}  
+|score = 1–0 
+|team2 = {{fb|NOR}}  
+|goals1 = [[Zlatan Bajramović|Bajramović]] {{goal|87}}
+|goals2 = 
+|stadium = [[Bilino Polje]], [[Zenica]] |attendance = 22,000 |referee = [[Stéphane Bre]] ([[French Football Federation|FRA]])|report = }}
+
+----
+{{footballbox|date = 10 September 2003
+|time = 19:15 [[UTC+2]]
+|team1 = {{fb-rt|DEN}}  
+|score = 2–2 
+|team2 = {{fb|ROM}}  
+|goals1 = [[Jon Dahl Tomasson|Tomasson]] {{goal|35|pen.}} &lt;br/&gt; [[Martin Laursen|Laursen]] {{goal|90+5}}
+|goals2 = [[Adrian Mutu|Mutu]] {{goal|62}} &lt;br/&gt; [[Daniel Pancu|Pancu]] {{goal|72}}
+|stadium = [[Parken Stadium]], [[Copenhagen]] |attendance = 42,049 |referee = [[Urs Meier]] ([[Swiss Football Association|TCH]])|report = }}
+
+{{footballbox|date = 10 September 2003
+|time = 20:00 [[UTC+2]]
+|team1 = {{fb-rt|LUX}}  
+|score = 0–1 
+|team2 = {{fb|BIH}}  
+|goals1 = 
+|goals2 = [[Sergej Barbarez|Barbarez]] {{goal|35}}
+|stadium = [[Stade Josy Barthel]], [[Luxembourg]] |attendance = 3,425 |referee = [[Costas Kapitanis]] ([[Cyprus Football Association|CYP]])|report = }}
+
+----
+{{footballbox|date = 11 October 2003
+|time = 18:00 [[UTC+2]]
+|team1 = {{fb-rt|NOR}}  
+|score = 1–0 
+|team2 = {{fb|LUX}}  
+|goals1 = [[Tore André Flo|Flo]] {{goal|18}} 
+|goals2 = 
+|stadium = [[Ullevaal Stadion]], [[Oslo]] |attendance = 22,255 |referee = [[Zsolt Szabó]] ([[Hungarian Football Federation|HUN]])|report = }}
+
+{{footballbox|date = 11 October 2003
+|time = 18:00 [[UTC+2]]
+|team1 = {{fb-rt|BIH}}  
+|score = 1–1 
+|team2 = {{fb|DEN}}  
+|goals1 = [[Elvir Bolić|Bolić]] {{goal|39}}
+|goals2 = [[Martin Jørgensen|Jørgensen]] {{goal|12}}
+|stadium = [[Koševo Stadium]], [[Sarajevo]] |attendance = 35,500 |referee = [[Graham Barber]] ([[English Football Association|ENG]])|report = }}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;1&quot; align=center|1
+|[[Jon Dahl Tomasson]] 
+|{{fb|DEN}}
+|rowspan=&quot;1&quot; align=center|5
+|-
+|rowspan=&quot;2&quot; align=center|2
+|[[Ionel Ganea]] 
+|{{fb|ROM}}
+|rowspan=&quot;2&quot; align=center|4
+|-
+|[[Adrian Mutu]]
+|{{fb|ROM}}
+|-
+|rowspan=&quot;2&quot; align=center|3
+|[[Sergej Barbarez]]
+|{{fb|BIH}}
+|rowspan=&quot;2&quot; align=center|3
+|-
+|[[Cosmin Contra]]
+|{{fb|ROM}}
+|-
+|rowspan=&quot;8&quot; align=center|4
+|[[Elvir Bolić]]
+|{{fb|BIH}}
+|rowspan=&quot;8&quot; align=center|2
+|-
+|[[Thomas Gravesen]]
+|{{fb|DEN}}
+|-
+|[[Dennis Rommedahl]]
+|{{fb|DEN}}
+|-
+|[[John Arne Riise]]
+|{{fb|NOR}}
+|-
+|[[Ole Gunnar Solskjær]]
+|{{fb|NOR}}
+|-
+|[[Viorel Moldovan]]
+|{{fb|ROM}}
+|-
+|[[Dorinel Munteanu]]
+|{{fb|ROM}}
+|-
+|[[Daniel Pancu]]
+|{{fb|ROM}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|BIH}}
+*[[Zlatan Bajramović]]
+*[[Elvir Baljić]]
+;{{fb|DEN}}
+*[[Jesper Grønkjær]]
+*[[Claus Jensen]]
+*[[Martin Jørgensen]]
+*[[Martin Laursen]]
+*[[Ebbe Sand]]
+{{col-3}}
+;{{fb|NOR}}
+*[[John Carew]]
+*[[Tore André Flo]]
+*[[Steffen Iversen]]
+*[[Claus Lundekvam]]
+*[[Sigurd Rushfeldt]]
+;{{fb|ROM}}
+*[[Florin Bratu]]
+*[[Cristian Chivu]]
+*[[Tiberiu Ghioane]]
+*[[Mirel Rădoi]]
+{{col-3}}
+;Own goals
+*[[Cosmin Contra]] {{fb|ROM}} (for {{fb|DEN}}
+|}
+
+==References==
+*[http://www.uefa.com/competitions/euro2012/history/season=2004/round=1579/group=1455.html UEFA Page]
+*[http://www.rsssf.com/tables/04e-ext.html#grp2 RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2004 qualifying|Group 2]]
+[[Category:2002–03 in Bosnia and Herzegovina football]]
+[[Category:2003–04 in Bosnia and Herzegovina football]]
+[[Category:2002–03 in Danish football]]
+[[Category:Denmark at UEFA Euro 2004|Qual]]
+[[Category:2002–03 in Romanian football]]
+[[Category:2003–04 in Romanian football]]
+[[Category:2002–03 in Luxembourgian football]]
+[[Category:2003–04 in Luxembourgian football]]
+[[Category:2002 in Norwegian football]]
+[[Category:2003 in Norwegian football]]</text>
+      <sha1>aioejy8euex47nt0bnkhgf4tbu7gtul</sha1>
+    </revision>
+  </page>
+</mediawiki>

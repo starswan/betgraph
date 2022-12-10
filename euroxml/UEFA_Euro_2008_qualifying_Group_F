@@ -1,0 +1,733 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group F</title>
+    <ns>0</ns>
+    <id>6885865</id>
+    <revision>
+      <id>723292304</id>
+      <parentid>690569629</parentid>
+      <timestamp>2016-06-02T05:34:37Z</timestamp>
+      <contributor>
+        <username>Chobot</username>
+        <id>259798</id>
+      </contributor>
+      <minor/>
+      <comment>Bot: Automated text replacement  (-Category:UEFA Euro 2004 qualifying +Category:UEFA Euro 2008 qualifying); cosmetic changes</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="26907">Standings and results for '''Group F''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+== Standings ==
+'''Key''':
+* Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]]
+
+{{UEFA Euro 2008 qualifying Group F
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes
+}}
+
+Notes on the qualified teams:
+* Spain secured qualification to the tournament proper on 17 November 2007 following a 3–0 win against Sweden, becoming the tenth team in the whole of the qualification stage to do so
+* Sweden secured qualification to the tournament proper on 21 November 2007 following a 2–1 win against Latvia, becoming the eleventh team in the whole of the qualification stage to do so
+
+== Matches ==
+'''Group F''' fixtures were settled at a meeting between the participants in [[Copenhagen]], [[Denmark]].&lt;ref&gt;{{cite web |author=Lars Berendt, Pia Schou Nielsen and Jacob Wadland |title=Danmark starter og slutter med Island |publisher=DBU |accessdate=3 September 2006|date=14 February 2006 |url=http://dbu.dk/news/newsShow.aspx?id=99015 |language=Danish }}&lt;/ref&gt;
+
+----
+&lt;div id=&quot;Northern Ireland v Iceland&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=15:00 [[UTC+1]]
+|team1={{fb-rt|NIR}}
+|score=0–3
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83709/index.html Report]
+|team2={{fb|ISL}}
+|goals1=
+|goals2=[[Gunnar Heiðar Þorvaldsson|Þorvaldsson]] {{goal|13}}&lt;br /&gt;[[Hermann Hreiðarsson|Hreiðarsson]] {{goal|20}}&lt;br /&gt;[[Eiður Guðjohnsen|Guðjohnsen]] {{goal|37}}
+|stadium=[[Windsor Park]], [[Belfast]]
+|attendance=14,500
+|referee=[[Tommy Skjerven]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Latvia v Sweden&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:00 [[UTC+3]]
+|team1={{fb-rt|LVA}}
+|score=0–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83710/index.html Report]
+|team2={{fb|SWE}}
+|goals1=
+|goals2=[[Kim Källström|Källström]] {{goal|38}}
+|stadium=[[Skonto Stadions]], [[Riga]]
+|attendance=7,500
+|referee=[[Darko Ceferin]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Spain v Liechtenstein&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=22:00 [[UTC+2]]
+|team1={{fb-rt|ESP}}
+|score=4–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83708/index.html Report]
+|team2={{fb|LIE}}
+|goals1=[[Fernando Torres|Torres]] {{goal|20}}&lt;br /&gt;[[David Villa|Villa]] {{goal|45||62}}&lt;br /&gt;[[Luis Javier García Sanz|Luis García]] {{goal|66}}
+|goals2=
+|stadium=[[Estadio Nuevo Vivero]], [[Badajoz]]
+|attendance=14,876
+|referee=[[Ljubomir Krstevski]] ([[Football Federation of Macedonia|Macedonia]]) }}
+----
+&lt;div id=&quot;Sweden v Liechtenstein&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=19:30 [[UTC+2]]
+|team1={{fb-rt|SWE}}
+|score=3–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83712/index.html Report]
+|team2={{fb|LIE}}
+|goals1=[[Marcus Allbäck|Allbäck]] {{goal|2||69}}&lt;br /&gt;[[Markus Rosenberg|Rosenberg]] {{goal|89}}
+|goals2=[[Mario Frick (footballer)|M. Frick]] {{goal|27}}
+|stadium=[[Ullevi]], [[Gothenburg]]
+|attendance=17,735
+|referee=[[Veaceslav Banari]] ([[Football Association of Moldova|Moldova]]) }}
+
+&lt;div id=&quot;Iceland v Denmark&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=18:05 [[UTC+0]]
+|team1={{fb-rt|ISL}}
+|score=0–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83711/index.html Report]
+|team2={{fb|DEN}}
+|goals1=
+|goals2=[[Dennis Rommedahl|Rommedahl]] {{goal|5}}&lt;br /&gt;[[Jon Dahl Tomasson|Tomasson]] {{goal|33}}
+|stadium=[[Laugardalsvöllur]], [[Reykjavík]]
+|attendance=10,007
+|referee=[[Nikolai Ivanov (referee)|Nikolai Ivanov]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Northern Ireland v Spain&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:15 [[UTC+1]]
+|team1={{fb-rt|NIR}}
+|score=3–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83713/index.html Report]
+|team2={{fb|ESP}}
+|goals1=[[David Healy (footballer)|Healy]] {{goal|20||65||80}}
+|goals2=[[Xavi]] {{goal|14}}&lt;br /&gt;[[David Villa|Villa]] {{goal|52}}
+|stadium=[[Windsor Park]], [[Belfast]]
+|attendance=14,500
+|referee=[[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]]) }}
+----
+&lt;div id=&quot;Denmark v Northern Ireland&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|DEN}}
+|score=0–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83715/index.html Report]
+|team2={{fb|NIR}}
+|goals1=
+|goals2=
+|stadium=[[Parken Stadium]], [[Copenhagen]]
+|attendance=41,482
+|referee=[[Konrad Plautz]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Latvia v Iceland&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|LVA}}
+|score=4–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83716/index.html Report]
+|team2={{fb|ISL}}
+|goals1=[[Ģirts Karlsons|Karlsons]] {{goal|14}}&lt;br /&gt;[[Māris Verpakovskis|Verpakovskis]] {{goal|15||25}}&lt;br /&gt;[[Aleksejs Višņakovs|Višņakovs]] {{goal|52}}
+|goals2=
+|stadium=[[Skonto Stadions]], [[Riga]]
+|attendance=7,500
+|referee=[[Alan Kelly (referee)|Alan Kelly]] ([[Football Association of Ireland|Republic of Ireland]]) }}
+
+&lt;div id=&quot;Sweden v Spain&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|SWE}}
+|score=2–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83714/index.html Report]
+|team2={{fb|ESP}}
+|goals1=[[Johan Elmander|Elmander]] {{goal|10}}&lt;br /&gt;[[Marcus Allbäck|Allbäck]] {{goal|82}}
+|goals2=
+|stadium=[[Råsunda Stadion]], [[Solna Municipality|Solna]]
+|attendance=33,056
+|referee=[[Steve Bennett (referee)|Steve Bennett]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Iceland v Sweden&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=18:05 [[UTC+0]]
+|team1={{fb-rt|ISL}}
+|score=1–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83717/index.html Report]
+|team2={{fb|SWE}}
+|goals1=[[Arnar Viðarsson|Viðarsson]] {{goal|6}}
+|goals2=[[Kim Källström|Källström]] {{goal|8}}&lt;br /&gt;[[Christian Wilhelmsson|Wilhelmsson]] {{goal|59}}
+|stadium=[[Laugardalsvöllur]], [[Reykjavík]]
+|attendance=10,000
+|referee=[[Grzegorz Gilewski]] ([[Polish Football Association|Poland]]) }}
+
+&lt;div id=&quot;Liechtenstein v Denmark&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|LIE}}
+|score=0–4
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83718/index.html Report]
+|team2={{fb|DEN}}
+|goals1=
+|goals2=[[Daniel Jensen|D. Jensen]] {{goal|29}}&lt;br /&gt;[[Michael Gravgaard|Gravgaard]] {{goal|32}}&lt;br /&gt;[[Jon Dahl Tomasson|Tomasson]] {{goal|51||64}}
+|stadium=[[Rheinpark]], [[Vaduz]]
+|attendance=2,400
+|referee=[[Ceri Richards (referee)|Ceri Richards]] ([[Football Association of Wales|Wales]]) }}
+
+&lt;div id=&quot;Northern Ireland v Latvia&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|NIR}}
+|score=1–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83719/index.html Report]
+|team2={{fb|LVA}}
+|goals1=[[David Healy (footballer)|Healy]] {{goal|35}}
+|goals2=
+|stadium=[[Windsor Park]], [[Belfast]]
+|attendance=14,500
+|referee=[[Helmut Fleischer]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Liechtenstein v Northern Ireland&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=20:15 [[UTC+1]]
+|team1={{fb-rt|LIE}}
+|score=1–4
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83721/index.html Report]
+|team2={{fb|NIR}}
+|goals1=[[Franz Burgmeier|Burgmeier]] {{goal|90+1}}
+|goals2=[[David Healy (footballer)|Healy]] {{goal|52||75||83}}&lt;br /&gt;[[Grant McCann|McCann]] {{goal|90+2}}
+|stadium=[[Rheinpark]], [[Vaduz]]
+|attendance=4,340
+|referee=[[Oleh Oriekhov]] ([[Football Federation of Ukraine|Ukraine]]) }}
+
+&lt;div id=&quot;Spain v Denmark&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=22:00 [[UTC+1]]
+|team1={{fb-rt|ESP}}
+|score=2–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83720/index.html Report]
+|team2={{fb|DEN}}
+|goals1=[[Fernando Morientes|Morientes]] {{goal|34}}&lt;br /&gt;[[David Villa|Villa]] {{goal|45+1}}
+|goals2=[[Michael Gravgaard|Gravgaard]] {{goal|49}}
+|stadium=[[Santiago Bernabéu Stadium]], [[Madrid]]
+|attendance=75,000
+|referee=[[Massimo Busacca]] ([[Swiss Football Association|Switzerland]]) }}
+----
+&lt;div id=&quot;Liechtenstein v Latvia&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=19:30 [[UTC+2]]
+|team1={{fb-rt|LIE}}
+|score=1–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83723/index.html Report]
+|team2={{fb|LVA}}
+|goals1=[[Mario Frick (footballer)|M. Frick]] {{goal|17}}
+|goals2=
+|stadium=[[Rheinpark]], [[Vaduz]]
+|attendance=1,680
+|referee=[[Serge Gumienny]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Northern Ireland v Sweden&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=19:45 [[UTC+1]]
+|team1={{fb-rt|NIR}}
+|score=2–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83722/index.html Report]
+|team2={{fb|SWE}}
+|goals1=[[David Healy (footballer)|Healy]] {{goal|31||58}}
+|goals2=[[Johan Elmander|Elmander]] {{goal|26}}
+|stadium=[[Windsor Park]], [[Belfast]]
+|attendance=14,500
+|referee=[[Eric Braamhaar]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Spain v Iceland&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=22:00 [[UTC+2]]
+|team1={{fb-rt|ESP}}
+|score=1–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83724/index.html Report]
+|team2={{fb|ISL}}
+|goals1=[[Andrés Iniesta|Iniesta]] {{goal|80}}
+|goals2=
+|stadium=[[ONO Estadi]], [[Palma de Mallorca]]
+|attendance=20,000
+|referee=[[Laurent Duhamel]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Iceland v Liechtenstein&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=16:00 [[UTC+0]]
+|team1={{fb-rt|ISL}}
+|score=1–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83727/index.html Report]
+|team2={{fb|LIE}}
+|goals1=[[Brynjar Gunnarsson|B. Gunnarsson]] {{goal|27}}
+|goals2=[[Raphael Rohrer|Rohrer]] {{goal|69}}
+|stadium=[[Laugardalsvöllur]], [[Reykjavík]]
+|attendance=5,139
+|referee=[[Sten Kaldma]] ([[Estonian Football Association|Estonia]]) }}
+
+&lt;div id=&quot;Denmark v Sweden&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|DEN}}
+|score=0–3&lt;ref&gt;Match [[UEFA Euro 2008 qualifier fan attack|abandoned]] after 89 minutes by the referee with the score level at 3–3. Match awarded 3–0 in favour of Sweden by UEFA disciplinary committee on 8 June 2007. [http://web.archive.org/web/20071216180429/http://www.uefa.com/competitions/euro/news/kind=1/newsid=548881.html UEFA, via Internet Archive]&lt;/ref&gt;&lt;br /&gt;[[UEFA Euro 2008 qualifier fan attack|abandoned]]
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83725/index.html Report]
+|team2={{fb|SWE}}
+|goals1=[[Daniel Agger|Agger]] {{goal|34}} &lt;br&gt; [[Jon Dahl Tomasson|Tomasson]] {{goal|62}} &lt;br&gt; [[Leon Andreasen|Andreasen]] {{goal|75}}
+|goals2=[[Johan Elmander|Elmander]] {{goal|7||26}} &lt;br&gt; [[Petter Hansson|Hansson]] {{goal|23}} 
+|stadium=[[Parken Stadium]], [[Copenhagen]]
+|attendance=42,083
+|referee=[[Herbert Fandel]] ([[German Football Association|Germany]]) }}
+&lt;!--Please read discussion before any major edits, standings info does not to be added here, OR events pertaining to what happened. This is for details of the initial game and final result ONLY--&gt;
+
+&lt;div id=&quot;Latvia v Spain&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|LVA}}
+|score=0–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83726/postmatch/report/index.html Report]
+|team2={{fb|ESP}}
+|goals1=
+|goals2=[[Artūrs Zakreševskis|Zakreševskis]] {{goal|45|o.g.}}&lt;br /&gt;[[Xavi]] {{goal|60}}
+|stadium=[[Skonto Stadions]], [[Riga]]
+|attendance=10,000
+|referee=[[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]]) }}
+----
+&lt;div id=&quot;Sweden v Iceland&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|SWE}}
+|score=5–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83729/index.html Report]
+|team2={{fb|ISL}}
+|goals1=[[Marcus Allbäck|Allbäck]] {{goal|11||51}}&lt;br /&gt;[[Anders Svensson (footballer, born 1976)|A. Svensson]] {{goal|42}}&lt;br /&gt;[[Olof Mellberg|Mellberg]] {{goal|45}}&lt;br /&gt;[[Markus Rosenberg|Rosenberg]] {{goal|50}}
+|goals2=
+|stadium=[[Råsunda Stadion]], [[Solna Municipality|Solna]]
+|attendance=33,338
+|referee=[[Alain Hamer]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Liechtenstein v Spain&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|LIE}}
+|score=0–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83728/index.html Report]
+|team2={{fb|ESP}}
+|goals1=
+|goals2=[[David Villa|Villa]] {{goal|8||14}}
+|stadium=[[Rheinpark]], [[Vaduz]]
+|attendance=5,739
+|referee=[[Nikolai Ivanov (referee)|Nikolai Ivanov]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Latvia v Denmark&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|LVA}}
+|score=0–2
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83730/index.html Report]
+|team2={{fb|DEN}}
+|goals1=
+|goals2=[[Dennis Rommedahl|Rommedahl]] {{goal|15||17}}
+|stadium=[[Skonto Stadions]], [[Riga]]
+|attendance=7,500
+|referee=[[Matteo Trefoloni]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Northern Ireland v Liechtenstein&quot;&gt;{{footballbox
+|date=22 August 2007
+|time=19:45 [[UTC+1]]
+|team1={{fb-rt|NIR}}
+|score=3–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83749/index.html Report]
+|team2={{fb|LIE}}
+|goals1=[[David Healy (footballer)|Healy]] {{goal|5||35}}&lt;br /&gt;[[Kyle Lafferty|Lafferty]] {{goal|56}}
+|goals2=[[Mario Frick (footballer)|M. Frick]] {{goal|89}}
+|stadium=[[Windsor Park]], [[Belfast]]
+|attendance=14,500
+|referee=[[Radek Matějek]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+----
+&lt;div id=&quot;Latvia v Northern Ireland&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=19:15 [[UTC+3]]
+|team1={{fb-rt|LVA}}
+|score=1–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83732/index.html Report]
+|team2={{fb|NIR}}
+|goals1=[[Chris Baird|Baird]] {{goal|56|o.g.}}
+|goals2=
+|stadium=[[Skonto Stadions]], [[Riga]]
+|attendance=7,500
+|referee=[[Pedro Proença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Sweden v Denmark&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|SWE}}
+|score=0–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83731/index.html Report]
+|team2={{fb|DEN}}
+|goals1=
+|goals2=
+|stadium=[[Råsunda Stadium]], [[Solna Municipality|Solna]]
+|attendance=33,082
+|referee=[[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Iceland v Spain&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=20:00 [[UTC+0]]
+|team1={{fb-rt|ISL}}
+|score=1–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83733/index.html Report]
+|team2={{fb|ESP}}
+|goals1=[[Emil Hallfreðsson|Hallfreðsson]] {{goal|40}}
+|goals2=[[Andrés Iniesta|Iniesta]] {{goal|86}}
+|stadium=[[Laugardalsvöllur]], [[Reykjavík]]
+|attendance=7,000
+|referee=[[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Denmark v Liechtenstein&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|DEN}}
+|score=4–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83736/index.html Report]
+|team2={{fb|LIE}}
+|goals1=[[Morten Nordstrand|Nordstrand]] {{goal|3||36}}&lt;br /&gt;[[Martin Laursen|M. Laursen]] {{goal|12}}&lt;br /&gt;[[Jon Dahl Tomasson|Tomasson]] {{goal|18}}
+|goals2=
+|stadium=[[NRGi Park]], [[Aarhus]]&lt;ref name=&quot;denmark&quot;&gt;Denmark required to play two qualifying games at least 140km away from [[Copenhagen]] as punishment for the abandonment of their previous home match.&lt;/ref&gt;
+|attendance=20,005
+|referee=[[Mark Clattenburg]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Iceland v Northern Ireland&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=18:05 [[UTC+0]]
+|team1={{fb-rt|ISL}}
+|score=2–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83734/index.html Report]
+|team2={{fb|NIR}}
+|goals1=[[Ármann Björnsson|Björnsson]] {{goal|6}}&lt;br /&gt;[[Keith Gillespie|Gillespie]] {{goal|90+1|o.g.}}
+|goals2=[[David Healy (footballer)|Healy]] {{goal|72|pen.}}
+|stadium=[[Laugardalsvöllur]], [[Reykjavík]]
+|attendance=2,500
+|referee=[[Yuri Baskakov]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Spain v Latvia&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=22:00 [[UTC+2]]
+|team1={{fb-rt|ESP}}
+|score=2–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83735/index.html Report]
+|team2={{fb|LVA}}
+|goals1=[[Xavi]] {{goal|13}}&lt;br /&gt;[[Fernando Torres|Torres]] {{goal|86}}
+|goals2=
+|stadium=[[Estadio Carlos Tartiere]], [[Oviedo]]
+|attendance=25,000
+|referee=[[Alon Yefet]] ([[Israel Football Association|Israel]]) }}
+----
+&lt;div id=&quot;Iceland v Latvia&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=16:00 [[UTC+0]]
+|team1={{fb-rt|ISL}}
+|score=2–4
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83739/index.html Report]
+|team2={{fb|LVA}}
+|goals1=[[Eiður Guðjohnsen|Guðjohnsen]] {{goal|4||52}}
+|goals2=[[Oskars Kļava|Kļava]] {{goal|27}}&lt;br /&gt;[[Juris Laizāns|Laizāns]] {{goal|31}}&lt;br /&gt;[[Māris Verpakovskis|Verpakovskis]] {{goal|37||46}}
+|stadium=[[Laugardalsvöllur]], [[Reykjavík]]
+|attendance=5,865
+|referee=[[Mike Dean (referee)|Mike Dean]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Liechtenstein v Sweden&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|LIE}}
+|score=0–3
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83738/index.html Report]
+|team2={{fb|SWE}}
+|goals1=
+|goals2=[[Fredrik Ljungberg|Ljungberg]] {{goal|19}}&lt;br /&gt;[[Christian Wilhelmsson|Wilhelmsson]] {{goal|29}}&lt;br /&gt;[[Anders Svensson (footballer, born 1976)|A. Svensson]] {{goal|56}}
+|stadium=[[Rheinpark]], [[Vaduz]]
+|attendance=4,131
+|referee=[[Paolo Dondarini]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Denmark v Spain&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|DEN}}
+|score=1–3
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83737/index.html Report]
+|team2={{fb|ESP}}
+|goals1=[[Jon Dahl Tomasson|Tomasson]] {{goal|87}}
+|goals2=[[Raúl Tamudo|Tamudo]] {{goal|14}}&lt;br /&gt;[[Sergio Ramos|Ramos]] {{goal|40}}&lt;br /&gt;[[Albert Riera|Riera]] {{goal|89}}
+|stadium=[[NRGi Park]], [[Aarhus]]&lt;ref name=&quot;denmark&quot;/&gt;
+|attendance=19,849
+|referee=[[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]]) }}
+----
+&lt;div id=&quot;Denmark v Latvia&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|DEN}}
+|score=3–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83742/index.html Report]
+|team2={{fb|LVA}}
+|goals1=[[Jon Dahl Tomasson|Tomasson]] {{goal|7|pen.}}&lt;br /&gt;[[Ulrik Laursen|U. Laursen]] {{goal|27}}&lt;br /&gt;[[Dennis Rommedahl|Rommedahl]] {{goal|90}}
+|goals2=[[Kaspars Gorkšs|Gorkšs]] {{goal|80}}
+|stadium=[[Parken Stadium]], [[Copenhagen]]
+|attendance=19,004
+|referee=[[Cüneyt Çakır]] ([[Turkish Football Federation|Turkey]]) }}
+
+&lt;div id=&quot;Liechtenstein v Iceland&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|LIE}}
+|score=3–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83741/index.html Report]
+|team2={{fb|ISL}}
+|goals1= [[Mario Frick (footballer)|Frick]] {{goal|28}} &lt;br&gt; [[Thomas Beck (footballer)|Beck]] {{goal|80||82}}
+|goals2=
+|stadium=[[Rheinpark]], [[Vaduz]]
+|attendance=2,589
+|referee=[[Christoforos Zografos]] ([[Hellenic Football Federation|Greece]]) }}
+
+&lt;div id=&quot;Sweden v Northern Ireland&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|SWE}}
+|score=1–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83740/index.html Report]
+|team2={{fb|NIR}}
+|goals1=[[Olof Mellberg|Mellberg]] {{goal|15}}
+|goals2=[[Kyle Lafferty|Lafferty]] {{goal|72}}
+|stadium=[[Råsunda Stadion]], [[Solna Municipality|Solna]]
+|attendance=33,112
+|referee=[[Bertrand Layec]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Latvia v Liechtenstein&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=18:00 [[UTC+2]]
+|team1={{fb-rt|LVA}}
+|score=4–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83745/index.html Report]
+|team2={{fb|LIE}}
+|goals1=[[Ģirts Karlsons|Karlsons]] {{goal|14}}&lt;br /&gt;[[Māris Verpakovskis|Verpakovskis]] {{goal|30}}&lt;br /&gt;[[Juris Laizāns|Laizāns]] {{goal|63}}&lt;br /&gt;[[Aleksejs Višņakovs|Višņakovs]] {{goal|87}}
+|goals2=[[Dzintars Zirnis|Zirnis]] {{goal|13|o.g.}}
+|stadium=[[Skonto Stadions]], [[Riga]]
+|attendance=4,800
+|referee=[[Svein Oddvar Moen]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Northern Ireland v Denmark&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=19:45 [[UTC+0]]
+|team1={{fb-rt|NIR}}
+|score=2–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83744/index.html Report]
+|team2={{fb|DEN}}
+|goals1=[[Warren Feeney|Feeney]] {{goal|62}}&lt;br /&gt;[[David Healy (footballer)|Healy]] {{goal|80}}
+|goals2=[[Nicklas Bendtner|Bendtner]] {{goal|51}}
+|stadium=[[Windsor Park]], [[Belfast]]
+|attendance=14,500
+|referee=[[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Spain v Sweden&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=22:00 [[UTC+1]]
+|team1={{fb-rt|ESP}}
+|score=3–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83743/index.html Report]
+|team2={{fb|SWE}}
+|goals1=[[Joan Capdevila|Capdevila]] {{goal|14}}&lt;br /&gt;[[Andrés Iniesta|Iniesta]] {{goal|39}}&lt;br /&gt;[[Sergio Ramos|Ramos]] {{goal|65}}
+|goals2=
+|stadium=[[Santiago Bernabéu Stadium]], [[Madrid]]
+|attendance=75,000
+|referee=[[Roberto Rosetti]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Denmark v Iceland&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|DEN}}
+|score=3–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83747/index.html Report]
+|team2={{fb|ISL}}
+|goals1=[[Nicklas Bendtner|Bendtner]] {{goal|34}}&lt;br /&gt;[[Jon Dahl Tomasson|Tomasson]] {{goal|44}}&lt;br /&gt;[[Thomas Kahlenberg|Kahlenberg]] {{goal|59}}
+|goals2=
+|stadium=[[Parken Stadium]], [[Copenhagen]]
+|attendance=15,393
+|referee=[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Spain v Northern Ireland&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=19:00 [[UTC+0]]
+|team1={{fb-rt|ESP}}
+|score=1–0
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83746/index.html Report]
+|team2={{fb|NIR}}
+|goals1=[[Xavi]] {{goal|52}}
+|goals2=
+|stadium=[[Estadio Gran Canaria]], [[Las Palmas de Gran Canaria|Las Palmas]]
+|attendance=30,000
+|referee=[[Herbert Fandel]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Sweden v Latvia&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|SWE}}
+|score=2–1
+|report=[http://www.uefa.com/uefaeuro/season=2008/matches/round=2241/match=83748/index.html Report]
+|team2={{fb|LVA}}
+|goals1=[[Marcus Allbäck|Allbäck]] {{goal|1}}&lt;br /&gt;[[Kim Källström|Källström]] {{goal|57}}
+|goals2=[[Juris Laizāns|Laizāns]] {{goal|26}}
+|stadium=[[Råsunda Stadion]], [[Solna Municipality|Solna]]
+|attendance=26,128
+|referee=[[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+
+== Goalscorers ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| rowspan=&quot;1&quot;|1
+| align=&quot;left&quot;| [[David Healy (footballer)|David Healy]]
+| align=&quot;left&quot;| {{fb|NIR}}
+| rowspan=&quot;1&quot;|13
+|-
+| rowspan=&quot;2&quot;|2
+| align=&quot;left&quot;| [[Jon Dahl Tomasson]]*
+| align=&quot;left&quot;| {{fb|DEN}}
+| rowspan=&quot;2&quot;|7
+|-
+| align=&quot;left&quot;| [[David Villa]]
+| align=&quot;left&quot;| {{fb|ESP}}
+|-
+| rowspan=&quot;1&quot;|4
+| align=&quot;left&quot;| [[Marcus Allbäck]]
+| align=&quot;left&quot;| {{fb|SWE}}
+| rowspan=&quot;1&quot;|6
+|-
+| rowspan=&quot;1&quot;|5
+| align=&quot;left&quot;| [[Māris Verpakovskis]]
+| align=&quot;left&quot;| {{fb|LVA}}
+| rowspan=&quot;1&quot;|5
+|-
+| rowspan=&quot;3&quot;|6
+| align=&quot;left&quot;| [[Mario Frick (footballer)|Mario Frick]]
+| align=&quot;left&quot;| {{fb|LIE}}
+| rowspan=&quot;3&quot;|4
+|-
+| align=&quot;left&quot;| [[Dennis Rommedahl]]
+| align=&quot;left&quot;| {{fb|DEN}}
+|-
+| align=&quot;left&quot;| [[Xavi]]
+| align=&quot;left&quot;| {{fb|ESP}}
+|-
+| rowspan=&quot;4&quot;|9
+| align=&quot;left&quot;| [[Eiður Guðjohnsen]]
+| align=&quot;left&quot;| {{fb|ISL}}
+| rowspan=&quot;4&quot;|3
+|-
+| align=&quot;left&quot;| [[Andrés Iniesta]]
+| align=&quot;left&quot;| {{fb|ESP}}
+|-
+| align=&quot;left&quot;| [[Kim Källström]]
+| align=&quot;left&quot;| {{fb|SWE}}
+|-
+| align=&quot;left&quot;| [[Juris Laizāns]]
+| align=&quot;left&quot;| {{fb|LVA}}
+|-
+|}
+
+;2 goals
+* '''{{fb|DEN}}:''' [[Nicklas Bendtner]], [[Michael Gravgaard]], [[Morten Nordstrand]]
+* '''{{fb|LVA}}:''' [[Ģirts Karlsons]], [[Aleksejs Višņakovs]]
+* '''{{fb|LIE}}:''' [[Thomas Beck (footballer)|Thomas Beck]]
+* '''{{fb|NIR}}:''' [[Kyle Lafferty]]
+* '''{{fb|ESP}}:''' [[Sergio Ramos]], [[Fernando Torres]]
+* '''{{fb|SWE}}:''' [[Johan Elmander]]*, [[Olof Mellberg]], [[Markus Rosenberg]], [[Anders Svensson (footballer, born 1976)|Anders Svensson]], [[Christian Wilhelmsson]]
+;1 goal
+* '''{{fb|DEN}}:''' [[Daniel Jensen]], [[Thomas Kahlenberg]], [[Martin Laursen]], [[Ulrik Laursen]]
+* '''{{fb|ISL}}:''' [[Ármann Smári Björnsson]], [[Brynjar Gunnarsson]], [[Emil Hallfreðsson]], [[Hermann Hreiðarsson]], [[Gunnar Heiðar Þorvaldsson]], [[Arnar Viðarsson]]
+* '''{{fb|LVA}}:''' [[Kaspars Gorkšs]], [[Oskars Kļava]]
+* '''{{fb|LIE}}:''' [[Franz Burgmeier]], [[Raphael Rohrer]]
+* '''{{fb|NIR}}:''' [[Warren Feeney]], [[Grant McCann]]
+* '''{{fb|ESP}}:''' [[Joan Capdevila]], [[Luis Javier García Sanz|Luis García]], [[Fernando Morientes]], [[Albert Riera]], [[Raúl Tamudo]]
+* '''{{fb|SWE}}:''' [[Fredrik Ljungberg]]
+;Own goals
+* '''{{fb|LVA}}:''' [[Dzintars Zirnis]] (for {{fb|LIE}})
+* '''{{fb|NIR}}:''' [[Chris Baird]] (for {{fb|LVA}}), [[Keith Gillespie]] (for {{fb|ISL}})
+
+(*) Goals scored in the Denmark vs Sweden match are not included in goalscoring totals as the match was abandoned in the 89th minute and the score annulled up to that point
+
+== References ==
+{{Reflist}}
+* [http://www.uefa.com/uefaeuro/season=2008/standings/round=2241/group=2635/index.html UEFA website]
+
+{{UEFA Euro 2008 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group F]]
+[[Category:2006 in Swedish football]]
+[[Category:2007 in Swedish football]]
+[[Category:2006–07 in Northern Ireland football]]
+[[Category:2007–08 in Northern Ireland football]]
+[[Category:2006–07 in Spanish football]]
+[[Category:Spain at UEFA Euro 2008|qual]]
+[[Category:2006 in Latvian football]]
+[[Category:2007 in Latvian football]]
+[[Category:2006–07 in Danish football]]
+[[Category:Denmark at UEFA Euro 2008|Qual]]
+[[Category:2006 in Icelandic football]]
+[[Category:2007 in Icelandic football]]
+[[Category:2006–07 in Liechtenstein football]]
+[[Category:2007–08 in Liechtenstein football]]</text>
+      <sha1>sg3l72kamnsnv5t7gzqoin89mcrmgfg</sha1>
+    </revision>
+  </page>
+</mediawiki>

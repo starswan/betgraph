@@ -1,0 +1,929 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 Group D</title>
+    <ns>0</ns>
+    <id>14524320</id>
+    <revision>
+      <id>704924290</id>
+      <parentid>704924136</parentid>
+      <timestamp>2016-02-14T13:01:27Z</timestamp>
+      <contributor>
+        <ip>78.87.227.212</ip>
+      </contributor>
+      <comment>/* Russia vs Sweden */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="28312">&lt;noinclude&gt;
+[[File:España Suecia inicio.jpg|thumb|The beginning of the match between [[Sweden national football team|Sweden]] and [[Spain national football team|Spain]].]]
+'''Group D of the 2008 UEFA European Championships''' is one of four groups of competing nations at [[UEFA Euro 2008]]. The first round of matches were played on 10 June, with the final round scheduled for 18 June. All six group matches were played at venues in [[Austria]], in [[Innsbruck]] and [[Salzburg]]. The group is composed of [[UEFA Euro 2004]] winners and reigning Champions [[Greece national football team|Greece]], as well as [[Sweden national football team|Sweden]], [[Spain national football team|Spain]] and [[Russia national football team|Russia]]. Greece, Spain and Russia had all been drawn together in the same group in the [[UEFA Euro 2004|previous European Championship]].
+
+Following a 4–1 win over Russia in their first game, Spain secured top spot in the group with a 2–1 win over Sweden in their second. Their qualification for the quarter-finals was assured after Russia beat Greece later that day, condemning the title holders to the bottom position in the group. The second quarter-final spot was to be decided by the match between Sweden and Russia, with Sweden only needing to avoid defeat to go through. However, Russia scored a goal in each half to beat Sweden 2–0 and qualify for the quarter-finals. Meanwhile, despite going behind towards the end of the first half, Spain scored two second half goals, one coming three minutes before full time, to become the third team in the tournament to qualify for the quarter-finals with a 100% group stage record.
+&lt;/noinclude&gt;
+
+{{TOC right}}
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+!Key to colours in group tables
+|- style=&quot;background:#cfc&quot;
+|Team progressed to the [[UEFA Euro 2012 knockout phase#Quarter-finals|quarter-finals]]
+|}
+
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=175 |Team
+!width=20 abbr=&quot;Played&quot; |{{Tooltip| Pld | total games PLAYED}}
+!width=20 abbr=&quot;Won&quot; |{{Tooltip| W | total games WON}}
+!width=20 abbr=&quot;Drawn&quot; |{{Tooltip| D | total games DRAWN (tied)}}
+!width=20 abbr=&quot;Lost&quot; |{{Tooltip| L | total games LOST}}
+!width=20 abbr=&quot;Goals for&quot; |{{Tooltip| GF | total goals scored (GOALS FOR)}}
+!width=20 abbr=&quot;Goals against&quot; |{{Tooltip| GA | total goals conceded (GOALS AGAINST)}}
+!width=20 abbr=&quot;Goal difference&quot; |{{Tooltip| GD | GOALS DIFFERENCE (GF-GA)}}
+!width=20 abbr=&quot;Points&quot; |{{Tooltip| Pts | total POINTS accumulated (3W+D)}}
+|- bgcolor=#ccffcc
+|align=&quot;left&quot;|{{fb|ESP}}
+|3||3||0||0||8||3||+5||'''9'''
+|- bgcolor=#ccffcc
+|align=&quot;left&quot;|{{fb|RUS}}
+|3||2||0||1||4||4||0||'''6'''
+|-
+|align=&quot;left&quot;|{{fb|SWE}}
+|3||1||0||2||3||4||&amp;minus;1||'''3'''
+|-
+|align=&quot;left&quot;|{{fb|GRE}}
+|3||0||0||3||1||5||&amp;minus;4||'''0'''
+|}&lt;noinclude&gt;
+
+''All times local ([[Central European Time#Central European Summer Time|UTC+2]])''
+
+{{clear}}
+
+==Spain vs Russia==
+{{Football box
+| date         = {{Start date|2008|6|10|df=y}}
+| time         = 18:00
+| team1        = {{fb-rt|ESP}}
+| team2        = {{fb|RUS}}
+| score        = 4–1
+| goals1       = [[David Villa|Villa]] {{goal|20||44||75}}&lt;br /&gt;[[Cesc Fàbregas|Fàbregas]] {{goal|90+1}}
+| goals2       = [[Roman Pavlyuchenko|Pavlyuchenko]] {{goal|86}}
+| stadium      = [[Tivoli-Neu]], [[Innsbruck]]
+| attendance   = 30,772&lt;ref name=&quot;esp-rus report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD04_300689_ESP_RUS_FullReport.pdf |title=Full-time Spain-Russia |work=Union of European Football Associations |format=PDF |date=10 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Konrad Plautz]] ([[Austrian Football Association|Austria]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300689/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _spainH
+ |pattern_b  = _Spain08
+ |pattern_ra = _spainH
+ |pattern_sh = _esp_08
+ |pattern_so =
+ |leftarm    = d40000
+ |body       = d40000
+ |rightarm   = d40000
+ |shorts     = 000033
+ |socks      = 000033
+ |title      = Spain&lt;ref name=&quot;esp-rus_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD04_300689_ESP_RUS_TactLineUps.pdf |title=Team Line-ups – Group D – Spain-Russia |work=Union of European Football Associations |format=PDF |date=10 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+| pattern_la =
+| pattern_b  = _Russia 2008_away
+| pattern_ra =
+| leftarm    = FFFFFF
+| body       = FFFFFF
+| rightarm   = FFFFFF
+| shorts     = FFFFFF
+| socks      = FFFFFF
+ |title      = Russia&lt;ref name=&quot;esp-rus_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Iker Casillas]] ([[Captain (association football)|c]])
+|-
+|RB ||'''15'''||[[Sergio Ramos]]
+|-
+|CB ||'''5''' ||[[Carles Puyol]]
+|-
+|CB ||'''4''' ||[[Carlos Marchena]]
+|-
+|LB ||'''11'''||[[Joan Capdevila]]
+|-
+|RM ||'''21'''||[[David Silva]] || || {{suboff|77}}
+|-
+|CM ||'''19'''||[[Marcos Senna]]
+|-
+|CM ||'''8''' ||[[Xavi]]
+|-
+|LM ||'''6''' ||[[Andrés Iniesta]] || || {{suboff|63}}
+|-
+|CF ||'''7''' ||[[David Villa]]
+|-
+|CF ||'''9''' ||[[Fernando Torres]] || || {{suboff|54}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''10'''||[[Cesc Fàbregas]] || || {{subon|54}}
+|-
+|MF ||'''12'''||[[Santi Cazorla]] || || {{subon|63}}
+|-
+|MF ||'''14'''||[[Xabi Alonso]] || || {{subon|77}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Luis Aragonés]]
+|}
+|valign=&quot;top&quot;|[[File:ESP-RUS 2008-06-10.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Igor Akinfeev]]
+|-
+|RB ||'''22'''||[[Aleksandr Anyukov]]
+|-
+|CB ||'''14'''||[[Roman Shirokov]]
+|-
+|CB ||'''8''' ||[[Denis Kolodin]]
+|-
+|LB ||'''18'''||[[Yuri Zhirkov]]
+|-
+|DM ||'''11'''||[[Sergei Semak]] ([[Captain (association football)|c]])
+|-
+|CM ||'''17'''||[[Konstantin Zyryanov]]
+|-
+|CM ||'''20'''||[[Igor Semshov]] || || {{suboff|58}}
+|-
+|RW ||'''21'''||[[Dmitri Sychev]] || || {{suboff|46}}
+|-
+|LW ||'''15'''||[[Diniyar Bilyaletdinov]]
+|-
+|CF ||'''19'''||[[Roman Pavlyuchenko]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''23'''||[[Vladimir Bystrov]] || || {{subon|46}} || {{suboff|70}}
+|-
+|MF ||'''7''' ||[[Dmitri Torbinski]] || || {{subon|58}}
+|-
+|FW ||'''6''' ||[[Roman Adamov]] || || || {{subon|70}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|NED}} [[Guus Hiddink]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:''' 
+&lt;br /&gt;[[David Villa]] (Spain)&lt;ref name=&quot;esp-rus report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Egon Bereuter ([[Austrian Football Association|Austria]])
+&lt;br /&gt;Markus Mayr ([[Austrian Football Association|Austria]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Grzegorz Gilewski]] ([[Polish Football Association|Poland]])
+|}
+
+==Greece vs Sweden==
+{{Football box
+| date         = {{Start date|2008|6|10|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|GRE}}
+| team2        = {{fb|SWE}}
+| score        = 0–2
+| goals2       = [[Zlatan Ibrahimović|Ibrahimović]] {{goal|67}}&lt;br /&gt;[[Petter Hansson|Hansson]] {{goal|72}}
+| stadium      = [[Red Bull Arena (Salzburg)|Wals-Siezenheim Stadium]], [[Salzburg]]
+| attendance   = 31,063&lt;ref name=&quot;gre-swe report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD04_300688_GRE_SWE_FullReport.pdf |title=Full-time Greece-Sweden |work=Union of European Football Associations |format=PDF |date=10 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Massimo Busacca]] ([[Swiss Football Association|Switzerland]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300688/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _adidasstripesonwhite
+ |pattern_b  = _Hellas08a
+ |pattern_ra = _adidasstripesonwhite
+ |pattern_sh = _adidasonwhite
+ |pattern_so = _3_stripes_blue
+ |leftarm    = 30679D
+ |body       = FFFFFF
+ |rightarm   = 30679D
+ |shorts     = 30679D
+ |socks      = FFFFFF
+ |title      = Greece&lt;ref name=&quot;gre-swe_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD04_300688_GRE_SWE_TactLineUps.pdf |title=Team Line-ups – Group D – Greece-Sweden |work=Union of European Football Associations |format=PDF |date=10 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _blue sleeve seams-grey
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FFF01C
+ |body       = FFF01C
+ |rightarm   = FFF01C
+ |shorts     = 1860a2
+ |socks      = FFF01C
+ |title      = Sweden&lt;ref name=&quot;gre-swe_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Antonios Nikopolidis]] 
+|-
+|RB ||'''2''' ||[[Giourkas Seitaridis]] || {{yel|51}}
+|-
+|CB ||'''16'''||[[Sotirios Kyrgiakos]]
+|-
+|CB ||'''19'''||[[Paraskevas Antzas]]
+|-
+|CB ||'''5''' ||[[Traianos Dellas]] || || {{suboff|70}}
+|-
+|LB ||'''15'''||[[Vasilis Torosidis]] || {{yel|61}}
+|-
+|RM ||'''9''' ||[[Angelos Charisteas]] || {{yel|1}}
+|-
+|CM ||'''6''' ||[[Angelos Basinas]] ([[Captain (association football)|c]])
+|-
+|CM ||'''21'''||[[Kostas Katsouranis]]
+|-
+|LM ||'''10'''||[[Giorgos Karagounis]]
+|-
+|CF ||'''17'''||[[Theofanis Gekas]] || || {{suboff|46}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''7''' ||[[Georgios Samaras]] || || {{subon|46}}
+|-
+|FW ||'''20'''||[[Ioannis Amanatidis]] || || {{subon|70}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|GER}} [[Otto Rehhagel]]
+|}
+|valign=&quot;top&quot;|[[File:GRE-SWE 2008-06-10.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Andreas Isaksson]]
+|-
+|RB ||'''7''' ||[[Niclas Alexandersson]] || || {{suboff|74}}
+|-
+|CB ||'''3''' ||[[Olof Mellberg]]
+|-
+|CB ||'''4''' ||[[Petter Hansson]]
+|-
+|LB ||'''2''' ||[[Mikael Nilsson (footballer born 1978)|Mikael Nilsson]]
+|-
+|DM ||'''8''' ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] 
+|-
+|RM ||'''21'''||[[Christian Wilhelmsson]] || || {{suboff|78}}
+|-
+|LM ||'''9''' ||[[Fredrik Ljungberg]] ([[Captain (association football)|c]])
+|-
+|AM ||'''19'''||[[Daniel Andersson (footballer born 1977)|Daniel Andersson]]
+|-
+|CF ||'''10'''||[[Zlatan Ibrahimović]] || || {{suboff|71}}
+|-
+|CF ||'''17'''||[[Henrik Larsson]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''11'''||[[Johan Elmander]] || || {{subon|71}}
+|-
+|DF ||'''5''' ||[[Fredrik Stoor]] || || {{subon|74}}
+|-
+|FW ||'''22'''||[[Markus Rosenberg]] || || {{subon|78}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Lars Lagerbäck]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Zlatan Ibrahimović]] (Sweden)&lt;ref name=&quot;gre-swe report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Matthias Arnet ([[Swiss Football Association|Switzerland]])
+&lt;br /&gt;Stéphane Cuhat ([[Swiss Football Association|Switzerland]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Ivan Bebek]] ([[Croatian Football Federation|Croatia]])
+|}
+
+==Sweden vs Spain==
+{{Football box
+| date         = {{Start date|2008|6|14|df=y}}
+| time         = 18:00
+| team1        = {{fb-rt|SWE}}
+| team2        = {{fb|ESP}}
+| score        = 1–2
+| goals1       = [[Zlatan Ibrahimović|Ibrahimović]] {{goal|34}}
+| goals2       = [[Fernando Torres|Torres]] {{goal|15}}&lt;br /&gt;[[David Villa|Villa]] {{goal|90+2}}
+| stadium      = [[Tivoli-Neu]], [[Innsbruck]]
+| attendance   = 30,772&lt;ref name=&quot;swe-esp report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD08_300697_SWE_ESP_FullReport.pdf |title=Full-time report Sweden-Spain |work=Union of European Football Associations |format=PDF |date=14 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300697/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _blue sleeve seams-grey
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FFF01C
+ |body       = FFF01C
+ |rightarm   = FFF01C
+ |shorts     = 1860a2
+ |socks      = FFF01C
+ |title      = Sweden&lt;ref name=&quot;swe-esp_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD08_300697_SWE_ESP_TactLineUps.pdf |title=Team Line-ups – Group D – Sweden-Spain |work=Union of European Football Associations |format=PDF |date=14 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _spainH
+ |pattern_b  = _Spain08
+ |pattern_ra = _spainH
+ |pattern_sh = _esp_08
+ |pattern_so =
+ |leftarm    = d40000
+ |body       = d40000
+ |rightarm   = d40000
+ |shorts     = 000033
+ |socks      = 000033
+ |title      = Spain&lt;ref name=&quot;swe-esp_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Andreas Isaksson]]
+|-
+|RB ||'''5''' ||[[Fredrik Stoor]]
+|-
+|CB ||'''3''' ||[[Olof Mellberg]]
+|-
+|CB ||'''4''' ||[[Petter Hansson]]
+|-
+|LB ||'''2''' ||[[Mikael Nilsson (footballer born 1978)|Mikael Nilsson]]
+|-
+|RM ||'''11'''||[[Johan Elmander]] || || {{suboff|79}}
+|-
+|CM ||'''19'''||[[Daniel Andersson (footballer born 1977)|Daniel Andersson]]
+|-
+|CM ||'''8''' ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]] || {{yel|55}} 
+|-
+|LM ||'''9''' ||[[Fredrik Ljungberg]] ([[Captain (association football)|c]])
+|-
+|CF ||'''17'''||[[Henrik Larsson]] || || {{suboff|87}}
+|-
+|CF ||'''10'''||[[Zlatan Ibrahimović]] || || {{suboff|46}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''22'''||[[Markus Rosenberg]] || || {{subon|46}}
+|-
+|MF ||'''18'''||[[Sebastian Larsson]] || || {{subon|79}}
+|-
+|MF ||'''16'''||[[Kim Källström]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Lars Lagerbäck]]
+|}
+|valign=&quot;top&quot;|[[File:SWE-ESP 2008-06-14.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Iker Casillas]] ([[Captain (association football)|c]])
+|-
+|RB ||'''15'''||[[Sergio Ramos]]
+|-
+|CB ||'''4''' ||[[Carlos Marchena]] || {{yel|53}}
+|-
+|CB ||'''5''' ||[[Carles Puyol]] || || {{suboff|24}}
+|-
+|LB ||'''11'''||[[Joan Capdevila]]
+|-
+|RM ||'''6''' ||[[Andrés Iniesta]] || || {{suboff|59}}
+|-
+|CM ||'''19'''||[[Marcos Senna]]
+|-
+|CM ||'''8''' ||[[Xavi]] || || {{suboff|59}}
+|-
+|LM ||'''21'''||[[David Silva]]
+|-
+|CF ||'''7''' ||[[David Villa]]
+|-
+|CF ||'''9''' ||[[Fernando Torres]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''2''' ||[[Raúl Albiol]] || || {{subon|24}}
+|-
+|MF ||'''10'''||[[Cesc Fàbregas]] || || {{subon|59}}
+|-
+|MF ||'''12'''||[[Santi Cazorla]] || || {{subon|59}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Luis Aragonés]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[David Villa]] (Spain)&lt;ref name=&quot;swe-esp report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Adriaan Inia ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;Hans ten Hoove ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]])
+|}
+
+==Greece vs Russia==
+{{Football box
+| date         = {{Start date|2008|6|14|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|GRE}}
+| team2        = {{fb|RUS}}
+| score        = 0–1
+| goals2       = [[Konstantin Zyryanov|Zyryanov]] {{goal|33}}
+| stadium      = [[Red Bull Arena (Salzburg)|Wals-Siezenheim Stadium]], [[Salzburg]]
+| attendance   = 31,063&lt;ref name=&quot;gre-rus report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD08_300696_GRE_RUS_FullReport.pdf |title=Full-time report Greece-Russia |work=Union of European Football Associations |format=PDF |date=14 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Roberto Rosetti]] ([[Italian Football Federation|Italy]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300696/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _adidasstripesonwhite
+ |pattern_b  = _Hellas08a
+ |pattern_ra = _adidasstripesonwhite
+ |pattern_sh = _adidasonwhite
+ |pattern_so = _3_stripes_blue
+ |leftarm    = 30679D
+ |body       = FFFFFF
+ |rightarm   = 30679D
+ |shorts     = 30679D
+ |socks      = FFFFFF
+ |title      = Greece&lt;ref name=&quot;gre-rus_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD08_300696_GRE_RUS_TactLineUps.pdf |title=Team Line-ups – Group D – Greece-Russia |work=Union of European Football Associations |format=PDF |date=14 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+| pattern_la =
+| pattern_b  = _Russia 2008
+| pattern_ra =
+| leftarm    = FF0000
+| body       = FF0000
+| rightarm   = FF0000
+| shorts     = FF0000
+| socks      = FF0000
+ |title      = Russia&lt;ref name=&quot;gre-rus_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Antonios Nikopolidis]] 
+|-
+|RB ||'''2''' ||[[Giourkas Seitaridis]] || || {{suboff|40}}
+|-
+|CB ||'''5''' ||[[Traianos Dellas]]
+|-
+|CB ||'''16'''||[[Sotirios Kyrgiakos]]
+|-
+|LB ||'''15'''||[[Vasilis Torosidis]]
+|-
+|RM ||'''21'''||[[Kostas Katsouranis]]
+|-
+|CM ||'''6''' ||[[Angelos Basinas]] ([[Captain (association football)|c]])
+|-
+|LM ||'''3''' ||[[Christos Patsatzoglou]]
+|-
+|AM ||'''9''' ||[[Angelos Charisteas]]
+|-
+|AM ||'''20'''||[[Ioannis Amanatidis]] || || {{suboff|80}}
+|-
+|CF ||'''23'''||[[Nikos Liberopoulos]] || {{yel|58}} || {{suboff|61}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''10'''||[[Giorgos Karagounis]] || {{yel|42}}|| {{subon|40}}
+|-
+|FW ||'''17'''||[[Theofanis Gekas]] || || {{subon|61}}
+|-
+|MF ||'''8''' ||[[Stelios Giannakopoulos]] || || {{subon|80}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|GER}} [[Otto Rehhagel]]
+|}
+|valign=&quot;top&quot;|[[File:GRE-RUS 2008-06-14.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Igor Akinfeev]]
+|-
+|RB ||'''22'''||[[Aleksandr Anyukov]]
+|-
+|CB ||'''8''' ||[[Denis Kolodin]]
+|-
+|CB ||'''4''' ||[[Sergei Ignashevich]]
+|-
+|LB ||'''18'''||[[Yuri Zhirkov]] || || {{suboff|87}}
+|-
+|DM ||'''11'''||[[Sergei Semak]] ([[Captain (association football)|c]])
+|-
+|RM ||'''7''' ||[[Dmitri Torbinski]] || {{yel|84}}
+|-
+|CM ||'''17'''||[[Konstantin Zyryanov]]
+|-
+|CM ||'''20'''||[[Igor Semshov]]
+|-
+|LM ||'''15'''||[[Diniyar Bilyaletdinov]] || || {{suboff|70}}
+|-
+|CF ||'''19'''||[[Roman Pavlyuchenko]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''9''' ||[[Ivan Saenko]] || {{yel|77}} || {{subon|70}}
+|-
+|DF ||'''2''' ||[[Vasili Berezutski]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|NED}} [[Guus Hiddink]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Roman Pavlyuchenko]] (Russia)&lt;ref name=&quot;gre-rus report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Alessandro Griselli ([[Italian Football Federation|Italy]])
+&lt;br /&gt;Paolo Calcagno ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]])
+|}
+
+==Greece vs Spain==
+{{Football box
+| date         = {{Start date|2008|6|18|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|GRE}}
+| team2        = {{fb|ESP}}
+| score        = 1–2
+| goals1       = [[Angelos Charisteas|Charisteas]] {{goal|42}}
+| goals2       = [[Rubén de la Red|de la Red]] {{goal|61}}&lt;br /&gt;[[Daniel Güiza|Güiza]] {{goal|88}}
+| stadium      = [[Red Bull Arena (Salzburg)|Wals-Siezenheim Stadium]], [[Salzburg]]
+| attendance   = 30,883&lt;ref name=&quot;gre-esp report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD12_300704_GRE_ESP_FullReport.pdf |title=Full-time report Greece-Spain |work=Union of European Football Associations |format=PDF |date=18 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Howard Webb]] ([[The Football Association|England]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300704/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _adidasstripesonwhite
+ |pattern_b  = _Hellas08a
+ |pattern_ra = _adidasstripesonwhite
+ |pattern_sh = _adidasonwhite
+ |pattern_so = _3_stripes_blue
+ |leftarm    = 30679D
+ |body       = FFFFFF
+ |rightarm   = 30679D
+ |shorts     = 30679D
+ |socks      = FFFFFF
+ |title      = Greece&lt;ref name=&quot;gre-esp_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD12_300704_GRE_ESP_TactLineUps.pdf |title=Team Line-ups – Group D – Greece-Spain |work=Union of European Football Associations |format=PDF |date=18 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _spainH
+ |pattern_b  = _Spain08
+ |pattern_ra = _spainH
+ |pattern_sh = _esp_08
+ |pattern_so =
+ |leftarm    = d40000
+ |body       = d40000
+ |rightarm   = d40000
+ |shorts     = 000033
+ |socks      = 000033
+ |title      = Spain&lt;ref name=&quot;gre-esp_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Antonios Nikopolidis]] ([[Captain (association football)|c]])
+|-
+|RB ||'''11'''||[[Loukas Vyntra]] || {{yel|90+1}}
+|-
+|CB ||'''16'''||[[Sotirios Kyrgiakos]] || || {{suboff|62}}
+|-
+|CB ||'''5''' ||[[Traianos Dellas]]
+|-
+|LB ||'''4''' ||[[Nikos Spiropoulos]]
+|-
+|CM ||'''6''' ||[[Angelos Basinas]] || {{yel|72}}
+|-
+|CM ||'''21'''||[[Kostas Katsouranis]]
+|-
+|RW ||'''14'''||[[Dimitris Salpingidis]] || || {{suboff|86}}
+|-
+|AM ||'''10'''||[[Giorgos Karagounis]] || {{yel|34}} || {{suboff|74}}
+|-
+|LW ||'''20'''||[[Ioannis Amanatidis]]
+|-
+|CF ||'''9''' ||[[Angelos Charisteas]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''19'''||[[Paraskevas Antzas]] || || {{subon|62}}
+|-
+|MF ||'''22'''||[[Alexandros Tziolis]] || || {{subon|74}}
+|-
+|MF ||'''8''' ||[[Stelios Giannakopoulos]] || || {{subon|86}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|GER}} [[Otto Rehhagel]]
+|}
+|valign=&quot;top&quot;|[[File:GRE-ESP 2008-06-18.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''23'''||[[Pepe Reina]]
+|-
+|RB ||'''18'''||[[Álvaro Arbeloa]] || {{yel|45}}
+|-
+|CB ||'''2''' ||[[Raúl Albiol]]
+|-
+|CB ||'''20'''||[[Juan Gutiérrez Moreno|Juanito]]
+|-
+|LB ||'''3'''||[[Fernando Navarro]]
+|-
+|CM ||'''22'''||[[Rubén de la Red]]
+|-
+|CM ||'''14'''||[[Xabi Alonso]] ([[Captain (association football)|c]])
+|-
+|RW ||'''16'''||[[Sergio García de la Fuente|Sergio García]]
+|-
+|AM ||'''10'''||[[Cesc Fàbregas]]
+|-
+|LW ||'''6''' ||[[Andrés Iniesta]] || || {{suboff|58}}
+|-
+|CF ||'''17'''||[[Daniel Güiza]] || {{yel|41}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''12'''||[[Santi Cazorla]] || || {{subon|58}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Luis Aragonés]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Xabi Alonso]] (Spain)&lt;ref name=&quot;gre-esp report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Darren Cann ([[The Football Association|England]])
+&lt;br /&gt;Mike Mullarkey ([[The Football Association|England]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Stéphane Lannoy]] ([[French Football Federation|France]])
+|}
+
+==Russia vs Sweden==
+{{Football box
+| date         = {{Start date|2008|6|18|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|RUS}}
+| team2        = {{fb|SWE}}
+| score        = 2–0
+| goals1       = [[Roman Pavlyuchenko|Pavlyuchenko]] {{goal|24}}&lt;br /&gt;[[Andrey Arshavin|Arshavin]] {{goal|50}}
+| stadium      = [[Tivoli-Neu]], [[Innsbruck]]
+| attendance   = 30,772&lt;ref name=&quot;rus-swe report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD12_300705_RUS_SWE_FullReport.pdf |title=Full-time report Russia-Sweden |work=Union of European Football Associations |format=PDF |date=18 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300705/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+| pattern_la =
+| pattern_b  = _Russia 2008
+| pattern_ra =
+| leftarm    = FF0000
+| body       = FF0000
+| rightarm   = FF0000
+| shorts     = FF0000
+| socks      = FF0000
+ |title      = Russia&lt;ref name=&quot;rus-swe_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD12_300705_RUS_SWE_TactLineUps.pdf |title=Team Line-ups – Group D – Russia-Sweden |work=Union of European Football Associations |format=PDF |date=18 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _blue sleeve seams-grey
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FFF01C
+ |body       = FFF01C
+ |rightarm   = FFF01C
+ |shorts     = 1860a2
+ |socks      = FFF01C
+ |title      = Sweden&lt;ref name=&quot;rus-swe_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Igor Akinfeev]]
+|-
+|RB ||'''22'''||[[Aleksandr Anyukov]]
+|-
+|CB ||'''4''' ||[[Sergei Ignashevich]]
+|-
+|CB ||'''8''' ||[[Denis Kolodin]] || {{yel|76}}
+|-
+|LB ||'''18'''||[[Yuri Zhirkov]]
+|-
+|DM ||'''11'''||[[Sergei Semak]] ([[Captain (association football)|c]]) || {{yel|57}}
+|-
+|RM ||'''17'''||[[Konstantin Zyryanov]]
+|-
+|CM ||'''20'''||[[Igor Semshov]]
+|-
+|LM ||'''15'''||[[Diniyar Bilyaletdinov]] || || {{suboff|66}}
+|-
+|SS ||'''10'''||[[Andrey Arshavin]] || {{yel|65}}
+|-
+|CF ||'''19'''||[[Roman Pavlyuchenko]] || || {{suboff|90}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''9'''||[[Ivan Saenko]] || || {{subon|66}}
+|-
+|MF ||'''23'''||[[Vladimir Bystrov]] || || {{subon|90}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|NED}} [[Guus Hiddink]]
+|}
+|valign=&quot;top&quot;|[[File:RUS-SWE 2008-06-18.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;  align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Andreas Isaksson]] || {{yel|10}}
+|-
+|RB ||'''5''' ||[[Fredrik Stoor]]
+|-
+|CB ||'''3''' ||[[Olof Mellberg]]
+|-
+|CB ||'''4''' ||[[Petter Hansson]]
+|-
+|LB ||'''2''' ||[[Mikael Nilsson (footballer born 1978)|Mikael Nilsson]] || || {{suboff|79}}
+|-
+|RM ||'''11'''||[[Johan Elmander]] || {{yel|49}}
+|-
+|CM ||'''19'''||[[Daniel Andersson (footballer born 1977)|Daniel Andersson]] || || {{suboff|56}}
+|-
+|CM ||'''8''' ||[[Anders Svensson (footballer, born 1976)|Anders Svensson]]
+|-
+|LM ||'''9''' ||[[Fredrik Ljungberg]] ([[Captain (association football)|c]])
+|-
+|CF ||'''17'''||[[Henrik Larsson]]
+|-
+|CF ||'''10'''||[[Zlatan Ibrahimović]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''16'''||[[Kim Källström]] || || {{subon|56}}
+|-
+|FW ||'''20'''||[[Marcus Allbäck]] || || {{subon|79}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Lars Lagerbäck]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Andrei Arshavin]] (Russia)&lt;ref name=&quot;rus-swe report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Peter Hermans ([[Royal Belgian Football Association|Belgium]])
+&lt;br /&gt;Alex Verstraeten ([[Royal Belgian Football Association|Belgium]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]])
+|}
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2008}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008|Group D]]
+[[Category:2008 in Swedish football]]
+[[Category:2008 in Russian football]]
+[[Category:Spain at UEFA Euro 2008|Group]]
+[[Category:2007–08 in Greek football]]
+
+&lt;/noinclude&gt;</text>
+      <sha1>0whmyr6563pzprbi705bjk7hismnjtw</sha1>
+    </revision>
+  </page>
+</mediawiki>

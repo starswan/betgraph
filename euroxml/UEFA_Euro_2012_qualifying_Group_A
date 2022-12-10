@@ -1,0 +1,596 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 qualifying Group A</title>
+    <ns>0</ns>
+    <id>26105421</id>
+    <revision>
+      <id>720175624</id>
+      <parentid>720175598</parentid>
+      <timestamp>2016-05-14T05:30:26Z</timestamp>
+      <contributor>
+        <ip>194.135.161.3</ip>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="28828">This page shows the standings and results for '''Group A''' of the '''[[UEFA Euro 2012 qualifying]]''' tournament.&lt;ref&gt;{{cite web |title=UEFA Euro 2012 qualifying Group A |url=http://www.uefa.com/uefaeuro2012/standings/round=15171/group=700957/index.html |work=UEFA.com |publisher=Union of European Football Associations |accessdate=5 October 2010 }}&lt;/ref&gt;
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+! Legend
+|- style=&quot;background:#cfc;&quot;
+| Qualified directly for the [[UEFA Euro 2012|finals]]
+|- style=&quot;background:#ccf;&quot;
+| Advanced to the [[UEFA Euro 2012 qualifying play-offs|play-offs]]
+|}
+{{UEFA Euro 2012 qualifying Group A
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes}}
+
+==Matches==
+Group A fixtures were negotiated between the participants at a meeting in [[Frankfurt]], [[Germany]], on 21 and 22 February 2010.&lt;ref&gt;[http://www.heute.at/sport/fussball/Quali-Termine-fuer-Euro-2012-stehen-fest;art681,232607 Quali-Termine für Euro 2012 stehen fest]&lt;/ref&gt;
+
+&lt;div id=&quot;Kazakhstan v Turkey&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 22:00 [[UTC+6]]
+|team1 = {{fb-rt|KAZ}}
+|score = 0–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002131/postmatch/report/index.html Report]
+|team2 = {{fb|TUR}}
+|goals2 = [[Arda Turan|Arda]] {{goal|24}}&lt;br /&gt;[[Hamit Altıntop|Hamit]] {{goal|26}}&lt;br /&gt;[[Nihat Kahveci|Nihat]] {{goal|76}}
+|stadium = [[Astana Arena]], [[Astana]]
+|attendance = 15,800&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/kazakhstan/turkey/914594/ |title=Kazakhstan vs. Turkey - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[István Vad]] ([[Hungarian Football Federation|Hungary]]) }}
+
+&lt;div id=&quot;Belgium v Germany&quot;/&gt;{{footballbox
+|date = 3 September 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|BEL}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002125/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals2 = [[Miroslav Klose|Klose]] {{goal|51}}
+|stadium = [[King Baudouin Stadium]], [[Brussels]]
+|attendance =  41,126&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/03/europe/european-championships/belgium/germany/914593/ |title=Belgium vs. Germany - 3 September 2010 |publisher=Soccerway |date=2010-09-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Terje Hauge]] ([[Football Association of Norway|Norway]]) }}
+----
+&lt;div id=&quot;Turkey v Belgium&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}
+|score = 3–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002117/postmatch/report/index.html Report]
+|team2 = {{fb|BEL}}
+|goals1 = [[Hamit Altıntop|Hamit]] {{goal|48}} &lt;br&gt; [[Semih Şentürk|Semih]] {{goal|66}} &lt;br&gt; [[Arda Turan|Arda]] {{goal|78}}
+|goals2 = [[Daniel Van Buyten|Van Buyten]] {{goal|28||68}}
+|stadium = [[Şükrü Saracoğlu Stadium]], [[Istanbul]]
+|attendance = 43,538&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/turkey/belgium/914596/ |title=Turkey vs. Belgium - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]]) }}
+
+&lt;div id=&quot;Austria v Kazakhstan&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002123/postmatch/report/index.html Report]
+|team2 = {{fb|KAZ}}
+|goals1 = [[Roland Linz|Linz]] {{goal|90+1}}&lt;br /&gt;[[Erwin Hoffer|Hoffer]] {{goal|90+2}}
+|stadium = [[Red Bull Arena (Salzburg)|Red Bull Arena]], [[Salzburg]]
+|attendance = 22,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/austria/kazakhstan/914597/ |title=Austria vs. Kazakhstan - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Marijo Strahonja]] ([[Croatian Football Federation|Croatia]]) }}
+
+&lt;div id=&quot;Germany v Azerbaijan&quot;/&gt;{{footballbox
+|date = 7 September 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|GER}}
+|score = 6–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002114/postmatch/report/index.html Report]
+|team2 = {{fb|AZE}}
+|goals1 = [[Heiko Westermann|Westermann]] {{goal|28}} &lt;br&gt; [[Lukas Podolski|Podolski]] {{goal|45+1}} &lt;br&gt; [[Miroslav Klose|Klose]] {{goal|45+2||90+2}}&lt;br/&gt;[[Rashad Sadygov|Sadygov]] {{goal|53|o.g.}}&lt;br&gt; [[Holger Badstuber|Badstuber]] {{goal|86}}
+|goals2 =  [[Vagif Javadov|Javadov]] {{goal|62}}
+|stadium = [[RheinEnergieStadion]], [[Cologne]]
+|attendance = 43,751&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/09/07/europe/european-championships/germany/azerbaijan/914595/ |title=Germany vs. Azerbaijan - 7 September 2010 |publisher=Soccerway |date=2010-09-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Markus Strömbergsson]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Belgium&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 22:00 [[UTC+6]]
+|team1 = {{fb-rt|KAZ}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002133/postmatch/report/index.html Report]
+|team2 = {{fb|BEL}}
+|goals2 = [[Marvin Ogunjimi|Ogunjimi]] {{goal|52||70}}
+|stadium = [[Astana Arena]], [[Astana]]
+|attendance = 8,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/kazakhstan/belgium/914600/ |title=Kazakhstan vs. Belgium - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Marcin Borski]] ([[Polish Football Association|Poland]]) }}
+
+&lt;div id=&quot;Austria v Azerbaijan&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 3–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002124/postmatch/report/index.html Report]
+|team2 = {{fb|AZE}}
+|goals1 = [[Sebastian Prödl|Prödl]] {{goal|3}}&lt;br /&gt;[[Marko Arnautović|Arnautović]] {{goal|53||90+2}}
+|stadium = [[Ernst Happel Stadion]], [[Vienna]]
+|attendance =26,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/austria/azerbaijan/914599/ |title=Austria vs. Azerbaijan - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Nicolai Vollquartz]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Germany v Turkey&quot;/&gt;{{footballbox
+|date = 8 October 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|GER}}
+|score = 3–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002110/postmatch/report/index.html Report]
+|team2 = {{fb|TUR}}
+|goals1 = [[Miroslav Klose|Klose]] {{goal|42||87}}&lt;br&gt;[[Mesut Özil|Özil]] {{goal|79}}
+|stadium = [[Olympic Stadium (Berlin)|Olympiastadion]], [[Berlin]]
+|attendance =74,244&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/08/europe/european-championships/germany/turkey/914598/ |title=Germany vs. Turkey - 8 October 2010 |publisher=Soccerway |date=2010-10-08 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Howard Webb]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Turkey&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002136/postmatch/report/index.html Report]
+|team2 = {{fb|TUR}}
+|goals1 = [[Rashad Farhad Sadygov|R. F. Sadygov]] {{goal|38}}
+|stadium = [[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance = 29,500 &lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/azerbaijan/turkey/914602/ |title=Azerbaijan vs. Turkey - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alexandru Deaconu]] ([[Romanian Football Federation|Romania]]) }}
+
+&lt;div id=&quot;Kazakhstan v Germany&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 23:00 [[UTC+6]]
+|team1 = {{fb-rt|KAZ}}
+|score = 0–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002130/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals2 = [[Miroslav Klose|Klose]] {{goal|48}}&lt;br/&gt;[[Mario Gómez|Gómez]] {{goal|76}}&lt;br/&gt;[[Lukas Podolski|Podolski]] {{goal|85}}
+|stadium = [[Astana Arena]], [[Astana]]
+|attendance = 18,000 &lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/kazakhstan/germany/914603/ |title=Kazakhstan vs. Germany - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Alexandru Dan Tudor]] ([[Romanian Football Federation|Romania]]) }}
+
+&lt;div id=&quot;Belgium v Austria&quot;/&gt;{{footballbox
+|date = 12 October 2010
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|BEL}}
+|score = 4–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002127/postmatch/report/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Jelle Vossen|Vossen]] {{goal|11}}&lt;br/&gt;[[Marouane Fellaini|Fellaini]] {{goal|47}}&lt;br/&gt;[[Marvin Ogunjimi|Ogunjimi]] {{goal|87}}&lt;br/&gt;[[Nicolas Lombaerts|Lombaerts]] {{goal|89}}
+|goals2 = [[Franz Schiemer|Schiemer]] {{goal|14||62}} &lt;br /&gt; [[Marko Arnautović|Arnautović]] {{goal|29}}&lt;br/&gt;[[Martin Harnik|Harnik]] {{goal|90+3}}
+|stadium = [[King Baudouin Stadium]], [[Brussels]]
+|attendance = 24,231 &lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2010/10/12/europe/european-championships/belgium/austria/914601/ |title=Belgium vs. Austria - 12 October 2010 |publisher=Soccerway |date=2010-10-12 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Mike Dean (referee)|Mike Dean]] ([[The Football Association|England]]) }}
+----
+&lt;div id=&quot;Austria v Belgium&quot;/&gt;{{footballbox
+|date = 25 March 2011
+|time = 20:30 [[UTC+1]]
+|team1 = {{fb-rt|AUT}}
+|score = 0–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002122/postmatch/report/index.html Report]
+|team2 = {{fb|BEL}}
+|goals2 = [[Axel Witsel|Witsel]] {{goal|6||50}}
+|stadium = [[Ernst Happel Stadion]], [[Vienna]]
+|attendance = 45,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/25/europe/european-championships/austria/belgium/914604/ |title=Austria vs. Belgium - 25 March 2011 |publisher=Soccerway |date=2011-03-25 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Vladislav Bezborodov]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Germany v Kazakhstan&quot;/&gt;{{footballbox
+|date = 26 March 2011
+|time = 20:00 [[UTC+1]]
+|team1 = {{fb-rt|GER}}
+|score = 4–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002113/postmatch/report/index.html Report]
+|team2 = {{fb|KAZ}}
+|goals1 = [[Miroslav Klose|Klose]] {{goal|3||88}}&lt;br /&gt;[[Thomas Müller|Müller]] {{goal|25||43}}
+|stadium = [[Fritz-Walter-Stadion]], [[Kaiserslautern]]
+|attendance = 47,849&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/26/europe/european-championships/germany/kazakhstan/914605/ |title=Germany vs. Kazakhstan - 26 March 2011 |publisher=Soccerway |date=2011-03-26 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Aleksandar Stavrev]] ([[Football Federation of Macedonia|Macedonia]]) }}
+----
+&lt;div id=&quot;Turkey v Austria&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 20:30 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}
+|score = 2–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002116/postmatch/report/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Arda Turan|Arda]] {{goal|28}}&lt;br/&gt;[[Gökhan Gönül|Gökhan G.]] {{goal|78}}
+|goals2 = 
+|stadium = [[Şükrü Saracoğlu Stadium]], [[Istanbul]]
+|attendance = 40,420&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/turkey/austria/914606/ |title=Turkey vs. Austria - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Pavel Kralovec]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+
+&lt;div id=&quot;Belgium v Azerbaijan&quot;/&gt;{{footballbox
+|date = 29 March 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|BEL}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002129/postmatch/report/index.html Report]
+|team2 = {{fb|AZE}}
+|goals1 = [[Jan Vertonghen|Vertonghen]] {{goal|12}} &lt;br/&gt; [[Timmy Simons|Simons]] {{goal|32|pen.}} &lt;br&gt; [[Nacer Chadli|Chadli]] {{goal|45}} &lt;br&gt; [[Jelle Vossen|Vossen]] {{goal|74}}
+|goals2 = [[Ruslan Abishov|Abishov]] {{goal|16}}
+|stadium = [[King Baudouin Stadium]], [[Brussels]]
+|attendance = 34,985&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/03/29/europe/european-championships/belgium/azerbaijan/914607/ |title=Belgium vs. Azerbaijan - 29 March 2011 |publisher=Soccerway |date=2011-03-29 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Daniel Stalhammar]] ([[Swedish Football Association|Sweden]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Azerbaijan&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 19:00 [[UTC+6]]
+|team1 = {{fb-rt|KAZ}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002134/postmatch/report/index.html Report]
+|team2 = {{fb|AZE}}
+|goals1 = [[Sergey Gridin|Gridin]] {{goal|57||68}}
+|goals2 = [[Vüqar Nadirov|Nadirov]] {{goal|63}}
+|stadium = [[Astana Arena]], [[Astana]]
+|attendance = 10,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/kazakhstan/azerbaijan/914609/ |title=Kazakhstan vs. Azerbaijan - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Euan Norris]] ([[Scottish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Austria v Germany&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 20:35 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002120/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals1 = [[Arne Friedrich|Friedrich]] {{goal|50|o.g.}}
+|goals2 = [[Mario Gómez|Gómez]] {{goal|44||90}}
+|stadium = [[Ernst Happel Stadion]], [[Vienna]]
+|attendance = 47,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/austria/germany/914608/ |title=Austria vs. Germany - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Massimo Busacca]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Belgium v Turkey&quot;/&gt;{{footballbox
+|date = 3 June 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|BEL}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002126/postmatch/report/index.html Report]
+|team2 = {{fb|TUR}}
+|goals1 = [[Marvin Ogunjimi|Ogunjimi]] {{goal|4}}
+|goals2 = [[Burak Yılmaz|Burak]] {{goal|22}}
+|stadium = [[King Baudouin Stadium]], [[Brussels]]
+|attendance = 44,185&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/03/europe/european-championships/belgium/turkey/914610/ |title=Belgium vs. Turkey - 3 June 2011 |publisher=Soccerway |date=2011-06-03 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Nicola Rizzoli]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Germany&quot;/&gt;{{footballbox
+|date = 7 June 2011
+|time = 22:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}
+|score = 1–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002135/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals1 = [[Murad Hüseynov|M. Hüseynov]] {{goal|89}}
+|goals2 = [[Mesut Özil|Özil]] {{goal|30}}&lt;br/&gt;[[Mario Gómez|Gómez]] {{goal|41}}&lt;br/&gt;[[André Schürrle|Schürrle]] {{goal|90+3}}
+|stadium = [[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance = 29,858&lt;ref name=&quot;soccerway1&quot;&gt;{{cite web|url=http://www.soccerway.com/matches/2011/06/07/europe/european-championships/azerbaijan/germany/914611/ |title=Azerbaijan vs. Germany - 7 June 2011 |publisher=Soccerway |date=2011-06-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Michael Koukoulakis]] ([[Hellenic Football Federation|Greece]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Belgium&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 21:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}
+|score = 1–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002138/postmatch/report/index.html Report]
+|team2 = {{fb|BEL}}
+|goals1 = [[Rauf Aliyev|R. Aliyev]] {{goal|86}}
+|goals2 = [[Timmy Simons|Simons]] {{goal|55|pen.}}
+|stadium = [[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance = 9,300&lt;ref name=&quot;soccerway1&quot;/&gt;
+|referee = [[Lee Probert]] ([[The Football Association|England]])}}
+
+&lt;div id=&quot;Turkey v Kazakhstan&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002118/postmatch/report/index.html Report]
+|team2 = {{fb|KAZ}}
+|goals1 = [[Burak Yılmaz|Burak]] {{goal|31}} &lt;br&gt; [[Arda Turan|Arda]] {{goal|90+6}}
+|goals2 = [[Ulan Konysbayev|Konysbayev]] {{goal|55}}
+|stadium = [[Turk Telekom Arena]], [[Istanbul]]
+|attendance = 47,756 &lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/turkey/kazakhstan/914614/ |title=Turkey vs. Kazakhstan - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Clément Turpin]] ([[French Football Federation|France]])}}
+
+&lt;div id=&quot;Germany v Austria&quot;/&gt;{{footballbox
+|date = 2 September 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|GER}}
+|score = 6–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002111/postmatch/report/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Miroslav Klose|Klose]] {{goal|8}}&lt;br/&gt;[[Mesut Özil|Özil]] {{goal|23||47}}&lt;br/&gt;[[Lukas Podolski|Podolski]] {{goal|28}} &lt;br&gt; [[André Schürrle|Schürrle]] {{goal|83}} &lt;br&gt; [[Mario Götze|Götze]] {{goal|88}}
+|goals2 = [[Marko Arnautović|Arnautović]] {{goal|42}} &lt;br&gt; [[Martin Harnik|Harnik]] {{goal|51}}
+|stadium = [[Arena AufSchalke]], [[Gelsenkirchen]]
+|attendance = 53,313&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/02/europe/european-championships/germany/austria/914613/ |title=Germany vs. Austria - 2 September 2011 |publisher=Soccerway |date=2011-09-02 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Paolo Tagliavento]] ([[Italian Football Federation|Italy]])}}
+----
+&lt;div id=&quot;Azerbaijan v Kazakhstan&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}
+|score = 3–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002139/postmatch/report/index.html Report]
+|team2 = {{fb|KAZ}}
+|goals1 = [[Rauf Aliyev|R. Aliyev]] {{goal|53}} &lt;br&gt; [[Mahir Shukurov|Shukurov]] {{goal|62|pen.}} &lt;br&gt; [[Vagif Javadov|Javadov]] {{goal|67}}
+|goals2 = [[Sergei Ostapenko|Ostapenko]] {{goal|20}} &lt;br&gt; [[Vitali Yevstigneyev|Yevstigneyev]] {{goal|77}}
+|stadium = [[Tofik Bakhramov Stadium]], [[Baku]]
+|attendance = 9,112&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/azerbaijan/kazakhstan/914616/ |title=Azerbaijan vs. Kazakhstan - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee = [[Anders Hermansen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Austria v Turkey&quot;/&gt;{{footballbox
+|date = 6 September 2011
+|time = 20:30 [[UTC+2]]
+|team1 = {{fb-rt|AUT}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002121/postmatch/report/index.html Report]
+|team2 = {{fb|TUR}}
+|stadium = [[Ernst Happel Stadion]], [[Vienna]]
+|attendance = 47,500&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/09/06/europe/european-championships/austria/turkey/914615/ |title=Austria vs. Turkey - 6 September 2011 |publisher=Soccerway |date=2011-09-06 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Alberto Undiano Mallenco]] ([[Royal Spanish Football Federation|Spain]]) }}
+----
+&lt;div id=&quot;Azerbaijan v Austria&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 21:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}
+|score = 1–4
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002137/postmatch/report/index.html Report]
+|team2 = {{fb|AUT}}
+|goals1 = [[Vüqar Nadirov|Nadirov]] {{goal|74}}
+|goals2 = [[Andreas Ivanschitz|Ivanschitz]] {{goal|34}} &lt;br&gt; [[Marc Janko|Janko]] {{goal|52||62}} &lt;br&gt; [[Zlatko Junuzović|Junuzović]] {{goal|90+1}}
+|stadium = [[Dalga Stadium]], [[Baku]] 
+|attendance = 6,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/azerbaijan/austria/914618/ |title=Azerbaijan vs. Austria - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Stephan Studer]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Turkey v Germany&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 21:30 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}
+|score = 1–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002115/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals1 = [[Hakan Balta|Hakan]] {{goal|79}}
+|goals2 =  [[Mario Gómez|Gómez]] {{goal|35}} &lt;br&gt; [[Thomas Müller|Müller]] {{goal|66}} &lt;br&gt; [[Bastian Schweinsteiger|Schweinsteiger]] {{goal|86|pen.}}
+|stadium = [[Turk Telekom Arena]], [[Istanbul]]
+|attendance = 49,532&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/turkey/germany/914617/ |title=Turkey vs. Germany - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Martin Atkinson]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Belgium v Kazakhstan&quot;/&gt;{{footballbox
+|date = 7 October 2011
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|BEL}}
+|score = 4–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002128/postmatch/report/index.html Report]
+|team2 = {{fb|KAZ}}
+|goals1 = [[Timmy Simons|Simons]] {{goal|40|pen.}} &lt;br&gt; [[Eden Hazard|Hazard]] {{goal|43}} &lt;br&gt; [[Vincent Kompany|Kompany]] {{goal|49}} &lt;br&gt; [[Marvin Ogunjimi|Ogunjimi]] {{goal|84}} 
+|goals2 = [[Kairat Nurdauletov|Nurdauletov]] {{goal|86|pen.}}
+|stadium = [[King Baudouin Stadium]], [[Brussels]]
+|attendance = 29,758&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/07/europe/european-championships/belgium/kazakhstan/914619/ |title=Belgium vs. Kazakhstan - 7 October 2011 |publisher=Soccerway |date=2011-10-07 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Milorad Mažić]] ([[Football Association of Serbia|Serbia]]) }}
+----
+&lt;div id=&quot;Kazakhstan v Austria&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 22:00 [[UTC+6]]
+|team1 = {{fb-rt|KAZ}}
+|score = 0–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002132/postmatch/report/index.html Report]
+|team2 = {{fb|AUT}}
+|stadium = [[Astana Arena]], [[Astana]]
+|attendance = 11,000&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/kazakhstan/austria/914622/ |title=Kazakhstan vs. Austria - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Hannes Kaasik]] ([[Estonian Football Association|Estonia]]) }}
+
+&lt;div id=&quot;Germany v Belgium&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|GER}}
+|score = 3–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002112/postmatch/report/index.html Report]
+|team2 = {{fb|BEL}}
+|goals1 = [[Mesut Özil|Özil]] {{goal|30}} &lt;br&gt; [[André Schürrle|Schürrle]] {{goal|33}} &lt;br&gt; [[Mario Gómez|Gómez]] {{goal|48}}
+|goals2 = [[Marouane Fellaini|Fellaini]] {{goal|86}}
+|stadium = [[Esprit Arena]], [[Düsseldorf]]
+|attendance =48,483&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/germany/belgium/914620/ |title=Germany vs. Belgium - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Svein Oddvar Moen]] ([[Football Association of Norway|Norway]]) }}
+
+&lt;div id=&quot;Turkey v Azerbaijan&quot;/&gt;{{footballbox
+|date = 11 October 2011
+|time = 20:00 [[UTC+3]]
+|team1 = {{fb-rt|TUR}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15171/match=2002119/postmatch/report/index.html Report]
+|team2 = {{fb|AZE}}
+|goals1 = [[Burak Yılmaz|Burak]] {{goal|60}}
+|stadium = [[Turk Telekom Arena]], [[Istanbul]]
+|attendance = 32,174&lt;ref&gt;{{cite web|url=http://www.soccerway.com/matches/2011/10/11/europe/european-championships/turkey/azerbaijan/914621/ |title=Turkey vs. Azerbaijan - 11 October 2011 |publisher=Soccerway |date=2011-10-11 |accessdate=2013-06-26}}&lt;/ref&gt;
+|referee =[[Peter Rasmussen (referee)|Peter Rasmussen]] ([[Danish Football Association|Denmark]]) }}
+
+==Goalscorers==
+;9 goals
+*{{flagicon|GER}} [[Miroslav Klose]]
+
+;6 goals
+*{{flagicon|GER}} [[Mario Gómez]]
+
+;5 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|GER}} [[Mesut Özil]]
+{{Col-3}}
+*{{flagicon|BEL}} [[Marvin Ogunjimi]]
+{{Col-3}}
+{{Col-end}}
+
+;4 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|AUT}} [[Marko Arnautović]]
+{{Col-3}}
+*{{flagicon|TUR}} [[Arda Turan]]
+{{Col-3}}
+{{Col-end}}
+
+;3 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|BEL}} [[Timmy Simons]]
+*{{flagicon|GER}} [[Lukas Podolski]]
+{{Col-3}}
+*{{flagicon|GER}} [[Thomas Müller]]
+*{{flagicon|GER}} [[André Schürrle]]
+{{Col-3}}
+*{{flagicon|TUR}} [[Burak Yılmaz]]
+{{Col-end}}
+
+;2 goals
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|AUT}} [[Martin Harnik]]
+*{{flagicon|AUT}} [[Marc Janko]]
+*{{flagicon|AUT}} [[Franz Schiemer]]
+*{{flagicon|AZE}} [[Rauf Aliyev]]
+{{Col-3}}
+*{{flagicon|AZE}} [[Vagif Javadov]]
+*{{flagicon|AZE}} [[Vüqar Nadirov]]
+*{{flagicon|BEL}} [[Marouane Fellaini]]
+*{{flagicon|BEL}} [[Daniel Van Buyten]]
+{{Col-3}}
+*{{flagicon|BEL}} [[Jelle Vossen]]
+*{{flagicon|BEL}} [[Axel Witsel]]
+*{{flagicon|KAZ}} [[Sergey Gridin]]
+*{{flagicon|TUR}} [[Hamit Altıntop]]
+{{Col-end}}
+
+;1 goal
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|AUT}} [[Erwin Hoffer]]
+*{{flagicon|AUT}} [[Andreas Ivanschitz]]
+*{{flagicon|AUT}} [[Zlatko Junuzović]]
+*{{flagicon|AUT}} [[Roland Linz]]
+*{{flagicon|AUT}} [[Sebastian Prödl]]
+*{{flagicon|AZE}} [[Ruslan Abishov]]
+*{{flagicon|AZE}} [[Murad Hüseynov]]
+*{{flagicon|AZE}} [[Rashad Sadygov]]
+*{{flagicon|AZE}} [[Mahir Shukurov]]
+{{Col-3}}
+*{{flagicon|BEL}} [[Nacer Chadli]]
+*{{flagicon|BEL}} [[Eden Hazard]]
+*{{flagicon|BEL}} [[Vincent Kompany]]
+*{{flagicon|BEL}} [[Nicolas Lombaerts]]
+*{{flagicon|BEL}} [[Jan Vertonghen]]
+*{{flagicon|GER}} [[Holger Badstuber]]
+*{{flagicon|GER}} [[Mario Götze]]
+*{{flagicon|GER}} [[Bastian Schweinsteiger]]
+*{{flagicon|GER}} [[Heiko Westermann]]
+{{Col-3}}
+*{{flagicon|KAZ}} [[Ulan Konysbayev]]
+*{{flagicon|KAZ}} [[Kairat Nurdauletov]]
+*{{flagicon|KAZ}} [[Sergei Ostapenko]]
+*{{flagicon|KAZ}} [[Vitali Yevstigneyev]]
+*{{flagicon|TUR}} [[Hakan Balta]]
+*{{flagicon|TUR}} [[Gökhan Gönül]]
+*{{flagicon|TUR}} [[Nihat Kahveci]]
+*{{flagicon|TUR}} [[Semih Şentürk]]
+{{Col-end}}
+
+;1 own goal
+{{Col-begin}}
+{{Col-3}}
+*{{flagicon|AZE}} [[Rashad Sadygov]] (playing against Germany)
+{{Col-3}}
+*{{flagicon|GER}} [[Arne Friedrich]] (playing against Austria)
+{{Col-3}}
+{{Col-end}}
+
+==Attendances==
+{| class=&quot;wikitable sortable&quot;
+|-
+! Team
+! Highest
+! Lowest
+! Total
+! Average
+|-
+| {{fb|AUT}} || style=&quot;text-align:center;&quot;| 47,500 || style=&quot;text-align:center;&quot;| 22,500 || style=&quot;text-align:center;&quot;| 189,000 || style=&quot;text-align:center;&quot;| '''37,800'''
+|-
+| {{fb|AZE}} || style=&quot;text-align:center;&quot;| 29,858 || style=&quot;text-align:center;&quot;| 6,000 || style=&quot;text-align:center;&quot;| 83,770 || style=&quot;text-align:center;&quot;| '''16,754'''
+|-
+| {{fb|BEL}} || style=&quot;text-align:center;&quot;| 44,185 || style=&quot;text-align:center;&quot;| 24,231 || style=&quot;text-align:center;&quot;| 174,285 || style=&quot;text-align:center;&quot;| '''34,857'''
+|-
+| {{fb|GER}} || style=&quot;text-align:center;&quot;| 74,244 || style=&quot;text-align:center;&quot;| 43,751 || style=&quot;text-align:center;&quot;| 267,640 || style=&quot;text-align:center;&quot;| '''53,528'''
+|-
+| {{fb|KAZ}} || style=&quot;text-align:center;&quot;| 18,000 || style=&quot;text-align:center;&quot;| 8,500 || style=&quot;text-align:center;&quot;| 63,300 || style=&quot;text-align:center;&quot;| '''12,660'''
+|-
+| {{fb|TUR}} || style=&quot;text-align:center;&quot;| 49,532 || style=&quot;text-align:center;&quot;| 32,174 || style=&quot;text-align:center;&quot;| 213,420 || style=&quot;text-align:center;&quot;| '''42,684'''
+|}
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2012 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2012 qualifying|Group A]]
+[[Category:2010–11 in Austrian football]]
+[[Category:2011–12 in Austrian football]]
+[[Category:2010–11 in Azerbaijani football]]
+[[Category:2011–12 in Azerbaijani football]]
+[[Category:2011–12 in Belgian football]]
+[[Category:2010–11 in Belgian football]]
+[[Category:Germany at UEFA Euro 2012|qual]]
+[[Category:2010–11 in German football]]
+[[Category:2010–11 in Turkish football]]
+[[Category:2011–12 in Turkish football]]
+[[Category:2010 in Kazakhstani football]]
+[[Category:2011 in Kazakhstani football]]</text>
+      <sha1>9ejs4yb0dym9g1rnyz19a4zocjxh9tj</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,968 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2012 Group B</title>
+    <ns>0</ns>
+    <id>33942108</id>
+    <revision>
+      <id>722045988</id>
+      <parentid>695008602</parentid>
+      <timestamp>2016-05-25T17:01:24Z</timestamp>
+      <contributor>
+        <username>LilHelpa</username>
+        <id>8024439</id>
+      </contributor>
+      <minor/>
+      <comment>/* Summary */Typos and general fixes, replaced: that fact that  →  the fact that using [[Project:AWB|AWB]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="33112">'''Group B of [[UEFA Euro 2012]]''' began on 9 June 2012 and ended on 17 June 2012. The pool was made up of the [[Netherlands national football team|Netherlands]], [[Denmark national football team|Denmark]], [[Germany national football team|Germany]] and [[Portugal national football team|Portugal]]. Germany and Portugal progressed to the quarter-finals, while Denmark and the Netherlands were eliminated from the tournament. This was considered the [[group of death]] of the tournament.
+
+{{TOC right}}
+
+== Standings ==
+{| class=&quot;wikitable&quot;
+|-
+!Key to colours in group tables
+|- style=&quot;background:#cfc&quot;
+|Team progressed to the [[UEFA Euro 2012 knockout phase#Quarter-finals|quarter-finals]]
+|}
+
+&lt;onlyinclude&gt;{| class=wikitable style=&quot;text-align:center&quot;
+|-
+!width=&quot;165&quot;|Team
+!width=&quot;20&quot;|{{Tooltip| Pld | Played}}
+!width=&quot;20&quot;|{{Tooltip| W | Won}}
+!width=&quot;20&quot;|{{Tooltip| D | Drawn}}
+!width=&quot;20&quot;|{{Tooltip| L | Lost}}
+!width=&quot;20&quot;|{{Tooltip| GF | Goals for}}
+!width=&quot;20&quot;|{{Tooltip| GA | Goals against}}
+!width=&quot;20&quot;|{{Tooltip| GD | Goal difference}}
+!width=&quot;20&quot;|{{Tooltip| Pts | Points}}
+|- style=&quot;background:#cfc&quot;
+|align=left|{{fb|GER}}
+|3||3||0||0||5||2||+3||'''9'''
+|- style=&quot;background:#cfc&quot;
+|align=left|{{fb|POR}}
+|3||2||0||1||5||4||+1||'''6'''
+|-
+|align=left|{{fb|DEN}}
+|3||1||0||2||4||5||−1||'''3'''
+|-
+|align=left|{{fb|NED}}
+|3||0||0||3||2||5||−3||'''0'''
+|}&lt;/onlyinclude&gt;
+
+''All times local ([[UTC+03:00|UTC+3]])''
+
+== Summary ==
+Group B was dubbed by many the &quot;[[group of death]]&quot; of Euro 2012.&lt;ref&gt;{{cite web|url=http://espn.go.com/sports/soccer/news/_/id/7306118/euro-2012-group-group-breakdown-predictions-which-teams-go-ravi-ubha|title=Euro 2012 group-by-group breakdown|last=Ubha|first=Ravi|date=2 December 2011|publisher=ESPN|accessdate=3 December 2011}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://espn.go.com/sports/soccer/news/_/id/7303709/euro-2012-storylines-follow-poland-ukraine-james-tyler|title=The real attractions of Euro 2012|last=James|first=Tyler|date=2 December 2011|publisher=ESPN|accessdate=3 December 2011}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.washingtonpost.com/sports/united/euro-2012-draw-germany-netherlands-portugal-denmark-land-in-group-of-death/2011/12/02/gIQARWLrLO_gallery.html#photo=1|title=Euro 2012 Draw: Germany, Netherlands, Portugal, Denmark land in “Group of Death”|publisher=''[[The Washington Post]]''|accessdate=3 December 2011}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.livesoccertv.com/news/4747/uefa-euro-2012-group-of-death-germany-with-portugal-holland-who-ll-be-doomed/|title=UEFA Euro 2012 Group of Death: Germany with Portugal &amp; Holland. Who’ll be doomed?|last=Asante|first=Angela|date=2 December 2011|publisher=Livesoccertv|accessdate=3 December 2011}}&lt;/ref&gt; All four teams were in the top 10 of the [[FIFA World Rankings]] at the start of the tournament.&lt;ref&gt;{{cite web|url=http://www.fifa.com/worldranking/rankingtable/index.html|title=FIFA/Coca-Cola World Ranking|publisher=FIFA|date=6 June 2012|accessdate=18 June 2012}}&lt;/ref&gt;
+
+In the first round, Denmark upset Netherlands 1–0 with a 24th-minute goal from [[Michael Krohn-Dehli]].&lt;ref&gt;{{cite web|url=http://sportsillustrated.cnn.com/2012/soccer/06/09/netherlands-denmark-euro2012.ap/index.html|title=Euro 2012: Denmark's 1–0 upset leaves Dutch &quot;speechless&quot;|publisher=Sports Illustrated|date=9 June 2012|accessdate=18 June 2012}}&lt;/ref&gt; In the next match, Germany defeated Portugal 1–0 with a 72nd-minute goal from [[Mario Gómez]], leaving Germany and Denmark tied at three points at the top of the group with Portugal and the Netherlands at the bottom of the group with no points.&lt;ref&gt;{{cite web|url=http://www.sbnation.com/soccer/2012/6/9/3075276/germany-vs-portugal-final-score-match-report-live-streaming-updates-euro-2012|title=Germany vs Portugal, Euro 2012: final score|last=McCauley|first=Kevin|date=9 June 2012|publisher=SB Nation|accessdate=18 June 2012}}&lt;/ref&gt;
+
+In the second round, when Portugal played Denmark, Portugal went ahead 2–0 with a 24th-minute goal from [[Pepe (footballer, born 1983)|Pepe]] and a 36th-minute goal from [[Hélder Postiga]], but with two goals from [[Nicklas Bendtner]] (41st and 80th minute), Denmark equalized. However, Portugal's [[Silvestre Varela]] scored in the 87th minute to give Portugal the win.&lt;ref&gt;{{cite web|url=http://www.sbnation.com/soccer/2012/6/13/3083248/denmark-vs-portugal-final-score-match-report-recap-euro-2012|title=Denmark vs Portugal, Euro 2012: final score|last=McCauley|first=Kevin|date=13 June 2012|publisher=SB Nation|accessdate=18 June 2012}}&lt;/ref&gt; In the next match, Netherlands and Germany continued their longstanding [[Germany–Netherlands football rivalry|rivalry]]. Striker Mario Gómez scored twice in the first half (24th and 38th minute) to put the Germans ahead 2–0, and despite a 73rd-minute goal from [[Robin van Persie]], Germany won 2–1.&lt;ref&gt;{{cite web|url=http://www.sbnation.com/soccer/2012/6/13/3083575/germany-vs-netherlands-final-score-match-report-recap-euro-2012|title=Netherlands vs Germany, Euro 2012: final score|last=McCauley|first=Kevin|date=13 June 2012|publisher=SB Nation|accessdate=18 June 2012}}&lt;/ref&gt;
+
+Leading into the third round, all four teams were still able to qualify and no team was already qualified, despite the fact that Germany had 6 points and Netherlands had 0 points. Ultimately, Germany defeated Denmark 2–1 after [[Lukas Podolski]] and [[Lars Bender]] scored for Germany in the 19th and 80th minutes, respectively, despite an equalizer from [[Michael Krohn-Dehli]] in the 24th minute.&lt;ref&gt;{{cite web|url=http://www.sbnation.com/soccer/2012/6/17/3093372/germany-vs-denmark-final-score-match-report-recap-euro-2012|title=Denmark vs Germany, Euro 2012: final score|last=McCauley|first=Kevin|date=17 June 2012|publisher=SB Nation|accessdate=18 June 2012}}&lt;/ref&gt; In the other match (played simultaneously in order to prevent the teams from gaining a strategic advantage by knowing the result of the other match on the same day) between Portugal and Netherlands, [[Rafael van der Vaart]] scored to give the Netherlands a lead for the first time in the entire tournament, but after much criticism in the media for his failure to score in the first two matches,&lt;ref&gt;{{cite news |title=Euro 2012: Nani springs to Cristiano Ronaldo's defence after criticism |first=Stuart |last=James |url=http://www.guardian.co.uk/football/2012/jun/15/euro-2012-nani-cristiano-ronaldo?newsfeed=true |newspaper=The Guardian |date=15 June 2012 |accessdate=21 June 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite news |title=Cristiano Ronaldo under mounting pressure to perform for Portugal at Euro 2012 |first=Martin |last=Rogers |url=http://sports.yahoo.com/news/cristiano-ronaldo-under-mounting-pressure-to-perform-for-portugal-at-euro-2012.html |publisher=Yahoo Sports |date=12 June 2012 |accessdate=21 June 2012}}&lt;/ref&gt; [[Cristiano Ronaldo]] scored twice to secure a 2–1 victory for Portugal.&lt;ref&gt;{{cite web|url=http://www.huffingtonpost.com/2012/06/17/portugal-netherlands-euro-2012-cristiano-ronaldo_n_1604271.html|title=Portugal beats Netherlands 2–1 at Euro 2012|last=Hatton|first=Barry|date=17 June 2012|publisher=Huffington Post|accessdate=18 June 2012}}&lt;/ref&gt; With these results, Germany and Portugal qualified, in first and second place, respectively, and Denmark and Netherlands were eliminated.
+
+== Netherlands vs Denmark ==
+{{Football box
+|date = 9 June 2012
+|time = 19:00
+|team1 = {{fb-rt|NED}}
+|score = 0–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003321/postmatch/report/index.html Report]
+|team2 = {{fb|DEN}}
+|goals1 = 
+|goals2 = [[Michael Krohn-Dehli|Krohn-Dehli]] {{goal|24}}
+|stadium = [[Metalist Stadium]], [[Kharkiv]]
+|attendance = 35,923&lt;ref name=&quot;ned-den report&quot;&gt;{{cite web | url=http://www.uefa.com/newsfiles/euro/2012/2003321_fr.pdf | title=Full-time report Netherlands-Denmark| publisher=UEFA.com | date=9 June 2012}}&lt;/ref&gt;
+|referee = [[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]])&lt;ref name=&quot;referees1-4&quot;&gt;{{cite web | url=http://www.uefa.com/uefa/mediaservices/mediareleases/newsid=1806151.html | title=Match officials appointed for first four UEFA EURO 2012 matches | publisher=UEFA.com | date=6 June 2012}}&lt;/ref&gt;
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _blackborder
+ |pattern_b  = _ned2012h
+ |pattern_ra = _blackborder
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FF7F00
+ |body       = FF7F00
+ |rightarm   = FF7F00
+ |shorts     = FF7F00
+ |socks      = FF7F00
+ |title      = Netherlands&lt;ref name=&quot;ned-den_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003321_lu.pdf|title=Tactical Line-up – Group B – Netherlands-Denmark |date=9 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=9 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _fcb0809t
+ |pattern_b  = _den12a
+ |pattern_ra = _fcb0809t
+ |pattern_sh = _den12h
+ |pattern_so = _den12a
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Denmark&lt;ref name=&quot;ned-den_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  ||[[Maarten Stekelenburg]]
+|-
+| RB || '''2'''  ||[[Gregory van der Wiel]] || || {{suboff|85}}
+|-
+| CB || '''3'''  ||[[John Heitinga]]
+|-
+| CB || '''13''' ||[[Ron Vlaar]]
+|-
+| LB || '''15''' ||[[Jetro Willems]]
+|-
+| CM || '''8'''  ||[[Nigel de Jong]] || || {{suboff|71}}
+|-
+| CM || '''6'''  ||[[Mark van Bommel]] ([[Captain (association football)|c]]) || {{yel|67}}
+|-
+| RW || '''11''' ||[[Arjen Robben]]
+|-
+| AM || '''10''' ||[[Wesley Sneijder]]
+|-
+| LW || '''20''' ||[[Ibrahim Afellay]] || || {{suboff|71}}
+|-
+| CF || '''16''' ||[[Robin van Persie]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''23''' ||[[Rafael van der Vaart]] || || {{subon|71}}
+|-
+| FW || '''9''' ||[[Klaas-Jan Huntelaar]] || || {{subon|71}}
+|-
+| FW || '''7''' ||[[Dirk Kuyt]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Bert van Marwijk]]
+|}
+|valign=&quot;top&quot;|[[File:NED-DEN 2012-06-09.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  || [[Stephan Andersen]]
+|-
+| RB || '''6'''  || [[Lars Jacobsen]]
+|-
+| CB || '''3'''  || [[Simon Kjær]]
+|-
+| CB || '''4'''  || [[Daniel Agger]] ([[Captain (association football)|c]])
+|-
+| LB || '''5'''  || [[Simon Poulsen]] || {{yel|78}}
+|-
+| CM || '''7'''  || [[William Kvist]] || {{yel|81}}
+|-
+| CM || '''21''' || [[Niki Zimling]]
+|-
+| RW || '''10''' || [[Dennis Rommedahl]] || || {{suboff|84}}
+|-
+| AM || '''8'''  || [[Christian Eriksen]] || || {{suboff|74}}
+|-
+| LW || '''9'''  || [[Michael Krohn-Dehli]]
+|-
+| CF || '''11''' || [[Nicklas Bendtner]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''14''' ||[[Lasse Schøne]] || || {{subon|74}}
+|-
+| FW || '''23''' ||[[Tobias Mikkelsen]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Morten Olsen]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Michael Krohn-Dehli]] (Denmark)&lt;ref name=&quot;ned-den report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Primoz Arhar ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;Matej Žunič ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Pavel Královec]] ([[Czech Football Association|Czech Republic]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Matej Jug]] ([[Football Association of Slovenia|Slovenia]])
+&lt;br /&gt;Slavko Vinčić ([[Football Association of Slovenia|Slovenia]])
+|}
+
+== Germany vs Portugal ==
+{{Football box
+|date = 9 June 2012
+|time = 21:45
+|team1 = {{fb-rt|GER}}
+|score = 1–0
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003322/postmatch/report/index.html Report]
+|team2 = {{fb|POR}}
+|goals1 = [[Mario Gómez|Gómez]] {{goal|72}}
+|goals2 =
+|stadium = [[Arena Lviv]], [[Lviv]]
+|attendance = 32,990&lt;ref name=&quot;ger-por report&quot;&gt;{{cite news |title=Full-time report Germany-Portugal |url=http://www.uefa.com/newsfiles/euro/2012/2003322_fr.pdf |work=Union of European Football Associations |date=9 June 2012 |accessdate=9 June 2012 }}&lt;/ref&gt;
+|referee = [[Stéphane Lannoy]] ([[French Football Federation|France]])&lt;ref name=&quot;referees1-4&quot;/&gt;
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _DFB_12h
+ |pattern_b  = _DFB_12h
+ |pattern_ra = _DFB_12h
+ |pattern_sh = _DFB_12h
+ |pattern_so = _DFB_12h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Germany&lt;ref name=&quot;ger-por_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003322_lu.pdf|title=Tactical Line-up – Group B – Germany-Portugal |date=9 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=9 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _por12h
+ |pattern_b  = _greencollar
+ |pattern_ra = _por12h
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFFFFF
+ |body       = FF0000
+ |rightarm   = FFFFFF
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Portugal&lt;ref name=&quot;ger-por_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  ||[[Manuel Neuer]]
+|-
+| RB || '''20''' ||[[Jérôme Boateng]] || {{yel|69}}
+|-
+| CB || '''5'''  ||[[Mats Hummels]]
+|-
+| CB || '''14''' ||[[Holger Badstuber]] || {{yel|43}}
+|-
+| LB || '''16''' ||[[Philipp Lahm]] ([[Captain (association football)|c]])
+|-
+| CM || '''6'''  ||[[Sami Khedira]]
+|-
+| CM || '''7'''  ||[[Bastian Schweinsteiger]]
+|-
+| RW || '''13''' ||[[Thomas Müller]] || || {{suboff|90+4}}
+|-
+| AM || '''8'''  ||[[Mesut Özil]] || || {{suboff|87}}
+|-
+| LW || '''10''' ||[[Lukas Podolski]]
+|-
+| CF || '''23''' ||[[Mario Gómez]] || || {{suboff|80}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''11''' ||[[Miroslav Klose]] || || {{subon|80}}
+|-
+| MF || '''18''' ||[[Toni Kroos]] || || {{subon|87}}
+|-
+| MF || '''15''' ||[[Lars Bender]] || || {{subon|90+4}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Joachim Löw]]
+|}
+|valign=&quot;top&quot;|[[File:GER-POR 2012-06-09.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''12''' ||[[Rui Patrício]]
+|-
+| RB || '''21''' ||[[João Pereira (Portuguese footballer)|João Pereira]]
+|-
+| CB || '''2'''  ||[[Bruno Alves]]
+|-
+| CB || '''3'''  ||[[Pepe (footballer, born 1983)|Pepe]]
+|-
+| LB || '''5'''  ||[[Fábio Coentrão]] || {{yel|60}}
+|-
+| CM || '''16''' ||[[Raul Meireles]] || || {{suboff|80}}
+|-
+| CM || '''4'''  ||[[Miguel Veloso]]
+|-
+| CM || '''8'''  ||[[João Moutinho]]
+|-
+| RF || '''17''' ||[[Nani]]
+|-
+| CF || '''23''' ||[[Hélder Postiga]] || {{yel|13}} || {{suboff|70}}
+|-
+| LF || '''7'''  ||[[Cristiano Ronaldo]] ([[Captain (association football)|c]])
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''11''' ||[[Nélson Oliveira]] || || {{subon|70}}
+|-
+| FW || '''18''' ||[[Silvestre Varela]] || || {{subon|80}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Paulo Bento]]
+|}
+|}
+
+{| width=100% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Mesut Özil]] (Germany)&lt;ref name=&quot;ger-por report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Frédéric Cano ([[French Football Federation|France]])
+&lt;br /&gt;Michael Annonier ([[French Football Federation|France]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Marcin Borski]] ([[Polish Football Association|Poland]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Fredy Fautrel]] ([[French Football Federation|France]])
+&lt;br /&gt;Ruddy Buquet ([[French Football Federation|France]])
+|}
+
+==Denmark vs Portugal==
+{{Football box
+|date = 13 June 2012
+|time = 19:00
+|team1 = {{fb-rt|DEN}}
+|score = 2–3
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003330/postmatch/report/index.html Report]
+|team2 = {{fb|POR}}
+|goals1 = [[Nicklas Bendtner|Bendtner]] {{goal|41||80}}
+|goals2 = [[Pepe (footballer, born 1983)|Pepe]] {{goal|24}}&lt;br /&gt;[[Hélder Postiga|Postiga]] {{goal|36}}&lt;br /&gt;[[Silvestre Varela|Varela]] {{goal|87}}
+|stadium = [[Arena Lviv]], [[Lviv]]
+|attendance = 31,840&lt;ref name=&quot;den-por report&quot;&gt;{{cite news |title=Full-time report Denmark-Portugal |url=http://www.uefa.com/newsfiles/euro/2012/2003330_fr.pdf |work=Union of European Football Associations |date=13 June 2012 |accessdate=13 June 2012 }}&lt;/ref&gt;
+|referee = [[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _den12h
+ |pattern_b  = _den12h
+ |pattern_ra = _den12h
+ |pattern_sh = _den12a
+ |pattern_so = _den12h
+ |leftarm    = ed1c24
+ |body       = ed1c24
+ |rightarm   = ed1c24
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Denmark&lt;ref name=&quot;den-por_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003330_lu.pdf|title=Tactical Line-up – Group B – Denmark-Portugal |date=13 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=13 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _por12a
+ |pattern_b  = _por12a
+ |pattern_ra = _por12a
+ |pattern_sh = _por12a
+ |pattern_so = _por12a
+ |leftarm    = FFFFFF
+ |body       = ffffff
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Portugal&lt;ref name=&quot;den-por_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  || [[Stephan Andersen]]
+|-
+| RB || '''6'''  || [[Lars Jacobsen]] || {{yel|81}}
+|-
+| CB || '''3'''  || [[Simon Kjær]]
+|-
+| CB || '''4'''  || [[Daniel Agger]] ([[Captain (association football)|c]])
+|-
+| LB || '''5'''  || [[Simon Poulsen]]
+|-
+| DM || '''7'''  || [[William Kvist]]
+|-
+| CM || '''21''' || [[Niki Zimling]] || || {{suboff|16}}
+|-
+| RW || '''10''' || [[Dennis Rommedahl]] || || {{suboff|60}}
+|-
+| AM || '''8'''  || [[Christian Eriksen]]
+|-
+| LW || '''9'''  || [[Michael Krohn-Dehli]] || || {{suboff|90+2}}
+|-
+| CF || '''11''' || [[Nicklas Bendtner]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''19''' || [[Jakob Poulsen]] || {{yel|56}} || {{subon|16}}
+|-
+| FW || '''23''' || [[Tobias Mikkelsen]] || || {{subon|60}}
+|-
+| MF || '''14''' || [[Lasse Schøne]] || || {{subon|90+2}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Morten Olsen]]
+|}
+|valign=&quot;top&quot;|[[File:DEN-POR 2012-06-13.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''12''' ||[[Rui Patrício]]
+|-
+| RB || '''21''' ||[[João Pereira (Portuguese footballer)|João Pereira]]
+|-
+| CB || '''2'''  ||[[Bruno Alves]]
+|-
+| CB || '''3'''  ||[[Pepe (footballer, born 1983)|Pepe]]
+|-
+| LB || '''5'''  ||[[Fábio Coentrão]]
+|-
+| CM || '''16''' ||[[Raul Meireles]] || {{yel|29}} || {{suboff|84}}
+|-
+| CM || '''4'''  ||[[Miguel Veloso]]
+|-
+| CM || '''8'''  ||[[João Moutinho]]
+|-
+| RF || '''17''' ||[[Nani]] || || {{suboff|89}}
+|-
+| CF || '''23''' ||[[Hélder Postiga]] || || {{suboff|64}}
+|-
+| LF || '''7'''  ||[[Cristiano Ronaldo]] ([[Captain (association football)|c]]){{0}} || {{yel|90+2}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''11''' || [[Nélson Oliveira]] || || {{subon|64}}
+|-
+| FW || '''18''' || [[Silvestre Varela]] || || {{subon|84}}
+|-
+| DF || '''14''' || [[Rolando (footballer)|Rolando]] || || {{subon|89}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Paulo Bento]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Pepe (footballer born 1983)|Pepe]] (Portugal)&lt;ref name=&quot;den-por report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Alasdair Ross ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;Derek Rose ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;Viktor Shvetsov ([[Football Federation of Ukraine|Ukraine]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[William Collum]] ([[Scottish Football Association|Scotland]])
+&lt;br /&gt;[[Euan Norris]] ([[Scottish Football Association|Scotland]])
+|}
+
+==Netherlands vs Germany==
+{{Football box
+|date = 13 June 2012
+|time = 21:45
+|team1 = {{fb-rt|NED}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003329/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals1 = [[Robin van Persie|Van Persie]] {{goal|73}}
+|goals2 = [[Mario Gómez|Gómez]] {{goal|24||38}}
+|stadium = [[Metalist Stadium]], [[Kharkiv]]
+|attendance = 37,750&lt;ref name=&quot;ned-ger_report&quot;&gt;{{cite news |title=Full-time report Netherlands-Germany |url=http://www.uefa.com/newsfiles/euro/2012/2003329_fr.pdf |work=Union of European Football Associations |date=13 June 2012 |accessdate=13 June 2012 }}&lt;/ref&gt;
+|referee = [[Jonas Eriksson (referee)|Jonas Eriksson]] ([[Swedish Football Association|Sweden]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _blackborder
+ |pattern_b  = _ned2012h
+ |pattern_ra = _blackborder
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FF7F00
+ |body       = FF7F00
+ |rightarm   = FF7F00
+ |shorts     = FF7F00
+ |socks      = FF7F00
+ |title      = Netherlands&lt;ref name=&quot;ned-ger_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003329_lu.pdf|title=Tactical Line-up – Group B – Netherlands-Germany |date=13 June 2012 |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |accessdate=13 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _DFB_12h
+ |pattern_b  = _DFB_12h
+ |pattern_ra = _DFB_12h
+ |pattern_sh = _DFB_12h
+ |pattern_so = _DFB_12h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Germany&lt;ref name=&quot;ned-ger_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  ||[[Maarten Stekelenburg]]
+|-
+| RB || '''2'''  ||[[Gregory van der Wiel]]
+|-
+| CB || '''3'''  ||[[John Heitinga]]
+|-
+| CB || '''4'''  ||[[Joris Mathijsen]]
+|-
+| LB || '''15''' ||[[Jetro Willems]] || {{yel|90}}
+|-
+| CM || '''8'''  ||[[Nigel de Jong]] || {{yel|80}}
+|-
+| CM || '''6'''  ||[[Mark van Bommel]] ([[Captain (association football)|c]]) || || {{suboff|46}}
+|-
+| RW || '''11''' ||[[Arjen Robben]] || || {{suboff|83}}
+|-
+| AM || '''10''' ||[[Wesley Sneijder]]
+|-
+| LW || '''20''' ||[[Ibrahim Afellay]] || || {{suboff|46}}
+|-
+| CF || '''16''' ||[[Robin van Persie]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''23''' ||[[Rafael van der Vaart]] || || {{subon|46}}
+|-
+| FW || '''9'''  ||[[Klaas-Jan Huntelaar]] || || {{subon|46}}
+|-
+| FW || '''7'''  ||[[Dirk Kuyt]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Bert van Marwijk]]
+|}
+|valign=&quot;top&quot;|[[File:NED-GER 2012-06-13.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Manuel Neuer]]
+|-
+| RB || '''20''' ||[[Jérôme Boateng]] || {{yel|87}}
+|-
+| CB || '''5'''  ||[[Mats Hummels]]
+|-
+| CB || '''14''' ||[[Holger Badstuber]]
+|-
+| LB || '''16''' ||[[Philipp Lahm]] ([[Captain (association football)|c]])
+|-
+| CM || '''6'''  ||[[Sami Khedira]]
+|-
+| CM || '''7'''  ||[[Bastian Schweinsteiger]]
+|-
+| RW || '''13''' ||[[Thomas Müller]] || || {{suboff|90+2}}
+|-
+| AM || '''8'''  ||[[Mesut Özil]]|| || {{suboff|81}}
+|-
+| LW || '''10''' ||[[Lukas Podolski]]
+|-
+| CF || '''23''' ||[[Mario Gómez]] || || {{suboff|72}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''11''' ||[[Miroslav Klose]] || || {{subon|72}}
+|-
+| MF || '''18''' ||[[Toni Kroos]] || || {{subon|81}}
+|-
+| MF || '''15''' ||[[Lars Bender]] || || {{subon|90+2}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Joachim Löw]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Mario Gómez]] (Germany)&lt;ref name=&quot;ned-ger_report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Stefan Wittberg ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;Mathias Klasenius ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Tom Harald Hagen]] ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Markus Strömbergsson]] ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;[[Stefan Johannesson]] ([[Swedish Football Association|Sweden]])
+|}
+
+== Portugal vs Netherlands ==
+{{Football box
+|date = 17 June 2012
+|time = 21:45
+|team1 = {{fb-rt|POR}}
+|score = 2–1
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003337/postmatch/report/index.html Report]
+|team2 = {{fb|NED}}
+|goals1 = [[Cristiano Ronaldo|Ronaldo]] {{goal|28||74}}
+|goals2 = [[Rafael van der Vaart|Van der Vaart]] {{goal|11}}
+|stadium = [[Metalist Stadium]], [[Kharkiv]]
+|attendance = 37,445&lt;ref name=&quot;por-ned_report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003337_fr.pdf |title=Full-time report Portugal-Netherlands |work=Union of European Football Associations |format=PDF |date=17 June 2012 |accessdate=17 June 2012 }}&lt;/ref&gt;
+|referee = [[Nicola Rizzoli]] ([[Italian Football Federation|Italy]])
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _por12h
+ |pattern_b  = _greencollar
+ |pattern_ra = _por12h
+ |pattern_sh = 
+ |pattern_so = 
+ |leftarm    = FFFFFF
+ |body       = FF0000
+ |rightarm   = FFFFFF
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Portugal&lt;ref name=&quot;por-ned_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003337_lu.pdf |title=Tactical Line-up – Group B – Portugal-Netherlands |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=17 June 2012 |accessdate=17 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _hol12a
+ |pattern_b  = _ned2012a
+ |pattern_ra = _hol12a
+ |pattern_sh = _hol12a
+ |pattern_so = 
+ |leftarm    = 000000
+ |body       = 000000
+ |rightarm   = 000000
+ |shorts     = 000000
+ |socks      = 000000
+ |title      = Netherlands&lt;ref name=&quot;por-ned_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''12''' ||[[Rui Patrício]]
+|-
+| RB || '''21''' ||[[João Pereira (Portuguese footballer)|João Pereira]] || {{yel|90+2}}
+|-
+| CB || '''2'''  ||[[Bruno Alves]]
+|-
+| CB || '''3'''  ||[[Pepe (footballer, born 1983)|Pepe]]
+|-
+| LB || '''5'''  ||[[Fábio Coentrão]]
+|-
+| CM || '''16''' ||[[Raul Meireles]] || || {{suboff|72}}
+|-
+| CM || '''4'''  ||[[Miguel Veloso]]
+|-
+| CM || '''8'''  ||[[João Moutinho]]
+|-
+| RF || '''17''' ||[[Nani]] || || {{suboff|87}}
+|-
+| CF || '''23''' ||[[Hélder Postiga]] || || {{suboff|64}}
+|-
+| LF || '''7'''  ||[[Cristiano Ronaldo]] ([[Captain (association football)|c]])
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| FW || '''11''' ||[[Nélson Oliveira]] || || {{subon|64}}
+|-
+| MF || '''6'''  ||[[Custódio Castro|Custódio]] || || {{subon|72}}
+|-
+| DF || '''14''' ||[[Rolando (footballer)|Rolando]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Paulo Bento]]
+|}
+|valign=&quot;top&quot;|[[File:POR-NED 2012-06-17.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Maarten Stekelenburg]]
+|-
+| RB || '''2'''  ||[[Gregory van der Wiel]]
+|-
+| CB || '''13''' ||[[Ron Vlaar]]
+|-
+| CB || '''4'''  ||[[Joris Mathijsen]]
+|-
+| LB || '''15''' ||[[Jetro Willems]] || {{yel|51}} || {{suboff|67}}
+|-
+| DM || '''8'''  ||[[Nigel de Jong]]
+|-
+| CM || '''23''' ||[[Rafael van der Vaart]] ([[Captain (association football)|c]])
+|-
+| RW || '''11''' ||[[Arjen Robben]]
+|-
+| AM || '''16''' ||[[Robin van Persie]] || {{yel|69}}
+|-
+| LW || '''10''' ||[[Wesley Sneijder]] 
+|-
+| CF || '''9'''  ||[[Klaas-Jan Huntelaar]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''20''' ||[[Ibrahim Afellay]] || || {{subon|67}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Bert van Marwijk]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Cristiano Ronaldo]] (Portugal)&lt;ref name=&quot;por-ned_report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Renato Faverani ([[Italian Football Federation|Italy]])
+&lt;br /&gt;Andrea Stefani ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Martin Atkinson]] ([[The Football Association|England]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[Gianluca Rocchi]] ([[Italian Football Federation|Italy]])
+&lt;br /&gt;[[Paolo Tagliavento]] ([[Italian Football Federation|Italy]])
+|}
+
+==Denmark vs Germany==
+{{Football box
+|date = 17 June 2012
+|time = 21:45
+|team1 = {{fb-rt|DEN}}
+|score = 1–2
+|report = [http://www.uefa.com/uefaeuro/season=2012/matches/round=15172/match=2003338/postmatch/report/index.html Report]
+|team2 = {{fb|GER}}
+|goals1 = [[Michael Krohn-Dehli|Krohn-Dehli]] {{goal|24}}
+|goals2 = [[Lukas Podolski|Podolski]] {{goal|19}}&lt;br /&gt;[[Lars Bender|Bender]] {{goal|80}}
+|stadium = [[Arena Lviv]], [[Lviv]]
+|attendance = 32,990&lt;ref name=&quot;den-ger report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003338_fr.pdf |title=Full-time report Denmark-Germany |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=17 June 2012 |accessdate=17 June 2012 }}&lt;/ref&gt;
+|referee = [[Carlos Velasco Carballo]] ([[Royal Spanish Football Federation|Spain]]) 
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _den12h
+ |pattern_b  = _den12h
+ |pattern_ra = _den12h
+ |pattern_sh = _den12h
+ |pattern_so = _den12h
+ |leftarm    = ed1c24
+ |body       = ed1c24
+ |rightarm   = ed1c24
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Denmark&lt;ref name=&quot;den-ger_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2012/2003338_lu.pdf |title=Tactical Line-up – Group B – Denmark-Germany |work=UEFA.com |publisher=Union of European Football Associations |format=PDF |date=17 June 2012 |accessdate=17 June 2012}}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _DFB_12h
+ |pattern_b  = _DFB_12h
+ |pattern_ra = _DFB_12h
+ |pattern_sh = _DFB_12h
+ |pattern_so = _DFB_12h
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Germany&lt;ref name=&quot;den-ger_line-ups&quot;/&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+| GK || '''1'''  || [[Stephan Andersen]]
+|-
+| RB || '''6'''  || [[Lars Jacobsen]]
+|-
+| CB || '''3'''  || [[Simon Kjær]]
+|-
+| CB || '''4'''  || [[Daniel Agger]] ([[Captain (association football)|c]])
+|-
+| LB || '''5'''  || [[Simon Poulsen]]
+|-
+| DM || '''7'''  || [[William Kvist]]
+|-
+| CM || '''19''' || [[Jakob Poulsen]] || || {{suboff|82}}
+|-
+| CM || '''21''' || [[Niki Zimling]] || || {{suboff|78}}
+|-
+| RW || '''8'''  || [[Christian Eriksen]]
+|-
+| LW || '''9'''  || [[Michael Krohn-Dehli]]
+|-
+| CF || '''11''' || [[Nicklas Bendtner]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''2''' || [[Christian Poulsen]] || || {{subon|78}}
+|-
+| FW || '''23''' || [[Tobias Mikkelsen]] || || {{subon|82}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Morten Olsen]]
+|}
+|valign=&quot;top&quot;|[[File:DEN-GER 2012-06-17.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size:90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+| GK || '''1'''  ||[[Manuel Neuer]]
+|-
+| RB || '''15''' ||[[Lars Bender]]
+|-
+| CB || '''5'''  ||[[Mats Hummels]]
+|-
+| CB || '''14''' ||[[Holger Badstuber]]
+|-
+| LB || '''16''' ||[[Philipp Lahm]] ([[Captain (association football)|c]])
+|-
+| CM || '''6'''  ||[[Sami Khedira]]
+|-
+| CM || '''7'''  ||[[Bastian Schweinsteiger]]
+|-
+| RW || '''13''' ||[[Thomas Müller]] || || {{suboff|84}}
+|-
+| AM || '''8'''  ||[[Mesut Özil]]
+|-
+| LW || '''10''' ||[[Lukas Podolski]] || || {{suboff|64}}
+|-
+| CF || '''23''' ||[[Mario Gómez]] || || {{suboff|74}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+| MF || '''9'''  ||[[André Schürrle]] || || {{subon|64}}
+|-
+| FW || '''11''' ||[[Miroslav Klose]] || || {{subon|74}}
+|-
+| MF || '''18''' ||[[Toni Kroos]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Joachim Löw]]
+|}
+|}
+
+{| width=50% style=&quot;font-size:90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Lukas Podolski]] (Germany)&lt;ref name=&quot;den-ger report&quot;/&gt;
+
+'''Assistant referees:'''
+&lt;br /&gt;Roberto Alonso Fernández ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;Juan Carlos Yuste Jiménez ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''Fourth official:'''
+&lt;br /&gt;[[Mark Clattenburg]] ([[The Football Association|England]])
+&lt;br /&gt;'''Additional assistant referees:'''
+&lt;br /&gt;[[David Fernández Borbalán]] ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;[[Carlos Clos Gómez]] ([[Royal Spanish Football Federation|Spain]])
+|}
+
+== References ==
+{{Reflist|colwidth=40em}}
+
+==External links==
+*[http://www.uefa.com/uefaeuro/season=2012/standings/round=15172/group=700965/index.html UEFA Euro 2012 Group B]
+
+{{UEFA Euro 2012}}
+
+[[Category:UEFA Euro 2012|Group B]]
+[[Category:Germany at UEFA Euro 2012|Group]]
+[[Category:2011–12 in Portuguese football]]
+[[Category:Denmark at UEFA Euro 2012|Group]]
+[[Category:Netherlands at UEFA Euro 2012|Group]]</text>
+      <sha1>04i1hg6y04q8craglwx405lhhu7qvp9</sha1>
+    </revision>
+  </page>
+</mediawiki>

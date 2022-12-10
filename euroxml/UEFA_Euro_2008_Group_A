@@ -1,0 +1,948 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 Group A</title>
+    <ns>0</ns>
+    <id>14524169</id>
+    <revision>
+      <id>685009709</id>
+      <parentid>684040161</parentid>
+      <timestamp>2015-10-10T05:38:04Z</timestamp>
+      <contributor>
+        <ip>112.120.187.71</ip>
+      </contributor>
+      <comment>/* Standings */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="31180">'''Group A of the 2008 UEFA European Championships''' is one of four groups competing of nations at [[UEFA Euro 2008]]. The group's first round of matches was played on 7 June, with the final round played on 15 June. All six group matches were played at venues in [[Switzerland]], in [[Basel]] and [[Geneva]]. The group consisted of co-host [[Switzerland national football team|Switzerland]], [[UEFA Euro 2004]] host and finalist [[Portugal national football team|Portugal]], as well as [[Czech Republic national football team|Czech Republic]] and [[Turkey national football team|Turkey]].
+
+Portugal won their first two games against Turkey and the Czech Republic, scoring five goals in the process, to qualify for the [[UEFA Euro 2008 knockout stage#Quarter-finals|quarter-finals]] by winning the group. The second quarter-final place would go to the winner of the match between Turkey and the Czech Republic. As the two teams had identical records going into the game, if the match had finished as a draw, the quarter-final place would have been determined by a penalty shootout – what would have been the first group stage penalty shootout in a major international tournament. Meanwhile, Switzerland became the first team to be eliminated from the tournament after losing to Turkey 2–1 in their second match, [[Arda Turan]] scoring a deflected winner in the [[Last-minute goal|last minute]], having lost 1–0 to the Czech Republic in their opening match.&lt;ref&gt;{{cite news |title=Switzerland 1–2 Turkey |first=Mandeep |last=Sanghera |url=http://news.bbc.co.uk/sport2/hi/football/euro_2008/7363001.stm |work=BBC Sport |publisher=British Broadcasting Corporation |date=11 June 2008 |accessdate=11 June 2011}}&lt;/ref&gt; This match between Switzerland and Turkey was dubbed the &quot;Bath of Basel&quot; as the rain poured down incessantly. The weather suited the long-ball Swiss more than the short-passing Turks, and before half time the Swiss had capitalised on the conditions. Indeed, Hakan Yakin's goal stemmed from the ball stopping in a puddle and allowing him an easy finish, which led the BBC commentary team to utter the classic, &quot;It's a tap-in ... Hakan Yakin!&quot; In the second half Turkey's more direct style yielded two goals, the second a last-minute long-range shot from Arda Turan which went in off a deflection. This was the first of several last-gasp victories for the Turkish team at the tournament, made all the more impressive by their injury woes at that time.
+
+The final round of matches saw the Portuguese name an under-strength team for their match against Switzerland, their progression already assured. Their opponents, however, fielded a strong side and won the match 2–0, securing their first win in a European Championship.&lt;ref&gt;{{cite news |title=Turkey 3–2 Czech R &amp; Switzerland 2–0 Portugal |first=Mandeep |last=Sanghera |url=http://news.bbc.co.uk/sport2/hi/football/euro_2008/7363011.stm |work=BBC Sport |publisher=British Broadcasting Corporation |date=15 June 2008 |accessdate=11 June 2011}}&lt;/ref&gt; Meanwhile, with a place in the quarter-finals to play for, Turkey and the Czech Republic each had to win to qualify. The Czechs went into half time 1–0 up, and doubled their lead soon after half-time. Arda Turan brought the Turks back into the game in the 75th minute, before [[Petr Čech]] made an uncharacteristic error, dropping the ball at the feet of [[Nihat Kahveci]], who was left with a simple finish. Boosted by the equaliser, Turkey went for the win, and two minutes later, Nihat curled the ball past Čech from 20 yards. Then, with just moments left to play, the Turkish goalkeeper [[Volkan Demirel]] pushed over the big Czech striker [[Jan Koller]], resulting in a red card for the Turk. With no substitutions left, Turkey had to put [[Tuncay Şanlı]] in goal, but still managed to secure their place in the quarter-finals.&lt;ref&gt;{{cite news |title=Turkey v Czech Republic – as it happened |first=John |last=Ashdown |url=http://www.guardian.co.uk/football/2008/jun/15/euro2008groupa.turkey |work=The Guardian |publisher=Guardian Media Group |date=15 June 2008 |accessdate=11 June 2011}}&lt;/ref&gt; Tempers continued to boil over, as [[Milan Baroš]] was booked, despite having been on the bench for the whole game.
+
+{{TOC right}}
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+!Key to colours in group tables
+|- style=&quot;background:#cfc&quot;
+|Team progressed to the [[UEFA Euro 2008 knockout phase#Quarter-finals|quarter-finals]]
+|}
+
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=175 |Team
+!width=20 abbr=&quot;Played&quot; |{{Tooltip| Pld | total games PLAYED}}
+!width=20 abbr=&quot;Won&quot; |{{Tooltip| W | total games WON}}
+!width=20 abbr=&quot;Drawn&quot; |{{Tooltip| D | total games DRAWN (tied)}}
+!width=20 abbr=&quot;Lost&quot; |{{Tooltip| L | total games LOST}}
+!width=20 abbr=&quot;Goals for&quot; |{{Tooltip| GF | total goals scored (GOALS FOR)}}
+!width=20 abbr=&quot;Goals against&quot; |{{Tooltip| GA | total goals conceded (GOALS AGAINST)}}
+!width=20 abbr=&quot;Goal difference&quot; |{{Tooltip| GD | GOALS DIFFERENCE (GF-GA)}}
+!width=20 abbr=&quot;Points&quot; |{{Tooltip| Pts | total POINTS accumulated (3W+D)}}
+|- bgcolor=&quot;#ccffcc&quot;
+|align=&quot;left&quot;|{{fb|POR}}
+|3||2||0||1||5||3||+2||'''6'''
+|- bgcolor=&quot;#ccffcc&quot;
+|align=&quot;left&quot;|{{fb|TUR}}
+|3||2||0||1||5||5||0||'''6'''
+|-
+|align=&quot;left&quot;|{{fb|CZE}}
+|3||1||0||2||4||6||&amp;minus;2||'''3'''
+|-
+|align=&quot;left&quot;|{{fb|SUI}}
+|3||1||0||2||3||3||0||'''3'''
+|}
+
+''All times local ([[Central European Time#Central European Summer Time|UTC+2]])''
+{{-}}
+
+==Switzerland vs Czech Republic==
+{{Football box
+| date         = {{Start date|2008|6|7|df=y}}
+| time         = 18:00
+| team1        = {{fb-rt|SUI}}
+| team2        = {{fb|CZE}}
+| score        = 0–1
+| goals2       = [[Václav Svěrkoš|Svěrkoš]] {{goal|71}}
+| stadium      = [[St. Jakob-Park]], [[Basel]]
+| attendance   = 39,730&lt;ref name=&quot;sui-cze report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD01_300682_SUI_CZE_FullReport.pdf |title=Full-time report Switzerland-Czech Republic |work=Union of Football European Associations |format=PDF |date=7 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Roberto Rosetti]] ([[Italian Football Federation|Italy]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300682/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _sui08h
+ |pattern_ra = _thinwhiteborder
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Switzerland&lt;ref name=&quot;sui-cze_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD01_300682_SUI_CZE_TactLineUps.pdf |title=Team Line-ups – Group A – Switzerland-Czech Republic |work=Union of European Football Associations |format=PDF |date=7 June 2008 |accessdate=10 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _thinredborder
+ |pattern_b  = _cze08a
+ |pattern_ra = _thinredborder
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = 000000
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Czech Republic&lt;ref name=&quot;sui-cze_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Diego Benaglio]]
+|-
+|RB ||'''5''' ||[[Stephan Lichtsteiner]] || || {{suboff|75}}
+|-
+|CB ||'''20'''||[[Patrick Müller]]
+|-
+|CB ||'''4''' ||[[Philippe Senderos]]
+|-
+|LB ||'''3''' ||[[Ludovic Magnin]] || {{yel|59}}
+|-
+|CM ||'''8''' ||[[Gökhan Inler]]
+|-
+|CM ||'''15'''||[[Gelson Fernandes]]
+|-
+|RW ||'''19'''||[[Valon Behrami]] || || {{suboff|84}}
+|-
+|LW ||'''16'''||[[Tranquillo Barnetta]] || {{yel|90+3}}
+|-
+|CF ||'''9''' ||[[Alexander Frei]] ([[Captain (association football)|c]]) || || {{suboff|46}}
+|-
+|CF ||'''11'''||[[Marco Streller]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''10'''||[[Hakan Yakin]] || || {{subon|46}}
+|-
+|FW ||'''22'''||[[Johan Vonlanthen]] || {{yel|76}} || {{subon|75}}
+|-
+|FW ||'''12'''||[[Eren Derdiyok]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Köbi Kuhn]]
+|}
+|valign=&quot;top&quot;|[[File:SUI-CZE 2008-06-07.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Petr Čech]]
+|-
+|RB ||'''2''' ||[[Zdeněk Grygera]]
+|-
+|CB ||'''21'''||[[Tomáš Ujfaluši]] ([[Captain (association football)|c]])
+|-
+|CB ||'''22'''||[[David Rozehnal]]
+|-
+|LB ||'''6''' ||[[Marek Jankulovski]]
+|-
+|DM ||'''4''' ||[[Tomáš Galásek]]
+|-
+|CM ||'''14'''||[[David Jarolím]] || || {{suboff|87}}
+|-
+|CM ||'''3''' ||[[Jan Polák]]
+|-
+|RW ||'''7''' ||[[Libor Sionko]] || || {{suboff|83}}
+|-
+|LW ||'''20'''||[[Jaroslav Plašil]]
+|-
+|CF ||'''9''' ||[[Jan Koller]] || || {{suboff|56}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''10'''||[[Václav Svěrkoš]] || || {{subon|56}}
+|-
+|FW ||'''11'''||[[Stanislav Vlček]] || || {{subon|83}}
+|-
+|MF ||'''5''' ||[[Radoslav Kováč]] || || {{subon|87}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Karel Brückner]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Tomáš Ujfaluši]] (Czech Republic)&lt;ref name=&quot;sui-cze report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Alessandro Griselli ([[Italian Football Federation|Italy]])
+&lt;br /&gt;Paolo Calcagno ([[Italian Football Federation|Italy]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Stéphane Lannoy]] ([[French Football Federation|France]])
+|}
+
+==Portugal vs Turkey==
+{{Football box
+| date         = {{Start date|2008|6|7|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|POR}}
+| team2        = {{fb|TUR}}
+| score        = 2–0
+| goals1       = [[Pepe (footballer, born 1983)|Pepe]] {{goal|61}}&lt;br /&gt;[[Raul Meireles|Meireles]] {{goal|90+3}}
+| stadium      = [[Stade de Genève]], [[Geneva]]
+| attendance   = 29,106&lt;ref name=&quot;por-tur report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD01_300683_POR_TUR_FullReport.pdf |title=Full-time report Portugal-Turkey |work=Union of European Football Associations |format=PDF |date=7 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Herbert Fandel]] ([[German Football Association|Germany]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300683/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _por08h
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       =
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Portugal&lt;ref name=&quot;por-tur_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD01_300683_POR_TUR_TactLineUps.pdf |title=Team Line-ups – Group A – Portugal-Turkey |work=Union of European Football Associations |format=PDF |date=7 June 2008 |accessdate=10 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _turkey_away
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Turkey&lt;ref name=&quot;por-tur_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Ricardo Pereira|Ricardo]]
+|-
+|RB ||'''4''' ||[[José Bosingwa]]
+|-
+|CB ||'''15'''||[[Pepe (footballer, born 1983)|Pepe]]
+|-
+|CB ||'''16'''||[[Ricardo Carvalho]]
+|-
+|LB ||'''2''' ||[[Paulo Ferreira]]
+|-
+|CM ||'''8''' ||[[Petit (Portuguese footballer)|Petit]]
+|-
+|CM ||'''10'''||[[João Moutinho]]
+|-
+|RW ||'''7''' ||[[Cristiano Ronaldo]]
+|-
+|AM ||'''20'''||[[Deco]] || || {{suboff|90+2}}
+|-
+|LW ||'''11'''||[[Simão Sabrosa|Simão]] || || {{suboff|83}}
+|-
+|CF ||'''21'''||[[Nuno Gomes]] ([[Captain (association football)|c]]) || || {{suboff|69}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''19'''||[[Nani]] || || {{subon|69}}
+|-
+|MF ||'''6''' ||[[Raul Meireles]] || || {{subon|83}}
+|-
+|DF ||'''5''' ||[[Fernando Meira]] || || {{subon|90+2}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|BRA}} [[Luiz Felipe Scolari]]
+|}
+|valign=&quot;top&quot;|[[File:POR-TUR 2008-06-07.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''23'''||[[Volkan Demirel]]
+|-
+|RB ||'''22'''||[[Hamit Altıntop]] || || {{suboff|76}}
+|-
+|CB ||'''2''' ||[[Servet Çetin]]
+|-
+|CB ||'''4''' ||[[Gökhan Zan]] || {{yel|51}} || {{suboff|55}}
+|-
+|LB ||'''3''' ||[[Hakan Balta]]
+|-
+|RM ||'''18'''||[[Colin Kazim-Richards]] || {{yel|4}}
+|-
+|CM ||'''5''' ||[[Emre Belözoğlu]] ([[Captain (association football)|c]])
+|-
+|LM ||'''7''' ||[[Mehmet Aurélio]]
+|-
+|AM ||'''21'''||[[Mevlüt Erdinç]] || || {{suboff|46}}
+|-
+|AM ||'''17'''||[[Tuncay Şanlı]]
+|-
+|CF ||'''8''' ||[[Nihat Kahveci]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''20'''||[[Sabri Sarıoğlu]] || {{yel|73}} || {{subon|46}}
+|-
+|DF ||'''15'''||[[Emre Aşık]] || || {{subon|55}}
+|-
+|FW ||'''9''' ||[[Semih Şentürk]] || || {{subon|76}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Fatih Terim]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Pepe (footballer born 1983)|Pepe]] (Portugal)&lt;ref name=&quot;por-tur report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Carsten Kadach ([[German Football Association|Germany]])
+&lt;br /&gt;Volker Wezel ([[German Football Association|Germany]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]])
+|}
+
+==Czech Republic vs Portugal==
+{{Football box
+| date         = {{Start date|2008|6|11|df=y}}
+| time         = 18:00
+| team1        = {{fb-rt|CZE}}
+| team2        = {{fb|POR}}
+| score        = 1–3
+| goals1       = [[Libor Sionko|Sionko]] {{goal|17}}
+| goals2       = [[Deco]] {{goal|8}}&lt;br /&gt;[[Cristiano Ronaldo|Ronaldo]] {{goal|63}}&lt;br /&gt;[[Ricardo Quaresma|Quaresma]] {{goal|90+1}}
+| stadium      = [[Stade de Genève]], [[Geneva]]
+| attendance   = 29,016&lt;ref name=&quot;cze-por report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD05_300691_CZE_POR_FullReport.pdf |title=Full-time report Czech Republic-Portugal |work=Union of European Football Associations |format=PDF |date=11 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300691/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _cze08h
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FFFFFF
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Czech Republic&lt;ref name=&quot;cze-por_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD05_300691_CZE_POR_TactLineUps.pdf |title=Team Line-ups – Group A – Czech Republic-Portugal |work=Union of European Football Associations |format=PDF |date=11 June 2008 |accessdate=10 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  =_por08a
+ |pattern_ra =
+ |pattern_sh = _greensides
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Portugal&lt;ref name=&quot;cze-por_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Petr Čech]]
+|-
+|RB ||'''2''' ||[[Zdeněk Grygera]]
+|-
+|CB ||'''21'''||[[Tomáš Ujfaluši]] ([[Captain (association football)|c]])
+|-
+|CB ||'''22'''||[[David Rozehnal]]
+|-
+|LB ||'''6''' ||[[Marek Jankulovski]]
+|-
+|DM ||'''4''' ||[[Tomáš Galásek]] || || {{suboff|73}}
+|-
+|CM ||'''17'''||[[Marek Matějovský]] || || {{suboff|68}}
+|-
+|CM ||'''3''' ||[[Jan Polák]] || {{yel|22}}
+|-
+|RW ||'''7''' ||[[Libor Sionko]]
+|-
+|LW ||'''20'''||[[Jaroslav Plašil]] || || {{suboff|84}}
+|-
+|CF ||'''15'''||[[Milan Baroš]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''11'''||[[Stanislav Vlček]] || || {{subon|68}}
+|-
+|FW ||'''9''' ||[[Jan Koller]] || || {{subon|73}}
+|-
+|MF ||'''14'''||[[David Jarolím]] || || {{subon|84}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Karel Brückner]]
+|}
+|valign=&quot;top&quot;|[[File:CZE-POR 2008-06-11.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Ricardo Pereira|Ricardo]]
+|-
+|RB ||'''4''' ||[[José Bosingwa]] || {{yel|31}}
+|-
+|CB ||'''15'''||[[Pepe (footballer, born 1983)|Pepe]]
+|-
+|CB ||'''16'''||[[Ricardo Carvalho]]
+|-
+|LB ||'''2''' ||[[Paulo Ferreira]]
+|-
+|CM ||'''8''' ||[[Petit (Portuguese footballer)|Petit]]
+|-
+|CM ||'''10'''||[[João Moutinho]] || || {{suboff|75}}
+|-
+|RW ||'''7''' ||[[Cristiano Ronaldo]]
+|-
+|AM ||'''20'''||[[Deco]]
+|-
+|LW ||'''11'''||[[Simão Sabrosa|Simão]] || || {{suboff|80}}
+|-
+|CF ||'''21'''||[[Nuno Gomes]] ([[Captain (association football)|c]]) || || {{suboff|79}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''5''' ||[[Fernando Meira]] || || {{subon|75}}
+|-
+|FW ||'''9''' ||[[Hugo Almeida]] || || {{subon|79}}
+|-
+|MF ||'''17'''||[[Ricardo Quaresma]] || || {{subon|80}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|BRA}} [[Luiz Felipe Scolari]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Cristiano Ronaldo]] (Portugal)&lt;ref name=&quot;cze-por report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Dimitris Bozatzidis ([[Hellenic Football Federation|Greece]])
+&lt;br /&gt;Dimitris Saraidaris ([[Hellenic Football Federation|Greece]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]])
+|}
+
+==Switzerland vs Turkey==
+{{Football box
+| date         = {{Start date|2008|6|11|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|SUI}}
+| team2        = {{fb|TUR}}
+| score        = 1–2
+| goals1       = [[Hakan Yakin|Yakin]] {{goal|32}}
+| goals2       = [[Semih Şentürk|Semih]] {{goal|57}}&lt;br /&gt;[[Arda Turan|Turan]] {{goal|90+2}}
+| stadium      = [[St. Jakob-Park]], [[Basel]]
+| attendance   = 39,730&lt;ref name=&quot;sui-tur report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD05_300690_SUI_TUR_FullReport.pdf |title=Full-time report Switzerland-Turkey |work=Union of European Football Associations |format=PDF |date=11 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Ľuboš Micheľ]] ([[Slovak Football Association|Slovakia]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300690/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _sui08h
+ |pattern_ra = _thinwhiteborder
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Switzerland&lt;ref name=&quot;sui-tur_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD05_300690_SUI_TUR_TactLineUps.pdf |title=Team Line-ups – Group A – Switzerland-Turkey |work=Union of European Football Associations |format=PDF |date=7 June 2008 |accessdate=10 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _turkey_away
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = 3FA9A9
+ |rightarm   = FFFFFF
+ |shorts     = 3Fb9b9
+ |socks      = 3Fb9b9
+ |title      = Turkey&lt;ref name=&quot;sui-tur_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Diego Benaglio]]
+|-
+|RB ||'''5''' ||[[Stephan Lichtsteiner]]
+|-
+|CB ||'''20'''||[[Patrick Müller]]
+|-
+|CB ||'''4''' ||[[Philippe Senderos]]
+|-
+|LB ||'''3''' ||[[Ludovic Magnin]] ([[Captain (association football)|c]])
+|-
+|RM ||'''19'''||[[Valon Behrami]]
+|-
+|CM ||'''8''' ||[[Gökhan Inler]]
+|-
+|CM ||'''15'''||[[Gelson Fernandes]] || || {{suboff|76}}
+|-
+|LM ||'''16'''||[[Tranquillo Barnetta]] || || {{suboff|66}}
+|-
+|SS ||'''10'''||[[Hakan Yakin]] || || {{suboff|85}}
+|-
+|CF ||'''12'''||[[Eren Derdiyok]] || {{yel|55}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''22'''||[[Johan Vonlanthen]] || || {{subon|66}}
+|-
+|MF ||'''7''' ||[[Ricardo Cabanas]] || || {{subon|76}}
+|-
+|FW ||'''14'''||[[Daniel Gygax]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Köbi Kuhn]]
+|}
+|valign=&quot;top&quot;|[[File:SUI-TUR 2008-06-11.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''23'''||[[Volkan Demirel]]
+|-
+|RB ||'''22'''||[[Hamit Altıntop]]
+|-
+|CB ||'''15'''||[[Emre Aşık]]
+|-
+|CB ||'''2''' ||[[Servet Çetin]]
+|-
+|LB ||'''3''' ||[[Hakan Balta]] || {{yel|48}}
+|-
+|DM ||'''7''' ||[[Mehmet Aurélio]] || {{yel|41}}
+|-
+|RM ||'''10'''||[[Gökdeniz Karadeniz]] || || {{suboff|46}}
+|-
+|LM ||'''14'''||[[Arda Turan]]
+|-
+|AM ||'''11'''||[[Tümer Metin]] || || {{suboff|46}}
+|-
+|CF ||'''8''' ||[[Nihat Kahveci]] ([[Captain (association football)|c]]) || || {{suboff|85}}
+|-
+|CF ||'''17'''||[[Tuncay Şanlı]] || {{yel|31}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''6''' ||[[Mehmet Topal]] || || {{subon|46}}
+|-
+|FW ||'''9''' ||[[Semih Şentürk]] || || {{subon|46}}
+|-
+|MF ||'''18'''||[[Colin Kazim-Richards]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Fatih Terim]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Arda Turan]] (Turkey)&lt;ref name=&quot;sui-tur report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Roman Slyško ([[Slovak Football Association|Slovakia]])
+&lt;br /&gt;Martin Balko ([[Slovak Football Association|Slovakia]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]])
+|}
+
+==Switzerland vs Portugal==
+{{Football box
+| date         = {{Start date|2008|6|15|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|SUI}}
+| team2        = {{fb|POR}}
+| score        = 2–0
+| goals1       = [[Hakan Yakin|Yakin]] {{goal|71||83|pen.}}
+| stadium      = [[St. Jakob-Park]], [[Basel]]
+| attendance   = 39,730&lt;ref name=&quot;sui-por report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD09_300698_SUI_POR_FullReport.pdf |title=Full-time report Switzerland-Portugal |work=Union of European Football Associations |format=PDF |date=15 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Konrad Plautz]] ([[Austrian Football Association|Austria]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300698/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _sui08h
+ |pattern_ra = _thinwhiteborder
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Switzerland&lt;ref name=&quot;sui-por_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD09_300698_SUI_POR_TactLineUps.pdf |title=Team Line-ups – Group A – Switzerland-Portugal |work=Union of European Football Associations |format=PDF |date=15 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _por08a
+ |pattern_ra =
+ |pattern_sh = _greensides
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Portugal&lt;ref name=&quot;sui-por_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''18'''||[[Pascal Zuberbühler]]
+|-
+|RB ||'''5''' ||[[Stephan Lichtsteiner]] || || {{suboff|83}}
+|-
+|CB ||'''20'''||[[Patrick Müller]]
+|-
+|CB ||'''4''' ||[[Philippe Senderos]]
+|-
+|LB ||'''3''' ||[[Ludovic Magnin]] ([[Captain (association football)|c]])
+|-
+|RM ||'''19'''||[[Valon Behrami]]
+|-
+|CM ||'''15'''||[[Gelson Fernandes]] || {{yel|90+2}}
+|-
+|CM ||'''8''' ||[[Gökhan Inler]]
+|-
+|LM ||'''22'''||[[Johan Vonlanthen]] || {{yel|37}} || {{suboff|61}}
+|-
+|SS ||'''10'''||[[Hakan Yakin]] || {{yel|27}} || {{suboff|86}}
+|-
+|CF ||'''12'''||[[Eren Derdiyok]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''16'''||[[Tranquillo Barnetta]] || {{yel|81}} || {{subon|61}}
+|-
+|DF ||'''13'''||[[Stéphane Grichting]] || || {{subon|83}}
+|-
+|MF ||'''7''' ||[[Ricardo Cabanas]] || || {{subon|86}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Köbi Kuhn]]
+|}
+|valign=&quot;top&quot;|[[File:SUI-POR 2008-06-15.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Ricardo Pereira|Ricardo]]
+|-
+|RB ||'''13'''||[[Miguel Monteiro|Miguel]] || {{yel|81}}
+|-
+|CB ||'''15'''||[[Pepe (footballer, born 1983)|Pepe]]
+|-
+|CB ||'''3''' ||[[Bruno Alves]]
+|-
+|LB ||'''2''' ||[[Paulo Ferreira]] || {{yel|30}} || {{suboff|41}}
+|-
+|CM ||'''5''' ||[[Fernando Meira]] ([[Captain (association football)|c]]) || {{yel|78}}
+|-
+|CM ||'''18'''||[[Miguel Veloso]] || || {{suboff|71}}
+|-
+|CM ||'''6''' ||[[Raul Meireles]]
+|-
+|RW ||'''17'''||[[Ricardo Quaresma]]
+|-
+|LW ||'''19'''||[[Nani]]
+|-
+|CF ||'''23'''||[[Hélder Postiga]] || || {{suboff|74}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''14'''||[[Jorge Ribeiro]] || {{yel|64}} || {{subon|41}}
+|-
+|MF ||'''10'''||[[João Moutinho]] || || {{subon|71}}
+|-
+|FW ||'''9'''||[[Hugo Almeida]] || || {{subon|74}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|BRA}} [[Luiz Felipe Scolari]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:''' 
+&lt;br /&gt;[[Hakan Yakin]] (Switzerland)&lt;ref name=&quot;sui-por report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Egon Bereuter ([[Austrian Football Association|Austria]])
+&lt;br /&gt;Markus Mayr ([[Austrian Football Association|Austria]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Ivan Bebek]] ([[Croatian Football Federation|Croatia]])
+|}
+
+==Turkey vs Czech Republic==
+{{Football box
+| date         = {{Start date|2008|6|15|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|TUR}}
+| team2        = {{fb|CZE}}
+| score        = 3–2
+| goals1       = [[Arda Turan|Arda]] {{goal|75}}&lt;br /&gt;[[Nihat Kahveci|Nihat]] {{goal|87||89}}
+| goals2       = [[Jan Koller|Koller]] {{goal|34}}&lt;br /&gt;[[Jaroslav Plašil|Plašil]] {{goal|62}}
+| stadium      = [[Stade de Genève]], [[Geneva]]
+| attendance   = 29,016&lt;ref name=&quot;tur-cze report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD09_300699_TUR_CZE_FullReport.pdf |title=Full-time report Turkey-Czech Republic |work=Union of European Football Associations |format=PDF |date=15 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Peter Fröjdfeldt]] ([[Swedish Football Association|Sweden]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300699/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _whitehorizontal
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = CC0033
+ |body       = CC0033
+ |rightarm   = CC0033
+ |shorts     = CC0033
+ |socks      = CC0033
+ |title      = Turkey&lt;ref name=&quot;tur-cze_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD09_300699_TUR_CZE_TactLineUps.pdf |title=Team Line-ups – Group A – Turkey-Czech Republic |work=Union of European Football Associations |format=PDF |date=15 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _borderonwhite
+ |pattern_b  = _cze08a
+ |pattern_ra = _borderonwhite
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = E12500
+ |body       = 000000
+ |rightarm   = E12500
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Czech Republic&lt;ref name=&quot;tur-cze_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''23'''||[[Volkan Demirel]] || {{sent off|0|90+6}}
+|-
+|RB ||'''22'''||[[Hamit Altıntop]]
+|-
+|CB ||'''13'''||[[Emre Güngör (Turkish footballer)|Emre Güngör]] || || {{suboff|63}}
+|-
+|CB ||'''2''' ||[[Servet Çetin]]
+|-
+|LB ||'''3''' ||[[Hakan Balta]]
+|-
+|RM ||'''6''' ||[[Mehmet Topal]] || {{yel|6}} || {{suboff|57}}
+|-
+|CM ||'''7''' ||[[Mehmet Aurélio]] || {{yel|10}}
+|-
+|CM ||'''14'''||[[Arda Turan]] || {{yel|90+5}}
+|-
+|LM ||'''17'''||[[Tuncay Şanlı]]
+|-
+|CF ||'''8''' ||[[Nihat Kahveci]] ([[Captain (association football)|c]])
+|-
+|CF ||'''9''' ||[[Semih Şentürk]] || || {{suboff|46}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''20'''||[[Sabri Sarıoğlu]] || || {{subon|46}}
+|-
+|MF ||'''18'''||[[Colin Kazim-Richards]] || || {{subon|57}}
+|-
+|DF ||'''15'''||[[Emre Aşık]] || {{yel|73}} || {{subon|63}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Fatih Terim]]
+|}
+|valign=&quot;top&quot;|[[File:TUR-CZE 2008-06-15.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Petr Čech]]
+|-
+|RB ||'''2''' ||[[Zdeněk Grygera]]
+|-
+|CB ||'''21'''||[[Tomáš Ujfaluši]] ([[Captain (association football)|c]]) || {{yel|90+4}}
+|-
+|CB ||'''22'''||[[David Rozehnal]]
+|-
+|LB ||'''6''' ||[[Marek Jankulovski]]
+|-
+|DM ||'''4''' ||[[Tomáš Galásek]] || {{yel|80}}
+|-
+|CM ||'''17'''||[[Marek Matějovský]] || || {{suboff|39}}
+|-
+|CM ||'''3''' ||[[Jan Polák]]
+|-
+|RW ||'''7''' ||[[Libor Sionko]] || || {{suboff|85}}
+|-
+|LW ||'''20'''||[[Jaroslav Plašil]] || || {{suboff|80}}
+|-
+|CF ||'''9''' ||[[Jan Koller]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''14'''||[[David Jarolím]] || || {{subon|39}}
+|-
+|DF ||'''13'''||[[Michal Kadlec]] || || {{subon|80}}
+|-
+|FW ||'''11'''||[[Stanislav Vlček]] || || {{subon|85}}
+|-
+|FW ||'''15'''||[[Milan Baroš]]&lt;ref group=&quot;note&quot;&gt;Baroš was booked on the substitutes' bench, despite not playing any part in the match&lt;/ref&gt; || {{yel|90+5}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Karel Brückner]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Nihat Kahveci]] (Turkey)&lt;ref name=&quot;tur-cze report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Stefan Wittberg ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;Henrik Andrén ([[Swedish Football Association|Sweden]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Grzegorz Gilewski]] ([[Polish Football Association|Poland]])
+|}
+
+==Notes==
+{{reflist|group=&quot;note&quot;}}
+
+==References==
+{{reflist|colwidth=40em}}
+
+{{UEFA Euro 2008}}
+
+{{DEFAULTSORT:Euro 2008}}
+[[Category:UEFA Euro 2008|Group A]]
+[[Category:2007–08 in Turkish football]]
+[[Category:2007–08 in Swiss football]]
+[[Category:2007–08 in Czech football]]
+[[Category:2007–08 in Portuguese football]]</text>
+      <sha1>930xhzjkc6x0ahsql5njvmj5un7dd8o</sha1>
+    </revision>
+  </page>
+</mediawiki>

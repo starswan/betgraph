@@ -1,0 +1,444 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2004 qualifying Group 9</title>
+    <ns>0</ns>
+    <id>26422746</id>
+    <revision>
+      <id>704918757</id>
+      <parentid>704918697</parentid>
+      <timestamp>2016-02-14T12:04:22Z</timestamp>
+      <contributor>
+        <username>Willy2000</username>
+        <id>24925156</id>
+      </contributor>
+      <comment>/* Matches */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="13697">Standings and results for '''Group 9''' of the '''[[UEFA Euro 2004 qualifying]]''' tournament.
+
+Group 9 consisted of [[Azerbaijan national football team|Azerbaijan]], [[Finland national football team|Finland]], [[Italy national football team|Italy]], [[Serbia and Montenegro national football team|Serbia and Montenegro]] and [[Wales national football team|Wales]]. Serbia and Montenegro began the campaign as the Federal Republic of Yugoslavia, but officially changed their name in February 2003. Group winners were Italy, who finished four points clear of second-placed team Wales who qualified for the play-offs.
+
+==Standings==
+{|
+|-
+|&lt;!-- GROUP STANDINGS TABLE--&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align: center; font-size: 90%;&quot;
+|-
+!width=165|Team
+!width=25|{{Tooltip| Pld | Played}}
+!width=25|{{Tooltip| W | Wins}}
+!width=25|{{Tooltip| D | Drawn}}
+!width=25|{{Tooltip| L | Lost}}
+!width=25|{{Tooltip| GF | Goals for}}
+!width=25|{{Tooltip| GA | Goals against}}
+!width=25|{{Tooltip| GD | Goal difference}}
+!width=25|{{Tooltip | Pts | Points}}
+|- style=&quot;background:#ccffcc&quot;
+|style=&quot;text-align:left;&quot;|{{fb|ITA}}
+|8 |{{!!}} 5 {{!!}} 2 {{!!}} 1 {{!!}} 17 {{!!}} 4 {{!!}} +13 ||'''17'''
+|- style=&quot;background:#ccccff;&quot;
+|style=&quot;text-align:left;&quot;|{{fb|WAL}}
+|8 |{{!!}} 4 {{!!}} 1 {{!!}} 3 {{!!}} 13 {{!!}} 10 {{!!}} +3 ||'''13'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|SCG}}
+|8 |{{!!}} 3 {{!!}} 3 {{!!}} 2 {{!!}} 11 {{!!}} 11 {{!!}} +0 ||'''12'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|FIN}}
+|8 |{{!!}} 3 {{!!}} 1 {{!!}} 4 {{!!}} 9 {{!!}} 10 {{!!}} &amp;minus;1 ||'''10'''
+|-
+|style=&quot;text-align:left;&quot;|{{fb|AZE}}
+|8 |{{!!}} 1 {{!!}} 1 {{!!}} 6 {{!!}} 5 {{!!}} 20 {{!!}} &amp;minus;15 ||'''4'''
+|}
+|&lt;!-- FIXTURES TABLE --&gt;
+{| class=&quot;wikitable&quot; style=&quot;text-align:center; font-size:90%;&quot;
+|-
+!width=165|&amp;nbsp;
+!{{flagicon|AZE}}
+!{{flagicon|FIN}}
+!{{flagicon|ITA}}
+!{{flagicon|SCG}}
+!{{flagicon|WAL}}
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|AZE}}
+| –
+| 1–2
+| 0–2
+| 2–1
+| 0–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|FIN}}
+| 3–0
+| –
+| 0–2
+| 3–0
+| 0–2
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|ITA}}
+| 4–0
+| 2–0
+| –
+| 1–1
+| 4–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|SCG}}
+| 2–2
+| 2–0
+| 1–1
+| –
+| 1–0
+|-
+| style=&quot;text-align:right;&quot;|{{fb-rt|WAL}}
+| 4–0
+| 1–1
+| 2–1
+| 2–3
+| –
+|-
+|}
+|}
+
+==Matches==
+
+{{footballbox|date = September 7, 2002
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}  
+|score = 0–2
+|team2 = {{fb|WAL}}  
+|goals1 = 
+|goals2 = [[John Hartson|Hartson]] {{goal|30}} &lt;br/&gt;[[Simon Davies (footballer born 1979)|Davies]] {{goal|72}} 
+|stadium = [[Helsinki Olympic Stadium]], [[Helsinki]] |attendance = 35,833 |referee = [[Konrad Plautz]] ([[Austrian Football Association|AUT]])|report =}}
+
+{{footballbox|date = September 7, 2002
+|time = 23:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}  
+|score = 0–2
+|team2 = {{fb|ITA}}  
+|goals1 =   
+|goals2 = [[Tarlan Ahmadov|Ahmadov]] {{goal|33|o.g.}} &lt;br/&gt;[[Alessandro Del Piero|Del Piero]] {{goal|65}}
+|stadium = [[Tofiq Bahramov Stadium]], [[Baku]] |attendance = 40,000 |referee = [[Kyros Vassaras]] ([[Greek Football Association|GRE]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69255/index.html Report]}}
+
+----
+{{footballbox|date = October 12, 2002
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}  
+|score = 3–0
+|team2 = {{fb|AZE}}  
+|goals1 = [[Emin Agaev|Agaev]] {{goal|14|o.g.}} &lt;br/&gt;[[Hannu Tihinen|Tihinen]] {{goal|60}} &lt;br/&gt;[[Sami Hyypiä|Hyypiä]] {{goal|72}}
+|goals2 = 
+|stadium = [[Helsinki Olympic Stadium]], [[Helsinki]] |attendance = 11,853 |referee = [[Alain Hamer]] ([[Luxembourg Football Federation|LUX]])|report = }}
+
+{{footballbox|date = October 12, 2002
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}  
+|score = 1–1
+|team2 = {{fb|FR Yugoslavia}}
+|goals1 = [[Alessandro Del Piero|Del Piero]] {{goal|38}} 
+|goals2 = [[Predrag Mijatović|Mijatović]] {{goal|27}}
+|stadium = [[Stadio San Paolo]], [[Naples]] |attendance = 55,000 |referee = [[Manuel Mejuto González]] ([[Royal Spanish Football Federation|ESP]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69257/index.html Report] }}
+
+----
+{{footballbox|date = October 16, 2002
+|time = 19:00 [[UTC+2]]
+|team1 = {{fb-rt|FR Yugoslavia}}  
+|score = 2–0
+|team2 = {{fb|FIN}}  
+|goals1 = [[Darko Kovačević|Kovačević]] {{goal|55}} &lt;br/&gt;[[Predrag Mijatović|Mijatović]] {{goal|84|pen.}} 
+|goals2 = 
+|stadium = [[Stadion Crvena Zvezda]], [[Belgrade]] |attendance = 35,000 |referee = [[Dick van Egmond]] ([[Royal Dutch Football Association|NED]])|report =}}
+
+{{footballbox|date = October 16, 2002
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|WAL}}  
+|score = 2–1
+|team2 = {{fb|ITA}}  
+|goals1 = [[Simon Davies (footballer, born 1979)|Davies]] {{goal|11}} &lt;br/&gt;[[Craig Bellamy|Bellamy]] {{goal|70}} 
+|goals2 = [[Alessandro Del Piero|Del Piero]] {{goal|31}}  
+|stadium = [[Millennium Stadium]], [[Cardiff]] |attendance = 70,000 |referee = [[Gilles Veissière]] ([[French Football Federation|FRA]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69259/postmatch/report/index.html Report] }}
+
+----
+{{footballbox|date = November 20, 2002
+|time = 19:00 [[UTC+4]]
+|team1 = {{fb-rt|AZE}}  
+|score = 0–2
+|team2 = {{fb|WAL}}  
+|goals1 =  
+|goals2 = [[Gary Speed|Speed]] {{goal|10}} &lt;br/&gt;[[John Hartson|Hartson]] {{goal|68}}
+|stadium = [[Tofik Bakhramov Stadium]], [[Baku]] |attendance = 12,000 |referee = [[Luc Huyghe]] ([[Belgian Football Association|BEL]])|report = }}
+
+----
+{{footballbox|date = February 12, 2003
+|time = 15:30 [[UTC+1]]
+|team1 = {{fb-rt|Serbia and Montenegro}}  
+|score = 2–2
+|team2 = {{fb|AZE}}  
+|goals1 = [[Predrag Mijatović|Mijatović]] {{goal|33|pen.}} &lt;br/&gt;[[Nikola Lazetić|Lazetić]] {{goal|52}}
+|goals2 = [[Gurban Gurbanov|Gurbanov]] {{goal|58||77}}
+|stadium = [[Podgorica City Stadium]], [[Podgorica]] |attendance = 8,000 |referee = [[Jacek Granat]] ([[Polish Football Association|POL]])|report = }}
+
+----
+{{footballbox|date = March 29, 2003
+|time = 15:30 [[UTC]]
+|team1 = {{fb-rt|WAL}}  
+|score = 4–0
+|team2 = {{fb|AZE}}  
+|goals1 = [[Simon Davies (footballer, born 1979)|Davies]] {{goal|1}} &lt;br/&gt;[[Gary Speed|Speed]] {{goal|40}} &lt;br/&gt;[[John Hartson|Hartson]] {{goal|43}} &lt;br/&gt;[[Ryan Giggs|Giggs]] {{goal|52}} 
+|goals2 = 
+|stadium = [[Millennium Stadium]], [[Cardiff]] |attendance = 73,500 |referee = [[Philippe Leuba]] ([[Swiss Football Association|SUI]])|report =}}
+
+{{footballbox|date = March 29, 2003
+|time = 21:00 [[UTC+1]]
+|team1 = {{fb-rt|ITA}}  
+|score = 2–0
+|team2 = {{fb|FIN}}  
+|goals1 = [[Christian Vieri|Vieri]] {{goal|6||23}}
+|goals2 = 
+|stadium = [[Stadio Renzo Barbera]], [[Palermo]] |attendance = 34,074 |referee = [[Valentin Valentinovich Ivanov|Valentin Ivanov]] ([[Football Union of Russia|RUS]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69262/index.html Report]}}
+
+----
+{{footballbox|date = June 7, 2003
+|time = 19:00 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}  
+|score = 3–0
+|team2 = {{fb|Serbia and Montenegro}}  
+|goals1 = [[Sami Hyypiä|Hyypiä]] {{goal|19}} &lt;br/&gt;[[Joonas Kolkka|Kolkka]] {{goal|45}} &lt;br/&gt;[[Mikael Forssell|Forssell]] {{goal|56}}
+|goals2 = 
+|stadium = [[Helsinki Olympic Stadium]], [[Helsinki]] |attendance = 17,343 |referee =  [[Claude Colombo]] ([[French Football Federation|FRA]])|report = }}
+
+----
+{{footballbox|date = June 11, 2003
+|time = 20:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}  
+|score = 2–1
+|team2 = {{fb|Serbia and Montenegro}}  
+|goals1 = [[Gurban Gurbanov|Gurbanov]] {{goal|88|pen.}} &lt;br/&gt;[[Farrukh Ismayilov|Ismayilov]] {{goal|90+1}}
+|goals2 = [[Branko Bošković|Bošković]] {{goal|27}}
+|stadium = [[Shafa Stadium]], [[Baku]] |attendance = 3,500 |referee = [[Knud Erik Fisker]] ([[Danish Football Association|DEN]])|report = }}
+
+{{footballbox|date = June 11, 2003
+|time = 21:00 [[UTC+3]]
+|team1 = {{fb-rt|FIN}}  
+|score = 0–2
+|team2 = {{fb|ITA}}  
+|goals1 = 
+|goals2 = [[Francesco Totti|Totti]] {{goal|31}} &lt;br/&gt;[[Alessandro Del Piero|Del Piero]] {{goal|73}} 
+|stadium = [[Helsinki Olympic Stadium]], [[Helsinki]] |attendance = 36,850 |referee = [[Željko Širić]] ([[Croatian Football Federation|CRO]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69267/postmatch/report/index.html Report] }}
+
+----
+{{footballbox|date = August 20, 2003
+|time = 20:15 [[UTC+2]]
+|team1 = {{fb-rt|Serbia and Montenegro}}  
+|score = 1–0
+|team2 = {{fb|Wales}}  
+|goals1 = [[Dragan Mladenović|Mladenović]] {{goal|73}} 
+|goals2 = 
+|stadium = [[Stadion Crvena Zvezda]], [[Belgrade]] |attendance = 22,000 |referee = [[Anders Frisk]] ([[Swedish Football Association|SWE]])|report = }}
+
+----
+{{footballbox|date = September 6, 2003
+|time = 19:00 [[UTC+5]]
+|team1 = {{fb-rt|AZE}}  
+|score = 1–2
+|team2 = {{fb|FIN}}  
+|goals1 = [[Farrukh Ismayilov|Ismayilov]] {{goal|88}}
+|goals2 = [[Teemu Tainio|Tainio]] {{goal|52}} &lt;br/&gt;[[Mika Nurmela|Nurmela]] {{goal|74}}
+|stadium = [[Shafa Stadium]], [[Baku]] |attendance = 7,500 |referee = [[Vladimir Hrinák]] ([[Slovak Football Association|SVK]])|report = }}
+
+{{footballbox|date = September 6, 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}  
+|score = 4–0
+|team2 = {{fb|WAL}}  
+|goals1 = [[Filippo Inzaghi|Inzaghi]] {{goal|59||63||70}} &lt;br/&gt;[[Alessandro Del Piero|Del Piero]] {{goal|76|pen.}}
+|goals2 = 
+|stadium = [[Stadio Giuseppe Meazza]], [[Milan]] |attendance = 80,000 |referee = [[Markus Merk]] ([[German Football Association|GER]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69269/postmatch/report/index.html Report] }}
+
+----
+{{footballbox|date = September 10, 2003
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|WAL}}  
+|score = 1–1
+|team2 = {{fb|FIN}}  
+|goals1 =  [[Simon Davies (footballer born 1979)|Davies]] {{goal|3}}
+|goals2 =  [[Mikael Forssell|Forssell]] {{goal|79}}
+|stadium = [[Millennium Stadium]], [[Cardiff]] |attendance = 73,411 |referee = [[Arturo Duadén Ibánez]] ([[Royal Spanish Football Federation|ESP]])|report = }}
+
+{{footballbox|date = September 10, 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|Serbia and Montenegro}}  
+|score = 1–1
+|team2 = {{fb|ITA}}  
+|goals1 = [[Saša Ilić (footballer, born 1977)|Ilić]] {{goal|82}} 
+|goals2 = [[Filippo Inzaghi|Inzaghi]] {{goal|22}}
+|stadium = [[Stadion Crvena Zvezda]], [[Belgrade]] |attendance = 30,000 |referee = [[Alain Hamer]] ([[Luxembourg Football Federation|LUX]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69272/index.html Report] }}
+
+----
+{{footballbox|date = October 11, 2003
+|time = 19:45 [[UTC+1]]
+|team1 = {{fb-rt|WAL}}  
+|score = 2–3
+|team2 = {{fb|Serbia and Montenegro}}  
+|goals1 = [[John Hartson|Hartson]] {{goal|26|pen.}} &lt;br/&gt;[[Robert Earnshaw|Earnshaw]] {{goal|90+3}} 
+|goals2 = [[Zvonimir Vukić|Vukić]] {{goal|6}} &lt;br/&gt;[[Savo Milošević|Milošević]] {{goal|82}} &lt;br/&gt;[[Danijel Ljuboja|Ljuboja]] {{goal|88}}  
+|stadium = [[Millennium Stadium]], [[Cardiff]] |attendance = 72,514 |referee = [[Fritz Stuchlik]] ([[Austrian Football Association|AUT]])|report = }}
+
+{{footballbox|date = October 11, 2003
+|time = 20:45 [[UTC+2]]
+|team1 = {{fb-rt|ITA}}  
+|score = 4–0
+|team2 = {{fb|AZE}}  
+|goals1 = [[Christian Vieri|Vieri]] {{goal|16}} &lt;br/&gt;[[Filippo Inzaghi|Inzaghi]] {{goal|24||87}} &lt;br/&gt;[[Marco Di Vaio|Di Vaio]] {{goal|64}}
+|goals2 = 
+|stadium = [[Stadio Oreste Granillo]], [[Reggio Calabria]] |attendance = 27,000 |referee = [[Stuart Dougal]] ([[Scottish Football Association|SCO]])|report =[http://www.uefa.com/uefaeuro/season=2004/matches/round=1579/match=69273/index.html Report] }}
+
+==Goalscorers==
+
+{| class=&quot;wikitable&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+|rowspan=&quot;1&quot; align=center|1
+|[[Filippo Inzaghi]] 
+|{{fb|ITA}}
+|rowspan=&quot;1&quot; align=center|6
+|-
+|rowspan=&quot;1&quot; align=center|2
+|[[Alessandro Del Piero]] 
+|{{fb|ITA}}
+|rowspan=&quot;1&quot; align=center|5
+|-
+|rowspan=&quot;2&quot; align=center|3
+|[[Simon Davies (footballer, born 1979)|Simon Davies]] 
+|{{fb|WAL}}
+|rowspan=&quot;2&quot; align=center|4
+|-
+|[[John Hartson]] 
+|{{fb|WAL}}
+|-
+|rowspan=&quot;3&quot; align=center|4
+|[[Gurban Gurbanov]] 
+|{{fb|AZE}}
+|rowspan=&quot;3&quot; align=center|3
+|-
+|[[Christian Vieri]] 
+|{{fb|ITA}}
+|-
+|[[Predrag Mijatović]] 
+|{{fb|Serbia and Montenegro}}
+|-
+|rowspan=&quot;4&quot; align=center|5
+|[[Farrukh Ismayilov]]
+|{{fb|AZE}}
+|rowspan=&quot;4&quot; align=center|2
+|-
+|[[Mikael Forssell]]
+|{{fb|FIN}}
+|-
+|[[Sami Hyypiä]]
+|{{fb|FIN}}
+|-
+|[[Gary Speed]]
+|{{fb|WAL}}
+|-
+|}
+
+;1 goal
+{{col-begin-small}}
+{{col-3}}
+;{{fb|FIN}}
+*[[Joonas Kolkka]]
+*[[Mika Nurmela]]
+*[[Teemu Tainio]]
+*[[Hannu Tihinen]]
+;{{fb|ITA}}
+*[[Marco Di Vaio]]
+*[[Francesco Totti]]
+{{col-3}}
+;{{fb|Serbia and Montenegro}}
+*[[Branko Bošković]]
+*[[Saša Ilić (footballer, born 1977)|Saša Ilić]]
+*[[Darko Kovačević]]
+*[[Nikola Lazetić]]
+*[[Danijel Ljuboja]]
+*[[Savo Milošević]]
+*[[Dragan Mladenović]]
+*[[Zvonimir Vukić]]
+;{{fb|WAL}}
+*[[Craig Bellamy]]
+*[[Robert Earnshaw]]
+*[[Ryan Giggs]]
+{{col-3}}
+;Own Goals
+*[[Emin Agaev]] (for [[Finland national football team|Finland]])
+*[[Tarlan Ahmadov]] (for [[Italy national football team|Italy]])
+|}
+
+==References==
+*[http://www.rsssf.com/tables/04e-ext.html#grp9 RSSSF Page]
+
+{{UEFA Euro 2004 qualifying}}
+
+{{DEFAULTSORT:Euro 2004}}
+[[Category:UEFA Euro 2004 qualifying|Group 9]]
+[[Category:2002–03 in Italian football]]
+[[Category:Italy at UEFA Euro 2004|Qual]]
+[[Category:2002–03 in Welsh football]]
+[[Category:2003–04 in Welsh football]]
+[[Category:2002–03 in Azerbaijani football]]
+[[Category:2003–04 in Azerbaijani football]]
+[[Category:2002–03 in Serbian football]]
+[[Category:2003–04 in Serbian football]]
+[[Category:2002–03 in Montenegrin football]]
+[[Category:2003–04 in Montenegrin football]]
+[[Category:2002 in Finnish football]]
+[[Category:2003 in Finnish football]]</text>
+      <sha1>lzta4w5cbxurdr2o74n9ckrwpqtuf0c</sha1>
+    </revision>
+  </page>
+</mediawiki>

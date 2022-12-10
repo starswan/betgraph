@@ -1,0 +1,743 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 qualifying Group C</title>
+    <ns>0</ns>
+    <id>6885731</id>
+    <revision>
+      <id>723292285</id>
+      <parentid>689179491</parentid>
+      <timestamp>2016-06-02T05:34:25Z</timestamp>
+      <contributor>
+        <username>Chobot</username>
+        <id>259798</id>
+      </contributor>
+      <minor/>
+      <comment>Bot: Automated text replacement  (-Category:UEFA Euro 2004 qualifying +Category:UEFA Euro 2008 qualifying); cosmetic changes</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="29508">{{Use dmy dates|date=February 2012}}
+Standings and results for '''Group C''' of the '''[[UEFA Euro 2008 qualifying]]''' tournament.
+
+== Standings ==
+'''Key''':
+* Teams highlighted in green qualified for the [[UEFA Euro 2008|finals]].
+
+{{UEFA Euro 2008 qualifying Group C
+|expanded=yes
+|fixtures=yes
+|tiebreakers=yes
+}}
+
+Notes on the qualified teams:
+* Greece secured qualification to the tournament proper on 17 October 2007 following a 1–0 win against Turkey, becoming the second team in the whole of the qualification stage to do so.
+* Turkey secured qualification to the tournament proper on 21 November 2007 following a 1–0 win against Bosnia and Herzegovina, becoming the twelfth team in the whole of the qualification stage to do so.
+
+== Matches ==
+Group C fixtures were negotiated and finally decided by a draw at a meeting between the participants in [[Istanbul]], [[Turkey]] on 17 February 2006.&lt;ref&gt;{{cite web |author=UEFA |title=Holders Greece start in Moldova |publisher=UEFA.com |accessdate=14 September 2011 |url=http://www.uefa.com/uefaeuro2012/news/newsid=395551.html}}&lt;/ref&gt;
+
+On 3 July 2006, the [[Hellenic Football Federation]] was indefinitely suspended from all international competition due to concerns about its autonomy from the Greek government. Although no announcement was made regarding this tournament in particular, this seemed to preclude the Greek team from participating.&lt;ref&gt;{{cite web |author=FIFA Media Dept. |title=FIFA suspends the Hellenic Football Federation |publisher=FIFA.com |accessdate=3 September 2006 |url=http://www.fifa.com/en/media/index/0,1369,118144,00.html?articleid=118144 |archiveurl = http://web.archive.org/web/20060820022540/http://www2.fifa.com/en/media/index/0,1369,118144,00.html?articleid=118144 &lt;!-- Bot retrieved archive --&gt; |archivedate = 20 August 2006}}&lt;/ref&gt; Following rectifying action by the Greek government, FIFA subsequently lifted the suspension on 12 July 2006, allowing Greece to participate in qualifying.&lt;ref&gt;{{cite web |author=FIFA Media Dept. |title=FIFA lifts suspension on Hellenic Football Federation |publisher=FIFA.com |accessdate=3 September 2006 |url=http://fifa.com/en/media/index/0,1369,118189,00.html?articleid=118189 |archiveurl = http://web.archive.org/web/20060718063514/http://www.fifa.com/en/media/index/0,1369,118189,00.html?articleid=118189 &lt;!-- Bot retrieved archive --&gt; |archivedate = 18 July 2006}}&lt;/ref&gt;
+
+----
+&lt;div id=&quot;Malta v Bosnia and Herzegovina&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=18:15 [[UTC+2]]
+|team1={{fb-rt|MLT}}
+|score=2–5
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83892/index.html Report]
+|team2={{fb|BIH}}
+|goals1=[[Jamie Pace|Pace]] {{goal|6}}&lt;br /&gt;[[Michael Mifsud|M. Mifsud]] {{goal|86}}
+|goals2=[[Sergej Barbarez|Barbarez]] {{goal|4}}&lt;br /&gt;[[Mirko Hrgović|Hrgović]] {{goal|10}}&lt;br /&gt;[[Mladen Bartolović|Bartolović]] {{goal|45+1}}&lt;br /&gt;[[Zlatan Muslimović|Muslimović]] {{goal|49}}&lt;br /&gt;[[Zvjezdan Misimović|Misimović]] {{goal|51}}
+|stadium=[[Ta' Qali Stadium]], [[Ta' Qali]]
+|attendance=4,000
+|referee=[[Thomas Vejlgaard]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Hungary v Norway&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|HUN}}
+|score=1–4
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83873/index.html Report]
+|team2={{fb|NOR}}
+|goals1=[[Zoltan Gera|Gera]] {{goal|90|pen.}}
+|goals2=[[Ole Gunnar Solskjær|Solskjær]] {{goal|15||44}}&lt;br /&gt;[[Fredrik Strømstad|Strømstad]] {{goal|31}}&lt;br /&gt;[[Morten Gamst Pedersen|Pedersen]] {{goal|41}}
+|stadium=[[Szusza Ferenc Stadium]], [[Budapest]]
+|attendance=10,500
+|referee=[[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Moldova v Greece&quot;&gt;{{footballbox
+|date=2 September 2006
+|time=20:15 [[UTC+3]]
+|team1={{fb-rt|MDA}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83853/index.html Report]
+|team2={{fb|GRE}}
+|goals1=
+|goals2=[[Nikolaos Lyberopoulos|Lyberopoulos]] {{goal|78}}
+|stadium=[[Zimbru Stadium]], [[Chişinău]]
+|attendance=10,500
+|referee=[[Matteo Trefoloni]] ([[Federazione Italiana Giuoco Calcio|Italy]]) }}
+----
+&lt;div id=&quot;Norway v Moldova&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|NOR}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83893/index.html Report]
+|team2={{fb|MDA}}
+|goals1=[[Fredrik Strømstad|Strømstad]] {{goal|74}}&lt;br /&gt;[[Steffen Iversen|Iversen]] {{goal|79}}
+|goals2=
+|stadium=[[Ullevaal Stadion]], [[Oslo]]
+|attendance=23,848
+|referee=[[Hristo Ristoskov]] ([[Bulgarian Football Union|Bulgaria]]) }}
+
+&lt;div id=&quot;Turkey v Malta&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|TUR}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83854/index.html Report]
+|team2={{fb|MLT}}
+|goals1=[[Nihat Kahveci|Nihat]] {{goal|56}}&lt;br /&gt;[[Tümer Metin|Tümer]] {{goal|77}}
+|goals2=
+|stadium=[[Commerzbank-Arena]], [[Frankfurt]] ([[Germany]])
+|attendance=0&lt;ref name=&quot;turkey&quot;&gt;Turkey ordered to play their first three home matches at a neutral ground and behind closed doors after violence in their [[2006 FIFA World Cup qualification (play-off UEFA)|World Cup Qualifying playoff]] with Switzerland on 16 November 2005.&lt;/ref&gt;
+|referee=[[Bernardino González Vázquez]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Bosnia and Herzegovina v Hungary&quot;&gt;{{footballbox
+|date=6 September 2006
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|BIH}}
+|score=1–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83874/index.html Report]
+|team2={{fb|HUN}}
+|goals1=[[Zvjezdan Misimović|Misimović]] {{goal|64|pen.}}
+|goals2=[[Szabolcs Huszti|Huszti]] {{goal|36|pen.}}&lt;br /&gt;[[Zoltan Gera|Gera]] {{goal|46}}&lt;br /&gt;[[Pál Dárdai|Dárdai]] {{goal|49}}
+|stadium=[[Bilino Polje]], [[Zenica]]
+|attendance=18,000
+|referee=[[Costas Kapitanis]] ([[Cyprus Football Association|Cyprus]]) }}
+----
+&lt;div id=&quot;Moldova v Bosnia and Herzegovina&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=19:00 [[UTC+3]]
+|team1={{fb-rt|MDA}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83855/index.html Report]
+|team2={{fb|BIH}}
+|goals1=[[Sergei Rogaciov|Rogaciov]] {{goal|13||32|pen.}}
+|goals2=[[Zvjezdan Misimović|Misimović]] {{goal|63}}&lt;br /&gt;[[Ivica Grlić|Grlić]] {{goal|68}}
+|stadium=[[Zimbru Stadium]], [[Chişinău]]
+|attendance=11,000
+|referee=[[Hervé Piccirillo]] ([[French Football Federation|France]]) }}
+
+&lt;div id=&quot;Hungary v Turkey&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|HUN}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83875/index.html Report]
+|team2={{fb|TUR}}
+|goals1=
+|goals2=[[Tuncay Şanlı|Tuncay]] {{goal|41}}
+|stadium=[[Stadium Puskás Ferenc]], [[Budapest]]
+|attendance=9,500
+|referee=[[Alain Hamer]] ([[Luxembourg Football Federation|Luxembourg]]) }}
+
+&lt;div id=&quot;Greece v Norway&quot;&gt;{{footballbox
+|date=7 October 2006
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|GRE}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83885/index.html Report]
+|team2={{fb|NOR}}
+|goals1=[[Kostas Katsouranis|Katsouranis]] {{goal|33}}
+|goals2=
+|stadium=[[Karaiskákis Stadium]], [[Athens]]
+|attendance=25,000
+|referee=[[Lubos Michel]] ([[Slovak Football Association|Slovakia]]) }}
+----
+&lt;div id=&quot;Malta v Hungary&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=19:15 [[UTC+2]]
+|team1={{fb-rt|MLT}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83876/index.html Report]
+|team2={{fb|HUN}}
+|goals1=[[Andre Schembri|Schembri]] {{goal|14||53}}
+|goals2=[[Sándor Torghelle|Torghelle]] {{goal|19}}
+|stadium=[[Ta' Qali Stadium]], [[Ta' Qali]]
+|attendance=3,500
+|referee=[[Johny Ver Eecke]] ([[Royal Belgian Football Association|Belgium]]) }}
+
+&lt;div id=&quot;Turkey v Moldova&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|TUR}}
+|score=5–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83856/index.html Report]
+|team2={{fb|MDA}}
+|goals1=[[Hakan Şükür|Şükür]] {{goal|35||37|pen.|43||73}}&lt;br /&gt;[[Tuncay Şanlı|Tuncay]] {{goal|68}}
+|goals2=
+|stadium=[[Commerzbank-Arena]], [[Frankfurt]] ([[Germany]])
+|attendance=0&lt;ref name=&quot;turkey&quot;/&gt;
+|referee=[[Nicolai Vollquartz]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Bosnia and Herzegovina v Greece&quot;&gt;{{footballbox
+|date=11 October 2006
+|time=19:15 [[UTC+2]]
+|team1={{fb-rt|BIH}}
+|score=0–4
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83886/index.html Report]
+|team2={{fb|GRE}}
+|goals1=
+|goals2=[[Angelos Charisteas|Charisteas]] {{goal|8|pen.}}&lt;br /&gt;[[Christos Patsatzoglou|Patsatzoglou]] {{goal|82}}&lt;br /&gt;[[Georgios Samaras|Samaras]] {{goal|85}}&lt;br /&gt;[[Kostas Katsouranis|Katsouranis]] {{goal|90+4}}
+|stadium=[[Bilino Polje]], [[Zenica]]
+|attendance=10,000
+|referee=[[Yuri Baskakov]] ([[Football Union of Russia|Russia]]) }}
+----
+&lt;div id=&quot;Moldova v Malta&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|MDA}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83857/index.html Report]
+|team2={{fb|MLT}}
+|goals1=[[Alexandru Epureanu|Epureanu]] {{goal|85}}
+|goals2=[[George Mallia|Mallia]] {{goal|73}}
+|stadium=[[Zimbru Stadium]], [[Chişinău]]
+|attendance=10,000
+|referee=[[Vusal Aliyev]] ([[Association of Football Federations of Azerbaijan|Azerbaijan]]) }}
+
+&lt;div id=&quot;Norway v Bosnia and Herzegovina&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=19:00 [[UTC+1]]&lt;ref&gt;Match delayed by 35 minutes by match referee [[Mike Riley (referee)|Mike Riley]] after flares were thrown from the stands, minutes after the kick-off.&lt;/ref&gt;
+|team1={{fb-rt|NOR}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83904/index.html Report]
+|team2={{fb|BIH}}
+|goals1=[[John Carew|Carew]] {{goal|50|pen.}}
+|goals2=[[Zvjezdan Misimović|Misimović]] {{goal|18}}&lt;br /&gt;[[Zlatan Muslimović|Muslimović]] {{goal|33}}&lt;ref&gt;Goal incorrectly credited to [[Dario Damjanović]] in the scorers section of the UEFA report. However, the main text clearly indicated the goal was by Muslimović: &quot;First-half goals from Zvjezdan Misimović and Zlatan Muslimović did the damage for the visitors,....&quot; [http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83904/index.html]&lt;/ref&gt;
+|stadium=[[Ullevaal Stadion]], [[Oslo]]
+|attendance=16,987
+|referee=[[Mike Riley (referee)|Mike Riley]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Greece v Turkey&quot;&gt;{{footballbox
+|date=24 March 2007
+|time=21:30 [[UTC+2]]
+|team1={{fb-rt|GRE}}
+|score=1–4
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83887/index.html Report]
+|team2={{fb|TUR}}
+|goals1=[[Sotirios Kyrgiakos|Kyrgiakos]] {{goal|6}}
+|goals2=[[Tuncay Şanlı|Tuncay]] {{goal|27}}&lt;br /&gt;[[Gökhan Ünal|Gökhan]] {{goal|55}}&lt;br /&gt;[[Tümer Metin|Tümer]] {{goal|70}}&lt;br /&gt;[[Gökdeniz Karadeniz|Gökdeniz]] {{goal|81}}
+|stadium=[[Karaiskákis Stadium]], [[Athens]]
+|attendance=34,000
+|referee=[[Wolfgang Stark]] ([[German Football Association|Germany]]) }}
+----
+&lt;div id=&quot;Hungary v Moldova&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=18:00 [[UTC+2]]
+|team1={{fb-rt|HUN}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83858/index.html Report]
+|team2={{fb|MDA}}
+|goals1=[[Tamás Priskin|Priskin]] {{goal|9}}&lt;br /&gt;[[Zoltan Gera|Gera]] {{goal|63}}
+|goals2=
+|stadium=[[Szusza Ferenc Stadium]], [[Budapest]]
+|attendance=6,200
+|referee=[[Martin Ingvarsson]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Malta v Greece&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=19:30 [[UTC+2]]
+|team1={{fb-rt|MLT}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83888/index.html Report]
+|team2={{fb|GRE}}
+|goals1=
+|goals2=[[Angelos Basinas|Basinas]] {{goal|66|pen.}}
+|stadium=[[Ta' Qali Stadium]], [[Ta' Qali]]
+|attendance=15,000
+|referee=[[Pedro Proença]] ([[Portuguese Football Federation|Portugal]]) }}
+
+&lt;div id=&quot;Turkey v Norway&quot;&gt;{{footballbox
+|date=28 March 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|TUR}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83865/index.html Report]
+|team2={{fb|NOR}}
+|goals1=[[Hamit Altıntop]] {{goal|72||90}}
+|goals2=[[Simen Brenne|Brenne]] {{goal|31}}&lt;br /&gt;[[Martin Andresen|Andresen]] {{goal|40}}
+|stadium=[[Commerzbank-Arena]], [[Frankfurt]] ([[Germany]])
+|attendance=0&lt;ref name=&quot;turkey&quot;/&gt;
+|referee=[[Stefano Farina]] ([[Italian Football Federation|Italy]]) }}
+----
+&lt;div id=&quot;Greece v Hungary&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|GRE}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83878/index.html Report]
+|team2={{fb|HUN}}
+|goals1=[[Theofanis Gekas|Gekas]] {{goal|16}}&lt;br /&gt;[[Giourkas Seitaridis|Seitaridis]] {{goal|29}}
+|goals2=
+|stadium=[[Pankritio Stadium]], [[Heraklion]]&lt;ref name=&quot;greece&quot;&gt;Greece forced to play away from [[Athens]] for two matches after crowd disturbances in the game against [[Turkey national football team|Turkey]] on 24 March 2007. [http://www.uefa.com/competitions/euro/news/kind=1/newsid=531418.html]&lt;/ref&gt;
+|attendance=16,000
+|referee=[[Claus Bo Larsen]] ([[Danish Football Association|Denmark]]) }}
+
+&lt;div id=&quot;Bosnia and Herzegovina v Turkey&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|BIH}}
+|score=3–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83896/index.html Report]
+|team2={{fb|TUR}}
+|goals1=[[Zlatan Muslimović|Muslimović]] {{goal|27}}&lt;br /&gt;[[Edin Džeko|Džeko]] {{goal|45+2}}&lt;br /&gt;[[Adnan Ćustović|Ćustović]] {{goal|90}}
+|goals2=[[Hakan Şükür|Şükür]] {{goal|13}}&lt;br /&gt;[[Sabri Sarıoğlu|Sabri]] {{goal|39}}
+|stadium=[[Asim Ferhatović Hase Stadium|Asim Ferhatović Hase]], [[Sarajevo]]
+|attendance=20,000
+|referee=[[Peter Fröjdfeldt]] ([[Swedish Football Association|Sweden]]) }}
+
+&lt;div id=&quot;Norway v Malta&quot;&gt;{{footballbox
+|date=2 June 2007
+|time=20:05 [[UTC+2]]
+|team1={{fb-rt|NOR}}
+|score=4–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83895/index.html Report]
+|team2={{fb|MLT}}
+|goals1=[[Kristofer Hæstad|Hæstad]] {{goal|31}}&lt;br /&gt;[[Thorstein Helstad|Helstad]] {{goal|73}}&lt;br /&gt;[[Steffen Iversen|Iversen]] {{goal|79}}&lt;br /&gt;[[John Arne Riise|Riise]] {{goal|90+1}}
+|goals2=
+|stadium=[[Ullevaal Stadion]], [[Oslo]]
+|attendance=16,364
+|referee=[[Jacek Granat]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Norway v Hungary&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|NOR}}
+|score=4–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83879/index.html Report]
+|team2={{fb|HUN}}
+|goals1=[[Steffen Iversen|Iversen]] {{goal|22}}&lt;br /&gt;[[Daniel Braaten|Braaten]] {{goal|57}}&lt;br /&gt;[[John Carew|Carew]] {{goal|60||78}}
+|goals2=
+|stadium=[[Ullevaal Stadion]], [[Oslo]]
+|attendance=19,198
+|referee=[[Eduardo Iturralde González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Bosnia and Herzegovina v Malta&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=20:15 [[UTC+2]]
+|team1={{fb-rt|BIH}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83897/index.html Report]
+|team2={{fb|MLT}}
+|goals1=[[Zlatan Muslimović|Muslimović]] {{goal|6}}
+|goals2=
+|stadium=[[Asim Ferhatović Hase Stadium|Asim Ferhatović Hase]], [[Sarajevo]]
+|attendance=15,000
+|referee=[[Ceri Richards (referee)|Ceri Richards]] ([[Football Association of Wales|Wales]]) }}
+
+&lt;div id=&quot;Greece v Moldova&quot;&gt;{{footballbox
+|date=6 June 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|GRE}}
+|score=2–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83859/index.html Report]
+|team2={{fb|MDA}}
+|goals1=[[Angelos Charisteas|Charisteas]] {{goal|30}}&lt;br /&gt;[[Nikolaos Lyberopoulos|Lyberopoulos]] {{goal|90+5}}
+|goals2=[[Viorel Frunză|Frunză]] {{goal|80}}
+|stadium=[[Pankritio Stadium]], [[Heraklion]]&lt;ref name=&quot;greece&quot;/&gt;
+|attendance=22,000
+|referee=[[Jan Wegereef]] ([[Royal Dutch Football Association|Netherlands]]) }}
+----
+&lt;div id=&quot;Hungary v Bosnia and Herzegovina&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=16:00 [[UTC+2]]
+|team1={{fb-rt|HUN}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83880/index.html Report]
+|team2={{fb|BIH}}
+|goals1=[[Zoltan Gera|Gera]] {{goal|39|pen.}}
+|goals2=
+|stadium=[[Stadion Sóstói]], [[Székesfehérvár]]
+|attendance=10,877
+|referee=[[Matteo Trefoloni]] ([[Italian Football Federation|Italy]]) }}
+
+&lt;div id=&quot;Malta v Turkey&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=19:30 [[UTC+2]]
+|team1={{fb-rt|MLT}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83908/index.html Report]
+|team2={{fb|TUR}}
+|goals1=[[Brian Said|Said]] {{goal|41}}&lt;br /&gt;[[Andre Schembri|Schembri]] {{goal|76}}
+|goals2=[[Halil Altıntop]] {{goal|45}}&lt;br /&gt;[[Servet Çetin|Servet]] {{goal|78}}
+|stadium=[[Ta' Qali Stadium]], [[Ta' Qali]]
+|attendance=18,000
+|referee=[[Stefan Messner]] ([[Austrian Football Association|Austria]]) }}
+
+&lt;div id=&quot;Moldova v Norway&quot;&gt;{{footballbox
+|date=8 September 2007
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|MDA}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83860/index.html Report]
+|team2={{fb|NOR}}
+|goals1=
+|goals2=[[Steffen Iversen|Iversen]] {{goal|49}}
+|stadium=[[Zimbru Stadium]], [[Chişinău]]
+|attendance=15,000
+|referee=[[Robert Małek]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Norway v Greece&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|NOR}}
+|score=2–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83889/index.html Report]
+|team2={{fb|GRE}}
+|goals1=[[John Carew|Carew]] {{goal|15}}&lt;br /&gt;[[John Arne Riise|Riise]] {{goal|39}}
+|goals2=[[Sotiris Kyrgiakos|Kyrgiakos]] {{goal|7||30}}
+|stadium=[[Ullevaal Stadion]], [[Oslo]]
+|attendance=24,080
+|referee=[[Massimo Busacca]] ([[Swiss Football Association|Switzerland]]) }}
+
+&lt;div id=&quot;Turkey v Hungary&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:30 [[UTC+3]]
+|team1={{fb-rt|TUR}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83881/index.html Report]
+|team2={{fb|HUN}}
+|goals1=[[Gökhan Ünal|Gökhan]] {{goal|68}}&lt;br /&gt;[[Mehmet Aurélio|Aurélio]] {{goal|72}}&lt;br /&gt;[[Halil Altıntop]] {{goal|90+3}}
+|goals2=
+|stadium=[[BJK İnönü Stadium]], [[Istanbul]]
+|attendance=28,020
+|referee=[[Stuart Dougal]] ([[Scotish Football Association|Scotland]]) }}
+
+&lt;div id=&quot;Bosnia and Herzegovina v Moldova&quot;&gt;{{footballbox
+|date=12 September 2007
+|time=20:00 [[UTC+2]]
+|team1={{fb-rt|BIH}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83861/index.html Report]
+|team2={{fb|MDA}}
+|goals1=
+|goals2=[[Igor Bugaev|Bugaev]] {{goal|22}}
+|stadium=[[Asim Ferhatović Hase Stadium]], [[Sarajevo]]
+|attendance=4,000
+|referee=[[Jouni Hyytiä]] ([[Football Association of Finland|Finland]]) }}
+----
+&lt;div id=&quot;Hungary v Malta&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=16:20 [[UTC+2]]
+|team1={{fb-rt|HUN}}
+|score=2–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83882/index.html Report]
+|team2={{fb|MLT}}
+|goals1=[[Róbert Feczesin|Feczesin]] {{goal|34}}&lt;br /&gt;[[Dániel Tőzsér|Tőzsér]] {{goal|77}}
+|goals2=
+|stadium=[[Szusza Ferenc Stadium]], [[Budapest]]
+|attendance=6,000
+|referee=[[Karen Nalbandyan]] ([[Football Federation of Armenia|Armenia]]) }}
+
+&lt;div id=&quot;Moldova v Turkey&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=21:00 [[UTC+3]]
+|team1={{fb-rt|MDA}}
+|score=1–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83862/index.html Report]
+|team2={{fb|TUR}}
+|goals1=[[Viorel Frunză|Frunză]] {{goal|11}}
+|goals2=[[Ümit Karan|Ümit]] {{goal|63}}
+|stadium=[[Zimbru Stadium]], [[Chişinău]]
+|attendance=10,500
+|referee=[[Martin Atkinson]] ([[The Football Association|England]]) }}
+
+&lt;div id=&quot;Greece v Bosnia and Herzegovina&quot;&gt;{{footballbox
+|date=13 October 2007
+|time=21:30 [[UTC+3]]
+|team1={{fb-rt|GRE}}
+|score=3–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83890/index.html Report]
+|team2={{fb|BIH}}
+|goals1=[[Angelos Charisteas|Charisteas]] {{goal|10}}&lt;br /&gt;[[Theofanis Gekas|Gekas]] {{goal|57}}&lt;br /&gt;[[Nikolaos Lyberopoulos|Lyberopoulos]] {{goal|72}}
+|goals2=[[Mirko Hrgović|Hrgović]] {{goal|54}}&lt;br /&gt;[[Vedad Ibišević|Ibišević]] {{goal|90}}
+|stadium=[[Olympic Stadium (Athens)|Olympic Stadium]], [[Athens]]
+|attendance=35,000
+|referee=[[Grzegorz Gilewski]] ([[Polish Football Association|Poland]]) }}
+----
+&lt;div id=&quot;Malta v Moldova&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=19:30 [[UTC+2]]
+|team1={{fb-rt|MLT}}
+|score=2–3
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83863/index.html Report]
+|team2={{fb|MDA}}
+|goals1=[[Terence Scerri|Scerri]] {{goal|71}}&lt;br /&gt;[[Michael Mifsud|M. Mifsud]] {{goal|84|pen.}}
+|goals2=[[Igor Bugaev|Bugaev]] {{goal|24|pen.}}&lt;br /&gt;[[Viorel Frunză|Frunză]] {{goal|31||35}}
+|stadium=[[Ta' Qali Stadium]], [[Ta' Qali]]
+|attendance=10,000
+|referee=[[Igorj Ishchenko]] ([[Football Federation of Ukraine|Ukraine]]) }}
+
+&lt;div id=&quot;Turkey v Greece&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:30 [[UTC+3]]
+|team1={{fb-rt|TUR}}
+|score=0–1
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83867/index.html Report]
+|team2={{fb|GRE}}
+|goals1=
+|goals2=[[Ioannis Amanatidis|Amanatidis]] {{goal|79}}
+|stadium=[[Ali Sami Yen Stadium]], [[Istanbul]]
+|attendance=24,000
+|referee=[[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]]) }}
+
+&lt;div id=&quot;Bosnia and Herzegovina v Norway&quot;&gt;{{footballbox
+|date=17 October 2007
+|time=20:30 [[UTC+2]]
+|team1={{fb-rt|BIH}}
+|score=0–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83909/index.html Report]
+|team2={{fb|NOR}}
+|goals1=
+|goals2=[[Erik Hagen|Hagen]] {{goal|5}}&lt;br /&gt;[[Bjørn Helge Riise|B. Riise]] {{goal|74}}
+|stadium=[[Asim Ferhatović Hase Stadium]], [[Sarajevo]]
+|attendance=1,500
+|referee=[[Stéphane Lannoy]] ([[French Football Federation|France]]) }}
+----
+&lt;div id=&quot;Moldova v Hungary&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=19:00 [[UTC+2]]
+|team1={{fb-rt|MDA}}
+|score=3–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83883/index.html Report]
+|team2={{fb|HUN}}
+|goals1=[[Igor Bugaev|Bugaev]] {{goal|13}}&lt;br /&gt;[[Nicolae Josan|Josan]] {{goal|23}}&lt;br /&gt;[[Serghei Alexeev|Alexeev]] {{goal|86}}
+|goals2=
+|stadium=[[Zimbru Stadium]], [[Chişinău]]
+|attendance=6,483
+|referee=[[Pavel Královec]] ([[Football Association of the Czech Republic|Czech Republic]]) }}
+
+&lt;div id=&quot;Norway v Turkey&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=19:00 [[UTC+1]]
+|team1={{fb-rt|NOR}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83910/index.html Report]
+|team2={{fb|TUR}}
+|goals1=[[Erik Hagen|Hagen]] {{goal|12}}
+|goals2=[[Emre Belözoğlu|Emre]] {{goal|31}}&lt;br /&gt;[[Nihat Kahveci|Nihat]] {{goal|59}}
+|stadium=[[Ullevaal Stadion]], [[Oslo]]
+|attendance=24,080
+|referee=[[Markus Merk]] ([[German Football Association|Germany]]) }}
+
+&lt;div id=&quot;Greece v Malta&quot;&gt;{{footballbox
+|date=17 November 2007
+|time=21:30 [[UTC+2]]
+|team1={{fb-rt|GRE}}
+|score=5–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83891/index.html Report]
+|team2={{fb|MLT}}
+|goals1=[[Theofanis Gekas|Gekas]] {{goal|32||72||74}}&lt;br /&gt;[[Angelos Basinas|Basinas]] {{goal|54}}&lt;br /&gt;[[Ioannis Amanatidis|Amanatidis]] {{goal|61}}
+|goals2=
+|stadium=[[Athens Olympic Stadium|Olympic Stadium]], [[Athens]]
+|attendance=35,000
+|referee=[[Sten Kaldama]] ([[Estonian Football Association|Estonia]]) }}
+----
+&lt;div id=&quot;Malta v Norway&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:00 [[UTC+1]]
+|team1={{fb-rt|MLT}}
+|score=1–4
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83901/index.html Report]
+|team2={{fb|NOR}}
+|goals1=[[Michael Mifsud|M. Mifsud]] {{goal|53}}
+|goals2=[[Steffen Iversen|Iversen]] {{goal|25||27|pen.|45}}&lt;br /&gt;[[Morten Gamst Pedersen|Pedersen]] {{goal|75}}
+|stadium=[[Ta' Qali Stadium]], [[Ta' Qali]]
+|attendance=6,000
+|referee=[[Yuri Baskakov]] ([[Russian Football Union|Russia]]) }}
+
+&lt;div id=&quot;Turkey v Bosnia and Herzegovina&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=21:00 [[UTC+2]]
+|team1={{fb-rt|TUR}}
+|score=1–0
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83868/index.html Report]
+|team2={{fb|BIH}}
+|goals1=[[Nihat Kahveci|Nihat]] {{goal|43}}
+|goals2=
+|stadium=[[Ali Sami Yen Stadium]], [[Istanbul]]
+|attendance=22,000
+|referee=[[Eric Braamhaar]] ([[Royal Dutch Football Association|Netherlands]]) }}
+
+&lt;div id=&quot;Hungary v Greece&quot;&gt;{{footballbox
+|date=21 November 2007
+|time=20:15 [[UTC+1]]
+|team1={{fb-rt|HUN}}
+|score=1–2
+|report=[http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/match=83884/index.html Report]
+|team2={{fb|GRE}}
+|goals1=[[Ákos Buzsáky|Buzsáky]] {{goal|7}}
+|goals2=[[Vilmos Vanczák|Vanczák]] {{goal|22|o.g.}}&lt;br /&gt;[[Angelos Basinas|Basinas]] {{goal|59|pen.}}
+|stadium=[[Puskás Ferenc Stadium]], [[Budapest]]
+|attendance=32,300
+|referee=[[Rob Styles]] ([[The Football Association|England]]) }}
+
+== Goalscorers ==
+{| class=&quot;wikitable&quot; style=&quot;text-align: center;&quot;
+|-
+! Pos
+! Player
+! Country
+! Goals
+|-
+| rowspan=&quot;1&quot;|1
+| align=&quot;left&quot;| [[Steffen Iversen]] 
+| align=&quot;left&quot;| {{fb|NOR}}
+| rowspan=&quot;1&quot;|7
+|-
+| rowspan=&quot;2&quot;|2
+| align=&quot;left&quot;| [[Theofanis Gekas]]
+| align=&quot;left&quot;| {{fb|GRE}} 
+| rowspan=&quot;2&quot;|5
+|-
+| align=&quot;left&quot;| [[Hakan Şükür]]
+| align=&quot;left&quot;| {{fb|TUR}} 
+|-
+| rowspan=&quot;5&quot;|4
+| align=&quot;left&quot;| [[John Carew]]
+| align=&quot;left&quot;| {{fb|NOR}} 
+| rowspan=&quot;5&quot;|4
+|-
+| align=&quot;left&quot;| [[Viorel Frunză]]
+| align=&quot;left&quot;| {{fb|MDA}}
+|-
+| align=&quot;left&quot;| [[Zoltán Gera]]
+| align=&quot;left&quot;| {{fb|HUN}}
+|-
+| align=&quot;left&quot;| [[Zvjezdan Misimović]]
+| align=&quot;left&quot;| {{fb|BIH}}
+|-
+| align=&quot;left&quot;| [[Zlatan Muslimović]]
+| align=&quot;left&quot;| {{fb|BIH}}
+|-
+| rowspan=&quot;9&quot;|9
+| align=&quot;left&quot;| [[Angelos Basinas]]
+| align=&quot;left&quot;| {{fb|GRE}} 
+| rowspan=&quot;9&quot;|3
+|-
+| align=&quot;left&quot;| [[Igor Bugaev]]
+| align=&quot;left&quot;| {{fb|MDA}} 
+|- 
+| align=&quot;left&quot;| [[Angelos Charisteas]]
+| align=&quot;left&quot;| {{fb|GRE}} 
+|-
+| align=&quot;left&quot;| [[Nihat Kahveci]]
+| align=&quot;left&quot;| {{fb|TUR}}
+|-
+| align=&quot;left&quot;| [[Sotirios Kyrgiakos]]
+| align=&quot;left&quot;| {{fb|GRE}} 
+|-
+| align=&quot;left&quot;| [[Nikolaos Lyberopoulos]]
+| align=&quot;left&quot;| {{fb|GRE}}
+|-
+| align=&quot;left&quot;| [[Michael Mifsud]]
+| align=&quot;left&quot;| {{fb|MLT}} 
+|-
+| align=&quot;left&quot;| [[Tuncay Şanlı]]
+| align=&quot;left&quot;| {{fb|TUR}} 
+|-
+| align=&quot;left&quot;| [[Andre Schembri]]
+| align=&quot;left&quot;| {{fb|MLT}}
+|}
+
+;2 goals
+* '''{{fb|BIH}}:''' [[Mirko Hrgović]]
+* '''{{fb|GRE}}:''' [[Ioannis Amanatidis]], [[Kostas Katsouranis]]
+* '''{{fb|MDA}}:''' [[Sergei Rogaciov]]
+* '''{{fb|NOR}}:''' [[Erik Hagen]], [[Morten Gamst Pedersen]], [[John Arne Riise]], [[Ole Gunnar Solskjær]], [[Fredrik Strømstad]]
+* '''{{fb|TUR}}:''' [[Halil Altıntop]], [[Hamit Altıntop]], [[Tümer Metin]], [[Gökhan Ünal]]
+
+;1 goal
+* '''{{fb|BIH}}:''' [[Sergej Barbarez]], [[Mladen Bartolović]], [[Adnan Ćustović]], [[Edin Džeko]], [[Ivica Grlić]], [[Vedad Ibišević]]
+* '''{{fb|GRE}}:''' [[Christos Patsatzoglou]], [[Georgios Samaras]], [[Yourkas Seitaridis]]
+* '''{{fb|HUN}}:''' [[Ákos Buzsáky]], [[Pál Dárdai]], [[Róbert Feczesin]], [[Szabolcs Huszti]], [[Tamás Priskin]], [[Sándor Torghelle]], [[Dániel Tőzsér]]
+* '''{{fb|MLT}}:''' [[George Mallia]], [[Jamie Pace]], [[Brian Said]], [[Terence Scerri]]
+* '''{{fb|MDA}}:''' [[Serghei Alexeev]], [[Alexandru Epureanu]], [[Nicolae Josan]]
+* '''{{fb|NOR}}:''' [[Martin Andresen]], [[Daniel Braaten]], [[Simen Brenne]], [[Kristofer Hæstad]], [[Thorstein Helstad]], [[Bjørn Helge Riise]]
+* '''{{fb|TUR}}:''' [[Mehmet Aurélio]], [[Emre Belözoğlu]], [[Servet Çetin]], [[Gökdeniz Karadeniz]], [[Ümit Karan]], [[Sabri Sarıoğlu]]
+
+;Own goal
+* '''{{fb|HUN}}:''' [[Vilmos Vanczák]] (for {{fb|GRE}})
+
+== References ==
+* [http://www.uefa.com/competitions/euro2012/history/season=2008/round=2241/group=2632.html UEFA web site]
+{{reflist}}
+
+{{UEFA Euro 2008 qualifying}}
+
+{{DEFAULTSORT:Euro}}
+[[Category:UEFA Euro 2008 qualifying|Group C]]
+[[Category:2006–07 in Bosnia and Herzegovina football]]
+[[Category:2007–08 in Bosnia and Herzegovina football]]
+[[Category:2006–07 in Maltese football]]
+[[Category:2007–08 in Maltese football]]
+[[Category:2006–07 in Hungarian football]]
+[[Category:2007–08 in Hungarian football]]
+[[Category:2006–07 in Moldovan football]]
+[[Category:2007–08 in Moldovan football]]
+[[Category:2006–07 in Greek football]]
+[[Category:2007–08 in Greek football]]
+[[Category:2006–07 in Turkish football]]
+[[Category:2007–08 in Turkish football]]
+[[Category:2006 in Norwegian football]]
+[[Category:2007 in Norwegian football]]</text>
+      <sha1>b7z7ipcb60wuq5mjcvo6nt66oarv4qr</sha1>
+    </revision>
+  </page>
+</mediawiki>

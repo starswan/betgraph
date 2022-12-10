@@ -1,0 +1,945 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.28.0-wmf.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>UEFA Euro 2008 Group B</title>
+    <ns>0</ns>
+    <id>14524222</id>
+    <revision>
+      <id>671754312</id>
+      <parentid>671754276</parentid>
+      <timestamp>2015-07-16T19:49:12Z</timestamp>
+      <contributor>
+        <username>Djln</username>
+        <id>547792</id>
+      </contributor>
+      <comment>new key for [[Category:Germany at UEFA Euro 2008]]: &quot;Group&quot; using [[WP:HC|HotCat]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="28173">'''Group B of the 2008 UEFA European Championships''' was one of four groups of competing nations at [[UEFA Euro 2008]]. The first of the three rounds of matches were played on 8 June, and the final round was completed on 16 June. All six of the group's matches were played at venues in [[Austria]], in [[Vienna]] and [[Klagenfurt]]. The group is made up of four [[central Europe]]an nations; co-hosts [[Austria national football team|Austria]], as well as [[Croatia national football team|Croatia]], [[Germany national football team|Germany]] and [[Poland national football team|Poland]]. Austria and Poland are appearing in a European Championship finals for the first time.
+
+Croatia became the first team to qualify for the quarter-finals from Group B when they followed up a 1–0 win against Austria in their first match with a 2–1 win over Germany. This, in conjunction with Austria's 1–1 draw with Poland, meant that Croatia would finish top of the group. The second quarter-final spot was decided by the group's final games, with Germany defeating Austria through a [[Michael Ballack]] free kick, making the result of the Poland vs Croatia match irrelevant. Had Germany lost, Poland could still have qualified with a win over Croatia. However, a goal from [[Ivan Klasnić]] won the game for Croatia, making the Croatians the first team to gain maximum points in the group stage.
+
+{{TOC right}}
+
+==Standings==
+{| class=&quot;wikitable&quot;
+|-
+!Key to colours in group tables
+|- style=&quot;background:#cfc&quot;
+|Team progressed to the [[UEFA Euro 2008 knockout phase#Quarter-finals|quarter-finals]]
+|}
+
+{| class=&quot;wikitable&quot; style=&quot;text-align:center;&quot;
+|-
+!width=175 |Team
+!width=20 abbr=&quot;Played&quot; |{{Tooltip| Pld | total games PLAYED}}
+!width=20 abbr=&quot;Won&quot; |{{Tooltip| W | total games WON}}
+!width=20 abbr=&quot;Drawn&quot; |{{Tooltip| D | total games DRAWN (tied)}}
+!width=20 abbr=&quot;Lost&quot; |{{Tooltip| L | total games LOST}}
+!width=20 abbr=&quot;Goals for&quot; |{{Tooltip| GF | total goals scored (GOALS FOR)}}
+!width=20 abbr=&quot;Goals against&quot; |{{Tooltip| GA | total goals conceded (GOALS AGAINST)}}
+!width=20 abbr=&quot;Goal difference&quot; |{{Tooltip| GD | GOALS DIFFERENCE (GF-GA)}}
+!width=20 abbr=&quot;Points&quot; |{{Tooltip| Pts | total POINTS accumulated (3W+D)}}
+|- bgcolor=&quot;#ccffcc&quot;
+|align=&quot;left&quot;|{{fb|CRO}}
+|3||3||0||0||4||1||+3||'''9'''
+|- bgcolor=&quot;#ccffcc&quot;
+|align=&quot;left&quot;|{{fb|GER}}
+|3||2||0||1||4||2||+2||'''6'''
+|-
+|align=&quot;left&quot;|{{fb|AUT}}
+|3||0||1||2||1||3||&amp;minus;2||'''1'''
+|-
+|align=&quot;left&quot;|{{fb|POL}}
+|3||0||1||2||1||4||&amp;minus;3||'''1'''
+|}
+
+''All times local ([[Central European Time#Central European Summer Time|UTC+2]])''
+
+{{clear}}
+
+==Austria vs Croatia==
+{{Football box
+| date         = {{Start date|2008|6|8|df=y}}
+| time         = 18:00
+| team1        = {{fb-rt|AUT}}
+| team2        = {{fb|CRO}}
+| score        = 0–1
+| goals2       = [[Luka Modrić|Modrić]] {{goal|4|pen.}}
+| stadium      = [[Ernst-Happel-Stadion]], [[Vienna]]
+| attendance   = 51,428&lt;ref name=&quot;aut-cro report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD02_300684_AUT_CRO_FullReport.pdf |title=Full-time report Austria-Croatia |work=Union of European Football Associations |format=PDF |date=8 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Pieter Vink]] ([[Royal Dutch Football Association|Netherlands]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300684/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _aut08h
+ |pattern_ra = _thinwhiteborder
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Austria&lt;ref name=&quot;aut-cro_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD02_300684_AUT_CRO_TactLineUps.pdf |title=Team Line-ups – Group B – Austria-Croatia |work=Union of European Football Associations |format=PDF |date=8 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _CRO08Away
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = 29459B
+ |body       = 29459B
+ |rightarm   = 29459B
+ |shorts     = 29459B
+ |socks      = 29459B
+ |title      = Croatia&lt;ref name=&quot;aut-cro_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''21'''||[[Jürgen Macho]]
+|-
+|CB ||'''15'''||[[Sebastian Prödl]] || {{yel|68}}
+|-
+|CB ||'''3''' ||[[Martin Stranzl]]
+|-
+|CB ||'''4''' ||[[Emanuel Pogatetz]] || {{yel|3}}
+|-
+|DM ||'''6''' ||[[René Aufhauser]]
+|-
+|DM ||'''19'''||[[Jürgen Säumel]] || {{yel|21}} || {{suboff|61}}
+|-
+|RM ||'''2''' ||[[Joachim Standfest]]
+|-
+|LM ||'''12'''||[[Ronald Gërçaliu]] || || {{suboff|69}}
+|-
+|AM ||'''10'''||[[Andreas Ivanschitz]] ([[Captain (association football)|c]])
+|-
+|CF ||'''20'''||[[Martin Harnik]]
+|-
+|CF ||'''9''' ||[[Roland Linz]] || || {{suboff|73}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Ivica Vastić]] || || {{subon|61}}
+|-
+|MF ||'''11'''||[[Ümit Korkmaz]] || || {{subon|69}}
+|-
+|FW ||'''18'''||[[Roman Kienast]] || ||{{subon|73}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Josef Hickersberger]]
+|}
+|valign=&quot;top&quot;|[[File:AUT-CRO 2008-06-08.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Stipe Pletikosa]]
+|-
+|RB ||'''5''' ||[[Vedran Ćorluka]]
+|-
+|CB ||'''4''' ||[[Robert Kovač]] || {{yel|51}}
+|-
+|CB ||'''3''' ||[[Josip Šimunić]]
+|-
+|LB ||'''22'''||[[Danijel Pranjić]]
+|-
+|RM ||'''11'''||[[Darijo Srna]]
+|-
+|CM ||'''10'''||[[Niko Kovač]] ([[Captain (association football)|c]])
+|-
+|CM ||'''14'''||[[Luka Modrić]]
+|-
+|LM ||'''19'''||[[Niko Kranjčar]] || || {{suboff|61}}
+|-
+|CF ||'''18'''||[[Ivica Olić]] || || {{suboff|83}}
+|-
+|CF ||'''21'''||[[Mladen Petrić]] || || {{suboff|72}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''15'''||[[Dario Knežević]] || || {{subon|61}}
+|-
+|FW ||'''20'''||[[Igor Budan]] || || {{subon|72}}
+|-
+|MF ||'''8''' ||[[Ognjen Vukojević]] || || {{subon|83}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Slaven Bilić]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Stipe Pletikosa]] (Croatia)&lt;ref name=&quot;aut-cro report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Adriaan Inia ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;Hans ten Hoove ([[Royal Dutch Football Association|Netherlands]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Kristinn Jakobsson]] ([[Football Association of Iceland|Iceland]])
+|}
+
+==Germany vs Poland==
+{{Football box
+| date         = {{Start date|2008|6|8|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|GER}}
+| team2        = {{fb|POL}}
+| score        = 2–0
+| goals1       = [[Lukas Podolski|Podolski]] {{goal|20||72}}
+| stadium      = [[Hypo-Arena]], [[Klagenfurt]]
+| attendance   = 30,461&lt;ref name=&quot;ger-pol report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD02_300685_GER_POL_FullReport.pdf |title=Full-time report Germany-Poland |work=Union of European Football Associations |format=PDF |date=8 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Tom Henning Øvrebø]] ([[Football Association of Norway|Norway]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300685/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _adidasaltonwhite
+ |pattern_b  = _DFB_08h
+ |pattern_ra = _adidasaltonwhite
+ |pattern_sh = _adidaswhite
+ |pattern_so = _3_stripes_black
+ |leftarm    = 000000
+ |body       = FFFFFF
+ |rightarm   = 000000
+ |shorts     = 000000
+ |socks      = FFFFFF
+ |title      = Germany&lt;ref name=&quot;ger-pol_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD02_300685_GER_POL_TactLineUps.pdf |title=Team Line-ups – Group B – Germany-Poland |work=Union of European Football Associations |format=PDF |date=8 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _pol08a
+ |pattern_ra =
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       =
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Poland&lt;ref name=&quot;ger-pol_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Jens Lehmann]]
+|-
+|RB ||'''16'''||[[Philipp Lahm]]
+|-
+|CB ||'''21'''||[[Christoph Metzelder]]
+|-
+|CB ||'''17'''||[[Per Mertesacker]]
+|-
+|LB ||'''2''' ||[[Marcell Jansen]]
+|-
+|RM ||'''4''' ||[[Clemens Fritz]] || || {{suboff|56}}
+|-
+|CM ||'''8''' ||[[Torsten Frings]]
+|-
+|CM ||'''13'''||[[Michael Ballack]] ([[Captain (association football)|c]])
+|-
+|LM ||'''20'''||[[Lukas Podolski]]
+|-
+|CF ||'''9''' ||[[Mario Gómez]] || || {{suboff|75}}
+|-
+|CF ||'''11'''||[[Miroslav Klose]] || || {{suboff|90+1}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Bastian Schweinsteiger]] || {{yel|64}} || {{subon|56}}
+|-
+|MF ||'''15'''||[[Thomas Hitzlsperger]] || || {{subon|75}}
+|-
+|FW ||'''22'''||[[Kevin Kurányi]] || || {{subon|90+1}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Joachim Löw]]
+|}
+|valign=&quot;top&quot;|[[File:GER-POL 2008-06-08.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Artur Boruc]]
+|-
+|RB ||'''13'''||[[Marcin Wasilewski]]
+|-
+|CB ||'''14'''||[[Michał Żewłakow]]
+|-
+|CB ||'''6''' ||[[Jacek Bąk]]
+|-
+|LB ||'''4''' ||[[Paweł Golański]] || || {{suboff|75}}
+|-
+|CM ||'''5''' ||[[Dariusz Dudka]]
+|-
+|CM ||'''18'''||[[Mariusz Lewandowski]] || {{yel|60}}
+|-
+|RW ||'''17'''||[[Wojciech Łobodziński]] || || {{suboff|65}}
+|-
+|AM ||'''9''' ||[[Maciej Żurawski]] ([[Captain (association football)|c]]) || || {{suboff|46}}
+|-
+|LW ||'''8''' ||[[Jacek Krzynówek]]
+|-
+|CF ||'''7''' ||[[Euzebiusz Smolarek]] || {{yel|40}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''20'''||[[Roger Guerreiro]] || || {{subon|46}}
+|-
+|MF ||'''16'''||[[Łukasz Piszczek]] || || {{subon|65}}
+|-
+|FW ||'''11'''||[[Marek Saganowski]] || || {{subon|75}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|NED}} [[Leo Beenhakker]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Lukas Podolski]] (Germany)&lt;ref name=&quot;ger-pol report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Geir Åge Holen ([[Football Association of Norway|Norway]])
+&lt;br /&gt;Jan Petter Randen ([[Football Association of Norway|Norway]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Craig Thomson (referee)|Craig Thomson]] ([[Scottish Football Association|Scotland]])
+|}
+
+==Croatia vs Germany==
+{{Football box
+| date         = {{Start date|2008|6|12|df=y}}
+| time         = 18:00
+| team1        = {{fb-rt|CRO}}
+| team2        = {{fb|GER}}
+| score        = 2–1
+| goals1       = [[Darijo Srna|Srna]] {{goal|24}}&lt;br /&gt;[[Ivica Olić|Olić]] {{goal|62}}
+| goals2       = [[Lukas Podolski|Podolski]] {{goal|79}}
+| stadium      = [[Hypo-Arena]], [[Klagenfurt]]
+| attendance   = 30,461&lt;ref name=&quot;cro-ger report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD06_300693_CRO_GER_FullReport.pdf |title=Full-time report Croatia-Germany |work=Union of European Football Associations |format=PDF |date=12 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Frank De Bleeckere]] ([[Royal Belgian Football Association|Belgium]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300693/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _CRO08Away
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = 29459B
+ |body       = 29459B
+ |rightarm   = 29459B
+ |shorts     = 29459B
+ |socks      = 29459B
+ |title      = Croatia&lt;ref name=&quot;cro-ger_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD06_300693_CRO_GER_TactLineUps.pdf |title=Team Line-ups – Group B – Croatia-Germany |work=Union of European Football Associations |format=PDF |date=12 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _adidasaltonwhite
+ |pattern_b  = _DFB_08h
+ |pattern_ra = _adidasaltonwhite
+ |pattern_sh = _adidaswhite
+ |pattern_so = _3_stripes_black
+ |leftarm    = 000000
+ |body       = FFFFFF
+ |rightarm   = 000000
+ |shorts     = 000000
+ |socks      = FFFFFF
+ |title      = Germany&lt;ref name=&quot;cro-ger_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Stipe Pletikosa]]
+|-
+|RB ||'''5''' ||[[Vedran Ćorluka]]
+|-
+|CB ||'''4''' ||[[Robert Kovač]]
+|-
+|CB ||'''3''' ||[[Josip Šimunić]] || {{yel|45+1}}
+|-
+|LB ||'''22'''||[[Danijel Pranjić]]
+|-
+|RM ||'''11'''||[[Darijo Srna]] || {{yel|27}} || {{suboff|80}}
+|-
+|CM ||'''14'''||[[Luka Modrić]] || {{yel|90+3}}
+|-
+|CM ||'''10'''||[[Niko Kovač]] ([[Captain (association football)|c]])
+|-
+|LM ||'''7''' ||[[Ivan Rakitić]]
+|-
+|SS ||'''19'''||[[Niko Kranjčar]] || || {{suboff|85}}
+|-
+|CF ||'''18'''||[[Ivica Olić]] || || {{suboff|72}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|FW ||'''21'''||[[Mladen Petrić]] || || {{subon|72}}
+|-
+|MF ||'''16'''||[[Jerko Leko]] || {{yel|90+2}} || {{subon|80}}
+|-
+|DF ||'''15'''||[[Dario Knežević]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Slaven Bilić]]
+|}
+|valign=&quot;top&quot;|[[File:CRO-GER 2008-06-12.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Jens Lehmann]] || {{yel|90+2}}
+|-
+|RB ||'''16'''||[[Philipp Lahm]]
+|-
+|CB ||'''21'''||[[Christoph Metzelder]]
+|-
+|CB ||'''17'''||[[Per Mertesacker]]
+|-
+|LB ||'''2''' ||[[Marcell Jansen]] || || {{suboff|46}}
+|-
+|RM ||'''4''' ||[[Clemens Fritz]] || || {{suboff|82}}
+|-
+|CM ||'''8''' ||[[Torsten Frings]]
+|-
+|CM ||'''13'''||[[Michael Ballack]] ([[Captain (association football)|c]]) || {{yel|75}}
+|-
+|LM ||'''20'''||[[Lukas Podolski]]
+|-
+|CF ||'''9''' ||[[Mario Gómez]] || || {{suboff|66}}
+|-
+|CF ||'''11'''||[[Miroslav Klose]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''19'''||[[David Odonkor]] || || {{subon|46}}
+|-
+|MF ||'''7''' ||[[Bastian Schweinsteiger]] || {{sent off|0|90+2}} || {{subon|66}}
+|-
+|FW ||'''22'''||[[Kevin Kurányi]] || || {{subon|82}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Joachim Löw]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Luka Modrić]] (Croatia)&lt;ref name=&quot;cro-ger report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Peter Hermans ([[Royal Belgian Football Association|Belgium]])
+&lt;br /&gt;Alex Verstraeten ([[Royal Belgian Football Association|Belgium]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Stéphane Lannoy]] ([[French Football Federation|France]])
+|}
+
+==Austria vs Poland==
+{{Football box
+| date         = {{Start date|2008|6|12|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|AUT}}
+| team2        = {{fb|POL}}
+| score        = 1–1
+| goals1       = [[Ivica Vastić|Vastić]] {{goal|90+3|pen.}}
+| goals2       = [[Roger Guerreiro|Guerreiro]] {{goal|30}}
+| stadium      = [[Ernst-Happel-Stadion]], [[Vienna]]
+| attendance   = 51,428&lt;ref name=&quot;aut-pol report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD06_300692_AUT_POL_FullReport.pdf |title=Full-time report Austria-Poland |work=Union of European Football Associations |format=PDF |date=12 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Howard Webb]] ([[The Football Association|England]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300692/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _aut08h
+ |pattern_ra = _thinwhiteborder
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FF0000
+ |socks      = FF0000
+ |title      = Austria&lt;ref name=&quot;aut-pol_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD10_300701_POL_CRO_TactLineUps.pdf |title=Team Line-ups – Group B – Austria-Poland |work=Union of European Football Associations |format=PDF |date=12 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _redborder
+ |pattern_b  = _pol08h
+ |pattern_ra = _redborder
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FFFFFF
+ |socks      = FFFFFF
+ |title      = Poland&lt;ref name=&quot;aut-pol_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''21'''||[[Jürgen Macho]]
+|-
+|RB ||'''14'''||[[György Garics]]
+|-
+|CB ||'''15'''||[[Sebastian Prödl]] || {{yel|72}}
+|-
+|CB ||'''3''' ||[[Martin Stranzl]]
+|-
+|LB ||'''4''' ||[[Emanuel Pogatetz]]
+|-
+|DM ||'''6''' ||[[René Aufhauser]] || || {{suboff|74}}
+|-
+|RM ||'''8''' ||[[Christoph Leitgeb]]
+|-
+|CM ||'''10'''||[[Andreas Ivanschitz]] ([[Captain (association football)|c]]) || || {{suboff|64}}
+|-
+|LM ||'''11'''||[[Ümit Korkmaz]] || {{yel|56}}
+|-
+|CF ||'''20'''||[[Martin Harnik]]
+|-
+|CF ||'''9''' ||[[Roland Linz]] || || {{suboff|64}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''7''' ||[[Ivica Vastić]] || || {{subon|64}}
+|-
+|FW ||'''18'''||[[Roman Kienast]] || || {{subon|64}}
+|-
+|MF ||'''19'''||[[Jürgen Säumel]] || || {{subon|74}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Josef Hickersberger]]
+|}
+|valign=&quot;top&quot;|[[File:AUT-POL 2008-06-12.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Artur Boruc]]
+|-
+|RB ||'''13'''||[[Marcin Wasilewski]] || {{yel|58}}
+|-
+|CB ||'''2''' ||[[Mariusz Jop]] || || {{suboff|46}}
+|-
+|CB ||'''6''' ||[[Jacek Bąk]] ([[Captain (association football)|c]]) || {{yel|90+3}}
+|-
+|LB ||'''14'''||[[Michał Żewłakow]]
+|-
+|RM ||'''5''' ||[[Dariusz Dudka]]
+|-
+|CM ||'''18'''||[[Mariusz Lewandowski]]
+|-
+|LM ||'''8''' ||[[Jacek Krzynówek]] || {{yel|61}}
+|-
+|AM ||'''20'''||[[Roger Guerreiro]] || || {{suboff|85}}
+|-
+|CF ||'''11'''||[[Marek Saganowski]] || || {{suboff|83}}
+|-
+|CF ||'''7''' ||[[Euzebiusz Smolarek]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''4''' ||[[Paweł Golański]] || || {{subon|46}}
+|-
+|MF ||'''17'''||[[Wojciech Łobodziński]] || || {{subon|83}}
+|-
+|MF ||'''19'''||[[Rafał Murawski]] || || {{subon|85}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|NED}} [[Leo Beenhakker]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Roger Guerreiro]] (Poland)&lt;ref name=&quot;aut-pol report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Darren Cann ([[The Football Association|England]])
+&lt;br /&gt;Mike Mullarkey ([[The Football Association|England]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Viktor Kassai]] ([[Hungarian Football Federation|Hungary]])
+|}
+
+==Poland vs Croatia==
+{{Football box
+| date         = {{Start date|2008|6|16|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|POL}}
+| team2        = {{fb|CRO}}
+| score        = 0–1
+| goals2       = [[Ivan Klasnić|Klasnić]] {{goal|53}}
+| stadium      = [[Hypo-Arena]], [[Klagenfurt]]
+| attendance   = 30,461&lt;ref name=&quot;pol-cro report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD10_300701_POL_CRO_FullReport.pdf |title=Full-time report Poland-Croatia |work=Union of European Football Associations |format=PDF |date=16 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Kyros Vassaras]] ([[Hellenic Football Federation|Greece]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300701/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _redborder
+ |pattern_b  = _pol08h
+ |pattern_ra = _redborder
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = FFFFFF
+ |body       = FFFFFF
+ |rightarm   = FFFFFF
+ |shorts     = FF0000
+ |socks      = FFFFFF
+ |title      = Poland&lt;ref name=&quot;pol-cro_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD10_300701_POL_CRO_TactLineUps.pdf |title=Team Line-ups – Group B – Poland-Croatia |work=Union of European Football Associations |format=PDF |date=16 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la =
+ |pattern_b  = _CRO08Away
+ |pattern_ra =
+ |pattern_sh =
+ |pattern_so =
+ |leftarm    = 29459B
+ |body       = 29459B
+ |rightarm   = 29459B
+ |shorts     = 29459B
+ |socks      = 29459B
+ |title      = Croatia&lt;ref name=&quot;pol-cro_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''1''' ||[[Artur Boruc]]
+|-
+|RB ||'''13'''||[[Marcin Wasilewski]]
+|-
+|CB ||'''14'''||[[Michał Żewłakow]] ([[Captain (association football)|c]])
+|-
+|CB ||'''5''' ||[[Dariusz Dudka]]
+|-
+|LB ||'''3''' ||[[Jakub Wawrzyniak]]
+|-
+|CM ||'''19'''||[[Rafał Murawski]]
+|-
+|CM ||'''18'''||[[Mariusz Lewandowski]] || {{yel|38}} || {{suboff|46}}
+|-
+|RW ||'''17'''||[[Wojciech Łobodziński]] || || {{suboff|55}}
+|-
+|AM ||'''20'''||[[Roger Guerreiro]]
+|-
+|LW ||'''8''' ||[[Jacek Krzynówek]]
+|-
+|CF ||'''11'''||[[Marek Saganowski]] || || {{suboff|69}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''23'''||[[Adam Kokoszka]] || || {{subon|46}}
+|-
+|FW ||'''7''' ||[[Euzebiusz Smolarek]] || || {{subon|55}}
+|-
+|FW ||'''21'''||[[Tomasz Zahorski]] || {{yel|84}} || {{subon|69}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|{{flagicon|NED}} [[Leo Beenhakker]]
+|}
+|valign=&quot;top&quot;|[[File:POL-CRO 2008-06-16.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=25| !!width=25|
+|-
+|GK ||'''23'''||[[Vedran Runje]]
+|-
+|RB ||'''2''' ||[[Dario Šimić]] ([[Captain (association football)|c]])
+|-
+|CB ||'''6''' ||[[Hrvoje Vejić]] || {{yel|45}}
+|-
+|CB ||'''15'''||[[Dario Knežević]] || || {{suboff|27}}
+|-
+|LB ||'''22'''||[[Danijel Pranjić]]
+|-
+|RM ||'''16'''||[[Jerko Leko]]
+|-
+|CM ||'''8''' ||[[Ognjen Vukojević]] || {{yel|85}}
+|-
+|CM ||'''13'''||[[Nikola Pokrivač]]
+|-
+|LM ||'''7''' ||[[Ivan Rakitić]]
+|-
+|CF ||'''17'''||[[Ivan Klasnić]] || || {{suboff|74}}
+|-
+|CF ||'''21'''||[[Mladen Petrić]] || || {{suboff|75}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|DF ||'''5''' ||[[Vedran Ćorluka]] || || {{subon|27}}
+|-
+|FW ||'''9''' ||[[Nikola Kalinić]] || || {{subon|74}}
+|-
+|MF ||'''19'''||[[Niko Kranjčar]] || || {{subon|75}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=4|[[Slaven Bilić]]
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Ivan Klasnić]] (Croatia)&lt;ref name=&quot;pol-cro report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Dimitris Bozatzidis ([[Hellenic Football Federation|Greece]])
+&lt;br /&gt;Dimitris Saraidaris ([[Hellenic Football Federation|Greece]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Olegário Benquerença]] ([[Portuguese Football Federation|Portugal]])
+|}
+
+==Austria vs Germany==
+{{Football box
+| date         = {{Start date|2008|6|16|df=y}}
+| time         = 20:45
+| team1        = {{fb-rt|AUT}}
+| team2        = {{fb|GER}}
+| score        = 0–1
+| goals2       = [[Michael Ballack|Ballack]] {{goal|49}}
+| stadium      = [[Ernst-Happel-Stadion]], [[Vienna]]
+| attendance   = 51,428&lt;ref name=&quot;aut-ger report&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD10_300700_AUT_GER_FullReport.pdf |title=Full-time report Austria-Germany |work=Union of European Football Associations |format=PDF |date=16 June 2008 |accessdate=9 June 2012 }}&lt;/ref&gt;
+| referee      = [[Manuel Mejuto González]] ([[Royal Spanish Football Federation|Spain]])
+| report       = [http://www.uefa.com/uefaeuro/season=2008/matches/round=15093/match=300700/index.html Report]
+}}
+
+{| width=92%
+|-
+|{{Football kit
+ |pattern_la = _thinwhiteborder
+ |pattern_b  = _aut08h
+ |pattern_ra = _thinwhiteborder
+ |pattern_sh = _red stripes
+ |pattern_so =
+ |leftarm    = FF0000
+ |body       = FF0000
+ |rightarm   = FF0000
+ |shorts     = FFFFFF
+ |socks      = FF0000
+ |title      = Austria&lt;ref name=&quot;aut-ger_line-ups&quot;&gt;{{cite web |url=http://www.uefa.com/newsfiles/euro/2008/Logo_MD10_300700_AUT_GER_TactLineUps.pdf |title=Team Line-ups – Group B – Austria-Germany |work=Union of European Football Associations |format=PDF |date=16 June 2008 |accessdate=11 June 2012 }}&lt;/ref&gt;
+}}
+|{{Football kit
+ |pattern_la = _adidasaltonwhite
+ |pattern_b  = _DFB_08h
+ |pattern_ra = _adidasaltonwhite
+ |pattern_sh = _adidaswhite
+ |pattern_so = _3_stripes_black
+ |leftarm    = 000000
+ |body       = FFFFFF
+ |rightarm   = 000000
+ |shorts     = 000000
+ |socks      = FFFFFF
+ |title      = Germany&lt;ref name=&quot;aut-ger_line-ups&quot; /&gt;
+}}
+|}
+
+{| width=&quot;100%&quot;
+|valign=&quot;top&quot; width=&quot;40%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''21'''||[[Jürgen Macho]]
+|-
+|RB ||'''14'''||[[György Garics]]
+|-
+|CB ||'''3''' ||[[Martin Stranzl]] || {{yel|13}}
+|-
+|CB ||'''17'''||[[Martin Hiden]] || || {{suboff|55}}
+|-
+|LB ||'''4''' ||[[Emanuel Pogatetz]]
+|-
+|CM ||'''6''' ||[[René Aufhauser]] || || {{suboff|63}}
+|-
+|LM ||'''5''' ||[[Christian Fuchs]]
+|-
+|AM ||'''10'''||[[Andreas Ivanschitz]] ([[Captain (association football)|c]]) || {{yel|48}}
+|-
+|RW ||'''20'''||[[Martin Harnik]] || || {{suboff|67}}
+|-
+|LW ||'''11'''||[[Ümit Korkmaz]]
+|-
+|CF ||'''22'''||[[Erwin Hoffer]] || {{yel|31}}
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''8''' ||[[Christoph Leitgeb]] || || {{subon|55}}
+|-
+|MF ||'''19'''||[[Jürgen Säumel]] || || {{subon|63}}
+|-
+|FW ||'''18'''||[[Roman Kienast]] || || {{subon|67}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Josef Hickersberger]]&lt;ref name=&quot;expelled&quot; group=&quot;note&quot;&gt;Both managers were expelled by referee [[Manuel Mejuto González|Mejuto González]] in the 41st minute.&lt;/ref&gt;
+|}
+|valign=&quot;top&quot;|[[File:AUT-GER 2008-06-16.svg|300px]]
+|valign=&quot;top&quot; width=&quot;50%&quot;|
+{| style=&quot;font-size: 90%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;center&quot;
+|-
+!width=&quot;25&quot;| !!width=&quot;25&quot;|
+|-
+|GK ||'''1''' ||[[Jens Lehmann]]
+|-
+|RB ||'''3''' ||[[Arne Friedrich]]
+|-
+|CB ||'''17'''||[[Per Mertesacker]]
+|-
+|CB ||'''21'''||[[Christoph Metzelder]]
+|-
+|LB ||'''16'''||[[Philipp Lahm]]
+|-
+|RM ||'''4''' ||[[Clemens Fritz]] || || {{suboff|90+3}}
+|-
+|CM ||'''8''' ||[[Torsten Frings]]
+|-
+|CM ||'''13'''||[[Michael Ballack]] ([[Captain (association football)|c]])
+|-
+|LM ||'''20'''||[[Lukas Podolski]] || || {{suboff|83}}
+|-
+|CF ||'''9''' ||[[Mario Gómez]] || || {{suboff|60}}
+|-
+|CF ||'''11'''||[[Miroslav Klose]]
+|-
+|colspan=3|'''Substitutions:'''
+|-
+|MF ||'''15'''||[[Thomas Hitzlsperger]] || || {{subon|60}}
+|-
+|FW ||'''10'''||[[Oliver Neuville]] || || {{subon|83}}
+|-
+|MF ||'''18'''||[[Tim Borowski]] || || {{subon|90+3}}
+|-
+|colspan=3|'''Manager:'''
+|-
+|colspan=3|[[Joachim Löw]]&lt;ref name=&quot;expelled&quot; group=&quot;note&quot; /&gt;
+|}
+|}
+{| width=100% style=&quot;font-size: 90%&quot;
+|
+'''Man of the Match:'''
+&lt;br /&gt;[[Michael Ballack]] (Germany)&lt;ref name=&quot;aut-ger report&quot; /&gt;
+
+'''[[Assistant referee (association football)|Assistant referees]]:'''
+&lt;br /&gt;Juan Carlos Juste Jiménez ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;Jesús Calvo Guadamuro ([[Royal Spanish Football Federation|Spain]])
+&lt;br /&gt;'''[[Assistant referee (association football)#Fourth official|Fourth official]]:'''
+&lt;br /&gt;[[Damir Skomina]] ([[Football Association of Slovenia|Slovenia]])
+|}
+
+==Notes==
+{{Reflist|group=note}}
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{UEFA Euro 2008}}
+
+{{DEFAULTSORT:Euro 2008}}
+[[Category:UEFA Euro 2008|Group B]]
+[[Category:Germany at UEFA Euro 2008|Group]]
+[[Category:2007–08 in Austrian football]]
+[[Category:2007–08 in Polish football]]
+[[Category:2007–08 in Croatian football]]</text>
+      <sha1>k4gosfjvu7nh3t96vflx4lx64o4bkdd</sha1>
+    </revision>
+  </page>
+</mediawiki>
