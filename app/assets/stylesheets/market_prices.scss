@@ -1,0 +1,29 @@
+// $Id$
+
+.backprice {
+  text-align: right;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+.layprice {
+  text-align: right;
+  font-weight: bold;
+  background-color: pink;
+}
+
+.amount {
+  text-align: right;
+}
+
+.price {
+  text-align: right;
+}
+
+//tbody.pricetable tr:nth-child(0) {
+//  border-top: solid 2px black;
+//}
+//
+//tr.pricetable {
+//  border-bottom: 0;
+//}
