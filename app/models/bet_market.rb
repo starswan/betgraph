@@ -1,0 +1,243 @@
+# frozen_string_literal: true
+
+#
+# $Id$
+#
+class BetMarket < ApplicationRecord
+  # soft delayed background deletes - could cascade and take ages
+  acts_as_paranoid
+  # the 'active' flag is set false either by the market type being inactive (due to it being new)
+  # if runners get deleted then the 'deleted' flag is set
+  # 17-Oct-2015 Betfair started producing blank markettypes for next goalscorer - 2nd and 3rd (and 4th...) goals
+
+  belongs_to :betfair_market_type, inverse_of: :bet_markets, optional: true
+  belongs_to :match, inverse_of: :bet_markets, counter_cache: true
+  has_many :market_runners, inverse_of: :bet_market, dependent: :destroy
+
+  # Our relationships are bet_market -> market_price_time(s) -> market_price(s) -> market_runner(s)
+  # has_many :market_prices, through: :market_price_times
+  # its actually bet_market -> market_runner(s) -> market_price(s)
+  has_many :market_prices, through: :market_runners
+  has_many :trades, through: :market_runners
+
+  CLOSED = "CLOSED"
+  ACTIVE = "ACTIVE"
+  OPEN = "OPEN"
+  SUSPENDED = "SUSPENDED"
+
+  validates :status, inclusion: { in: [CLOSED, ACTIVE, OPEN, SUSPENDED], nil: false }
+
+  validates :marketid, uniqueness: true
+
+  # Yes some of these markets aren't strictly 'Asian Handicap' markets but they behave like it
+  # for pricing purposes i.e. each runner has a 'handicap' value associated with it.
+  # Goals markets are often just the number e.g. 7 goals === handicap 7
+  # no idea whats going on with the shown a card thing though...
+  ASIAN_MARKET_TYPES = %w[A
+                          ASIAN_HANDICAP
+                          TOTAL_GOALS
+                          TEAM_TOTAL_GOALS
+                          ALT_TOTAL_GOALS].freeze
+
+  NO_WINNER_TYPES = %w[ANYTIME_ASSIST
+                       SHOWN_A_CARD
+                       TO_SCORE
+                       TO_SCORE_2_OR_MORE
+                       TO_SCORE_HATTRICK
+                       SHOTS_ON_TARGET_P1
+                       SHOTS_ON_TARGET_P2
+                       SHOTS_ON_TARGET_P3
+                       MATCH_SHOTS
+                       MATCH_SHOTS_TARGET].freeze
+
+  scope :by_active_and_name, -> { order(active: :desc, name: :asc) }
+
+  scope :active, lambda {
+    joins(:match)
+      .includes(:match)
+      .merge(Match.almost_live)
+      .where.not(status: CLOSED)
+      .order("time asc")
+  }
+
+  scope :live, lambda {
+    where(live: true, active: true)
+      .joins(:match)
+      .where.not(status: CLOSED)
+      .merge(Match.live_priced)
+  }
+
+  scope :activelive, lambda {
+    where(live: true, active: true)
+      .joins(:match)
+      .where.not(status: CLOSED)
+      .merge(Match.almost_live)
+      .merge(Match.live_priced)
+      .includes(:match, :market_runners)
+      .order("time asc")
+  }
+
+  scope :closed, -> { where(status: CLOSED) }
+
+  scope :asian_handicap, -> { where(markettype: ASIAN_MARKET_TYPES) }
+
+  scope :half_time, -> { joins(:betfair_market_type).merge(BetfairMarketType.half_time) }
+  scope :full_time, -> { joins(:betfair_market_type).merge(BetfairMarketType.full_time) }
+
+  delegate :half_time?, to: :betfair_market_type
+
+  def sport
+    match.division.calendar.sport
+  end
+
+  def no_winner_count?
+    markettype.in? NO_WINNER_TYPES
+  end
+
+  def asian_handicap?
+    markettype.in? ASIAN_MARKET_TYPES
+  end
+
+  validates :name, :number_of_runners, :marketid, :time, presence: true
+  validates :number_of_winners, presence: { unless: -> { asian_handicap? || no_winner_count? } }
+
+  before_create do |betmarket|
+    betmarket.betfair_market_type = betmarket.find_market_type
+    betmarket.active = betmarket.betfair_market_type.active
+    betmarket.description = betmarket.name
+  end
+
+  before_update do |bm|
+    if bm.active
+      if bm.betfair_market_type.nil? || bm.match.nil? || bm.betfair_market_type.sport != bm.match.division.calendar.sport
+        bm.betfair_market_type = bm.find_market_type
+      end
+    end
+  end
+
+  # This guy needs to collect all the runners price data for the current time
+  # and then invoke the market valuer with market_param, [runner_params] where
+  # runner_params are runner_value(from BetfairRunnerType), backprice, layprice
+  # This would allow e.g. overundergoals to know that it was a 2-runner market and ignore the 2 worst prices of the 4.
+  def expected_value(actualtime)
+    price_time = market_prices.detect { |mp| mp.market_price_time.time >= actualtime }
+    if price_time
+      # Each price implies a value of lambda (expected value of market)
+      rvs = price_time.market_price_time.market_prices.map do |price|
+        runner = price.market_runner
+        { homevalue: runner.betfair_runner_type.runnerhomevalue.to_f,
+          awayvalue: runner.betfair_runner_type.runnerawayvalue.to_f,
+          handicap: runner.handicap.to_f,
+          # TODO: - this should be dependent on an amount, and reflect the prices available.
+          backprice: price.back1price.to_f,
+          layprice: price.lay1price.to_f }
+      end
+      betfair_market_type.expected_value(rvs)
+    else
+      OpenStruct.new(bid: nil, ask: nil)
+    end
+  end
+
+  def market_value(actualtime, homescore, awayscore)
+    total = 0
+    neg_total = 0
+    prob = 0
+    neg_prob = 0
+    implied_prob = 1
+    implied_neg_prob = 1
+    price_time = market_prices.map(&:market_price_time).detect { |mpt| mpt.time >= actualtime }
+    if price_time
+      # Each of market_prices has a runner, backprice and layprice
+      price_time.market_prices.each do |price|
+        # Each price implies a value of lambda (expected value of market)
+        backprice = price.back1price
+        layprice = price.lay1price
+
+        # These 2 lines call expected but do nothing with it :-(
+        # betfair_market_type.expected backprice if backprice
+        # betfair_market_type.expected layprice if layprice
+
+        # runner_value returns 1 if runner would win, 0 if runner is a push and -1 otherwise
+        # possibly scaled e.g. asians can return fractional answers.
+        runner_value = price.market_runner.runner_value homescore, awayscore
+        logger.debug "MP: #{homescore}-#{awayscore} #{price.market_runner.runnername} #{backprice.to_f} #{layprice.to_f} #{runner_value}"
+
+        total += runner_value / backprice if runner_value > 0 && backprice
+        prob += 1 / backprice if backprice
+        implied_prob = total / prob if prob > 0
+
+        neg_total += -runner_value / layprice if runner_value < 0 && layprice
+        neg_prob += 1 / layprice if layprice
+        implied_neg_prob = 1 - neg_total / neg_prob if neg_prob > 0
+      end
+      logger.debug format("VAL: #{name} #{homescore} #{awayscore} IP [%.2f] INP [%.2f] P [%.2f] NP [%.2f]", implied_prob, implied_neg_prob, prob, neg_prob)
+    end
+    # Choose lowest implied probability as it implies best price
+    # probability = [implied_neg_prob,implied_prob].min
+    # probability < 0.001 ? 0 : 1 / probability
+    total > 0 ? total : neg_total
+  end
+
+  def open?
+    status != CLOSED
+  end
+
+  def winners
+    if betfair_market_type.active
+      active_runners = market_runners.reject { |runner| runner.final_runner_value.nil? || runner.final_runner_value < 0 }
+      winners = active_runners[0..number_of_winners - 1]
+    else
+      winners = []
+    end
+    if winners.empty?
+      if match.market_prices.empty?
+        runners = market_runners.order(:sortorder)
+      else
+        runners = market_prices
+                    .sort_by { |p| p.lay1price.present? ? -1 / p.lay1price : (p.back1price.presence || 0) }
+                    .map(&:market_runner).uniq
+      end
+      runners[0..number_of_winners - 1]
+    else
+      winners
+    end
+  end
+
+  def find_market_type
+    # eventdescription = menu_path.name[-1]
+    # vs = eventdescription.index(' v ')
+    marketname = name.dup
+    # if vs != nil
+    #   hometeam, awayteam = eventdescription[0..vs], eventdescription[vs+3..-1]
+    #   marketname.gsub! hometeam, '#{hometeam}'
+    #   marketname.gsub! awayteam, '#{awayteam}'
+    # end
+    if match.teams.count == 2
+      hometeamname = match.hometeam.team_names.map(&:name)
+                          .select { |name| marketname.include?(name) }
+                          .max_by(&:length)
+      awayteamname = match.awayteam.team_names.map(&:name)
+                          .select { |name| marketname.include?(name) }
+                          .max_by(&:length)
+      marketname.gsub! hometeamname, '#{hometeam}' if hometeamname
+      marketname.gsub! awayteamname, '#{awayteam}' if awayteamname
+    end
+    # Do a sequential serial find allowing interpolation to take place
+    interpolatedname = marketname.gsub '\#', "#"
+    # sport.betfair_market_types.each do |markettype|
+    #  if markettype.name == interpolatedname
+    #    bmtype = markettype
+    #    break
+    #  end
+    # end
+    # bmtype = sport.betfair_market_types.find { |markettype| markettype.name == interpolatedname }
+    # #if bmtype.nil?
+    # #  bmtype = sport.betfair_market_types.create! :name => marketname, :valuer => marketname
+    # #end
+    # bmtype ||= sport.betfair_market_types.create! :name => marketname, :valuer => marketname, active: false
+    # bmtype
+    # Need to create market_type inactive to prevent crashes on non-existent valuers
+    sport.betfair_market_types.find { |markettype| markettype.name == interpolatedname } ||
+      sport.betfair_market_types.create!(name: marketname, valuer: marketname, active: false)
+  end
+end
