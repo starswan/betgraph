@@ -1,0 +1,169 @@
+
+---
+matches:
+  - match:
+    - kickoff: '2022-11-20 16:00'
+    - secondhalfoffset: 15
+    - team1: 'Ecuador'
+    - team2: 'Qatar'
+    - team1scorers:
+        - scorer:
+          - name: 'E Valencia'
+          - time: 16
+          - penalty: true
+        - scorer:
+          - name: 'E Valencia'
+          - time: 31
+  - match:
+    - kickoff: '2022-11-21 13:00'
+    - team1: 'England'
+    - team2: 'Iran'
+    - secondhalfoffset: 30
+    - team1scorers:
+        - scorer:
+          - name: 'Bellingham'
+          - time: 35
+        - scorer:
+          - name: 'Saka'
+          - time: 43
+        - scorer:
+          - name: 'Sterling'
+          - time: 45
+          - overtime: 1
+        - scorer:
+          - name: 'Saka'
+          - time: 62
+        - scorer:
+          - name: 'Rashford'
+          - time: 71
+        - scorer:
+          - name: 'Grealish'
+          - time: 89
+    - team2scorers:
+        - scorer:
+          - name: 'Taremi'
+          - time: 65
+        - scorer:
+          - name: 'Taremi'
+          - penalty: true
+          - time: 90
+          - overtime: 13
+  - match:
+      - kickoff: '2022-11-21 16:00'
+      - team1: 'Netherlands'
+      - team2: 'Senegal'
+      - secondhalfoffset: 19
+      - team1scorers:
+          - scorer:
+              - name: 'Gakpo'
+              - time: 84
+          - scorer:
+              - name: 'Klassen'
+              - time: 90
+              - overtime: 9
+      - team2scorers:
+  - match:
+      - kickoff: '2022-11-21 19:00'
+      - team1: 'Wales'
+      - team2: 'U.S.A.'
+      - secondhalfoffset: 19
+      - team1scorers:
+          - scorer:
+              - name: 'Weah'
+              - time: 36
+      - team2scorers:
+          - scorer:
+              - name: 'Bale'
+              - time: 82
+              - penalty: true
+  - match:
+      - kickoff: '2022-11-22 10:00'
+      - team1: 'Argentina'
+      - team2: 'Saudi Arabia'
+      - secondhalfoffset: 25
+      - team1scorers:
+          - scorer:
+              - name: 'Messi'
+              - time: 10
+              - penalty: true
+      - team2scorers:
+          - scorer:
+              - name: 'Al Shehri'
+              - time: 48
+          - scorer:
+              - name: 'Al Dawsari'
+              - time: 53
+  - match:
+      - kickoff: '2022-11-22 13:00'
+      - team1: 'Denmark'
+      - team2: 'Tunisia'
+      - secondhalfoffset: 15
+  - match:
+      - kickoff: '2022-11-22 16:00'
+      - team1: 'Mexico'
+      - team2: 'Poland'
+      - secondhalfoffset: 15
+  - match:
+      - kickoff: '2022-11-22 19:00'
+      - team1: 'France'
+      - team2: 'Australia'
+      - secondhalfoffset: 20
+      - team1scorers:
+          - scorer:
+              - name: 'Rabiot'
+              - time: 27
+          - scorer:
+              - name: 'Giroud'
+              - time: 32
+          - scorer:
+              - name: 'Mbappe'
+              - time: 68
+          - scorer:
+              - name: 'Giroud'
+              - time: 71
+      - team2scorers:
+          - scorer:
+              - name: 'Goodwin'
+              - time: 9
+  - match:
+      - kickoff: '2022-11-23 10:00'
+      - team1: 'Morocco'
+      - team2: 'Croatia'
+      - secondhalfoffset: 17
+  - match:
+      - kickoff: '2022-11-22 13:00'
+      - team1: 'Germany'
+      - team2: 'Japan'
+      - secondhalfoffset: 15
+      - team1scorers:
+          - scorer:
+              - name: 'Gundogan'
+              - time: 33
+              - penalty: true
+      - team2scorers:
+          - scorer:
+              - name: 'Doan'
+              - time: 75
+          - scorer:
+              - name: 'Asano'
+              - time: 83
+  - match:
+      - kickoff: '2022-11-22 16:00'
+      - team1: 'Spain'
+      - team2: 'Costa Rica'
+      - secondhalfoffset: 15
+      - team1scorers:
+          - scorer:
+              - name: 'Olmo'
+              - time: 11
+              - penalty: true
+          - scorer:
+              - name: 'Asensio'
+              - time: 21
+          - scorer:
+              - name: 'Torres'
+              - time: 31
+              - penalty: true
+          - scorer:
+              - name: 'Torres'
+              - time: 54
