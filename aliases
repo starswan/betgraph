@@ -1,0 +1,18 @@
+#
+# $Id$
+#
+alias t='nice rake spec'
+alias n='rspec -n'
+alias f='rspec --only-failures'
+alias ct='COVERAGE=true nice rake spec'
+alias cov='date && COVERAGE=true nice rake spec | fgrep -v Finished | tee -a coverage.txt'
+alias cu='COVERAGE=true nice rake spec:models'
+alias cf='COVERAGE=true nice rake spec:controllers'
+alias mf='nice rake db:forward'
+alias mr='nice rake db:rollback'
+alias s='nice rails s -p 3011 -b localhost'
+alias sn='nice rails s -p 3011 -b 0.0.0.0'
+alias q='rake backburner:simple:work'
+alias cl='clockwork config/clock.rb'
+alias rc='rubycritic app lib'
+alias g='bundle exec guard'
