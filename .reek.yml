@@ -1,0 +1,13 @@
+detectors:
+  # You can disable smells completely
+  IrresponsibleModule:
+    enabled: false
+  TooManyStatements:
+    enabled: true
+    max_statements: 15
+
+directories:
+  # Your other configuration....
+  "app/controllers":
+    InstanceVariableAssumption:
+      enabled: false

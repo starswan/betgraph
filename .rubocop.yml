@@ -1,0 +1,43 @@
+inherit_from: .rubocop_todo.yml
+
+inherit_gem:
+  rubocop-govuk:
+    - config/default.yml
+    - config/rails.yml
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  # Exclude anything that isn't really part of our code.
+  Exclude:
+    - 'node_modules/**/*'
+    - 'db/schema.rb'
+    - 'config/application.rb'
+    - 'config/spring.rb'
+    - 'config/environments/development.rb'
+    - 'bin/*'
+
+# These 2 files cause 'infinite loop detected' with Rubocop 0.87
+Layout/EmptyLinesAroundAccessModifier:
+  Exclude:
+    - 'db/migrate/20140603180320_remove_basket_orphans.rb'
+    - 'spec/models/match_spec.rb'
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+# This is ok in this one case - reading a ZIP file
+Lint/AssignmentInCondition:
+  Exclude:
+    - 'app/jobs/load_football_data_job.rb'
+
+# This is tricky, as it is an Integer enhancement
+RSpec/DescribeClass:
+  Exclude:
+    - 'spec/valuers/factorial_spec.rb'
+
+RSpec/ExampleLength:
+  Max: 10
