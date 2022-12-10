@@ -1,0 +1,89 @@
+#
+# $Id$
+#
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: bfrails_development
+  username: rails
+  password: 123rails!
+  reconnect: true
+  host: localhost
+#  port: 3307
+# using the name rather than the IP address appears to
+# slow everything to a crawl but no idea why.
+  #  host: Stephens-iMac.broadband
+#  host: 192.168.1.7
+
+# Very simple pg - use local unix user for username
+pg:
+  adapter: postgresql
+#  encoding: unicode
+#  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: betgraph
+  username: rails
+  password: 123rails!
+  host: localhost
+
+arthur:
+  adapter: mysql2
+  encoding: utf8
+  socket: /var/run/mysqld/mysqld.sock
+  reconnect: true
+  database: bfrails_development
+  username: rails
+  password: 123rails!
+
+preprod:
+  adapter: mysql2
+  encoding: utf8
+  database: bfrails_preprod
+  username: rails
+  password: 123rails!
+  reconnect: true
+#  socket: /var/run/mysqld/mysqld.sock
+  host: localhost
+  port: 3307
+
+# Warning: The database defined as 'test' will be erased and
+# re-generated from your development database when you run 'rake'.
+# Do not set this db to the same as development or production.
+test:
+  adapter: mysql2
+  encoding: utf8
+  port: 3307
+#  adapter: postgresql
+#  encoding: unicode
+#  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: bfrails_test
+  username: rails
+  password: 123rails!
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: ssarbicity
+  username: starswan
+  password: rabbit
+  socket: /var/run/mysqld/mysqld.sock
+  reconnect: true
+  host: localhost
+
+pi:
+  adapter: mysql2
+  encoding: utf8
+  database: bfrails_development
+  username: rails
+  password: 123rails!
+  reconnect: true
+  host: arthur
+
+ford:
+  adapter: mysql2
+  encoding: utf8
+  database: bfrails_development
+  username: rails
+  password: 123rails!
+  socket: /var/run/mysqld/mysqld.sock
+  reconnect: true

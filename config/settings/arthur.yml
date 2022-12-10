@@ -1,0 +1,9 @@
+#
+# $Id$
+#
+webservice: localhost:3015
+sitesurl: sites.starswan.com
+dirdepth: 3
+makeMarketsInterval: 600
+# 5 minute cache timeout
+allMarketsCacheTimeout: 300

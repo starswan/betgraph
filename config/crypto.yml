@@ -1,0 +1,30 @@
+#
+# $Id$
+#
+development:
+  master_key: fruitbat
+  salt: utf8
+
+test:
+  master_key: fruitbat
+  salt: utf8
+
+production:
+  master_key: fruitbat
+  salt: utf8
+
+arthur:
+  master_key: fruitbat
+  salt: utf8
+
+ford:
+  master_key: fruitbat
+  salt: utf8
+
+pi:
+  master_key: fruitbat
+  salt: utf8
+
+pg:
+  master_key: fruitbat
+  salt: utf8

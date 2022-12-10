@@ -1,0 +1,5 @@
+#
+# $Id$
+#
+webservice: webservice.local
+allMarketsCacheTimeout: 0

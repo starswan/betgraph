@@ -1,0 +1,8 @@
+#
+# $Id$
+#
+sitesurl: localhost:3000
+webservice: localhost:3011
+dirdepth: 1
+makeMarketsInterval: 375
+allMarketsCacheTimeout: 3600
