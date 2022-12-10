@@ -1,0 +1,53 @@
+<!-- $Id$ -->
+<h4><%= h @betfair_market_type.sport.name %>
+Betfair Market Type: <%=h @betfair_market_type.name %></h4>
+
+<%= form_for [@sport,@betfair_market_type] do |f| %>
+  <%= render "shared/error_messages", :target => @betfair_market_type %>
+    <p>
+       <b>Active</b>
+       <%= f.check_box :active %>
+    </p>
+
+    <p>
+       <b>Valuer</b>
+       <%= f.text_field :valuer %>
+    </p>
+
+    <p>
+       <b>Param 1</b>
+       <%= f.text_field :param1 %>
+    </p>
+
+   <table class="table">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>HomeValue</th>
+      <th>AwayValue</th>
+      <th>Runners</th>
+      <th colspan="2">Actions</th>
+   </tr>
+      <% @betfair_market_type.betfair_runner_types.each do |brt| %>
+         <tr>
+            <td><%= h brt.name %></td>
+            <td><%= h brt.runnertype %></td>
+            <td align="right"><%= brt.runnerhomevalue %></td>
+            <td align="right"><%= brt.runnerawayvalue %></td>
+            <td align="right"><%= brt.market_runners.count %></td>
+            <td><%= link_to 'Edit', edit_betfair_market_type_betfair_runner_type_path(@betfair_market_type, brt), class: 'btn btn-sm btn-outline-primary' %></td>
+            <td>
+              <%= link_to 'Delete', betfair_market_type_betfair_runner_type_path(@betfair_market_type, brt),
+                          :data => { :confirm => "Are you sure you want to delete #{brt.name}?" },
+                          :method => :delete, :class => 'btn btn-sm btn-outline-danger' %>
+            </td>
+         </tr>
+      <% end %>
+   </table>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @betfair_market_type %> |
+<%= link_to 'Back', sport_betfair_market_types_path(@sport) %>

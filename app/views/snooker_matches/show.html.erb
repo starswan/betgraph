@@ -1,0 +1,23 @@
+<!-- $Id$ -->
+<p>
+  <b>Division:</b>
+  <%=h @snooker_match.division_id %>
+</p>
+
+<p>
+  <b>Hometeam:</b>
+  <%=h @snooker_match.hometeam %>
+</p>
+
+<p>
+  <b>Awayteam:</b>
+  <%=h @snooker_match.awayteam %>
+</p>
+
+<p>
+  <b>Kickofftime:</b>
+  <%=h @snooker_match.kickofftime %>
+</p>
+
+<%= link_to 'Edit', edit_match_path(@snooker_match) %> |
+<%= link_to 'Back', matches_path %>

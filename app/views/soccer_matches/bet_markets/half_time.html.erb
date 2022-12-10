@@ -1,0 +1,13 @@
+<!-- $Id$ -->
+<%= render 'shared' %>
+<div class="page-header">
+  <b>
+    <%= link_to @match.division.name, division_matches_path(@match.division) %>
+    <%= link_to @match.name, @match %>
+    <%= @match.kickofftime.to_s(:kickoff).html_safe %>
+  </b>
+  <%= format_result(@match) %>
+  <%= link_to 'Full Time', soccer_match_bet_markets_path(@match) %>
+  (<%= link_to 'Baskets', match_baskets_path(@match) %>)
+</div>
+<%= render 'market_list', model_class: BetMarket %>

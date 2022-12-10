@@ -1,0 +1,32 @@
+<!-- $Id$ -->
+<h4>
+  Basket
+  <%= link_to @basket.match.name, match_baskets_path(@basket.match) %>
+  <%= link_to @basket.basket_rule.name, basket_rule_basket_rule_items_path(@basket.basket_rule) %>
+</h4>
+
+<table border="0" class="table table-striped">
+  <tr>
+    <th>Market</th>
+    <th>Runner</th>
+    <th>Weight</th>
+    <th colspan="2">Actions</th>
+  </tr>
+
+<% @basket.basket_items.each do |basket_item| %>
+  <% runner = basket_item.market_runner %>
+  <% item_desc = "#{runner.bet_market.name} [#{runner.description}]" %>
+  <tr>
+    <td><%= runner.bet_market.name %></td>
+    <td><%= runner.description %></td>
+    <td align="right" width="20"><%= basket_item.weighting %></td>
+    <td><%= link_to 'Edit', edit_basket_basket_item_path(@basket, basket_item), :class => 'btn btn-sm btn-outline-primary' %></td>
+    <td><%= link_to 'Remove', [@basket, basket_item], :data => { :confirm => "Are you sure you wish to remove #{item_desc}?" },
+                    :method => :delete, :class => 'btn btn-sm btn-outline-danger' %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Add', new_basket_basket_item_path(@basket), :class => 'btn btn-primary' %>

@@ -1,0 +1,24 @@
+<!-- football_divisions/$Id$ -->
+<h4>Create Football Division</h4>
+
+<%= form_for(@football_division) do |f| %>
+  <%= render "shared/error_messages", :target => @football_division %>
+
+  <p>
+    <%= f.label :division_id %><br />
+    <%= collection_select(:division, :division_id, @divisions, :id, :name) %>
+  </p>
+  <p>
+    <%= f.label :football_data_code %><br />
+    <%= f.text_field :football_data_code %>
+  </p>
+  <p>
+    <%= f.label :menu_path_id %><br />
+    <%= collection_select(:menu_path, :menu_path_id, @menu_paths, :id, :lastname) %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', football_divisions_path %>

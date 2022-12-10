@@ -1,0 +1,21 @@
+<!-- $Id$ -->
+<b>Football Divisions</b>&nbsp;<%= link_to('New', new_football_division_path) if FootballDivision.count < Division.count %>
+<table class="table table-striped table-responsive">
+  <tr>
+    <th>Division</th>
+    <th>Data Code</th>
+    <th colspan="2">Actions</th>
+  </tr>
+
+<% for football_division in @football_divisions %>
+  <tr>
+    <td><%= link_to football_division.division.name, division_matches_path(football_division.division) %></td>
+    <td><%= football_division.football_data_code %></td>
+    <td><%= link_to 'Edit', edit_football_division_path(football_division), :class => 'btn btn-sm btn-outline-primary' %></td>
+    <td><%= link_to 'Delete', football_division,
+                    :data => { :confirm => "Are you sure you wish to delete #{football_division.division.name}?" },
+                    :method => :delete,
+                    :class => 'btn btn-sm btn-outline-danger' %></td>
+  </tr>
+<% end %>
+</table>

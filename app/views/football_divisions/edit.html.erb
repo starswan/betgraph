@@ -1,0 +1,17 @@
+<!-- $Id$ -->
+<h4>Editing football_division <%=h @football_division.division.name %></h4>
+
+<% form_for(@football_division) do |f| %>
+  <%= render "shared/error_messages", :target => @football_division %>
+
+  <p>
+    <%= f.label :football_data_code %><br />
+    <%= f.text_field :football_data_code %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @football_division %> |
+<%= link_to 'Back', football_divisions_path %>

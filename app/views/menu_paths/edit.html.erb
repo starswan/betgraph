@@ -1,0 +1,37 @@
+<!-- app/views/menu_paths/$Id$ -->
+<b>Editing <%= @menu_path.name.inspect %></b>
+
+<div class="form-group">
+
+<%= form_for(@menu_path) do |f| %>
+  <%= render "shared/error_messages", :target => @menu_path %>
+    <div class="form-group-row">
+      <div class="form-check form-check-inline">
+        <%= f.check_box :active, class: 'form-check-input' %>
+        <%= f.label :active, class: 'form-check-label' %>
+      </div>
+      <div class="form-check form-check-inline">
+        <%= f.check_box :activeChildren, class: 'form-check-input' %>
+        <%= f.label :activeChildren, class: 'form-check-label' %>
+      </div>
+      <div class="form-check form-check-inline">
+        <%= f.check_box :activeGrandChildren, class: 'form-check-input' %>
+        <%= f.label :activeGrandChildren, class: 'form-check-label' %>
+      </div>
+    </div>
+    <div class="form-group-row">
+      <div class="col-sm-1">
+        <%= f.label :depth, class: 'col-form-label col-form-label-sm' %>
+        <%= f.select :depth, 0.upto(20).to_a, {}, class: 'form-control form-control-sm' %>
+      </div>
+      <div class="col-sm-2">
+        <%= f.label :division, class: 'col-form-label col-form-label-sm' %>
+        <%= f.collection_select :division_id, @divisions, :id, :name, include_blank: '---', class: 'form-control form-control-sm' %>
+      </div>
+    </div>
+    <%= f.submit 'Update', class: 'btn-primary' %>
+<% end %>
+
+</div>
+
+<%= link_to 'Show', @menu_path %>

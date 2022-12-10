@@ -1,0 +1,27 @@
+<!-- $Id$ -->
+<h1>Editing Football Season</h1>
+
+<%= render 'shared' %>
+
+<%= form_for(@season) do |f| %>
+  <%= render "shared/error_messages", :target => @season %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :online %><br />
+    <%= f.check_box :online %>
+  </p>
+  <p>
+    <%= f.label :startdate %><br />
+    <%= f.date_select :startdate %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @season %> |
+<%= link_to 'Back', seasons_path %>

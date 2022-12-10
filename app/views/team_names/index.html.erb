@@ -1,0 +1,22 @@
+<h1>Listing team_names</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Team</th>
+  </tr>
+
+<% @team_names.each do |team_name| %>
+  <tr>
+    <td><%=h team_name.name %></td>
+    <td><%=h team_name.team_id %></td>
+    <td><%= link_to 'Show', team_name %></td>
+    <td><%= link_to 'Edit', edit_team_name_path(team_name) %></td>
+    <td><%= link_to 'Destroy', team_name, :data => { :confirm => "Are you sure you wish to delete #{team_name.name}?" }, :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New team_name', new_team_name_path %>

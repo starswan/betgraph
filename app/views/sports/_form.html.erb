@@ -1,0 +1,24 @@
+<!-- $Id$ -->
+<% content_for :menu do %>
+  <%= render 'layouts/shared/active_future_links' %>
+<% end %>
+<%= form_for @sport, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :expiry_time_in_minutes, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :expiry_time_in_minutes, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :active, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :active, :class => 'check_box' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                sports_path, :class => 'btn' %>
+  </div>
+<% end %>

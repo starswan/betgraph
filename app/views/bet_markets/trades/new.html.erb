@@ -1,0 +1,7 @@
+<%- model_class = Trade -%>
+<div class="page-header">
+  <h4><%=t '.title', :default => t('helpers.titles.new', :model => model_class.model_name.human,
+                                 :default => "New #{model_class.model_name.human}") %>
+      for <%= @market_runner.bet_market.betfair_event.match.description %> <%= @market_runner.bet_market.betfair_event.match.kickofftime.to_s(:kickoff).html_safe %> <%= @market_runner.bet_market.name %> <%= @market_runner.description %></h4>
+</div>
+<%= render :partial => 'form' %>

@@ -1,0 +1,47 @@
+<%- model_class = MarketPrice -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:market_runner_id) %>:</strong></dt>
+  <dd><%= @market_price.market_runner_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:back1price) %>:</strong></dt>
+  <dd><%= @market_price.back1price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:lay1price) %>:</strong></dt>
+  <dd><%= @market_price.lay1price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:back2price) %>:</strong></dt>
+  <dd><%= @market_price.back2price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:lay2price) %>:</strong></dt>
+  <dd><%= @market_price.lay2price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:back3price) %>:</strong></dt>
+  <dd><%= @market_price.back3price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:lay3price) %>:</strong></dt>
+  <dd><%= @market_price.lay3price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:back1amount) %>:</strong></dt>
+  <dd><%= @market_price.back1amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:lay1amount) %>:</strong></dt>
+  <dd><%= @market_price.lay1amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:back2amount) %>:</strong></dt>
+  <dd><%= @market_price.back2amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:lay2amount) %>:</strong></dt>
+  <dd><%= @market_price.lay2amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:back3amount) %>:</strong></dt>
+  <dd><%= @market_price.back3amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:lay3amount) %>:</strong></dt>
+  <dd><%= @market_price.lay3amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:market_price_time_id) %>:</strong></dt>
+  <dd><%= @market_price.market_price_time_id %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              market_prices_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_market_price_path(@market_price), :class => 'btn btn-sm btn-outline-primary' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              market_price_path(@market_price),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-sm btn-outline-danger' %>
+</div>

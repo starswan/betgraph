@@ -1,0 +1,44 @@
+<!-- $Id$ -->
+<%= render 'division' %>
+<%- model_class = Division -%>
+<div class="page-header">
+  <b><%= @sport.name %> <%=t '.title', :default => model_class.model_name.human.pluralize %></b>
+</div>
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:name) %></th>
+      <th><%= model_class.human_attribute_name(:calendar) %></th>
+      <th><%= model_class.human_attribute_name(:odds) %></th>
+      <th><%= model_class.human_attribute_name(:active) %></th>
+      <th><%= model_class.human_attribute_name(:matches) %></th>
+      <th><%= model_class.human_attribute_name(:scottish) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @divisions.each do |division| %>
+      <tr>
+        <td><%= link_to division.name, division_matches_path(division) %></td>
+        <td><%= division.calendar.name %></td>
+        <td><%= division.odds_numerator %>/<%= division.odds_denominator %></td>
+        <td><%= division.active ? 'Y' : 'N' %></td>
+        <td><%= division.matches.count %></td>
+        <td><%= division.scottish ? 'Y' : 'N' %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_sport_division_path(@sport, division), :class => 'btn btn-sm btn-outline-primary' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      sport_division_path(@sport, division),
+                      :method => :delete,
+                      :data => {:confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to delete division #{division.name}?"))},
+                      :class => 'btn btn-sm btn-outline-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_sport_division_path(@sport),
+            :class => 'btn btn-primary' %>

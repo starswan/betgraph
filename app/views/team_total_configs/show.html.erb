@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @team_total_config.name %>
+</p>
+
+<p>
+  <b>Count:</b>
+  <%=h @team_total_config.count %>
+</p>
+
+<p>
+  <b>Threshold:</b>
+  <%=h @team_total_config.threshold %>
+</p>
+
+
+<%= link_to 'Edit', edit_team_total_config_path(@team_total_config) %> |
+<%= link_to 'Back', team_total_configs_path %>

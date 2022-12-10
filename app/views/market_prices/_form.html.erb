@@ -1,0 +1,92 @@
+<%= form_for @market_price, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :market_runner_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :market_runner_id, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :back1price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :back1price, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :lay1price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :lay1price, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :back2price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :back2price, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :lay2price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :lay2price, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :back3price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :back3price, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :lay3price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :lay3price, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :back1amount, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :back1amount, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :lay1amount, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :lay1amount, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :back2amount, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :back2amount, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :lay2amount, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :lay2amount, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :back3amount, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :back3amount, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :lay3amount, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :lay3amount, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :market_price_time_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :market_price_time_id, :class => 'number_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                market_prices_path, :class => 'btn' %>
+  </div>
+<% end %>

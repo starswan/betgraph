@@ -1,0 +1,79 @@
+<!-- $Id$ -->
+<!--<%= link_to 'Edit', edit_bet_market_path(@bet_market) %>-->
+<h1>
+  <%= link_to @bet_market.event.description, '/events/show/' + @bet_market.event_id.to_s %>
+</h1>
+
+<%= @bet_market.event.starttime %>
+
+<p>
+  <h2><%=h @bet_market.name %></h2>
+
+  <b>Marketid:</b>
+  <%=h @bet_market.marketid %>
+
+  <b>Type:</b>
+  <%=h @bet_market.markettype %>
+
+  <b>Status:</b>
+  <%=h @bet_market.status %>
+</p>
+
+<!--table>
+  <tr><th>Runners:</th><th>Prices</th><tr/>
+  <% @bet_market.market_runners.each do |runner| %>
+  <tr>
+  <td><%=   link_to runner.runnername, runner %></td>
+  <td align="right"><%=   runner.market_prices.size %></td>
+  <% end %>
+  </tr>
+</table-->
+
+<p><%= h @market_prices[0].time %></p>
+<%= form_for @bet_market, :url => { :id => @bet_market.id, :action => "createprices" } do |f| %>
+   <table border="0">
+      <tr>
+          <th>Runner</th>
+          <th>B3</th>
+          <th>B2</th>
+          <th>B1</th>
+          <th>L1</th>
+          <th>L2</th>
+          <th>L3</th>
+        </tr>
+        <% @market_prices.each do |price| %>
+         <% runnerid = price.market_runner.id %>
+         <%= hidden_field_tag 'back3price[' + runnerid.to_s + ']', price.back3price %>
+         <%= hidden_field_tag 'back2price[' + runnerid.to_s + ']', price.back2price %>
+         <%= hidden_field_tag 'back1price[' + runnerid.to_s + ']', price.back1price %>
+         <%= hidden_field_tag 'lay1price[' + runnerid.to_s + ']', price.lay1price %>
+         <%= hidden_field_tag 'lay2price[' + runnerid.to_s + ']', price.lay2price %>
+         <%= hidden_field_tag 'lay3price[' + runnerid.to_s + ']', price.lay3price %>
+         <%= hidden_field_tag 'time', price.time %>
+           <tr>
+              <td rowspan="2"><%= h price.market_runner.runnername %></td>
+              <td class="price"><%= h price.back3price %></td>
+              <td class="price"><%= h price.back2price %></td>
+              <td class="backprice"><%= h price.back1price %></td>
+              <td class="layprice"><%= h price.lay1price %></td>
+              <td class="price"><%= h price.lay2price %></td>
+              <td class="price"><%= h price.lay3price %></td>
+           </tr>
+         <%= hidden_field_tag 'back3amount[' + runnerid.to_s + ']', price.back3amount %>
+         <%= hidden_field_tag 'back2amount[' + runnerid.to_s + ']', price.back2amount %>
+         <%= hidden_field_tag 'back1amount[' + runnerid.to_s + ']', price.back1amount %>
+         <%= hidden_field_tag 'lay1amount[' + runnerid.to_s + ']', price.lay1amount %>
+         <%= hidden_field_tag 'lay2amount[' + runnerid.to_s + ']', price.lay2amount %>
+         <%= hidden_field_tag 'lay3amount[' + runnerid.to_s + ']', price.lay3amount %>
+           <tr>
+              <td class="amount"><%= displayAmount price.back3amount %></td>
+              <td class="amount"><%= displayAmount price.back2amount %></td>
+              <td class="backamount"><%= displayAmount price.back1amount %></td>
+              <td class="layamount"><%= displayAmount price.lay1amount %></td>
+              <td class="amount"><%= displayAmount price.lay2amount %></td>
+              <td class="amount"><%= displayAmount price.lay3amount %></td>
+           </tr>
+        <% end %>
+   </table>
+   <p><%= f.submit 'Apply' %></p>
+<% end %>

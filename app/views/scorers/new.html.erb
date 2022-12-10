@@ -1,0 +1,27 @@
+<h4>New scorer for <%= description(@match) %></h4>
+
+<%= form_for([@match,@scorer]) do |f| %>
+  <%= render "shared/error_messages", :target => @scorer %>
+
+  <p>
+    <%= f.label :team_id %>
+    <%= f.collection_select :team_id, [@match.hometeam, @match.awayteam], :id, :name %>
+  </p>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :goaltime %>
+    <%= f.text_field :goaltime %>
+    <%= f.label :penalty %>
+    <%= f.check_box :penalty %>
+    <%= f.label :owngoal %>
+    <%= f.check_box :owngoal %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', match_scorers_path(@match) %>

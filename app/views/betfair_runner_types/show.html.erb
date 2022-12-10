@@ -1,0 +1,21 @@
+<!-- betfair_runner_types $Id$ -->
+
+<%= link_to 'Runner Types', betfair_market_type_betfair_runner_types_path(@betfair_market_type) %> |
+<%= link_to 'Edit', edit_betfair_market_type_betfair_runner_type_path(@betfair_market_type,@betfair_runner_type) %>
+<!-- %= #link_to 'Runners', betfair_runner_type_market_runners_path(@betfair_market_type) %-->
+<p>
+  <b>Name:</b>
+  <%=h @betfair_runner_type.name %>
+</p>
+<p>
+  <b>Type:</b>
+  <%=h @betfair_runner_type.runnertype %>
+</p>
+<p>
+  <b>Homevalue:</b>
+  <%=h @betfair_runner_type.runnerhomevalue %>
+</p>
+<p>
+  <b>Awayvalue:</b>
+  <%=h @betfair_runner_type.runnerawayvalue %>
+</p>

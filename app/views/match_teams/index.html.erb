@@ -1,0 +1,29 @@
+<!-- $Id$ -->
+<%- model_class = Team -%>
+<div class="page-header">
+  <h4><%= link_to @match.name, @match %> <%=t '.title', :default => model_class.model_name.human.pluralize %></h4>
+</div>
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:name) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @teams.each do |team| %>
+      <tr>
+        <td><%= team.teamname %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_match_match_team_path(@match, team), :class => 'btn btn-sm btn-outline-primary' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      match_match_team_path(@match, team),
+                      :method => :delete,
+                      :data => {:confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to remove team #{team.teamname}?"))},
+                      :class => 'btn btn-sm btn-outline-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

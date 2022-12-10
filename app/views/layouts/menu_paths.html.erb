@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <%= render 'layouts/shared/header' %>
+  <title>MenuPaths: <%= controller.action_name %></title>
+</head>
+<body>
+<ul class="nav">
+  <li class="nav-item">
+    <%= link_to 'Sports', sports_path, class: 'nav-link active' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Divisions', sport_divisions_path(@sport), class: 'nav-link active' %>
+  </li>
+  <%= render 'layouts/shared/active_future_links' %>
+  <%= render 'layouts/shared/active_sports_links' %>
+</ul>
+<div class="container-fluid">
+   <%= yield %>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>FootballSeasons: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'application', :media => 'all' %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-2">
+        <%= link_join raw_links_for(:football_divisions, :seasons).concat([menu_item(link_to('soccer Teams', sport_teams_path(@soccer)))]) %>
+      </div>
+      <div class="col-xs-10">
+        <p style="color: green"><%= notice %></p>
+          <%= yield %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

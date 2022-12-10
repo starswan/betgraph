@@ -1,0 +1,21 @@
+<% content_for :title  do %>
+  Divisions: <%= controller.action_name %>
+<% end %>
+<% content_for :menu do %>
+  <li class="nav-item">
+    <%= link_to @sport.name, @sport, class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Menu Paths', sport_menu_paths_path(@sport),class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Market Types', sport_betfair_market_types_path(@sport),class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Basket Rules', sport_basket_rules_path(@sport),class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Divisions', sport_divisions_path(@sport),class: 'nav-link' %>
+  </li>
+  <%= render 'layouts/shared/active_future_links' %>
+<% end %>

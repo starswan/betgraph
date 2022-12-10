@@ -1,0 +1,27 @@
+<%- model_class = Trade -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:market_runner_id) %>:</strong></dt>
+  <dd><%= @trade.market_runner_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:price) %>:</strong></dt>
+  <dd><%= @trade.price %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:quantity) %>:</strong></dt>
+  <dd><%= @trade.quantity %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:side) %>:</strong></dt>
+  <dd><%= @trade.side %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.runner', :default => t("helpers.links.runner")),
+              market_runner_trades_path(@market_runner), :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_market_runner_trade_path(@market_runner, @trade), :class => 'btn btn-sm btn-outline-primary' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              market_runner_trade_path(@market_runner, @trade),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to delete #{@trade.side} #{@trade.quantity} #{@trade.price} ?")) },
+              :class => 'btn btn-sm btn-outline-danger' %>
+</div>

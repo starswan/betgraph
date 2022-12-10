@@ -1,0 +1,50 @@
+<!-- $Id$ -->
+<%- model_class = MarketPriceTime -%>
+<div class="page-header">
+  <b>
+  <%= link_to @bet_market.match.division.sport.name, @bet_market.match.division.sport %> / 
+  <%= thedate @bet_market.match.kickofftime %>
+  <%= thetime @bet_market.match.kickofftime %>
+  <%= link_to @bet_market.match.name, match_bet_markets_path(@bet_market.match) %> 
+  / <%= @bet_market.name %>&nbsp;<select><option>2</option><option>5</option><option>10</option></select>
+  </b>
+</div>
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:time) %></th>
+      <% @bet_market.market_runners.each do |runner| %>
+        <th><%= runner.runnername %></th>
+      <% end %>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @market_price_times.each do |mpt| %>
+      <tr>
+        <td><%= pricetime mpt.time %></td>
+        <% @bet_market.market_runners.each do |runner| %>
+          <% price = mpt.market_prices.find { |mp| mp.market_runner_id == runner.id } %>
+          <td>
+            <table><tr><td class="backprice"><%= price.back1price if price %></td>
+                         <td class="amount"><%= amount price.back1amount if price %></td></tr>
+                     <tr><td class="layprice"><%= price.lay1price if price %></td>
+                         <td class="amount"><%= amount price.lay1amount if price %></td></tr></table>
+          </td>
+        <% end %>
+        <td>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      bet_market_market_price_time_path(@bet_market, mpt),
+                      :method => :delete,
+                      :remote => true,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to delete #{l(mpt.created_at)}?")) },
+                      :class => 'delete-market-price-time btn btn-sm btn-outline-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_bet_market_market_price_time_path(@bet_market),
+            :class => 'btn btn-primary' %>

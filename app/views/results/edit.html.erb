@@ -1,0 +1,20 @@
+<h1>Editing result</h1>
+
+<% form_for(@result) do |f| %>
+  <%= render "shared/error_messages", :target => @result %>
+
+  <p>
+    <%= f.label :homescore %><br />
+    <%= f.text_field :homescore %>
+  </p>
+  <p>
+    <%= f.label :awayscore %><br />
+    <%= f.text_field :awayscore %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @result %> |
+<%= link_to 'Back', results_path %>

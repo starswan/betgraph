@@ -1,0 +1,28 @@
+<!-- app/views/menu_path/$Id$ -->
+<% if @menu_path.parent_path %>
+<p>
+  <% if @menu_path.parent_path.name.size > 0 %>
+  <%= link_to @menu_path.parent_path.name[-1], @menu_path.parent_path %>
+  <% end %>
+</p>
+<% end %>
+<% if @menu_path.active %>
+<b><%= path_description @menu_path %></b>
+<% else %>
+<%= path_description @menu_path %>
+<% end %>
+&nbsp;
+(<%=h @menu_path.depth %>)
+<%= link_to 'Edit', edit_menu_path_path(@menu_path) %>
+<%= link_to('Delete', @menu_path, :method => :delete, :data => { :confirm => "Are you sure that you want to delete #{@menu_path.name[-1]} ?" }) if @menu_path.name.size > 0 %>
+<br/>
+<table class="table table-bordered table-sm">
+<% @menu_path.menu_paths.sort_by { |mp| mp.name[-1] }.in_groups_of(7).each do |mp_group| %>
+    <tr>
+      <% mp_group.compact.each do |mp| %>
+        <td><%= link_to "#{mp.name.last}(#{mp.depth})", mp %></td>
+      <% end %>
+    </tr>
+<% end %>
+</table>
+

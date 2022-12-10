@@ -1,0 +1,56 @@
+<%= form_for @market_runner, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :bet_market_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :bet_market_id, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :selectionId, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :selectionId, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :description, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :handicap, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :handicap, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :asianLineId, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :asianLineId, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :sortorder, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :sortorder, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :market_prices_count, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :market_prices_count, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :betfair_runner_type_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :betfair_runner_type_id, :class => 'number_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                market_runners_path, :class => 'btn' %>
+  </div>
+<% end %>

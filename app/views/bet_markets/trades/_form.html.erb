@@ -1,0 +1,27 @@
+<%= form_for [@market_runner, @trade], :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :price, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.select :price, valid_prices %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :quantity, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.select :quantity, valid_bet_sizes %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :side, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.select :side, ['B','L'].collect { |x| [x, x] }, :class => 'text_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                market_runner_trades_path(@market_runner), :class => 'btn' %>
+  </div>
+<% end %>

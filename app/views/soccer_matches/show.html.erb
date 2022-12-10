@@ -1,0 +1,86 @@
+<!-- soccer_matches/$Id$ -->
+<% homescore = @soccer_match.homegoals @matchtime %>
+<% awayscore = @soccer_match.awaygoals @matchtime %>
+<% diffs = [[0,0,1],[1,0,1],[0,1,1],[2,0,1],[1,1,1],[0,2,1],[3,0,1],[2,1,1],[1,2,1],[0,3,1]] %>
+<% matchtime = @soccer_match.actual_match_time(@matchtime) %>
+<div class="row">
+  <div class="col-xs-2">
+    <%= link_to @prev_football_match.name, soccer_match_path(@prev_football_match, order: @order, offset: @offset - 1) if @prev_football_match %>
+  </div>
+  <div class="col-xs-8">
+    <%= link_to @soccer_match.division.name, division_soccer_matches_path(@division) %>
+      <%= link_to @soccer_match.name, polymorphic_url([@soccer_match, :bet_markets]) %>
+      <%= @soccer_match.kickofftime.to_s(:kickoff).html_safe %>
+      <% if @soccer_match.result %>
+        <%= format_result(@soccer_match) %>
+      <% end %>
+      <%= link_to '[' + @soccer_match.homescorercount.to_s + '-' + @soccer_match.awayscorercount.to_s + ']', match_scorers_path(@soccer_match) %>
+      <%= '(L)' if @soccer_match.live_priced %>
+    <%= link_to 'Edit', edit_division_soccer_match_path(@division, @soccer_match) %>
+  </div>
+  <div class="col-xs-2">
+    <%= link_to @next_football_match.name, soccer_match_path(@next_football_match, order: @order, offset: @offset + 1) if @next_football_match %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-2">
+    <%= link_to '<<', {offset: @offset, :matchtime => @matchtime - 10, order: @order } %>
+    &nbsp;
+    <%= link_to '<', {offset: @offset, :matchtime => @matchtime - 1, order: @order } %>
+  </div>
+  <div class="col-xs-8" align="center">
+    <%= @matchtime %> Mins (<%= homescore %> - <%= awayscore %>)
+  </div>
+  <div class="col-xs-2">
+    <%= link_to '>', {:offset => @offset, matchtime: @matchtime + 1, order: @order } %>
+    &nbsp;
+    <%= link_to '>>', {offset: @offset, :matchtime => @matchtime + 10, order: @order } %>
+  </div>
+</div>
+<table class="table table-striped table-responsive">
+  <tr>
+<!--    <th>Type</th>-->
+    <td align="center"><b>Market</b></td>
+    <td align="center"><b>Rs/Ps</b></td>
+    <th colspan="1" align="center">Expected</th>
+    <% diffs.each do |d| %>
+      <td align="center"><b>H<%= d[0] -%>A<%= d[1] -%></b></td>
+    <% end %>
+  </tr>
+  <% @soccer_match.bet_markets.select { |x| x.live && x.betfair_market_type.active }.sort_by(&:name).each do |bm| -%>
+  <tr>
+<!--    <td>-->
+      <%#= link_to bm.markettype, bm.betfair_market_type %>
+<!--    </td>-->
+    <td>
+      <%= link_to bm.name, bm %>
+    </td>
+    <td align="center">
+      <%= h bm.market_runners.size %> / <%= h bm.market_prices_count -%>
+    </td>
+    <% expected = bm.expected_value(matchtime) %>
+    <td align="center">
+      <% if expected.bid && expected.ask %>
+        <%= expected.bid&.round(3) %>/<%= expected.ask&.round(3) %>
+      <% end %>
+    </td>
+    <% diffs.each do |diff| %>
+      <% probability = bm.market_value matchtime, homescore + diff[0], awayscore + diff[1] %>
+      <% diff[2] = [diff[2], probability].min if probability > 0 %>
+      <td align="right">
+        <% unless probability == 0 %>
+         <%= "%.2f" % (1 / probability)  %>
+        <% end %>
+      </td>
+    <% end %>
+  </tr>
+  <% end %>
+  <tr>
+    <td colspan="4">&nbsp;</td>
+    <% diffs.each do |diff| %>
+      <td align="right">
+         <%= "%.2f" % (diff[2] == 1 ? 0 : 1 / diff[2]) -%>
+      </td>
+    <% end %>
+  </tr>
+</table>

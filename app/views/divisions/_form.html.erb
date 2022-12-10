@@ -1,0 +1,39 @@
+<!-- $Id$ -->
+<%= form_for [@sport, @division], :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :calendar, class: "control-label" %>
+    <div class="controls">
+      <%= f.collection_select :calendar_id, @calendars, :id, :name_with_sport %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :odds_numerator, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.select :odds_numerator, 1.upto(50).collect { |n| [n.to_s, n.to_s] }, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :odds_denominator, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.select :odds_denominator, 1.upto(8).collect { |n| [n.to_s, n.to_s] }, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :active, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :active, :class => 'check_box' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                sport_divisions_path(@sport), :class => 'btn' %>
+  </div>
+<% end %>

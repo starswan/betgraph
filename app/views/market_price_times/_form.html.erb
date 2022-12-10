@@ -1,0 +1,21 @@
+<!-- $Id$ -->
+<%= form_for [@bet_market, @market_price_time], :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :bet_market_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :bet_market_id, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :time, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :time, :class => 'datetime_select' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                bet_market_market_price_times_path(@bet_market), :class => 'btn' %>
+  </div>
+<% end %>

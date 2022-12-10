@@ -1,0 +1,37 @@
+<!-- $Id$ -->
+
+Betfair Runner Types for
+<b><%= @betfair_market_type.name %></b>
+<i><%= @betfair_market_type.valuer %></i>
+(<%= @betfair_market_type.sport.name %>)
+<%= link_to 'Edit', edit_sport_betfair_market_type_path(@betfair_market_type.sport,@betfair_market_type) %>
+
+<table class="table table-striped table-responsive">
+  <tr>
+    <th><%= link_to 'Name', sort_by: :name %></th>
+    <th>Type</th>
+    <th>Home</th>
+    <th>Away</th>
+    <th>Count</th>
+    <th><%= link_to 'Updated', sort_by: :updated_at %></th>
+    <th colspan="2">&nbsp;</th>
+  </tr>
+
+<% for betfair_runner_type in @betfair_runner_types %>
+  <tr>
+    <td><%= link_to betfair_runner_type.name, [betfair_runner_type.betfair_market_type, betfair_runner_type] %></td>
+    <td><%=h betfair_runner_type.runnertype %></td>
+    <td><%=h betfair_runner_type.runnerhomevalue %></td>
+    <td><%=h betfair_runner_type.runnerawayvalue %></td>
+    <td><%=h betfair_runner_type.market_runners.count %></td>
+    <td><%=l betfair_runner_type.updated_at %></td>
+    <td><%= link_to 'Edit', edit_betfair_market_type_betfair_runner_type_path(betfair_runner_type.betfair_market_type,betfair_runner_type),
+                    :class => 'btn btn-sm btn-outline-primary' %></td>
+    <td><%= link_to 'Delete', 
+                    [betfair_runner_type.betfair_market_type, betfair_runner_type], 
+                    :data => { :confirm => "Are you sure you want to delete #{betfair_runner_type.name}?" }, 
+                    :method => :delete,
+                    :class => 'delete-event btn btn-sm btn-outline-danger'%></td>
+  </tr>
+<% end %>
+</table>

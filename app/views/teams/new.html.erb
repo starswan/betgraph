@@ -1,0 +1,7 @@
+<!-- $Id$ -->
+<%- model_class = Team -%>
+<div class="page-header">
+  <b><%=t '.title', :default => t('helpers.titles.new', :model => model_class.model_name.human,
+                                 :default => "New #{model_class.model_name.human} for #{@sport.name}") %></b>
+</div>
+<%= render :partial => 'form' %>

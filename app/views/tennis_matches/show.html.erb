@@ -1,0 +1,71 @@
+<!-- tennis_matches/$Id$ -->
+<% homescore = @football_match.homegoals @matchtime %>
+<% awayscore = @football_match.awaygoals @matchtime %>
+<table border="1" width="100%">
+   <tr><td colspan="2"> <%= link_to @prev_football_match.name, division_soccer_match_path(@division, @prev_football_match, :offset => @offset - 1) if @prev_football_match %></td>
+   <td colspan="9">
+<b><%= link_to @football_match.division.name, division_soccer_matches_path(@division) %></b>
+<em>
+<i><%= @football_match.hometeam.name %></i>
+<%= link_to 'vs', @football_match %>
+<%= @football_match.awayteam.name %>
+<%= thedate(@football_match.kickofftime) %>
+<%= thetime(@football_match.kickofftime) %>
+(
+<%= @football_match.result.homescore if @football_match.result %>
+-
+<%= @football_match.result.awayscore if @football_match.result %>
+) 
+<%= link_to '[' + @football_match.homescorercount.to_s + '-' + @football_match.awayscorercount.to_s + ']', match_scorers_path(@football_match) %>
+</em>
+   </td>
+   <td align="right" colspan="4"><%= link_to @next_football_match.event.description, division_soccer_match_path(@division, @next_football_match, :offset => @offset + 1) if @next_football_match %></td>
+   </tr>
+   <tr>
+   <td colspan="2"><%= link_to '<<', { :offset => @offset, :matchtime => @matchtime - 10 } %>
+   <%= link_to '<', { :offset => @offset, :matchtime => @matchtime - 1 } %></td>
+   <td colspan="2" align="right"><%= @matchtime %> Mins</td>
+   <td colspan="2"><%= homescore %> - <%= awayscore %></td>
+   <td colspan="7">&nbsp;</td>
+   <td align="right"><%= link_to '>', { :offset => @offset, :matchtime => @matchtime + 1 } %> <%= link_to '>>', { :offset => @offset, :matchtime => @matchtime + 10 } %></td>
+   </tr>
+   <% diffs = [[0,0],[1,0],[0,1],[2,0],[1,1],[0,2],[3,0],[2,1],[1,2],[0,3]] %>
+   <tr>
+      <th>Ty</th>
+      <!--th>Name</th-->
+      <th>Valuer</th>
+      <th align="right">Rs</th>
+      <th align="right">Ps</th>
+      <% diffs.each do |d| %>
+         <th>H<%= d[0] -%>A<%= d[1] -%></th>
+      <% end %>
+   </tr>
+   <!-- Initiali value for diff[2] -->
+   <% diffs.each { |d| d << 1 } %>
+   <% starttime = @football_match.actual_start_time %>
+   <% starttime ||= @football_match.kickofftime %>
+   <% matchtime = starttime + @matchtime * 60 + ((@matchtime > 45) ? @football_match.half_time_duration : 0) %>
+   <% @football_match.bet_markets.find_all { |x| x.live and x.betfair_market_type.active }.sort_by { |a| a.name }.each do |bm| -%>
+   <tr>
+         <td><%= bm.markettype -%></td>
+         <td><%= link_to bm.name, bm %></td>
+         <!--td><%= link_to "#{bm.betfair_market_type.valuer} #{bm.betfair_market_type.param1}", [@football_match.sport, bm.betfair_market_type] %></td-->
+         <td align="right"><%= h bm.market_runners.size %></td>
+         <td align="right"><%= h bm.pricecount -%></td>
+         <% diffs.each do |diff| %>
+            <% probability = bm.market_value matchtime, homescore + diff[0], awayscore + diff[1] %>
+            <% diff[2] = [diff[2], probability].min if probability > 0 %>
+            <td align="right"><%= "%.2f" % (probability == 0 ? 0 : 1 / probability) %></td>
+         <% end %>
+   </tr>
+   <% end %>
+   <tr>
+      <td colspan="4">&nbsp;</td>
+      <% diffs.each do |diff| %>
+         <td align="right"><%= "%.2f" % (diff[2] == 1 ? 0 : 1 / diff[2]) -%> </td>
+      <% end %>
+   </tr>
+</table>
+
+<%= link_to 'Edit', edit_division_soccer_match_path(@division, @football_match), :class => 'btn' %>
+<%= link_to 'New', new_division_soccer_match_path(@division), :class => 'btn' %>

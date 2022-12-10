@@ -1,0 +1,5 @@
+<% @active_sports.each do |sport| %>
+  <li class="nav-item">
+    <%= link_to(sport.name, sport, class: 'nav-link') %>
+  </li>
+<% end %>

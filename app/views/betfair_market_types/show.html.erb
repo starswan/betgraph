@@ -1,0 +1,15 @@
+<!-- $Id$ -->
+<%= delete_link @betfair_market_type %> |
+<%= link_to 'Edit', edit_sport_betfair_market_type_path(@sport,@betfair_market_type) %> |
+<%= link_to @sport.name + ' Market Types', sport_betfair_market_types_path(@sport) %> |
+<%= link_to 'Runner Types', betfair_market_type_betfair_runner_types_path(@betfair_market_type) %>
+<h4><%=h @betfair_market_type.name %></h4>
+<p>
+  <%= @betfair_market_type.active ? 'Active' : 'Inactive' %>
+  <b>Valuer:</b>
+  <%= @betfair_market_type.valuer %>
+  <b>Param1:</b>
+  <%= @betfair_market_type.param1 %>
+  <b>Markets:</b>
+  <%= @betfair_market_type.bet_markets.count %>
+</p>

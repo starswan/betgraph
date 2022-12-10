@@ -1,0 +1,48 @@
+<!-- $Id$ -->
+<%- model_class = MarketPrice -%>
+<div class="page-header">
+  <h4>
+    <%= link_to @bet_market.match.name, match_bet_markets_path(@bet_market.match) %>
+    (<%= @bet_market.match.kickofftime.to_s(:kickoff).html_safe %>) /
+    <%=t '.title', :default => model_class.model_name.human.pluralize %> for
+    <%= link_to @bet_market.name, bet_market_market_runners_path(@bet_market) %>
+  </h4>
+</div>
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Runner</th>
+      <th>B3</th>
+      <th>B2</th>
+      <th>B1</th>
+      <th>L1</th>
+      <th>L2</th>
+      <th>L3</th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <% @market_prices.group_by(&:market_price_time).each do |mpt, prices| %>
+    <tbody class="pricetable">
+    <% prices.each_with_index do |price, index| %>
+      <tr>
+        <td><%= link_to price.market_price_time.time.to_s(:time_with_secs), market_price_path(price) if index == 0 %></td>
+        <td><%= price.market_runner.runnername %></td>
+        <td><%= render 'price', klass: "price", theprice: price.back3price, theamount: price.back3amount %></td>
+        <td><%= render 'price', klass: "price", theprice: price.back2price, theamount: price.back2amount %></td>
+        <td><%= render 'price', klass: "backprice", theprice: price.back1price, theamount: price.back1amount %></td>
+        <td><%= render 'price', klass: "layprice", theprice: price.lay1price, theamount: price.lay1amount %></td>
+        <td><%= render 'price', klass: "price", theprice: price.lay2price, theamount: price.lay2amount %></td>
+        <td><%= render 'price', klass: "price", theprice: price.lay3price, theamount: price.lay3amount %></td>
+        <td>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      bet_market_market_price_path(@bet_market, price),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to delete #{@bet_market.name} / #{l(price.market_price_time.time)} ?")) },
+                      :class => 'btn btn-sm btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  <% end %>
+</table>

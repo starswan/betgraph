@@ -1,0 +1,30 @@
+<%= render 'division' %>
+<%- model_class = Division -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => "#{@sport.name} #{model_class.model_name.human}" %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
+  <dd><%= @division.name %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:odds_numerator) %>:</strong></dt>
+  <dd><%= @division.odds_numerator %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:odds_denominator) %>:</strong></dt>
+  <dd><%= @division.odds_denominator %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:active) %>:</strong></dt>
+  <dd><%= @division.active %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.matches', :default => t("helpers.links.matches")),
+              division_matches_path(@division), :class => 'btn' %>
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              sport_divisions_path(@sport), :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_division_path(@division), :class => 'btn btn-sm btn-outline-primary' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              division_path(@division),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to delete division #{@division.name}?")) },
+              :class => 'btn btn-sm btn-outline-danger' %>
+</div>

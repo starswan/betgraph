@@ -1,0 +1,8 @@
+<!-- $Id$ -->
+<p>
+  <%= @basket.match.name %>
+  <%= link_to @basket.basket_rule.name, basket_basket_items_path(@basket) %>
+</p>
+
+<%= link_to 'Edit', edit_match_basket_path(@match, @basket) %> |
+<%= link_to 'Baskets', match_baskets_path(@match) %>

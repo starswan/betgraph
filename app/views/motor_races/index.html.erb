@@ -1,0 +1,23 @@
+<!-- $Id$ -->
+<h4><%= link_to 'Motor Races', sport_divisions_path(@division.sport) %> for <%= @division.name %></h4>
+
+<table class="table table-striped table-responsive">
+  <tr>
+    <th>Date</th>
+    <th>Name</th>
+    <th>Markets</th>
+    <th colspan="3">Actions</th>
+  </tr>
+  <% @matches.each_with_index do |match, index| %>
+    <tr>
+      <td><%=thedate match.kickofftime %> - <%=thetime match.kickofftime %></td>
+      <td><%=link_to match.name, division_motor_race_path(@division, match, :offset => index) %></td>
+      <td><%= link_to match.bet_markets_count, match_bet_markets_path(match) %></td>
+      <td><%=link_to 'Scorers', match_scorers_path(match), :class => 'btn btn-xs' %></td>
+      <td><%=link_to 'Edit', edit_division_motor_race_path(@division, match), :class => 'btn btn-sm btn-outline-primary' %></td>
+      <td><%=link_to 'Delete', division_motor_race_path(@division, match),
+                     :data => { :confirm => "Are you sure you wish to delete #{match.name}?" }, :method => :delete,
+                     :class => 'btn btn-sm btn-outline-danger' %></td>
+    </tr>
+  <% end %>
+</table>

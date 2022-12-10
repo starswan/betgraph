@@ -1,0 +1,26 @@
+<h1>Editing team_total_config</h1>
+
+<% form_for(@team_total_config) do |f| %>
+  <%= render "shared/error_messages", :target => @team_total_config %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <b>Count</b><br />
+    <%= f.text_field :count %>
+  </p>
+
+  <p>
+    <b>Threshold</b><br />
+    <%= f.text_field :threshold %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @team_total_config %> |
+<%= link_to 'Back', team_total_configs_path %>

@@ -1,0 +1,41 @@
+<!-- $Id$ -->
+<h3>
+Scorers for <%= link_to @match.name, @match %>
+</h3>
+<table class="table" border="1">
+<tr>
+<td>
+<table class="table table-striped table-responsive">
+<tr><th colspan="3"><%= @match.hometeam.name %></th><th><%= @match.result.homescore if @match.result %></th></tr>
+<% @match.homescorers.each do |scorer| %>
+  <tr>
+    <td><%= link_to scorer.name, scorer %></td>
+    <td><%= scorer_goal_time(scorer) %></td>
+    <td><%= link_to 'Edit', edit_match_scorer_path(@match, scorer), :class => 'btn btn-sm btn-outline-primary' %></td>
+    <td><%= link_to 'Delete', scorer,
+                    :data => { :confirm => "Are you sure you wish to delete #{scorer.name}?" },
+                    :method => :delete,
+                    :class => 'btn btn-sm btn-outline-danger' %></td>
+  </tr>
+<% end %>
+</table>
+</td>
+<td>
+<table class="table table-striped table-responsive">
+<tr><th colspan="3"><%= @match.awayteam.name %></th><th><%= @match.result.awayscore if @match.result %></th></tr>
+<% @match.awayscorers.each do |scorer| %>
+  <tr>
+    <td><%= link_to scorer.name, scorer %></td>
+    <td><%= scorer_goal_time(scorer) %></td>
+    <td><%= link_to 'Edit', edit_match_scorer_path(@match, scorer), :class => 'btn btn-sm btn-outline-primary' %></td>
+    <td><%= link_to 'Delete', scorer, :confirm => "Are you sure you wish to delete #{scorer.name}?",
+                    :method => :delete,
+                    :class => 'btn btn-sm btn-outline-danger' %></td>
+  </tr>
+<% end %>
+</table>
+</td>
+</tr>
+</table>
+
+<%= link_to 'New scorer', new_match_scorer_path(@match) %>

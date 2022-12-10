@@ -1,0 +1,32 @@
+<h1>Editing scorer</h1>
+
+<%= form_for(@scorer) do |f| %>
+  <%= render "shared/error_messages", :target => @scorer %>
+
+  <p>
+    <%= f.label :team_id %><br />
+    <%= f.text_field :team_id %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :goaltime %><br />
+    <%= f.text_field :goaltime %>
+  </p>
+  <p>
+    <%= f.label :penalty %><br />
+    <%= f.check_box :penalty %>
+  </p>
+  <p>
+    <%= f.label :owngoal %><br />
+    <%= f.check_box :owngoal %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @scorer %> |
+<%= link_to 'Back', scorers_path %>

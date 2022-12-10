@@ -1,0 +1,75 @@
+<!-- $Id$ -->
+<%= form_for @bet_market, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :marketid, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :marketid, :readonly => true, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :status, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.collection_select :status, ['ACTIVE', 'SUSPENDED', 'CLOSED'], :to_s, :to_s, :class => 'collection_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :active, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :active, :class => 'check_box' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :live_priced, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :live_priced, :class => 'check_box' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :live, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :live, :readonly => true, :class => 'check_box' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :markettype, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :markettype, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :number_of_winners, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :number_of_winners, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :description, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :type_variant, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :type_variant, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :runners_may_be_added, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :runners_may_be_added, :class => 'check_box' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :time, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :time, :class => 'datetime_select' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                match_bet_markets_path(@match), :class => 'btn' %>
+  </div>
+<% end %>

@@ -1,0 +1,25 @@
+<!-- $Id$ -->
+<h3>New item for rule <%= @basket_rule.sport.name %> <%= link_to @basket_rule.name, @basket_rule %> </h3>
+
+<%= form_for([@basket_rule, @basket_rule_item]) do |f| %>
+  <%= render "shared/error_messages", :target => @basket_rule_item %>
+
+  <p>
+    <%= f.label :betfair_runner_type_id %><br />
+    <% #collection_select(:basket_rule_item, :betfair_runner_type_id, @runner_types, :id, :nameAndMarketName) %>
+   <%= f.select :betfair_runner_type_id, @runner_types.collect { |rt| ["#{rt.betfair_market_type.name} - #{rt.name}", rt.id] } %>
+ 
+  </p>
+  <p>
+    <table><tr>
+    <td><%= f.label :weighting %></td>
+    <% [-1, 1].each do |value| %>
+      <td><%= f.label value.to_s -%></td>
+      <td><%= f.radio_button :weighting, value.to_s %></td>
+    <% end %>
+    </tr></table>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>

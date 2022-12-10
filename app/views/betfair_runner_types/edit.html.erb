@@ -1,0 +1,26 @@
+<!-- $Id$ -->
+Editing betfair runner type <b><%= h @betfair_runner_type.name %></b>
+<br/>
+
+<%= form_for([@betfair_market_type,@betfair_runner_type]) do |f| %>
+  <%= render "shared/error_messages", :target => @betfair_runner_type %>
+  <p>
+    <b>Type</b><br />
+    <%= f.text_field :runnertype %>
+  </p>
+  <p>
+    <b>Home Value</b><br />
+    <%= f.text_field :runnerhomevalue %>
+  </p>
+  <p>
+    <b>Away Value</b><br />
+    <%= f.text_field :runnerawayvalue %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', [@betfair_market_type, @betfair_runner_type] %> |
+<%= link_to 'Back', @betfair_market_type %>

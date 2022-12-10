@@ -1,0 +1,13 @@
+<!-- $Id$ -->
+<%= render 'shared' %>
+<div class="page-header">
+  <b>
+  <%= link_to @match.division.name, division_matches_path(@match.division) %>
+  <%= link_to @match.name, @match %>
+  <%= @match.kickofftime.to_s(:kickoff).html_safe %>
+  </b>
+  <%= format_result(@match) %>
+  <%= link_to 'Half Time', half_time_soccer_match_bet_markets_path(@match) %>
+  (<%= link_to 'Baskets', polymorphic_url([@match, :baskets]) %>)
+</div>
+<%= render 'market_list', model_class: BetMarket %>

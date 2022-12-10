@@ -1,0 +1,24 @@
+<h1>Listing team_total_configs</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Count</th>
+    <th>Threshold</th>
+  </tr>
+
+<% for team_total_config in @team_total_configs %>
+  <tr>
+    <td><%=h team_total_config.name %></td>
+    <td><%=h team_total_config.count %></td>
+    <td><%=h team_total_config.threshold %></td>
+    <td><%= link_to 'Show', team_total_config %></td>
+    <td><%= link_to 'Edit', edit_team_total_config_path(team_total_config) %></td>
+    <td><%= link_to 'Destroy', team_total_config, :data => { :confirm => 'Are you sure?' }, :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New team_total_config', new_team_total_config_path %>

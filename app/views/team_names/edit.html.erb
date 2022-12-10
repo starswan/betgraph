@@ -1,0 +1,21 @@
+<!-- $Id$ -->
+
+<b>Editing Team Name</b>
+
+<% form_for(@team_name) do |f| %>
+  <%= render "shared/error_messages", :target => @team_name %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :team_id %><br />
+    <%= f.collection_select :team_id, @teams, :id, :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to @team_name.name, @team_name.team %>

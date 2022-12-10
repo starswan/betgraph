@@ -1,0 +1,18 @@
+<p>
+  <b>Match:</b>
+  <%=h @result.match_id %>
+</p>
+
+<p>
+  <b>Homescore:</b>
+  <%=h @result.homescore %>
+</p>
+
+<p>
+  <b>Awayscore:</b>
+  <%=h @result.awayscore %>
+</p>
+
+
+<%= link_to 'Edit', edit_result_path(@result) %> |
+<%= link_to 'Back', results_path %>

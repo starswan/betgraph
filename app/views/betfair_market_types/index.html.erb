@@ -1,0 +1,35 @@
+<!-- betfair_market_types/$Id$ -->
+
+<h3>Betfair Market Types for <%= @sport.name %></h3>
+
+<table class="table table-striped table-responsive">
+  <tr>
+    <th>Name</th>
+    <th>Valuer</th>
+    <th>Active</th>
+    <th>Param1</th>
+    <th>Markets</th>
+    <th colspan="2">
+      <%= link_to 'Update Time', :sort => 'updated_at', :direction => (params[:direction] == 'desc') ? 'asc' : 'desc' %>
+    </th>
+    <th colspan="2">Actions</th>
+  </tr>
+
+<% for betfair_market_type in @betfair_market_types %>
+  <% if betfair_market_type.active %>
+  <tr class="active">
+  <% else %>
+  <tr class="inactive">
+  <% end %>
+    <td><%= link_to betfair_market_type.name, [@sport, betfair_market_type] %></td>
+    <td><%=h betfair_market_type.valuer %></td>
+    <td><%= betfair_market_type.active ? 'Y' : 'N' %></td>
+    <td><%=h betfair_market_type.param1 %></td>
+    <td><%=h betfair_market_type.bet_markets.count %></td>
+    <td><%=h thedate(betfair_market_type.updated_at) %></td>
+    <td><%=h thetime(betfair_market_type.updated_at) %></td>
+    <td><%= link_to 'Edit', edit_sport_betfair_market_type_path(@sport,betfair_market_type), :class => 'btn btn-xs' %></td>
+    <td><%= delete_link betfair_market_type %></td>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,25 @@
+<!-- $Id$ -->
+<h4>
+New item for <%= @basket.match.name %> basket <%= link_to @basket.name, @basket %>
+</h4>
+
+<%= form_for([@basket, @basket_item]) do |f| %>
+  <%= render "shared/error_messages", :target => @basket_item %>
+
+  <p>
+    <%= f.label :market_runner_id %>
+    <%= f.select :market_runner_id, @runners.collect { |r| ["#{r.bet_market.name} - #{r.runnername}", r.id] } %>
+  </p>
+  <p>
+    <table><tr>
+    <td><%= f.label :weighting %></td>
+    <% [-1, 1].each do |value| %>
+      <td><%= f.label value.to_s -%></td>
+      <td><%= f.radio_button :weighting, value.to_s %></td>
+    <% end %>
+    </tr></table>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>

@@ -1,0 +1,26 @@
+<br/>
+<b>Editing match for</b>
+<%= link_to @division.name, division_matches_path(@division) %>
+<br/>
+<%= form_for(@snooker_match) do |f| %>
+    <%= render "shared/error_messages", :target => @snooker_match %>
+
+    <p>
+        <%= f.label :hometeam_id %><br />
+        <%= f.collection_select :hometeam_id, @allteams, :id, :name %>
+    </p>
+    <p>
+        <%= f.label :awayteam_id %><br />
+        <%= f.collection_select :awayteam_id, @allteams, :id, :name %>
+    </p>
+    <p>Kick-Off Time<br/><%= f.datetime_select :kickofftime, :order => [:day, :month, :year, :hour, :minute] %>
+    </p>
+    <p><%= f.label :live_priced %><br/>
+        <%= f.check_box :live_priced, :class => 'check_box' %>
+    </p>
+    <p>
+        <%= f.submit 'Update' %>
+    </p>
+<% end %>
+
+<%= link_to 'Show', @match %>

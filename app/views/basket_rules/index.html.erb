@@ -1,0 +1,36 @@
+<%- model_class = BasketRule -%>
+  <h4><%= link_to @sport.name, @sport %> <%=t '.title', :default => model_class.model_name.human.pluralize %></h4>
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:name) %></th>
+      <th><%= model_class.human_attribute_name(:count) %></th>
+      <th><%= model_class.human_attribute_name(:rule_count) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @basket_rules.each do |basket_rule| %>
+      <tr>
+        <td><%= link_to basket_rule.name, basket_rule_basket_rule_items_path(basket_rule) %></td>
+        <td><%= basket_rule.count %></td>
+        <td><%= basket_rule.basket_rule_items.count %></td>
+        <td><%=l basket_rule.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_basket_rule_path(basket_rule), :class => 'btn btn-sm btn-outline-primary' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      basket_rule_path(basket_rule),
+                      :method => :delete,
+                      :data => {:confirm => t('.confirm', :default => t("helpers.links.confirm", :default => "Are you sure you wish to delete #{basket_rule.name} ?"))},
+                      :class => 'btn btn-sm btn-outline-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_sport_basket_rule_path(@sport),
+            :class => 'btn btn-primary' %>

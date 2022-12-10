@@ -1,0 +1,19 @@
+<!-- $Id$ -->
+<h3>Editing item in <%= link_to @basket_rule.name, @basket_rule %></h3>
+
+<%= form_for([@basket_rule, @basket_rule_item]) do |f| %>
+  <%= render "shared/error_messages", :target => @basket_rule_item %>
+
+  <p>
+    <%= f.label :betfair_runner_type_id %><br />
+    <% #f.text_field :betfair_runner_type_id %>
+    <%= collection_select(:basket_item, :betfair_runner_type_id, @runner_types, :id, :nameAndMarketName) %>
+  </p>
+  <p>
+    <%= f.label :weighting %><br />
+    <%= f.select :weighting, [-1, 1].collect { |n| [n, n] } %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>

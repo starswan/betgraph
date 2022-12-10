@@ -1,0 +1,6 @@
+<p>
+  <%=h @team.teamname %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to "#{@team.sport.name} Teams", sport_teams_path(@team.sport) %>
