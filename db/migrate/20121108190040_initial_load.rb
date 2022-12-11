@@ -13,7 +13,7 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    add_index "basket_items", ["basket_id"], name: "index_basket_items_on_basket_id"
+    add_index "basket_items", %w[basket_id], name: "index_basket_items_on_basket_id"
 
     create_table "basket_rule_items" do |t|
       t.integer  "basket_rule_id",         null: false
@@ -77,10 +77,10 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.boolean  "active", default: true, null: false
     end
 
-    add_index "bet_markets", ["active"], name: "index_bet_markets_on_active"
-    add_index "bet_markets", ["event_id"], name: "bet_market_event_id"
-    add_index "bet_markets", ["marketid"], name: "index_bet_markets_on_marketid", unique: true
-    add_index "bet_markets", ["status"], name: "index_bet_markets_on_status"
+    add_index "bet_markets", %w[active], name: "index_bet_markets_on_active"
+    add_index "bet_markets", %w[event_id], name: "bet_market_event_id"
+    add_index "bet_markets", %w[marketid], name: "index_bet_markets_on_marketid", unique: true
+    add_index "bet_markets", %w[status], name: "index_bet_markets_on_status"
 
     create_table "betfair_market_types" do |t|
       t.string   "name", null: false
@@ -101,7 +101,7 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.decimal  "runnerawayvalue",        precision: 5, scale: 2, null: false
     end
 
-    add_index "betfair_runner_types", ["betfair_market_type_id"], name: "index_betfair_runner_types_on_betfair_market_type_id"
+    add_index "betfair_runner_types", %w[betfair_market_type_id], name: "index_betfair_runner_types_on_betfair_market_type_id"
 
     create_table "divisions" do |t|
       t.string   "name", limit: 50, null: false
@@ -133,9 +133,9 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.string   "menu_path_name",               null: false
     end
 
-    add_index "events", ["description"], name: "index_events_on_description"
-    add_index "events", ["sport_id"], name: "index_events_on_sport_id"
-    add_index "events", ["starttime"], name: "index_events_on_starttime"
+    add_index "events", %w[description], name: "index_events_on_description"
+    add_index "events", %w[sport_id], name: "index_events_on_sport_id"
+    add_index "events", %w[starttime], name: "index_events_on_starttime"
 
     create_table "football_divisions" do |t|
       t.integer  "division_id", null: false
@@ -153,8 +153,8 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer  "match_id",                            null: false
     end
 
-    add_index "football_matches", ["football_season_id"], name: "index_football_matches_on_football_season_id"
-    add_index "football_matches", ["match_id"], name: "index_football_matches_on_match_id"
+    add_index "football_matches", %w[football_season_id], name: "index_football_matches_on_football_season_id"
+    add_index "football_matches", %w[match_id], name: "index_football_matches_on_match_id"
 
     create_table "football_seasons" do |t|
       t.string   "name"
@@ -177,8 +177,8 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    add_index "market_price_times", ["bet_market_id"], name: "index_market_price_times_on_bet_market_id"
-    add_index "market_price_times", ["time", "bet_market_id"], name: "index_market_price_times_on_time_and_bet_market_id"
+    add_index "market_price_times", %w[bet_market_id], name: "index_market_price_times_on_bet_market_id"
+    add_index "market_price_times", %w[time bet_market_id], name: "index_market_price_times_on_time_and_bet_market_id"
 
     create_table "market_prices" do |t|
       t.integer  "market_runner_id"
@@ -199,8 +199,8 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer  "market_price_time_id", null: false
     end
 
-    add_index "market_prices", ["market_price_time_id"], name: "index_market_prices_on_market_price_time_id"
-    add_index "market_prices", ["market_runner_id"], name: "market_prices_market_runner_id"
+    add_index "market_prices", %w[market_price_time_id], name: "index_market_prices_on_market_price_time_id"
+    add_index "market_prices", %w[market_runner_id], name: "market_prices_market_runner_id"
 
     create_table "market_runners" do |t|
       t.integer  "bet_market_id",                                                       null: false
@@ -215,8 +215,8 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer  "betfair_runner_type_id", null: false
     end
 
-    add_index "market_runners", ["bet_market_id"], name: "index_market_runners_on_bet_market_id"
-    add_index "market_runners", ["betfair_runner_type_id"], name: "index_market_runners_on_betfair_runner_type_id"
+    add_index "market_runners", %w[bet_market_id], name: "index_market_runners_on_bet_market_id"
+    add_index "market_runners", %w[betfair_runner_type_id], name: "index_market_runners_on_betfair_runner_type_id"
 
     create_table "matches" do |t|
       t.integer  "division_id", null: false
@@ -228,11 +228,11 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    add_index "matches", ["division_id", "awayteam_id", "kickofftime"], name: "index_matches_on_division_id_and_awayteam_id_and_kickofftime"
-    add_index "matches", ["division_id", "hometeam_id", "kickofftime"], name: "index_matches_on_division_id_and_hometeam_id_and_kickofftime"
-    add_index "matches", ["event_id"], name: "matches_event_id_fk"
-    add_index "matches", ["kickofftime", "hometeam_id", "awayteam_id"], name: "index_matches_on_kickofftime_and_hometeam_id_and_awayteam_id"
-    add_index "matches", ["kickofftime"], name: "index_matches_on_kickofftime"
+    add_index "matches", %w[division_id awayteam_id kickofftime], name: "index_matches_on_division_id_and_awayteam_id_and_kickofftime"
+    add_index "matches", %w[division_id hometeam_id kickofftime], name: "index_matches_on_division_id_and_hometeam_id_and_kickofftime"
+    add_index "matches", %w[event_id], name: "matches_event_id_fk"
+    add_index "matches", %w[kickofftime hometeam_id awayteam_id], name: "index_matches_on_kickofftime_and_hometeam_id_and_awayteam_id"
+    add_index "matches", %w[kickofftime], name: "index_matches_on_kickofftime"
 
     create_table "menu_paths" do |t|
       t.boolean  "active",              default: true,  null: false
@@ -246,8 +246,8 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer  "division_id"
     end
 
-    add_index "menu_paths", ["name"], name: "index_menu_paths_on_name"
-    add_index "menu_paths", ["parent_path_id"], name: "index_menu_paths_on_parent_path_id"
+    add_index "menu_paths", %w[name], name: "index_menu_paths_on_name"
+    add_index "menu_paths", %w[parent_path_id], name: "index_menu_paths_on_parent_path_id"
 
     create_table "menu_sub_paths" do |t|
       t.integer  "menu_path_id",   null: false
@@ -256,8 +256,8 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    add_index "menu_sub_paths", ["menu_path_id"], name: "index_menu_sub_paths_on_menu_path_id"
-    add_index "menu_sub_paths", ["parent_path_id"], name: "index_menu_sub_paths_on_parent_path_id"
+    add_index "menu_sub_paths", %w[menu_path_id], name: "index_menu_sub_paths_on_menu_path_id"
+    add_index "menu_sub_paths", %w[parent_path_id], name: "index_menu_sub_paths_on_parent_path_id"
 
     create_table "prices" do |t|
       t.integer  "market_runner_id"
@@ -286,7 +286,7 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    add_index "results", ["match_id"], name: "index_results_on_match_id"
+    add_index "results", %w[match_id], name: "index_results_on_match_id"
 
     create_table "scorers" do |t|
       t.integer  "match_id"
@@ -299,7 +299,7 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    add_index "scorers", ["match_id"], name: "index_scorers_on_match_id"
+    add_index "scorers", %w[match_id], name: "index_scorers_on_match_id"
 
     create_table "sports" do |t|
       t.string   "name",                                   null: false
@@ -311,9 +311,9 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer  "expiry_time_in_minutes", default: 60, null: false
     end
 
-    add_index "sports", ["events_count"], name: "index_sports_on_events_count"
-    add_index "sports", ["menu_path_id"], name: "index_sports_on_menu_path_id"
-    add_index "sports", ["name"], name: "index_sports_on_name"
+    add_index "sports", %w[events_count], name: "index_sports_on_events_count"
+    add_index "sports", %w[menu_path_id], name: "index_sports_on_menu_path_id"
+    add_index "sports", %w[name], name: "index_sports_on_name"
 
     create_table "team_divisions" do |t|
       t.integer "team_id",     null: false
@@ -321,7 +321,7 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer "season_id",   null: false
     end
 
-    add_index "team_divisions", ["team_id", "division_id", "season_id"], name: "index_team_divisions_on_team_id_and_division_id_and_season_id", unique: true
+    add_index "team_divisions", %w[team_id division_id season_id], name: "index_team_divisions_on_team_id_and_division_id_and_season_id", unique: true
 
     create_table "team_names" do |t|
       t.integer  "team_id"
@@ -349,7 +349,7 @@ class InitialLoad < ActiveRecord::Migration[4.2]
       t.integer  "match_id", null: false
     end
 
-    add_index "team_totals", ["match_id"], name: "index_team_totals_on_match_id"
+    add_index "team_totals", %w[match_id], name: "index_team_totals_on_match_id"
 
     create_table "teams" do |t|
       t.datetime "created_at"

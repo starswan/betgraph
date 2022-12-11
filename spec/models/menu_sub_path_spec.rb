@@ -20,7 +20,7 @@ RSpec.describe MenuSubPath do
 
     expect {
       expect {
-        newpath = sport.menu_paths.create! name: championship.name + ["Test"], parent: championship
+        newpath = sport.menu_paths.create! name: championship.name + %w[Test], parent: championship
 
         expect(newpath.menu_sub_paths.size).to eq(0)
       }.to change { english.menu_sub_paths.size }.by(1)

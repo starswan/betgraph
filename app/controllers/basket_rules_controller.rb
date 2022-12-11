@@ -4,7 +4,7 @@
 # $Id$
 #
 class BasketRulesController < ApplicationController
-  NO_BASKET_ACTIONS = [:index, :new, :create].freeze
+  NO_BASKET_ACTIONS = %i[index new create].freeze
   before_action :find_sport, only: NO_BASKET_ACTIONS
   before_action :find_sport_from_basket, except: NO_BASKET_ACTIONS
 

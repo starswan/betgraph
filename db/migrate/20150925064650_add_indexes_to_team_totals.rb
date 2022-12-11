@@ -5,7 +5,7 @@
 #
 class AddIndexesToTeamTotals < ActiveRecord::Migration[4.2]
   BATCH_SIZE = 2000
-  TT_FIELDS = [:count, :total_goals, :team_id].freeze
+  TT_FIELDS = %i[count total_goals team_id].freeze
 
   def up
     TT_FIELDS.each { |field| add_index(:team_totals, field) }

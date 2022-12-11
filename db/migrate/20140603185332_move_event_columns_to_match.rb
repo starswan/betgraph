@@ -17,9 +17,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
       event.active = true
     end
 
-    after_create do |event|
-      event.create_baskets_from_rules
-    end
+    after_create(&:create_baskets_from_rules)
 
     before_update do |event|
       if event.live_priced_changed?
@@ -50,7 +48,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
 
     # Decide whether this event represents a soccer match
     def soccermatch?
-      ["Soccer", "Football"].member?(menu_path_name[0]) && (menu_path_name.size > 1) && (menu_path_name[-1].size > 8) && fixture?
+      %w[Soccer Football].member?(menu_path_name[0]) && (menu_path_name.size > 1) && (menu_path_name[-1].size > 8) && fixture?
     end
 
     def shortname

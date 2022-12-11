@@ -23,7 +23,7 @@ RSpec.describe MenuPath do
 
   it "creating an active menu path creates a division" do
     expect {
-      mp = menu_path.sport.menu_paths.create! active: true, parent: menu_path, name: menu_path.name + ["whatever"]
+      mp = menu_path.sport.menu_paths.create! active: true, parent: menu_path, name: menu_path.name + %w[whatever]
       expect(mp.division.name).to eq "whatever"
       expect(mp.division).to be_active
     }.to change(Division, :count).by(1)

@@ -16,7 +16,7 @@ class DropEventBasketPrices < ActiveRecord::Migration[5.1]
       t.decimal "betsize", precision: 8, scale: 2
       t.datetime "created_at"
       t.datetime "updated_at"
-      t.index ["basket_id"], name: "index_event_basket_prices_on_basket_id"
+      t.index %w[basket_id], name: "index_event_basket_prices_on_basket_id"
     end
   end
 end

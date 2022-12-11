@@ -44,8 +44,8 @@ RSpec.describe Sport do
   end
 
   it "top menu paths returns top menu paths" do
-    assert_equal([["Football", "Spanish Soccer"], ["Football", "Interesting Things"], ["Football"]],
-                 sport.top_menu_paths.collect { |mp| mp.name })
+    assert_equal([["Football", "Spanish Soccer"], ["Football", "Interesting Things"], %w[Football]],
+                 sport.top_menu_paths.collect(&:name))
   end
 
   it "findTeam will return existing team" do

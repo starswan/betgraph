@@ -4,7 +4,7 @@
 # $Id$
 #
 class AddMissingTeamForeignKeys < ActiveRecord::Migration[5.1]
-  TABLES = [:team_totals, :team_names, :team_divisions, :scorers].freeze
+  TABLES = %i[team_totals team_names team_divisions scorers].freeze
 
   def up
     TeamTotal.includes(:team).find_in_batches.each do |batch|

@@ -12,7 +12,7 @@ class AddMissingEventLinks < ActiveRecord::Migration[4.2]
     index = 0
     BetfairEvent.find_in_batches(batch_size: BATCH_SIZE) do |event_batch|
       say_with_time "#{self} #{index}/#{count}" do
-        event_batch.reject { |e| e.match }.each { |event| handle_event event }
+        event_batch.reject(&:match).each { |event| handle_event event }
       end
       index += BATCH_SIZE
     end

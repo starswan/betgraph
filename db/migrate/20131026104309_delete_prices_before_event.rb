@@ -25,7 +25,7 @@ private
       next if times.count == 0
 
       say_with_time "Deleting #{market.name} #{times.count} Prices from #{times[0].time} to #{times[-1].time}" do
-        times.each { |time| time.destroy }
+        times.each(&:destroy)
       end
     end
   end

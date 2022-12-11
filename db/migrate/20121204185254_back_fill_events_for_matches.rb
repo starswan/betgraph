@@ -10,7 +10,7 @@ class BackFillEventsForMatches < ActiveRecord::Migration[4.2]
   def self.up
     return if Event.count == 0
 
-    query = Match.all(include: :event, conditions: ["kickofftime >= ?", Event.first.starttime]).reject { |m| m.event }
+    query = Match.includes(:event).where("kickofftime >= ?", Event.first.starttime).reject(&:event)
     count = query.count
     query.each_with_index do |match, index|
       say_with_time "Match #{index}/#{count}" do

@@ -807,9 +807,6 @@ Style/StringConcatenation:
 # SupportedStyles: percent, brackets
 Style/SymbolArray:
   Exclude:
-    - 'app/controllers/basket_items_controller.rb'
-    - 'app/controllers/basket_rule_items_controller.rb'
-    - 'app/controllers/basket_rules_controller.rb'
     - 'app/controllers/bet_markets_controller.rb'
     - 'app/controllers/betfair_market_types_controller.rb'
     - 'app/controllers/betfair_runner_types_controller.rb'
@@ -830,13 +827,6 @@ Style/SymbolArray:
     - 'app/models/soccer_match.rb'
     - 'config/initializers/active_admin.rb'
     - 'config/routes.rb'
-    - 'db/migrate/20121206201500_add_item_count_to_basket.rb'
-    - 'db/migrate/20150925064650_add_indexes_to_team_totals.rb'
-    - 'db/migrate/20151017124230_allow_odds_of_one_thousand.rb'
-    - 'db/migrate/20170726184803_add_unique_index_to_basket_items.rb'
-    - 'db/migrate/20191019093413_add_missing_team_foreign_keys.rb'
-    - 'db/migrate/20210307112413_bet_market_to_market_types.rb'
-    - 'db/migrate/20210307113626_sixty_four_bit_keys.rb'
 
 # Offense count: 24
 # This cop supports unsafe autocorrection (--autocorrect-all).
@@ -854,25 +844,7 @@ Style/SymbolProc:
     - 'app/jobs/refresh_sport_list_job.rb'
     - 'app/jobs/trigger_live_prices_job.rb'
     - 'app/models/match.rb'
-    - 'db/migrate/20121204185254_back_fill_events_for_matches.rb'
-    - 'db/migrate/20131026104309_delete_prices_before_event.rb'
-    - 'db/migrate/20140102080039_add_missing_event_links.rb'
-    - 'db/migrate/20140603184146_move_baskets_to_match.rb'
-    - 'db/migrate/20140603185332_move_event_columns_to_match.rb'
-    - 'db/migrate/20150923163054_add_football_matches.rb'
-    - 'db/migrate/20160924072902_fix_up_menu_paths.rb'
-    - 'db/migrate/20170112074924_remove_invalid_market_prices.rb'
-    - 'db/migrate/20181211183524_tidy_runner_types.rb'
     - 'lib/runner_set.rb'
-    - 'spec/models/sport_spec.rb'
-
-# Offense count: 53
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: WordRegex.
-# SupportedStyles: percent, brackets
-Style/WordArray:
-  EnforcedStyle: percent
-  MinSize: 4
 
 # Offense count: 5
 # This cop supports unsafe autocorrection (--autocorrect-all).
