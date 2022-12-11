@@ -128,7 +128,7 @@ RSpec.describe BetMarket do
                           time: Time.now - 10.minutes, live: true)
     end
 
-    it "works" do
+    it "has active things" do
       expect(described_class.activelive.map(&:name)).to eq(["Things"])
     end
   end

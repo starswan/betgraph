@@ -34,6 +34,4 @@ class RemoveBasketOrphans < ActiveRecord::Migration[4.2]
   end
 
   def down; end
-
-private
 end

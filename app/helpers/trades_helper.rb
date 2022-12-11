@@ -32,6 +32,4 @@ module TradesHelper
   def valid_bet_sizes
     VALID_BET_SIZES.collect { |x| [x, x] }
   end
-
-private
 end

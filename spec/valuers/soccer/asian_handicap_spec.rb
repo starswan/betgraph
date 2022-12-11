@@ -4,7 +4,7 @@
 # $Id$
 #
 require "rails_helper"
-require "soccer/asian_handicap.rb"
+require "soccer/asian_handicap"
 
 RSpec.describe Soccer::AsianHandicap do
   let(:valuer) { described_class.new }

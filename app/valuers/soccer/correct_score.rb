@@ -5,6 +5,7 @@
 module Soccer
   class CorrectScore < FullTimeValuer
     def initialize
+      super
       @min = 0
       @max = 3
     end

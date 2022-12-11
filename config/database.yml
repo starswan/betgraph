@@ -58,7 +58,7 @@ test:
   database: bfrails_test
   username: rails
   password: 123rails!
-  host: 127.0.0.1
+  host: <%= ENV["CI"].present? ? "127.0.0.1" : "localhost" %>
   port: 3307
 
 production:

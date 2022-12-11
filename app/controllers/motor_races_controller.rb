@@ -48,9 +48,9 @@ class MotorRacesController < ApplicationController
     if dateparam
       date = Date.parse(dateparam)
       @matches = @division.matches.where("kickofftime >= ? and kickofftime <= ?", date, date + 1.day)
-    #:include => :teams,
-    #:limit => @limit, :offset => @offset,
-    #:order => "#{@order} #{@direction}"
+    # :include => :teams,
+    # :limit => @limit, :offset => @offset,
+    # :order => "#{@order} #{@direction}"
     else
       @matches = @division.matches.includes(:teams).limit(@limit).offset(@offset).order("#{@order} #{@direction}")
     end

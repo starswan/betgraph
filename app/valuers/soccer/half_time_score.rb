@@ -6,6 +6,7 @@
 module Soccer
   class HalfTimeScore < HalfTimeValuer
     def initialize
+      super
       @max = 2
       @min = 0
     end

@@ -13,19 +13,18 @@ require:
 AllCops:
   # Exclude anything that isn't really part of our code.
   Exclude:
+    - 'vendor/bundle/**/*'
     - 'node_modules/**/*'
     - 'db/schema.rb'
     - 'config/application.rb'
-    - 'db/migrate/2014*.rb'
-    - 'db/migrate/2016*.rb'
     - 'config/spring.rb'
     - 'config/environments/development.rb'
+    - 'db/migrate/20140603180320_remove_basket_orphans.rb'
     - 'bin/*'
 
 # These 2 files cause 'infinite loop detected' with Rubocop 0.87
 Layout/EmptyLinesAroundAccessModifier:
   Exclude:
-    - 'db/migrate/20140603180320_remove_basket_orphans.rb'
     - 'spec/models/match_spec.rb'
 
 Style/FrozenStringLiteralComment:

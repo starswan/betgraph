@@ -21,7 +21,7 @@ RSpec.describe SeasonsController, type: :controller do
       get :show, params: { sport_id: sport.id, id: season.to_param }
     end
 
-    it "works" do
+    it "is successful" do
       expect(response).to be_successful
     end
 

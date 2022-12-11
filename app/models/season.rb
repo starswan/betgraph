@@ -5,6 +5,7 @@
 #
 class Season < ApplicationRecord
   attr_accessor :threshold
+
   validates :startdate, uniqueness: { scope: :calendar_id }
   validates :name, presence: true
 

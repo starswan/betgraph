@@ -14,6 +14,7 @@ module SeasonsHelper
 
   class MatchDisplay
     attr_reader :division, :nilnilscore
+
     delegate :homescore, :awayscore, to: :@result
     delegate :kickofftime, :hometeam, :awayteam, to: :@match
 

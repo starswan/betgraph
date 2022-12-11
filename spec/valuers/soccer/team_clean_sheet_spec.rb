@@ -4,7 +4,7 @@
 # $Id$
 #
 require "rails_helper"
-require "soccer/team_clean_sheet.rb"
+require "soccer/team_clean_sheet"
 
 RSpec.describe Soccer::TeamCleanSheet do
   subject { described_class.new }

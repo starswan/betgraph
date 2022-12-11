@@ -12,7 +12,7 @@ class FixUpBetMarketCountOnMatches < ActiveRecord::Migration[4.2]
         Match.transaction do
           group.each do |match|
             if match.bet_markets_count != match.bet_markets.count
-              puts "Adjusting #{match.id} #{match.kickofftime} #{match.name} #{match.bet_markets_count} #{match.bet_markets.count}"
+              logger.debug "Adjusting #{match.id} #{match.kickofftime} #{match.name} #{match.bet_markets_count} #{match.bet_markets.count}"
               Match.reset_counters match, :bet_markets
             end
             # match.destroy if match.bet_markets_count == 0
