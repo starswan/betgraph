@@ -98,8 +98,8 @@ class RemoveFootballMatchesTable < ActiveRecord::Migration[4.2]
       t.integer  "football_season_id",                  null: false
       t.integer  "match_id",                            null: false
     end
-    add_index "football_matches", ["football_season_id"], name: "index_football_matches_on_football_season_id"
-    add_index "football_matches", ["match_id"], name: "index_football_matches_on_match_id"
+    add_index "football_matches", %w[football_season_id], name: "index_football_matches_on_football_season_id"
+    add_index "football_matches", %w[match_id], name: "index_football_matches_on_match_id"
 
     count = SoccerMatch.count
     find_each_with_index(SoccerMatch) do |sm, index|

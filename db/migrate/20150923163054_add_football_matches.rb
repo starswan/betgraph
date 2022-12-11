@@ -9,9 +9,7 @@ class AddFootballMatches < ActiveRecord::Migration[4.2]
     SoccerMatch.find_in_batches do |group|
       say_with_time "SoccerMatch #{index}/#{count}" do
         SoccerMatch.transaction do
-          group.each do |soccermatch|
-            soccermatch.add_football_match
-          end
+          group.each(&:add_football_match)
         end
       end
       index += group.size

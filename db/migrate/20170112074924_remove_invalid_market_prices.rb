@@ -10,7 +10,7 @@ class RemoveInvalidMarketPrices < ActiveRecord::Migration[4.2]
     index = 0
     mp.find_in_batches do |batch|
       say_with_time "destroying MarketPrice #{index}/#{count} #{index * 100.0 / count}%" do
-        batch.each { |item| item.destroy }
+        batch.each(&:destroy)
         index += batch.size
       end
     end

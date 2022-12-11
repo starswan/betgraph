@@ -39,7 +39,7 @@ class FixUpMenuPaths < ActiveRecord::Migration[4.2]
 private
 
   def process_menu_path(mp)
-    new_name = mp.name.map { |ns| ns.strip }
+    new_name = mp.name.map(&:strip)
     if mp.name != new_name
       say_with_time "updating #{mp.id} #{mp.name.inspect} to #{new_name.inspect}" do
         existing = MenuPath.findByName new_name

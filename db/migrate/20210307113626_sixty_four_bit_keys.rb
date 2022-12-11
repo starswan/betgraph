@@ -7,25 +7,25 @@ class SixtyFourBitKeys < ActiveRecord::Migration[5.2]
   TABLES = [
     {
       tables: {
-        parent_path_id: [:menu_paths, :menu_sub_paths].freeze,
+        parent_path_id: %i[menu_paths menu_sub_paths].freeze,
         menu_path_id: [:menu_sub_paths].freeze,
       }.freeze,
       name: :menu_paths,
     }.freeze,
     {
-      tables: { betfair_market_type_id: [:bet_markets, :betfair_runner_types].freeze }.freeze,
+      tables: { betfair_market_type_id: %i[bet_markets betfair_runner_types].freeze }.freeze,
       name: :betfair_market_types,
     }.freeze,
     {
-      tables: { bet_market_id: [:market_price_times, :market_runners].freeze }.freeze,
+      tables: { bet_market_id: %i[market_price_times market_runners].freeze }.freeze,
       name: :bet_markets,
     }.freeze,
     {
-      tables: { match_id: [:baskets, :bet_markets, :team_totals, :match_teams, :results, :scorers].freeze }.freeze,
+      tables: { match_id: %i[baskets bet_markets team_totals match_teams results scorers].freeze }.freeze,
       name: :matches,
     }.freeze,
     {
-      tables: { division_id: [:matches, :football_divisions, :team_divisions, :menu_paths].freeze }.freeze,
+      tables: { division_id: %i[matches football_divisions team_divisions menu_paths].freeze }.freeze,
       name: :divisions,
     }.freeze,
     {
@@ -37,16 +37,16 @@ class SixtyFourBitKeys < ActiveRecord::Migration[5.2]
       name: :baskets,
     }.freeze,
     {
-      tables: { team_id: [:match_teams, :team_totals, :team_names, :team_divisions, :scorers].freeze,
+      tables: { team_id: %i[match_teams team_totals team_names team_divisions scorers].freeze,
                 venue_id: [:matches] }.freeze,
       name: :teams,
     }.freeze,
     {
-      tables: { sport_id: [:teams, :basket_rules, :betfair_market_types, :divisions, :menu_paths].freeze }.freeze,
+      tables: { sport_id: %i[teams basket_rules betfair_market_types divisions menu_paths].freeze }.freeze,
       name: :sports,
     }.freeze,
     {
-      tables: { market_runner_id: [:market_prices, :trades, :basket_items].freeze }.freeze,
+      tables: { market_runner_id: %i[market_prices trades basket_items].freeze }.freeze,
       name: :market_runners,
     }.freeze,
     {
@@ -118,7 +118,7 @@ class SixtyFourBitKeys < ActiveRecord::Migration[5.2]
       name: :match_teams,
     }.freeze,
     {
-      tables: { basket_rule_id: [:basket_rule_items, :baskets].freeze }.freeze,
+      tables: { basket_rule_id: %i[basket_rule_items baskets].freeze }.freeze,
       name: :basket_rules,
     }.freeze,
   ].freeze

@@ -4,7 +4,7 @@
 # $Id$
 #
 class BasketRuleItemsController < ApplicationController
-  NO_ITEM_ACTIONS = [:index, :new, :create].freeze
+  NO_ITEM_ACTIONS = %i[index new create].freeze
   before_action :find_basket_rule, only: NO_ITEM_ACTIONS
   before_action :find_rule_from_item, except: NO_ITEM_ACTIONS
   # GET /basket_items

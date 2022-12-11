@@ -17,9 +17,7 @@ class MoveBasketsToMatch < ActiveRecord::Migration[4.2]
       event.active = true
     end
 
-    after_create do |event|
-      event.create_baskets_from_rules
-    end
+    after_create(&:create_baskets_from_rules)
 
     before_update do |event|
       if event.live_priced_changed?

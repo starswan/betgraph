@@ -5,7 +5,7 @@
 #
 class TidyRunnerTypes < ActiveRecord::Migration[5.1]
   def up
-    runner_types = Sport.find_by(name: "Soccer").betfair_market_types.map { |k| k.betfair_runner_types }.flatten
+    runner_types = Sport.find_by(name: "Soccer").betfair_market_types.map(&:betfair_runner_types).flatten
     count = runner_types.size
     runner_types.reject { |rt|
       scores = (0..7).to_a.product((0..7).to_a).map { |a, b| "#{a} - #{b}" }

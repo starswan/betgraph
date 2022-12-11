@@ -4,7 +4,7 @@
 # $Id$
 #
 class BasketItemsController < ApplicationController
-  NO_ITEM_ACTIONS = [:index, :new, :create].freeze
+  NO_ITEM_ACTIONS = %i[index new create].freeze
   before_action :find_basket, only: NO_ITEM_ACTIONS
   before_action :find_basket_from_item, except: NO_ITEM_ACTIONS
   # GET /basket_items

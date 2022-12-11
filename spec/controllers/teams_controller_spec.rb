@@ -24,25 +24,25 @@ RSpec.describe TeamsController, type: :controller do
     it "defaults to name sorting" do
       get :index, params: { sport_id: sport }
       assert_response :success
-      expect(assigns(:teams).map(&:name)).to eq(["Other", "Team", "Three"])
+      expect(assigns(:teams).map(&:name)).to eq(%w[Other Team Three])
     end
 
     it "can be name sorted" do
       get :index, params: { sport_id: sport, sort_by: "name" }
       assert_response :success
-      expect(assigns(:teams).map(&:name)).to eq(["Other", "Team", "Three"])
+      expect(assigns(:teams).map(&:name)).to eq(%w[Other Team Three])
     end
 
     it "can be created_at sorted" do
       get :index, params: { sport_id: sport, sort_by: "created_at" }
       assert_response :success
-      expect(assigns(:teams).map(&:name)).to eq(["Three", "Other", "Team"])
+      expect(assigns(:teams).map(&:name)).to eq(%w[Three Other Team])
     end
 
     it "can be matches_count sorted" do
       get :index, params: { sport_id: sport, sort_by: "matches_count" }
       assert_response :success
-      expect(assigns(:teams).map(&:name)).to eq(["Team", "Other", "Three"])
+      expect(assigns(:teams).map(&:name)).to eq(%w[Team Other Three])
     end
   end
 
@@ -67,7 +67,7 @@ RSpec.describe TeamsController, type: :controller do
         assert_redirected_to sport_team_path(sport, assigns(:team))
       }.to change(Team, :count).by(-1)
       expect(match_one.reload.venue).to eq(team)
-      expect(match_one.reload.teams.map(&:name)).to match_array ["Other", "Three"]
+      expect(match_one.reload.teams.map(&:name)).to match_array %w[Other Three]
     end
   end
 
