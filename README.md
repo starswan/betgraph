@@ -4,16 +4,16 @@ A ruby on rails application to graph price histories of sports events
 (primarily soccer matches)
 
 * regenerate with:
-rails new betgraph -d mysql --webpack=elm --skip-turbolinks --skip-spring --skip-sprockets
---skip-keeps --skip-git --skip-puma --skip-action-text --skip-test --skip-system-test
---skip-action-mailbox 
+  rails new betgraph -d mysql --webpack=elm --skip-turbolinks --skip-spring --skip-sprockets
+  --skip-keeps --skip-git --skip-puma --skip-action-text --skip-test --skip-system-test
+  --skip-action-mailbox
 
 TODOs:
 ------
 1. Move editing of team names from TeamsController to TeamNamesController and make test pass
 
 2. Finish off analysis work started in matches.rake
-   
+
 3. Improve test coverage. It's at an appalingly low value (78%)
 
 4. Focus price gathering on match, rather than every minute. Decide how and when to do the next fetch
