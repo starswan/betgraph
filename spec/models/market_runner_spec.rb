@@ -98,7 +98,7 @@ RSpec.describe MarketRunner do
     end
 
     it "reversed prices" do
-      expect(runner.market_prices.count > 0).to eq(true)
+      expect(runner.market_prices.count).to be_positive
       expect(runner.market_prices.reverse).to eq(runner.reversedprices)
     end
   end

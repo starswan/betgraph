@@ -4,7 +4,7 @@
 # $Id$
 #
 require "rails_helper"
-require "soccer/over_under_goals.rb"
+require "soccer/over_under_goals"
 
 RSpec.describe Soccer::OverUnderGoals do
   let(:data_points) do

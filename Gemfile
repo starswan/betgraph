@@ -129,8 +129,7 @@ group :development do
   gem "listen"
   gem "rvm-capistrano", require: false
 
-  gem "rubocop"
-  gem "rubocop-govuk", "< 4"
+  gem "rubocop-govuk"
   gem "rubocop-performance"
   gem "rack-mini-profiler"
 

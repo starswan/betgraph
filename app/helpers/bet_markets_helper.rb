@@ -89,7 +89,7 @@ module BetMarketsHelper
   end
 
   def winners_for(market)
-    (market.number_of_winners.to_i < 1) ? [] : market.winners
+    market.number_of_winners.to_i < 1 ? [] : market.winners
   end
 
 private

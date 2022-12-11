@@ -36,7 +36,7 @@ private
     # logger.debug "makeMenuPaths #{menu_path.inspect}"
     pathhash = bc.getAllMarkets.collect { |market| market.menuPath }.each_with_object({}) do |menuPath, hash|
       menuPath.each_with_index do |_path, index|
-        slice = (index == 0) ? [] : menuPath[0..index - 1]
+        slice = index == 0 ? [] : menuPath[0..index - 1]
         (hash[slice] ||= Set.new).add menuPath[0..index]
       end
     end
@@ -46,8 +46,6 @@ private
     # end
     process_menu_path(menu_path, pathhash)
   end
-
-private
 
   def process_menu_path(parent, pathhash)
     count = 0

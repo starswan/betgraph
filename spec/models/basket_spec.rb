@@ -29,7 +29,7 @@ RSpec.describe Basket do
         division.matches.create! name: "Fred v Jim", type: "SoccerMatch",
                                  kickofftime: Time.now,
                                  venue: hometeam
-      }      .to change(described_class, :count).by(1)
+      }.to change(described_class, :count).by(1)
     end
   end
 

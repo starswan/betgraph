@@ -4,7 +4,7 @@
 # $Id$
 #
 require "rails_helper"
-require "soccer/team_handicap.rb"
+require "soccer/team_handicap"
 
 RSpec.describe Soccer::TeamHandicap do
   subject { described_class.new }

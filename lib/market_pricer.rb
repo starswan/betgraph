@@ -38,7 +38,7 @@ class MarketPricer
   def layOverround(_targetAmount = 1)
     probability = 0
     @market.runners.each do |r|
-      probability += (r.bestPricesToLay.size > 0) ? 1 / r.bestPricesToLay[0].price : 0
+      probability += r.bestPricesToLay.size > 0 ? 1 / r.bestPricesToLay[0].price : 0
     end
     probability
   end

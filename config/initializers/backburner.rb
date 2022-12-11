@@ -58,19 +58,19 @@ module ActiveJob
     # class is the actual class for the job which needs to have a queue_priority method that returns
     # either a symbol/string or an actual priority.
     class BackburnerAdapter
-      def enqueue(job) #:nodoc:
+      def enqueue(job) # :nodoc:
         # Backburner::Worker.enqueue job.class, [ job.serialize ], queue: job.queue_name
         Backburner::Worker.enqueue JobWrapper, [job.serialize], queue: job.queue_name, pri: job.class.queue_priority
       end
 
-      def enqueue_at(job, timestamp) #:nodoc:
+      def enqueue_at(job, timestamp) # :nodoc:
         delay = timestamp - Time.current.to_f
         # Backburner::Worker.enqueue job.class, [ job.serialize ], queue: job.queue_name, delay: delay
         Backburner::Worker.enqueue JobWrapper, [job.serialize], queue: job.queue_name, delay: delay, pri: job.class.queue_priority
       end
     end
 
-    class JobWrapper #:nodoc:
+    class JobWrapper # :nodoc:
       class << self
         def perform(job_data)
           Base.execute job_data

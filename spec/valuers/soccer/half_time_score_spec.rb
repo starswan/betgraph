@@ -4,7 +4,7 @@
 # $Id$
 #
 require "rails_helper"
-require "soccer/half_time_score.rb"
+require "soccer/half_time_score"
 
 RSpec.describe Soccer::HalfTimeScore do
   describe "#value" do

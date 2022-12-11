@@ -46,13 +46,18 @@ RSpec.describe BetMarketsController, type: :controller do
       post :create, params: {
         match_id: soccermatch,
         bet_market: {
-          name: "whatever", description: "description",
-          live: false, marketid: 27, markettype: "O",
+          name: "whatever",
+          description: "description",
+          live: false,
+          marketid: 27,
+          markettype: "O",
           status: BetMarket::ACTIVE,
-          exchange_id: 1, number_of_winners: 1,
+          exchange_id: 1,
+          number_of_winners: 1,
           number_of_runners: 3,
-          runners_may_be_added: false, time: Time.now + 7.days,
-          total_matched_amount: 23.98
+          runners_may_be_added: false,
+          time: Time.now + 7.days,
+          total_matched_amount: 23.98,
         },
       }
     }.to change(BetMarket, :count).by(1)
@@ -65,13 +70,18 @@ RSpec.describe BetMarketsController, type: :controller do
       post :create, params: {
         match_id: soccermatch,
         bet_market: {
-          name: "whatever", description: "description",
-          live: false, marketid: 27, markettype: "O",
+          name: "whatever",
+          description: "description",
+          live: false,
+          marketid: 27,
+          markettype: "O",
           status: BetMarket::ACTIVE,
-          exchange_id: 1, number_of_winners: 1,
+          exchange_id: 1,
+          number_of_winners: 1,
           number_of_runners: 3,
-          runners_may_be_added: false, time: Time.now + 7.days,
-          total_matched_amount: 23.98
+          runners_may_be_added: false,
+          time: Time.now + 7.days,
+          total_matched_amount: 23.98,
         },
       }, format: :json
       assert_response :success
@@ -80,12 +90,17 @@ RSpec.describe BetMarketsController, type: :controller do
 
   it "does not create bet_market when there are errors" do
     expect {
-      post :create, params: { match_id: soccermatch, bet_market: {
-        description: "description", live: false,
-        marketid: 27, markettype: "O", number_of_winners: 1,
-        runners_may_be_added: false,
-        time: Time.now + 7.days, type_variant: "D"
-      } }
+      post :create, params: { match_id: soccermatch,
+                              bet_market: {
+                                description: "description",
+                                live: false,
+                                marketid: 27,
+                                markettype: "O",
+                                number_of_winners: 1,
+                                runners_may_be_added: false,
+                                time: Time.now + 7.days,
+                                type_variant: "D",
+                              } }
     }.to change(BetMarket, :count).by(0)
 
     # assert_redirected_to bet_market_path(assigns(:bet_market))
