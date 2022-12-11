@@ -6,6 +6,7 @@
 class AddExchangeIdToEvent < ActiveRecord::Migration[4.2]
   class Event < ApplicationRecord
   end
+
   def up
     change_table :events do |t|
       t.integer :exchange_id, null: false

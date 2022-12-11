@@ -4,10 +4,8 @@
 # $Id$
 #
 FactoryBot.define do
-  MARKET_NAMES = ["Correct Score"].freeze
-
   factory :bet_market do
-    name { MARKET_NAMES.sample }
+    name { "Correct Score" }
     number_of_winners { 1 }
     number_of_runners { 1 }
     status { BetMarket::ACTIVE }

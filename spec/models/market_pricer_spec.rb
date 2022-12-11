@@ -17,16 +17,10 @@ RSpec.describe MarketPricer do
   end
 
   it "Back overround should work correctly" do
-    assert_equal 1, @market_pricer.backOverround
+    expect(@market_pricer.backOverround).to eq(1)
   end
 
   it "lay overround should work correctly" do
-    assert_equal 0, @market_pricer.layOverround
-  end
-
-private
-
-  def assert_equal(a, b)
-    expect(a).to eq(b)
+    expect(@market_pricer.layOverround).to eq(0)
   end
 end

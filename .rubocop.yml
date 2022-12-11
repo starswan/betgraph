@@ -19,13 +19,17 @@ AllCops:
     - 'config/application.rb'
     - 'config/spring.rb'
     - 'config/environments/development.rb'
-    - 'db/migrate/20140603180320_remove_basket_orphans.rb'
     - 'bin/*'
+
+Bundler/OrderedGems:
+  Exclude:
+    - 'Gemfile'
 
 # These 2 files cause 'infinite loop detected' with Rubocop 0.87
 Layout/EmptyLinesAroundAccessModifier:
   Exclude:
     - 'spec/models/match_spec.rb'
+    - 'db/migrate/20140603180320_remove_basket_orphans.rb'
 
 Style/FrozenStringLiteralComment:
   Enabled: true
