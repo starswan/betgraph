@@ -17,7 +17,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
       event.active = true
     end
 
-    after_create(&:create_baskets_from_rules)
+    after_create :create_baskets_from_rules
 
     before_update do |event|
       if event.live_priced_changed?
@@ -89,7 +89,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
     end
 
     def fixture?
-      if menu_path.name.nil? || (menu_path.name.size == 0)
+      if menu_path.name.blank?
         false
       elsif menu_path.name[-1].start_with?("Daily Goals")
         false

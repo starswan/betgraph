@@ -34,7 +34,7 @@ class FootballDivisionsController < ApplicationController
     @menu_paths = valid_menu_paths
     # existing = []
     # FootballDivision.all.each { |fd| existing << fd.division }
-    existing = FootballDivision.all.collect { |fd| fd.division }
+    existing = FootballDivision.all.collect(&:division)
     # @divisions = Division.all(:order => 'name', :conditions => ['active = ?', true]).reject { |d| existing.include?(d) }
     @divisions = Division.where("active = ?", true).order("name").reject { |d| existing.include?(d) }
     # @divisions.reject! do |division|

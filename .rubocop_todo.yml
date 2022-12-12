@@ -715,14 +715,6 @@ Style/SlicingWithRange:
     - 'db/migrate/20140603185332_move_event_columns_to_match.rb'
     - 'wikiparse.rb'
 
-# Offense count: 2
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: AllowModifier.
-Style/SoleNestedConditional:
-  Exclude:
-    - 'app/models/bet_market.rb'
-    - 'app/models/menu_path.rb'
-
 # Offense count: 11
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: Mode.
@@ -753,16 +745,9 @@ Style/SymbolArray:
 # AllowedMethods: define_method, mail, respond_to
 Style/SymbolProc:
   Exclude:
-    - 'app/controllers/basket_items_controller.rb'
-    - 'app/controllers/basket_rule_items_controller.rb'
-    - 'app/controllers/football_divisions_controller.rb'
-    - 'app/controllers/results_controller.rb'
-    - 'app/controllers/team_names_controller.rb'
-    - 'app/controllers/teams_controller.rb'
     - 'app/jobs/make_menu_paths_job.rb'
     - 'app/jobs/refresh_sport_list_job.rb'
     - 'app/jobs/trigger_live_prices_job.rb'
-    - 'app/models/match.rb'
     - 'lib/runner_set.rb'
 
 # Offense count: 5
@@ -771,6 +756,5 @@ Style/ZeroLengthPredicate:
   Exclude:
     - 'app/controllers/football_divisions_controller.rb'
     - 'app/controllers/team_names_controller.rb'
-    - 'db/migrate/20140603185332_move_event_columns_to_match.rb'
     - 'lib/market_pricer.rb'
     - 'tidy.rb'

@@ -14,7 +14,7 @@ class ResultsController < ApplicationController
   # GET /results.xml
   def index
     date = Date.parse params[:date]
-    @results = Match.where("kickofftime >= ? and kickofftime <= ?", date, date + 1.day).collect { |m| m.result }.reject { |r| r.nil? }
+    @results = Match.where("kickofftime >= ? and kickofftime <= ?", date, date + 1.day).map(&:result).compact
 
     respond_to do |format|
       format.html # index.html.erb

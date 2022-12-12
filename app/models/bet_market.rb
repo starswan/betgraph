@@ -108,10 +108,8 @@ class BetMarket < ApplicationRecord
   end
 
   before_update do |bm|
-    if bm.active
-      if bm.betfair_market_type.nil? || bm.match.nil? || bm.betfair_market_type.sport != bm.match.division.calendar.sport
-        bm.betfair_market_type = bm.find_market_type
-      end
+    if bm.active && (bm.betfair_market_type.nil? || bm.match.nil? || bm.betfair_market_type.sport != bm.match.division.calendar.sport)
+      bm.betfair_market_type = bm.find_market_type
     end
   end
 

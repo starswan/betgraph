@@ -105,7 +105,7 @@ private
 
   def find_teams
     # @teams = @sport.teams.all(:include => :team_names).reject { |tm| tm == @team or tm.name.nil? }.sort_by { |t| t.name }
-    @teams = @sport.teams.includes(:team_names).reject { |tm| (tm == @team) || tm.name.nil? }.sort_by { |t| t.name }
+    @teams = @sport.teams.includes(:team_names).reject { |tm| (tm == @team) || tm.name.nil? }.sort_by(&:name)
   end
 
   def find_team

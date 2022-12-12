@@ -45,7 +45,7 @@ class TeamNamesController < ApplicationController
   # GET /team_names/1/edit
   def edit
     # @teams = @team_name.team.sport.teams.all(:include => :team_names).reject { |tm| tm == @team_name.team }.sort_by { |t| t.name }
-    @teams = @team_name.team.sport.teams.includes(:team_names).reject { |tm| tm == @team_name.team }.sort_by { |t| t.name }
+    @teams = @team_name.team.sport.teams.includes(:team_names).reject { |tm| tm == @team_name.team }.sort_by(&:name)
   end
 
   # POST /team_names
