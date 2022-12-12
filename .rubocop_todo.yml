@@ -756,6 +756,5 @@ Style/ZeroLengthPredicate:
   Exclude:
     - 'app/controllers/football_divisions_controller.rb'
     - 'app/controllers/team_names_controller.rb'
-    - 'db/migrate/20140603185332_move_event_columns_to_match.rb'
     - 'lib/market_pricer.rb'
     - 'tidy.rb'

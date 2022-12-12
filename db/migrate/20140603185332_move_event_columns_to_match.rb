@@ -89,7 +89,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
     end
 
     def fixture?
-      if menu_path.name.nil? || (menu_path.name.size == 0)
+      if menu_path.name.blank?
         false
       elsif menu_path.name[-1].start_with?("Daily Goals")
         false
