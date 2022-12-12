@@ -13,10 +13,20 @@ class TidyRunnerTypes < ActiveRecord::Migration[5.1]
         ["#{team} +#{h}", "#{team} -#{h}"]
       }.flatten
       stuff = [
-        '#{hometeam}', '#{awayteam}', "Odd", "Even",
-        "The Draw", "Yes", "No",
-        "Any Other Home Win", "Any Other Away Win", "Any Other Draw", "Any Unquoted", "Any Unquoted ",
-        "Any unquoted", "Draw"
+        '#{hometeam}',
+        '#{awayteam}',
+        "Odd",
+        "Even",
+        "The Draw",
+        "Yes",
+        "No",
+        "Any Other Home Win",
+        "Any Other Away Win",
+        "Any Other Draw",
+        "Any Unquoted",
+        "Any Unquoted ",
+        "Any unquoted",
+        "Draw",
       ]
       over_unders = (0..6).map { |n| ["Under #{n}.5 Goals", "Over #{n}.5 Goals"] }.flatten
       n_or_more_goals = (1..7).map { |n| "#{n} goals or more" }
@@ -29,6 +39,6 @@ class TidyRunnerTypes < ActiveRecord::Migration[5.1]
         end
       end
     end
-    BetfairRunnerType.select { |b| b.market_runners.count == 0 } .map(&:destroy)
+    BetfairRunnerType.select { |b| b.market_runners.count == 0 }.map(&:destroy)
   end
 end

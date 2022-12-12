@@ -8,7 +8,8 @@ FactoryBot.define do
   end
 
   class BetfairMenu
-    attr_accessor :type, :name, :id, :exchangeId, :marketType, :numberOfWinners, :marketStartTime, :children, :countryCode
+    attr_accessor :type, :name, :id, :exchangeId, :marketType, :numberOfWinners,
+                  :marketStartTime, :children, :countryCode
   end
 
   factory :betfair_market, class: "BetfairMenu" do

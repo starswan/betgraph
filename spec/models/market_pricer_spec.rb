@@ -10,23 +10,17 @@ RSpec.describe MarketPricer do
   Runner = Struct.new :bestPricesToBack, :bestPricesToLay
   MarketPriceGroup = Struct.new :runners
 
-  before do
+  let(:market_pricer) do
     runner = Runner.new [], []
     mpc = MarketPriceGroup.new [runner]
-    @market_pricer = described_class.new mpc
+    described_class.new mpc
   end
 
   it "Back overround should work correctly" do
-    assert_equal 1, @market_pricer.backOverround
+    expect(market_pricer.backOverround).to eq(1)
   end
 
   it "lay overround should work correctly" do
-    assert_equal 0, @market_pricer.layOverround
-  end
-
-private
-
-  def assert_equal(a, b)
-    expect(a).to eq(b)
+    expect(market_pricer.layOverround).to eq(0)
   end
 end
