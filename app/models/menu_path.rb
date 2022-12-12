@@ -46,11 +46,9 @@ class MenuPath < ApplicationRecord
       mp.sport = mp.parent_path.sport
       mp.division = mp.parent_path.division
     end
-    if mp.active
-      unless mp.division
-        calendar = mp.sport.calendars.first || mp.sport.calendars.create!(name: "Default")
-        mp.division = calendar.divisions.create!(name: mp.name[-1])
-      end
+    if mp.active && !mp.division
+      calendar = mp.sport.calendars.first || mp.sport.calendars.create!(name: "Default")
+      mp.division = calendar.divisions.create!(name: mp.name[-1])
     end
   end
 

@@ -715,14 +715,6 @@ Style/SlicingWithRange:
     - 'db/migrate/20140603185332_move_event_columns_to_match.rb'
     - 'wikiparse.rb'
 
-# Offense count: 2
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: AllowModifier.
-Style/SoleNestedConditional:
-  Exclude:
-    - 'app/models/bet_market.rb'
-    - 'app/models/menu_path.rb'
-
 # Offense count: 11
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: Mode.
@@ -756,7 +748,6 @@ Style/SymbolProc:
     - 'app/jobs/make_menu_paths_job.rb'
     - 'app/jobs/refresh_sport_list_job.rb'
     - 'app/jobs/trigger_live_prices_job.rb'
-    - 'app/models/match.rb'
     - 'lib/runner_set.rb'
 
 # Offense count: 5

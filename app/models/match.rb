@@ -46,15 +46,7 @@ class Match < ApplicationRecord
     match.endtime = match.kickofftime + match.division.calendar.sport.expiry_time_in_minutes.minutes
   end
 
-  after_create do |match|
-    match.create_baskets_from_rules
-  end
-
-  def create_baskets_from_rules
-    division.calendar.sport.basket_rules.each do |basket_rule|
-      baskets.create! basket_rule: basket_rule, missing_items_count: basket_rule.count
-    end
-  end
+  after_create :create_baskets_from_rules
 
   def homegoals(mins)
     teamscore hometeam.id, mins
@@ -83,6 +75,12 @@ class Match < ApplicationRecord
   delegate :sport, to: :division
 
 private
+
+  def create_baskets_from_rules
+    division.calendar.sport.basket_rules.each do |basket_rule|
+      baskets.create! basket_rule: basket_rule, missing_items_count: basket_rule.count
+    end
+  end
 
   def teamscore(team_id, mins)
     scorers.inject(0) do |total, scorer|
