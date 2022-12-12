@@ -97,7 +97,7 @@ private
     BetMarket.includes(:market_runners)
         .where(match: @basket.match, active: true)
         .order(:name)
-        .collect { |market| market.market_runners }.flatten!
+        .collect(&:market_runners).flatten!
   end
 
   def find_basket

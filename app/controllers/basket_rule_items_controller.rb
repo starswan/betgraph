@@ -106,7 +106,7 @@ private
                         .where(sport: @sport)
                         .where(active: true).order(:name)
                         .includes(:betfair_runner_types)
-                        .collect { |type| type.betfair_runner_types }.flatten!
+                        .collect(&:betfair_runner_types).flatten!
   end
 
   def find_basket_rule

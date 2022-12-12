@@ -753,12 +753,6 @@ Style/SymbolArray:
 # AllowedMethods: define_method, mail, respond_to
 Style/SymbolProc:
   Exclude:
-    - 'app/controllers/basket_items_controller.rb'
-    - 'app/controllers/basket_rule_items_controller.rb'
-    - 'app/controllers/football_divisions_controller.rb'
-    - 'app/controllers/results_controller.rb'
-    - 'app/controllers/team_names_controller.rb'
-    - 'app/controllers/teams_controller.rb'
     - 'app/jobs/make_menu_paths_job.rb'
     - 'app/jobs/refresh_sport_list_job.rb'
     - 'app/jobs/trigger_live_prices_job.rb'
