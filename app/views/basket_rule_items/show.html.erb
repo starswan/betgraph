@@ -1,6 +1,6 @@
 <!-- $Id$ -->
+<%= render 'shared' %>
 <%= link_to @basket_item.basket_rule.name, basket_rule_basket_rule_items_path(@basket_rule) %>
-
 <p>
   <b>Runner type:</b>
   <%= h @basket_item.betfair_runner_type.nameAndMarketName %>

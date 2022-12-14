@@ -32,6 +32,9 @@ if ENV["COVERAGE"]
     add_filter "lib/tasks/db/yaml_load"
     # not really testable
     add_filter "app/jobs/keep_everything_alive_job.rb"
+    add_filter "app/jobs/tickle_live_prices_job.rb"
+    # Will go away some time real soon now
+    add_filter "app/jobs/trigger_live_prices_job.rb"
     # not really testable
     add_filter "app/jobs/make_all_matches_job.rb"
     # not really testable
@@ -54,10 +57,10 @@ if ENV["COVERAGE"]
     # minimum_coverage 86.96
     # setting primary branch coverage reduces us to this really low value
     # minimum_coverage 49.07
-    minimum_coverage 78.67
+    minimum_coverage 89.05
     # we seem to have flakey/non-stable coverage values
     # maybe no longer...?
-    maximum_coverage_drop 0.03
+    maximum_coverage_drop 0.15
   end
 end
 

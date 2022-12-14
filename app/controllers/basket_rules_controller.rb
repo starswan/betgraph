@@ -11,11 +11,10 @@ class BasketRulesController < ApplicationController
   # GET /baskets
   # GET /baskets.xml
   def index
-    # @basket_rules = @sport.basket_rules.all :order => ['name']
     @basket_rules = @sport.basket_rules.order(:name)
 
     respond_to do |format|
-      format.html { render layout: "basket_rules" } # index.html.erb
+      format.html # index.html.erb
       format.xml  { render xml: @basket_rules }
     end
   end

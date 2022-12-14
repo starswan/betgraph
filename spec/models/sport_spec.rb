@@ -11,10 +11,6 @@ RSpec.describe Sport do
       :sport,
       name: "Football",
       teams: [build(:team)],
-      menu_paths: [
-        build(:menu_path, name: ["Football", "Spanish Soccer"]),
-        build(:menu_path, name: ["Football", "Interesting Things"]),
-      ],
     )
   end
 
@@ -35,34 +31,23 @@ RSpec.describe Sport do
 
   it "motor sport match type is motor race" do
     motor_sport = described_class.create! name: "Motor Sport", betfair_sports_id: 800
-    assert_equal("MotorRace", motor_sport.match_type)
+    expect(motor_sport.match_type).to eq("MotorRace")
   end
 
   it "hockey match type is HockeyMatch" do
     tennis = described_class.create! name: "Hockey", betfair_sports_id: 37
-    assert_equal("HockeyMatch", tennis.match_type)
-  end
-
-  it "top menu paths returns top menu paths" do
-    assert_equal([["Football", "Spanish Soccer"], ["Football", "Interesting Things"], %w[Football]],
-                 sport.top_menu_paths.collect(&:name))
+    expect(tennis.match_type).to eq("HockeyMatch")
   end
 
   it "findTeam will return existing team" do
-    assert_equal(sport.teams.first, sport.findTeam(sport.teams.first.name))
+    expect(sport.findTeam(sport.teams.first.name)).to eq(sport.teams.first)
   end
 
   it "findTeam will create new team" do
     expect {
       expect {
-        assert_equal("Twenty", sport.findTeam("Twenty").teamname)
+        expect(sport.findTeam("Twenty").teamname).to eq("Twenty")
       }.to change(TeamName, :count).by(1)
     }.to change(Team, :count).by(1)
-  end
-
-private
-
-  def assert_equal(a, b)
-    expect(b).to eq(a)
   end
 end

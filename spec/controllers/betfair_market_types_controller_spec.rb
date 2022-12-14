@@ -7,9 +7,9 @@ require "rails_helper"
 
 RSpec.describe BetfairMarketTypesController, type: :controller do
   let(:sport) { create(:sport, basket_rules: [build(:basket_rule, name: "Rule 1")]) }
-  before { create(:betfair_market_type, name: "The Market Type", sport: sport) }
-
   let(:market_type) { sport.betfair_market_types.first }
+
+  before { create(:betfair_market_type, name: "The Market Type", sport: sport) }
 
   it "should_get_index" do
     get :index, params: { sport_id: sport }

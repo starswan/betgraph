@@ -4,11 +4,6 @@
 # $Id$
 #
 class LinkMenuPathsToEvents < ActiveRecord::Migration[4.2]
-  # class MigrationBetMarket < ActiveRecord::Base
-  #  self.table_name = :bet_markets
-  #  has_many :market_runners, :dependent => :destroy, :foreign_key => :bet_market_id
-  # end
-
   class MigrationBetfairEvent < ApplicationRecord
     self.table_name = :betfair_events
     # Need this property during migration otherwise can't find any menu paths
@@ -22,7 +17,6 @@ class LinkMenuPathsToEvents < ActiveRecord::Migration[4.2]
   end
 
   def up
-    # remove_column :betfair_events, :menu_path_id
     add_column :betfair_events, :menu_path_id, :integer, null: false
     MigrationBetfairEvent.reset_column_information
 

@@ -1,0 +1,410 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://identitysso-cert.betfair.com/api/certlogin
+    body:
+      encoding: ASCII-8BIT
+      string: "<CREDENTIALS>"
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '87'
+      Date:
+      - Thu, 13 Apr 2023 19:35:09 GMT
+    body:
+      encoding: UTF-8
+      string: '{"sessionToken":"<TOKEN>","loginStatus":"SUCCESS"}'
+  recorded_at: Thu, 13 Apr 2023 19:35:10 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Apr 2023 19:35:10 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '464'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=ElOx8osZEFqMb9BMEXyaygr95pkJR9WOw4R8t9NYdqw-1681414510-0-AZE/9LTej2GLei6/pLKEYMRobfjYGhKm8TYN0sgTwaVo7ZrSJeAEuluMa1/JJGi3kJy1wfTEstJTNBC77G7Tsxs=;
+        path=/; expires=Thu, 13-Apr-23 20:05:10 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fRlEcNXgN3htbiCE8M4guq2SWiRQUXoB%2FJzPCCRN1qhccetVkNS1uoSYUzE59L319hMcCzQLdjQd7Pgc898iL24X5rr0g%2FQjZx2gbQO%2BUxKrpykx0w4rwzKQJTTO1aGgTg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b762690386c48cd-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":17687},{"eventType":{"id":"2","name":"Tennis"},"marketCount":1041},{"eventType":{"id":"3","name":"Golf"},"marketCount":31},{"eventType":{"id":"4","name":"Cricket"},"marketCount":261},{"eventType":{"id":"1477","name":"Rugby
+        League"},"marketCount":81},{"eventType":{"id":"5","name":"Rugby Union"},"marketCount":144},{"eventType":{"id":"6","name":"Boxing"},"marketCount":57},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":801},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":5},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":51},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":20},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":7},{"eventType":{"id":"11","name":"Cycling"},"marketCount":3},{"eventType":{"id":"136332","name":"Chess"},"marketCount":1},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":2},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":65},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":29},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":9},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":119},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":141},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":187},{"eventType":{"id":"468328","name":"Handball"},"marketCount":57},{"eventType":{"id":"3503","name":"Darts"},"marketCount":47},{"eventType":{"id":"26420387","name":"Mixed
+        Martial Arts"},"marketCount":56},{"eventType":{"id":"4339","name":"Greyhound
+        Racing"},"marketCount":524},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":30}]'
+  recorded_at: Thu, 13 Apr 2023 19:35:10 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Apr 2023 19:35:10 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '465'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=KV1Vqy3CyePr3QUsz3VcyzTHJkJIEhbaYifg15tvvb4-1681414510-0-AUDYLzhC3DaQjNYneAfprercF44sBGLnA0XdiXWcZ2SCl5SA6xIp1P5f8MbNQUYRWY23SKg610oh1bhO5vQIQdo=;
+        path=/; expires=Thu, 13-Apr-23 20:05:10 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=c1BdZrMyuhVFqf80BfARt2MJBKHUmoBkO9lOjKTGAiAgLBpNIU85gI5ByuqFchrP1FV9WDQX6DacIcCCfiUq5cHVkR9JfwjZjVfa40z5OLgAMT8PDKy8r0r6XxiM7PrZeg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b7626910ef3067e-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":17682},{"eventType":{"id":"2","name":"Tennis"},"marketCount":1040},{"eventType":{"id":"3","name":"Golf"},"marketCount":31},{"eventType":{"id":"4","name":"Cricket"},"marketCount":261},{"eventType":{"id":"1477","name":"Rugby
+        League"},"marketCount":81},{"eventType":{"id":"5","name":"Rugby Union"},"marketCount":144},{"eventType":{"id":"6","name":"Boxing"},"marketCount":57},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":801},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":5},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":51},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":20},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":7},{"eventType":{"id":"11","name":"Cycling"},"marketCount":3},{"eventType":{"id":"136332","name":"Chess"},"marketCount":1},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":2},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":65},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":29},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":9},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":119},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":141},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":187},{"eventType":{"id":"468328","name":"Handball"},"marketCount":54},{"eventType":{"id":"3503","name":"Darts"},"marketCount":47},{"eventType":{"id":"26420387","name":"Mixed
+        Martial Arts"},"marketCount":56},{"eventType":{"id":"4339","name":"Greyhound
+        Racing"},"marketCount":524},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":30}]'
+  recorded_at: Thu, 13 Apr 2023 19:35:10 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listCompetitions/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"eventTypeIds":["1"]}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Apr 2023 19:35:10 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '3220'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=EEasXkSG97WUpy5HK0anjuw7OKPqqoxIMT_5InF97VQ-1681414510-0-ATKv+jafR8Hjv+5cV2CkTMYKQusqdxUIMUxPhd7g1evOKQ1eNB9+GE+DUi+yM5Hy5+eZdWEju5DGYNWO0Q6eDaA=;
+        path=/; expires=Thu, 13-Apr-23 20:05:10 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=M9x0fIih7CCmPlSv%2FpN1gcBd0wYYqbEoB%2FcKd6j8EXofhg6BNou3GeRALnX8qXcgh7iKVVXawTDZKIjVbH%2BxipF1JWv3iYf5iAdPhZjVMyB511ACmnnIYow6dErdRGLccA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b762691bc51386b-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"competition":{"id":"12185789","name":"Bangladesh Premier League"},"marketCount":72,"competitionRegion":"BGD"},{"competition":{"id":"892425","name":"Czech
+        3 Liga"},"marketCount":120,"competitionRegion":"CZE"},{"competition":{"id":"12206014","name":"Bahraini
+        Premier"},"marketCount":48,"competitionRegion":"BHR"},{"competition":{"id":"12501691","name":"Brazilian
+        Campeonato Women"},"marketCount":47,"competitionRegion":"BRA"},{"competition":{"id":"12199359","name":"Northern
+        Irish Premiership"},"marketCount":144,"competitionRegion":"GBR"},{"competition":{"id":"9","name":"Austrian
+        Erste Liga"},"marketCount":148,"competitionRegion":"AUT"},{"competition":{"id":"11","name":"Dutch
+        Eerste Divisie"},"marketCount":170,"competitionRegion":"NLD"},{"competition":{"id":"12117172","name":"Australian
+        A-League Men"},"marketCount":369,"competitionRegion":"AUS"},{"competition":{"id":"13","name":"Brazilian
+        Serie A"},"marketCount":384,"competitionRegion":"BRA"},{"competition":{"id":"7710075","name":"Polish
+        III Liga"},"marketCount":72,"competitionRegion":"POL"},{"competition":{"id":"15","name":"Bulgarian
+        A League"},"marketCount":96,"competitionRegion":"BGR"},{"competition":{"id":"5281887","name":"Finnish
+        Kolmonen"},"marketCount":24,"competitionRegion":"FIN"},{"competition":{"id":"4431442","name":"Algerian
+        Ligue 1"},"marketCount":24,"competitionRegion":"DZA"},{"competition":{"id":"17","name":"Croatian
+        1 HNL"},"marketCount":76,"competitionRegion":"HRV"},{"competition":{"id":"3127357","name":"Bosnian
+        Premier League"},"marketCount":24,"competitionRegion":"BIH"},{"competition":{"id":"12216489","name":"Kazakhstan
+        Premier League"},"marketCount":2,"competitionRegion":"KAZ"},{"competition":{"id":"12246958","name":"Colombian
+        Women''s Matches"},"marketCount":24,"competitionRegion":"COL"},{"competition":{"id":"1587980","name":"Lithuanian
+        1 Lyga"},"marketCount":48,"competitionRegion":"LTU"},{"competition":{"id":"12204204","name":"Czech
+        1 Liga"},"marketCount":104,"competitionRegion":"CZE"},{"competition":{"id":"12200621","name":"Nicaraguan
+        Primera Division"},"marketCount":24,"competitionRegion":"NIC"},{"competition":{"id":"23","name":"Danish
+        Superliga"},"marketCount":42,"competitionRegion":"DNK"},{"competition":{"id":"12300963","name":"Spanish
+        Segunda Division B - Group 5"},"marketCount":58,"competitionRegion":"ESP"},{"competition":{"id":"25","name":"Danish
+        1st Division"},"marketCount":76,"competitionRegion":"DNK"},{"competition":{"id":"9404054","name":"Dutch
+        Eredivisie"},"marketCount":112,"competitionRegion":"NLD"},{"competition":{"id":"7511144","name":"Argentinian
+        Primera C"},"marketCount":24,"competitionRegion":"ARG"},{"competition":{"id":"842258","name":"Qatari
+        Stars League"},"marketCount":48,"competitionRegion":"QAT"},{"competition":{"id":"11620783","name":"German
+        Junioren Bundesliga"},"marketCount":120,"competitionRegion":"DEU"},{"competition":{"id":"12209560","name":"French
+        Cup"},"marketCount":7,"competitionRegion":"FRA"},{"competition":{"id":"35","name":"English
+        League 1"},"marketCount":303,"competitionRegion":"GBR"},{"competition":{"id":"321319","name":"Brazilian
+        Serie B"},"marketCount":181,"competitionRegion":"BRA"},{"competition":{"id":"37","name":"English
+        League 2"},"marketCount":292,"competitionRegion":"GBR"},{"competition":{"id":"12383129","name":"Spanish
+        Primera Division RFEF Group 2"},"marketCount":104,"competitionRegion":"ESP"},{"competition":{"id":"12214429","name":"Italian
+        Cup"},"marketCount":2,"competitionRegion":"ITA"},{"competition":{"id":"8594603","name":"Peruvian
+        Primera Division"},"marketCount":75,"competitionRegion":"PER"},{"competition":{"id":"12006302","name":"Indonesian
+        Liga 1"},"marketCount":48,"competitionRegion":"IDN"},{"competition":{"id":"4905","name":"Romanian
+        Liga I"},"marketCount":223,"competitionRegion":"ROU"},{"competition":{"id":"9513","name":"Portuguese
+        Segunda Liga"},"marketCount":124,"competitionRegion":"PRT"},{"competition":{"id":"41","name":"English
+        National League North"},"marketCount":240,"competitionRegion":"GBR"},{"competition":{"id":"12216976","name":"Latvian
+        Virsliga"},"marketCount":48,"competitionRegion":"LVA"},{"competition":{"id":"1065530","name":"Venezuelan
+        Primera Division"},"marketCount":72,"competitionRegion":"VEN"},{"competition":{"id":"2609677","name":"Moroccan
+        Botola Pro 1"},"marketCount":54,"competitionRegion":"MAR"},{"competition":{"id":"43","name":"English
+        National League South"},"marketCount":331,"competitionRegion":"GBR"},{"competition":{"id":"12383127","name":"Spanish
+        Primera Division RFEF Group 1"},"marketCount":78,"competitionRegion":"ESP"},{"competition":{"id":"45","name":"Finnish
+        Veikkausliiga"},"marketCount":122,"competitionRegion":"FIN"},{"competition":{"id":"12209556","name":"Icelandic
+        Urvalsdeild"},"marketCount":72,"competitionRegion":"ISL"},{"competition":{"id":"47","name":"Finnish
+        Ykkonen"},"marketCount":122,"competitionRegion":"FIN"},{"competition":{"id":"11068551","name":"Norwegian
+        Eliteserien"},"marketCount":47,"competitionRegion":"NOR"},{"competition":{"id":"12531088","name":"UEFA
+        Euro 2024"},"marketCount":1,"competitionRegion":"International"},{"competition":{"id":"12209546","name":"Norwegian
+        1st Division"},"marketCount":60,"competitionRegion":"NOR"},{"competition":{"id":"3972877","name":"Panamanian
+        Premier League"},"marketCount":24,"competitionRegion":"PAN"},{"competition":{"id":"1327393","name":"Maltese
+        Premier League"},"marketCount":72,"competitionRegion":"MLT"},{"competition":{"id":"55","name":"French
+        Ligue 1"},"marketCount":306,"competitionRegion":"FRA"},{"competition":{"id":"7344968","name":"German
+        Oberliga"},"marketCount":48,"competitionRegion":"DEU"},{"competition":{"id":"11641480","name":"UAE
+        Arabian Gulf League"},"marketCount":12,"competitionRegion":"ARE"},{"competition":{"id":"57","name":"French
+        Ligue 2"},"marketCount":217,"competitionRegion":"FRA"},{"competition":{"id":"67387","name":"Argentinian
+        Primera Division"},"marketCount":117,"competitionRegion":"ARG"},{"competition":{"id":"59","name":"German
+        Bundesliga"},"marketCount":368,"competitionRegion":"DEU"},{"competition":{"id":"61","name":"German
+        Bundesliga 2"},"marketCount":204,"competitionRegion":"DEU"},{"competition":{"id":"63","name":"German
+        Regionalliga North"},"marketCount":96,"competitionRegion":"DEU"},{"competition":{"id":"12202373","name":"Swedish
+        Superettan"},"marketCount":101,"competitionRegion":"SWE"},{"competition":{"id":"65","name":"German
+        Regionalliga Southwest"},"marketCount":194,"competitionRegion":"DEU"},{"competition":{"id":"175680","name":"Turkish
+        1 Lig"},"marketCount":40,"competitionRegion":"TUR"},{"competition":{"id":"12013300","name":"Slovakian
+        Super League"},"marketCount":122,"competitionRegion":"SVK"},{"competition":{"id":"12148223","name":"Brazilian
+        U20"},"marketCount":129,"competitionRegion":"BRA"},{"competition":{"id":"12209405","name":"Saudi
+        Professional League"},"marketCount":24,"competitionRegion":"SAU"},{"competition":{"id":"12005119","name":"Icelandic
+        Women''s Matches"},"marketCount":48,"competitionRegion":"ISL"},{"competition":{"id":"6104087","name":"Uruguayan
+        Segunda Division"},"marketCount":72,"competitionRegion":"URY"},{"competition":{"id":"856134","name":"Colombian
+        Primera B"},"marketCount":76,"competitionRegion":"COL"},{"competition":{"id":"81","name":"Italian
+        Serie A"},"marketCount":348,"competitionRegion":"ITA"},{"competition":{"id":"12205806","name":"Israeli
+        National League"},"marketCount":24,"competitionRegion":"ISR"},{"competition":{"id":"11853536","name":"Swedish
+        Division 1"},"marketCount":32,"competitionRegion":"SWE"},{"competition":{"id":"12206060","name":"French
+        National 2"},"marketCount":24,"competitionRegion":"FRA"},{"competition":{"id":"872276","name":"Norwegian
+        U19"},"marketCount":32,"competitionRegion":"NOR"},{"competition":{"id":"89","name":"Japanese
+        J League"},"marketCount":216,"competitionRegion":"JPN"},{"competition":{"id":"30558","name":"English
+        FA Cup"},"marketCount":17,"competitionRegion":"GBR"},{"competition":{"id":"12552926","name":"UEFA
+        Euro Qualifiers"},"marketCount":10,"competitionRegion":"International"},{"competition":{"id":"97","name":"Polish
+        Ekstraklasa"},"marketCount":127,"competitionRegion":"POL"},{"competition":{"id":"11635923","name":"Omani
+        Professional League"},"marketCount":12,"competitionRegion":"ARE"},{"competition":{"id":"99","name":"Portuguese
+        Primeira Liga"},"marketCount":140,"competitionRegion":"PRT"},{"competition":{"id":"840808","name":"German
+        Regionalliga West"},"marketCount":216,"competitionRegion":"DEU"},{"competition":{"id":"827754","name":"Mexican
+        Ascenso MX"},"marketCount":72,"competitionRegion":"MEX"},{"competition":{"id":"803690","name":"Ecuadorian
+        Serie A"},"marketCount":54,"competitionRegion":"ECU"},{"competition":{"id":"12005855","name":"Irish
+        Division 1"},"marketCount":120,"competitionRegion":"IRL"},{"competition":{"id":"105","name":"Scottish
+        Premiership"},"marketCount":168,"competitionRegion":"GBR"},{"competition":{"id":"107","name":"Scottish
+        Championship"},"marketCount":129,"competitionRegion":"GBR"},{"competition":{"id":"109","name":"Scottish
+        League One"},"marketCount":120,"competitionRegion":"GBR"},{"competition":{"id":"111","name":"Scottish
+        League Two"},"marketCount":120,"competitionRegion":"GBR"},{"competition":{"id":"5627174","name":"Mexican
+        Liga MX"},"marketCount":82,"competitionRegion":"MEX"},{"competition":{"id":"115","name":"Slovenian
+        Premier League"},"marketCount":96,"competitionRegion":"SVN"},{"competition":{"id":"117","name":"Spanish
+        La Liga"},"marketCount":353,"competitionRegion":"ESP"},{"competition":{"id":"879221","name":"Lithuanian
+        A Lyga"},"marketCount":24,"competitionRegion":"LTU"},{"competition":{"id":"1081960","name":"French
+        National"},"marketCount":192,"competitionRegion":"FRA"},{"competition":{"id":"12203971","name":"Irish
+        Premier Division"},"marketCount":98,"competitionRegion":"IRL"},{"competition":{"id":"121","name":"Spanish
+        Segunda Division B - Group 1"},"marketCount":38,"competitionRegion":"ESP"},{"competition":{"id":"5618479","name":"Israeli
+        Liga Alef"},"marketCount":312,"competitionRegion":"ISR"},{"competition":{"id":"89979","name":"Belgian
+        First Division A"},"marketCount":173,"competitionRegion":"BEL"},{"competition":{"id":"123","name":"Spanish
+        Segunda Division B - Group 2"},"marketCount":52,"competitionRegion":"ESP"},{"competition":{"id":"125","name":"Spanish
+        Segunda Division B - Group 3"},"marketCount":38,"competitionRegion":"ESP"},{"competition":{"id":"862579","name":"Romanian
+        Liga II"},"marketCount":96,"competitionRegion":"ROU"},{"competition":{"id":"127","name":"Spanish
+        Segunda Division B - Group 4"},"marketCount":62,"competitionRegion":"ESP"},{"competition":{"id":"12331715","name":"US
+        National Women Soccer League"},"marketCount":2,"competitionRegion":"USA"},{"competition":{"id":"2608550","name":"Specials"},"marketCount":9,"competitionRegion":"International"},{"competition":{"id":"3057583","name":"Ecuadorian
+        Serie B"},"marketCount":24,"competitionRegion":"ECU"},{"competition":{"id":"129","name":"Swedish
+        Allsvenskan"},"marketCount":76,"competitionRegion":"SWE"},{"competition":{"id":"89219","name":"Brazilian
+        Cup"},"marketCount":90,"competitionRegion":"BRA"},{"competition":{"id":"12016693","name":"Danish
+        Women''s Matches"},"marketCount":50,"competitionRegion":"DNK"},{"competition":{"id":"318343","name":"German
+        Regionalliga Northeast"},"marketCount":146,"competitionRegion":"DEU"},{"competition":{"id":"12204606","name":"English
+        Women''s Matches"},"marketCount":15,"competitionRegion":"GBR"},{"competition":{"id":"857992","name":"Chilean
+        Primera B"},"marketCount":54,"competitionRegion":"CHL"},{"competition":{"id":"133","name":"Swiss
+        Super League"},"marketCount":72,"competitionRegion":"CHE"},{"competition":{"id":"135","name":"Swiss
+        Challenge League"},"marketCount":76,"competitionRegion":"CHE"},{"competition":{"id":"12216637","name":"US
+        United Soccer League"},"marketCount":16,"competitionRegion":"USA"},{"competition":{"id":"11838780","name":"Polish
+        2 Liga"},"marketCount":148,"competitionRegion":"POL"},{"competition":{"id":"6573805","name":"UAE
+        Division 1"},"marketCount":12,"competitionRegion":"ARE"},{"competition":{"id":"139","name":"Ukrainian
+        Premier League"},"marketCount":148,"competitionRegion":"UKR"},{"competition":{"id":"403085","name":"Polish
+        I Liga"},"marketCount":192,"competitionRegion":"POL"},{"competition":{"id":"141","name":"US
+        Major League Soccer"},"marketCount":27,"competitionRegion":"USA"},{"competition":{"id":"2079376","name":"Costa
+        Rican Primera Division"},"marketCount":2,"competitionRegion":"CRI"},{"competition":{"id":"12007718","name":"Mexican
+        Women''s Matches"},"marketCount":24,"competitionRegion":"MEX"},{"competition":{"id":"194961","name":"CONCACAF
+        Champions League"},"marketCount":24,"competitionRegion":"International"},{"competition":{"id":"11770149","name":"Austrian
+        Amateurs"},"marketCount":48,"competitionRegion":"AUT"},{"competition":{"id":"12108847","name":"Australian
+        A-League Women"},"marketCount":23,"competitionRegion":"AUS"},{"competition":{"id":"1062024","name":"Japanese
+        J League 2"},"marketCount":22,"competitionRegion":"JPN"},{"competition":{"id":"822165","name":"Israeli
+        Premier League"},"marketCount":124,"competitionRegion":"ISR"},{"competition":{"id":"839575","name":"Paraguayan
+        Primera Division"},"marketCount":73,"competitionRegion":"PRY"},{"competition":{"id":"2315454","name":"Saudi
+        1st Division"},"marketCount":12,"competitionRegion":"SAU"},{"competition":{"id":"11086347","name":"English
+        National League"},"marketCount":289,"competitionRegion":"GBR"},{"competition":{"id":"862638","name":"Czech
+        2 Liga"},"marketCount":126,"competitionRegion":"CZE"},{"competition":{"id":"12204313","name":"Spanish
+        Segunda Division"},"marketCount":176,"competitionRegion":"ESP"},{"competition":{"id":"4802285","name":"Japanese
+        J League 3"},"marketCount":86,"competitionRegion":"JPN"},{"competition":{"id":"12375833","name":"UEFA
+        Europa Conference League"},"marketCount":120,"competitionRegion":"International"},{"competition":{"id":"194215","name":"Turkish
+        Super League"},"marketCount":175,"competitionRegion":"TUR"},{"competition":{"id":"844197","name":"Colombian
+        Primera A"},"marketCount":105,"competitionRegion":"COL"},{"competition":{"id":"855972","name":"UAE
+        Presidents Cup"},"marketCount":24,"competitionRegion":"ARE"},{"competition":{"id":"803237","name":"Argentinian
+        Primera B Nacional"},"marketCount":178,"competitionRegion":"ARG"},{"competition":{"id":"744098","name":"Chilean
+        Primera Division"},"marketCount":98,"competitionRegion":"CHL"},{"competition":{"id":"12205840","name":"English
+        Premier League 2 - Div 2"},"marketCount":72,"competitionRegion":"GBR"},{"competition":{"id":"12008730","name":"Polish
+        Women''s Matches"},"marketCount":24,"competitionRegion":"POL"},{"competition":{"id":"853948","name":"German
+        Regionalliga Bavaria"},"marketCount":215,"competitionRegion":"DEU"},{"competition":{"id":"843454","name":"Uruguayan
+        Primera Division"},"marketCount":78,"competitionRegion":"URY"},{"competition":{"id":"12199689","name":"Italian
+        Serie B"},"marketCount":218,"competitionRegion":"ITA"},{"competition":{"id":"801976","name":"Egyptian
+        Premier"},"marketCount":142,"competitionRegion":"EGY"},{"competition":{"id":"8995647","name":"Slovenian
+        2 SNL"},"marketCount":96,"competitionRegion":"SVN"},{"competition":{"id":"10932509","name":"English
+        Premier League"},"marketCount":507,"competitionRegion":"GBR"},{"competition":{"id":"3992967","name":"Croatian
+        2 HNL"},"marketCount":96,"competitionRegion":"HRV"},{"competition":{"id":"11591693","name":"German
+        3 Liga"},"marketCount":172,"competitionRegion":"DEU"},{"competition":{"id":"12199685","name":"English
+        Premier League 2 - Div 1"},"marketCount":24,"competitionRegion":"GBR"},{"competition":{"id":"3006957","name":"Romanian
+        Liga III"},"marketCount":336,"competitionRegion":"ROU"},{"competition":{"id":"12010356","name":"Japanese
+        Women''s Matches"},"marketCount":24,"competitionRegion":"JPN"},{"competition":{"id":"12395641","name":"South
+        Korean K League 2"},"marketCount":100,"competitionRegion":"KOR"},{"competition":{"id":"12215677","name":"Slovakian
+        2 Liga"},"marketCount":148,"competitionRegion":"SVK"},{"competition":{"id":"12213874","name":"Icelandic
+        League Cup B"},"marketCount":48,"competitionRegion":"ISL"},{"competition":{"id":"11812477","name":"Indian
+        Super Cup"},"marketCount":48,"competitionRegion":"IND"},{"competition":{"id":"12395639","name":"South
+        Korean K League 1"},"marketCount":75,"competitionRegion":"KOR"},{"competition":{"id":"10479956","name":"Austrian
+        Bundesliga"},"marketCount":87,"competitionRegion":"AUT"},{"competition":{"id":"12201576","name":"Spanish
+        Women''s Matches"},"marketCount":100,"competitionRegion":"ESP"},{"competition":{"id":"2005","name":"UEFA
+        Europa League"},"marketCount":129,"competitionRegion":"International"},{"competition":{"id":"12511339","name":"English
+        U21 Pro Development League"},"marketCount":48,"competitionRegion":"GBR"},{"competition":{"id":"12216175","name":"Estonian
+        Premier League"},"marketCount":54,"competitionRegion":"EST"},{"competition":{"id":"12199513","name":"Italian
+        Serie C"},"marketCount":249,"competitionRegion":"ITA"},{"competition":{"id":"228","name":"UEFA
+        - Champions League"},"marketCount":35,"competitionRegion":"International"},{"competition":{"id":"12469077","name":"FIFA
+        World Cup"},"marketCount":1,"competitionRegion":"International"},{"competition":{"id":"1842928","name":"Hungarian
+        NB I"},"marketCount":100,"competitionRegion":"HUN"},{"competition":{"id":"12007003","name":"Bolivian
+        Liga de Futbol Profesional"},"marketCount":24,"competitionRegion":"BOL"},{"competition":{"id":"7129730","name":"English
+        Championship"},"marketCount":475,"competitionRegion":"GBR"},{"competition":{"id":"12150858","name":"Belgian
+        Reserves"},"marketCount":48,"competitionRegion":"BEL"},{"competition":{"id":"11717188","name":"Belgian
+        First Division B"},"marketCount":52,"competitionRegion":"BEL"},{"competition":{"id":"11984200","name":"UEFA
+        Nations League"},"marketCount":1,"competitionRegion":"International"},{"competition":{"id":"12220485","name":"FIFA
+        Women''s World Cup"},"marketCount":2,"competitionRegion":"International"}]'
+  recorded_at: Thu, 13 Apr 2023 19:35:10 GMT
+recorded_with: VCR 6.1.0

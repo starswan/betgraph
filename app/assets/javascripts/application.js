@@ -12,7 +12,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require rails-ujs
 //= require raphael
 //= require morris
 //= require Chart.bundle

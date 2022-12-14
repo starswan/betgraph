@@ -89,13 +89,13 @@ module BetMarketsHelper
   end
 
   def winners_for(market)
-    market.number_of_winners.to_i < 1 ? [] : market.winners
+    market.winners
   end
 
 private
 
   def flatten_winners(markets)
-    markets.collect { |m| winners_for(m) }.flatten
+    markets.map { |m| winners_for(m) }.flatten
   end
   # def displayAmount(value)
   #   value.nil? ? "-" : "&pound;" + h(value)

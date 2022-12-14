@@ -18,7 +18,6 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-# require "webmock/rspec"
 require "vcr"
 
 RSpec.configure do |config|
@@ -95,19 +94,47 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
   # =end
-  #
-  # config.around(:each, :vcr) do |example|
-  #   WebMock.allow_net_connect!
-  #   example.run
-  #   WebMock.disable_net_connect!
-  # end
 end
 
 VCR.configure do |config|
   # config.ignore_localhost = true
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   # using this higher-level hook allows WebMock to write-out stub calls when not in VCR-mode
-  config.hook_into :faraday
+  # config.hook_into :faraday
+  # Need to use lower-level hook as using HTTPI and net_http_persistent now (betfair_ng)
+  config.hook_into :webmock
   config.configure_rspec_metadata!
+  # config.debug_logger = File.open('vcr.log', 'w')
+
+  # defaults tp method and URI only
+  config.default_cassette_options = {
+    match_requests_on: [
+      :method,
+      :uri,
+      :mostly_body,
+    ],
+  }
+
+  # login bodies are redacted in cassettes, so we need to ignore them in the matcher
+  config.register_request_matcher :mostly_body do |r1, r2|
+    if r1.uri == "https://identitysso-cert.betfair.com/api/certlogin"
+      true
+    else
+      r1.body == r2.body
+    end
+  end
+
   # config.allow_http_connections_when_no_cassette = true
+  config.filter_sensitive_data("<CREDENTIALS>") do |interaction|
+    if interaction.request.uri == "https://identitysso-cert.betfair.com/api/certlogin"
+      interaction.request.body
+    end
+  end
+  config.filter_sensitive_data("<APIKEY>") do |interaction|
+    # we talk to the BBC API which doesn't use this header
+    interaction.request.headers["X-Application"]&.first
+  end
+  config.filter_sensitive_data("<TOKEN>") do |interaction|
+    interaction.request.headers["X-Authentication"]&.first || JSON.parse(interaction.response.body)["sessionToken"]
+  end
 end

@@ -5,17 +5,21 @@
 #
 require "rails_helper"
 
-RSpec.describe RefreshSportListJob, :betfair, type: :job do
+RSpec.describe RefreshSportListJob, :vcr, :betfair, type: :job do
   before do
     create(:login)
-    stub_betfair_login
+    create(:soccer,
+           betfair_sports_id: 1,
+           betfair_market_types: [
+             build(:betfair_market_type, name: "Match Odds"),
+             build(:betfair_market_type, name: "Asian Handicap"),
+           ],
+           calendars: build_list(:calendar, 1, divisions: build_list(:division, 1)))
   end
-  # let!(:soccer) { create(:sport, name: 'soccer', betfair_sports_id: 1,
-  #                                    active: true, menu_paths: [build(:menu_path)])}
 
   it "performs" do
-    # Should be done like this with mocks
-    # expect(DummyBetfairLogin).to receive(:new).and_return()
-    described_class.perform_later
+    expect {
+      described_class.perform_later
+    }.to change(Competition, :count).by(169)
   end
 end

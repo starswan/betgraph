@@ -21,6 +21,8 @@ gem "backburner"
 gem "backup-task"
 
 # gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
+gem "betfair-ng", require: "betfair"
+gem "net-http-persistent"
 
 # rails 5.2 faster load times
 gem "bootsnap"

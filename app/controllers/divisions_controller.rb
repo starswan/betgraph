@@ -86,7 +86,6 @@ class DivisionsController < ApplicationController
   def destroy
     @division = Division.find(params[:id])
     @division.destroy
-    @division.menu_paths.each { |path| MakeMenuPathsJob.perform_later(path) }
 
     respond_to do |format|
       format.html { redirect_to sport_divisions_path(@division.calendar.sport) }

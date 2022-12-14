@@ -3,5 +3,5 @@
 #
 # $Id$
 #
-class TennisMatch < TwoPlayerMatch
+class TennisMatch < AvsBMatch
 end

@@ -1,0 +1,20 @@
+<% content_for :title  do %>
+  MarketRunners: <%= controller.action_name %>
+<% end %>
+<% content_for :menu do %>
+  <%= render 'layouts/shared/active_sports_links' %>
+  <% actives = @bet_market.match.bet_markets.active_status.where.not(id: @bet_market.id).order(:name) %>
+  <% if @bet_market.half_time? %>
+    <% actives.half_time.each do |bet_market| %>
+      <li class="nav-item">
+        <%= link_to bet_market.name, bet_market_market_runners_path(bet_market), class: 'nav-link' %>
+      </li>
+    <% end %>
+  <% else %>
+    <% actives.full_time.each do |bet_market| %>
+      <li class="nav-item">
+        <%= link_to bet_market.name, bet_market_market_runners_path(bet_market), class: 'nav-link' %>
+      </li>
+    <% end %>
+  <% end %>
+<% end %>

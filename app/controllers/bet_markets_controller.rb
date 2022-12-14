@@ -110,7 +110,7 @@ private
     params.require(:bet_market)
           .permit(:marketid, :name,
                   :description, :markettype, :status, :live, :time,
-                  :number_of_winners, :type_variant, :runners_may_be_added,
+                  :type_variant,
                   :number_of_runners, :total_matched_amount, :active,
                   :live_priced, :match_id,
                   :exchange_id)

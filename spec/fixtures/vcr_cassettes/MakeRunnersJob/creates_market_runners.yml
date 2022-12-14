@@ -1,0 +1,921 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://identitysso-cert.betfair.com/api/certlogin
+    body:
+      encoding: ASCII-8BIT
+      string: "<CREDENTIALS>"
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '87'
+      Date:
+      - Tue, 18 Apr 2023 16:35:56 GMT
+    body:
+      encoding: UTF-8
+      string: '{"sessionToken":"<TOKEN>","loginStatus":"SUCCESS"}'
+  recorded_at: Tue, 18 Apr 2023 16:35:57 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:57 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '466'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=3FM.utS26G4XzUoIPJadtANqb3PWr_Vk1YMT5TwiJ_Q-1681835757-0-AQrnOIfAlRbPEYooMmXNkZj3GOOVfd6FFu2+fwsmpVa0pI2GjhiypAnRb84mxqQTtlFVd2FdPImCV47HuXhaBZc=;
+        path=/; expires=Tue, 18-Apr-23 17:05:57 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tSdlAgXsegVpo8t95I6Yza5ZT7tdGhJWfDZue6oclNlHmyd2xjWYopGx75T142gkxr7hXc%2F9HmEam5GGCJGakuo09K1gMcXkXf5QceTtDtidu2wxinv81yKrbIDeab%2FWaQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52ec79b871c9-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":9131},{"eventType":{"id":"2","name":"Tennis"},"marketCount":4497},{"eventType":{"id":"3","name":"Golf"},"marketCount":45},{"eventType":{"id":"4","name":"Cricket"},"marketCount":196},{"eventType":{"id":"1477","name":"Rugby
+        League"},"marketCount":84},{"eventType":{"id":"5","name":"Rugby Union"},"marketCount":74},{"eventType":{"id":"6","name":"Boxing"},"marketCount":52},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":576},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":5},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":81},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":21},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":5},{"eventType":{"id":"11","name":"Cycling"},"marketCount":4},{"eventType":{"id":"136332","name":"Chess"},"marketCount":1},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":2},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":95},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":69},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":9},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":226},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":105},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":155},{"eventType":{"id":"468328","name":"Handball"},"marketCount":93},{"eventType":{"id":"3503","name":"Darts"},"marketCount":43},{"eventType":{"id":"26420387","name":"Mixed
+        Martial Arts"},"marketCount":17},{"eventType":{"id":"4339","name":"Greyhound
+        Racing"},"marketCount":563},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":31}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:57 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:57 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '465'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=BDJ.1ixzXejaBgjUSPDnsBnUg_4rjpyevWyoBbTUsCQ-1681835757-0-AQQEtoBCNmmx/KFtV23WoNF8euW7Nm+Rc7Jezb1vX01apk73Nhtq1mVsOCL3aVMVX9og1OyDnlc7s3xik/RmZEY=;
+        path=/; expires=Tue, 18-Apr-23 17:05:57 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FbKiuuGxMzIpvU4K2HsAUPOWhxAXN6x8NC0Iwu6qwcSuYEDF1AY5jlWLoXEQS3Ukrr%2BFQ1ZDfxFYBqWX5YZSoFaNjA1CWE5gH8WanRIZKkXKo7JUUZC0%2FqhMWb%2BCIJ%2BJ1A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52ecf95ddd7c-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":9131},{"eventType":{"id":"2","name":"Tennis"},"marketCount":4500},{"eventType":{"id":"3","name":"Golf"},"marketCount":45},{"eventType":{"id":"4","name":"Cricket"},"marketCount":196},{"eventType":{"id":"1477","name":"Rugby
+        League"},"marketCount":84},{"eventType":{"id":"5","name":"Rugby Union"},"marketCount":74},{"eventType":{"id":"6","name":"Boxing"},"marketCount":52},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":576},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":5},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":81},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":21},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":5},{"eventType":{"id":"11","name":"Cycling"},"marketCount":4},{"eventType":{"id":"136332","name":"Chess"},"marketCount":1},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":2},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":95},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":69},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":9},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":226},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":105},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":155},{"eventType":{"id":"468328","name":"Handball"},"marketCount":93},{"eventType":{"id":"3503","name":"Darts"},"marketCount":43},{"eventType":{"id":"26420387","name":"Mixed
+        Martial Arts"},"marketCount":17},{"eventType":{"id":"4339","name":"Greyhound
+        Racing"},"marketCount":563},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":31}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:57 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listCompetitions/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"eventTypeIds":["1"]}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:57 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '2416'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=CyZ6A8_vw0lG1_C24WQ3u0DyR0JmF6BW4nU0D5Ldek4-1681835757-0-AecXCY3oWlBnoCWz3Dh98YiOYR/N6AllbausUG0hp9y7gMq12KhOlLcb6C6T1dx6v208JA6snu380+WBlvb88po=;
+        path=/; expires=Tue, 18-Apr-23 17:05:57 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JG2Gs5GUL4VxqCXEqRlGfQ7OZUlzBd%2FkYU6JUosee7b8iQckLi6sgQWZIthuFP1KJMv9Pj4%2BOVNDANO9HTImzeiKAuOqfvOM%2BKLaqE9rg0gHlQ9gMqZcFbaiJxbdUZjFRQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52edcc827308-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"competition":{"id":"8404098","name":"Hong Kong Sapling Cup"},"marketCount":24,"competitionRegion":"HKG"},{"competition":{"id":"12200889","name":"English
+        Northern Premier League"},"marketCount":24,"competitionRegion":"GBR"},{"competition":{"id":"892425","name":"Czech
+        3 Liga"},"marketCount":120,"competitionRegion":"CZE"},{"competition":{"id":"12206014","name":"Bahraini
+        Premier"},"marketCount":48,"competitionRegion":"BHR"},{"competition":{"id":"10699940","name":"South
+        African Premier Division"},"marketCount":24,"competitionRegion":"ZAF"},{"competition":{"id":"9","name":"Austrian
+        Erste Liga"},"marketCount":34,"competitionRegion":"AUT"},{"competition":{"id":"12117172","name":"Australian
+        A-League Men"},"marketCount":170,"competitionRegion":"AUS"},{"competition":{"id":"12199351","name":"English
+        Southern Premier League"},"marketCount":120,"competitionRegion":"GBR"},{"competition":{"id":"13","name":"Brazilian
+        Serie A"},"marketCount":330,"competitionRegion":"BRA"},{"competition":{"id":"15","name":"Bulgarian
+        A League"},"marketCount":2,"competitionRegion":"BGR"},{"competition":{"id":"12220074","name":"Kazakhstan
+        Cup"},"marketCount":192,"competitionRegion":"KAZ"},{"competition":{"id":"4431442","name":"Algerian
+        Ligue 1"},"marketCount":18,"competitionRegion":"DZA"},{"competition":{"id":"17","name":"Croatian
+        1 HNL"},"marketCount":5,"competitionRegion":"HRV"},{"competition":{"id":"12204204","name":"Czech
+        1 Liga"},"marketCount":7,"competitionRegion":"CZE"},{"competition":{"id":"12199341","name":"English
+        Isthmian Division 1"},"marketCount":48,"competitionRegion":"GBR"},{"competition":{"id":"23","name":"Danish
+        Superliga"},"marketCount":6,"competitionRegion":"DNK"},{"competition":{"id":"12306595","name":"Gambian
+        GFA League 1st Division"},"marketCount":43,"competitionRegion":"GMB"},{"competition":{"id":"9404054","name":"Dutch
+        Eredivisie"},"marketCount":42,"competitionRegion":"NLD"},{"competition":{"id":"25","name":"Danish
+        1st Division"},"marketCount":24,"competitionRegion":"DNK"},{"competition":{"id":"7511144","name":"Argentinian
+        Primera C"},"marketCount":24,"competitionRegion":"ARG"},{"competition":{"id":"842258","name":"Qatari
+        Stars League"},"marketCount":12,"competitionRegion":"QAT"},{"competition":{"id":"12209560","name":"French
+        Cup"},"marketCount":7,"competitionRegion":"FRA"},{"competition":{"id":"35","name":"English
+        League 1"},"marketCount":280,"competitionRegion":"GBR"},{"competition":{"id":"321319","name":"Brazilian
+        Serie B"},"marketCount":228,"competitionRegion":"BRA"},{"competition":{"id":"12009363","name":"Salvadoran
+        Primera Division"},"marketCount":24,"competitionRegion":"SLV"},{"competition":{"id":"37","name":"English
+        League 2"},"marketCount":280,"competitionRegion":"GBR"},{"competition":{"id":"12573336","name":"CONCACAF
+        Ladies U20 Cup Qualifiers"},"marketCount":24,"competitionRegion":"International"},{"competition":{"id":"12214429","name":"Italian
+        Cup"},"marketCount":2,"competitionRegion":"ITA"},{"competition":{"id":"41","name":"English
+        National League North"},"marketCount":96,"competitionRegion":"GBR"},{"competition":{"id":"4905","name":"Romanian
+        Liga I"},"marketCount":7,"competitionRegion":"ROU"},{"competition":{"id":"12216976","name":"Latvian
+        Virsliga"},"marketCount":48,"competitionRegion":"LVA"},{"competition":{"id":"2609677","name":"Moroccan
+        Botola Pro 1"},"marketCount":48,"competitionRegion":"MAR"},{"competition":{"id":"43","name":"English
+        National League South"},"marketCount":96,"competitionRegion":"GBR"},{"competition":{"id":"45","name":"Finnish
+        Veikkausliiga"},"marketCount":50,"competitionRegion":"FIN"},{"competition":{"id":"11068551","name":"Norwegian
+        Eliteserien"},"marketCount":25,"competitionRegion":"NOR"},{"competition":{"id":"47","name":"Finnish
+        Ykkonen"},"marketCount":2,"competitionRegion":"FIN"},{"competition":{"id":"12531088","name":"UEFA
+        Euro 2024"},"marketCount":1,"competitionRegion":"International"},{"competition":{"id":"55","name":"French
+        Ligue 1"},"marketCount":135,"competitionRegion":"FRA"},{"competition":{"id":"7344968","name":"German
+        Oberliga"},"marketCount":216,"competitionRegion":"DEU"},{"competition":{"id":"11641480","name":"UAE
+        Arabian Gulf League"},"marketCount":84,"competitionRegion":"ARE"},{"competition":{"id":"11690123","name":"Welsh
+        Matches"},"marketCount":24,"competitionRegion":"GBR"},{"competition":{"id":"57","name":"French
+        Ligue 2"},"marketCount":1,"competitionRegion":"FRA"},{"competition":{"id":"67387","name":"Argentinian
+        Primera Division"},"marketCount":10,"competitionRegion":"ARG"},{"competition":{"id":"59","name":"German
+        Bundesliga"},"marketCount":128,"competitionRegion":"DEU"},{"competition":{"id":"61","name":"German
+        Bundesliga 2"},"marketCount":9,"competitionRegion":"DEU"},{"competition":{"id":"97855","name":"Slovakian
+        Cup"},"marketCount":24,"competitionRegion":"SVK"},{"competition":{"id":"12202373","name":"Swedish
+        Superettan"},"marketCount":31,"competitionRegion":"SWE"},{"competition":{"id":"65","name":"German
+        Regionalliga Southwest"},"marketCount":48,"competitionRegion":"DEU"},{"competition":{"id":"8964557","name":"Swiss
+        1 Liga Promotion"},"marketCount":120,"competitionRegion":"CHE"},{"competition":{"id":"12081663","name":"Bahraini
+        2nd Division"},"marketCount":24,"competitionRegion":"BHR"},{"competition":{"id":"12209405","name":"Saudi
+        Professional League"},"marketCount":24,"competitionRegion":"SAU"},{"competition":{"id":"856134","name":"Colombian
+        Primera B"},"marketCount":148,"competitionRegion":"COL"},{"competition":{"id":"81","name":"Italian
+        Serie A"},"marketCount":73,"competitionRegion":"ITA"},{"competition":{"id":"12050926","name":"Belgian
+        Women''s Matches"},"marketCount":24,"competitionRegion":"BEL"},{"competition":{"id":"30558","name":"English
+        FA Cup"},"marketCount":17,"competitionRegion":"GBR"},{"competition":{"id":"12552926","name":"UEFA
+        Euro Qualifiers"},"marketCount":10,"competitionRegion":"International"},{"competition":{"id":"97","name":"Polish
+        Ekstraklasa"},"marketCount":5,"competitionRegion":"POL"},{"competition":{"id":"11635923","name":"Omani
+        Professional League"},"marketCount":12,"competitionRegion":"ARE"},{"competition":{"id":"99","name":"Portuguese
+        Primeira Liga"},"marketCount":8,"competitionRegion":"PRT"},{"competition":{"id":"827754","name":"Mexican
+        Ascenso MX"},"marketCount":2,"competitionRegion":"MEX"},{"competition":{"id":"105","name":"Scottish
+        Premiership"},"marketCount":7,"competitionRegion":"GBR"},{"competition":{"id":"107","name":"Scottish
+        Championship"},"marketCount":38,"competitionRegion":"GBR"},{"competition":{"id":"109","name":"Scottish
+        League One"},"marketCount":29,"competitionRegion":"GBR"},{"competition":{"id":"11869656","name":"Ethiopian
+        Premier League"},"marketCount":24,"competitionRegion":"ETH"},{"competition":{"id":"111","name":"Scottish
+        League Two"},"marketCount":29,"competitionRegion":"GBR"},{"competition":{"id":"5627174","name":"Mexican
+        Liga MX"},"marketCount":8,"competitionRegion":"MEX"},{"competition":{"id":"117","name":"Spanish
+        La Liga"},"marketCount":141,"competitionRegion":"ESP"},{"competition":{"id":"879221","name":"Lithuanian
+        A Lyga"},"marketCount":114,"competitionRegion":"LTU"},{"competition":{"id":"89979","name":"Belgian
+        First Division A"},"marketCount":9,"competitionRegion":"BEL"},{"competition":{"id":"862579","name":"Romanian
+        Liga II"},"marketCount":20,"competitionRegion":"ROU"},{"competition":{"id":"2608550","name":"Specials"},"marketCount":9,"competitionRegion":"International"},{"competition":{"id":"3057583","name":"Ecuadorian
+        Serie B"},"marketCount":24,"competitionRegion":"ECU"},{"competition":{"id":"129","name":"Swedish
+        Allsvenskan"},"marketCount":8,"competitionRegion":"SWE"},{"competition":{"id":"318343","name":"German
+        Regionalliga Northeast"},"marketCount":72,"competitionRegion":"DEU"},{"competition":{"id":"133","name":"Swiss
+        Super League"},"marketCount":5,"competitionRegion":"CHE"},{"competition":{"id":"12204604","name":"CONMEBOL
+        Copa Sudamericana"},"marketCount":528,"competitionRegion":"International"},{"competition":{"id":"141","name":"US
+        Major League Soccer"},"marketCount":14,"competitionRegion":"USA"},{"competition":{"id":"2079376","name":"Costa
+        Rican Primera Division"},"marketCount":144,"competitionRegion":"CRI"},{"competition":{"id":"10020873","name":"Japanese
+        J League Cup"},"marketCount":240,"competitionRegion":"JPN"},{"competition":{"id":"12007716","name":"Norwegian
+        Women''s Matches"},"marketCount":120,"competitionRegion":"NOR"},{"competition":{"id":"11770149","name":"Austrian
+        Amateurs"},"marketCount":24,"competitionRegion":"AUT"},{"competition":{"id":"1062024","name":"Japanese
+        J League 2"},"marketCount":2,"competitionRegion":"JPN"},{"competition":{"id":"6566654","name":"Guatemalan
+        Liga Nacional"},"marketCount":120,"competitionRegion":"GTM"},{"competition":{"id":"12202273","name":"English
+        FA Women''s Super League 1"},"marketCount":48,"competitionRegion":"GBR"},{"competition":{"id":"11086347","name":"English
+        National League"},"marketCount":201,"competitionRegion":"GBR"},{"competition":{"id":"862638","name":"Czech
+        2 Liga"},"marketCount":195,"competitionRegion":"CZE"},{"competition":{"id":"12204313","name":"Spanish
+        Segunda Division"},"marketCount":10,"competitionRegion":"ESP"},{"competition":{"id":"194215","name":"Turkish
+        Super League"},"marketCount":238,"competitionRegion":"TUR"},{"competition":{"id":"12375833","name":"UEFA
+        Europa Conference League"},"marketCount":178,"competitionRegion":"International"},{"competition":{"id":"3021702","name":"Bosnian
+        Cup"},"marketCount":48,"competitionRegion":"BIH"},{"competition":{"id":"844197","name":"Colombian
+        Primera A"},"marketCount":82,"competitionRegion":"COL"},{"competition":{"id":"7317471","name":"Austrian
+        Landesliga"},"marketCount":24,"competitionRegion":"AUT"},{"competition":{"id":"853948","name":"German
+        Regionalliga Bavaria"},"marketCount":26,"competitionRegion":"DEU"},{"competition":{"id":"801976","name":"Egyptian
+        Premier"},"marketCount":124,"competitionRegion":"EGY"},{"competition":{"id":"12238093","name":"Paraguayan
+        Cup"},"marketCount":24,"competitionRegion":"PRY"},{"competition":{"id":"154811","name":"Icelandic
+        Cup"},"marketCount":120,"competitionRegion":"ISL"},{"competition":{"id":"12133123","name":"German
+        Landesliga"},"marketCount":24,"competitionRegion":"DEU"},{"competition":{"id":"840886","name":"Malaysian
+        Super League"},"marketCount":72,"competitionRegion":"MYS"},{"competition":{"id":"10932509","name":"English
+        Premier League"},"marketCount":147,"competitionRegion":"GBR"},{"competition":{"id":"12199687","name":"English
+        Isthmian Premier League"},"marketCount":24,"competitionRegion":"GBR"},{"competition":{"id":"12395641","name":"South
+        Korean K League 2"},"marketCount":72,"competitionRegion":"KOR"},{"competition":{"id":"12267123","name":"Greek
+        Super League 2"},"marketCount":168,"competitionRegion":"GRC"},{"competition":{"id":"11812477","name":"Indian
+        Super Cup"},"marketCount":48,"competitionRegion":"IND"},{"competition":{"id":"833222","name":"Turkish
+        2 Lig"},"marketCount":120,"competitionRegion":"TUR"},{"competition":{"id":"10479956","name":"Austrian
+        Bundesliga"},"marketCount":6,"competitionRegion":"AUT"},{"competition":{"id":"12205166","name":"Friendlies
+        International"},"marketCount":24,"competitionRegion":"International"},{"competition":{"id":"2005","name":"UEFA
+        Europa League"},"marketCount":181,"competitionRegion":"International"},{"competition":{"id":"12216175","name":"Estonian
+        Premier League"},"marketCount":90,"competitionRegion":"EST"},{"competition":{"id":"228","name":"UEFA
+        - Champions League"},"marketCount":269,"competitionRegion":"International"},{"competition":{"id":"12064081","name":"Argentinian
+        Women''s Matches"},"marketCount":44,"competitionRegion":"ARG"},{"competition":{"id":"12199505","name":"Scottish
+        Reserve Matches"},"marketCount":24,"competitionRegion":"GBR"},{"competition":{"id":"12469077","name":"FIFA
+        World Cup"},"marketCount":1,"competitionRegion":"International"},{"competition":{"id":"12147796","name":"CONMEBOL
+        Copa Libertadores"},"marketCount":510,"competitionRegion":"International"},{"competition":{"id":"7129730","name":"English
+        Championship"},"marketCount":497,"competitionRegion":"GBR"},{"competition":{"id":"12062795","name":"Ivorian
+        Ligue 1"},"marketCount":24,"competitionRegion":"CIV"},{"competition":{"id":"12185409","name":"Brazilian
+        Paraense Matches"},"marketCount":24,"competitionRegion":"BRA"},{"competition":{"id":"11984200","name":"UEFA
+        Nations League"},"marketCount":1,"competitionRegion":"International"},{"competition":{"id":"12220485","name":"FIFA
+        Women''s World Cup"},"marketCount":2,"competitionRegion":"International"}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:57 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEvents/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"competitionIds":[30558]}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:58 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '229'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=uuIaFYKgnHdcTJ24PFuozN8Z.TNwe22LmVioAQoEOag-1681835758-0-AXx3QwYxlciWxEo9/RQVAw86mt+wo3gO7BcYwS1BC6AwbVP2git8c6Goc8gaSJmOx4EF7ltJfv2Ef69mA5Uu2TE=;
+        path=/; expires=Tue, 18-Apr-23 17:05:58 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=J3zWptrPHBLZ77cSC%2BuA%2BF%2B3dKlhqUsJ5auUgWpe9vISegd29NXeYyQkOPYeNR0Cm1pjIqQxLwINlYmMAZYoPyv8byC5dcIMk3D0KF%2Frmp4pKZajnFOqxssF80lBGJ8pVA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f07b3d385c-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"event":{"id":"32201949","name":"Brighton v Man Utd","countryCode":"GB","timezone":"GMT","openDate":"2023-04-23T15:30:00.000Z"},"marketCount":8},{"event":{"id":"270707","name":"English
+        FA Cup","countryCode":"GB","timezone":"Europe/London","openDate":"2020-11-04T15:00:00.000Z"},"marketCount":1},{"event":{"id":"32201936","name":"Man
+        City v Sheff Utd","countryCode":"GB","timezone":"GMT","openDate":"2023-04-22T15:45:00.000Z"},"marketCount":8}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:58 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"eventIds":["32201949"]},"maxResults":8,"marketProjection":["RUNNER_METADATA","MARKET_DESCRIPTION"]}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:58 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '2668'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=uDQIupsxRiXB9u8NwFn1BAmvr37127ZQdYCDTnmIF0Q-1681835758-0-AXQbB6nGQAe4qZasR7PDL8OiEBA2gkVbXvFfYXaRNIIj6PlYI2Jaws5bWng7XMYKzZ13Q/yqghePgVQWqTnL7ik=;
+        path=/; expires=Tue, 18-Apr-23 17:05:58 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q%2BdXPsEp3FhwW5NWmJq2tcIHhO%2FkM%2BN83GHjzlMp04zRoVe6y7RDQUSRBMjcxfd5UhEVNMRrpCWMViVr18Ln4TvBPkaNuK8lrKBiW0%2FOopkuKYP9ihMxLeKTl7VP%2FKyWcw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f0fb0c0676-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibWFya2V0SWQiOiIxLjIxMTY0NTUzOCIsIm1hcmtldE5hbWUiOiJBc2lhbiBIYW5kaWNhcCIsImRlc2NyaXB0aW9uIjp7InBlcnNpc3RlbmNlRW5hYmxlZCI6dHJ1ZSwiYnNwTWFya2V0IjpmYWxzZSwibWFya2V0VGltZSI6IjIwMjMtMDQtMjNUMTU6MzA6MDAuMDAwWiIsInN1c3BlbmRUaW1lIjoiMjAyMy0wNC0yM1QxNTozMDowMC4wMDBaIiwiYmV0dGluZ1R5cGUiOiJBU0lBTl9IQU5ESUNBUF9ET1VCTEVfTElORSIsInR1cm5JblBsYXlFbmFibGVkIjp0cnVlLCJtYXJrZXRUeXBlIjoiQVNJQU5fSEFORElDQVAiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBBc2lhbiBIYW5kaWNhcCAtLT48YnI+V2hvIHdpbGwgd2luIHRoaXMgbWF0Y2ggd2l0aCB0aGUgcmVsZXZhbnQgaGFuZGljYXBzIGFwcGxpZWQ/PGJyPjxicj4gRm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gb24gQXNpYW4gSGFuZGljYXAgYmV0dGluZyBwbGVhc2UgY2xpY2sgb24gdGhpcyBsaW5rIDxhIGhyZWY9XCJodHRwczovL3N1cHBvcnQuYmV0ZmFpci5jb20vYXBwL2Fuc3dlcnMvZGV0YWlsL2FfaWQvNjQxOFwiPkFzaWFuIEhhbmRpY2FwIEJldHRpbmcgRXhwbGFpbmVkPC9hPiA8YnI+IEFsbCBiZXRzIGFwcGx5IHRvIEZ1bGwgVGltZSBhY2NvcmRpbmcgdG8gdGhlIG1hdGNoIG9mZmljaWFscywgcGx1cyBhbnkgc3RvcHBhZ2UgdGltZS4gRXh0cmEtdGltZS9wZW5hbHR5IHNob290LW91dHMgYXJlIG5vdCBpbmNsdWRlZC48YnI+PGJyPjwvYj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBwbGVhc2Ugc2VlIDxhIGhyZWY9aHR0cDovL2NvbnRlbnQuYmV0ZmFpci5jb20vYWJvdXR1cy9jb250ZW50LmFzcD9zV2hpY2hLZXk9UnVsZXMlMjBhbmQlMjBSZWd1bGF0aW9ucyN1bmRlZmluZWQuZG8gc3R5bGU9Y29sb3I6MDE2M2FkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgdGFyZ2V0PV9ibGFuaz5SdWxlcyAmIFJlZ3M8YnI+PGJyPlxuIiwicnVsZXNIYXNEYXRlIjp0cnVlLCJsaW5lUmFuZ2VJbmZvIjp7Im1heFVuaXRWYWx1ZSI6NC4wLCJtaW5Vbml0VmFsdWUiOi00LjAsImludGVydmFsIjowLjI1LCJtYXJrZXRVbml0IjoiR29hbHMifSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiRklORVNUIn19LCJ0b3RhbE1hdGNoZWQiOjI5MzEuMDUsInJ1bm5lcnMiOlt7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi00LjAsInNvcnRQcmlvcml0eSI6MX0seyJzZWxlY3Rpb25JZCI6NDgzNTEsInJ1bm5lck5hbWUiOiJNYW4gVXRkIiwiaGFuZGljYXAiOjQuMCwic29ydFByaW9yaXR5IjoyfSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi0zLjc1LCJzb3J0UHJpb3JpdHkiOjN9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjozLjc1LCJzb3J0UHJpb3JpdHkiOjR9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTMuNSwic29ydFByaW9yaXR5Ijo1fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6My41LCJzb3J0UHJpb3JpdHkiOjZ9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTMuMjUsInNvcnRQcmlvcml0eSI6N30seyJzZWxlY3Rpb25JZCI6NDgzNTEsInJ1bm5lck5hbWUiOiJNYW4gVXRkIiwiaGFuZGljYXAiOjMuMjUsInNvcnRQcmlvcml0eSI6OH0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjotMy4wLCJzb3J0UHJpb3JpdHkiOjl9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjozLjAsInNvcnRQcmlvcml0eSI6MTB9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTIuNzUsInNvcnRQcmlvcml0eSI6MTF9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoyLjc1LCJzb3J0UHJpb3JpdHkiOjEyfSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi0yLjUsInNvcnRQcmlvcml0eSI6MTN9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoyLjUsInNvcnRQcmlvcml0eSI6MTR9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTIuMjUsInNvcnRQcmlvcml0eSI6MTV9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoyLjI1LCJzb3J0UHJpb3JpdHkiOjE2fSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi0yLjAsInNvcnRQcmlvcml0eSI6MTd9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoyLjAsInNvcnRQcmlvcml0eSI6MTh9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTEuNzUsInNvcnRQcmlvcml0eSI6MTl9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoxLjc1LCJzb3J0UHJpb3JpdHkiOjIwfSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi0xLjUsInNvcnRQcmlvcml0eSI6MjF9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoxLjUsInNvcnRQcmlvcml0eSI6MjJ9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTEuMjUsInNvcnRQcmlvcml0eSI6MjN9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoxLjI1LCJzb3J0UHJpb3JpdHkiOjI0fSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi0xLjAsInNvcnRQcmlvcml0eSI6MjV9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjoxLjAsInNvcnRQcmlvcml0eSI6MjZ9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTAuNzUsInNvcnRQcmlvcml0eSI6Mjd9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjowLjc1LCJzb3J0UHJpb3JpdHkiOjI4fSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOi0wLjUsInNvcnRQcmlvcml0eSI6Mjl9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjowLjUsInNvcnRQcmlvcml0eSI6MzB9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6LTAuMjUsInNvcnRQcmlvcml0eSI6MzF9LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjowLjI1LCJzb3J0UHJpb3JpdHkiOjMyfSx7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjozM30seyJzZWxlY3Rpb25JZCI6NDgzNTEsInJ1bm5lck5hbWUiOiJNYW4gVXRkIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjozNH0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjowLjI1LCJzb3J0UHJpb3JpdHkiOjM1fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTAuMjUsInNvcnRQcmlvcml0eSI6MzZ9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6MC41LCJzb3J0UHJpb3JpdHkiOjM3fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTAuNSwic29ydFByaW9yaXR5IjozOH0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjowLjc1LCJzb3J0UHJpb3JpdHkiOjM5fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTAuNzUsInNvcnRQcmlvcml0eSI6NDB9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6MS4wLCJzb3J0UHJpb3JpdHkiOjQxfSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTEuMCwic29ydFByaW9yaXR5Ijo0Mn0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjoxLjI1LCJzb3J0UHJpb3JpdHkiOjQzfSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTEuMjUsInNvcnRQcmlvcml0eSI6NDR9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6MS41LCJzb3J0UHJpb3JpdHkiOjQ1fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTEuNSwic29ydFByaW9yaXR5Ijo0Nn0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjoxLjc1LCJzb3J0UHJpb3JpdHkiOjQ3fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTEuNzUsInNvcnRQcmlvcml0eSI6NDh9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6Mi4wLCJzb3J0UHJpb3JpdHkiOjQ5fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTIuMCwic29ydFByaW9yaXR5Ijo1MH0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjoyLjI1LCJzb3J0UHJpb3JpdHkiOjUxfSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTIuMjUsInNvcnRQcmlvcml0eSI6NTJ9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6Mi41LCJzb3J0UHJpb3JpdHkiOjUzfSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTIuNSwic29ydFByaW9yaXR5Ijo1NH0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjoyLjc1LCJzb3J0UHJpb3JpdHkiOjU1fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTIuNzUsInNvcnRQcmlvcml0eSI6NTZ9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6My4wLCJzb3J0UHJpb3JpdHkiOjU3fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTMuMCwic29ydFByaW9yaXR5Ijo1OH0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjozLjI1LCJzb3J0UHJpb3JpdHkiOjU5fSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTMuMjUsInNvcnRQcmlvcml0eSI6NjB9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6My41LCJzb3J0UHJpb3JpdHkiOjYxfSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTMuNSwic29ydFByaW9yaXR5Ijo2Mn0seyJzZWxlY3Rpb25JZCI6MTg1NjcsInJ1bm5lck5hbWUiOiJCcmlnaHRvbiIsImhhbmRpY2FwIjozLjc1LCJzb3J0UHJpb3JpdHkiOjYzfSx7InNlbGVjdGlvbklkIjo0ODM1MSwicnVubmVyTmFtZSI6Ik1hbiBVdGQiLCJoYW5kaWNhcCI6LTMuNzUsInNvcnRQcmlvcml0eSI6NjR9LHsic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6NC4wLCJzb3J0UHJpb3JpdHkiOjY1LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjE4NTY3In19LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjotNC4wLCJzb3J0UHJpb3JpdHkiOjY2LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjQ4MzUxIn19XX0seyJtYXJrZXRJZCI6IjEuMjExNjQ1NTk4IiwibWFya2V0TmFtZSI6IkdvYWwgTGluZXMiLCJkZXNjcmlwdGlvbiI6eyJwZXJzaXN0ZW5jZUVuYWJsZWQiOnRydWUsImJzcE1hcmtldCI6ZmFsc2UsIm1hcmtldFRpbWUiOiIyMDIzLTA0LTIzVDE1OjMwOjAwLjAwMFoiLCJzdXNwZW5kVGltZSI6IjIwMjMtMDQtMjNUMTU6MzA6MDAuMDAwWiIsImJldHRpbmdUeXBlIjoiQVNJQU5fSEFORElDQVBfRE9VQkxFX0xJTkUiLCJ0dXJuSW5QbGF5RW5hYmxlZCI6dHJ1ZSwibWFya2V0VHlwZSI6IkFMVF9UT1RBTF9HT0FMUyIsInJlZ3VsYXRvciI6IkdJQlJBTFRBUiBSRUdVTEFUT1IiLCJtYXJrZXRCYXNlUmF0ZSI6NS4wLCJkaXNjb3VudEFsbG93ZWQiOmZhbHNlLCJ3YWxsZXQiOiJVSyB3YWxsZXQiLCJydWxlcyI6IjwhLS1Gb290YmFsbCAtIEdvYWwgTGluZXMgLS0+PGJyPkhvdyBtYW55IGdvYWxzIHdpbGwgYmUgc2NvcmVkIGluIHRoaXMgbWF0Y2g/PGJyPjxicj4gRWFjaCB1bmRlci9vdmVyIGxpbmUgd2lsbCBiZSBzZXR0bGVkLCBhbmQgY29tbWlzc2lvbiBjaGFyZ2VkLCBpbmRpdmlkdWFsbHkuIEVhY2ggdW5kZXIvb3ZlciBsaW5lIHdpbGwgYmUgc2V0dGxlZCB3aGVuIHVuY29uZGl0aW9uYWxseSBkZXRlcm1pbmVkLjxicj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBvbiBBc2lhbiBHb2FsIExpbmUgQmV0dGluZyBiZXR0aW5nIHBsZWFzZSBjbGljayBvbiB0aGlzIGxpbmsgPGEgaHJlZj1cImh0dHBzOi8vYmV0dGluZy5iZXRmYWlyLmNvbS9iZXRmYWlyLWFubm91bmNlbWVudHMvd2hhdHMtbmV3LW9uLWJldGZhaXIvYmV0ZmFpci1sYXVuY2hlcy1nb2FsLWxpbmVzLWJldHRpbmctMDEwODE3LTYuaHRtbFwiIHRhcmdldD1cIl9ibGFua1wiPkFzaWFuIEdvYWwgTGluZSBCZXR0aW5nIEV4cGxhaW5lZC48L2E+IDxicj4gQWxsIGJldHMgYXBwbHkgdG8gRnVsbCBUaW1lIGFjY29yZGluZyB0byB0aGUgbWF0Y2ggb2ZmaWNpYWxzLCBwbHVzIGFueSBzdG9wcGFnZSB0aW1lLiBFeHRyYS10aW1lL3BlbmFsdHkgc2hvb3Qtb3V0cyBhcmUgbm90IGluY2x1ZGVkLjxicj48YnI+PC9iPkZvciBmdXJ0aGVyIGluZm9ybWF0aW9uIHBsZWFzZSBzZWUgPGEgaHJlZj1odHRwOi8vY29udGVudC5iZXRmYWlyLmNvbS9hYm91dHVzL2NvbnRlbnQuYXNwP3NXaGljaEtleT1SdWxlcyUyMGFuZCUyMFJlZ3VsYXRpb25zI3VuZGVmaW5lZC5kbyBzdHlsZT1jb2xvcjowMTYzYWQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB0YXJnZXQ9X2JsYW5rPlJ1bGVzICYgUmVnczxicj48YnI+IiwicnVsZXNIYXNEYXRlIjpmYWxzZSwibGluZVJhbmdlSW5mbyI6eyJtYXhVbml0VmFsdWUiOjguNSwibWluVW5pdFZhbHVlIjowLjUsImludGVydmFsIjowLjI1LCJtYXJrZXRVbml0IjoiR29hbHMifSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiRklORVNUIn19LCJ0b3RhbE1hdGNoZWQiOjAuMCwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjowLjUsInNvcnRQcmlvcml0eSI6MX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6MC41LCJzb3J0UHJpb3JpdHkiOjJ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjowLjc1LCJzb3J0UHJpb3JpdHkiOjN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjAuNzUsInNvcnRQcmlvcml0eSI6NH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjEuMCwic29ydFByaW9yaXR5Ijo1fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgyLCJydW5uZXJOYW1lIjoiT3ZlciIsImhhbmRpY2FwIjoxLjAsInNvcnRQcmlvcml0eSI6Nn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjEuMjUsInNvcnRQcmlvcml0eSI6N30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6MS4yNSwic29ydFByaW9yaXR5Ijo4fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6MS41LCJzb3J0UHJpb3JpdHkiOjl9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjEuNSwic29ydFByaW9yaXR5IjoxMH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjEuNzUsInNvcnRQcmlvcml0eSI6MTF9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjEuNzUsInNvcnRQcmlvcml0eSI6MTJ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjoyLjAsInNvcnRQcmlvcml0eSI6MTN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjIuMCwic29ydFByaW9yaXR5IjoxNH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjIuMjUsInNvcnRQcmlvcml0eSI6MTV9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjIuMjUsInNvcnRQcmlvcml0eSI6MTZ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjoyLjUsInNvcnRQcmlvcml0eSI6MTd9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjIuNSwic29ydFByaW9yaXR5IjoxOH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjIuNzUsInNvcnRQcmlvcml0eSI6MTl9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjIuNzUsInNvcnRQcmlvcml0eSI6MjB9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjozLjAsInNvcnRQcmlvcml0eSI6MjF9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjMuMCwic29ydFByaW9yaXR5IjoyMn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjMuMjUsInNvcnRQcmlvcml0eSI6MjN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjMuMjUsInNvcnRQcmlvcml0eSI6MjR9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjozLjUsInNvcnRQcmlvcml0eSI6MjV9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjMuNSwic29ydFByaW9yaXR5IjoyNn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjMuNzUsInNvcnRQcmlvcml0eSI6Mjd9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjMuNzUsInNvcnRQcmlvcml0eSI6Mjh9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo0LjAsInNvcnRQcmlvcml0eSI6Mjl9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjQuMCwic29ydFByaW9yaXR5IjozMH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjQuMjUsInNvcnRQcmlvcml0eSI6MzF9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjQuMjUsInNvcnRQcmlvcml0eSI6MzJ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo0LjUsInNvcnRQcmlvcml0eSI6MzN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjQuNSwic29ydFByaW9yaXR5IjozNH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjQuNzUsInNvcnRQcmlvcml0eSI6MzV9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjQuNzUsInNvcnRQcmlvcml0eSI6MzZ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo1LjAsInNvcnRQcmlvcml0eSI6Mzd9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjUuMCwic29ydFByaW9yaXR5IjozOH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjUuMjUsInNvcnRQcmlvcml0eSI6Mzl9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjUuMjUsInNvcnRQcmlvcml0eSI6NDB9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo1LjUsInNvcnRQcmlvcml0eSI6NDF9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjUuNSwic29ydFByaW9yaXR5Ijo0Mn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjUuNzUsInNvcnRQcmlvcml0eSI6NDN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjUuNzUsInNvcnRQcmlvcml0eSI6NDR9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo2LjAsInNvcnRQcmlvcml0eSI6NDV9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjYuMCwic29ydFByaW9yaXR5Ijo0Nn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjYuMjUsInNvcnRQcmlvcml0eSI6NDd9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjYuMjUsInNvcnRQcmlvcml0eSI6NDh9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo2LjUsInNvcnRQcmlvcml0eSI6NDl9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjYuNSwic29ydFByaW9yaXR5Ijo1MH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjYuNzUsInNvcnRQcmlvcml0eSI6NTF9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjYuNzUsInNvcnRQcmlvcml0eSI6NTJ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo3LjAsInNvcnRQcmlvcml0eSI6NTN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjcuMCwic29ydFByaW9yaXR5Ijo1NH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjcuMjUsInNvcnRQcmlvcml0eSI6NTV9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjcuMjUsInNvcnRQcmlvcml0eSI6NTZ9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo3LjUsInNvcnRQcmlvcml0eSI6NTd9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjcuNSwic29ydFByaW9yaXR5Ijo1OH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjcuNzUsInNvcnRQcmlvcml0eSI6NTl9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjcuNzUsInNvcnRQcmlvcml0eSI6NjB9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo4LjAsInNvcnRQcmlvcml0eSI6NjF9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjguMCwic29ydFByaW9yaXR5Ijo2Mn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjguMjUsInNvcnRQcmlvcml0eSI6NjN9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjguMjUsInNvcnRQcmlvcml0eSI6NjR9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjo4LjUsInNvcnRQcmlvcml0eSI6NjUsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNzA0NDQ4MyJ9fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgyLCJydW5uZXJOYW1lIjoiT3ZlciIsImhhbmRpY2FwIjo4LjUsInNvcnRQcmlvcml0eSI6NjYsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNzA0NDQ4MiJ9fV19LHsibWFya2V0SWQiOiIxLjIxMjMyODI3MCIsIm1hcmtldE5hbWUiOiJUbyBRdWFsaWZ5IiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOmZhbHNlLCJtYXJrZXRUaW1lIjoiMjAyMy0wNC0yM1QxNTozMDowMC4wMDBaIiwic3VzcGVuZFRpbWUiOiIyMDIzLTA0LTIzVDE1OjMwOjAwLjAwMFoiLCJiZXR0aW5nVHlwZSI6Ik9ERFMiLCJ0dXJuSW5QbGF5RW5hYmxlZCI6dHJ1ZSwibWFya2V0VHlwZSI6IlRPX1FVQUxJRlkiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBUbyBRdWFsaWZ5IC0tPjxicj5XaGljaCB0ZWFtIHdpbGwgcHJvZ3Jlc3MgdG8gdGhlIG5leHQgc3RhZ2Ugb2YgdGhlIGNvbXBldGl0aW9uPyA8YnI+RXh0cmEtdGltZS9wZW5hbHR5IHNob290LW91dHMgQVJFIGluY2x1ZGVkLiA8YnI+PGJyPjwvYj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBwbGVhc2Ugc2VlIDxhIGhyZWY9aHR0cDovL2NvbnRlbnQuYmV0ZmFpci5jb20vYWJvdXR1cy9jb250ZW50LmFzcD9zV2hpY2hLZXk9UnVsZXMlMjBhbmQlMjBSZWd1bGF0aW9ucyN1bmRlZmluZWQuZG8gc3R5bGU9Y29sb3I6MDE2M2FkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgdGFyZ2V0PV9ibGFuaz5SdWxlcyAmIFJlZ3M8YnI+PGJyPlxuIiwicnVsZXNIYXNEYXRlIjp0cnVlLCJwcmljZUxhZGRlckRlc2NyaXB0aW9uIjp7InR5cGUiOiJDTEFTU0lDIn19LCJ0b3RhbE1hdGNoZWQiOjQyMTAuODYsInJ1bm5lcnMiOlt7InNlbGVjdGlvbklkIjoxODU2NywicnVubmVyTmFtZSI6IkJyaWdodG9uIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjE4NTY3In19LHsic2VsZWN0aW9uSWQiOjQ4MzUxLCJydW5uZXJOYW1lIjoiTWFuIFV0ZCIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MiwibWV0YWRhdGEiOnsicnVubmVySWQiOiI0ODM1MSJ9fV19LHsibWFya2V0SWQiOiIxLjIxMTY0NTU5MCIsIm1hcmtldE5hbWUiOiJPdmVyL1VuZGVyIDAuNSBHb2FscyIsImRlc2NyaXB0aW9uIjp7InBlcnNpc3RlbmNlRW5hYmxlZCI6dHJ1ZSwiYnNwTWFya2V0IjpmYWxzZSwibWFya2V0VGltZSI6IjIwMjMtMDQtMjNUMTU6MzA6MDAuMDAwWiIsInN1c3BlbmRUaW1lIjoiMjAyMy0wNC0yM1QxNTozMDowMC4wMDBaIiwiYmV0dGluZ1R5cGUiOiJPRERTIiwidHVybkluUGxheUVuYWJsZWQiOnRydWUsIm1hcmtldFR5cGUiOiJPVkVSX1VOREVSXzA1IiwicmVndWxhdG9yIjoiR0lCUkFMVEFSIFJFR1VMQVRPUiIsIm1hcmtldEJhc2VSYXRlIjo1LjAsImRpc2NvdW50QWxsb3dlZCI6ZmFsc2UsIndhbGxldCI6IlVLIHdhbGxldCIsInJ1bGVzIjoiPCEtLUZvb3RiYWxsIC0gT3Zlci9VbmRlcnMgLS0+PGJyPkhvdyBtYW55IGdvYWxzIHdpbGwgYmUgc2NvcmVkIGluIHRoaXMgbWF0Y2guPGJyPiBBbGwgYmV0cyBhcHBseSB0byBGdWxsIFRpbWUgYWNjb3JkaW5nIHRvIHRoZSBtYXRjaCBvZmZpY2lhbHMsIHBsdXMgYW55IHN0b3BwYWdlIHRpbWUuIEV4dHJhLXRpbWUvcGVuYWx0eSBzaG9vdC1vdXRzIGFyZSBub3QgaW5jbHVkZWQuPGJyPjxicj48L2I+Rm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gcGxlYXNlIHNlZSA8YSBocmVmPWh0dHA6Ly9jb250ZW50LmJldGZhaXIuY29tL2Fib3V0dXMvY29udGVudC5hc3A/c1doaWNoS2V5PVJ1bGVzJTIwYW5kJTIwUmVndWxhdGlvbnMjdW5kZWZpbmVkLmRvIHN0eWxlPWNvbG9yOjAxNjNhZDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IHRhcmdldD1fYmxhbms+UnVsZXMgJiBSZWdzPGJyPjxicj5cbiIsInJ1bGVzSGFzRGF0ZSI6dHJ1ZSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiQ0xBU1NJQyJ9fSwidG90YWxNYXRjaGVkIjowLjAsInJ1bm5lcnMiOlt7InNlbGVjdGlvbklkIjo1ODUxNDgyLCJydW5uZXJOYW1lIjoiVW5kZXIgMC41IEdvYWxzIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjU4NTE0ODIifX0seyJzZWxlY3Rpb25JZCI6NTg1MTQ4MywicnVubmVyTmFtZSI6Ik92ZXIgMC41IEdvYWxzIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoyLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjU4NTE0ODMifX1dfSx7Im1hcmtldElkIjoiMS4yMTE2NDU1MjQiLCJtYXJrZXROYW1lIjoiT3Zlci9VbmRlciAyLjUgR29hbHMiLCJkZXNjcmlwdGlvbiI6eyJwZXJzaXN0ZW5jZUVuYWJsZWQiOnRydWUsImJzcE1hcmtldCI6ZmFsc2UsIm1hcmtldFRpbWUiOiIyMDIzLTA0LTIzVDE1OjMwOjAwLjAwMFoiLCJzdXNwZW5kVGltZSI6IjIwMjMtMDQtMjNUMTU6MzA6MDAuMDAwWiIsImJldHRpbmdUeXBlIjoiT0REUyIsInR1cm5JblBsYXlFbmFibGVkIjp0cnVlLCJtYXJrZXRUeXBlIjoiT1ZFUl9VTkRFUl8yNSIsInJlZ3VsYXRvciI6IkdJQlJBTFRBUiBSRUdVTEFUT1IiLCJtYXJrZXRCYXNlUmF0ZSI6NS4wLCJkaXNjb3VudEFsbG93ZWQiOmZhbHNlLCJ3YWxsZXQiOiJVSyB3YWxsZXQiLCJydWxlcyI6IjwhLS1Gb290YmFsbCAtIE92ZXIvVW5kZXJzIC0tPjxicj5Ib3cgbWFueSBnb2FscyB3aWxsIGJlIHNjb3JlZCBpbiB0aGlzIG1hdGNoLjxicj4gQWxsIGJldHMgYXBwbHkgdG8gRnVsbCBUaW1lIGFjY29yZGluZyB0byB0aGUgbWF0Y2ggb2ZmaWNpYWxzLCBwbHVzIGFueSBzdG9wcGFnZSB0aW1lLiBFeHRyYS10aW1lL3BlbmFsdHkgc2hvb3Qtb3V0cyBhcmUgbm90IGluY2x1ZGVkLjxicj48YnI+PC9iPkZvciBmdXJ0aGVyIGluZm9ybWF0aW9uIHBsZWFzZSBzZWUgPGEgaHJlZj1odHRwOi8vY29udGVudC5iZXRmYWlyLmNvbS9hYm91dHVzL2NvbnRlbnQuYXNwP3NXaGljaEtleT1SdWxlcyUyMGFuZCUyMFJlZ3VsYXRpb25zI3VuZGVmaW5lZC5kbyBzdHlsZT1jb2xvcjowMTYzYWQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB0YXJnZXQ9X2JsYW5rPlJ1bGVzICYgUmVnczxicj48YnI+XG4iLCJydWxlc0hhc0RhdGUiOnRydWUsInByaWNlTGFkZGVyRGVzY3JpcHRpb24iOnsidHlwZSI6IkNMQVNTSUMifX0sInRvdGFsTWF0Y2hlZCI6MC4wLCJydW5uZXJzIjpbeyJzZWxlY3Rpb25JZCI6NDc5NzIsInJ1bm5lck5hbWUiOiJVbmRlciAyLjUgR29hbHMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNDc5NzIifX0seyJzZWxlY3Rpb25JZCI6NDc5NzMsInJ1bm5lck5hbWUiOiJPdmVyIDIuNSBHb2FscyIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MiwibWV0YWRhdGEiOnsicnVubmVySWQiOiI0Nzk3MyJ9fV19LHsibWFya2V0SWQiOiIxLjIxMTY0NTU5NSIsIm1hcmtldE5hbWUiOiJDb3JyZWN0IFNjb3JlIiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOmZhbHNlLCJtYXJrZXRUaW1lIjoiMjAyMy0wNC0yM1QxNTozMDowMC4wMDBaIiwic3VzcGVuZFRpbWUiOiIyMDIzLTA0LTIzVDE1OjMwOjAwLjAwMFoiLCJiZXR0aW5nVHlwZSI6Ik9ERFMiLCJ0dXJuSW5QbGF5RW5hYmxlZCI6dHJ1ZSwibWFya2V0VHlwZSI6IkNPUlJFQ1RfU0NPUkUiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBDb3JyZWN0IFNjb3JlIC0tPjxicj5QcmVkaWN0IHRoZSBzY29yZSBvZiB0aGlzIG1hdGNoLjxicj5UaGlzIG1hcmtldCB3aWxsIG5vdCBiZSBwYXJ0aWFsbHkgc2V0dGxlZCBkdXJpbmcgdGhlIGZpeHR1cmUgYW5kIHdpbGwgYmUgZnVsbHkgc2V0dGxlZCBhdCBmdWxsIHRpbWUuPGJyPiBBbGwgYmV0cyBhcHBseSB0byBGdWxsIFRpbWUgYWNjb3JkaW5nIHRvIHRoZSBtYXRjaCBvZmZpY2lhbHMsIHBsdXMgYW55IHN0b3BwYWdlIHRpbWUuIEV4dHJhLXRpbWUvcGVuYWx0eSBzaG9vdC1vdXRzIGFyZSBub3QgaW5jbHVkZWQuPGJyPjxicj48L2I+Rm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gcGxlYXNlIHNlZSA8YSBocmVmPWh0dHA6Ly9jb250ZW50LmJldGZhaXIuY29tL2Fib3V0dXMvY29udGVudC5hc3A/c1doaWNoS2V5PVJ1bGVzJTIwYW5kJTIwUmVndWxhdGlvbnMjdW5kZWZpbmVkLmRvIHN0eWxlPWNvbG9yOjAxNjNhZDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IHRhcmdldD1fYmxhbms+UnVsZXMgJiBSZWdzPGJyPjxicj5cbiIsInJ1bGVzSGFzRGF0ZSI6dHJ1ZSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiQ0xBU1NJQyJ9fSwidG90YWxNYXRjaGVkIjo3OS45OCwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjEsInJ1bm5lck5hbWUiOiIwIC0gMCIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MSwibWV0YWRhdGEiOnsicnVubmVySWQiOiIxIn19LHsic2VsZWN0aW9uSWQiOjQsInJ1bm5lck5hbWUiOiIwIC0gMSIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MiwibWV0YWRhdGEiOnsicnVubmVySWQiOiI0In19LHsic2VsZWN0aW9uSWQiOjksInJ1bm5lck5hbWUiOiIwIC0gMiIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MywibWV0YWRhdGEiOnsicnVubmVySWQiOiI5In19LHsic2VsZWN0aW9uSWQiOjE2LCJydW5uZXJOYW1lIjoiMCAtIDMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjQsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTYifX0seyJzZWxlY3Rpb25JZCI6MiwicnVubmVyTmFtZSI6IjEgLSAwIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5Ijo1LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjIifX0seyJzZWxlY3Rpb25JZCI6MywicnVubmVyTmFtZSI6IjEgLSAxIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5Ijo2LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjMifX0seyJzZWxlY3Rpb25JZCI6OCwicnVubmVyTmFtZSI6IjEgLSAyIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5Ijo3LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjgifX0seyJzZWxlY3Rpb25JZCI6MTUsInJ1bm5lck5hbWUiOiIxIC0gMyIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6OCwibWV0YWRhdGEiOnsicnVubmVySWQiOiIxNSJ9fSx7InNlbGVjdGlvbklkIjo1LCJydW5uZXJOYW1lIjoiMiAtIDAiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjksIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNSJ9fSx7InNlbGVjdGlvbklkIjo2LCJydW5uZXJOYW1lIjoiMiAtIDEiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEwLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjYifX0seyJzZWxlY3Rpb25JZCI6NywicnVubmVyTmFtZSI6IjIgLSAyIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxMSwibWV0YWRhdGEiOnsicnVubmVySWQiOiI3In19LHsic2VsZWN0aW9uSWQiOjE0LCJydW5uZXJOYW1lIjoiMiAtIDMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEyLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjE0In19LHsic2VsZWN0aW9uSWQiOjEwLCJydW5uZXJOYW1lIjoiMyAtIDAiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEzLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjEwIn19LHsic2VsZWN0aW9uSWQiOjExLCJydW5uZXJOYW1lIjoiMyAtIDEiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjE0LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjExIn19LHsic2VsZWN0aW9uSWQiOjEyLCJydW5uZXJOYW1lIjoiMyAtIDIiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjE1LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjEyIn19LHsic2VsZWN0aW9uSWQiOjEzLCJydW5uZXJOYW1lIjoiMyAtIDMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjE2LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjEzIn19LHsic2VsZWN0aW9uSWQiOjkwNjMyNTQsInJ1bm5lck5hbWUiOiJBbnkgT3RoZXIgSG9tZSBXaW4iLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjE3LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjkwNjMyNTQifX0seyJzZWxlY3Rpb25JZCI6OTA2MzI1NSwicnVubmVyTmFtZSI6IkFueSBPdGhlciBBd2F5IFdpbiIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTgsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiOTA2MzI1NSJ9fSx7InNlbGVjdGlvbklkIjo5MDYzMjU2LCJydW5uZXJOYW1lIjoiQW55IE90aGVyIERyYXciLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjE5LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjkwNjMyNTYifX1dfSx7Im1hcmtldElkIjoiMS4yMTE2NDU1ODQiLCJtYXJrZXROYW1lIjoiQm90aCB0ZWFtcyB0byBTY29yZT8iLCJkZXNjcmlwdGlvbiI6eyJwZXJzaXN0ZW5jZUVuYWJsZWQiOnRydWUsImJzcE1hcmtldCI6ZmFsc2UsIm1hcmtldFRpbWUiOiIyMDIzLTA0LTIzVDE1OjMwOjAwLjAwMFoiLCJzdXNwZW5kVGltZSI6IjIwMjMtMDQtMjNUMTU6MzA6MDAuMDAwWiIsImJldHRpbmdUeXBlIjoiT0REUyIsInR1cm5JblBsYXlFbmFibGVkIjp0cnVlLCJtYXJrZXRUeXBlIjoiQk9USF9URUFNU19UT19TQ09SRSIsInJlZ3VsYXRvciI6IkdJQlJBTFRBUiBSRUdVTEFUT1IiLCJtYXJrZXRCYXNlUmF0ZSI6NS4wLCJkaXNjb3VudEFsbG93ZWQiOmZhbHNlLCJ3YWxsZXQiOiJVSyB3YWxsZXQiLCJydWxlcyI6IjwhLS1Gb290YmFsbCAtIEJUVFMgLS0+PGJyPldpbGwgYm90aCB0ZWFtcyBzY29yZSBhdCBsZWFzdCBvbmUgZ29hbCBpbiB0aGlzIG1hdGNoP8KgPGJyPiBBbGwgYmV0cyBhcHBseSB0byBGdWxsIFRpbWUgYWNjb3JkaW5nIHRvIHRoZSBtYXRjaCBvZmZpY2lhbHMsIHBsdXMgYW55IHN0b3BwYWdlIHRpbWUuIEV4dHJhLXRpbWUvcGVuYWx0eSBzaG9vdC1vdXRzIGFyZSBub3QgaW5jbHVkZWQuPGJyPjxicj48L2I+Rm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gcGxlYXNlIHNlZSA8YSBocmVmPWh0dHA6Ly9jb250ZW50LmJldGZhaXIuY29tL2Fib3V0dXMvY29udGVudC5hc3A/c1doaWNoS2V5PVJ1bGVzJTIwYW5kJTIwUmVndWxhdGlvbnMjdW5kZWZpbmVkLmRvIHN0eWxlPWNvbG9yOjAxNjNhZDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IHRhcmdldD1fYmxhbms+UnVsZXMgJiBSZWdzPGJyPjxicj5cbiIsInJ1bGVzSGFzRGF0ZSI6dHJ1ZSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiQ0xBU1NJQyJ9fSwidG90YWxNYXRjaGVkIjo0MS41NCwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjMwMjQ2LCJydW5uZXJOYW1lIjoiWWVzIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjMwMjQ2In19LHsic2VsZWN0aW9uSWQiOjExMDUwMywicnVubmVyTmFtZSI6Ik5vIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoyLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjExMDUwMyJ9fV19LHsibWFya2V0SWQiOiIxLjIxMTY0NTU4NSIsIm1hcmtldE5hbWUiOiJNYXRjaCBPZGRzIiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOnRydWUsIm1hcmtldFRpbWUiOiIyMDIzLTA0LTIzVDE1OjMwOjAwLjAwMFoiLCJzdXNwZW5kVGltZSI6IjIwMjMtMDQtMjNUMTU6MzA6MDAuMDAwWiIsImJldHRpbmdUeXBlIjoiT0REUyIsInR1cm5JblBsYXlFbmFibGVkIjp0cnVlLCJtYXJrZXRUeXBlIjoiTUFUQ0hfT0REUyIsInJlZ3VsYXRvciI6IkdJQlJBTFRBUiBSRUdVTEFUT1IiLCJtYXJrZXRCYXNlUmF0ZSI6NS4wLCJkaXNjb3VudEFsbG93ZWQiOmZhbHNlLCJ3YWxsZXQiOiJVSyB3YWxsZXQiLCJydWxlcyI6IjwhLS1Gb290YmFsbCAtIE1hdGNoIE9kZHMgLS0+PGJyPlByZWRpY3QgdGhlIHJlc3VsdCBvZiB0aGlzIG1hdGNoLjxicj4gQWxsIGJldHMgYXBwbHkgdG8gRnVsbCBUaW1lIGFjY29yZGluZyB0byB0aGUgbWF0Y2ggb2ZmaWNpYWxzLCBwbHVzIGFueSBzdG9wcGFnZSB0aW1lLiBFeHRyYS10aW1lL3BlbmFsdHkgc2hvb3Qtb3V0cyBhcmUgbm90IGluY2x1ZGVkLjxicj48YnI+PC9iPkZvciBmdXJ0aGVyIGluZm9ybWF0aW9uIHBsZWFzZSBzZWUgPGEgaHJlZj1odHRwOi8vY29udGVudC5iZXRmYWlyLmNvbS9hYm91dHVzL2NvbnRlbnQuYXNwP3NXaGljaEtleT1SdWxlcyUyMGFuZCUyMFJlZ3VsYXRpb25zI3VuZGVmaW5lZC5kbyBzdHlsZT1jb2xvcjowMTYzYWQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB0YXJnZXQ9X2JsYW5rPlJ1bGVzICYgUmVnczxicj48YnI+XG4iLCJydWxlc0hhc0RhdGUiOnRydWUsInByaWNlTGFkZGVyRGVzY3JpcHRpb24iOnsidHlwZSI6IkNMQVNTSUMifX0sInRvdGFsTWF0Y2hlZCI6NTYxNS43MiwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjE4NTY3LCJydW5uZXJOYW1lIjoiQnJpZ2h0b24iLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTg1NjcifX0seyJzZWxlY3Rpb25JZCI6NDgzNTEsInJ1bm5lck5hbWUiOiJNYW4gVXRkIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoyLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjQ4MzUxIn19LHsic2VsZWN0aW9uSWQiOjU4ODA1LCJydW5uZXJOYW1lIjoiVGhlIERyYXciLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjMsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNTg4MDUifX1dfV0=
+  recorded_at: Tue, 18 Apr 2023 16:35:58 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"marketIds":["1.211645595"]},"marketProjection":["RUNNER_METADATA"],"maxResults":1000}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:58 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '394'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=hau4z8gfY4bV3YOQWrJRpoaTYL_Yvk1_SqecXhM6Dp0-1681835758-0-AROkjOHS1CS2hB9A4uZS4Lfvy1LYt3Q0CHY/6ZRfrH+UiFP/vmvIpXUqxcoSnHs2zkxpQ4/iGx/rLJPza8W4snE=;
+        path=/; expires=Tue, 18-Apr-23 17:05:58 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=friKqS0rsCjxJyvM8iR9UX%2F04NMnVLoufTc2V5N5J62EI3lKRgV6cWtm%2BEjH4v5BhYiF3IjLC%2BndvFdSdyZy928JDLvbRNqDRgHkY5UtWfLoULsgzpSSlWbdS2fFsVLlRg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f2fe30417d-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"marketId":"1.211645595","marketName":"Correct Score","totalMatched":79.98,"runners":[{"selectionId":1,"runnerName":"0
+        - 0","handicap":0.0,"sortPriority":1,"metadata":{"runnerId":"1"}},{"selectionId":4,"runnerName":"0
+        - 1","handicap":0.0,"sortPriority":2,"metadata":{"runnerId":"4"}},{"selectionId":9,"runnerName":"0
+        - 2","handicap":0.0,"sortPriority":3,"metadata":{"runnerId":"9"}},{"selectionId":16,"runnerName":"0
+        - 3","handicap":0.0,"sortPriority":4,"metadata":{"runnerId":"16"}},{"selectionId":2,"runnerName":"1
+        - 0","handicap":0.0,"sortPriority":5,"metadata":{"runnerId":"2"}},{"selectionId":3,"runnerName":"1
+        - 1","handicap":0.0,"sortPriority":6,"metadata":{"runnerId":"3"}},{"selectionId":8,"runnerName":"1
+        - 2","handicap":0.0,"sortPriority":7,"metadata":{"runnerId":"8"}},{"selectionId":15,"runnerName":"1
+        - 3","handicap":0.0,"sortPriority":8,"metadata":{"runnerId":"15"}},{"selectionId":5,"runnerName":"2
+        - 0","handicap":0.0,"sortPriority":9,"metadata":{"runnerId":"5"}},{"selectionId":6,"runnerName":"2
+        - 1","handicap":0.0,"sortPriority":10,"metadata":{"runnerId":"6"}},{"selectionId":7,"runnerName":"2
+        - 2","handicap":0.0,"sortPriority":11,"metadata":{"runnerId":"7"}},{"selectionId":14,"runnerName":"2
+        - 3","handicap":0.0,"sortPriority":12,"metadata":{"runnerId":"14"}},{"selectionId":10,"runnerName":"3
+        - 0","handicap":0.0,"sortPriority":13,"metadata":{"runnerId":"10"}},{"selectionId":11,"runnerName":"3
+        - 1","handicap":0.0,"sortPriority":14,"metadata":{"runnerId":"11"}},{"selectionId":12,"runnerName":"3
+        - 2","handicap":0.0,"sortPriority":15,"metadata":{"runnerId":"12"}},{"selectionId":13,"runnerName":"3
+        - 3","handicap":0.0,"sortPriority":16,"metadata":{"runnerId":"13"}},{"selectionId":9063254,"runnerName":"Any
+        Other Home Win","handicap":0.0,"sortPriority":17,"metadata":{"runnerId":"9063254"}},{"selectionId":9063255,"runnerName":"Any
+        Other Away Win","handicap":0.0,"sortPriority":18,"metadata":{"runnerId":"9063255"}},{"selectionId":9063256,"runnerName":"Any
+        Other Draw","handicap":0.0,"sortPriority":19,"metadata":{"runnerId":"9063256"}}]}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:58 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"eventIds":["270707"]},"maxResults":1,"marketProjection":["RUNNER_METADATA","MARKET_DESCRIPTION"]}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:58 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '1587'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=rgLYW8a3_TsWFXBVr43BILcMJxY3u3WzCDwBJ6EB7W8-1681835758-0-AaJSpr6/5Pt2i6m95CrdLZ5Byv1u3ft/qKf7qccT4Y12ww2gIjetLFAI+UarXUG6ISCMLs1eTkH0OLvh/VoKPNM=;
+        path=/; expires=Tue, 18-Apr-23 17:05:58 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PaQiWlpPTq%2FsZghadpAzp3GN6baCz6QEtvIlaM%2FEWfviLhlXjVJwgJHSuObY3Od%2FzXoe035Jhw17nw%2FO2KWuKzWTYnIANPT87CCqmdjQtekEh23g1vNr512X6l%2FBfG8UPA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f50dfb23ee-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"marketId":"1.201903146","marketName":"Winner 2022/23","description":{"persistenceEnabled":true,"bspMarket":false,"marketTime":"2023-06-03T19:00:00.000Z","suspendTime":"2022-08-20T12:00:00.000Z","bettingType":"ODDS","turnInPlayEnabled":true,"marketType":"WINNER","regulator":"GIBRALTAR
+        REGULATOR","marketBaseRate":5.0,"discountAllowed":false,"wallet":"UK wallet","rules":"<!--Football
+        - Cup - Winner Market --><br>Which team will win this Cup competition?<br><br>At
+        the start of the tournament all unmatched bets will be cancelled and the market
+        will be reopened. At the start of the final all unmatched bets will be cancelled
+        and the market turned in play. <br></b>For further information please see
+        <a href=http://content.betfair.com/aboutus/content.asp?sWhichKey=Rules%20and%20Regulations#undefined.do
+        style=color:0163ad; text-decoration: underline; target=_blank>Rules & Regs<br><br>\n","rulesHasDate":false,"priceLadderDescription":{"type":"CLASSIC"}},"totalMatched":235142.66,"runners":[{"selectionId":47999,"runnerName":"Man
+        City","handicap":0.0,"sortPriority":1,"metadata":{"runnerId":"47999"}},{"selectionId":48351,"runnerName":"Man
+        Utd","handicap":0.0,"sortPriority":2,"metadata":{"runnerId":"48351"}},{"selectionId":18567,"runnerName":"Brighton","handicap":0.0,"sortPriority":3,"metadata":{"runnerId":"18567"}},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":0.0,"sortPriority":4,"metadata":{"runnerId":"48470"}},{"selectionId":56343,"runnerName":"Everton","handicap":0.0,"sortPriority":5,"metadata":{"runnerId":"56343"}},{"selectionId":62523,"runnerName":"Crystal
+        Palace","handicap":0.0,"sortPriority":6,"metadata":{"runnerId":"62523"}},{"selectionId":56301,"runnerName":"Watford","handicap":0.0,"sortPriority":7,"metadata":{"runnerId":"56301"}},{"selectionId":39674645,"runnerName":"Nottm
+        Forest","handicap":0.0,"sortPriority":8,"metadata":{"runnerId":"39674645"}},{"selectionId":1141,"runnerName":"Bournemouth","handicap":0.0,"sortPriority":9,"metadata":{"runnerId":"1141"}},{"selectionId":63907,"runnerName":"Middlesbrough","handicap":0.0,"sortPriority":10,"metadata":{"runnerId":"63907"}},{"selectionId":78864,"runnerName":"Brentford","handicap":0.0,"sortPriority":11,"metadata":{"runnerId":"78864"}},{"selectionId":25422,"runnerName":"Newcastle","handicap":0.0,"sortPriority":12,"metadata":{"runnerId":"25422"}},{"selectionId":47998,"runnerName":"Norwich","handicap":0.0,"sortPriority":13,"metadata":{"runnerId":"47998"}},{"selectionId":55190,"runnerName":"Chelsea","handicap":0.0,"sortPriority":14,"metadata":{"runnerId":"55190"}},{"selectionId":63908,"runnerName":"Aston
+        Villa","handicap":0.0,"sortPriority":15,"metadata":{"runnerId":"63908"}},{"selectionId":48044,"runnerName":"Wolves","handicap":0.0,"sortPriority":16,"metadata":{"runnerId":"48044"}},{"selectionId":69746,"runnerName":"Wigan","handicap":0.0,"sortPriority":17,"metadata":{"runnerId":"69746"}},{"selectionId":36033,"runnerName":"Forest
+        Green","handicap":0.0,"sortPriority":18,"metadata":{"runnerId":"36033"}},{"selectionId":79343,"runnerName":"Cardiff","handicap":0.0,"sortPriority":19,"metadata":{"runnerId":"79343"}},{"selectionId":1096,"runnerName":"Arsenal","handicap":0.0,"sortPriority":20,"metadata":{"runnerId":"1096"}},{"selectionId":1703,"runnerName":"West
+        Brom","handicap":0.0,"sortPriority":21,"metadata":{"runnerId":"1703"}},{"selectionId":64964,"runnerName":"Blackpool","handicap":0.0,"sortPriority":22,"metadata":{"runnerId":"64964"}},{"selectionId":56295,"runnerName":"Preston","handicap":0.0,"sortPriority":23,"metadata":{"runnerId":"56295"}},{"selectionId":103122,"runnerName":"Reading","handicap":0.0,"sortPriority":24,"metadata":{"runnerId":"103122"}},{"selectionId":422179,"runnerName":"Accrington","handicap":0.0,"sortPriority":25,"metadata":{"runnerId":"422179"}},{"selectionId":55213,"runnerName":"Walsall","handicap":0.0,"sortPriority":26,"metadata":{"runnerId":"55213"}},{"selectionId":51311,"runnerName":"Morecambe","handicap":0.0,"sortPriority":27,"metadata":{"runnerId":"51311"}},{"selectionId":62683,"runnerName":"Swansea","handicap":0.0,"sortPriority":28,"metadata":{"runnerId":"62683"}},{"selectionId":4236580,"runnerName":"Salford
+        City","handicap":0.0,"sortPriority":29,"metadata":{"runnerId":"4236580"}},{"selectionId":56323,"runnerName":"Liverpool","handicap":0.0,"sortPriority":30,"metadata":{"runnerId":"56323"}},{"selectionId":49204,"runnerName":"Stevenage","handicap":0.0,"sortPriority":31,"metadata":{"runnerId":"49204"}},{"selectionId":48325,"runnerName":"Derby","handicap":0.0,"sortPriority":32,"metadata":{"runnerId":"48325"}},{"selectionId":48324,"runnerName":"Ipswich","handicap":0.0,"sortPriority":33,"metadata":{"runnerId":"48324"}},{"selectionId":47992,"runnerName":"Sheff
+        Wed","handicap":0.0,"sortPriority":34,"metadata":{"runnerId":"47992"}},{"selectionId":63604,"runnerName":"Wrexham","handicap":0.0,"sortPriority":35,"metadata":{"runnerId":"63604"}},{"selectionId":223467,"runnerName":"Luton","handicap":0.0,"sortPriority":36,"metadata":{"runnerId":"223467"}},{"selectionId":62783,"runnerName":"Sunderland","handicap":0.0,"sortPriority":37,"metadata":{"runnerId":"62783"}},{"selectionId":48759,"runnerName":"Birmingham","handicap":0.0,"sortPriority":38,"metadata":{"runnerId":"48759"}},{"selectionId":48461,"runnerName":"Leicester","handicap":0.0,"sortPriority":39,"metadata":{"runnerId":"48461"}},{"selectionId":48317,"runnerName":"Leeds","handicap":0.0,"sortPriority":40,"metadata":{"runnerId":"48317"}},{"selectionId":69720,"runnerName":"Stoke","handicap":0.0,"sortPriority":41,"metadata":{"runnerId":"69720"}},{"selectionId":69745,"runnerName":"Bristol
+        City","handicap":0.0,"sortPriority":42,"metadata":{"runnerId":"69745"}},{"selectionId":58943,"runnerName":"Southampton","handicap":0.0,"sortPriority":43,"metadata":{"runnerId":"58943"}},{"selectionId":3396710,"runnerName":"Fleetwood
+        Town","handicap":0.0,"sortPriority":44,"metadata":{"runnerId":"3396710"}},{"selectionId":48224,"runnerName":"Tottenham","handicap":0.0,"sortPriority":45,"metadata":{"runnerId":"48224"}},{"selectionId":48756,"runnerName":"West
+        Ham","handicap":0.0,"sortPriority":46,"metadata":{"runnerId":"48756"}},{"selectionId":56299,"runnerName":"Burnley","handicap":0.0,"sortPriority":47,"metadata":{"runnerId":"56299"}},{"selectionId":48350,"runnerName":"Blackburn","handicap":0.0,"sortPriority":48,"metadata":{"runnerId":"48350"}},{"selectionId":48001,"runnerName":"Grimsby","handicap":0.0,"sortPriority":49,"metadata":{"runnerId":"48001"}},{"selectionId":56764,"runnerName":"Fulham","handicap":0.0,"sortPriority":50,"metadata":{"runnerId":"56764"}}]}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:58 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"eventIds":["32201936"]},"maxResults":8,"marketProjection":["RUNNER_METADATA","MARKET_DESCRIPTION"]}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:59 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '2710'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=8sDTrIJ3Qz94cEbErStTqxrXG71PNLemI6.d0kRr2Hc-1681835759-0-ARUC8T/glkaiSzcf1+o5kTMQM56zwHWBY7eX+slYV8K10KppV1yOdW2F5NMvDitUF6xa/caBeFD5o2jMgKarbB4=;
+        path=/; expires=Tue, 18-Apr-23 17:05:59 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2pfXs2CiUWE505YCSp6jDcFJFSkDFKBgbv%2Bp8B6jqquU%2FzdKC%2FkWYqmXXP6d2xakjcHS1xOesE%2Fl4A97Odp9IZGLkeU0SIKQc2JikFjccdtZLOazvAnTF%2B4gtJ6jlGfezA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f57951778f-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibWFya2V0SWQiOiIxLjIxMTY0NTY3OSIsIm1hcmtldE5hbWUiOiJBc2lhbiBIYW5kaWNhcCIsImRlc2NyaXB0aW9uIjp7InBlcnNpc3RlbmNlRW5hYmxlZCI6dHJ1ZSwiYnNwTWFya2V0IjpmYWxzZSwibWFya2V0VGltZSI6IjIwMjMtMDQtMjJUMTU6NDU6MDAuMDAwWiIsInN1c3BlbmRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwiYmV0dGluZ1R5cGUiOiJBU0lBTl9IQU5ESUNBUF9ET1VCTEVfTElORSIsInR1cm5JblBsYXlFbmFibGVkIjp0cnVlLCJtYXJrZXRUeXBlIjoiQVNJQU5fSEFORElDQVAiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBBc2lhbiBIYW5kaWNhcCAtLT48YnI+V2hvIHdpbGwgd2luIHRoaXMgbWF0Y2ggd2l0aCB0aGUgcmVsZXZhbnQgaGFuZGljYXBzIGFwcGxpZWQ/PGJyPjxicj4gRm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gb24gQXNpYW4gSGFuZGljYXAgYmV0dGluZyBwbGVhc2UgY2xpY2sgb24gdGhpcyBsaW5rIDxhIGhyZWY9XCJodHRwczovL3N1cHBvcnQuYmV0ZmFpci5jb20vYXBwL2Fuc3dlcnMvZGV0YWlsL2FfaWQvNjQxOFwiPkFzaWFuIEhhbmRpY2FwIEJldHRpbmcgRXhwbGFpbmVkPC9hPiA8YnI+IEFsbCBiZXRzIGFwcGx5IHRvIEZ1bGwgVGltZSBhY2NvcmRpbmcgdG8gdGhlIG1hdGNoIG9mZmljaWFscywgcGx1cyBhbnkgc3RvcHBhZ2UgdGltZS4gRXh0cmEtdGltZS9wZW5hbHR5IHNob290LW91dHMgYXJlIG5vdCBpbmNsdWRlZC48YnI+PGJyPjwvYj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBwbGVhc2Ugc2VlIDxhIGhyZWY9aHR0cDovL2NvbnRlbnQuYmV0ZmFpci5jb20vYWJvdXR1cy9jb250ZW50LmFzcD9zV2hpY2hLZXk9UnVsZXMlMjBhbmQlMjBSZWd1bGF0aW9ucyN1bmRlZmluZWQuZG8gc3R5bGU9Y29sb3I6MDE2M2FkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgdGFyZ2V0PV9ibGFuaz5SdWxlcyAmIFJlZ3M8YnI+PGJyPlxuIiwicnVsZXNIYXNEYXRlIjp0cnVlLCJsaW5lUmFuZ2VJbmZvIjp7Im1heFVuaXRWYWx1ZSI6NC4wLCJtaW5Vbml0VmFsdWUiOi00LjAsImludGVydmFsIjowLjI1LCJtYXJrZXRVbml0IjoiR29hbHMifSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiRklORVNUIn19LCJ0b3RhbE1hdGNoZWQiOjIwNC4zNSwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTQuMCwic29ydFByaW9yaXR5IjoxfSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjo0LjAsInNvcnRQcmlvcml0eSI6Mn0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjotMy43NSwic29ydFByaW9yaXR5IjozfSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjozLjc1LCJzb3J0UHJpb3JpdHkiOjR9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTMuNSwic29ydFByaW9yaXR5Ijo1fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjozLjUsInNvcnRQcmlvcml0eSI6Nn0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjotMy4yNSwic29ydFByaW9yaXR5Ijo3fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjozLjI1LCJzb3J0UHJpb3JpdHkiOjh9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTMuMCwic29ydFByaW9yaXR5Ijo5fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjozLjAsInNvcnRQcmlvcml0eSI6MTB9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTIuNzUsInNvcnRQcmlvcml0eSI6MTF9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOjIuNzUsInNvcnRQcmlvcml0eSI6MTJ9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTIuNSwic29ydFByaW9yaXR5IjoxM30seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6Mi41LCJzb3J0UHJpb3JpdHkiOjE0fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOi0yLjI1LCJzb3J0UHJpb3JpdHkiOjE1fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjoyLjI1LCJzb3J0UHJpb3JpdHkiOjE2fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOi0yLjAsInNvcnRQcmlvcml0eSI6MTd9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOjIuMCwic29ydFByaW9yaXR5IjoxOH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjotMS43NSwic29ydFByaW9yaXR5IjoxOX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6MS43NSwic29ydFByaW9yaXR5IjoyMH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjotMS41LCJzb3J0UHJpb3JpdHkiOjIxfSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjoxLjUsInNvcnRQcmlvcml0eSI6MjJ9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTEuMjUsInNvcnRQcmlvcml0eSI6MjN9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOjEuMjUsInNvcnRQcmlvcml0eSI6MjR9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6LTEuMCwic29ydFByaW9yaXR5IjoyNX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6MS4wLCJzb3J0UHJpb3JpdHkiOjI2fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOi0wLjc1LCJzb3J0UHJpb3JpdHkiOjI3fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjowLjc1LCJzb3J0UHJpb3JpdHkiOjI4fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOi0wLjUsInNvcnRQcmlvcml0eSI6Mjl9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOjAuNSwic29ydFByaW9yaXR5IjozMH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjotMC4yNSwic29ydFByaW9yaXR5IjozMX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6MC4yNSwic29ydFByaW9yaXR5IjozMn0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MzN9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjozNH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjowLjI1LCJzb3J0UHJpb3JpdHkiOjM1fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjotMC4yNSwic29ydFByaW9yaXR5IjozNn0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjowLjUsInNvcnRQcmlvcml0eSI6Mzd9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOi0wLjUsInNvcnRQcmlvcml0eSI6Mzh9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6MC43NSwic29ydFByaW9yaXR5IjozOX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6LTAuNzUsInNvcnRQcmlvcml0eSI6NDB9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6MS4wLCJzb3J0UHJpb3JpdHkiOjQxfSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjotMS4wLCJzb3J0UHJpb3JpdHkiOjQyfSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOjEuMjUsInNvcnRQcmlvcml0eSI6NDN9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOi0xLjI1LCJzb3J0UHJpb3JpdHkiOjQ0fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOjEuNSwic29ydFByaW9yaXR5Ijo0NX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6LTEuNSwic29ydFByaW9yaXR5Ijo0Nn0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjoxLjc1LCJzb3J0UHJpb3JpdHkiOjQ3fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjotMS43NSwic29ydFByaW9yaXR5Ijo0OH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjoyLjAsInNvcnRQcmlvcml0eSI6NDl9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOi0yLjAsInNvcnRQcmlvcml0eSI6NTB9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6Mi4yNSwic29ydFByaW9yaXR5Ijo1MX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6LTIuMjUsInNvcnRQcmlvcml0eSI6NTJ9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6Mi41LCJzb3J0UHJpb3JpdHkiOjUzfSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjotMi41LCJzb3J0UHJpb3JpdHkiOjU0fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOjIuNzUsInNvcnRQcmlvcml0eSI6NTV9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOi0yLjc1LCJzb3J0UHJpb3JpdHkiOjU2fSx7InNlbGVjdGlvbklkIjo0Nzk5OSwicnVubmVyTmFtZSI6Ik1hbiBDaXR5IiwiaGFuZGljYXAiOjMuMCwic29ydFByaW9yaXR5Ijo1N30seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6LTMuMCwic29ydFByaW9yaXR5Ijo1OH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjozLjI1LCJzb3J0UHJpb3JpdHkiOjU5fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjotMy4yNSwic29ydFByaW9yaXR5Ijo2MH0seyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjozLjUsInNvcnRQcmlvcml0eSI6NjF9LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOi0zLjUsInNvcnRQcmlvcml0eSI6NjJ9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6My43NSwic29ydFByaW9yaXR5Ijo2M30seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6LTMuNzUsInNvcnRQcmlvcml0eSI6NjR9LHsic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6NC4wLCJzb3J0UHJpb3JpdHkiOjY1LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjQ3OTk5In19LHsic2VsZWN0aW9uSWQiOjQ4NDcwLCJydW5uZXJOYW1lIjoiU2hlZmYgVXRkIiwiaGFuZGljYXAiOi00LjAsInNvcnRQcmlvcml0eSI6NjYsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNDg0NzAifX1dfSx7Im1hcmtldElkIjoiMS4yMTE2NDU2NjUiLCJtYXJrZXROYW1lIjoiT3Zlci9VbmRlciAyLjUgR29hbHMiLCJkZXNjcmlwdGlvbiI6eyJwZXJzaXN0ZW5jZUVuYWJsZWQiOnRydWUsImJzcE1hcmtldCI6ZmFsc2UsIm1hcmtldFRpbWUiOiIyMDIzLTA0LTIyVDE1OjQ1OjAwLjAwMFoiLCJzdXNwZW5kVGltZSI6IjIwMjMtMDQtMjJUMTU6NDU6MDAuMDAwWiIsImJldHRpbmdUeXBlIjoiT0REUyIsInR1cm5JblBsYXlFbmFibGVkIjp0cnVlLCJtYXJrZXRUeXBlIjoiT1ZFUl9VTkRFUl8yNSIsInJlZ3VsYXRvciI6IkdJQlJBTFRBUiBSRUdVTEFUT1IiLCJtYXJrZXRCYXNlUmF0ZSI6NS4wLCJkaXNjb3VudEFsbG93ZWQiOmZhbHNlLCJ3YWxsZXQiOiJVSyB3YWxsZXQiLCJydWxlcyI6IjwhLS1Gb290YmFsbCAtIE92ZXIvVW5kZXJzIC0tPjxicj5Ib3cgbWFueSBnb2FscyB3aWxsIGJlIHNjb3JlZCBpbiB0aGlzIG1hdGNoLjxicj4gQWxsIGJldHMgYXBwbHkgdG8gRnVsbCBUaW1lIGFjY29yZGluZyB0byB0aGUgbWF0Y2ggb2ZmaWNpYWxzLCBwbHVzIGFueSBzdG9wcGFnZSB0aW1lLiBFeHRyYS10aW1lL3BlbmFsdHkgc2hvb3Qtb3V0cyBhcmUgbm90IGluY2x1ZGVkLjxicj48YnI+PC9iPkZvciBmdXJ0aGVyIGluZm9ybWF0aW9uIHBsZWFzZSBzZWUgPGEgaHJlZj1odHRwOi8vY29udGVudC5iZXRmYWlyLmNvbS9hYm91dHVzL2NvbnRlbnQuYXNwP3NXaGljaEtleT1SdWxlcyUyMGFuZCUyMFJlZ3VsYXRpb25zI3VuZGVmaW5lZC5kbyBzdHlsZT1jb2xvcjowMTYzYWQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB0YXJnZXQ9X2JsYW5rPlJ1bGVzICYgUmVnczxicj48YnI+XG4iLCJydWxlc0hhc0RhdGUiOnRydWUsInByaWNlTGFkZGVyRGVzY3JpcHRpb24iOnsidHlwZSI6IkNMQVNTSUMifX0sInRvdGFsTWF0Y2hlZCI6NC40NiwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjQ3OTcyLCJydW5uZXJOYW1lIjoiVW5kZXIgMi41IEdvYWxzIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjQ3OTcyIn19LHsic2VsZWN0aW9uSWQiOjQ3OTczLCJydW5uZXJOYW1lIjoiT3ZlciAyLjUgR29hbHMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjIsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNDc5NzMifX1dfSx7Im1hcmtldElkIjoiMS4yMTE2NDU3MzYiLCJtYXJrZXROYW1lIjoiQ29ycmVjdCBTY29yZSIsImRlc2NyaXB0aW9uIjp7InBlcnNpc3RlbmNlRW5hYmxlZCI6dHJ1ZSwiYnNwTWFya2V0IjpmYWxzZSwibWFya2V0VGltZSI6IjIwMjMtMDQtMjJUMTU6NDU6MDAuMDAwWiIsInN1c3BlbmRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwiYmV0dGluZ1R5cGUiOiJPRERTIiwidHVybkluUGxheUVuYWJsZWQiOnRydWUsIm1hcmtldFR5cGUiOiJDT1JSRUNUX1NDT1JFIiwicmVndWxhdG9yIjoiR0lCUkFMVEFSIFJFR1VMQVRPUiIsIm1hcmtldEJhc2VSYXRlIjo1LjAsImRpc2NvdW50QWxsb3dlZCI6ZmFsc2UsIndhbGxldCI6IlVLIHdhbGxldCIsInJ1bGVzIjoiPCEtLUZvb3RiYWxsIC0gQ29ycmVjdCBTY29yZSAtLT48YnI+UHJlZGljdCB0aGUgc2NvcmUgb2YgdGhpcyBtYXRjaC48YnI+VGhpcyBtYXJrZXQgd2lsbCBub3QgYmUgcGFydGlhbGx5IHNldHRsZWQgZHVyaW5nIHRoZSBmaXh0dXJlIGFuZCB3aWxsIGJlIGZ1bGx5IHNldHRsZWQgYXQgZnVsbCB0aW1lLjxicj4gQWxsIGJldHMgYXBwbHkgdG8gRnVsbCBUaW1lIGFjY29yZGluZyB0byB0aGUgbWF0Y2ggb2ZmaWNpYWxzLCBwbHVzIGFueSBzdG9wcGFnZSB0aW1lLiBFeHRyYS10aW1lL3BlbmFsdHkgc2hvb3Qtb3V0cyBhcmUgbm90IGluY2x1ZGVkLjxicj48YnI+PC9iPkZvciBmdXJ0aGVyIGluZm9ybWF0aW9uIHBsZWFzZSBzZWUgPGEgaHJlZj1odHRwOi8vY29udGVudC5iZXRmYWlyLmNvbS9hYm91dHVzL2NvbnRlbnQuYXNwP3NXaGljaEtleT1SdWxlcyUyMGFuZCUyMFJlZ3VsYXRpb25zI3VuZGVmaW5lZC5kbyBzdHlsZT1jb2xvcjowMTYzYWQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB0YXJnZXQ9X2JsYW5rPlJ1bGVzICYgUmVnczxicj48YnI+XG4iLCJydWxlc0hhc0RhdGUiOnRydWUsInByaWNlTGFkZGVyRGVzY3JpcHRpb24iOnsidHlwZSI6IkNMQVNTSUMifX0sInRvdGFsTWF0Y2hlZCI6NTYyLjIyLCJydW5uZXJzIjpbeyJzZWxlY3Rpb25JZCI6MSwicnVubmVyTmFtZSI6IjAgLSAwIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjEifX0seyJzZWxlY3Rpb25JZCI6NCwicnVubmVyTmFtZSI6IjAgLSAxIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoyLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjQifX0seyJzZWxlY3Rpb25JZCI6OSwicnVubmVyTmFtZSI6IjAgLSAyIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjozLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjkifX0seyJzZWxlY3Rpb25JZCI6MTYsInJ1bm5lck5hbWUiOiIwIC0gMyIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6NCwibWV0YWRhdGEiOnsicnVubmVySWQiOiIxNiJ9fSx7InNlbGVjdGlvbklkIjoyLCJydW5uZXJOYW1lIjoiMSAtIDAiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjUsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMiJ9fSx7InNlbGVjdGlvbklkIjozLCJydW5uZXJOYW1lIjoiMSAtIDEiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjYsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMyJ9fSx7InNlbGVjdGlvbklkIjo4LCJydW5uZXJOYW1lIjoiMSAtIDIiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjcsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiOCJ9fSx7InNlbGVjdGlvbklkIjoxNSwicnVubmVyTmFtZSI6IjEgLSAzIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5Ijo4LCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjE1In19LHsic2VsZWN0aW9uSWQiOjUsInJ1bm5lck5hbWUiOiIyIC0gMCIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6OSwibWV0YWRhdGEiOnsicnVubmVySWQiOiI1In19LHsic2VsZWN0aW9uSWQiOjYsInJ1bm5lck5hbWUiOiIyIC0gMSIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTAsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNiJ9fSx7InNlbGVjdGlvbklkIjo3LCJydW5uZXJOYW1lIjoiMiAtIDIiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjExLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjcifX0seyJzZWxlY3Rpb25JZCI6MTQsInJ1bm5lck5hbWUiOiIyIC0gMyIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTIsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTQifX0seyJzZWxlY3Rpb25JZCI6MTAsInJ1bm5lck5hbWUiOiIzIC0gMCIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTMsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTAifX0seyJzZWxlY3Rpb25JZCI6MTEsInJ1bm5lck5hbWUiOiIzIC0gMSIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTQsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTEifX0seyJzZWxlY3Rpb25JZCI6MTIsInJ1bm5lck5hbWUiOiIzIC0gMiIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTUsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTIifX0seyJzZWxlY3Rpb25JZCI6MTMsInJ1bm5lck5hbWUiOiIzIC0gMyIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTYsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTMifX0seyJzZWxlY3Rpb25JZCI6OTA2MzI1NCwicnVubmVyTmFtZSI6IkFueSBPdGhlciBIb21lIFdpbiIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTcsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiOTA2MzI1NCJ9fSx7InNlbGVjdGlvbklkIjo5MDYzMjU1LCJydW5uZXJOYW1lIjoiQW55IE90aGVyIEF3YXkgV2luIiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjoxOCwibWV0YWRhdGEiOnsicnVubmVySWQiOiI5MDYzMjU1In19LHsic2VsZWN0aW9uSWQiOjkwNjMyNTYsInJ1bm5lck5hbWUiOiJBbnkgT3RoZXIgRHJhdyIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MTksIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiOTA2MzI1NiJ9fV19LHsibWFya2V0SWQiOiIxLjIxMTY0NTczOSIsIm1hcmtldE5hbWUiOiJHb2FsIExpbmVzIiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOmZhbHNlLCJtYXJrZXRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwic3VzcGVuZFRpbWUiOiIyMDIzLTA0LTIyVDE1OjQ1OjAwLjAwMFoiLCJiZXR0aW5nVHlwZSI6IkFTSUFOX0hBTkRJQ0FQX0RPVUJMRV9MSU5FIiwidHVybkluUGxheUVuYWJsZWQiOnRydWUsIm1hcmtldFR5cGUiOiJBTFRfVE9UQUxfR09BTFMiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBHb2FsIExpbmVzIC0tPjxicj5Ib3cgbWFueSBnb2FscyB3aWxsIGJlIHNjb3JlZCBpbiB0aGlzIG1hdGNoPzxicj48YnI+IEVhY2ggdW5kZXIvb3ZlciBsaW5lIHdpbGwgYmUgc2V0dGxlZCwgYW5kIGNvbW1pc3Npb24gY2hhcmdlZCwgaW5kaXZpZHVhbGx5LiBFYWNoIHVuZGVyL292ZXIgbGluZSB3aWxsIGJlIHNldHRsZWQgd2hlbiB1bmNvbmRpdGlvbmFsbHkgZGV0ZXJtaW5lZC48YnI+Rm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gb24gQXNpYW4gR29hbCBMaW5lIEJldHRpbmcgYmV0dGluZyBwbGVhc2UgY2xpY2sgb24gdGhpcyBsaW5rIDxhIGhyZWY9XCJodHRwczovL2JldHRpbmcuYmV0ZmFpci5jb20vYmV0ZmFpci1hbm5vdW5jZW1lbnRzL3doYXRzLW5ldy1vbi1iZXRmYWlyL2JldGZhaXItbGF1bmNoZXMtZ29hbC1saW5lcy1iZXR0aW5nLTAxMDgxNy02Lmh0bWxcIiB0YXJnZXQ9XCJfYmxhbmtcIj5Bc2lhbiBHb2FsIExpbmUgQmV0dGluZyBFeHBsYWluZWQuPC9hPiA8YnI+IEFsbCBiZXRzIGFwcGx5IHRvIEZ1bGwgVGltZSBhY2NvcmRpbmcgdG8gdGhlIG1hdGNoIG9mZmljaWFscywgcGx1cyBhbnkgc3RvcHBhZ2UgdGltZS4gRXh0cmEtdGltZS9wZW5hbHR5IHNob290LW91dHMgYXJlIG5vdCBpbmNsdWRlZC48YnI+PGJyPjwvYj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBwbGVhc2Ugc2VlIDxhIGhyZWY9aHR0cDovL2NvbnRlbnQuYmV0ZmFpci5jb20vYWJvdXR1cy9jb250ZW50LmFzcD9zV2hpY2hLZXk9UnVsZXMlMjBhbmQlMjBSZWd1bGF0aW9ucyN1bmRlZmluZWQuZG8gc3R5bGU9Y29sb3I6MDE2M2FkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgdGFyZ2V0PV9ibGFuaz5SdWxlcyAmIFJlZ3M8YnI+PGJyPiIsInJ1bGVzSGFzRGF0ZSI6ZmFsc2UsImxpbmVSYW5nZUluZm8iOnsibWF4VW5pdFZhbHVlIjo4LjUsIm1pblVuaXRWYWx1ZSI6MC41LCJpbnRlcnZhbCI6MC4yNSwibWFya2V0VW5pdCI6IkdvYWxzIn0sInByaWNlTGFkZGVyRGVzY3JpcHRpb24iOnsidHlwZSI6IkZJTkVTVCJ9fSwidG90YWxNYXRjaGVkIjo0LjQ2LCJydW5uZXJzIjpbeyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjAuNSwic29ydFByaW9yaXR5IjoxfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgyLCJydW5uZXJOYW1lIjoiT3ZlciIsImhhbmRpY2FwIjowLjUsInNvcnRQcmlvcml0eSI6Mn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjAuNzUsInNvcnRQcmlvcml0eSI6M30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6MC43NSwic29ydFByaW9yaXR5Ijo0fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6MS4wLCJzb3J0UHJpb3JpdHkiOjV9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjEuMCwic29ydFByaW9yaXR5Ijo2fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6MS4yNSwic29ydFByaW9yaXR5Ijo3fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgyLCJydW5uZXJOYW1lIjoiT3ZlciIsImhhbmRpY2FwIjoxLjI1LCJzb3J0UHJpb3JpdHkiOjh9LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODMsInJ1bm5lck5hbWUiOiJVbmRlciIsImhhbmRpY2FwIjoxLjUsInNvcnRQcmlvcml0eSI6OX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6MS41LCJzb3J0UHJpb3JpdHkiOjEwfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6MS43NSwic29ydFByaW9yaXR5IjoxMX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6MS43NSwic29ydFByaW9yaXR5IjoxMn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjIuMCwic29ydFByaW9yaXR5IjoxM30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Mi4wLCJzb3J0UHJpb3JpdHkiOjE0fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6Mi4yNSwic29ydFByaW9yaXR5IjoxNX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Mi4yNSwic29ydFByaW9yaXR5IjoxNn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjIuNSwic29ydFByaW9yaXR5IjoxN30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Mi41LCJzb3J0UHJpb3JpdHkiOjE4fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6Mi43NSwic29ydFByaW9yaXR5IjoxOX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Mi43NSwic29ydFByaW9yaXR5IjoyMH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjMuMCwic29ydFByaW9yaXR5IjoyMX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6My4wLCJzb3J0UHJpb3JpdHkiOjIyfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6My4yNSwic29ydFByaW9yaXR5IjoyM30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6My4yNSwic29ydFByaW9yaXR5IjoyNH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjMuNSwic29ydFByaW9yaXR5IjoyNX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6My41LCJzb3J0UHJpb3JpdHkiOjI2fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6My43NSwic29ydFByaW9yaXR5IjoyN30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6My43NSwic29ydFByaW9yaXR5IjoyOH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjQuMCwic29ydFByaW9yaXR5IjoyOX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NC4wLCJzb3J0UHJpb3JpdHkiOjMwfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6NC4yNSwic29ydFByaW9yaXR5IjozMX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NC4yNSwic29ydFByaW9yaXR5IjozMn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjQuNSwic29ydFByaW9yaXR5IjozM30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NC41LCJzb3J0UHJpb3JpdHkiOjM0fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6NC43NSwic29ydFByaW9yaXR5IjozNX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NC43NSwic29ydFByaW9yaXR5IjozNn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjUuMCwic29ydFByaW9yaXR5IjozN30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NS4wLCJzb3J0UHJpb3JpdHkiOjM4fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6NS4yNSwic29ydFByaW9yaXR5IjozOX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NS4yNSwic29ydFByaW9yaXR5Ijo0MH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjUuNSwic29ydFByaW9yaXR5Ijo0MX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NS41LCJzb3J0UHJpb3JpdHkiOjQyfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6NS43NSwic29ydFByaW9yaXR5Ijo0M30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6NS43NSwic29ydFByaW9yaXR5Ijo0NH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjYuMCwic29ydFByaW9yaXR5Ijo0NX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ni4wLCJzb3J0UHJpb3JpdHkiOjQ2fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6Ni4yNSwic29ydFByaW9yaXR5Ijo0N30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ni4yNSwic29ydFByaW9yaXR5Ijo0OH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjYuNSwic29ydFByaW9yaXR5Ijo0OX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ni41LCJzb3J0UHJpb3JpdHkiOjUwfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6Ni43NSwic29ydFByaW9yaXR5Ijo1MX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ni43NSwic29ydFByaW9yaXR5Ijo1Mn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjcuMCwic29ydFByaW9yaXR5Ijo1M30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ny4wLCJzb3J0UHJpb3JpdHkiOjU0fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6Ny4yNSwic29ydFByaW9yaXR5Ijo1NX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ny4yNSwic29ydFByaW9yaXR5Ijo1Nn0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjcuNSwic29ydFByaW9yaXR5Ijo1N30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ny41LCJzb3J0UHJpb3JpdHkiOjU4fSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6Ny43NSwic29ydFByaW9yaXR5Ijo1OX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6Ny43NSwic29ydFByaW9yaXR5Ijo2MH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjguMCwic29ydFByaW9yaXR5Ijo2MX0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6OC4wLCJzb3J0UHJpb3JpdHkiOjYyfSx7InNlbGVjdGlvbklkIjo3MDQ0NDgzLCJydW5uZXJOYW1lIjoiVW5kZXIiLCJoYW5kaWNhcCI6OC4yNSwic29ydFByaW9yaXR5Ijo2M30seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MiwicnVubmVyTmFtZSI6Ik92ZXIiLCJoYW5kaWNhcCI6OC4yNSwic29ydFByaW9yaXR5Ijo2NH0seyJzZWxlY3Rpb25JZCI6NzA0NDQ4MywicnVubmVyTmFtZSI6IlVuZGVyIiwiaGFuZGljYXAiOjguNSwic29ydFByaW9yaXR5Ijo2NSwibWV0YWRhdGEiOnsicnVubmVySWQiOiI3MDQ0NDgzIn19LHsic2VsZWN0aW9uSWQiOjcwNDQ0ODIsInJ1bm5lck5hbWUiOiJPdmVyIiwiaGFuZGljYXAiOjguNSwic29ydFByaW9yaXR5Ijo2NiwibWV0YWRhdGEiOnsicnVubmVySWQiOiI3MDQ0NDgyIn19XX0seyJtYXJrZXRJZCI6IjEuMjExNjQ1NzI1IiwibWFya2V0TmFtZSI6IkJvdGggdGVhbXMgdG8gU2NvcmU/IiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOmZhbHNlLCJtYXJrZXRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwic3VzcGVuZFRpbWUiOiIyMDIzLTA0LTIyVDE1OjQ1OjAwLjAwMFoiLCJiZXR0aW5nVHlwZSI6Ik9ERFMiLCJ0dXJuSW5QbGF5RW5hYmxlZCI6dHJ1ZSwibWFya2V0VHlwZSI6IkJPVEhfVEVBTVNfVE9fU0NPUkUiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBCVFRTIC0tPjxicj5XaWxsIGJvdGggdGVhbXMgc2NvcmUgYXQgbGVhc3Qgb25lIGdvYWwgaW4gdGhpcyBtYXRjaD/CoDxicj4gQWxsIGJldHMgYXBwbHkgdG8gRnVsbCBUaW1lIGFjY29yZGluZyB0byB0aGUgbWF0Y2ggb2ZmaWNpYWxzLCBwbHVzIGFueSBzdG9wcGFnZSB0aW1lLiBFeHRyYS10aW1lL3BlbmFsdHkgc2hvb3Qtb3V0cyBhcmUgbm90IGluY2x1ZGVkLjxicj48YnI+PC9iPkZvciBmdXJ0aGVyIGluZm9ybWF0aW9uIHBsZWFzZSBzZWUgPGEgaHJlZj1odHRwOi8vY29udGVudC5iZXRmYWlyLmNvbS9hYm91dHVzL2NvbnRlbnQuYXNwP3NXaGljaEtleT1SdWxlcyUyMGFuZCUyMFJlZ3VsYXRpb25zI3VuZGVmaW5lZC5kbyBzdHlsZT1jb2xvcjowMTYzYWQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB0YXJnZXQ9X2JsYW5rPlJ1bGVzICYgUmVnczxicj48YnI+XG4iLCJydWxlc0hhc0RhdGUiOnRydWUsInByaWNlTGFkZGVyRGVzY3JpcHRpb24iOnsidHlwZSI6IkNMQVNTSUMifX0sInRvdGFsTWF0Y2hlZCI6NTQwLjA1LCJydW5uZXJzIjpbeyJzZWxlY3Rpb25JZCI6MzAyNDYsInJ1bm5lck5hbWUiOiJZZXMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMzAyNDYifX0seyJzZWxlY3Rpb25JZCI6MTEwNTAzLCJydW5uZXJOYW1lIjoiTm8iLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjIsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiMTEwNTAzIn19XX0seyJtYXJrZXRJZCI6IjEuMjExNjQ1NzI2IiwibWFya2V0TmFtZSI6Ik1hdGNoIE9kZHMiLCJkZXNjcmlwdGlvbiI6eyJwZXJzaXN0ZW5jZUVuYWJsZWQiOnRydWUsImJzcE1hcmtldCI6dHJ1ZSwibWFya2V0VGltZSI6IjIwMjMtMDQtMjJUMTU6NDU6MDAuMDAwWiIsInN1c3BlbmRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwiYmV0dGluZ1R5cGUiOiJPRERTIiwidHVybkluUGxheUVuYWJsZWQiOnRydWUsIm1hcmtldFR5cGUiOiJNQVRDSF9PRERTIiwicmVndWxhdG9yIjoiR0lCUkFMVEFSIFJFR1VMQVRPUiIsIm1hcmtldEJhc2VSYXRlIjo1LjAsImRpc2NvdW50QWxsb3dlZCI6ZmFsc2UsIndhbGxldCI6IlVLIHdhbGxldCIsInJ1bGVzIjoiPCEtLUZvb3RiYWxsIC0gTWF0Y2ggT2RkcyAtLT48YnI+UHJlZGljdCB0aGUgcmVzdWx0IG9mIHRoaXMgbWF0Y2guPGJyPiBBbGwgYmV0cyBhcHBseSB0byBGdWxsIFRpbWUgYWNjb3JkaW5nIHRvIHRoZSBtYXRjaCBvZmZpY2lhbHMsIHBsdXMgYW55IHN0b3BwYWdlIHRpbWUuIEV4dHJhLXRpbWUvcGVuYWx0eSBzaG9vdC1vdXRzIGFyZSBub3QgaW5jbHVkZWQuPGJyPjxicj48L2I+Rm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24gcGxlYXNlIHNlZSA8YSBocmVmPWh0dHA6Ly9jb250ZW50LmJldGZhaXIuY29tL2Fib3V0dXMvY29udGVudC5hc3A/c1doaWNoS2V5PVJ1bGVzJTIwYW5kJTIwUmVndWxhdGlvbnMjdW5kZWZpbmVkLmRvIHN0eWxlPWNvbG9yOjAxNjNhZDsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IHRhcmdldD1fYmxhbms+UnVsZXMgJiBSZWdzPGJyPjxicj5cbiIsInJ1bGVzSGFzRGF0ZSI6dHJ1ZSwicHJpY2VMYWRkZXJEZXNjcmlwdGlvbiI6eyJ0eXBlIjoiQ0xBU1NJQyJ9fSwidG90YWxNYXRjaGVkIjozNDk1LjY3LCJydW5uZXJzIjpbeyJzZWxlY3Rpb25JZCI6NDc5OTksInJ1bm5lck5hbWUiOiJNYW4gQ2l0eSIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MSwibWV0YWRhdGEiOnsicnVubmVySWQiOiI0Nzk5OSJ9fSx7InNlbGVjdGlvbklkIjo0ODQ3MCwicnVubmVyTmFtZSI6IlNoZWZmIFV0ZCIsImhhbmRpY2FwIjowLjAsInNvcnRQcmlvcml0eSI6MiwibWV0YWRhdGEiOnsicnVubmVySWQiOiI0ODQ3MCJ9fSx7InNlbGVjdGlvbklkIjo1ODgwNSwicnVubmVyTmFtZSI6IlRoZSBEcmF3IiwiaGFuZGljYXAiOjAuMCwic29ydFByaW9yaXR5IjozLCJtZXRhZGF0YSI6eyJydW5uZXJJZCI6IjU4ODA1In19XX0seyJtYXJrZXRJZCI6IjEuMjExNjQ1NzMxIiwibWFya2V0TmFtZSI6Ik92ZXIvVW5kZXIgMC41IEdvYWxzIiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOmZhbHNlLCJtYXJrZXRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwic3VzcGVuZFRpbWUiOiIyMDIzLTA0LTIyVDE1OjQ1OjAwLjAwMFoiLCJiZXR0aW5nVHlwZSI6Ik9ERFMiLCJ0dXJuSW5QbGF5RW5hYmxlZCI6dHJ1ZSwibWFya2V0VHlwZSI6Ik9WRVJfVU5ERVJfMDUiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBPdmVyL1VuZGVycyAtLT48YnI+SG93IG1hbnkgZ29hbHMgd2lsbCBiZSBzY29yZWQgaW4gdGhpcyBtYXRjaC48YnI+IEFsbCBiZXRzIGFwcGx5IHRvIEZ1bGwgVGltZSBhY2NvcmRpbmcgdG8gdGhlIG1hdGNoIG9mZmljaWFscywgcGx1cyBhbnkgc3RvcHBhZ2UgdGltZS4gRXh0cmEtdGltZS9wZW5hbHR5IHNob290LW91dHMgYXJlIG5vdCBpbmNsdWRlZC48YnI+PGJyPjwvYj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBwbGVhc2Ugc2VlIDxhIGhyZWY9aHR0cDovL2NvbnRlbnQuYmV0ZmFpci5jb20vYWJvdXR1cy9jb250ZW50LmFzcD9zV2hpY2hLZXk9UnVsZXMlMjBhbmQlMjBSZWd1bGF0aW9ucyN1bmRlZmluZWQuZG8gc3R5bGU9Y29sb3I6MDE2M2FkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgdGFyZ2V0PV9ibGFuaz5SdWxlcyAmIFJlZ3M8YnI+PGJyPlxuIiwicnVsZXNIYXNEYXRlIjp0cnVlLCJwcmljZUxhZGRlckRlc2NyaXB0aW9uIjp7InR5cGUiOiJDTEFTU0lDIn19LCJ0b3RhbE1hdGNoZWQiOjAuMCwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjU4NTE0ODIsInJ1bm5lck5hbWUiOiJVbmRlciAwLjUgR29hbHMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNTg1MTQ4MiJ9fSx7InNlbGVjdGlvbklkIjo1ODUxNDgzLCJydW5uZXJOYW1lIjoiT3ZlciAwLjUgR29hbHMiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjIsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNTg1MTQ4MyJ9fV19LHsibWFya2V0SWQiOiIxLjIxMjMyODI0OCIsIm1hcmtldE5hbWUiOiJUbyBRdWFsaWZ5IiwiZGVzY3JpcHRpb24iOnsicGVyc2lzdGVuY2VFbmFibGVkIjp0cnVlLCJic3BNYXJrZXQiOmZhbHNlLCJtYXJrZXRUaW1lIjoiMjAyMy0wNC0yMlQxNTo0NTowMC4wMDBaIiwic3VzcGVuZFRpbWUiOiIyMDIzLTA0LTIyVDE1OjQ1OjAwLjAwMFoiLCJiZXR0aW5nVHlwZSI6Ik9ERFMiLCJ0dXJuSW5QbGF5RW5hYmxlZCI6dHJ1ZSwibWFya2V0VHlwZSI6IlRPX1FVQUxJRlkiLCJyZWd1bGF0b3IiOiJHSUJSQUxUQVIgUkVHVUxBVE9SIiwibWFya2V0QmFzZVJhdGUiOjUuMCwiZGlzY291bnRBbGxvd2VkIjpmYWxzZSwid2FsbGV0IjoiVUsgd2FsbGV0IiwicnVsZXMiOiI8IS0tRm9vdGJhbGwgLSBUbyBRdWFsaWZ5IC0tPjxicj5XaGljaCB0ZWFtIHdpbGwgcHJvZ3Jlc3MgdG8gdGhlIG5leHQgc3RhZ2Ugb2YgdGhlIGNvbXBldGl0aW9uPyA8YnI+RXh0cmEtdGltZS9wZW5hbHR5IHNob290LW91dHMgQVJFIGluY2x1ZGVkLiA8YnI+PGJyPjwvYj5Gb3IgZnVydGhlciBpbmZvcm1hdGlvbiBwbGVhc2Ugc2VlIDxhIGhyZWY9aHR0cDovL2NvbnRlbnQuYmV0ZmFpci5jb20vYWJvdXR1cy9jb250ZW50LmFzcD9zV2hpY2hLZXk9UnVsZXMlMjBhbmQlMjBSZWd1bGF0aW9ucyN1bmRlZmluZWQuZG8gc3R5bGU9Y29sb3I6MDE2M2FkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgdGFyZ2V0PV9ibGFuaz5SdWxlcyAmIFJlZ3M8YnI+PGJyPlxuIiwicnVsZXNIYXNEYXRlIjp0cnVlLCJwcmljZUxhZGRlckRlc2NyaXB0aW9uIjp7InR5cGUiOiJDTEFTU0lDIn19LCJ0b3RhbE1hdGNoZWQiOjI2Ny45NCwicnVubmVycyI6W3sic2VsZWN0aW9uSWQiOjQ3OTk5LCJydW5uZXJOYW1lIjoiTWFuIENpdHkiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjEsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNDc5OTkifX0seyJzZWxlY3Rpb25JZCI6NDg0NzAsInJ1bm5lck5hbWUiOiJTaGVmZiBVdGQiLCJoYW5kaWNhcCI6MC4wLCJzb3J0UHJpb3JpdHkiOjIsIm1ldGFkYXRhIjp7InJ1bm5lcklkIjoiNDg0NzAifX1dfV0=
+  recorded_at: Tue, 18 Apr 2023 16:35:59 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"marketIds":["1.211645736"]},"marketProjection":["RUNNER_METADATA"],"maxResults":1000}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:59 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '394'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=VqxtzAqS2y5AfRzjA76Uhh2GIPyW17dTWfsvEtQnIuE-1681835759-0-AV7leBhkEAkopuLxXY3GMsy/dsuDoUB4vcoOdHFE7JQcdlrDOIjMhhMrMeu0HbrPzIQmCAuUDGYqVSf5x6JTcVM=;
+        path=/; expires=Tue, 18-Apr-23 17:05:59 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DSiw4gGECOt6LPRGXeX9tt5uvKTnVJlvPPnIArhMZQ%2F1%2BnsicIV9S2sZkmeNZcOXLQXf1SfguswZ6Wh7qfMl5i18ykn%2FayhRhto2W7KVvZp%2FLnuzuLi%2Be8ZU0QGBKImZpw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f6dbe0d178-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"marketId":"1.211645736","marketName":"Correct Score","totalMatched":562.22,"runners":[{"selectionId":1,"runnerName":"0
+        - 0","handicap":0.0,"sortPriority":1,"metadata":{"runnerId":"1"}},{"selectionId":4,"runnerName":"0
+        - 1","handicap":0.0,"sortPriority":2,"metadata":{"runnerId":"4"}},{"selectionId":9,"runnerName":"0
+        - 2","handicap":0.0,"sortPriority":3,"metadata":{"runnerId":"9"}},{"selectionId":16,"runnerName":"0
+        - 3","handicap":0.0,"sortPriority":4,"metadata":{"runnerId":"16"}},{"selectionId":2,"runnerName":"1
+        - 0","handicap":0.0,"sortPriority":5,"metadata":{"runnerId":"2"}},{"selectionId":3,"runnerName":"1
+        - 1","handicap":0.0,"sortPriority":6,"metadata":{"runnerId":"3"}},{"selectionId":8,"runnerName":"1
+        - 2","handicap":0.0,"sortPriority":7,"metadata":{"runnerId":"8"}},{"selectionId":15,"runnerName":"1
+        - 3","handicap":0.0,"sortPriority":8,"metadata":{"runnerId":"15"}},{"selectionId":5,"runnerName":"2
+        - 0","handicap":0.0,"sortPriority":9,"metadata":{"runnerId":"5"}},{"selectionId":6,"runnerName":"2
+        - 1","handicap":0.0,"sortPriority":10,"metadata":{"runnerId":"6"}},{"selectionId":7,"runnerName":"2
+        - 2","handicap":0.0,"sortPriority":11,"metadata":{"runnerId":"7"}},{"selectionId":14,"runnerName":"2
+        - 3","handicap":0.0,"sortPriority":12,"metadata":{"runnerId":"14"}},{"selectionId":10,"runnerName":"3
+        - 0","handicap":0.0,"sortPriority":13,"metadata":{"runnerId":"10"}},{"selectionId":11,"runnerName":"3
+        - 1","handicap":0.0,"sortPriority":14,"metadata":{"runnerId":"11"}},{"selectionId":12,"runnerName":"3
+        - 2","handicap":0.0,"sortPriority":15,"metadata":{"runnerId":"12"}},{"selectionId":13,"runnerName":"3
+        - 3","handicap":0.0,"sortPriority":16,"metadata":{"runnerId":"13"}},{"selectionId":9063254,"runnerName":"Any
+        Other Home Win","handicap":0.0,"sortPriority":17,"metadata":{"runnerId":"9063254"}},{"selectionId":9063255,"runnerName":"Any
+        Other Away Win","handicap":0.0,"sortPriority":18,"metadata":{"runnerId":"9063255"}},{"selectionId":9063256,"runnerName":"Any
+        Other Draw","handicap":0.0,"sortPriority":19,"metadata":{"runnerId":"9063256"}}]}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:59 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"marketIds":["1.211645679"]},"marketProjection":["RUNNER_METADATA"],"maxResults":1000}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Apr 2023 16:35:59 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=N42UXeFaboTVdBS1Ei0EKjHvmIpcqvUMXAEXsSTkSaM-1681835759-0-AfrcwA7iFVeMQfowqyD0eTnYsd+/IWc28Pf/ZvZi3hxZEAgF29RNAGYKZGHTwPgN/idMa0NwNbEELIYMsEVq8f4=;
+        path=/; expires=Tue, 18-Apr-23 17:05:59 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8u2eClHLuR1mjwZ0VV0KskVmtrLJGwIooCJPPHF6h%2Flhx4hBiZFdmjmBNIaALf3%2BU7IbaBStnQU2mfQZbUJ90ApgXX8hQRBi3ooXB4BIl14%2BwLBuzjQnKNpn4XD86kSWng%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b9e52f88ccd385b-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"marketId":"1.211645679","marketName":"Asian Handicap","totalMatched":204.35,"runners":[{"selectionId":47999,"runnerName":"Man
+        City","handicap":-4.0,"sortPriority":1},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":4.0,"sortPriority":2},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-3.75,"sortPriority":3},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":3.75,"sortPriority":4},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-3.5,"sortPriority":5},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":3.5,"sortPriority":6},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-3.25,"sortPriority":7},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":3.25,"sortPriority":8},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-3.0,"sortPriority":9},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":3.0,"sortPriority":10},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-2.75,"sortPriority":11},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":2.75,"sortPriority":12},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-2.5,"sortPriority":13},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":2.5,"sortPriority":14},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-2.25,"sortPriority":15},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":2.25,"sortPriority":16},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-2.0,"sortPriority":17},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":2.0,"sortPriority":18},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-1.75,"sortPriority":19},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":1.75,"sortPriority":20},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-1.5,"sortPriority":21},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":1.5,"sortPriority":22},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-1.25,"sortPriority":23},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":1.25,"sortPriority":24},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-1.0,"sortPriority":25},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":1.0,"sortPriority":26},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-0.75,"sortPriority":27},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":0.75,"sortPriority":28},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-0.5,"sortPriority":29},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":0.5,"sortPriority":30},{"selectionId":47999,"runnerName":"Man
+        City","handicap":-0.25,"sortPriority":31},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":0.25,"sortPriority":32},{"selectionId":47999,"runnerName":"Man
+        City","handicap":0.0,"sortPriority":33},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":0.0,"sortPriority":34},{"selectionId":47999,"runnerName":"Man
+        City","handicap":0.25,"sortPriority":35},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-0.25,"sortPriority":36},{"selectionId":47999,"runnerName":"Man
+        City","handicap":0.5,"sortPriority":37},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-0.5,"sortPriority":38},{"selectionId":47999,"runnerName":"Man
+        City","handicap":0.75,"sortPriority":39},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-0.75,"sortPriority":40},{"selectionId":47999,"runnerName":"Man
+        City","handicap":1.0,"sortPriority":41},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-1.0,"sortPriority":42},{"selectionId":47999,"runnerName":"Man
+        City","handicap":1.25,"sortPriority":43},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-1.25,"sortPriority":44},{"selectionId":47999,"runnerName":"Man
+        City","handicap":1.5,"sortPriority":45},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-1.5,"sortPriority":46},{"selectionId":47999,"runnerName":"Man
+        City","handicap":1.75,"sortPriority":47},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-1.75,"sortPriority":48},{"selectionId":47999,"runnerName":"Man
+        City","handicap":2.0,"sortPriority":49},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-2.0,"sortPriority":50},{"selectionId":47999,"runnerName":"Man
+        City","handicap":2.25,"sortPriority":51},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-2.25,"sortPriority":52},{"selectionId":47999,"runnerName":"Man
+        City","handicap":2.5,"sortPriority":53},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-2.5,"sortPriority":54},{"selectionId":47999,"runnerName":"Man
+        City","handicap":2.75,"sortPriority":55},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-2.75,"sortPriority":56},{"selectionId":47999,"runnerName":"Man
+        City","handicap":3.0,"sortPriority":57},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-3.0,"sortPriority":58},{"selectionId":47999,"runnerName":"Man
+        City","handicap":3.25,"sortPriority":59},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-3.25,"sortPriority":60},{"selectionId":47999,"runnerName":"Man
+        City","handicap":3.5,"sortPriority":61},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-3.5,"sortPriority":62},{"selectionId":47999,"runnerName":"Man
+        City","handicap":3.75,"sortPriority":63},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-3.75,"sortPriority":64},{"selectionId":47999,"runnerName":"Man
+        City","handicap":4.0,"sortPriority":65,"metadata":{"runnerId":"47999"}},{"selectionId":48470,"runnerName":"Sheff
+        Utd","handicap":-4.0,"sortPriority":66,"metadata":{"runnerId":"48470"}}]}]'
+  recorded_at: Tue, 18 Apr 2023 16:35:59 GMT
+recorded_with: VCR 6.1.0

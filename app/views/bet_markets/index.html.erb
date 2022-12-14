@@ -10,7 +10,7 @@
   </h4>
 </div>
 <!--div id="bet_markets_chart" style="width: 500px; height: 200px" ></div-->
-<% active_markets = @bet_markets.select { |bm| bm.active && bm.number_of_winners > 0 } %>
+<% active_markets = @bet_markets.select(&:active) %>
 <%= content_tag :div, '', id: 'bm_chart', class: "bet-markets-chart",
                 data: {
                     labels: bet_markets_labels(active_markets),
@@ -27,7 +27,6 @@
       <th><%= model_class.human_attribute_name(:status) %></th>
       <th><%= model_class.human_attribute_name(:market_type) %></th>
       <th><%= model_class.human_attribute_name(:runners) %></th>
-      <th><%= model_class.human_attribute_name(:winners) %></th>
       <th><%= model_class.human_attribute_name(:active) %></th>
       <th><%= model_class.human_attribute_name(:live) %></th>
       <th><%= model_class.human_attribute_name(:live_priced) %></th>
@@ -43,7 +42,6 @@
         <td><%= bet_market.status %></td>
         <td><%= link_to bet_market.betfair_market_type.name, bet_market.betfair_market_type %></td>
         <td><%= bet_market.market_runners.count %></td>
-        <td><%= bet_market.number_of_winners %></td>
         <td><%= bet_market.active ? 'Y' : 'N' %></td>
         <td><%= bet_market.live ? 'L' : '' %></td>
         <td><%= bet_market.live_priced ? 'Y' : 'N' %></td>

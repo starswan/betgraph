@@ -6,13 +6,11 @@
 FactoryBot.define do
   factory :bet_market do
     name { "Correct Score" }
-    number_of_winners { 1 }
     number_of_runners { 1 }
     status { BetMarket::ACTIVE }
     markettype { "Market Type" }
     sequence(:marketid)
     exchange_id { 1 }
-    runners_may_be_added { false }
     live { false }
     total_matched_amount { 0 }
     time { Time.zone.now }
@@ -38,7 +36,7 @@ FactoryBot.define do
   end
 
   factory :betfair_market_type do
-    name { "Market Type" }
+    name { "Correct Score" }
     valuer { "CorrectScore" }
     active { true }
     association :sport
