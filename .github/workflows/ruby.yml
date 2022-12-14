@@ -33,9 +33,6 @@ jobs:
           - 3306:3306
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
 
-    env:
-      RAILS_ENV: test
-
     steps:
       - uses: actions/checkout@v3
       - name: Set up Ruby
@@ -48,10 +45,9 @@ jobs:
         run: bundle exec rubocop
 
       - name: Setup test db
-        run: bundle exec rake db:create
-
-      - name: load schema
-        run: bundle exec rake db:schema:load
+        env:
+          RAILS_ENV: test
+        run: bundle exec rake db:create db:schema:load
 
       - uses: actions/setup-node@v3
         with:
@@ -60,4 +56,4 @@ jobs:
       - name: Yarn install
         run: yarn install
       - name: Run Ruby tests
-        run: bundle exec rspec -t ~betfair
+        run: bundle exec rake spec

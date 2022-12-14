@@ -67,9 +67,10 @@ gem "pg"
 gem "rails", "~> 6.0.4"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 6"
+gem "shakapacker", "= 6.5"
+
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
-gem "webpacker", ">= 5", "< 6"
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
