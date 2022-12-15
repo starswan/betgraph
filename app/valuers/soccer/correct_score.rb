@@ -25,13 +25,14 @@ module Soccer
     # for now just use the back prices rather than trying to work out if laying
     # everything apart from the runner produces a better answer
     def expected_value(_param1, pricelist)
-      # The implementation of this is unclear. Although it is possible in theory to value every runner price,
-      # in practice some of the implied probabilities are so low that f'(x) -> 0 making
-      # convergence difficult.
+      # The implementation of this is unclear.
+      # Although it is possible in theory to value every runner price,
+      # in practice some of the implied probabilities are so low that f'(x) -> 0
+      # making convergence very difficult.
       pl = pricelist.map { |p|
-        { home: p[:homevalue].to_i,
-          away: p[:awayvalue].to_i,
-          price: 1.0 / p[:backprice] }
+        { home: p.fetch(:homevalue).to_i,
+          away: p.fetch(:awayvalue).to_i,
+          price: 1.0 / p.fetch(:backprice) }
       }.select { |pp| pp[:home] >= 0 && pp[:away] >= 0 }
       # values[0] === 0-0 (no goals)
       # values[1] === [1-0, 0-1]

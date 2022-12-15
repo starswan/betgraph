@@ -34,7 +34,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
 
     def create_baskets_from_rules
       sport.basket_rules.each do |basket_rule|
-        basket = baskets.create! name: basket_rule.name, missing_items_count: basket_rule.count
+        baskets.create! name: basket_rule.name, missing_items_count: basket_rule.count
       end
     end
 

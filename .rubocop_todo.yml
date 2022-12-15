@@ -35,8 +35,6 @@ Lint/RescueException:
 Lint/UselessAssignment:
   Exclude:
     - 'app/valuers/soccer/correct_score.rb'
-    - 'db/migrate/20140603184146_move_baskets_to_match.rb'
-    - 'db/migrate/20140603185332_move_event_columns_to_match.rb'
 
 # Offense count: 6
 # Configuration parameters: MinNameLength, AllowNamesEndingInNumbers, AllowedNames, ForbiddenNames.
@@ -44,7 +42,6 @@ Naming/BlockParameterName:
   Exclude:
     - 'app/jobs/execute_trade_job.rb'
     - 'app/jobs/make_menu_paths_job.rb'
-    - 'db/migrate/20140220125457_remove_unused_runner_types.rb'
     - 'lib/market_pricer.rb'
     - 'lib/runner_set.rb'
 
