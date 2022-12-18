@@ -14,7 +14,7 @@ class SoccerMatches::BasketsController < ApplicationController
       :scorers,
       :teams,
       # bet_markets: [{ market_price_times: { market_prices: :market_runner } }, :market_runners],
-      bet_markets: :market_runners,
+      bet_markets: { market_runners: { market_prices: :market_price_time } },
       division: { calendar: :sport },
       baskets: [{ basket_items: :market_runner }, :basket_rule],
     ).find params[:soccer_match_id]

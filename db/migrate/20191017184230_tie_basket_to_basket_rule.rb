@@ -12,13 +12,13 @@ class TieBasketToBasketRule < ActiveRecord::Migration[5.1]
     end
 
     index, count = 0, Basket.count
-    start = Time.now
+    start = Time.zone.now
 
     Basket.includes(match: { division: { sport: :basket_rules } }).find_in_batches(batch_size: BATCH_SIZE) do |batch|
-      percentage = "%.2f" % (100.0 * index / count)
-      speed = (Time.now - start) / (index + 1.0)
-      finish = Time.now + (count - index) * speed
-      say_with_time("#{Time.now} changing Basket #{index}/#{count} #{percentage}% est. finish #{finish}") do
+      percentage = sprintf("%.2f", (100.0 * index / count))
+      speed = (Time.zone.now - start) / (index + 1.0)
+      finish = Time.zone.now + (count - index) * speed
+      say_with_time("#{Time.zone.now} changing Basket #{index}/#{count} #{percentage}% est. finish #{finish}") do
         Basket.transaction do
           batch.each do |basket|
             if basket.basket_items_count < 2
@@ -47,13 +47,13 @@ class TieBasketToBasketRule < ActiveRecord::Migration[5.1]
     end
 
     index, count = 0, Basket.count
-    start = Time.now
+    start = Time.zone.now
 
     Basket.includes(:basket_rule).find_in_batches(batch_size: BATCH_SIZE) do |batch|
-      percentage = "%.2f" % (100.0 * index / count)
-      speed = (Time.now - start) / (index + 1.0)
-      finish = Time.now + (count - index) * speed
-      say_with_time("#{Time.now} rolling back Basket #{index}/#{count} #{percentage}% est. finish #{finish}") do
+      percentage = sprintf("%.2f", (100.0 * index / count))
+      speed = (Time.zone.now - start) / (index + 1.0)
+      finish = Time.zone.now + (count - index) * speed
+      say_with_time("#{Time.zone.now} rolling back Basket #{index}/#{count} #{percentage}% est. finish #{finish}") do
         Basket.transaction do
           batch.each do |basket|
             basket.update(name: basket.basket_rule.name)

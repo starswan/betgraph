@@ -6,11 +6,11 @@
 require "price_set"
 
 class LayPriceSet < PriceSet
-  attr_reader :minAmount
+  attr_reader :min_amount
 
   def initialize(*args)
     super "L"
-    @minAmount = nil
+    @min_amount = nil
     args.each do |price, amount|
       addPrice price, amount
     end
@@ -30,7 +30,7 @@ class LayPriceSet < PriceSet
       factor = price - 1.0
       addRawPrice 1 + 1 / factor, amount * factor
       minRisk = MINIMUM_BET_AMOUNT * factor
-      @minAmount = minRisk if @minAmount.nil? || (@minAmount > minRisk)
+      @min_amount = minRisk if @min_amount.nil? || (@min_amount > minRisk)
     end
   end
 end

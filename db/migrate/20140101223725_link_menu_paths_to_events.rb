@@ -54,15 +54,13 @@ class LinkMenuPathsToEvents < ActiveRecord::Migration[4.2]
 
 private
 
-  def withAllEvents
+  def withAllEvents(&block)
     count = MigrationBetfairEvent.count
     batchsize = 2000
     index = 0
     MigrationBetfairEvent.find_in_batches(batch_size: batchsize) do |event_group|
       say_with_time "#{event_group.first.inspect} #{index}/#{count}" do
-        event_group.each do |event|
-          yield event
-        end
+        event_group.each(&block)
         index += batchsize
       end
     end

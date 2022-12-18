@@ -44,7 +44,6 @@ class TeamNamesController < ApplicationController
 
   # GET /team_names/1/edit
   def edit
-    # @teams = @team_name.team.sport.teams.all(:include => :team_names).reject { |tm| tm == @team_name.team }.sort_by { |t| t.name }
     @teams = @team_name.team.sport.teams.includes(:team_names).reject { |tm| tm == @team_name.team }.sort_by(&:name)
   end
 
@@ -101,30 +100,33 @@ private
   end
 
   def team_name_params
-    params.require(:team_name).permit(:name)
+    params.require(:team_name).permit(:name, :team_id)
   end
 
   def update_team
-    @team_name = TeamName.find(params[:id])
-    oldteam = @team_name.team
-    worked = true
-    changes = team_name_params
-    if @team_name.update(changes)
-      @team_name.team = Team.find @team_name.team_id
-      oldteam.matches.each do |match|
-        if match.hometeam == oldteam
-          match.hometeam = @team_name.team
-          worked = worked && match.save
-        end
-        if match.awayteam == oldteam
-          match.awayteam = @team_name.team
-          worked = worked && match.save
+    @otherteam = Team.find team_name_params.fetch(:team_id)
+    worked = false
+    Team.transaction do
+      @otherteam.team_names.each do |tn|
+        tn.team = @team
+        tn.save || raise(ActiveRecord::Rollback)
+      end
+      @otherteam.match_teams.each do |mt|
+        mt.team = @team
+        mt.save || raise(ActiveRecord::Rollback)
+        next unless mt.match.venue == @otherteam
+
+        other_match = Match.find_by(date: mt.match.date, venue: @team)
+        other_match.destroy if other_match
+        done = mt.match.update(venue: @team)
+        unless done
+          logger.warn "Failed to update match #{mt.match.errors.full_messages}"
+          raise(ActiveRecord::Rollback)
         end
       end
-      oldteam.destroy if oldteam.team_names.size == 0
-      worked
-    else
-      false
+      @otherteam.destroy
+      worked = true
     end
+    worked
   end
 end

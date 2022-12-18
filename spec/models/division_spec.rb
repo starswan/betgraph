@@ -11,7 +11,7 @@ RSpec.describe Division do
   end
 
   let(:division) { create(:division) }
-  let(:ko) { DateTime.new(2011, 9, 16, 15, 0, 0) }
+  let(:ko) { Time.zone.local(2011, 9, 16, 15, 0, 0) }
   let(:date) { Date.new(2011, 9, 16) }
   let!(:match) do
     create(:soccer_match,

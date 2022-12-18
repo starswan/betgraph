@@ -20,6 +20,8 @@ AllCops:
     - 'config/spring.rb'
     - 'config/environments/development.rb'
     - 'bin/*'
+    - 'config.ru'
+    - 'Rakefile'
 
 Bundler/OrderedGems:
   Exclude:
@@ -46,3 +48,6 @@ RSpec/DescribeClass:
 
 RSpec/ExampleLength:
   Max: 10
+
+RSpec/MultipleExpectations:
+  Max: 4

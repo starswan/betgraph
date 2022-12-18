@@ -8,8 +8,10 @@ class TeamsController < ApplicationController
 
   before_action :find_sport, only: FIND_SPORT_ACTIONS
   before_action :find_sport_from_team, except: FIND_SPORT_ACTIONS
-  before_action :find_teams, only: [:edit, :update]
-  before_action :find_team, only: [:show, :edit, :update, :destroy]
+  # before_action :find_teams, only: [:edit, :update]
+  before_action :find_teams, only: [:edit]
+  # before_action :find_team, only: [:show, :edit, :update, :destroy]
+  before_action :find_team, only: [:show, :edit, :destroy]
 
   # GET /teams
   # GET /teams.xml
@@ -44,43 +46,42 @@ class TeamsController < ApplicationController
   # GET /teams/1/edit
   def edit; end
 
-  # PUT /teams/1
-  # PUT /teams/1.xml
-  def update
-    @otherteam = Team.find params[:other_team][:other_team_id]
-    worked = false
-    Team.transaction do
-      @otherteam.team_names.each do |tn|
-        tn.team = @team
-        tn.save || raise(ActiveRecord::Rollback)
-      end
-      @otherteam.match_teams.each do |mt|
-        mt.team = @team
-        mt.save || raise(ActiveRecord::Rollback)
-        next unless mt.match.venue == @otherteam
-
-        other_match = Match.find_by(date: mt.match.date, venue: @team)
-        other_match.destroy if other_match
-        done = mt.match.update(venue: @team)
-        unless done
-          logger.warn "Failed to update match #{mt.match.errors.full_messages}"
-          raise(ActiveRecord::Rollback)
-        end
-      end
-      # @otherteam.destroy
-      worked = true
-    end
-
-    respond_to do |format|
-      if worked
-        format.html { redirect_to([@sport, @team], notice: "Team was successfully updated.") }
-        format.xml  { head :ok }
-      else
-        format.html { render action: "edit" }
-        format.xml  { render xml: @team.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  # code now in TeamNamesController
+  # def update
+  #   @otherteam = Team.find params[:other_team][:other_team_id]
+  #   worked = false
+  #   Team.transaction do
+  #     @otherteam.team_names.each do |tn|
+  #       tn.team = @team
+  #       tn.save || raise(ActiveRecord::Rollback)
+  #     end
+  #     @otherteam.match_teams.each do |mt|
+  #       mt.team = @team
+  #       mt.save || raise(ActiveRecord::Rollback)
+  #       next unless mt.match.venue == @otherteam
+  #
+  #       other_match = Match.find_by(date: mt.match.date, venue: @team)
+  #       other_match.destroy if other_match
+  #       done = mt.match.update(venue: @team)
+  #       unless done
+  #         logger.warn "Failed to update match #{mt.match.errors.full_messages}"
+  #         raise(ActiveRecord::Rollback)
+  #       end
+  #     end
+  #     # @otherteam.destroy
+  #     worked = true
+  #   end
+  #
+  #   respond_to do |format|
+  #     if worked
+  #       format.html { redirect_to([@sport, @team], notice: "Team was successfully updated.") }
+  #       format.xml  { head :ok }
+  #     else
+  #       format.html { render action: "edit" }
+  #       format.xml  { render xml: @team.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # DELETE /teams/1
   # DELETE /teams/1.xml

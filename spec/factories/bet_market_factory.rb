@@ -15,7 +15,7 @@ FactoryBot.define do
     runners_may_be_added { false }
     live { false }
     total_matched_amount { 0 }
-    time { Time.now }
+    time { Time.zone.now }
 
     trait :overunder do
       markettype { "O" }

@@ -45,7 +45,6 @@ class SoccerMatchesController < ApplicationController
         bet_markets: [
           { betfair_market_type: [:betfair_runner_types, :sport] },
           { market_runners: [:betfair_runner_type, :market_prices] },
-          { market_prices: [{ market_price_time: :market_prices }, { market_runner: [:bet_market, { betfair_runner_type: { betfair_market_type: :sport } }] }] },
         ],
       ],
     ).find(params[:id])

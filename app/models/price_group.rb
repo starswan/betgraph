@@ -12,7 +12,7 @@ private
 
   def check_overrounds
     market_overround = market_prices.select(&:active?).map { |market_price|
-      market_price.back_price_set.overRound
+      market_price.back_price_set.probability
     }.sum
     errors.add(:market_prices, "overround too high #{market_overround}") if market_overround > 1.8
     errors.add(:market_prices, "overround too low #{market_overround}") if market_overround < 0.5

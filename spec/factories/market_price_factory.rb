@@ -3,8 +3,7 @@
 FactoryBot.define do
   factory :market_price_time do
     # This generates the expected flow of midnight, midnight + 1 second etc...
-    sequence(:time) { |seq| Date.today + seq.seconds }
-    # time { Time.now }
+    sequence(:time) { |seq| Time.zone.yesterday + seq.seconds }
   end
 
   factory :market_price do

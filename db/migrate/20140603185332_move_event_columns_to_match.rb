@@ -43,7 +43,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
     end
 
     def self.activelive
-      self.all joins: :bet_markets, group: "bet_markets.betfair_event_id", conditions: ["bet_markets.status != ? and starttime <= ? and betfair_events.active = ?", BetMarket::CLOSED, Time.now + 15.minutes, true], order: :starttime
+      self.all joins: :bet_markets, group: "bet_markets.betfair_event_id", conditions: ["bet_markets.status != ? and starttime <= ? and betfair_events.active = ?", BetMarket::CLOSED, Time.zone.now + 15.minutes, true], order: :starttime
     end
 
     # Decide whether this event represents a soccer match
@@ -81,7 +81,7 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
     end
 
     def isactive?
-      (starttime <= Time.now + 15.minutes) && (endtime >= Time.now - 15.minutes)
+      (starttime <= Time.zone.now + 15.minutes) && (endtime >= Time.zone.now - 15.minutes)
     end
 
     def timeOffsetInMinutes(thetime)
@@ -198,19 +198,19 @@ class MoveEventColumnsToMatch < ActiveRecord::Migration[4.2]
 
 private
 
-  def processAll(classname)
+  def processAll(classname, &block)
     index = 0
     count = classname.count
-    start = Time.now
+    start = Time.zone.now
     classname.find_in_batches(batch_size: BATCH_SIZE, include: :bet_markets) do |match_group|
       percent = (100.0 * index / count)
-      now = Time.now
+      now = Time.zone.now
       elapsed = now - start
       eta = start
       eta += (100 * elapsed / percent) if percent > 0
       say_with_time "#{classname} #{index}/#{count} #{percent.round(3)}% start #{start} ETA #{eta}" do
         classname.transaction do
-          match_group.each { |match| yield(match) }
+          match_group.each(&block)
           index += BATCH_SIZE
         end
       end

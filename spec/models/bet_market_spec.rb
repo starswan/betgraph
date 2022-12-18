@@ -28,7 +28,7 @@ RSpec.describe BetMarket do
   before do
     create(:season, calendar: calendar)
     create(:market_price_time,
-           time: Time.now - 1.minute,
+           time: Time.zone.now - 1.minute,
            market_prices: [
              build(:market_price,
                    back3price: 2.42, back3amount: 296.69,
@@ -57,7 +57,7 @@ RSpec.describe BetMarket do
            ])
 
     create(:market_price_time,
-           time: Time.now,
+           time: Time.zone.now,
            market_prices: [
              build(:market_price,
                    market_runner: bet_market.market_runners.first),
@@ -75,10 +75,6 @@ RSpec.describe BetMarket do
 
   it "market has a price count" do
     expect(bet_market.reload.market_prices_count).to eq(6)
-  end
-
-  it "has prices (through market_price_time)" do
-    expect(bet_market.market_prices.count).to eq(6)
   end
 
   it "produces winners based on short lay prices first" do
@@ -125,7 +121,7 @@ RSpec.describe BetMarket do
     let(:market_type) { create(:betfair_market_type, sport: sport, name: "Things", active: true) }
     let!(:livebm) do
       create(:bet_market, match: soccermatch, name: market_type.name,
-                          time: Time.now - 10.minutes, live: true)
+                          time: Time.zone.now - 10.minutes, live: true)
     end
 
     it "has active things" do

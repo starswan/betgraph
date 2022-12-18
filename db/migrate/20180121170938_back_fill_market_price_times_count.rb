@@ -11,8 +11,8 @@ class BackFillMarketPriceTimesCount < ActiveRecord::Migration[4.2]
     index = 0
     done = 0
     BetMarket.includes(:market_price_times).find_in_batches(batch_size: BATCH_SIZE) do |batch|
-      percentage = "%.2f" % (100.0 * index / count)
-      say_with_time("#{Time.now} #{done} changing BetMarket #{index}/#{count} #{percentage}%") do
+      percentage = sprintf("%.2f", (100.0 * index / count))
+      say_with_time("#{Time.zone.now} #{done} changing BetMarket #{index}/#{count} #{percentage}%") do
         batch.select { |bm| bm.market_price_times_count != bm.market_price_times.size }.each do |bm|
           # bm.update(market_price_times_count: bm.market_price_times.size)
           # BetMarket.reset_counters bm.id, :market_price_times

@@ -10,7 +10,8 @@
   <%= format_result(@basket.match) %>
 </div>
 
-<%= line_chart([{ name: @basket.basket_rule.name, data: @event_basket_prices.map { |ebp| [ebp.time, ebp.price] }.to_h }],
+<%= line_chart([{ name: @basket.basket_rule.name,
+                  data: @event_basket_prices.map { |ebp| [ebp.fetch(:time), ebp.fetch(:price)] }.to_h }],
                min: 0.7,
                max: 1.05,
                height: '500px') %>
@@ -19,14 +20,18 @@
   <tr>
     <th>Time</th>
     <th>Price</th>
+    <th>Type</th>
+    <th>Source</th>
     <th>Betsize</th>
   </tr>
 
 <% @event_basket_prices.each do |ebp| %>
   <tr>
-    <td><%=h ebp.time %></td>
-    <td><%=h ebp.price %></td>
-    <td><%=h ebp.betsize %></td>
+    <td><%=h ebp.fetch(:time) %></td>
+    <td><%=h ebp.fetch(:price) %></td>
+    <td><%=h ebp.fetch(:betType) %></td>
+    <td><%=h ebp.fetch(:market_prices) %></td>
+    <td><%=h ebp.fetch(:betsize) %></td>
   </tr>
 <% end %>
 </table>

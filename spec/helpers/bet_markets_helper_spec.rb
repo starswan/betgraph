@@ -35,7 +35,7 @@ RSpec.describe BetMarketsHelper, type: :helper do
 
   let!(:mpt1) do
     create(:market_price_time,
-           time: Time.now,
+           time: Time.zone.now,
            market_prices: [
              build(:market_price, market_runner: r1),
              build(:market_price, market_runner: runner2),
@@ -43,7 +43,7 @@ RSpec.describe BetMarketsHelper, type: :helper do
   end
   let(:mp1) { mpt1.market_prices.first }
   let!(:mpt2) do
-    create(:market_price_time, time: Time.now + 2.minutes, market_prices: [
+    create(:market_price_time, time: Time.zone.now + 2.minutes, market_prices: [
       build(:market_price, market_runner: r1),
       build(:market_price, market_runner: runner2),
     ])

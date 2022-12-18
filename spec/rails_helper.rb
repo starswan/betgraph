@@ -21,9 +21,11 @@ if ENV["COVERAGE"]
     add_filter "app/valuers/poisson_sum.rb"
     add_group "Valuers", "app/valuers"
     add_group "Betfair", "../betfair2/lib"
-    # we seem to have flakey/non-stable coverage values
-    minimum_coverage 86.37
+    # drop after online tests removed
+    minimum_coverage 74.50
+    # minimum_coverage 86.37
     # maybe no longer...?
+    # we seem to have flakey/non-stable coverage values
     maximum_coverage_drop 0.83
   end
 end

@@ -41,7 +41,7 @@ RSpec.describe TennisMatchesController, type: :controller do
   it "is able to create" do
     expect {
       post :create, params: { division_id: division,
-                              match: { kickofftime: Time.now,
+                              match: { kickofftime: Time.zone.now,
                                        name: "Fred v Jim" } }
       # :match_teams => [ teams(:one), teams(:two) ]
       # assert_redirected_to division_match_path(@division, assigns(:tennis_match))

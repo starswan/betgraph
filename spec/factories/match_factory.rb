@@ -6,7 +6,7 @@
 FactoryBot.define do
   factory :match do
     name { "A v B" }
-    kickofftime { Time.now }
+    kickofftime { Time.zone.now }
 
     factory :tennis_match do
       type { "TennisMatch" }
@@ -15,8 +15,8 @@ FactoryBot.define do
 
   factory :soccer_match do
     name { "A v B" }
-    kickofftime { Time.now }
-    endtime { Time.now + 110.minutes }
+    kickofftime { Time.zone.now }
+    endtime { Time.zone.now + 110.minutes }
   end
 
   factory :result do
