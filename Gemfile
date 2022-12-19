@@ -33,7 +33,7 @@ gem "clockwork"
 gem "coffee-rails"
 gem "config"
 # turbo-charged counter caches https://github.com/magnusvk/counter_culture
-gem "counter_culture", "~> 2.0"
+gem "counter_culture", "~> 3.3"
 gem "devise"
 # environment variables in .env files
 gem "dotenv-rails"
