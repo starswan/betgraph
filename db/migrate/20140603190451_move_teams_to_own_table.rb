@@ -67,19 +67,19 @@ class MoveTeamsToOwnTable < ActiveRecord::Migration[4.2]
 
 private
 
-  def processAll(classname)
+  def processAll(classname, &block)
     index = 0
     count = classname.count
-    start = Time.now
+    start = Time.zone.now
     classname.find_in_batches(batch_size: BATCH_SIZE, include: :bet_markets) do |match_group|
       percent = (100.0 * index / count)
-      now = Time.now
+      now = Time.zone.now
       elapsed = now - start
       eta = start
       eta += (100 * elapsed / percent) if percent > 0
       say_with_time "#{classname} #{index}/#{count} #{percent.round(3)}% start #{start} ETA #{eta}" do
         classname.transaction do
-          match_group.each { |match| yield(match) }
+          match_group.each(&block)
           index += BATCH_SIZE
         end
       end

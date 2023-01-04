@@ -36,7 +36,9 @@ class Sport < ApplicationRecord
   end
 
   def findTeam(team_name)
-    team = teams.joins(:team_names).where("team_names.name = ?", team_name).first
-    team || teams.create!(name: team_name)
+    t = teams.joins(:team_names).merge(TeamName.by_name(team_name)).first
+    t || teams.create!.tap do |team|
+      team.team_names.create! name: team_name
+    end
   end
 end

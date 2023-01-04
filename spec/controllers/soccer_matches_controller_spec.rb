@@ -44,7 +44,7 @@ RSpec.describe SoccerMatchesController, type: :controller do
     it "can be replaced" do
       post :create, params: { division_id: division,
                               soccer_match: {
-                                kickofftime: Time.now,
+                                kickofftime: Time.zone.now,
                                 name: "#{hometeam.name} v #{awayteam.name}",
                               } }, format: :json
       expect(response).to have_http_status(:created)
@@ -67,7 +67,7 @@ RSpec.describe SoccerMatchesController, type: :controller do
     expect {
       post :create, params: { division_id: division,
                               soccer_match: {
-                                kickofftime: Time.now,
+                                kickofftime: Time.zone.now,
                                 name: "#{hometeam.name} v #{awayteam.name}",
                               } }
       expect(response).to redirect_to(division_soccer_match_path(division, assigns(:match)))

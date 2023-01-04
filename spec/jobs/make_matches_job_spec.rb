@@ -109,7 +109,7 @@ RSpec.describe MakeMatchesJob, :betfair, type: :job do
 
       # market = Market.new menu_paths(:burnleyMillwall).name, Time.now, 1, 24, 'MarketName1',
       #                     'Type', 'ACTIVE', true, 1, 3, 0.01
-      bostonChicago = Market.new menu_path.name, Time.new(2019, 3, 5, 15), 1, 25, "MarketName2",
+      bostonChicago = Market.new menu_path.name, Time.zone.local(2019, 3, 5, 15), 1, 25, "MarketName2",
                                  "Type", "ACTIVE", true, 1, 3, 0.01
       # f1race = Market.new menu_paths(:f1race).name, Time.now, 1, 26, 'MarketName3',
       #                     'Type', 'ACTIVE', true, 1, 3, 0.01

@@ -56,7 +56,7 @@ RSpec.describe BetMarketsController, type: :controller do
           number_of_winners: 1,
           number_of_runners: 3,
           runners_may_be_added: false,
-          time: Time.now + 7.days,
+          time: Time.zone.now + 7.days,
           total_matched_amount: 23.98,
         },
       }
@@ -80,7 +80,7 @@ RSpec.describe BetMarketsController, type: :controller do
           number_of_winners: 1,
           number_of_runners: 3,
           runners_may_be_added: false,
-          time: Time.now + 7.days,
+          time: Time.zone.now + 7.days,
           total_matched_amount: 23.98,
         },
       }, format: :json
@@ -98,7 +98,7 @@ RSpec.describe BetMarketsController, type: :controller do
                                 markettype: "O",
                                 number_of_winners: 1,
                                 runners_may_be_added: false,
-                                time: Time.now + 7.days,
+                                time: Time.zone.now + 7.days,
                                 type_variant: "D",
                               } }
     }.to change(BetMarket, :count).by(0)

@@ -11,10 +11,10 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
 # root = MenuPath.create!(:active => false, :name => [], :depth => 1)
-TeamTotalConfig.create count: 7, threshold: 26, name: "Lowest Possible"
-TeamTotalConfig.create count: 11, threshold: 43, name: "Medium"
-TeamTotalConfig.create count: 14, threshold: 53, name: "Optimum"
-TeamTotalConfig.create count: 16, threshold: 66, name: "Highest Working"
+TeamTotalConfig.create! count: 7, threshold: 26, name: "Lowest Possible"
+TeamTotalConfig.create! count: 11, threshold: 43, name: "Medium"
+TeamTotalConfig.create! count: 14, threshold: 53, name: "Optimum"
+TeamTotalConfig.create! count: 16, threshold: 66, name: "Highest Working"
 
 Dir.new(Rails.root.join("app/valuers")).find_all { |dir| dir.first != "." && dir.last(3) != ".rb" }.each do |includedir|
   Dir.new(Rails.root.join("app/valuers/#{includedir}")).find_all { |i| i.first != "." }.each do |include|
@@ -23,7 +23,7 @@ Dir.new(Rails.root.join("app/valuers")).find_all { |dir| dir.first != "." && dir
   # .each { |v| Valuer.create :name => v }
 end
 
-startyear = Time.now.year + 50
+startyear = Time.zone.now.year + 50
 startyear.downto(1990).each do |year|
   Season.create startdate: Date.new(year, 8, 1),
                 name: "#{year}/#{year + 1}"

@@ -19,7 +19,8 @@ class Match < ApplicationRecord
   has_many :teams, through: :match_teams
   has_many :bet_markets, dependent: :destroy
   has_many :baskets, dependent: :destroy
-  has_many :market_prices, through: :bet_markets
+  has_many :market_runners, through: :bet_markets
+  has_many :market_prices, through: :market_runners
 
   # Motor Races don't have seasons - need to fix
   belongs_to :season, inverse_of: :matches, optional: true

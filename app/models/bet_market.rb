@@ -17,7 +17,8 @@ class BetMarket < ApplicationRecord
   # Our relationships are bet_market -> market_price_time(s) -> market_price(s) -> market_runner(s)
   # has_many :market_prices, through: :market_price_times
   # its actually bet_market -> market_runner(s) -> market_price(s)
-  has_many :market_prices, through: :market_runners
+  # This alias causes more problems than it solves, as we often want to navigate back to the runner
+  # has_many :market_prices, through: :market_runners
   has_many :trades, through: :market_runners
 
   CLOSED = "CLOSED"
@@ -57,7 +58,7 @@ class BetMarket < ApplicationRecord
       .includes(:match)
       .merge(Match.almost_live)
       .where.not(status: CLOSED)
-      .order("time asc")
+      .order(:time)
   }
 
   scope :live, lambda {
@@ -74,7 +75,7 @@ class BetMarket < ApplicationRecord
       .merge(Match.almost_live)
       .merge(Match.live_priced)
       .includes(:match, :market_runners)
-      .order("time asc")
+      .order(:time)
   }
 
   scope :closed, -> { where(status: CLOSED) }
@@ -118,10 +119,10 @@ class BetMarket < ApplicationRecord
   # runner_params are runner_value(from BetfairRunnerType), backprice, layprice
   # This would allow e.g. overundergoals to know that it was a 2-runner market and ignore the 2 worst prices of the 4.
   def expected_value(actualtime)
-    price_time = market_prices.detect { |mp| mp.market_price_time.time >= actualtime }
-    if price_time
+    prices = market_prices_at(actualtime)
+    if prices.any?
       # Each price implies a value of lambda (expected value of market)
-      rvs = price_time.market_price_time.market_prices.map do |price|
+      rvs = prices.map do |price|
         runner = price.market_runner
         { homevalue: runner.betfair_runner_type.runnerhomevalue.to_f,
           awayvalue: runner.betfair_runner_type.runnerawayvalue.to_f,
@@ -143,17 +144,13 @@ class BetMarket < ApplicationRecord
     neg_prob = 0
     implied_prob = 1
     implied_neg_prob = 1
-    price_time = market_prices.map(&:market_price_time).detect { |mpt| mpt.time >= actualtime }
-    if price_time
+    prices = market_prices_at(actualtime)
+    if prices.any?
       # Each of market_prices has a runner, backprice and layprice
-      price_time.market_prices.each do |price|
+      prices.each do |price|
         # Each price implies a value of lambda (expected value of market)
         backprice = price.back1price
         layprice = price.lay1price
-
-        # These 2 lines call expected but do nothing with it :-(
-        # betfair_market_type.expected backprice if backprice
-        # betfair_market_type.expected layprice if layprice
 
         # runner_value returns 1 if runner would win, 0 if runner is a push and -1 otherwise
         # possibly scaled e.g. asians can return fractional answers.
@@ -191,7 +188,7 @@ class BetMarket < ApplicationRecord
       if match.market_prices.empty?
         runners = market_runners.order(:sortorder)
       else
-        runners = market_prices
+        runners = market_runners.map(&:market_prices).flatten
                     .sort_by { |p| p.lay1price.present? ? -1 / p.lay1price : (p.back1price.presence || 0) }
                     .map(&:market_runner).uniq
       end
@@ -237,5 +234,14 @@ class BetMarket < ApplicationRecord
     # Need to create market_type inactive to prevent crashes on non-existent valuers
     sport.betfair_market_types.find { |markettype| markettype.name == interpolatedname } ||
       sport.betfair_market_types.create!(name: marketname, valuer: marketname, active: false)
+  end
+
+private
+
+  def market_prices_at(time)
+    price_query = MarketPrice.where(market_runner_id: market_runners.map(&:id))
+    price_query.joins(:market_price_time)
+      .merge(MarketPriceTime.later_than(time))
+      .uniq(&:market_runner)
   end
 end

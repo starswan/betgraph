@@ -8,4 +8,6 @@ class TeamName < ApplicationRecord
   # TODO: name is only unique within sport (c.f. India in both football and cricket)
   # validates_uniqueness_of :name
   validates :name, presence: { strict: true }
+
+  scope :by_name, ->(name) { where(name: name) }
 end

@@ -12,8 +12,8 @@ class MarketRunnersCounterCache < ActiveRecord::Migration[5.1]
     count = BetMarket.count
     index = 0
     BetMarket.includes(:market_runners).find_in_batches(batch_size: BATCH_SIZE) do |batch|
-      percentage = "%.2f" % (100.0 * index / count)
-      say_with_time("#{Time.now} changing BetMarket #{index}/#{count} #{percentage}%") do
+      percentage = sprintf("%.2f", (100.0 * index / count))
+      say_with_time("#{Time.zone.now} changing BetMarket #{index}/#{count} #{percentage}%") do
         batch.each do |bm|
           # bm.update(market_price_times_count: bm.market_price_times.size)
           # BetMarket.reset_counters bm.id, :market_price_times

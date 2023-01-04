@@ -12,7 +12,7 @@ FactoryBot.define do
   end
 
   factory :team_name do
-    sequence(:name) { |n| "Team#{n}" }
+    sequence(:name) { |n| "Team_#{n}" }
   end
 
   factory :team_division

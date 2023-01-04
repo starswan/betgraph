@@ -31,20 +31,11 @@ class TwoPlayerMatch < Match
   end
 
   def hometeam=(team)
+    self.teams = teams.to_a.delete_if { |t| t.id == venue_id } + [team]
     self.venue = team
-    teams << team
-  end
-
-  def hometeam_id=(team_id)
-    self.venue_id = team_id
-    teams << Team.find(team_id)
   end
 
   def awayteam=(team)
-    teams << team
-  end
-
-  def awayteam_id=(team_id)
-    teams << Team.find(team_id)
+    self.teams = teams.to_a.delete_if { |t| t.id != venue_id } + [team]
   end
 end

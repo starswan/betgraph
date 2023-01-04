@@ -12,13 +12,13 @@ class AddDateToMatch < ActiveRecord::Migration[5.1]
     end
     index = 0
     count = Match.count
-    start = Time.now
+    start = Time.zone.now
 
     Match.find_in_batches(batch_size: BATCH_SIZE).each do |b|
-      percentage = format("%.2f", (100.0 * index / count))
-      speed = (Time.now - start) / (index + 1.0)
-      finish = Time.now + (count - index) * speed
-      say_with_time("#{Time.now} changing #{index}/#{count} #{percentage}% est. finish #{finish}") do
+      percentage = sprintf("%.2f", (100.0 * index / count))
+      speed = (Time.zone.now - start) / (index + 1.0)
+      finish = Time.zone.now + (count - index) * speed
+      say_with_time("#{Time.zone.now} changing #{index}/#{count} #{percentage}% est. finish #{finish}") do
         Match.transaction do
           b.each do |m|
             m.update(date: m.kickofftime.to_date)

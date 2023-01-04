@@ -14,8 +14,8 @@ class AddPricesCounterCache < ActiveRecord::Migration[5.1]
     index, count = 0, MarketPriceTime.count
 
     MarketPriceTime.includes(:market_prices).find_in_batches(batch_size: BATCH_SIZE) do |batch|
-      percentage = "%.2f" % (100.0 * index / count)
-      say_with_time("#{Time.now} changing MarketPriceTime #{index}/#{count} #{percentage}%") do
+      percentage = sprintf("%.2f", (100.0 * index / count))
+      say_with_time("#{Time.zone.now} changing MarketPriceTime #{index}/#{count} #{percentage}%") do
         MarketPriceTime.transaction do
           batch.each do |mpt|
             # This turns out to be the fastest implementation - generates direct SQL w/o the overhead of reset_counters

@@ -4,14 +4,14 @@
 # $Id$
 #
 class PriceSet
-  MINIMUM_BET_AMOUNT = 2.00
+  MINIMUM_BET_AMOUNT = 1.00
 
   RawPrice = Struct.new :price, :amount
 
   attr_reader :betType
 
-  def initialize(betType)
-    @betType = betType
+  def initialize(bet_type)
+    @betType = bet_type
     @pricedata = []
   end
 
@@ -33,7 +33,7 @@ class PriceSet
     [effectiveprice.to_f, bet.to_f]
   end
 
-  def overRound
+  def probability
     @pricedata.empty? ? 1 : 1.0 / @pricedata[0].price
   end
 

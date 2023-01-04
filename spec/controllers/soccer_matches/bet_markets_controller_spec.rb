@@ -24,11 +24,11 @@ RSpec.describe SoccerMatches::BetMarketsController, type: :controller do
     create(:soccer_match,
            division: division)
   end
-  let!(:bet_market) { create(:bet_market, active: true, time: Time.now + 10.minutes, match: soccermatch) }
+  let!(:bet_market) { create(:bet_market, active: true, time: Time.zone.now + 10.minutes, match: soccermatch) }
   let!(:half_time_market) do
     create(:bet_market,
            name: "First Half Goals",
-           match: soccermatch, time: Time.now + 10.minutes, active: true)
+           match: soccermatch, time: Time.zone.now + 10.minutes, active: true)
   end
 
   it "index gets non half time markets" do

@@ -18,62 +18,43 @@ class Basket < ApplicationRecord
     missing_items_count == basket_items_count
   end
 
-  class EventBasketPriceIterator
-    include Enumerable
+  def event_basket_prices
+    market_runners = basket_items.map(&:market_runner)
+    # bet_markets = match.bet_markets.select { |bm| market_runners.detect { |mr| mr.bet_market_id == bm.id } }
 
-    def initialize(bet_markets, market_runners)
-      @bet_markets = bet_markets.select { |bm| market_runners.detect { |mr| mr.bet_market_id == bm.id } }
-      @market_runners = market_runners
-    end
+    Enumerator.new do |yielder|
+      prices = MarketPrice.includes(:market_price_time, { market_runner: :bet_market }).joins(:market_price_time)
+        .where(market_runner_id: market_runners.map(&:id))
+                          .merge(MarketPriceTime.in_order)
+      prices.group_by { |p| p.market_price_time.time }.each do |time, price_group|
+        back_runners = RunnerSet.new
+        lay_runners = RunnerSet.new
+        price_group.each do |market_price|
+          # Try to lay other runner rather than backing this and vice-versa
+          # this doesn't quite work as we have excluded the prices for other runner from the price_group
+          # market = market_price.market_runner.bet_market
+          # if market.market_runners_count == 2
+          #   layrunner = market.market_runners.detect { |r| r != market_price.market_runner }
+          #   layprice = market_prices_hash[market.id].detect { |mp| mp.market_runner == layrunner }
+          #   if layprice
+          #     layprices = layprice.lay_price_set
+          #
+          #     pricedata = layprices if layprices.overRound < pricedata.overRound
+          #   end
+          # end
 
-    def each
-      times = @bet_markets.map { |bm| bm.market_prices.map(&:market_price_time) }.flatten.sort_by(&:time).uniq
-
-      market_prices_hash = {}
-      times.each do |time|
-        # market_prices_hash[time.bet_market_id] = time.market_prices
-        market_prices_hash.merge!(time.market_prices.group_by { |mp| mp.market_runner.bet_market_id })
-        # time.market_prices.each do |mp|
-        #   market_prices_hash[mp.market_runner.bet_market_id] << mp
-        # end
-        backRunnerSet = RunnerSet.new
-        layRunnerSet = RunnerSet.new
-        market_prices_hash.values.each do |p|
-          p.select { |mp| @market_runners.include?(mp.market_runner) }.each do |market_price|
-            market_runner = market_price.market_runner
-            market = @bet_markets.find { |bm| bm.id == market_runner.bet_market_id }
-
-            pricedata = market_price.back_price_set
-            # Try to lay other runner rather than backing this and vice-versa
-            if market.market_runners_count == 2
-              layrunner = market.market_runners.detect { |r| r != market_runner }
-              layprice = market_prices_hash[market.id].detect { |mp| mp.market_runner == layrunner }
-              if layprice
-                layprices = layprice.lay_price_set
-
-                pricedata = layprices if layprices.overRound < pricedata.overRound
-              end
-            end
-            backRunnerSet.addPriceSet(market_runner, pricedata)
-            laydata = market_price.lay_price_set
-
-            layRunnerSet.addPriceSet(market_runner, laydata)
-          end
+          back_runners.addPriceSet(market_price.market_runner, market_price.back_price_set)
+          lay_runners.addPriceSet(market_price.market_runner, market_price.lay_price_set)
         end
-        runnerSet, betType = backRunnerSet.overRound < layRunnerSet.overRound ? [backRunnerSet, "B"] : [layRunnerSet, "L"]
-
-        if @market_runners.count == runnerSet.count
-          yield OpenStruct.new time: time.time,
-                               betsize: runnerSet.minAmount.to_f,
-                               betType: betType,
-                               price: runnerSet.overRound.to_f
-          # prices: runnerSet.effectivePrices
+        runners, bet_type = back_runners.over_round < lay_runners.over_round ? [back_runners, "B"] : [lay_runners, "L"]
+        if market_runners.count == runners.count
+          yielder << { time: time,
+                       betsize: runners.min_amount.to_f,
+                       betType: bet_type,
+                       market_prices: price_group.map { |p| [p.back1price.to_f, p.back1amount.to_f] },
+                       price: runners.over_round.to_f }
         end
       end
     end
-  end
-
-  def event_basket_prices
-    EventBasketPriceIterator.new(match.bet_markets, basket_items.map(&:market_runner))
   end
 end

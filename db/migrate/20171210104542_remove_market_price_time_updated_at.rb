@@ -13,7 +13,7 @@ class RemoveMarketPriceTimeUpdatedAt < ActiveRecord::Migration[4.2]
     count = MarketPrice.count
     index = 0
     MarketPrice.includes(:market_price_time).find_in_batches(batch_size: BATCH_SIZE) do |batch|
-      say_with_time("#{Time.now} checking MarketPrice #{index}/#{count} #{100.0 * index / count}%") do
+      say_with_time("#{Time.zone.now} checking MarketPrice #{index}/#{count} #{100.0 * index / count}%") do
         batch.each { |mp| mp.destroy unless mp.market_price_time }
       end
       index += BATCH_SIZE

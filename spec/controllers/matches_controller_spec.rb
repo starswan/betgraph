@@ -19,7 +19,7 @@ RSpec.describe MatchesController, type: :controller do
            division: division,
            name: "#{hometeam.name} v #{awayteam.name}")
   end
-  let!(:bet_market) { create(:bet_market, active: true, time: Time.now + 10.minutes, match: soccermatch) }
+  let!(:bet_market) { create(:bet_market, active: true, time: Time.zone.now + 10.minutes, match: soccermatch) }
 
   it "gets index with date" do
     get :index, params: { division_id: division, date: soccermatch.kickofftime.to_date }
@@ -62,7 +62,7 @@ RSpec.describe MatchesController, type: :controller do
       post :create, params: {
         division_id: division,
         match: {
-          kickofftime: Time.now,
+          kickofftime: Time.zone.now,
           type: "SoccerMatch",
           name: "Fred v Kim",
         },
@@ -77,7 +77,7 @@ RSpec.describe MatchesController, type: :controller do
       post :create, params: {
         division_id: division,
         match: {
-          kickofftime: Time.now,
+          kickofftime: Time.zone.now,
           type: "SoccerMatch",
           name: "Fred v Bill",
         },

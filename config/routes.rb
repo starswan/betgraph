@@ -28,9 +28,11 @@ Rails.application.routes.draw do
   end
 
   resources :teams do
-    resources :team_names
+    resources :team_names, except: [:update]
     resources :team_totals
   end
+  resources :team_names, only: [:update]
+
   resources :results
   resources :divisions do
     resources :matches

@@ -17,7 +17,7 @@ class BackPriceSet < PriceSet
     addRawPrice price, amount if price
   end
 
-  def minAmount
+  def min_amount
     MINIMUM_BET_AMOUNT
   end
 end

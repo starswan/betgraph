@@ -30,7 +30,7 @@ class BetfairClockwork
                       else
                         Rails.logger
                       end
-    @next_trigger = Time.now
+    @next_trigger = Time.zone.now
   end
 
   handler do |symbol|
@@ -39,12 +39,13 @@ class BetfairClockwork
 
   class << self
     def triggerliveprices
-      if Time.now >= @next_trigger
+      now = Time.zone.now
+      if now >= @next_trigger
         TriggerLivePricesJob.perform_later
-        next_time = BetMarket.live.order(:time).first&.time || Time.now + 2.hours
-        gap = (next_time - Time.now) / 2
+        next_time = BetMarket.live.order(:time).first&.time || Time.zone.now + 2.hours
+        gap = (next_time - now) / 2
         if gap > 0
-          @next_trigger = Time.now + gap
+          @next_trigger = now + gap
           Rails.logger.info "Clockwork: next live price check at #{@next_trigger}"
         end
       end
