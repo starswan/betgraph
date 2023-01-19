@@ -17,7 +17,6 @@ gem "acts_as_tree"
 # gem "autoprefixer-rails", "< 10.0"
 gem "autoprefixer-rails"
 
-
 gem "backburner"
 gem "backup-task"
 
