@@ -587,7 +587,7 @@ DEPENDENCIES
   activemodel-serializers-xml
   acts_as_paranoid
   acts_as_tree
-  autoprefixer-rails (< 10.0)
+  autoprefixer-rails
   backburner
   backup-task
   bcrypt_pbkdf

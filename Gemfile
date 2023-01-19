@@ -13,7 +13,9 @@ gem "actionpack-page_caching"
 gem "activemodel-serializers-xml"
 gem "acts_as_paranoid"
 gem "acts_as_tree"
-gem "autoprefixer-rails", "< 10.0"
+# can't remember why I pinned this
+# gem "autoprefixer-rails", "< 10.0"
+gem "autoprefixer-rails"
 
 gem "backburner"
 gem "backup-task"
