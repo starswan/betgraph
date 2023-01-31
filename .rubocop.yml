@@ -12,6 +12,7 @@ require:
 
 AllCops:
   # Exclude anything that isn't really part of our code.
+  # Exclude ancient migrations as they need deleting
   Exclude:
     - 'vendor/bundle/**/*'
     - 'node_modules/**/*'
