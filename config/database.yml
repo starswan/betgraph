@@ -66,7 +66,7 @@ production:
   encoding: utf8
   database: ssarbicity
   username: starswan
-  password: rabbit
+  password: <%= ENV['MYSQL_STARSWAN_PASSWORD'] %>
   socket: /var/run/mysqld/mysqld.sock
   reconnect: true
   host: localhost
