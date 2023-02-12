@@ -18,7 +18,7 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
   require "yaml"
   require "erb"
   template = ERB.new File.read database_yml
-  config = YAML.load template.result binding
+  config = YAML.safe_load template.result binding
 
   ##
   # MySQL [Database]
