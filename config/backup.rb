@@ -16,7 +16,9 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
   BACKUP_RAILS_ENV = ENV["RAILS_ENV"] || "development"
 
   require "yaml"
-  config = YAML.load_file(database_yml)
+  require "erb"
+  template = ERB.new File.read database_yml
+  config = YAML.safe_load template.result binding
 
   ##
   # MySQL [Database]
