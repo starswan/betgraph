@@ -116,15 +116,14 @@ private
         mt.save || raise(ActiveRecord::Rollback)
         next unless mt.match.venue == @otherteam
 
-        other_match = Match.find_by(date: mt.match.date, venue: @team)
-        other_match.destroy if other_match
+        Match.where(date: mt.match.date, venue: @team).destroy_all
         done = mt.match.update(venue: @team)
         unless done
           logger.warn "Failed to update match #{mt.match.errors.full_messages}"
           raise(ActiveRecord::Rollback)
         end
       end
-      @otherteam.destroy
+      @otherteam.reload.destroy
       worked = true
     end
     worked

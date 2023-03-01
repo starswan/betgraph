@@ -3,7 +3,7 @@
 # $Id$
 #
 #./run.sh $1 clock clockwork config/clock.rb
-source /home/stephen/.rvm/environments/ruby-2.7.6@betgraph
+source /home/stephen/.rvm/environments/ruby-2.7.7@betgraph
 bundle install
 export HOME=`echo ~`
 source $HOME/.bash_login

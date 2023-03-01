@@ -11,7 +11,7 @@
   <%= format_result(@match) %>
   <%= link_to 'Markets', polymorphic_url([@match, :bet_markets]) %>
 </div>
-<% active_baskets = @baskets.select(&:complete?) %>
+<% the_data = basket_data(@baskets.select(&:complete?)) %>
 <div class="row">
   <div class="col-9">
     <%#content_tag :div, nil, class: 'bet-markets-chart', id: "baskets_chart",
@@ -21,8 +21,8 @@
                             markets: basket_chart_data(active_baskets),
                             ymin: 'auto'
                            } %>
-    <%= line_chart(basket_data(active_baskets).map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
-                   min: 0.75,
+    <%= line_chart(the_data.map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
+                   min: the_data.min_by { |d| d.fetch(:prices).values.min }.fetch(:prices).values.min,
                    max: 1.05,
                    height: '500px') %>
 
@@ -38,7 +38,7 @@
       <tr>
         <td><%= link_to basket.basket_rule.name, basket_basket_items_path(basket) %></td>
         <td><%= basket.basket_items_count %>/<%= basket.missing_items_count %></td>
-        <td><%= link_to 'Edit', edit_match_basket_path(@match, basket), :class => 'btn btn-sm btn-outline-primary' %></td>
+<!--        <td><%#= link_to 'Edit', edit_match_basket_path(@match, basket), :class => 'btn btn-sm btn-outline-primary' %></td>-->
         <td><%= link_to 'Delete', [@match, basket], :data => { :confirm => "Are you sure you wish to delete basket #{basket.basket_rule.name}?" }, :method => :delete, :class => 'btn btn-sm btn-outline-danger' %></td>
       </tr>
     <% end %>

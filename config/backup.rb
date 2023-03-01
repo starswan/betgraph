@@ -16,7 +16,9 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
   BACKUP_RAILS_ENV = ENV["RAILS_ENV"] || "development"
 
   require "yaml"
-  config = YAML.load_file(database_yml)
+  require "erb"
+  template = ERB.new File.read database_yml
+  config = YAML.safe_load template.result binding
 
   ##
   # MySQL [Database]
@@ -37,7 +39,7 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
     # db.only_tables        = ["only", "these" "tables"]
     # skip table creates (-t) and use full inserts (-c) and attempt postgres-compatible mode
     # db.additional_options = ["--quick", "--single-transaction", "--compatible=postgresql", "-c", "-t"]
-    db.additional_options = ["--quick", "--single-transaction", "-c"]
+    db.additional_options = ["--quick", "--single-transaction", "-c", "--no-tablespaces"]
     # Optional: Use to set the location of this utility
     #   if it cannot be found by name in your $PATH
     # db.mysqldump_utility = "/opt/local/bin/mysqldump"

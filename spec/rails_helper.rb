@@ -6,8 +6,13 @@ ENV["RAILS_ENV"] ||= "test"
 if ENV["COVERAGE"]
   require "simplecov"
   SimpleCov.start :rails do
+    add_filter "app/admin"
+    add_filter "lib/tasks/db/yaml_load"
+    # not really testable
     add_filter "app/jobs/keep_everything_alive_job.rb"
+    # not really testable
     add_filter "app/jobs/make_all_matches_job.rb"
+    # not really testable
     add_filter "app/jobs/load_all_football_data_job.rb"
     add_filter "app/controllers/motor_races_controller.rb"
     add_filter "app/controllers/snooker_matches_controller.rb"
@@ -18,14 +23,15 @@ if ENV["COVERAGE"]
     add_filter "app/models/snooker_match.rb"
     add_filter "app/models/motor_race.rb"
     add_filter "app/models/team_division.rb"
+    # not used yet
+    add_filter "app/models/user.rb"
+    # not used yet
     add_filter "app/valuers/poisson_sum.rb"
     add_group "Valuers", "app/valuers"
     add_group "Betfair", "../betfair2/lib"
-    # drop after online tests removed
-    minimum_coverage 74.50
-    # minimum_coverage 86.37
-    # maybe no longer...?
     # we seem to have flakey/non-stable coverage values
+    minimum_coverage 86.99
+    # maybe no longer...?
     maximum_coverage_drop 0.83
   end
 end

@@ -35,7 +35,7 @@ set :use_sudo, false
 
 # repo details
 set :scm, :subversion
-set :repository, "http://subversion/svn/starswan/trunk/projects/betgraph"
+set :repository, "http://arthur/svn/starswan/trunk/projects/betgraph"
 
 # runtime dependencies
 # depend :remote, :gem, "bundler", ">=1.0.0.rc.2"
