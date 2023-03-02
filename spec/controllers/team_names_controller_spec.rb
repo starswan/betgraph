@@ -69,7 +69,7 @@ RSpec.describe TeamNamesController, type: :controller do
         expect(response).to have_http_status(:redirect)
       }.to change(Team, :count).by(-1)
       expect(match_one.reload.venue).to eq(my_team)
-      expect(match_one.reload.teams.map(&:name)).to match_array %w[MyTeam Three]
+      expect(match_one.reload.teams.map(&:name)).to match_array %w[Other Three]
     end
   end
 

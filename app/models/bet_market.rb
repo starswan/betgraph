@@ -42,6 +42,8 @@ class BetMarket < ApplicationRecord
 
   NO_WINNER_TYPES = %w[ANYTIME_ASSIST
                        SHOWN_A_CARD
+                       PLAYER_FOULS_1
+                       PLAYER_FOULS_2
                        TO_SCORE
                        TO_SCORE_2_OR_MORE
                        TO_SCORE_HATTRICK

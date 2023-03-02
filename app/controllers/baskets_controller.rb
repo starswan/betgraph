@@ -11,9 +11,9 @@ class BasketsController < ApplicationController
   def index
     @match = Match.includes(
       :result,
-      bet_markets: { market_price_times: { market_prices: :market_runner } },
+      bet_markets: { market_runners: :market_prices },
       division: { calendar: :sport },
-      baskets: { basket_items: :market_runner },
+      baskets: [:basket_rule, { basket_items: :market_runner }],
     ).find params[:match_id]
     @baskets = @match.baskets
 
