@@ -46,7 +46,7 @@ gem "faraday"
 gem "mysql2"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem "jbuilder", "~> 2.0"
+gem "jbuilder", "~> 2.11"
 # Use jquery as the JavaScript library
 # gem "jquery-rails"
 
