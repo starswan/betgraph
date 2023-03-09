@@ -34,8 +34,9 @@ class MarketPricesController < ApplicationController
   # GET /market_prices/new
   # GET /market_prices/new.xml
   def new
-    @market_price = MarketPrice.new
-    @market_price.market_runner = @market_runner
+    # @market_price = MarketPrice.new
+    # @market_price.market_runner = @market_runner
+    @market_price = Price.new market_runner: @market_runner
 
     respond_to do |format|
       format.html # new.html.erb
@@ -46,12 +47,14 @@ class MarketPricesController < ApplicationController
   # POST /market_prices
   # POST /market_prices.xml
   def create
-    @market_price = @market_runner.market_prices.new(market_price_params)
+    params = market_price_params
+    @market_price = @market_runner.prices.new(params
+      .merge(created_at: MarketPriceTime.find(params[:market_price_time_id]).time))
 
     respond_to do |format|
       if @market_price.save
         flash[:notice] = "MarketPrice was successfully created."
-        format.html { redirect_to(@market_price) }
+        format.html { redirect_to(market_runner_path(@market_runner)) }
         format.xml  { render xml: @market_price, status: :created, location: @market_price }
       else
         format.html { render action: "new" }
@@ -75,14 +78,16 @@ class MarketPricesController < ApplicationController
 private
 
   def market_price_params
-    params.require(:market_price).permit(:market_price_time_id,
-                                         :status,
-                                         :back1price, :lay1price,
-                                         :back2price, :lay2price,
-                                         :back3price, :lay3price,
-                                         :back1amount, :lay1amount,
-                                         :back2amount, :lay2amount,
-                                         :back3amount, :lay3amount)
+    # params.require(:market_price).permit(:market_price_time_id,
+    #                                      :status,
+    #                                      :back1price, :lay1price,
+    #                                      :back2price, :lay2price,
+    #                                      :back3price, :lay3price,
+    #                                      :back1amount, :lay1amount,
+    #                                      :back2amount, :lay2amount,
+    #                                      :back3amount, :lay3amount)
+    params.require(:market_price).permit :market_price_time_id,
+                                         :price, :amount, :depth, :side
   end
 
   def find_market_runner

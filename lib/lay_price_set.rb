@@ -8,11 +8,11 @@ require "price_set"
 class LayPriceSet < PriceSet
   attr_reader :min_amount
 
-  def initialize(*args)
+  def initialize(args)
     super "L"
     @min_amount = nil
-    args.each do |price, amount|
-      addPrice price, amount
+    args.each do |dbprice|
+      addPrice dbprice.price, dbprice.amount
     end
   end
 

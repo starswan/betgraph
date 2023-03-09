@@ -56,7 +56,7 @@
       <%= link_to bm.name, bm %>
     </td>
     <td align="center">
-      <%= h bm.market_runners.size %> / <%= h bm.market_prices_count -%>
+      <%= h bm.market_runners.size %> / <%= h bm.prices_count -%>
     </td>
     <% expected = bm.expected_value(matchtime) %>
     <td align="center">

@@ -18,7 +18,7 @@ class MarketRunnersController < ApplicationController
     runnertype = params[:betfair_runner_type_id]
     @ymax = params[:ymax] || "auto"
     if market
-      @bet_market = BetMarket.includes(market_runners: { market_prices: :market_price_time }).find market
+      @bet_market = BetMarket.includes(market_runners: :prices).find market
       @market_runners = @bet_market.market_runners
     elsif runnertype
       @market_runners = MarketRunner.where(betfair_runner_type_id: runnertype).order(:sortorder)

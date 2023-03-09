@@ -88,11 +88,11 @@ Rails.application.routes.draw do
   resources :bet_markets do
     resources :market_runners
     resources :trades, controller: "bet_markets/trades"
-    resources :market_prices, controller: "bet_markets/market_prices"
+    resources :market_prices, controller: "bet_markets/market_prices", only: [:index]
   end
   resources :market_runners do
     resources :trades
-    resources :market_prices
+    resources :market_prices, only: [:create, :new, :index]
   end
   resources :trades
   resources :basket_items

@@ -121,14 +121,24 @@ class BetMarket < ApplicationRecord
     prices = market_prices_at(actualtime)
     if prices.any?
       # Each price implies a value of lambda (expected value of market)
-      rvs = prices.map do |price|
-        runner = price.market_runner
-        { homevalue: runner.betfair_runner_type.runnerhomevalue.to_f,
+      # rvs = prices.map do |price|
+      #   runner = price.market_runner
+      #   { homevalue: runner.betfair_runner_type.runnerhomevalue.to_f,
+      #     awayvalue: runner.betfair_runner_type.runnerawayvalue.to_f,
+      #     handicap: runner.handicap.to_f,
+      #     # TODO: - this should be dependent on an amount, and reflect the prices available.
+      #     backprice: price.back1price.to_f,
+      #     layprice: price.lay1price.to_f }
+      # end
+      rvs = prices.group_by(&:market_runner).map do |runner, prices_list|
+        {
+          homevalue: runner.betfair_runner_type.runnerhomevalue.to_f,
           awayvalue: runner.betfair_runner_type.runnerawayvalue.to_f,
           handicap: runner.handicap.to_f,
           # TODO: - this should be dependent on an amount, and reflect the prices available.
-          backprice: price.back1price.to_f,
-          layprice: price.lay1price.to_f }
+          backprice: prices_list.find(&:back_price?)&.price.to_f,
+          layprice: prices_list.reject(&:back_price?).first&.price.to_f,
+        }
       end
       betfair_market_type.expected_value(rvs)
     else
@@ -146,15 +156,33 @@ class BetMarket < ApplicationRecord
     prices = market_prices_at(actualtime)
     if prices.any?
       # Each of market_prices has a runner, backprice and layprice
-      prices.each do |price|
+      # prices.each do |price|
+      #   # Each price implies a value of lambda (expected value of market)
+      #   backprice = price.back1price
+      #   layprice = price.lay1price
+      #
+      #   # runner_value returns 1 if runner would win, 0 if runner is a push and -1 otherwise
+      #   # possibly scaled e.g. asians can return fractional answers.
+      #   runner_value = price.market_runner.runner_value homescore, awayscore
+      #   logger.debug "MP: #{homescore}-#{awayscore} #{price.market_runner.runnername} #{backprice.to_f} #{layprice.to_f} #{runner_value}"
+      #
+      #   total += runner_value / backprice if runner_value > 0 && backprice
+      #   prob += 1 / backprice if backprice
+      #   implied_prob = total / prob if prob > 0
+      #
+      #   neg_total += -runner_value / layprice if runner_value < 0 && layprice
+      #   neg_prob += 1 / layprice if layprice
+      #   implied_neg_prob = 1 - neg_total / neg_prob if neg_prob > 0
+      # end
+      prices.group_by(&:market_runner).each do |runner, price_array|
         # Each price implies a value of lambda (expected value of market)
-        backprice = price.back1price
-        layprice = price.lay1price
+        backprice = price_array.find(&:back_price?)&.price
+        layprice = price_array.reject(&:back_price?).first&.price
 
         # runner_value returns 1 if runner would win, 0 if runner is a push and -1 otherwise
         # possibly scaled e.g. asians can return fractional answers.
-        runner_value = price.market_runner.runner_value homescore, awayscore
-        logger.debug "MP: #{homescore}-#{awayscore} #{price.market_runner.runnername} #{backprice.to_f} #{layprice.to_f} #{runner_value}"
+        runner_value = runner.runner_value homescore, awayscore
+        logger.debug "MP: #{homescore}-#{awayscore} #{runner.runnername} #{backprice.to_f} #{layprice.to_f} #{runner_value}"
 
         total += runner_value / backprice if runner_value > 0 && backprice
         prob += 1 / backprice if backprice
@@ -184,11 +212,14 @@ class BetMarket < ApplicationRecord
       winners = []
     end
     if winners.empty?
-      if match.market_prices.empty?
+      if match.prices.count.zero?
         runners = market_runners.order(:sortorder)
       else
-        runners = market_runners.map(&:market_prices).flatten
-                    .sort_by { |p| p.lay1price.present? ? -1 / p.lay1price : (p.back1price.presence || 0) }
+        # runners = market_runners.map(&:market_prices).flatten
+        #             .sort_by { |p| p.lay1price.present? ? -1 / p.lay1price : (p.back1price.presence || 0) }
+        #             .map(&:market_runner).uniq
+        runners = market_runners.map(&:prices).flatten.select { |x| x.depth == 1 }
+                    .sort_by { |p| p.back_price? ? p.price : -1 / p.price }
                     .map(&:market_runner).uniq
       end
       runners[0..0]
@@ -238,9 +269,11 @@ class BetMarket < ApplicationRecord
 private
 
   def market_prices_at(time)
-    price_query = MarketPrice.where(market_runner_id: market_runners.map(&:id))
-    price_query.joins(:market_price_time)
-      .merge(MarketPriceTime.later_than(time))
-      .uniq(&:market_runner)
+    # price_query = MarketPrice.where(market_runner_id: market_runners.map(&:id))
+    # price_query.joins(:market_price_time)
+    #   .merge(MarketPriceTime.later_than(time))
+    #   .uniq(&:market_runner)
+    price_query = Price.where(market_runner_id: market_runners.map(&:id))
+    price_query.merge(Price.later_than(time)).uniq(&:market_runner)
   end
 end

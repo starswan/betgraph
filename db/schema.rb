@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "timescaledb"
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -59,7 +60,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["sport_id"], name: "fk_rails_3aa627174d"
   end
 
-  create_table "baskets",  force: :cascade do |t|
+  create_table "baskets", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer "missing_items_count", null: false
@@ -88,7 +89,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.boolean "live_priced", default: false, null: false
     t.bigint "match_id", null: false
     t.integer "exchange_id", null: false
-    t.integer "market_prices_count", default: 0, null: false
+    t.integer "prices_count", default: 0, null: false
     t.integer "market_runners_count", default: 0, null: false
     t.datetime "deleted_at"
     t.index ["active"], name: "index_bet_markets_on_active"
@@ -100,7 +101,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["status"], name: "index_bet_markets_on_status"
   end
 
-  create_table "betfair_market_types",  force: :cascade do |t|
+  create_table "betfair_market_types", force: :cascade do |t|
     t.string "name", null: false
     t.boolean "active", default: true
     t.datetime "created_at"
@@ -111,7 +112,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["sport_id"], name: "index_betfair_market_types_on_sport_id"
   end
 
-  create_table "betfair_runner_types",  force: :cascade do |t|
+  create_table "betfair_runner_types", force: :cascade do |t|
     t.string "name", null: false
     t.bigint "betfair_market_type_id", null: false
     t.datetime "created_at"
@@ -123,7 +124,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["name"], name: "index_betfair_runner_types_on_name"
   end
 
-  create_table "calendars",  force: :cascade do |t|
+  create_table "calendars", force: :cascade do |t|
     t.bigint "sport_id"
     t.string "name"
     t.index ["sport_id"], name: "index_calendars_on_sport_id"
@@ -140,7 +141,9 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["division_id"], name: "index_competitions_on_division_id"
     t.index ["sport_id"], name: "index_competitions_on_sport_id"
-  endcreate_table "divisions",  force: :cascade do |t|
+  end
+
+  create_table "divisions", force: :cascade do |t|
     t.string "name", limit: 50, null: false
     t.integer "odds_numerator", default: 8, null: false
     t.integer "odds_denominator", default: 1, null: false
@@ -169,32 +172,11 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.binary "password"
   end
 
-  create_table "market_price_times",  force: :cascade do |t|
+  create_table "market_price_times", force: :cascade do |t|
     t.datetime "time", null: false
     t.datetime "created_at"
-    t.integer "market_prices_count", default: 0, null: false
+    t.integer "prices_count", default: 0, null: false
     t.index ["time"], name: "index_market_price_times_on_time_and_bet_market_id"
-  end
-
-  create_table "market_prices",force: :cascade do |t|
-    t.bigint "market_runner_id"
-    t.decimal "back1price", precision: 7, scale: 3
-    t.decimal "lay1price", precision: 7, scale: 3
-    t.decimal "back2price", precision: 7, scale: 3
-    t.decimal "lay2price", precision: 7, scale: 3
-    t.decimal "back3price", precision: 7, scale: 3
-    t.decimal "lay3price", precision: 7, scale: 3
-    t.decimal "back1amount", precision: 9, scale: 2
-    t.decimal "lay1amount", precision: 9, scale: 2
-    t.decimal "back2amount", precision: 9, scale: 2
-    t.decimal "lay2amount", precision: 9, scale: 2
-    t.decimal "back3amount", precision: 9, scale: 2
-    t.decimal "lay3amount", precision: 9, scale: 2
-    t.bigint "market_price_time_id", null: false
-    t.string "status", limit: 20, default: "ACTIVE", null: false
-    t.index ["market_price_time_id", "market_runner_id"], name: "market_prices_price_time_runner", unique: true
-    t.index ["market_price_time_id"], name: "index_market_prices_on_market_price_time_id"
-    t.index ["market_runner_id"], name: "market_prices_market_runner_id"
   end
 
   create_table "market_runners", force: :cascade do |t|
@@ -206,13 +188,13 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer "sortorder"
-    t.integer "market_prices_count", default: 0
+    t.integer "prices_count", default: 0
     t.integer "betfair_runner_type_id", null: false
     t.index ["bet_market_id"], name: "index_market_runners_on_bet_market_id"
     t.index ["betfair_runner_type_id"], name: "index_market_runners_on_betfair_runner_type_id"
   end
 
-  create_table "match_teams",  force: :cascade do |t|
+  create_table "match_teams", force: :cascade do |t|
     t.bigint "match_id", null: false
     t.bigint "team_id", null: false
     t.datetime "created_at", null: false
@@ -221,7 +203,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["team_id"], name: "match_teams_team_id_fk"
   end
 
-  create_table "matches",  force: :cascade do |t|
+  create_table "matches", force: :cascade do |t|
     t.bigint "division_id", null: false
     t.datetime "kickofftime", null: false
     t.datetime "created_at"
@@ -235,7 +217,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.bigint "venue_id", null: false
     t.integer "bet_markets_count", default: 0
     t.bigint "season_id"
-    t.integer "market_prices_count", default: 0, null: false
+    t.integer "prices_count", default: 0, null: false
     t.date "date", null: false
     t.datetime "deleted_at"
     t.index ["deleted_at"], name: "index_matches_on_deleted_at"
@@ -244,6 +226,17 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["live_priced"], name: "index_matches_on_live_priced"
     t.index ["season_id"], name: "index_matches_on_season_id"
     t.index ["venue_id"], name: "matches_venue_id_fk"
+  end
+
+  create_table "prices", id: false, force: :cascade do |t|
+    t.bigint "market_runner_id", null: false
+    t.bigint "market_price_time_id", null: false
+    t.decimal "price", precision: 7, scale: 3, null: false
+    t.decimal "amount", precision: 9, scale: 2, null: false
+    t.text "side", null: false
+    t.integer "depth", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.index ["created_at"], name: "prices_created_at_idx", order: :desc
   end
 
   create_table "results", force: :cascade do |t|
@@ -257,7 +250,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["match_id"], name: "index_results_on_match_id", unique: true
   end
 
-  create_table "scorers",  force: :cascade do |t|
+  create_table "scorers", force: :cascade do |t|
     t.bigint "match_id"
     t.bigint "team_id"
     t.string "name"
@@ -280,7 +273,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["calendar_id"], name: "index_seasons_on_calendar_id"
   end
 
-  create_table "sports",  force: :cascade do |t|
+  create_table "sports", force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -293,7 +286,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["name"], name: "index_sports_on_name"
   end
 
-  create_table "team_divisions",  force: :cascade do |t|
+  create_table "team_divisions", force: :cascade do |t|
     t.bigint "team_id", null: false
     t.bigint "division_id", null: false
     t.integer "season_id", null: false
@@ -301,7 +294,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["team_id", "division_id", "season_id"], name: "index_team_divisions_on_team_id_and_division_id_and_season_id", unique: true
   end
 
-  create_table "team_names",  force: :cascade do |t|
+  create_table "team_names", force: :cascade do |t|
     t.bigint "team_id"
     t.string "name"
     t.datetime "created_at"
@@ -309,7 +302,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["team_id"], name: "fk_rails_5c2c057ba9"
   end
 
-  create_table "team_total_configs",  force: :cascade do |t|
+  create_table "team_total_configs", force: :cascade do |t|
     t.integer "count"
     t.integer "threshold"
     t.string "name"
@@ -317,7 +310,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.datetime "updated_at"
   end
 
-  create_table "team_totals",  force: :cascade do |t|
+  create_table "team_totals", force: :cascade do |t|
     t.bigint "team_id"
     t.integer "count"
     t.integer "total_goals"
@@ -339,7 +332,7 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
     t.index ["sport_id"], name: "fk_rails_11a3a42f5f"
   end
 
-  create_table "trades",  force: :cascade do |t|
+  create_table "trades", force: :cascade do |t|
     t.bigint "market_runner_id"
     t.decimal "price", precision: 6, scale: 2, null: false
     t.datetime "created_at"
@@ -367,8 +360,6 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
   add_foreign_key "betfair_market_types", "sports"
   add_foreign_key "betfair_runner_types", "betfair_market_types"
   add_foreign_key "football_divisions", "divisions"
-  add_foreign_key "market_prices", "market_price_times"
-  add_foreign_key "market_prices", "market_runners"
   add_foreign_key "market_runners", "bet_markets"
   add_foreign_key "match_teams", "matches"
   add_foreign_key "match_teams", "teams"
@@ -384,4 +375,5 @@ ActiveRecord::Schema.define(version: 2023_06_04_190240) do
   add_foreign_key "team_totals", "teams"
   add_foreign_key "teams", "sports"
   add_foreign_key "trades", "market_runners"
+  create_hypertable "prices", time_column: "created_at", chunk_time_interval: "7 days", compress_segmentby: "market_runner_id", compress_orderby: "created_at ASC", compression_interval: "P7D"
 end

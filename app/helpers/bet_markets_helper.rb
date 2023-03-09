@@ -5,13 +5,18 @@
 #
 module BetMarketsHelper
   def bet_market_data(markets)
+    # flatten_winners(markets).map do |runner|
+    #   prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
+    #   {
+    #     label: "#{runner.bet_market.name} (#{runner.runnername})",
+    #     prices: prices.map { |p| [p.market_price_time.time, p.back1price] }.to_h,
+    #   }
+    # end
     flatten_winners(markets).map do |runner|
-      prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
+      prices = runner.prices.select { |p| p.created_at >= runner.bet_market.time && p.back_price? }
       {
-        # id: runner.id,
         label: "#{runner.bet_market.name} (#{runner.runnername})",
-        # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
-        prices: prices.map { |p| [p.market_price_time.time, p.back1price] }.to_h,
+        prices: prices.map { |p| [p.created_at, p.price] }.to_h,
       }
     end
   end
@@ -52,13 +57,23 @@ module BetMarketsHelper
   def best_price_for_runner(market_price_time, risk_amount); end
 
   def runner_chart_data(runners)
+    # runners.map { |runner|
+    #   runner.market_prices
+    #       .select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
+    #       .map do |price|
+    #     {
+    #       time: price.market_price_time.time,
+    #       runner.id => price.back1price.to_f,
+    #     }
+    #   end
+    # }.flatten
     runners.map { |runner|
-      runner.market_prices
-          .select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
+      runner.prices
+          .select { |p| p.created_at >= runner.bet_market.time && p.back_price? }
           .map do |price|
         {
-          time: price.market_price_time.time,
-          runner.id => price.back1price.to_f,
+          time: price.created_at,
+          runner.id => price.price.to_f,
         }
       end
     }.flatten

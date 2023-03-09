@@ -20,7 +20,6 @@ class Basket < ApplicationRecord
 
   def event_basket_prices
     market_runners = basket_items.map(&:market_runner)
-    # bet_markets = match.bet_markets.select { |bm| market_runners.detect { |mr| mr.bet_market_id == bm.id } }
 
     Enumerator.new do |yielder|
       prices = MarketPrice.includes(:market_price_time, { market_runner: :bet_market }).joins(:market_price_time)
@@ -32,7 +31,7 @@ class Basket < ApplicationRecord
 
         back_runners = RunnerSet.new
         lay_runners = RunnerSet.new
-        price_group.each do |market_price|
+        price_group.group_by(&:market_runner).each do |runner, price_array|
           # Try to lay other runner rather than backing this and vice-versa
           # this doesn't quite work as we have excluded the prices for other runner from the price_group
           # market = market_price.market_runner.bet_market
@@ -46,8 +45,10 @@ class Basket < ApplicationRecord
           #   end
           # end
 
-          back_runners.addPriceSet(market_price.market_runner, market_price.back_price_set)
-          lay_runners.addPriceSet(market_price.market_runner, market_price.lay_price_set)
+          back_runners.addPriceSet(runner, BackPriceSet.new(price_array.select(&:back_price?)))
+          lay_runners.addPriceSet(runner, LayPriceSet.new(price_array.reject(&:back_price?)))
+          # back_runners.addPriceSet(market_price.market_runner, market_price.back_price_set)
+          # lay_runners.addPriceSet(market_price.market_runner, market_price.lay_price_set)
         end
         yielder << if back_runners.over_round < lay_runners.over_round
                      prices_hash(back_runners).merge(time: time,

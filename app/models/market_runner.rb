@@ -13,7 +13,9 @@ class MarketRunner < ApplicationRecord
   # TODO: This ought to be possible, but fails a controller test
   # validates_uniqueness_of :description, scope: :bet_market
   # MarketPrice is the bottom of the chain, so delete_all is ok
-  has_many :market_prices, inverse_of: :market_runner, dependent: :delete_all
+  # has_many :market_prices, inverse_of: :market_runner, dependent: :delete_all
+  has_many :prices, inverse_of: :market_runner, dependent: :delete_all
+
   belongs_to :bet_market, inverse_of: :market_runners, counter_cache: true
   belongs_to :betfair_runner_type, inverse_of: :market_runners, optional: true
   has_many :trades, dependent: :delete_all
@@ -22,7 +24,7 @@ class MarketRunner < ApplicationRecord
   before_save :update_runner_type
 
   def reversedprices
-    market_prices.reverse
+    prices.reverse
   end
 
   def runnername

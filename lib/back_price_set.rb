@@ -6,15 +6,15 @@
 require "price_set"
 
 class BackPriceSet < PriceSet
-  def initialize(*args)
+  def initialize(args)
     super "B"
-    args.each do |price, amount|
-      addPrice price, amount
+    args.each do |dbprice|
+      addPrice dbprice.price, dbprice.amount
     end
   end
 
   def addPrice(price, amount)
-    addRawPrice price, amount if price
+    addRawPrice price, amount
   end
 
   def min_amount
