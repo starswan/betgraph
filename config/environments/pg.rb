@@ -78,7 +78,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # speed up import by reducing log levels?
-  config.log_level = :info
+  # config.log_level = :info
 
   # https://medium.com/@atinders/easy-log-rotation-with-rails-5-7b8d3c173461
   # Keeps the Last 5 log files which are rotated at every 100MB

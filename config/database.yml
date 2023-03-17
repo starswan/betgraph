@@ -8,17 +8,17 @@ development:
   username: rails
   password: 123rails!
   host: localhost
-#  port: 3307
-# using the name rather than the IP address appears to
-# slow everything to a crawl but no idea why.
+  #  port: 3307
+  # using the name rather than the IP address appears to
+  # slow everything to a crawl but no idea why.
   #  host: Stephens-iMac.broadband
 #  host: 192.168.1.7
 
 # Very simple pg - use local unix user for username
 pg:
   adapter: postgresql
-#  encoding: unicode
-#  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  #  encoding: unicode
+  #  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: betgraph_development
   username: rails
   password: 123rails!
@@ -39,7 +39,7 @@ preprod:
   username: rails
   password: 123rails!
   reconnect: true
-#  socket: /var/run/mysqld/mysqld.sock
+  #  socket: /var/run/mysqld/mysqld.sock
   host: localhost
   port: 3307
 
@@ -50,9 +50,9 @@ test:
   adapter: <%= ENV.fetch("TEST_DB", "mysql2") %>
   encoding: utf8
   pool: 5
-#  adapter: postgresql
-#  encoding: unicode
-#  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  #  adapter: postgresql
+  #  encoding: unicode
+  #  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: bfrails_test
   username: rails
   password: 123rails!
