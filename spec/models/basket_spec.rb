@@ -102,11 +102,11 @@ RSpec.describe Basket do
     let(:mpt2) { now - 2.minutes }
     let(:mpt3) { now - 1.minute }
     let(:basket) { described_class.last }
-    let(:expected1) { { time: mpt2, betsize: 1.0, betType: "B", price: 1.0 } }
-    let(:expected2) { { time: mpt3, betsize: 1.0, betType: "B", price: 1.0 } }
+    let(:expected1) { { time: mpt2.to_s, betsize: 1.0, betType: "B", price: 1.0 } }
+    let(:expected2) { { time: mpt3.to_s, betsize: 1.0, betType: "B", price: 1.0 } }
 
     it "has the correct values" do
-      expect(basket.event_basket_prices.map { |g| g.except(:market_prices) })
+      expect(basket.event_basket_prices.map { |g| g.except(:market_prices).merge(time: g.fetch(:time).to_s) })
         .to match_array([expected1, expected2])
     end
   end

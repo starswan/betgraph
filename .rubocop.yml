@@ -17,6 +17,7 @@ AllCops:
     - 'vendor/bundle/**/*'
     - 'node_modules/**/*'
     - 'db/schema.rb'
+    - 'db/migrate/2019*'
     - 'config/application.rb'
     - 'config/initializers/*.rb'
     - 'config/spring.rb'

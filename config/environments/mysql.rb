@@ -78,5 +78,5 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # speed up import by reducing log levels?
-  config.log_level = :info
+  # config.log_level = :info
 end
