@@ -41,7 +41,8 @@ gem "devise"
 gem "dotenv-rails"
 # github version fixes Ruby 2.4.x deprecation warning
 gem "ezcrypto", git: "https://github.com/pglombardo/ezcrypto"
-gem "faraday"
+gem "faraday", ">= 2"
+gem "faraday-retry"
 
 gem "mysql2"
 
