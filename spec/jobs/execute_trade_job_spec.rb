@@ -26,18 +26,19 @@ RSpec.describe ExecuteTradeJob, :betfair, type: :job do
                                          "exBestOffersOverrides" => { "bestPricesDepth" => 3 } } }.to_json,
         )
         .to_return(
-          headers: {"Content-Type"=> "application/json"},
+          headers: { "Content-Type" => "application/json" },
           body: [{ marketId: "1.1",
-                            betDelay: 5,
-                            inplay: false,
-                            runners: [
-                              {
-                                selectionId: runner.selectionId,
-                                asianLineId: runner.asianLineId,
-                                back: {},
-                              },
-                            ],
-                            complete: true }].to_json)
+                   betDelay: 5,
+                   inplay: false,
+                   runners: [
+                     {
+                       selectionId: runner.selectionId,
+                       asianLineId: runner.asianLineId,
+                       back: {},
+                     },
+                   ],
+                   complete: true }].to_json,
+        )
   end
 
   it "performs" do

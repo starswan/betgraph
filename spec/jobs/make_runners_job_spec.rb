@@ -24,19 +24,21 @@ RSpec.describe MakeRunnersJob, :betfair, type: :job do
         body: { maxResults: "1", filter: { marketIds: ["1.234"] }, marketProjection: %w[MARKET_DESCRIPTION MARKET_START_TIME EVENT RUNNER_DESCRIPTION] }.to_json,
       )
       .to_return(
-        headers: {"Content-Type"=> "application/json"},
-        body: [].to_json)
+        headers: { "Content-Type" => "application/json" },
+        body: [].to_json,
+      )
 
     stub_request(:post, "https://api.betfair.com/exchange/betting/rest/v1.0/listMarketBook/")
       .with(
         body: { marketIds: ["1.234"], marketProjection: %w[MARKET_DESCRIPTION MARKET_START_TIME EVENT RUNNER_DESCRIPTION] }.to_json,
       )
       .to_return(
-        headers: {"Content-Type"=> "application/json"},
+        headers: { "Content-Type" => "application/json" },
         body: [{ marketId: "1.1",
-                          betDelay: 5,
-                          inplay: false,
-                          complete: true }].to_json)
+                 betDelay: 5,
+                 inplay: false,
+                 complete: true }].to_json,
+      )
     stub_request(:put, "http://webservice.local/matches/#{match.id}/bet_markets/#{match.bet_markets.first.id}.json")
       .with(
         body: { bet_market: { runners_may_be_added: false, live_priced: false, live: false } }.to_json,
