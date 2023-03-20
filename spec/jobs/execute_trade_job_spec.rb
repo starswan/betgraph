@@ -25,7 +25,9 @@ RSpec.describe ExecuteTradeJob, :betfair, type: :job do
                   "priceProjection" => { "priceData" => %w[EX_BEST_OFFERS],
                                          "exBestOffersOverrides" => { "bestPricesDepth" => 3 } } }.to_json,
         )
-        .to_return(body: [{ marketId: "1.1",
+        .to_return(
+          headers: {"Content-Type"=> "application/json"},
+          body: [{ marketId: "1.1",
                             betDelay: 5,
                             inplay: false,
                             runners: [

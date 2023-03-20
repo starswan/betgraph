@@ -23,13 +23,17 @@ RSpec.describe MakeRunnersJob, :betfair, type: :job do
       .with(
         body: { maxResults: "1", filter: { marketIds: ["1.234"] }, marketProjection: %w[MARKET_DESCRIPTION MARKET_START_TIME EVENT RUNNER_DESCRIPTION] }.to_json,
       )
-      .to_return(body: [].to_json)
+      .to_return(
+        headers: {"Content-Type"=> "application/json"},
+        body: [].to_json)
 
     stub_request(:post, "https://api.betfair.com/exchange/betting/rest/v1.0/listMarketBook/")
       .with(
         body: { marketIds: ["1.234"], marketProjection: %w[MARKET_DESCRIPTION MARKET_START_TIME EVENT RUNNER_DESCRIPTION] }.to_json,
       )
-      .to_return(body: [{ marketId: "1.1",
+      .to_return(
+        headers: {"Content-Type"=> "application/json"},
+        body: [{ marketId: "1.1",
                           betDelay: 5,
                           inplay: false,
                           complete: true }].to_json)
