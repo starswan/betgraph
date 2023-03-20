@@ -6,7 +6,7 @@
     "@popperjs/core": "^2.11.6",
     "@rails/actioncable": "^6.1.0",
     "@rails/activestorage": "^6.1.0",
-    "@rails/ujs": "^6.1.0",
+    "@rails/ujs": "^7.0.4",
     "@rails/webpacker": "^5.4.3",
     "bootstrap": "^5.2.3",
     "coffee-loader": "^1.0.1",
