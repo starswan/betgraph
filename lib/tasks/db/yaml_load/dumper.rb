@@ -8,7 +8,8 @@ module Tasks
           def tables
             # team_totals is big and cen be generated from result data (and may not be required anyway)
             # logins doesn't seem to port well to postgres via insert statements ?
-            all = super - %w[team_totals logins]
+            all = super - %w[team_totals results logins]
+            # all = super - %w[logins]
             big = %w[market_prices]
             (all - big) + big
           end
@@ -27,10 +28,25 @@ module Tasks
                 arel_table = Arel::Table.new(table)
                 query = arel_table.order(*keys).where(arel_table[:id].gt(last_id)).take(records_per_page).project(Arel.sql("*"))
                 records = ActiveRecord::Base.connection.select_all(query.to_sql)
-                records = YamlDb::SerializationHelper::Utils.convert_booleans(records, boolean_columns)
-                yield records
+                converted = records.map { |r| convert_booleans(r, boolean_columns) }
+                yield converted
                 last_id = records.last.fetch("id") if records.any?
               end
+            end
+          end
+
+          def convert_booleans(record, columns)
+            converting = columns.reject { |c| YamlDb::SerializationHelper::Utils.is_boolean(record[c]) }
+            if converting.any?
+              record.map { |k, v|
+                if k.in? converting
+                  [k, YamlDb::SerializationHelper::Utils.convert_boolean(v)]
+                else
+                  [k, v]
+                end
+              }.to_h
+            else
+              record
             end
           end
         end
