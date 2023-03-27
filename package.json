@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "@activeadmin/activeadmin": "~2.13.1",
-    "@popperjs/core": "^2.11.6",
+    "@popperjs/core": "^2.11.7",
     "@rails/actioncable": "^6.1.0",
     "@rails/activestorage": "^6.1.0",
     "@rails/ujs": "^6.1.0",
