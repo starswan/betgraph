@@ -3,17 +3,17 @@
 require "rails_helper"
 
 RSpec.describe ProcessMarketPriceJob, type: :job do
-  Snapshot = Struct.new :marketId, :status, :runners, keyword_init: true
-  Runner = Struct.new :status, :selectionId, :handicap, :ex, keyword_init: true
-  Ex = Struct.new :availableToBack, :availableToLay, keyword_init: true
-  ExPrice = Struct.new :price, :size, keyword_init: true
+  let(:snapshot) { Struct.new :marketId, :status, :runners, keyword_init: true }
+  let(:runner) { Struct.new :status, :selectionId, :handicap, :ex, keyword_init: true }
+  let(:ex) { Struct.new :availableToBack, :availableToLay, keyword_init: true }
+  let(:ex_price) { Struct.new :price, :size, keyword_init: true }
 
   let(:season) { create(:season) }
   let(:division) { create(:division, calendar: season.calendar) }
   let(:sport) { season.calendar.sport }
   let(:now) { Time.zone.now }
   let(:market_price_time) { create(:market_price_time) }
-  let(:snapshot) do
+  let(:snapshot_data) do
     {
       marketId: "1.211281516",
       status: "OPEN",
@@ -56,7 +56,7 @@ RSpec.describe ProcessMarketPriceJob, type: :job do
           },
         },
       ].map do |r|
-                 Runner.new(r.merge(ex: Ex.new(r.fetch(:ex).transform_values { |p_list| p_list.map { |p| ExPrice.new(p) } })))
+                 runner.new(r.merge(ex: ex.new(r.fetch(:ex).transform_values { |p_list| p_list.map { |p| ex_price.new(p) } })))
                end,
     }
   end
@@ -78,7 +78,7 @@ RSpec.describe ProcessMarketPriceJob, type: :job do
 
   it "processes data correctly" do
     expect {
-      described_class.perform_now BetMarket.first, Snapshot.new(snapshot).freeze, market_price_time
+      described_class.perform_now BetMarket.first, snapshot.new(snapshot_data).freeze, market_price_time
     }.to change(MarketPrice, :count).by(3)
   end
 end
