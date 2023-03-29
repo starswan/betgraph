@@ -38,18 +38,18 @@ class BetfairClockwork
   end
 
   class << self
-    def triggerliveprices
-      now = Time.zone.now
-      if now >= @next_trigger
-        TriggerLivePricesJob.perform_later
-        next_time = BetMarket.live.order(:time).first&.time || Time.zone.now + 2.hours
-        gap = (next_time - now) / 2
-        if gap > 0
-          @next_trigger = now + gap
-          Rails.logger.info "Clockwork: next live price check at #{@next_trigger}"
-        end
-      end
-    end
+    # def triggerliveprices
+    #   now = Time.zone.now
+    #   if now >= @next_trigger
+    #     TriggerLivePricesJob.perform_later
+    #     next_time = BetMarket.live.order(:time).first&.time || Time.zone.now + 2.hours
+    #     gap = (next_time - now) / 2
+    #     if gap > 0
+    #       @next_trigger = now + gap
+    #       Rails.logger.info "Clockwork: next live price check at #{@next_trigger}"
+    #     end
+    #   end
+    # end
 
     def refreshsportlist
       RefreshSportListJob.perform_later
@@ -90,7 +90,7 @@ class BetfairClockwork
   # every 1.day, :refreshsportlist
   # Think its ok to run live prices on alice now as we have made it mucxh quieter
   # every 1.minutes, :triggerliveprices unless Rails.env.production?
-  every 30.seconds, :triggerliveprices
+  # every 30.seconds, :triggerliveprices
   every 2.hours, :makematches
   # Don't try to load football data in June/July because there isn't any to get
   # but do run it as late in the day as possible to pick up the results
