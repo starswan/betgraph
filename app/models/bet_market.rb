@@ -81,6 +81,7 @@ class BetMarket < ApplicationRecord
   }
 
   scope :closed, -> { where(status: CLOSED) }
+  scope :not_closed, -> { where.not(status: CLOSED) }
 
   scope :asian_handicap, -> { where(markettype: ASIAN_MARKET_TYPES) }
 

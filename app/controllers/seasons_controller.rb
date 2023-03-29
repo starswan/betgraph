@@ -32,7 +32,7 @@ class SeasonsController < ApplicationController
     @enddate = Season.where("startdate > ?", @season.startdate)
                      .order("startdate").first.startdate - 1.day
 
-    @team_total_configs = TeamTotalConfig.all.each_with_object({}) { |ttc, hash| hash[ttc.count] = ttc.threshold; }
+    @team_total_configs = TeamTotalConfig.all.each_with_object({}) { |ttc, hash| hash[ttc.count] = ttc.threshold }
     # default to second option (usually 11) rather than 7 which doesn't generally perform well.
     @threshold = params[:threshold] || @team_total_configs.keys.sort.second
     threshold = @threshold.to_i

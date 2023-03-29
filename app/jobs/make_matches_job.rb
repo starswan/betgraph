@@ -14,7 +14,7 @@ class MakeMatchesJob < BetfairJob
 
   def make_matches(sport, market_list)
     emptyArrayHash = Hash.new { |h, i| h[i] = [] }
-    marketsByMenuPath = market_list.each_with_object(emptyArrayHash) { |market, hash| hash[market.menuPath] << market; }
+    marketsByMenuPath = market_list.each_with_object(emptyArrayHash) { |market, hash| hash[market.menuPath] << market }
     # This looks through all the active menu paths, and tries to create a match based on
     # whether it looks like it might represent a match/event - this is actually sport-specific
     # (Note that A v B is soccer, Tennis, Cricket etc, A @ B is Baseball, American Football and

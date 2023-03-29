@@ -35,10 +35,14 @@ class Match < ApplicationRecord
   scope :earlier_than, ->(datetime) { where("kickofftime <= ?", datetime) }
   scope :almost_live, -> { where("kickofftime <= ?", Time.now + 15.minutes) }
   scope :live_priced, -> { where(live_priced: true) }
+  scope :future, -> { where("kickofftime >= ?", Time.now) }
 
+  # scope :activelive, lambda {
+  #   where("bet_markets.status != ? and kickofftime <= ?", BetMarket::CLOSED, Time.now + 15.minutes)
+  #     .joins(:bet_markets).group("matches.id")
+  # }
   scope :activelive, lambda {
-    where("bet_markets.status != ? and kickofftime <= ?", BetMarket::CLOSED, Time.now + 15.minutes)
-      .joins(:bet_markets).group("matches.id")
+    almost_live.joins(:bet_markets).merge(BetMarket.not_closed)
   }
 
   scope :with_prices, -> { where.not(market_prices_count: 0) }

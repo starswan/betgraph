@@ -18,16 +18,14 @@ class MatchesController < ApplicationController
 
   # GET /matches/future
   def future
-    @matches = Match.where("kickofftime >= ?", Time.now)
+    @matches = Match.future
                     .includes([{ teams: :team_names }, :division, :bet_markets])
                     .order("#{@order} #{@direction}")
-    render_current
   end
 
   # GET /matches/active
   def active
     @matches = Match.activelive.includes({ teams: :team_names }).order("#{@order} #{@direction}")
-    render_current
   end
 
   # GET /matches
@@ -118,14 +116,6 @@ class MatchesController < ApplicationController
   end
 
 private
-
-  def render_current
-    respond_to do |format|
-      format.html { render action: :current }
-      format.xml  { render xml: @matches }
-      format.json { render json: @matches.to_json }
-    end
-  end
 
   def match_params
     params.require(:match)
