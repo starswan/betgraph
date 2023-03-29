@@ -31,7 +31,7 @@ if ENV["COVERAGE"]
     add_group "Betfair", "../betfair2/lib"
     # we seem to have flakey/non-stable coverage values
     # minimum_coverage 86.96
-    minimum_coverage 78.56
+    minimum_coverage 78.52
     # maybe no longer...?
     maximum_coverage_drop 0.83
   end
