@@ -14,6 +14,7 @@ FactoryBot.define do
     sequence(:description) { |n| "Runner #{n}" }
     sequence(:selectionId)
     asianLineId { 0 }
+    handicap { 0.0 }
   end
 
   factory :trade do

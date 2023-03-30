@@ -3,12 +3,12 @@
 # $Id$
 #
 #./run.sh $1 clock clockwork config/clock.rb
-source /home/stephen/.rvm/environments/ruby-2.7.7@betgraph
-bundle install
 export HOME=`echo ~`
 source $HOME/.bash_login
 dirname=`dirname $0`
 cd $dirname
+source $HOME/.rvm/environments/ruby-2.7.7@betgraph
+bundle check || bundle install
 program='clock'
 pidfile="tmp/pids/$program.pid"
 logfile="log/$program.log"

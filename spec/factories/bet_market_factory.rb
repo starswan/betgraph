@@ -22,6 +22,10 @@ FactoryBot.define do
       name { "Over/Under 2.5 goals" }
     end
 
+    trait :open do
+      status { BetMarket::OPEN }
+    end
+
     trait :closed do
       status { BetMarket::CLOSED }
     end
