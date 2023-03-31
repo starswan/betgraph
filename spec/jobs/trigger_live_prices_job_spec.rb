@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe TriggerLivePricesJob, :betfair, type: :job do
   let(:sport) do
