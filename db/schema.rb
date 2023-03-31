@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_19_225945) do
+ActiveRecord::Schema.define(version: 2023_03_31_063747) do
 
   create_table "active_admin_comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "namespace"
@@ -145,6 +145,7 @@ ActiveRecord::Schema.define(version: 2022_11_19_225945) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string "football_data_code", limit: 3
+    t.string "bbc_slug", limit: 30
     t.index ["division_id"], name: "fk_rails_f1a35b4a06"
   end
 
