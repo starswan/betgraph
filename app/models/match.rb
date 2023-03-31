@@ -42,7 +42,7 @@ class Match < ApplicationRecord
   #     .joins(:bet_markets).group("matches.id")
   # }
   scope :activelive, lambda {
-    almost_live.joins(:bet_markets).merge(BetMarket.not_closed)
+    almost_live.joins(:bet_markets).merge(BetMarket.not_closed).distinct
   }
 
   scope :with_prices, -> { where.not(market_prices_count: 0) }
