@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe LoadFootballDataJob, type: :job do
   let(:season) { create(:season, startdate: Date.new(2019, 8, 1)) }
