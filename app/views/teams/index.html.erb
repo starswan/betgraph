@@ -1,9 +1,13 @@
 <!-- $Id$ -->
-
+<%= render 'shared' %>
 <%= @teams.size%> <b>Teams for <%= link_to "#{@sport.name}", @sport %></b>
 
 <table class="table table-striped table-responsive">
-<tr><th><%= link_to 'Name', sort_by: :name %></th><th><%= link_to 'Created', sort_by: :created_at %></th><th><%= link_to 'Count', sort_by: :matches_count %></th></tr>
+<tr>
+  <th><%= link_to 'Name', sort_by: :name %></th>
+  <th><%= link_to 'Created', sort_by: :created_at %></th>
+  <th><%= link_to 'Count', sort_by: :matches_count %></th>
+</tr>
 <% @teams.each do |team| %>
   <tr>
     <td><%= link_to team.name, team %></td>
