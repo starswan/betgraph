@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe ExecuteTradeJob, :betfair, type: :job do
   let(:season) { create(:season) }

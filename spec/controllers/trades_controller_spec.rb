@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe TradesController, :betfair, type: :controller do
   let(:season) { create(:season) }

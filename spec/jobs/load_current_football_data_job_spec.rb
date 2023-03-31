@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe LoadCurrentFootballDataJob, type: :job do
   before do

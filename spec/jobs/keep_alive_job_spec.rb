@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe KeepAliveJob, :betfair, type: :job do
   let!(:login) { create(:login) }

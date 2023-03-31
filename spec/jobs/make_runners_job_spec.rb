@@ -4,6 +4,7 @@
 # $Id$
 #
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe MakeRunnersJob, :betfair, type: :job do
   let(:hometeam) { create(:team) }

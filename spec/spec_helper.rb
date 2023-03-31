@@ -18,7 +18,8 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require "webmock/rspec"
+# require "webmock/rspec"
+require "vcr"
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -94,4 +95,19 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
   # =end
+  #
+  # config.around(:each, :vcr) do |example|
+  #   WebMock.allow_net_connect!
+  #   example.run
+  #   WebMock.disable_net_connect!
+  # end
+end
+
+VCR.configure do |config|
+  # config.ignore_localhost = true
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  # using this higher-level hook allows WebMock to write-out stub calls when not in VCR-mode
+  config.hook_into :faraday
+  config.configure_rspec_metadata!
+  # config.allow_http_connections_when_no_cassette = true
 end
