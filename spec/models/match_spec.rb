@@ -26,6 +26,7 @@ RSpec.describe Match do
         build(:scorer, team: hometeam, goaltime: 6),
         build(:scorer, team: hometeam, goaltime: 8),
       ])
+      create(:bet_market, match: m)
     end
   end
 
