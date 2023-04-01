@@ -59,7 +59,8 @@ RSpec.describe MarketPrice do
     end
 
     it "can write a market price of 1000." do
-      expect(price.market_price_time.market_prices.build(back1price: 1000.0, market_runner: market.market_runners.first)).to be_valid
+      expect(price.market_price_time.market_prices.build(back1price: 1000.0,
+                                                         market_runner: market.market_runners.last)).to be_valid
     end
   end
 
