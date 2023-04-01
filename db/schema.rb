@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_31_063747) do
+ActiveRecord::Schema.define(version: 2023_04_01_090103) do
 
   create_table "active_admin_comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "namespace"
@@ -178,6 +178,7 @@ ActiveRecord::Schema.define(version: 2023_03_31_063747) do
     t.decimal "lay3amount", precision: 9, scale: 2
     t.bigint "market_price_time_id", null: false
     t.string "status", limit: 20, default: "ACTIVE", null: false
+    t.index ["market_price_time_id", "market_runner_id"], name: "index_market_prices_on_market_price_time_id_and_market_runner_id", unique: true
     t.index ["market_price_time_id"], name: "index_market_prices_on_market_price_time_id"
     t.index ["market_runner_id"], name: "market_prices_market_runner_id"
   end
