@@ -18,6 +18,8 @@ class MarketPrice < ApplicationRecord
 
   validate :at_least_one_price, unless: -> { inactive? }
 
+  validates :market_runner, uniqueness: { scope: :market_price_time }
+
   delegate :bet_market, to: :market_runner
 
   counter_culture %i[market_runner bet_market match]
