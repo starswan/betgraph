@@ -23,7 +23,7 @@ RSpec.describe MarketPricesController, type: :controller do
 
   before do
     bm = create(:bet_market, match: soccermatch, name: market_type.name,
-           market_runners: build_list(:market_runner, 2))
+                             market_runners: build_list(:market_runner, 2))
 
     create(:market_price_time,
            market_prices: [build(:market_price, market_runner: bm.market_runners.first)])
@@ -42,7 +42,8 @@ RSpec.describe MarketPricesController, type: :controller do
     expect {
       post :create, params: { market_runner_id: market_runner,
                               market_price: { market_price_time_id: market_price_time,
-                                              back1price: 34, back1amount: 17 } }
+                                              back1price: 34,
+                                              back1amount: 17 } }
     }.to change(MarketPrice, :count).by(1)
 
     assert_redirected_to market_price_path(assigns(:market_price))
