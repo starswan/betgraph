@@ -17,7 +17,7 @@
   "devDependencies": {
     "elm-hot-webpack-loader": "^1.1.8",
     "webpack": "4.46.0",
-    "webpack-dev-server": "^4.13.1"
+    "webpack-dev-server": "^4.13.2"
   },
   "optionalDependenciesComments": {
     "elm": "elm binary side-loaded on raspberry pi"
