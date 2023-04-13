@@ -67,4 +67,4 @@ jobs:
       - name: Run Ruby tests
         run: bundle exec rspec -t ~betfair
       - name: Check coverage
-        run: bundle exec undercover -c main -l coverage/betgraph.lcov
+        run: bundle exec undercover -c origin/main -l coverage/betgraph.lcov
