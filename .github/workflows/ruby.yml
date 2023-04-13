@@ -35,6 +35,7 @@ jobs:
 
     env:
       RAILS_ENV: test
+      COVERAGE: true
 
     steps:
       - uses: actions/checkout@v3
