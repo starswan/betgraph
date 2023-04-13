@@ -38,6 +38,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
+      - name: Set up CMake
+      - uses: lukka/get-cmake@latest
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:

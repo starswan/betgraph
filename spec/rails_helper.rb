@@ -18,7 +18,7 @@ if ENV["COVERAGE"]
 
   SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
   # for cc-test-reporter after-build action
-  SimpleCov::Formatter::LcovFormatter.config.output_directory = 'coverage'
+  SimpleCov::Formatter::LcovFormatter.config.output_directory = "coverage"
   # SimpleCov::Formatter::LcovFormatter.config.lcov_file_name = 'lcov.info'
   SimpleCov.formatter = SimpleCov::Formatter::MergedFormatter
 
