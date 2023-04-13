@@ -280,6 +280,8 @@ GEM
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
+    imagen (0.1.8)
+      parser (>= 2.5, != 2.5.1.1)
     inherited_resources (1.13.1)
       actionpack (>= 5.2, < 7.1)
       has_scope (~> 0.6)
@@ -502,6 +504,7 @@ GEM
       tty-which (~> 0.4.0)
       virtus (~> 1.0)
     rubyzip (2.3.2)
+    rugged (1.5.1)
     rvm-capistrano (1.5.6)
       capistrano (~> 2.15.4)
     safe_yaml (1.0.4)
@@ -527,6 +530,7 @@ GEM
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
+    simplecov-lcov (0.8.0)
     simplecov_json_formatter (0.1.4)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
@@ -546,6 +550,10 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
+    undercover (0.4.5)
+      imagen (>= 0.1.8)
+      rainbow (>= 2.1, < 4.0)
+      rugged (>= 0.27, < 1.6)
     unicode-display_width (2.4.2)
     uniform_notifier (1.16.0)
     vcr (6.1.0)
@@ -635,8 +643,10 @@ DEPENDENCIES
   sdoc
   shoulda-matchers
   simplecov
+  simplecov-lcov
   timecop
   uglifier (>= 1.3.0)
+  undercover
   vcr
   webmock
   webpacker (>= 5, < 6)

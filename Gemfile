@@ -110,6 +110,7 @@ group :development, :test do
   gem "sdoc"
 
   # gem "spring"
+  gem "undercover"
 end
 
 group :development do
@@ -142,6 +143,7 @@ end
 group :test do
   gem "timecop"
   gem "simplecov", require: false
+  gem "simplecov-lcov", require: false
   gem "factory_bot_rails"
   # needed for rails 5.x and above
   gem "rails-controller-testing"
