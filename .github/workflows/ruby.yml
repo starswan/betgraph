@@ -35,9 +35,17 @@ jobs:
 
     env:
       RAILS_ENV: test
+      COVERAGE: true
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout whole repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up CMake
+        uses: lukka/get-cmake@latest
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -61,3 +69,5 @@ jobs:
         run: yarn install
       - name: Run Ruby tests
         run: bundle exec rspec -t ~betfair
+      - name: Check coverage
+        run: bundle exec undercover -c origin/main -l coverage/betgraph.lcov

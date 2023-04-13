@@ -5,6 +5,23 @@ ENV["RAILS_ENV"] ||= "test"
 
 if ENV["COVERAGE"]
   require "simplecov"
+  require "simplecov-lcov"
+
+  # This allows both LCOV and HTML formatting -
+  # lcov for undercover gem and cc-test-reporter, HTML for humans
+  class SimpleCov::Formatter::MergedFormatter
+    def format(result)
+      SimpleCov::Formatter::HTMLFormatter.new.format(result)
+      SimpleCov::Formatter::LcovFormatter.new.format(result)
+    end
+  end
+
+  SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
+  # for cc-test-reporter after-build action
+  SimpleCov::Formatter::LcovFormatter.config.output_directory = "coverage"
+  # SimpleCov::Formatter::LcovFormatter.config.lcov_file_name = 'lcov.info'
+  SimpleCov.formatter = SimpleCov::Formatter::MergedFormatter
+
   SimpleCov.start :rails do
     add_filter "app/admin"
     add_filter "lib/tasks/db/yaml_load"
@@ -31,7 +48,7 @@ if ENV["COVERAGE"]
     add_group "Betfair", "../betfair2/lib"
     # we seem to have flakey/non-stable coverage values
     # minimum_coverage 86.96
-    minimum_coverage 78.65
+    minimum_coverage 78.67
     # maybe no longer...?
     maximum_coverage_drop 0.83
   end
