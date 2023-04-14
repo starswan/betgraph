@@ -23,6 +23,11 @@ if ENV["COVERAGE"]
   SimpleCov.formatter = SimpleCov::Formatter::MergedFormatter
 
   SimpleCov.start :rails do
+    enable_coverage :branch
+    # primary_coverage :branch
+    # ruby 3.2 needed
+    # enable_coverage_for_eval
+
     add_filter "app/admin"
     add_filter "lib/tasks/db/yaml_load"
     # not really testable
@@ -46,11 +51,13 @@ if ENV["COVERAGE"]
     add_filter "app/valuers/poisson_sum.rb"
     add_group "Valuers", "app/valuers"
     add_group "Betfair", "../betfair2/lib"
-    # we seem to have flakey/non-stable coverage values
     # minimum_coverage 86.96
+    # setting primary branch coverage reduces us to this really low value
+    # minimum_coverage 49.07
     minimum_coverage 78.67
+    # we seem to have flakey/non-stable coverage values
     # maybe no longer...?
-    maximum_coverage_drop 0.83
+    maximum_coverage_drop 0.03
   end
 end
 
