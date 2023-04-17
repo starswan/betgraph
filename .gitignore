@@ -39,3 +39,5 @@ public/assets
 yarn-debug.log*
 .yarn-integrity
 /index.html
+/.env.development
+/.env.test
