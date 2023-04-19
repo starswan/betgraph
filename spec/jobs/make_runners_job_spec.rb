@@ -4,50 +4,40 @@
 # $Id$
 #
 require "rails_helper"
-require "webmock/rspec"
 
-RSpec.describe MakeRunnersJob, :betfair, type: :job do
-  let(:hometeam) { create(:team) }
-  let(:awayteam) { create(:team) }
-  let(:division) { create(:division) }
-  let(:match) do
-    create(:soccer_match, division: division, venue_id: hometeam.id, teams: [hometeam, awayteam],
-                          bet_markets: [build(:bet_market, marketid: 234)])
+RSpec.describe MakeRunnersJob, :vcr, :betfair, type: :job do
+  let(:sport) do
+    create(:soccer,
+           betfair_market_types: build_list(:betfair_market_type, 1,
+                                            betfair_runner_types: build_list(:betfair_runner_type, 1, :nilnil)))
   end
+  let(:calendar) { create(:calendar, sport: sport) }
+  let(:division) { create(:division, calendar: calendar) }
+  let(:match) { SoccerMatch.last }
 
   before do
-    create(:season, calendar: division.calendar)
+    create(:season, calendar: calendar)
+    create(:basket_rule,
+           sport: sport,
+           basket_rule_items: [
+             build(:basket_rule_item, betfair_runner_type: sport.betfair_market_types.first.betfair_runner_types.first),
+           ])
     create(:login)
-    stub_betfair_login
+    RefreshSportListJob.perform_now
+    sport.competitions.find_by!(name: "English FA Cup").update!(active: true, division: division)
 
-    stub_request(:post, "https://api.betfair.com/exchange/betting/rest/v1.0/listMarketCatalogue/")
-      .with(
-        body: { maxResults: "1", filter: { marketIds: ["1.234"] }, marketProjection: %w[MARKET_DESCRIPTION MARKET_START_TIME EVENT RUNNER_DESCRIPTION] }.to_json,
-      )
-      .to_return(
-        headers: { "Content-Type" => "application/json" },
-        body: [].to_json,
-      )
-
-    stub_request(:post, "https://api.betfair.com/exchange/betting/rest/v1.0/listMarketBook/")
-      .with(
-        body: { marketIds: ["1.234"], marketProjection: %w[MARKET_DESCRIPTION MARKET_START_TIME EVENT RUNNER_DESCRIPTION] }.to_json,
-      )
-      .to_return(
-        headers: { "Content-Type" => "application/json" },
-        body: [{ marketId: "1.1",
-                 betDelay: 5,
-                 inplay: false,
-                 complete: true }].to_json,
-      )
-    stub_request(:put, "http://webservice.local/matches/#{match.id}/bet_markets/#{match.bet_markets.first.id}.json")
-      .with(
-        body: { bet_market: { runners_may_be_added: false, live_priced: false, live: false } }.to_json,
-      )
-      .to_return(body: "")
+    # make a few matches - but only really want one of them...
+    MakeMatchesJob.perform_now(sport)
+    #
+    # BetMarket.all.update_all(active: true, live: true)
+    # SoccerMatch.update_all(live_priced: true, kickofftime: Time.zone.now - 30.minutes)
+    #
   end
 
-  it "performs" do
-    described_class.perform_later match.bet_markets.first
+  it "creates market runners" do
+    expect {
+      described_class.perform_later match.bet_markets.first
+    }.to change(MarketRunner, :count).by(66)
+    expect(BasketItem.count).to eq(2)
   end
 end

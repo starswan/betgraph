@@ -7,6 +7,9 @@ require "rails_helper"
 
 RSpec.describe MarketPricesController, type: :controller do
   let(:season) { create(:season) }
+  let(:market_runner) { MarketRunner.last }
+  let(:market_price_time) { MarketPriceTime.last }
+  let(:market_price) { MarketPrice.last }
   let(:division) { create(:division, calendar: season.calendar) }
   let(:sport) { season.calendar.sport }
 
@@ -28,10 +31,6 @@ RSpec.describe MarketPricesController, type: :controller do
     create(:market_price_time,
            market_prices: [build(:market_price, market_runner: bm.market_runners.first)])
   end
-
-  let(:market_runner) { MarketRunner.last }
-  let(:market_price_time) { MarketPriceTime.last }
-  let(:market_price) { MarketPrice.last }
 
   it "gets new" do
     get :new, params: { market_runner_id: market_runner }

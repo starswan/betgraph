@@ -31,7 +31,6 @@ class FootballDivisionsController < ApplicationController
   # GET /football_divisions/new.xml
   def new
     @football_division = FootballDivision.new
-    @menu_paths = valid_menu_paths
     # existing = []
     # FootballDivision.all.each { |fd| existing << fd.division }
     existing = FootballDivision.all.collect(&:division)
@@ -49,14 +48,12 @@ class FootballDivisionsController < ApplicationController
 
   # GET /football_divisions/1/edit
   def edit
-    @menu_paths = valid_menu_paths
     @football_division = FootballDivision.find(params[:id])
   end
 
   # POST /football_divisions
   # POST /football_divisions.xml
   def create
-    # @football_division = FootballDivision.new(params[:football_division])
     @football_division = FootballDivision.new(division_id: params[:division][:division_id], football_data_code: params[:football_division][:football_data_code])
 
     respond_to do |format|
@@ -104,9 +101,5 @@ private
 
   def football_division_params
     params.require(:football_division).permit(:football_data_code)
-  end
-
-  def valid_menu_paths
-    MenuPath.all.reject { |mp| (mp.name.size > 3) || (mp.name.size < 1) || (mp.name[0] != "soccer") || mp.name[-1].start_with?("Fixture") }.sort_by { |mp| mp.name[-1] }
   end
 end

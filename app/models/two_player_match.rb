@@ -7,13 +7,6 @@ class TwoPlayerMatch < Match
   delegate :id, prefix: true, to: :hometeam
   delegate :id, prefix: true, to: :awayteam
 
-  before_create do |match|
-    hometeam, awayteam = match.name.split(" v ")
-
-    match.hometeam = match.division.calendar.sport.findTeam hometeam
-    match.awayteam = match.division.calendar.sport.findTeam awayteam
-  end
-
   def hometeamname
     hometeam.name
   end

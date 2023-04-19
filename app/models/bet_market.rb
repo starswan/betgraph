@@ -73,15 +73,16 @@ class BetMarket < ApplicationRecord
   scope :activelive, lambda {
     where(live: true, active: true)
       .joins(:match)
-      .where.not(status: CLOSED)
+      .where.not(status: [CLOSED, SUSPENDED])
       .merge(Match.almost_live)
       .merge(Match.live_priced)
       .includes(:match, :market_runners)
       .order(:time)
   }
 
+  scope :active_status, -> { where(active: true) }
   scope :closed, -> { where(status: CLOSED) }
-  scope :not_closed, -> { where.not(status: CLOSED) }
+  scope :not_closed_or_suspended, -> { where.not(status: [CLOSED, SUSPENDED]) }
 
   scope :asian_handicap, -> { where(markettype: ASIAN_MARKET_TYPES) }
 
@@ -94,16 +95,11 @@ class BetMarket < ApplicationRecord
     match.division.calendar.sport
   end
 
-  def no_winner_count?
-    markettype.in? NO_WINNER_TYPES
-  end
-
   def asian_handicap?
     markettype.in? ASIAN_MARKET_TYPES
   end
 
   validates :name, :number_of_runners, :marketid, :time, presence: true
-  validates :number_of_winners, presence: { unless: -> { asian_handicap? || no_winner_count? } }
 
   before_create do |betmarket|
     betmarket.betfair_market_type = betmarket.find_market_type
@@ -183,7 +179,7 @@ class BetMarket < ApplicationRecord
   def winners
     if betfair_market_type.active
       active_runners = market_runners.reject { |runner| runner.final_runner_value.nil? || runner.final_runner_value < 0 }
-      winners = active_runners[0..number_of_winners - 1]
+      winners = active_runners[0..0]
     else
       winners = []
     end
@@ -195,7 +191,7 @@ class BetMarket < ApplicationRecord
                     .sort_by { |p| p.lay1price.present? ? -1 / p.lay1price : (p.back1price.presence || 0) }
                     .map(&:market_runner).uniq
       end
-      runners[0..number_of_winners - 1]
+      runners[0..0]
     else
       winners
     end

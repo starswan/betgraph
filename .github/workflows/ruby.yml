@@ -68,6 +68,7 @@ jobs:
       - name: Yarn install
         run: yarn install
       - name: Run Ruby tests
-        run: bundle exec rspec -t ~betfair
+        run: bundle exec rake spec
+#        Temp - switch undercover off for a while
       - name: Check coverage
         run: bundle exec undercover -c origin/main -l coverage/betgraph.lcov

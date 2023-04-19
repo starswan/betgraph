@@ -6,3 +6,5 @@ webservice: localhost:3011
 dirdepth: 1
 makeMarketsInterval: 375
 allMarketsCacheTimeout: 3600
+keyfile: ~/betgraph/shared/client-2048.key
+certfile: ~/betgraph/shared/client-2048.pem

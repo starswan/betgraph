@@ -3,11 +3,11 @@
 #
 # $Id$
 #
-class SoccerMatch < TwoPlayerMatch
+class SoccerMatch < AvsBMatch
   has_many :scorers, -> { order(:goaltime) }, foreign_key: :match_id, dependent: :destroy
 
   # scotland doesn't behave like this, so just exclude for now (and Greece apparently - but don't understand why)
-  validates :name, uniqueness: { case_sensitive: true, scope: [:division_id, :season_id], unless: -> { deleted? || division.scottish? } }
+  validates :name, uniqueness: { case_sensitive: true, scope: [:division_id, :season_id, :deleted_at], unless: -> { division.scottish? } }
 
   def score_at(time)
     seconds = time - kickofftime

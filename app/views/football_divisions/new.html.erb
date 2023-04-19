@@ -13,8 +13,8 @@
     <%= f.text_field :football_data_code %>
   </p>
   <p>
-    <%= f.label :menu_path_id %><br />
-    <%= collection_select(:menu_path, :menu_path_id, @menu_paths, :id, :lastname) %>
+    <%= f.label :bbc_slug %><br />
+    <%= f.text_field :bbc_slug %>
   </p>
   <p>
     <%= f.submit "Create" %>

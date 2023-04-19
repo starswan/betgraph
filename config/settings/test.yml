@@ -3,3 +3,5 @@
 #
 webservice: webservice.local
 allMarketsCacheTimeout: 0
+keyfile: ~/betgraph/shared/client-2048.key
+certfile: ~/betgraph/shared/client-2048.pem

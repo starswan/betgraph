@@ -7,6 +7,7 @@ require "rails_helper"
 
 RSpec.describe BasketRuleItemsController, type: :controller do
   let(:sport) { create(:sport, basket_rules: [build(:basket_rule, name: "Rule 1")]) }
+  let(:basket_rule_item) { basket_rule.basket_rule_items.first }
   let(:market_type) { create(:betfair_market_type, name: "The Market Type", sport: sport) }
   let(:division) { create(:division, sport: sport) }
   let(:hometeam) { create(:team) }
@@ -19,8 +20,6 @@ RSpec.describe BasketRuleItemsController, type: :controller do
   before do
     create(:basket_rule_item, basket_rule: basket_rule, betfair_runner_type: runner_type)
   end
-
-  let(:basket_rule_item) { basket_rule.basket_rule_items.first }
 
   it "gets index" do
     get :index, params: { basket_rule_id: basket_rule }

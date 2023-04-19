@@ -26,15 +26,15 @@ class BetfairClockwork
     # config[:sleep_timeout] = 30.seconds
     # config[:logger] = Rails.logger if Rails.env.production?
     config[:logger] = if Rails.env.development?
-                        Logger.new(STDOUT)
+                        Logger.new($stdout)
                       else
                         Rails.logger
                       end
-    @next_trigger = Time.zone.now
+    # @next_trigger = Time.zone.now
   end
 
   handler do |symbol|
-    self.send(symbol)
+    send(symbol)
   end
 
   class << self
@@ -83,11 +83,14 @@ class BetfairClockwork
     def remove_with_gaps
       RemoveMarketsWithGapsJob.perform_later
     end
+
+    def load_bbc_data
+      BbcSoccerScoresJob.perform_later(Time.zone.yesterday)
+    end
   end
 
   # need to run this every day, as it triggers the creation of matches
   every 1.day, :refreshsportlist, at: "01:00"
-  # every 1.day, :refreshsportlist
   # Think its ok to run live prices on alice now as we have made it mucxh quieter
   # every 1.minutes, :triggerliveprices unless Rails.env.production?
   # every 30.seconds, :triggerliveprices
@@ -96,6 +99,9 @@ class BetfairClockwork
   # but do run it as late in the day as possible to pick up the results
   # (There is a tiny bit in July, but that's picked up on Aug 1st anyway)
   every 24.hours, :loadfootballdata, at: "23:00", unless: ->(t) { t.month.in? [6, 7] }
+
+  # load yesterday's scores data from BBC website
+  every 24.hours, :load_bbc_data
   # every 24.hours, :loadfootballdata, if: ->(t) { t.month <= 5 || t.month >= 8 }
   every 15.minutes, :closedead
   every 24.hours, :destroymatches

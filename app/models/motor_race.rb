@@ -9,7 +9,12 @@
 # Only problem is that betfair_event links back to match - so maybe the hometeam/awayteam thing
 # so be split into teams pointing back to match, and having a venue field
 class MotorRace < Match
-  # def teams
-  #  event.description
-  # end
+  before_create :populate_venue
+
+private
+
+  def populate_venue
+    # make the venue a fake team with the event name
+    self.venue = sport.findTeam(name)
+  end
 end

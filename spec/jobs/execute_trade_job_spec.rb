@@ -4,43 +4,21 @@
 # $Id$
 #
 require "rails_helper"
-require "webmock/rspec"
 
-RSpec.describe ExecuteTradeJob, :betfair, type: :job do
-  let(:season) { create(:season) }
-  let(:division) { create(:division, calendar: season.calendar) }
-  let(:sport) { season.calendar.sport }
-  let(:match) { create(:soccer_match, division: division) }
-  let!(:market) { create(:bet_market, match: match, market_runners: [build(:market_runner)]) }
-  let(:runner) { market.market_runners.first }
-  let(:trade) { create(:trade, market_runner: runner) }
-
+RSpec.describe ExecuteTradeJob, :vcr, :betfair, type: :job do
   before do
     create(:login)
+    sport = create(:soccer, betfair_sports_id: 1, betfair_market_types: build_list(:betfair_market_type, 1, name: "Match Odds"))
+    calendar = create(:calendar, sport: sport)
+    division = create(:division, calendar: calendar)
 
-    stub_betfair_login "Soccer", [build(:betfair_event, name: "Match", children: [build(:betfair_market, id: "1.#{market.marketid}")])]
-
-    stub_request(:post, "https://api.betfair.com/exchange/betting/rest/v1.0/listMarketBook/")
-        .with(
-          body: { "marketIds" => ["1.#{market.marketid}"],
-                  "priceProjection" => { "priceData" => %w[EX_BEST_OFFERS],
-                                         "exBestOffersOverrides" => { "bestPricesDepth" => 3 } } }.to_json,
-        )
-        .to_return(
-          headers: { "Content-Type" => "application/json" },
-          body: [{ marketId: "1.1",
-                   betDelay: 5,
-                   inplay: false,
-                   runners: [
-                     {
-                       selectionId: runner.selectionId,
-                       asianLineId: runner.asianLineId,
-                       back: {},
-                     },
-                   ],
-                   complete: true }].to_json,
-        )
+    RefreshSportListJob.perform_now
+    sport.competitions.find_by!(name: "English Championship").update!(active: true, division: division)
+    MakeMatchesJob.perform_now(sport)
   end
+
+  let(:runner) { MarketRunner.last }
+  let(:trade) { create(:trade, market_runner: runner, side: "B", size: 1, price: 3.5) }
 
   it "performs" do
     described_class.perform_later trade

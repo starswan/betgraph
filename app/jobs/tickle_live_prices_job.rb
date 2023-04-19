@@ -8,7 +8,7 @@ class TickleLivePricesJob < ApplicationJob
 
     if matches.any?
       matches.each { |match| CaptureMatchPricesJob.perform_later match }
-      TickleLivePricesJob.set(wait: 30.seconds).perform_later
+      TickleLivePricesJob.set(wait: 45.seconds).perform_later
     else
       first_market = BetMarket.live.order(:time).first
       if first_market

@@ -1,5 +1,6 @@
+<%= render 'shared' %>
 <%- model_class = BasketRule -%>
-  <h4><%= link_to @sport.name, @sport %> <%=t '.title', :default => model_class.model_name.human.pluralize %></h4>
+<h4><%= link_to @sport.name, @sport %> <%=t '.title', :default => model_class.model_name.human.pluralize %></h4>
 <table class="table table-striped table-responsive">
   <thead>
     <tr>

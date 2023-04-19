@@ -4,13 +4,11 @@ Rails.application.routes.draw do
 
   get "match_teams/index"
 
-  resources :menu_paths
   resources :sports, except: [:new, :create] do
     resources :basket_rules
     resources :betfair_market_types, only: [:index, :show, :edit, :update, :destroy]
     resources :divisions
     resources :teams
-    resources :menu_paths
     resources :matches, only: :index, controller: "sports/matches"
 
     resources :seasons, only: [:index, :show] do

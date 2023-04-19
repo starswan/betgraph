@@ -8,8 +8,6 @@ class Sport < ApplicationRecord
 
   validates :betfair_sports_id, uniqueness: true
 
-  has_many :menu_paths, dependent: :destroy
-
   has_many :betfair_market_types, dependent: :destroy
   has_many :basket_rules, dependent: :destroy
   has_many :calendars, dependent: :destroy
@@ -17,6 +15,7 @@ class Sport < ApplicationRecord
 
   has_many :seasons, through: :calendars
   has_many :divisions, through: :calendars
+  has_many :competitions
   has_many :matches, through: :divisions
 
   before_create do |sport|
@@ -24,18 +23,11 @@ class Sport < ApplicationRecord
     sport.match_type ||= "#{sport.name}Match"
   end
 
-  after_create do |sport|
-    sport.menu_paths.create! depth: 1, name: [sport.name], active: false
-  end
-
   scope :active, -> { where(active: true) }
 
-  def top_menu_paths
-    top_paths = menu_paths.where(parent_path_id: nil)
-    top_paths.map(&:menu_paths).append(top_paths).flatten
-  end
-
   def findTeam(team_name)
+    # team = teams.joins(:team_names).where("team_names.name = ?", team_name).first
+    # team || teams.create!(name: team_name)
     t = teams.joins(:team_names).merge(TeamName.by_name(team_name)).first
     t || teams.create!.tap do |team|
       team.team_names.create! name: team_name

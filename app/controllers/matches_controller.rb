@@ -6,11 +6,12 @@
 class MatchesController < ApplicationController
   ALL_ACTIONS = [:future, :active].freeze
   FIND_DIVISION_ACTIONS = [:index, :new, :create].freeze
+
   before_action :find_division, only: FIND_DIVISION_ACTIONS
   before_action :find_division_from_match, except: FIND_DIVISION_ACTIONS + ALL_ACTIONS
   before_action :sort_only, only: [:index] + ALL_ACTIONS
   before_action :find_match, only: [:show, :edit, :update, :destroy]
-  # before_action :page_only, :only => [:index]
+
   PAGE_SIZE = 15
 
   skip_before_action :verify_authenticity_token, only: [:create, :destroy]
@@ -90,11 +91,9 @@ class MatchesController < ApplicationController
     respond_to do |format|
       if @match.update match_params
         format.html { redirect_to(@match, notice: "Match was successfully updated.") }
-        format.xml  { head :ok }
         format.json { render json: @football_match }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @match.errors, status: :unprocessable_entity }
         format.json { render json: @football_match.errors, status: :unprocessable_entity }
       end
     end
@@ -110,7 +109,6 @@ class MatchesController < ApplicationController
     respond_to do |format|
       format.js   { head :ok }
       format.html { redirect_to @match.division }
-      format.xml  { head :ok }
       format.json { head :ok }
     end
   end
@@ -119,7 +117,7 @@ private
 
   def match_params
     params.require(:match)
-          .permit(:kickofftime, :name, :type, :endtime, :menu_path, :venue_id, :live_priced)
+          .permit(:kickofftime, :name, :type, :endtime, :venue_id, :live_priced)
   end
 
   def page_only

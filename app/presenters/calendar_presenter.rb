@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+#
+# $Id$
+#
 class CalendarPresenter
   delegate :id, to: :@calendar
 

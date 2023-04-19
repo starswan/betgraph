@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://identitysso-cert.betfair.com/api/certlogin
+    body:
+      encoding: ASCII-8BIT
+      string: "<CREDENTIALS>"
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '87'
+      Date:
+      - Thu, 13 Apr 2023 19:30:15 GMT
+    body:
+      encoding: UTF-8
+      string: '{"sessionToken":"<TOKEN>","loginStatus":"SUCCESS"}'
+  recorded_at: Thu, 13 Apr 2023 19:30:15 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Apr 2023 19:30:15 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '465'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=r1.VLC3VnLxd1.Bonyvx2.blcmWgQ6eeihk6dnqyng0-1681414215-0-AXfRlZJeV3J3izRJD3X/oYGd2EyUzOm3KMolcY7ZBUBIuD7VEf0ff60dLP8xsDZ8DCmpr60tOc6Q4lbGN6EDqE4=;
+        path=/; expires=Thu, 13-Apr-23 20:00:15 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure; SameSite=None
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kj9SyBkQMsTCJ60LCLFbcw68MER5P7G93qLkl8XPLjO%2BMfKL6B1uUqpQIvRQE3a0FC4G0EZNyolJFT2B%2FB5WkS%2BpSunOvfJzlm%2Fhzkji1QICtwvGx1hCL19p2%2BwGTL0XBw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b761f5d3f08dd70-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":17694},{"eventType":{"id":"2","name":"Tennis"},"marketCount":1042},{"eventType":{"id":"3","name":"Golf"},"marketCount":31},{"eventType":{"id":"4","name":"Cricket"},"marketCount":261},{"eventType":{"id":"1477","name":"Rugby
+        League"},"marketCount":81},{"eventType":{"id":"5","name":"Rugby Union"},"marketCount":144},{"eventType":{"id":"6","name":"Boxing"},"marketCount":57},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":801},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":5},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":51},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":20},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":7},{"eventType":{"id":"11","name":"Cycling"},"marketCount":3},{"eventType":{"id":"136332","name":"Chess"},"marketCount":1},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":2},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":65},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":29},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":9},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":119},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":141},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":187},{"eventType":{"id":"468328","name":"Handball"},"marketCount":63},{"eventType":{"id":"3503","name":"Darts"},"marketCount":41},{"eventType":{"id":"26420387","name":"Mixed
+        Martial Arts"},"marketCount":56},{"eventType":{"id":"4339","name":"Greyhound
+        Racing"},"marketCount":527},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":30}]'
+  recorded_at: Thu, 13 Apr 2023 19:30:15 GMT
+- request:
+    method: get
+    uri: https://identitysso-cert.betfair.com/api/keepAlive
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '115'
+      Date:
+      - Thu, 13 Apr 2023 19:30:14 GMT
+    body:
+      encoding: UTF-8
+      string: '{"token":"yvSM38F0eqlk6VZV/ZzQ8JnP6U1dI+AmXxg4Ltpakaw=","product":"3zshEzQv183tM6sh","status":"SUCCESS","error":""}'
+  recorded_at: Thu, 13 Apr 2023 19:30:15 GMT
+recorded_with: VCR 6.1.0

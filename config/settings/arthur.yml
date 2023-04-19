@@ -7,3 +7,5 @@ dirdepth: 3
 makeMarketsInterval: 600
 # 5 minute cache timeout
 allMarketsCacheTimeout: 300
+keyfile: ~/betgraph/shared/client-2048.key
+certfile: ~/betgraph/shared/client-2048.pem

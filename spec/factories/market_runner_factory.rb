@@ -8,6 +8,13 @@ FactoryBot.define do
     runnerawayvalue { 0 }
 
     association :betfair_market_type
+
+    trait :nilnil do
+      name { "0 - 0" }
+      runnertype { "0 - 0" }
+      runnerhomevalue { 0 }
+      runnerawayvalue { 0 }
+    end
   end
 
   factory :market_runner do

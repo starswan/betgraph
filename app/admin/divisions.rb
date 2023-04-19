@@ -6,7 +6,6 @@ ActiveAdmin.register Division do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :name, :odds_numerator, :odds_denominator, :active, :scottish, :calendar_id
   permit_params :name, :odds_numerator, :odds_denominator, :active, :scottish, :calendar_id
   #
   # or
