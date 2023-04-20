@@ -19,7 +19,7 @@ class TeamsController < ApplicationController
     sort_by = params[:sort_by].try(:to_sym)
     teams = @sport.teams.includes(:team_names)
     if sort_by
-      if sort_by.in? %w[created_at]
+      if sort_by.in? %i[created_at]
         @teams = teams.order(sort_by => :desc)
       else
         @teams = teams.sort_by { |t| t.public_send(sort_by) }

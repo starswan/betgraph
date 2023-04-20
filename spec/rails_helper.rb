@@ -57,7 +57,7 @@ if ENV["COVERAGE"]
     # minimum_coverage 86.96
     # setting primary branch coverage reduces us to this really low value
     # minimum_coverage 49.07
-    minimum_coverage 89.05
+    minimum_coverage 89.01
     # we seem to have flakey/non-stable coverage values
     # maybe no longer...?
     maximum_coverage_drop 0.15

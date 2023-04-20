@@ -85,5 +85,5 @@ namespace :bundler do
 end
 
 after "deploy:update_code", "bundler:symlink_bundled_gems"
-after "deploy:update_code", "bundler:install"
 before "deploy:assets:precompile", "bundler:install"
+after "deploy:update_code", "deploy:migrate"

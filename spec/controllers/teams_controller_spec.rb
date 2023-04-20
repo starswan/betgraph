@@ -37,7 +37,7 @@ RSpec.describe TeamsController, type: :controller do
     it "can be created_at sorted" do
       get :index, params: { sport_id: sport, sort_by: "created_at" }
       assert_response :success
-      expect(assigns(:teams).map(&:name)).to eq(%w[Three Other Team])
+      expect(assigns(:teams).map(&:name)).to eq(%w[Team Other Three])
     end
 
     it "can be matches_count sorted" do
