@@ -72,7 +72,8 @@ class LoadFootballDataJob < ApplicationJob
       r["AwayTeam"] = convert_team r["AwayTeam"]
 
       # it seems that the hash can get a 'nil' key in it sometimes
-      FootballDataJob.perform_later(r.except(nil), division)
+      # ref names are sometimes corrupted (e.g. 2016-17 season)
+      FootballDataJob.perform_later(r.except(nil, "Referee"), division)
     end
   end
 
