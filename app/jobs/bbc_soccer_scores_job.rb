@@ -33,7 +33,7 @@ class BbcSoccerScoresJob < ApplicationJob
     param = { data: "bbc-morph-football-scores-match-list-data",
               endDate: date.to_s,
               startDate: date.to_s,
-              todayDate: "2022-10-08",
+              todayDate: "2023-04-23",
               tournament: "full-priority-order",
               version: "2.4.6",
               withPlayerActions: "true" }
@@ -93,7 +93,8 @@ private
 
   def create_scorers(match, scorers, team)
     scorers.each do |action|
-      match.scorers.create! goaltime: 60 * action.dig(:actions, 0, :timeElapsed),
+      goaltime = action.dig(:actions, 0, :timeElapsed)
+      match.scorers.create! goaltime: goaltime <= 45 ? (60 * goaltime) : 60 * (goaltime + 15),
                             owngoal: action.dig(:actions, 0, :ownGoal),
                             penalty: action.dig(:actions, 0, :penalty),
                             name: action.dig(:name, :abbreviation),
