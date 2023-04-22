@@ -1,0 +1,2 @@
+<% position = rows.map.with_index { |m, i| [m.team, i] }.detect { |pair| pair.first == team }.second + 1 %>
+<%= team.name %> (<%= position %><%= position.ordinal %>)

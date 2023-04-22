@@ -10,7 +10,7 @@ class Basket < ApplicationRecord
   has_many :basket_items, dependent: :destroy
   belongs_to :basket_rule, inverse_of: :baskets
 
-  validates :missing_items_count, presence: true
+  validates :missing_items_count, presence: true, numericality: { greater_than: 0 }
 
   scope :complete, -> { where("missing_items_count = basket_items_count") }
 
@@ -27,6 +27,9 @@ class Basket < ApplicationRecord
         .where(market_runner_id: market_runners.map(&:id))
                           .merge(MarketPriceTime.in_order)
       prices.group_by { |p| p.market_price_time.time }.each do |time, price_group|
+        # This looks wrong, as some runners drop out of the field early (e.g. 0-0)
+        # next if price_group.size != market_runners.size
+
         back_runners = RunnerSet.new
         lay_runners = RunnerSet.new
         price_group.each do |market_price|
@@ -46,15 +49,26 @@ class Basket < ApplicationRecord
           back_runners.addPriceSet(market_price.market_runner, market_price.back_price_set)
           lay_runners.addPriceSet(market_price.market_runner, market_price.lay_price_set)
         end
-        runners, bet_type = back_runners.over_round < lay_runners.over_round ? [back_runners, "B"] : [lay_runners, "L"]
-        if market_runners.count == runners.count
-          yielder << { time: time,
-                       betsize: runners.min_amount.to_f,
-                       betType: bet_type,
-                       market_prices: price_group.map { |p| [p.back1price.to_f, p.back1amount.to_f] },
-                       price: runners.over_round.to_f }
-        end
+        yielder << if back_runners.over_round < lay_runners.over_round
+                     prices_hash(back_runners).merge(time: time,
+                                                     betType: "B")
+                   else
+                     prices_hash(lay_runners).merge(time: time,
+                                                    betType: "L")
+                   end
       end
     end
+  end
+
+private
+
+  def prices_hash(runner_set)
+    {
+      betsize: runner_set.min_amount.to_f,
+      price: runner_set.over_round.to_f.round(4),
+      # market_prices: price_group.map { |p| [p.back1price.to_f, p.back1amount.to_f] },
+      # market_prices: runner_set.max_prices.map { |z| [z.fetch(:runner).id, z.fetch(:price).to_f.round(2), z.fetch(:amount).to_f.round(2)] },
+      market_prices: runner_set.max_prices,
+    }
   end
 end

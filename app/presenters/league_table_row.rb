@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class LeagueTableRow
-  delegate :name, to: :@team, prefix: "team"
+  delegate :name, to: :team, prefix: true
+
+  attr_reader :team
 
   def initialize(team, matches)
     @team = team
@@ -9,7 +11,7 @@ class LeagueTableRow
   end
 
   def ordering
-    -(1_000_000 * points + 1_000 * goal_difference + home_for + away_for)
+    -(1_000_000 * points + 1_000 * goal_difference + goals_scored)
   end
 
   def played
@@ -73,6 +75,10 @@ class LeagueTableRow
 
   def points
     home_points + away_points
+  end
+
+  def goals_scored
+    home_for + away_for
   end
 
 private

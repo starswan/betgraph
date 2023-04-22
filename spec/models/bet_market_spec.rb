@@ -6,7 +6,7 @@
 require "rails_helper"
 
 RSpec.describe BetMarket do
-  let(:sport) { create(:soccer, basket_rules: [build(:basket_rule, name: "Rule 1")]) }
+  let(:sport) { create(:soccer) }
   let(:market_type) { create(:betfair_market_type, sport: sport) }
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }

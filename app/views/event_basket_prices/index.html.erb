@@ -30,7 +30,7 @@
     <td><%=h ebp.fetch(:time) %></td>
     <td><%=h ebp.fetch(:price) %></td>
     <td><%=h ebp.fetch(:betType) %></td>
-    <td><%=h ebp.fetch(:market_prices) %></td>
+    <td><%=h ebp.fetch(:market_prices).map { |x| x.without(:runner).transform_values { |x| x.to_f.round(2) } } %></td>
     <td><%=h ebp.fetch(:betsize) %></td>
   </tr>
 <% end %>

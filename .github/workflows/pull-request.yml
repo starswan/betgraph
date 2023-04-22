@@ -35,7 +35,7 @@ jobs:
       RAILS_ENV: test
 
     steps:
-      - name: Checkout whole repository
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0

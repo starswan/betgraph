@@ -52,7 +52,17 @@ RSpec/DescribeClass:
     - 'spec/valuers/factorial_spec.rb'
 
 RSpec/ExampleLength:
-  Max: 10
+  Max: 20
 
 RSpec/MultipleExpectations:
   Max: 4
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 7
+
+Rails/CreateTableWithTimestamps:
+  Exclude:
+    - 'db/migrate/20121206201500_initial_load2012.rb'
+    - 'db/migrate/20140729201636_remove_bdrb_job_queues_table.rb'
+    - 'db/migrate/20221026161134_create_season_calendar.rb'
+

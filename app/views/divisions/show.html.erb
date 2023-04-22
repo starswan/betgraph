@@ -6,13 +6,20 @@
   <dd>
     <%= @division.name %>
     <%= @division.odds_numerator %>/<%= @division.odds_denominator %>
-    <%= @division.active ? "Active" : "Inactive" %>
+    <% if @division.active %>
+      <b>Active</b>
+    <% else %>
+      <i>Inactive</i>
+    <% end %>
   </dd>
 </dl>
 
 <dl>
-  <% @division.calendar.seasons.reject { |s| s.startdate >= Time.zone.today }.sort_by(&:startdate).reverse.each do |season| %>
-      <%= link_to season.name, division_season_tables_path(@division, season) %>
+  <% @seasons.reverse_each do |season| %>
+    <%= link_to season.name, division_season_tables_path(@division, season) %>
+    <% if @priced_seasons.include?(season) %>
+      <%= link_to "[#{season.matches.where(division: @division).with_prices.count}]", division_season_fixtures_path(@division, season) %>
+    <% end %>
   <% end %>
 </dl>
 

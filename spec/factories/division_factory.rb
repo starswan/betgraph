@@ -10,7 +10,7 @@ FactoryBot.define do
   end
 
   factory :division do
-    name { "A Division" }
+    sequence(:name) { |n| "League Division #{n}" }
     active { true }
 
     association :calendar
