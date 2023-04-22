@@ -1,6 +1,6 @@
 <h1>Editing scorer</h1>
 
-<%= form_for(@scorer) do |f| %>
+<%= form_for [@match, @scorer] do |f| %>
   <%= render "shared/error_messages", :target => @scorer %>
 
   <p>

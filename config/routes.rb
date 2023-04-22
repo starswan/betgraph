@@ -40,14 +40,13 @@ Rails.application.routes.draw do
       get :future
       get :active
     end
-    resources :scorers
     resources :results
     resources :bet_markets
     resources :baskets, except: [:edit]
     resources :match_teams
   end
   resources :soccer_matches do
-    resources :scorers
+    resources :scorers, except: :show, controller: "soccer_matches/scorers"
     resources :results
     resources :bet_markets, only: :index, controller: "soccer_matches/bet_markets" do
       get :half_time, on: :collection
