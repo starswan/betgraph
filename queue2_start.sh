@@ -6,7 +6,7 @@ export HOME=`echo ~`
 source $HOME/.bash_profile
 dirname=`dirname $0`
 cd $dirname
-source /home/stephen/.rvm/environments/ruby-2.7.7@betgraph
+source /home/stephen/.rvm/environments/ruby-2.7.8@betgraph
 bundle check || bundle install
 program='queue2'
 pidfile="tmp/pids/$program.pid"

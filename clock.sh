@@ -7,7 +7,7 @@ export HOME=`echo ~`
 source $HOME/.bash_login
 dirname=`dirname $0`
 cd $dirname
-source $HOME/.rvm/environments/ruby-2.7.7@betgraph
+source $HOME/.rvm/environments/ruby-2.7.8@betgraph
 bundle check || bundle install
 program='clock'
 pidfile="tmp/pids/$program.pid"
