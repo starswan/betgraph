@@ -6,3 +6,5 @@ sitesurl: sites.starswan.com
 dirdepth: 3
 makeMarketsInterval: 600
 allMarketsCacheTimeout: 600
+keyfile: ~/html/betgraph/shared/client-2048.key
+certfile: ~/html/betgraph/shared/client-2048.pem
