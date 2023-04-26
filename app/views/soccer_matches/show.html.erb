@@ -14,7 +14,7 @@
       <% if @soccer_match.result %>
         <%= format_result(@soccer_match) %>
       <% end %>
-      <%= link_to '[' + @soccer_match.homescorercount.to_s + '-' + @soccer_match.awayscorercount.to_s + ']', match_scorers_path(@soccer_match) %>
+      <%= link_to '[' + @soccer_match.homescorercount.to_s + '-' + @soccer_match.awayscorercount.to_s + ']', soccer_match_scorers_path(@soccer_match) %>
       <%= '(L)' if @soccer_match.live_priced %>
     <%= link_to 'Edit', edit_division_soccer_match_path(@division, @soccer_match) %>
   </div>

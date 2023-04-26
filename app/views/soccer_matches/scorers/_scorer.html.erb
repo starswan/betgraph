@@ -1,0 +1,9 @@
+<tr>
+  <td><%= link_to scorer.name, scorer %></td>
+  <td><%= scorer_goal_time(scorer) %></td>
+  <td><%= link_to 'Edit', edit_soccer_match_scorer_path(match, scorer), :class => 'btn btn-sm btn-outline-primary' %></td>
+  <td><%= link_to 'Delete', [match, scorer],
+                  :data => { :confirm => "Are you sure you wish to delete #{scorer.name}?" },
+                  :method => :delete,
+                  :class => 'btn btn-sm btn-outline-danger' %></td>
+</tr>
