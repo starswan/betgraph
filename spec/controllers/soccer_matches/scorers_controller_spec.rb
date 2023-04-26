@@ -27,7 +27,7 @@ module SoccerMatches
 
     it "errors on create" do
       post :create, params: { soccer_match_id: amatch, scorer: { name: "", team_id: amatch.hometeam, goaltime: 47 } }
-      assert_template 'new'
+      assert_template "new"
     end
 
     it "creates scorer" do
@@ -50,7 +50,7 @@ module SoccerMatches
 
     it "errors on update" do
       put :update, params: { soccer_match_id: amatch, id: scorer.to_param, scorer: { name: "", goaltime: 25 } }
-      assert_template 'edit'
+      assert_template "edit"
     end
 
     it "destroys scorer" do
