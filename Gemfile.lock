@@ -156,13 +156,13 @@ GEM
     config (4.1.0)
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 1.0, >= 1.0.0)
-    connection_pool (2.4.0)
     counter_culture (3.3.0)
       activerecord (>= 4.2)
       activesupport (>= 4.2)
     crack (0.4.5)
       rexml
     crass (1.0.6)
+    curb (1.0.5)
     dante (0.2.0)
     database_cleaner-active_record (2.1.0)
       activerecord (>= 5.a)
@@ -334,8 +334,6 @@ GEM
     msgpack (1.6.0)
     mysql2 (0.5.5)
     nenv (0.3.0)
-    net-http-persistent (4.0.2)
-      connection_pool (~> 2.2)
     net-imap (0.3.4)
       date
       net-protocol
@@ -610,6 +608,7 @@ DEPENDENCIES
   coffee-rails
   config
   counter_culture (~> 3.3)
+  curb
   database_cleaner-active_record
   devise
   dotenv-rails
@@ -628,7 +627,6 @@ DEPENDENCIES
   listen
   morrisjs-rails
   mysql2
-  net-http-persistent
   passenger (~> 5.0)
   pg
   pry-rails
