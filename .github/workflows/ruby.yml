@@ -43,11 +43,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up CMake
+      - name: Set up CMake for undercover gem
         uses: lukka/get-cmake@latest
 
-      - name: Install libcurl
-        run: apt install libcurl4-openssl-dev
+      - name: Install libcurl for 'curb' gem
+        run: sudo apt install libcurl4-openssl-dev
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
