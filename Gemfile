@@ -22,7 +22,9 @@ gem "backup-task"
 
 # gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
 gem "betfair-ng", require: "betfair"
-gem "net-http-persistent"
+# sadly net-hhtp-persistent doesn't respect https_proxy env var
+# so doesn't work on alice
+gem "curb"
 
 # rails 5.2 faster load times
 gem "bootsnap"
