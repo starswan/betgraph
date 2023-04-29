@@ -28,7 +28,7 @@ class BetMarket < ApplicationRecord
 
   validates :status, inclusion: { in: [CLOSED, ACTIVE, OPEN, SUSPENDED], nil: false }
 
-  validates :marketid, uniqueness: true
+  validates :marketid, uniqueness: { scope: :deleted_at }
 
   # Yes some of these markets aren't strictly 'Asian Handicap' markets but they behave like it
   # for pricing purposes i.e. each runner has a 'handicap' value associated with it.
