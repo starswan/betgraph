@@ -20,10 +20,6 @@ class Division < ApplicationRecord
   # This allows us to validate uniqueness of fixtures for everyone except scotland
   validates :scottish, inclusion: { in: [true, false] }
 
-  before_create do |division|
-    division.active = true
-  end
-
   def find_match(hometeam, awayteam, date)
     matches.where("venue_id = ? and kickofftime >= ? and kickofftime <= ?", hometeam, date, date + 1.day)
            .find { |match| match.teams.include? awayteam }

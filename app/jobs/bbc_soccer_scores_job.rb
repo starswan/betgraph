@@ -50,6 +50,7 @@ class BbcSoccerScoresJob < ApplicationJob
       next if fd.blank?
 
       division = fd.division
+      next unless division.active?
 
       dates = md.fetch(:tournamentDatesWithEvents).values
       x = dates.fetch(0).fetch(0).fetch(:events)
