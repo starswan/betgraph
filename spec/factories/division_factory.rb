@@ -3,6 +3,10 @@
 FactoryBot.define do
   factory :football_division do
     association :division
+
+    trait :premier_league do
+      bbc_slug { "premier-league" }
+    end
   end
 
   factory :division do

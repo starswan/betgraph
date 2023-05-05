@@ -10,7 +10,7 @@ RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
   end
 
   context "with one active division" do
-    let(:divisions) { build_list :division, 1, football_division: build(:football_division, bbc_slug: "premier-league") }
+    let(:divisions) { build_list :division, 1, football_division: build(:football_division, :premier_league) }
 
     it "writes scores and scorers" do
       expect {
@@ -24,7 +24,7 @@ RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
   context "with an inactive division" do
     let(:divisions) do
       [
-        build(:division, :inactive, football_division: build(:football_division, bbc_slug: "premier-league")),
+        build(:division, :inactive, football_division: build(:football_division, :premier_league)),
         build(:division, football_division: build(:football_division, bbc_slug: "scottish-premiership")),
       ]
     end
