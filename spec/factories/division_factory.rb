@@ -7,7 +7,12 @@ FactoryBot.define do
 
   factory :division do
     name { "A Division" }
+    active { true }
 
     association :calendar
+
+    trait :inactive do
+      active { false }
+    end
   end
 end
