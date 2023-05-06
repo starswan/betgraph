@@ -55,16 +55,22 @@ class BbcSoccerScoresJob < ApplicationJob
       dates = md.fetch(:tournamentDatesWithEvents).values
       x = dates.fetch(0).fetch(0).fetch(:events)
       x.each do |event|
-        home_team = find_or_create_team(event.dig(:homeTeam, :name, :full))
-        away_team = find_or_create_team(event.dig(:awayTeam, :name, :full))
-        homescore = event.dig(:homeTeam, :scores, :fullTime)
-        homehtscore = event.dig(:homeTeam, :scores, :halfTime)
-        awayhtscore = event.dig(:awayTeam, :scores, :halfTime)
-        awayscore = event.dig(:awayTeam, :scores, :fullTime)
+        home_team_root = event.fetch(:homeTeam)
+        away_team_root = event.fetch(:awayTeam)
+
+        home_team = find_or_create_team(home_team_root.dig(:name, :full))
+        away_team = find_or_create_team(away_team_root.dig(:name, :full))
+
+        homehtscore = home_team_root.dig(:scores, :halfTime)
+        homescore = home_team_root.dig(:scores, :fullTime)
+
+        awayhtscore = away_team_root.dig(:scores, :halfTime)
+        awayscore = away_team_root.dig(:scores, :fullTime)
+
         kickoff = event.fetch(:startTime)
 
-        home_scorers = event.dig(:homeTeam, :playerActions).select { |z| z.dig(:actions, 0, :type) == "goal" }
-        away_scorers = event.dig(:awayTeam, :playerActions).select { |z| z.dig(:actions, 0, :type) == "goal" }
+        home_scorers = home_team_root.fetch(:playerActions).select { |z| z.dig(:actions, 0, :type) == "goal" }
+        away_scorers = away_team_root.fetch(:playerActions).select { |z| z.dig(:actions, 0, :type) == "goal" }
 
         match = division.find_match home_team, away_team, date
 
@@ -78,14 +84,6 @@ class BbcSoccerScoresJob < ApplicationJob
         end
         create_scorers(match, home_scorers, home_team)
         create_scorers(match, away_scorers, away_team)
-
-        # Rails.logger.debug "HomeTeam #{event.dig(:homeTeam, :name)}"
-        # Rails.logger.debug "Home Goals #{event.dig(:homeTeam, :playerActions)}"
-        # Rails.logger.debug "Home Scores #{event.dig(:homeTeam, :scores)}"
-        # Rails.logger.debug "AwayTeam #{event.dig(:awayTeam, :name)}"
-        # Rails.logger.debug "Away Goals #{event.dig(:awayTeam, :playerActions)}"
-        # Rails.logger.debug "Away Scores #{event.dig(:awayTeam, :scores)}"
-        # Rails.logger.debug "---------------------------------"
       end
     end
   end
