@@ -14,9 +14,9 @@ FactoryBot.define do
   end
 
   factory :soccer_match do
-    name { "A v B" }
+    sequence(:name) { |n| "SoccerMatch #{n} A v B" }
     kickofftime { Time.zone.now }
-    endtime { Time.zone.now + 110.minutes }
+    endtime { kickofftime + 110.minutes }
   end
 
   factory :result do

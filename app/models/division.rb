@@ -9,6 +9,7 @@ class Division < ApplicationRecord
   has_one :football_division, dependent: :destroy
   has_many :matches, dependent: :destroy
   has_many :competitions, dependent: :destroy
+  has_many :seasons, through: :calendar
 
   # These rules blow-up active admin divisions section
   # has_many :soccer_matches

@@ -28,6 +28,9 @@ Rails.application.routes.draw do
 
   resources :results
   resources :divisions do
+    resources :seasons, only: [] do
+      resources :tables, only: [:index, :show]
+    end
     resources :matches
     resources :soccer_matches
     resources :tennis_matches

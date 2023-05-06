@@ -101,6 +101,7 @@ gem "iostreams"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug"
+  gem "capybara"
   gem "guard-bundler"
   gem "guard-rspec"
   gem "guard-rubocop"
@@ -109,9 +110,11 @@ group :development, :test do
   # gem 'web-console', '~> 2.0'
 
   gem "pry-rails"
+  gem "puma"
 
   # bundle exec rake doc:rails generates the API under doc/api.
   gem "sdoc"
+  gem "selenium-webdriver"
 
   # gem "spring"
   gem "undercover"

@@ -7,6 +7,7 @@
   <tr>
     <th>Name</th>
     <th>Startdate</th>
+    <th>Calendar</th>
     <th>Online</th>
     <th>Match Count</th>
     <th colspan="2">Actions</th>
@@ -14,16 +15,21 @@
 
 <% @seasons.each do |football_season| %>
   <tr>
-    <td><%= link_to football_season.name, football_season %></td>
-    <td><%=h football_season.startdate %></td>
+    <td><%= football_season.name %></td>
+    <td><%= football_season.startdate %></td>
+    <td><%= football_season.calendar.name %></td>
     <td><%= football_season.online? ? 'Y' : 'N' %></td>
-    <td align="right"><%= link_to football_season.soccer_matches.count, football_season_soccer_matches_path(football_season) %></td>
-    <td><%= link_to 'Edit', edit_season_path(football_season) %></td>
-    <td><%= link_to 'Delete', football_season, :data => { :confirm => "Are you sure you wish to delete #{football_season.name}?" }, :method => :delete %></td>
+    <td align="right">
+      <%= link_to football_season.matches.count, sport_season_path(football_season.calendar.sport, football_season) %>
+    </td>
+    <td>
+      <%#= link_to 'Edit', edit_sport_season_path(football_season.calendar.sport, football_season) %>
+    </td>
+    <td>
+      <%#= link_to 'Delete', football_season, :data => { :confirm => "Are you sure you wish to delete #{football_season.name}?" }, :method => :delete %>
+    </td>
   </tr>
 <% end %>
 </table>
 
-<br/>
-
-<%= link_to 'New Football Season', new_season_path %>
+<%#= link_to 'New Football Season', new_season_path %>

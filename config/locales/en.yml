@@ -30,9 +30,11 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
   activerecord:
     attributes:
       bet_market:
         runners: Rnrs
         winners: Wnrs
+  helpers:
+    links:
+      matches: Matches
