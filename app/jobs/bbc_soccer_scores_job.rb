@@ -59,5 +59,4 @@ class BbcSoccerScoresJob < ApplicationJob
       end
     end
   end
-
 end

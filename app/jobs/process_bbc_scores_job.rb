@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class ProcessBbcScoresJob < ApplicationJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA
 
-  def perform division, date, event
+  def perform(division, date, event)
     home_team_root = event.fetch(:homeTeam)
     away_team_root = event.fetch(:awayTeam)
 
@@ -33,7 +35,7 @@ class ProcessBbcScoresJob < ApplicationJob
     create_scorers(match, away_scorers, away_team)
   end
 
-  private
+private
 
   def create_scorers(match, scorers, team)
     scorers.each do |action|
@@ -59,5 +61,4 @@ class ProcessBbcScoresJob < ApplicationJob
       end
     end
   end
-
 end
