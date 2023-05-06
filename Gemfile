@@ -74,6 +74,7 @@ gem "rails", "~> 6.1"
 gem "sass-rails", "~> 6"
 
 # downgrade stringio due to weird passenger issue
+gem "psych", "< 5"
 gem "stringio", "< 3"
 
 # Use Uglifier as compressor for JavaScript assets
