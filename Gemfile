@@ -72,6 +72,10 @@ gem "pg"
 gem "rails", "~> 6.1"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 6"
+
+# downgrade stringio due to weird passenger issue
+gem "stringio", "< 3"
+
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 gem "webpacker", ">= 5", "< 6"
