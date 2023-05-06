@@ -13,7 +13,7 @@ class SeasonsController < ApplicationController
   # GET /football_seasons
   # GET /football_seasons.xml
   def index
-    @seasons = Season.order(startdate: :desc).where("startdate < ?", Date.today + 1.year)
+    @seasons = Season.order(startdate: :desc).where("startdate < ?", Time.zone.today + 1.year)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -24,7 +24,7 @@ class SeasonsController < ApplicationController
   # GET /football_seasons/1
   # GET /football_seasons/1.xml
   def show
-    @season_list = Season.order(startdate: :desc).where("startdate < ?", Date.today).map do |s|
+    @season_list = Season.order(startdate: :desc).where("startdate < ?", Time.zone.today).map do |s|
       SeasonDisplay.new id: s.id, name: "#{s.name} - #{s.calendar.name}"
     end
 
@@ -48,7 +48,7 @@ class SeasonsController < ApplicationController
 
     @leftarray = []
     @rightarray = []
-    current_season = @season.current? Date.today
+    current_season = @season.current? Time.zone.today
     @nilnil = @onenil = @nilone = 0
 
     team_totals = TeamTotal.includes(:team).by_count(threshold).where(match: @football_matches).index_by { |tt| [tt.team_id, tt.match_id] }

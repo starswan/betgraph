@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -13,7 +11,7 @@
 Backup::Model.new(:db_backup, "Backup betgraph database") do
   # I presume rails isn't loaded udring this script...
   database_yml = File.expand_path("../../config/database.yml", __FILE__)
-  BACKUP_RAILS_ENV = ENV["RAILS_ENV"] || "development"
+  backup_rails_env = ENV["RAILS_ENV"] || "development"
 
   require "yaml"
   require "erb"
@@ -25,12 +23,12 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
   #
   database MySQL do |db|
     # To dump all databases, set `db.name = :all` (or leave blank)
-    db.name               = config[BACKUP_RAILS_ENV]["database"]
-    db.username           = config[BACKUP_RAILS_ENV]["username"]
-    db.password           = config[BACKUP_RAILS_ENV]["password"]
-    db.host               = config[BACKUP_RAILS_ENV]["host"]
-    db.port               = config[BACKUP_RAILS_ENV]["port"]
-    db.socket             = config[BACKUP_RAILS_ENV]["socket"]
+    db.name               = config[backup_rails_env]["database"]
+    db.username           = config[backup_rails_env]["username"]
+    db.password           = config[backup_rails_env]["password"]
+    db.host               = config[backup_rails_env]["host"]
+    db.port               = config[backup_rails_env]["port"]
+    db.socket             = config[backup_rails_env]["socket"]
     # Note: when using `skip_tables` with the `db.name = :all` option,
     # table names should be prefixed with a database name.
     # e.g. ["db_name.table_to_skip", ...]

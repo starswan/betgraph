@@ -17,9 +17,9 @@ class BetfairLogin
                               add_home(Settings.certfile))
     # result = @bc.interactive_login(login.username, login.password)
 
-    eventTypes = @bc.list_event_types(filter: {}).map(&:deep_symbolize_keys).map { |z| z.fetch(:eventType) }
-    @activeTypes = Sport.active
-                      .map { |sport| eventTypes.find { |et| et.fetch(:name) == sport.name } }
+    event_types = @bc.list_event_types(filter: {}).map(&:deep_symbolize_keys).map { |z| z.fetch(:eventType) }
+    @active_types = Sport.active
+                         .map { |sport| event_types.find { |et| et.fetch(:name) == sport.name } }
   end
 
   def getMultipleMarketPrices(market_ids)
@@ -30,8 +30,8 @@ class BetfairLogin
     @bc.list_event_types(filter: {}).map(&:deep_symbolize_keys).map { |z| z.fetch(:eventType) }
   end
 
-  def getMarketDetail(exchangeId, marketId)
-    @bc.list_market_catalogue(filter: { marketIds: ["#{exchangeId}.#{marketId}"] },
+  def getMarketDetail(exchange_id, market_id)
+    @bc.list_market_catalogue(filter: { marketIds: ["#{exchange_id}.#{market_id}"] },
                               marketProjection: %w[RUNNER_METADATA],
                               maxResults: 1000).map(&:deep_symbolize_keys).first
   end
@@ -53,7 +53,7 @@ class BetfairLogin
   def get_all_competitions
     @bc.list_competitions(
       filter: {
-        eventTypeIds: @activeTypes.map { |t| t.fetch(:id) },
+        eventTypeIds: @active_types.map { |t| t.fetch(:id) },
       },
     ).map(&:deep_symbolize_keys).map { |c| c.except(:competition).merge(c.fetch(:competition)) }
   end
@@ -70,7 +70,7 @@ class BetfairLogin
     Rails.cache.fetch("events", expires_in: Settings.allMarketsCacheTimeout) do
       @bc.list_events(
         filter: {
-          eventTypeIds: @activeTypes.map { |t| t.fetch(:id) },
+          eventTypeIds: @active_types.map { |t| t.fetch(:id) },
         },
       ).map(&:deep_symbolize_keys).map { |x| x.fetch(:event).merge(marketCount: x.fetch(:marketCount)) }
     end

@@ -13,7 +13,7 @@ class InferAllGoalTimesJob < ApplicationJob
   end
 
   def perform
-    SoccerMatch.includes(:result, :scorers).where("created_at > ?", Date.today - 1.month)
+    SoccerMatch.includes(:result, :scorers).where("created_at > ?", Time.zone.today - 1.month)
       .find_each
       .reject { |m|
       m.bet_markets_count == 0 ||

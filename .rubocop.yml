@@ -55,7 +55,11 @@ RSpec/MultipleExpectations:
   Max: 4
 
 RSpec/MultipleMemoizedHelpers:
-  Max: 7
+  Max: 14
+
+Style/HashSyntax:
+   SupportedShorthandSyntax: either
+
 
 Rails/CreateTableWithTimestamps:
   Exclude:

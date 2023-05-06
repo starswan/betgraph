@@ -17,7 +17,6 @@ RSpec.describe BetMarketsHelper, type: :helper do
     create(:soccer_match, division: division,
                           name: "#{hometeam.name} v #{awayteam.name}")
   end
-  let(:menu_path) { create(:menu_path, sport: sport) }
 
   let!(:market1) do
     create(:bet_market,

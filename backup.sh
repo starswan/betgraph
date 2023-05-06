@@ -4,6 +4,7 @@
 #
 # clunky native backup - but over in about 90 seconds...
 #
+source $HOME/.rvm/environments/ruby-3.1.4@bg
 rake db:backup
 tar xf db/db_backup/*/db_backup.tar
 rm -f db/db_backup/*/db_backup.tar
