@@ -11,14 +11,14 @@ RSpec.describe SeasonsController, type: :controller do
   let(:division) { create(:division, calendar: calendar) }
 
   let!(:first_season) { create(:season, :first, calendar: calendar) }
-  let!(:season) { create(:season, calendar: calendar) }
+  let!(:season) { create(:season, startdate: Time.zone.today, calendar: calendar) }
   let!(:final_season) { create(:season, :final, calendar: calendar) }
   let!(:sm_list) { create_list(:soccer_match, 1, division: division, kickofftime: season.startdate + 2.days + 15.hours) }
 
   describe "#show" do
     before do
-      create(:soccer_match, division: division, kickofftime: first_season.startdate + 1.day)
-      get :show, params: { sport_id: sport.id, id: season.to_param }
+      create(:soccer_match, division: division, kickofftime: final_season.startdate + 1.day)
+      get :show, params: { sport_id: sport.id, season_id: season.id, threshold: 11 }
     end
 
     it "is successful" do
@@ -37,13 +37,13 @@ RSpec.describe SeasonsController, type: :controller do
   end
 
   it "gets new" do
-    get :new, params: { calendar_id: calendar.id }
+    get :new, params: { sport_id: sport.id, calendar_id: calendar.id }
     assert_response :success
   end
 
   it "creates football_season" do
     expect {
-      post :create, params: { calendar_id: calendar.id, season: { name: "Current" } }
+      post :create, params: { sport_id: sport.id, calendar_id: calendar.id, season: { name: "Current" } }
     }.to change(Season, :count).by(1)
 
     assert_redirected_to calendar_seasons_path(calendar)
@@ -51,7 +51,7 @@ RSpec.describe SeasonsController, type: :controller do
 
   it "shows current football season" do
     Timecop.travel Date.new(2009, 9, 1) do
-      get :show, params: { sport_id: sport.id, id: season.to_param }
+      get :show, params: { sport_id: sport.id, season_id: season.to_param, threshold: 7 }
       assert_response :success
     end
   end

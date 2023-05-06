@@ -1,0 +1,6 @@
+<%= render 'menu', division: @division, seasons: @seasons, season: @season %>
+<% @all_matches.map(&:kickofftime).map(&:to_date).uniq.each do |date| %>
+  <%= link_to_unless date == @date, date, division_season_table_path(@division, @season, date) %>
+<% end %>
+
+<%= render 'league_table', rows: @rows %>

@@ -1,0 +1,17 @@
+<% content_for :title do %>
+  League Table <%= division.name %> for Season <%= season.name %>
+<% end %>
+<% content_for :menu do -%>
+  <li class="nav-item">
+    <%= link_to 'Division', division_path(division), class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Seasons', sport_seasons_path(division.sport), class: 'nav-link' %>
+  </li>
+  <% seasons.order(:startdate).reverse_each do |s| -%>
+    <li class="nav-item">
+      <%= link_to_unless season == s, s.name, division_season_tables_path(division, s), class: 'nav-link' %>
+    </li>
+  <% end -%>
+<% end -%>
+<div align="center"><b><%= yield :title %></b></div>

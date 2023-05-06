@@ -5,12 +5,13 @@ FactoryBot.define do
     association :calendar
 
     trait :first do
-      startdate { Date.today - 20.years }
+      startdate { Date.today - 30.years }
     end
     trait :final do
-      startdate { Date.today + 10.years }
+      startdate { Date.today + 20.years }
     end
-    name { "A Season" }
-    startdate { Date.today - 1.year }
+
+    sequence(:startdate) { |n| Date.today - 29.years + n.years }
+    name { "Season from #{startdate}" }
   end
 end

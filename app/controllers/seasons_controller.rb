@@ -4,9 +4,8 @@
 # $Id$
 #
 class SeasonsController < ApplicationController
-  before_action :find_sport
-
-  before_action :find_calendar, only: %i[new create edit update]
+  before_action :find_sport, except: %i[new create edit update destroy]
+  before_action :find_calendar, only: %i[new create edit update destroy]
 
   # Our threshold parameter is in the URL, so hopefully this should now work
   caches_page :show
@@ -14,18 +13,22 @@ class SeasonsController < ApplicationController
   # GET /football_seasons
   # GET /football_seasons.xml
   def index
-    @seasons = Season.order(startdate: :desc).where("startdate < ?", Date.today + 2.years)
+    @seasons = Season.order(startdate: :desc).where("startdate < ?", Date.today + 1.year)
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render xml: @seasons }
     end
   end
 
+  SeasonDisplay = Struct.new :id, :name, keyword_init: true
   # GET /football_seasons/1
   # GET /football_seasons/1.xml
   def show
-    @season = Season.find(params[:id])
+    @season_list = Season.order(startdate: :desc).where("startdate < ?", Date.today).map do |s|
+      SeasonDisplay.new id: s.id, name: "#{s.name} - #{s.calendar.name}"
+    end
+
+    @season = Season.find(params[:season_id])
     @football_matches = SoccerMatch.where(season: @season)
                           .ordered_by_date
                           .includes(:division, :result, { teams: :team_names })
@@ -125,7 +128,6 @@ class SeasonsController < ApplicationController
           render
         end
       end
-      format.xml  { render xml: @season }
     end
   end
 
@@ -184,15 +186,14 @@ class SeasonsController < ApplicationController
     @season.destroy!
 
     respond_to do |format|
-      format.html { redirect_to sport_seasons_path(@soccer) }
-      format.xml  { head :ok }
+      format.html { redirect_to sport_seasons_path(@calendar.sport) }
     end
   end
 
 private
 
   def find_sport
-    @soccer = Sport.find_by(name: "Soccer")
+    @soccer = Sport.find params[:sport_id]
   end
 
   def find_calendar

@@ -1,18 +1,19 @@
 <%= render 'division' %>
 <%- model_class = Division -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => "#{@sport.name} #{model_class.model_name.human}" %></h1>
-</div>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-  <dd><%= @division.name %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:odds_numerator) %>:</strong></dt>
-  <dd><%= @division.odds_numerator %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:odds_denominator) %>:</strong></dt>
-  <dd><%= @division.odds_denominator %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:active) %>:</strong></dt>
-  <dd><%= @division.active %></dd>
+<dl>
+  <dt><strong><%= "#{@sport.name} #{model_class.model_name.human}" %>:</strong></dt>
+  <dd>
+    <%= @division.name %>
+    <%= @division.odds_numerator %>/<%= @division.odds_denominator %>
+    <%= @division.active ? "Active" : "Inactive" %>
+  </dd>
+</dl>
+
+<dl>
+  <% @division.calendar.seasons.reject { |s| s.startdate >= Time.zone.today }.sort_by(&:startdate).reverse.each do |season| %>
+      <%= link_to season.name, division_season_tables_path(@division, season) %>
+  <% end %>
 </dl>
 
 <div class="form-actions">

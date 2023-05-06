@@ -1,12 +1,15 @@
 <!-- $Id$ -->
 <%= render 'shared' %>
 
-<table border="0">
+<table>
   <tr>
     <td>
-      <%= form_for(@season, method: :get) do |f| -%>
-          <%= f.collection_select :id, @seasons, :id, :name, {},
-                                  {onchange: "window.location = '/football_seasons/' + this.form.football_season_id.options[this.form.football_season_id.selectedIndex].value + '/threshold/#{@threshold}'" } %>
+      <%= form_for([@season.calendar.sport, @season], method: :get) do |f| -%>
+        <%=
+          f.collection_select :id, @season_list, :id, :name, {},
+                                {
+                                  onchange: "window.location = '/sports/#{@soccer.id}/seasons/' + this.form.season_id.options[this.form.season_id.selectedIndex].value + '/threshold/#{@threshold}'" }
+        %>
       <% end -%>
     </td>
     <td><%= @season.startdate.to_s(:season) %> - <%= @enddate.to_s(:season) %></td>
@@ -17,7 +20,7 @@
     <td>
       <%= form_for(:season, :html => { :method => :get}) do |f| -%>
         <%= select_tag('threshold', options_for_select(@team_total_configs.keys.sort!, @threshold.to_i),
-                           { :onchange => "window.location = '/football_seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
+                           { :onchange => "window.location = '/sports/#{@soccer.id}/seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
         -%>
       <% end -%>
     </td>
@@ -89,6 +92,6 @@
     </td>
   </tr>
 </table>
-<%= link_to 'Edit', edit_season_path(@season) %> |
-<%= link_to 'All Football Seasons', seasons_path %> |
-<%= link_to 'Football Matches', football_season_soccer_matches_path(@season) %>
+<!--<%#= link_to 'Edit', edit_season_path(@season) %> |-->
+<!--<%#= link_to 'All Football Seasons', seasons_path %> |-->
+<%#= link_to 'Football Matches', football_season_soccer_matches_path(@season) %>

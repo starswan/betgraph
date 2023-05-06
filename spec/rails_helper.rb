@@ -53,11 +53,10 @@ if ENV["COVERAGE"]
     # not used yet
     add_filter "app/valuers/poisson_sum.rb"
     add_group "Valuers", "app/valuers"
-    add_group "Betfair", "../betfair2/lib"
     # minimum_coverage 86.96
     # setting primary branch coverage reduces us to this really low value
     # minimum_coverage 49.07
-    minimum_coverage 88.92
+    minimum_coverage 89.47
     # we seem to have flakey/non-stable coverage values
     # maybe no longer...?
     maximum_coverage_drop 0.15
@@ -109,6 +108,10 @@ RSpec.configure do |config|
 
   config.before do
     DatabaseCleaner.strategy = :transaction
+  end
+
+  config.before(:each, js: true) do
+    DatabaseCleaner.strategy = :truncation
   end
 
   config.before do

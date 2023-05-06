@@ -1,0 +1,35 @@
+<table class="table table-bordered table-responsive">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Pld</th>
+    <th colspan="5">Home</th>
+    <th colspan="5">Away</th>
+    <th>GD</th>
+    <th>Pts</th>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+    <td>W</td><td>D</td><td>L</td><td>F</td><td>A</td>
+    <td>W</td><td>D</td><td>L</td><td>F</td><td>A</td>
+    <td colspan="2"></td>
+  </tr>
+  <% rows.sort_by(&:ordering).each_with_index do |row, index| %>
+    <tr>
+      <td><%= index + 1 %></td>
+      <td><%= row.team_name %></td>
+      <td><%= row.played %></td>
+      <td><%= row.home_wins %></td>
+      <td><%= row.home_draws %></td>
+      <td><%= row.home_losses %></td>
+      <td><%= row.home_for %></td>
+      <td><%= row.home_against %></td>
+      <td><%= row.away_wins %></td>
+      <td><%= row.away_draws %></td>
+      <td><%= row.away_losses %></td>
+      <td><%= row.away_for %></td>
+      <td><%= row.away_against %></td>
+      <td><%= row.goal_difference %></td>
+      <td><%= row.points %></td>
+    </tr>
+  <% end %>
+</table>
