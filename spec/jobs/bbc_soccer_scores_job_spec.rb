@@ -14,7 +14,10 @@ RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
       let(:divisions) { build_list :division, 1, football_division: build(:football_division, :premier_league) }
 
       before do
-        create(:soccer_match, kickofftime: Time.zone.local(2023, 4, 15, 12, 30, 0), division: divisions.first, name: "Manchester City v Leicester City")
+        create(:soccer_match, kickofftime: Time.zone.local(2023, 4, 15, 12, 30, 0),
+                              division: divisions.first,
+                              result: build(:result, homescore: 3, awayscore: 0),
+                              name: "Manchester City v Leicester City")
       end
 
       it "writes scores and scorers" do
