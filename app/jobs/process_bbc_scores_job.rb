@@ -18,8 +18,8 @@ class ProcessBbcScoresJob < ApplicationJob
 
     kickoff = event.fetch(:startTime)
 
-    home_scorers = home_team_root.fetch(:playerActions).select { |z| z.dig(:actions, 0, :type) == "goal" }
-    away_scorers = away_team_root.fetch(:playerActions).select { |z| z.dig(:actions, 0, :type) == "goal" }
+    home_scorers = home_team_root.fetch(:playerActions, []).select { |z| z.dig(:actions, 0, :type) == "goal" }
+    away_scorers = away_team_root.fetch(:playerActions, []).select { |z| z.dig(:actions, 0, :type) == "goal" }
 
     match = division.find_match home_team, away_team, date
 
