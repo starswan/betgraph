@@ -25,7 +25,7 @@ mysql:
 
 arthur:
   adapter: postgresql
-  database: bfrails_development
+  database: betgraph_development
   username: rails
   password: 123rails!
 
@@ -54,7 +54,7 @@ production:
 
 pi:
   adapter: mysql2
-  database: bfrails_development
+  database: betgraph_development
   username: rails
   password: 123rails!
   reconnect: true
