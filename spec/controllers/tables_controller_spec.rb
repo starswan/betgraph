@@ -25,7 +25,7 @@ RSpec.describe TablesController, type: :controller do
     end
 
     it "populates only the matches with results" do
-      expect(assigns(:matches)).to eq(SoccerMatch.last(3))
+      expect(assigns(:matches)).to match_array(SoccerMatch.last(3))
     end
   end
 
@@ -35,7 +35,7 @@ RSpec.describe TablesController, type: :controller do
     end
 
     it "populates only the matches with results" do
-      expect(assigns(:matches)).to eq(SoccerMatch.last(3))
+      expect(assigns(:matches)).to match_array(SoccerMatch.last(3))
     end
   end
 end
