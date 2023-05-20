@@ -20,7 +20,7 @@ set :user, ENV["USER"]
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :rails_env, "arthur"
-set :rvm_ruby_string, "2.7.8@bg"
+set :rvm_ruby_string, "3.0.6@bg"
 # RVM now installed on arthur via an apt package
 # not on Debian it's not
 # set :rvm_type, "/usr/share/rvm"
