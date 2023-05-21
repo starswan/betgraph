@@ -33,9 +33,15 @@ set :deploy_via, :copy
 # set :user, "starswan"
 set :use_sudo, false
 
-# repo details
-set :scm, :subversion
-set :repository, "http://arthur/svn/starswan/trunk/projects/betgraph"
+if ENV.key? 'BRANCH'
+  set :scm, :git
+  set :repository, "git@github.com:starswan/betgraph.git"
+  set :branch, ENV['BRANCH']
+else
+  # repo details
+  set :scm, :subversion
+  set :repository, "http://arthur/svn/starswan/trunk/projects/betgraph"
+end
 
 # runtime dependencies
 # depend :remote, :gem, "bundler", ">=1.0.0.rc.2"
