@@ -33,10 +33,10 @@ set :deploy_via, :copy
 # set :user, "starswan"
 set :use_sudo, false
 
-if ENV.key? 'BRANCH'
+if ENV.key? "BRANCH"
   set :scm, :git
   set :repository, "git@github.com:starswan/betgraph.git"
-  set :branch, ENV['BRANCH']
+  set :branch, ENV.fetch("BRANCH")
 else
   # repo details
   set :scm, :subversion
