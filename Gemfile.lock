@@ -529,7 +529,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    sdoc (2.5.0)
+    sdoc (2.6.1)
       rdoc (>= 5.0)
     selenium-webdriver (4.9.1)
       rexml (~> 3.2, >= 3.2.5)
@@ -554,7 +554,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    stringio (3.0.5)
+    stringio (3.0.6)
     thor (1.2.2)
     thread_safe (0.3.6)
     tilt (2.0.11)
