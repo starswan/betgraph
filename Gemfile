@@ -134,7 +134,7 @@ group :development do
   gem "bullet"
 
   # Use Capistrano for deployment
-  gem "capistrano", "~> 2.15.8"
+  gem "capistrano", "~> 2.15.10"
   gem "capistrano-ext"
   gem "capistrano-rails"
   gem "listen"
