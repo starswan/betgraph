@@ -8,7 +8,7 @@ require "webmock/rspec"
 
 RSpec.describe LoadCurrentFootballDataJob, type: :job do
   before do
-    create(:season, startdate: Date.today)
+    create(:season, startdate: Time.zone.today)
   end
 
   it "performs" do
