@@ -8,7 +8,7 @@ if ENV["COVERAGE"]
   require "simplecov-lcov"
 
   # This allows both LCOV and HTML formatting -
-  # lcov for undercover gem and cc-test-reporter, HTML for humans
+  # lcov for undercover gem, HTML for humans
   class SimpleCov::Formatter::MergedFormatter
     def format(result)
       SimpleCov::Formatter::HTMLFormatter.new.format(result)
@@ -17,8 +17,7 @@ if ENV["COVERAGE"]
   end
 
   SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
-  # for cc-test-reporter after-build action
-  SimpleCov::Formatter::LcovFormatter.config.output_directory = "coverage"
+  # SimpleCov::Formatter::LcovFormatter.config.output_directory = "coverage"
   # SimpleCov::Formatter::LcovFormatter.config.lcov_file_name = 'lcov.info'
   SimpleCov.formatter = SimpleCov::Formatter::MergedFormatter
 

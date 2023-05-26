@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ['3.0', '3.1', '3.2']
+        ruby-version: ['3.0']
 
     services:
       mysql:
@@ -35,7 +35,6 @@ jobs:
 
     env:
       RAILS_ENV: test
-      COVERAGE: true
 
     steps:
       - name: Checkout whole repository
@@ -55,22 +54,37 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-      - name: Rubocop
-        run: bundle exec rubocop
+      - name: Pronto Rubocop
+        run: bundle exec pronto run -r rubocop -f github_pr -c origin/${{ github.base_ref }}
+        env:
+          RUBOCOP_CONFIG: .rubocop.yml
+          PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
+          PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
 
       - name: Setup test db
-        run: bundle exec rake db:create
+        run: bundle exec rake db:create db:schema:load
 
-      - name: load schema
-        run: bundle exec rake db:schema:load
-
-      - uses: actions/setup-node@v3
+      - name: Install Node 14
+        uses: actions/setup-node@v3
         with:
           node-version: 14
 
       - name: Yarn install
         run: yarn install
+
       - name: Run Ruby tests
         run: bundle exec rake spec
-      - name: Check coverage
-        run: bundle exec undercover -c origin/main -l coverage/betgraph.lcov
+        env:
+          COVERAGE: true
+
+      - name: Pronto Undercover
+        run: bundle exec pronto run -r undercover -f github_pr -c origin/${{ github.base_ref }}
+        env:
+          PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
+          PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
+
+      - name: Pronto Combined Status
+        run: bundle exec pronto run -f github_combined_status -c origin/${{ github.base_ref }}
+        env:
+          PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
+          PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
