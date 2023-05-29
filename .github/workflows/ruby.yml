@@ -72,7 +72,7 @@ jobs:
       - name: Yarn install
         run: yarn install
 
-      - name: Run Ruby tests
+      - name: Ruby tests
         run: bundle exec rake spec
         env:
           COVERAGE: true
