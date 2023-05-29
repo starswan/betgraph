@@ -55,7 +55,7 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Pronto Rubocop
-        run: bundle exec pronto run -r rubocop -f github_pr -c origin/${{ github.base_ref }}
+        run: bundle exec pronto run -r rubocop -f github_status github_pr -c origin/${{ github.base_ref }}
         env:
           RUBOCOP_CONFIG: .rubocop.yml
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
@@ -78,13 +78,7 @@ jobs:
           COVERAGE: true
 
       - name: Pronto Undercover
-        run: bundle exec pronto run -r undercover -f github_pr -c origin/${{ github.base_ref }}
-        env:
-          PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
-          PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
-
-      - name: Pronto Combined Status
-        run: bundle exec pronto run -f github_combined_status -c origin/${{ github.base_ref }}
+        run: bundle exec pronto run -r undercover -f github_status github_pr -c origin/${{ github.base_ref }}
         env:
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
           PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
