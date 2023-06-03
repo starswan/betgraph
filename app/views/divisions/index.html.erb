@@ -19,11 +19,11 @@
   <tbody>
     <% @divisions.each do |division| %>
       <tr>
-        <td><%= link_to division.name, division_matches_path(division) %></td>
+        <td><%= link_to division.name, division_path(division) %></td>
         <td><%= division.calendar.name %></td>
         <td><%= division.odds_numerator %>/<%= division.odds_denominator %></td>
         <td><%= division.active ? 'Y' : 'N' %></td>
-        <td><%= division.matches.count %></td>
+        <td><%= link_to division.matches.count, division_matches_path(division) %></td>
         <td><%= division.scottish ? 'Y' : 'N' %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

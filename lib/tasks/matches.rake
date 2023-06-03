@@ -24,7 +24,7 @@ namespace :matches do
     recent_seasons = Season.where("startdate <= ?", 9.months.ago)
                           .where("startdate >= ?", 15.years.ago)
                        .where(calendar: championship.calendar)
-    .where.not(name: "2020/2021").where.not(name: "2021/2022")
+    # .where.not(name: "2020/2021").where.not(name: "2021/2022")
     match_groups = recent_seasons.map do |season|
       SoccerMatch.includes(:result, :teams)
                          .where(division: divisions, season: season)

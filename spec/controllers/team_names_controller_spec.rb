@@ -10,7 +10,7 @@ RSpec.describe TeamNamesController, type: :controller do
     create(:team, sport: sport, team_names: build_list(:team_name, 1, name: "MyTeam"))
   end
 
-  let(:sport) { create(:sport, basket_rules: [build(:basket_rule, name: "Rule 1")]) }
+  let(:sport) { create(:sport) }
   let(:my_team_name) { TeamName.find_by!(name: "MyTeam") }
   let(:my_team) { my_team_name.team }
 

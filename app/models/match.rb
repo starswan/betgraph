@@ -36,12 +36,12 @@ class Match < ApplicationRecord
   scope :almost_live, -> { where("kickofftime <= ?", Time.now + 15.minutes) }
   scope :live_priced, -> { where(live_priced: true) }
   scope :future, -> { where("kickofftime >= ?", Time.now) }
+  scope :played_on, ->(date) { where("kickofftime >= ?", date).where("kickofftime < ?", date + 1.day) }
+  scope :with_prices, -> { where.not(market_prices_count: 0) }
 
   scope :activelive, lambda {
     almost_live.joins(:bet_markets).merge(BetMarket.not_closed_or_suspended).distinct
   }
-
-  scope :with_prices, -> { where.not(market_prices_count: 0) }
 
   before_create do |match|
     match.endtime = match.kickofftime + match.division.calendar.sport.expiry_time_in_minutes.minutes

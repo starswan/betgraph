@@ -18,9 +18,13 @@ RSpec.describe Basket do
   let(:market_type) { create(:betfair_market_type, name: "The Market Type", sport: sport) }
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }
+  let(:runner_type) { create(:betfair_runner_type, betfair_market_type: market_type) }
+  let(:runner_type2) { create(:betfair_runner_type, betfair_market_type: market_type) }
 
   before do
     create(:season, calendar: calendar)
+    create(:basket_rule_item, basket_rule: sport.basket_rules.first, betfair_runner_type: runner_type)
+    create(:basket_rule_item, basket_rule: sport.basket_rules.first, betfair_runner_type: runner_type2)
   end
 
   describe "creating baskets based on rules" do
@@ -34,12 +38,19 @@ RSpec.describe Basket do
   end
 
   describe "#complete" do
-    let(:market) { create(:bet_market, match: soccermatch, market_runners: [build(:market_runner), build(:market_runner)]) }
+    let(:market) do
+      create(:bet_market, match: soccermatch,
+                          market_runners: [build(:market_runner, betfair_runner_type: runner_type),
+                                           build(:market_runner, betfair_runner_type: runner_type2)])
+    end
 
     it "has complete baskets" do
       expect {
-        create(:basket, match: soccermatch, missing_items_count: 2,
+        create(:basket, match: soccermatch, missing_items_count: 3,
                         basket_items: [build(:basket_item, market_runner: market.market_runners.first)])
+        create(:basket, match: soccermatch, missing_items_count: 2,
+                        basket_items: [build(:basket_item, market_runner: market.market_runners.first),
+                                       build(:basket_item, market_runner: market.market_runners.second)])
         create(:basket, match: soccermatch, missing_items_count: 1,
                         basket_items: [build(:basket_item, market_runner: market.market_runners.second)])
       }.to change { described_class.complete.count }.by(2)

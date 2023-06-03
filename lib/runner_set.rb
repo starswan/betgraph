@@ -11,12 +11,12 @@ class RunnerSet
 
   def initialize
     @price_sets = []
-    @min_amount, @max_price, @over_round = nil, nil, nil
+    @min_amount, @max_price, @over_round, @weights = nil, nil, nil
   end
 
   def addPriceSet(runner_key, price_set)
     @price_sets << { runner: runner_key, price_set: price_set } unless price_set.empty?
-    @min_amount, @max_price, @over_round = nil, nil, nil # reset cached values
+    @min_amount, @max_price, @over_round, @weights = nil, nil, nil, nil # reset cached values
   end
 
   def count
@@ -39,7 +39,7 @@ class RunnerSet
   def max_prices
     w = weights
     factor = w.map { |x| x.fetch(:weight) / x.fetch(:amount) }.max
-    w.map { |g| g.merge(weight: (g.fetch(:weight) / factor).round(2)) }
+    w.map { |g| g.merge(weight: (g.fetch(:weight) / factor).to_f.round(2)) }
   end
 
   def price_weights
@@ -70,18 +70,18 @@ private
     # R2 = 11 * 5 - 50,
     # R3 = 11 * 5 - 50,
     # R4 = 33 * 1 - 28 == 5 in all cases
-    @price_sets.reduce([]) do |array, ps|
+    @weights ||= @price_sets.reduce([]) do |array, ps|
       item = ps.fetch(:price_set)
       runner = ps.fetch(:runner)
       case array.size
       when 0
-        array << { price: item.price, weight: item.price, amount: item.amount, runner: runner }
+        array << { price: item.price.to_f.round(2), weight: item.price, amount: item.amount.to_f, runner: runner }
       when 1
-        [{ price: array.last.fetch(:price), weight: item.price, amount: item.amount, runner: runner },
-         { price: item.price, weight: array.last.fetch(:weight), amount: array.last.fetch(:amount), runner: array.last.fetch(:runner) }]
+        [{ price: array.last.fetch(:price).to_f.round(2), weight: item.price, amount: item.amount.to_f, runner: runner },
+         { price: item.price.to_f.round(2), weight: array.last.fetch(:weight), amount: array.last.fetch(:amount).to_f, runner: array.last.fetch(:runner) }]
       else
         w = array.last.fetch(:price) * array.last.fetch(:weight)
-        array << { price: item.price, weight: w / item.price, amount: item.amount, runner: runner }
+        array << { price: item.price.to_f.round(2), weight: w / item.price, amount: item.amount.to_f, runner: runner }
       end
     end
   end

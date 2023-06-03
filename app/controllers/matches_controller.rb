@@ -44,7 +44,7 @@ class MatchesController < ApplicationController
       @priced_only = params[:priced_only]
       matches = Match.includes(:result, :division, :bet_markets, teams: :team_names).where(division: @division)
       if @priced_only
-        matches = matches.where.not(market_prices_count: 0)
+        matches = matches.with_prices
       end
       @matches = matches.offset(@offset).limit(@limit).order({ @order => @direction })
     end

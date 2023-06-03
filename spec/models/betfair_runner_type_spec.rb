@@ -10,7 +10,7 @@ RSpec.describe BetfairRunnerType do
     create(:season, calendar: calendar)
   end
 
-  let(:sport) { create(:sport, name: "Soccer", basket_rules: [build(:basket_rule, name: "Rule 1")]) }
+  let(:sport) { create(:soccer) }
   let(:market_type) { create(:betfair_market_type, name: "The Market Type", sport: sport) }
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }

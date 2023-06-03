@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   resources :divisions do
     resources :seasons, only: [] do
       resources :tables, only: [:index, :show]
+      resources :fixtures, only: [:index, :show]
     end
     resources :matches
     resources :soccer_matches

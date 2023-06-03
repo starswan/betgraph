@@ -8,7 +8,7 @@ require "rails_helper"
 RSpec.describe SoccerMatchesController, type: :controller do
   render_views
 
-  let(:sport) { create(:soccer, basket_rules: [build(:basket_rule, name: "Rule 1")]) }
+  let(:sport) { create(:soccer) }
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }
   let(:hometeam) { create(:team, sport: sport) }

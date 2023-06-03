@@ -33,11 +33,11 @@ class ApplicationJob < ActiveJob::Base
   # and make matches, as otherwise old 'dead' objects prevent new ones being created
   PRIORITY_DESTROY_OBJECT = OFFSET_PRI + 40
   PRIORITY_MAKE_MATCHES = OFFSET_PRI + 45
-  # This is more important than the background menu paths jobs
-  PRIORITY_LOAD_FOOTBALL_DATA = OFFSET_PRI + 48
-  PRIORITY_MAKE_MENU_PATHS = OFFSET_PRI + 50
+
   # Lower than lowest BetfairJob which is currently make menu paths
-  PRIORITY_KEEP_ALIVE = OFFSET_PRI + 55
+  PRIORITY_KEEP_ALIVE = OFFSET_PRI + 50
+
+  PRIORITY_LOAD_FOOTBALL_DATA = OFFSET_PRI + 55
   # This don't involve connecting to the API, so lower tnan everything
   PRIORITY_INFER_GOAL_TIMES = OFFSET_PRI + 65
   PRIORITY_REMOVE_MARKETS_WITH_GAPS = OFFSET_PRI + 70

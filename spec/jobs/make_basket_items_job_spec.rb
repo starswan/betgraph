@@ -9,9 +9,11 @@ RSpec.describe MakeBasketItemsJob, type: :job do
   let(:season) { create(:season) }
   let(:division) { create(:division, calendar: season.calendar) }
   let(:sport) { season.calendar.sport }
+  let(:market_type) { create(:betfair_market_type, name: "The Market Type", sport: sport) }
+  let(:runner_type) { create(:betfair_runner_type, betfair_market_type: market_type) }
 
   before do
-    create(:basket_rule, sport: sport)
+    create(:basket_rule, sport: sport, basket_rule_items: build_list(:basket_rule_item, 1, betfair_runner_type: runner_type))
   end
 
   context "with rule item" do

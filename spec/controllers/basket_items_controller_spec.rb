@@ -6,7 +6,7 @@
 require "rails_helper"
 
 RSpec.describe BasketItemsController, type: :controller do
-  let!(:sport) { create(:sport, calendars: build_list(:calendar, 1), basket_rules: [build(:basket_rule, name: "Rule 1")]) }
+  let!(:sport) { create(:sport, calendars: build_list(:calendar, 1)) }
   let(:basket_item) { basket.basket_items.first }
   let(:market_type) { create(:betfair_market_type, name: "The Market Type", sport: sport) }
   let(:calendar) { sport.calendars.first }

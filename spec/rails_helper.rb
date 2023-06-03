@@ -23,7 +23,7 @@ if ENV["COVERAGE"]
 
   SimpleCov.start :rails do
     enable_coverage :branch
-    # primary_coverage :branch
+    primary_coverage :branch
     # ruby 3.2 needed
     # enable_coverage_for_eval
 
@@ -52,13 +52,14 @@ if ENV["COVERAGE"]
     # not used yet
     add_filter "app/valuers/poisson_sum.rb"
     add_group "Valuers", "app/valuers"
-    # minimum_coverage 86.96
-    # setting primary branch coverage reduces us to this really low value
-    # minimum_coverage 49.07
-    minimum_coverage 89.44
-    # we seem to have flakey/non-stable coverage values
-    # maybe no longer...?
-    maximum_coverage_drop 0.15
+
+    # Only set minimum coverage locally - CI uses Pronto::Undercover
+    unless ENV.key? "CI"
+      minimum_coverage line: 89.65, branch: 62.32
+      # we seem to have flakey/non-stable coverage values
+      # maybe no longer...?
+      maximum_coverage_drop 0.15
+    end
   end
 end
 

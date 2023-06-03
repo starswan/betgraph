@@ -8,8 +8,6 @@ require "rails_helper"
 RSpec.describe SoccerMatches::BetMarketsController, type: :controller do
   let(:sport) do
     create(:sport,
-           # name: 'Soccer',
-           basket_rules: [build(:basket_rule, name: "Rule 1")],
            betfair_market_types: [
              build(:betfair_market_type, name: "The Market Type"),
              build(:betfair_market_type, name: "First Half Goals", valuer: "FirstHalfGoals"),

@@ -44,8 +44,7 @@ RSpec.describe MarketRunner do
   end
 
   context "new factory" do
-    let(:sport) { create(:sport, name: "Soccer", basket_rules: [build(:basket_rule, name: "Rule 1")]) }
-    # let(:sport) { sports(:one) }
+    let(:sport) { create(:soccer) }
     let(:calendar) { create(:calendar, sport: sport) }
     let(:division) { create(:division, calendar: calendar) }
     let(:hometeam) { create(:team) }

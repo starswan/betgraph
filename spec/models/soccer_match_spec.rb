@@ -27,6 +27,18 @@ RSpec.describe SoccerMatch do
     create(:season, calendar: season.calendar, startdate: Date.new(2020, 8, 1))
   end
 
+  describe "#create" do
+    before do
+      create(:soccer_match, division: division2,
+                            name: "One v Two",
+                            kickofftime: Date.new(2020, 1, 2))
+    end
+
+    it "creates the teams involved" do
+      expect(Team.all.map(&:name)).to match_array(%w[One Two])
+    end
+  end
+
   # Scotland violates this rule in an extreme way - so the code doesn't run for Scottish 6
   context "avoiding duplicate matches" do
     # maybe there is a simpler version of this - at least not allowing 2 identical matches

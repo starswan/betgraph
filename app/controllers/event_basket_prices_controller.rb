@@ -20,10 +20,6 @@ class EventBasketPricesController < ApplicationController
 
 private
 
-  def event_basket_price_params
-    params.require(:event_basket_price).permit(:price, :betsize)
-  end
-
   def find_basket
     @basket = Basket.find params[:basket_id]
   end

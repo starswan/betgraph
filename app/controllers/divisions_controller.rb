@@ -24,6 +24,8 @@ class DivisionsController < ApplicationController
   # GET /divisions/1.xml
   def show
     @division = Division.find(params[:id])
+    @seasons = Season.find(Match.where(division: @division).select(:season_id).distinct.map(&:season_id)).sort_by(&:startdate)
+    @priced_seasons = @seasons.select { |s| s.matches.where(division: @division).with_prices.count.positive? }
 
     respond_to do |format|
       format.html # show.html.erb
