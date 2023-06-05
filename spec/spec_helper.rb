@@ -133,7 +133,7 @@ VCR.configure do |config|
   end
   config.filter_sensitive_data("<APIKEY>") do |interaction|
     # we talk to the BBC API which doesn't use this header
-    interaction.request.headers["X-Application"]&.first
+    interaction.request.headers["X-Application"]&.first || interaction.request.headers["X-Rapidapi-Key"]&.first
   end
   config.filter_sensitive_data("<TOKEN>") do |interaction|
     interaction.request.headers["X-Authentication"]&.first || JSON.parse(interaction.response.body)["sessionToken"]

@@ -33,6 +33,7 @@ jobs:
 
     env:
       RAILS_ENV: test
+      RAPID_API_KEY: test
 
     steps:
       - name: Checkout whole repository
