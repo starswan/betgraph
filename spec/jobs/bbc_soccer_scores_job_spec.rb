@@ -7,7 +7,7 @@ RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
     create(:soccer, calendars: build_list(:calendar, 1, divisions: divisions))
   end
 
-  context "when 23rd April 2023" do
+  context "when 15th April 2023" do
     let(:date) { Date.new(2023, 4, 15) }
 
     context "with one active division" do
@@ -45,10 +45,6 @@ RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
         }.to change(Scorer, :count).by(13)
       end
     end
-  end
-
-  context "when 5th May 2023" do
-    let(:date) { Date.new(2023, 4, 15) }
 
     context "with nil-nil" do
       let(:divisions) do

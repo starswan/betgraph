@@ -38,9 +38,6 @@ Layout/EmptyLinesAroundAccessModifier:
     - 'spec/models/match_spec.rb'
     - 'db/migrate/20140603180320_remove_basket_orphans.rb'
 
-Style/FrozenStringLiteralComment:
-  Enabled: true
-
 # This is ok in this one case - reading a ZIP file
 Lint/AssignmentInCondition:
   Exclude:

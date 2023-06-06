@@ -33,6 +33,7 @@ jobs:
 
     env:
       RAILS_ENV: test
+      RAPID_API_KEY: test
 
     steps:
       - name: Checkout
@@ -60,7 +61,7 @@ jobs:
           PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
 
       - name: Setup test db
-        run: bundle exec rake db:create db:schema:load
+        run: bundle exec rake db:schema:load
 
       - name: Install Node 14
         uses: actions/setup-node@v3
@@ -80,3 +81,6 @@ jobs:
         env:
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
           PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
+
+      - name: Run undercover natively
+        run: bundle exec undercover -c origin/${{ github.base_ref }}
