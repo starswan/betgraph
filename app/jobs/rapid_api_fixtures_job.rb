@@ -11,7 +11,7 @@ class RapidApiFixturesJob < RapidApiJob
     leagues = data.map { |d| d.fetch(:league) }
                   .reject { |c| UNLIKELY_COUNTRIES.include? c.fetch(:country) }
                   .map { |f| [f.fetch(:country), f.fetch(:name)] }
-                  .uniq.sort_by(&:first).select do |item|
+                  .uniq.sort_by { |cl| "#{cl.first} #{cl.last}" }.select do |item|
       logger.debug("Rapid API country [#{item.first}] League [#{item.last}]")
       FootballDivision.exists?(rapid_api_country: item.first, rapid_api_name: item.last)
     end
@@ -52,11 +52,11 @@ class RapidApiFixturesJob < RapidApiJob
 private
 
   UNLIKELY_COUNTRIES_A = %w[Andorra Albania Armenia Aruba Armenia Argentina Algeria Angola Azerbaidjan].freeze
-  UNLIKELY_COUNTRIES_B = %w[Belarus Boliva Bosnia Bulgaria Cameroon Chile Cuba Colombia Croatia].freeze
-  UNLIKELY_COUNTRIES_E = %w[Ecuador Egypt Eswatini Ethopia Nigeria Gibraltar Ghana].freeze
-  UNLIKELY_COUNTRIES_I = %w[Iran Russia Tajikistan Estonia Malawi India Indonesia Kazakhstan Kenya].freeze
-  UNLIKELY_COUNTRIES_M = %w[Mali Panama Peru Slovakia Slovenia Sudan Surinam].freeze
-  UNLIKELY_COUNTRIES_W = %w[World Zambia].freeze
+  UNLIKELY_COUNTRIES_B = %w[Belarus Benin Botswana Boliva Bosnia Bulgaria Cameroon Chile Cuba Colombia Croatia].freeze
+  UNLIKELY_COUNTRIES_E = %w[Ecuador Egypt Eswatini Estonia Ethopia Nigeria Gibraltar Ghana Guadeloupe Guatemala].freeze
+  UNLIKELY_COUNTRIES_I = %w[Iran Russia Tajikistan Malawi India Indonesia Kazakhstan Kenya Kosovo Latvia].freeze
+  UNLIKELY_COUNTRIES_M = %w[Mali Malaysia Macao Macendonia Panama Peru Slovakia Slovenia Sudan Surinam World].freeze
+  UNLIKELY_COUNTRIES_W = %w[South-Korea Singapore Zambia].freeze
   UNLIKELY_COUNTRIES = UNLIKELY_COUNTRIES_A + UNLIKELY_COUNTRIES_E + UNLIKELY_COUNTRIES_B + UNLIKELY_COUNTRIES_I + UNLIKELY_COUNTRIES_M + UNLIKELY_COUNTRIES_W
 
   def find_or_create_team(raw_name)
