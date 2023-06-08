@@ -20,7 +20,7 @@ class LinkMenuPathsToEvents < ActiveRecord::Migration[4.2]
     add_column :betfair_events, :menu_path_id, :integer, null: false
     MigrationBetfairEvent.reset_column_information
 
-    withAllEvents do |event|
+    with_all_events do |event|
       menu_path = MenuPath.findByName(event.menu_path_name)
       if menu_path
         event.menu_path_id = menu_path.id
@@ -38,7 +38,7 @@ class LinkMenuPathsToEvents < ActiveRecord::Migration[4.2]
 
   def down
     add_column :betfair_events, :menu_path_name, :string, null: false
-    withAllEvents do |event|
+    with_all_events do |event|
       event.menu_path_name = event.menu_path.name
       event.save!
     end
@@ -48,7 +48,7 @@ class LinkMenuPathsToEvents < ActiveRecord::Migration[4.2]
 
 private
 
-  def withAllEvents(&block)
+  def with_all_events(&block)
     count = MigrationBetfairEvent.count
     batchsize = 2000
     index = 0

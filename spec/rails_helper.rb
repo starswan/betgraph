@@ -55,7 +55,7 @@ if ENV["COVERAGE"]
 
     # Only set minimum coverage locally - CI uses Pronto::Undercover
     unless ENV.key? "CI"
-      minimum_coverage line: 89.65, branch: 62.32
+      minimum_coverage line: 89.81, branch: 62.32
       # we seem to have flakey/non-stable coverage values
       # maybe no longer...?
       maximum_coverage_drop 0.15

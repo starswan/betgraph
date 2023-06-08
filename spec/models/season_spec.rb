@@ -12,7 +12,7 @@ RSpec.describe Season do
 
   describe "#current?" do
     it "is not current for today" do
-      expect(season.current?(Date.today)).to eq(false)
+      expect(season.current?(Time.zone.today)).to eq(false)
     end
 
     it "is current for the start plus a small bit" do
