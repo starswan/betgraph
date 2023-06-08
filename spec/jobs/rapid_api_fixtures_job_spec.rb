@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe RapidApiJob, :vcr, type: :job do
+RSpec.describe RapidApiFixturesJob, :vcr, type: :job do
   before do
     soccer = create :soccer, calendars: build_list(:calendar, 1)
     division = create(:division, calendar: soccer.calendars.first, football_division: build(:football_division, rapid_api_country: "England", rapid_api_name: "League One"))
@@ -16,7 +16,9 @@ RSpec.describe RapidApiJob, :vcr, type: :job do
 
   it "calls the API" do
     expect {
-      described_class.perform_now date
-    }.to change(SoccerMatch, :count).by(11)
+      expect {
+        described_class.perform_now date
+      }.to change(SoccerMatch, :count).by(11)
+    }.to change(Scorer, :count).by(42)
   end
 end
