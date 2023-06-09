@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-nice ./backup.sh
+nice rake db:backup
+nice ./unpack_rake_backup.sh
 ./devdumptolive.sh
