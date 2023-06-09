@@ -58,8 +58,7 @@ RSpec/MultipleMemoizedHelpers:
   Max: 14
 
 Style/HashSyntax:
-   SupportedShorthandSyntax: either
-
+  EnforcedShorthandSyntax: either
 
 Rails/CreateTableWithTimestamps:
   Exclude:
