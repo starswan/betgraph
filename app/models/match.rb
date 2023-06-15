@@ -37,7 +37,7 @@ class Match < ApplicationRecord
   scope :live_priced, -> { where(live_priced: true) }
   scope :future, -> { where("kickofftime >= ?", Time.now) }
   scope :played_on, ->(date) { where("kickofftime >= ?", date).where("kickofftime < ?", date + 1.day) }
-  scope :with_prices, -> { where.not(market_prices_count: 0) }
+  scope :with_prices, -> { where.not(prices_count: 0) }
 
   scope :activelive, lambda {
     almost_live.joins(:bet_markets).merge(BetMarket.not_closed_or_suspended).distinct
