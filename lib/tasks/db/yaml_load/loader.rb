@@ -10,7 +10,7 @@ module Tasks
             names = %w[sports divisions betfair_market_types teams matches basket_rules baskets bet_markets betfair_runner_types market_runners]
             files = names.map { |h| "#{h}.yml" }
 
-            dirname = "#{Rails.root}/db/#{dir}"
+            dirname = Rails.root.join("db/#{dir}").to_s
             filenames = Dir.entries(dirname).reject { |d| %w[. ..].include?(d) }
             sized_files = filenames.sort_by { |h| File.stat("#{dirname}/#{h}").size }
 
