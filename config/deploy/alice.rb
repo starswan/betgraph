@@ -27,7 +27,6 @@ set :default_environment,
 
 # set :linked_files, fetch(:linked_files, []) << ".env.production"
 
-
 # Extended Server Syntax
 # ======================
 # This can be used to drop a more detailed server definition into the
