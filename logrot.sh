@@ -1,4 +1,4 @@
 #
 # $Id$
 #
-logrotate $* -s tmp/lr.state
+#logrotate $* -s tmp/lr.state
