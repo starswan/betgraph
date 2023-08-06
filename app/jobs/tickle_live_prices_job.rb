@@ -1,22 +1,22 @@
-# frozen_string_literal: true
-
 class TickleLivePricesJob < ApplicationJob
   queue_priority PRIORITY_LIVE_PRICES
 
   def perform
-    matches = BetMarket.activelive.group_by(&:match).keys
+    activelive = BetMarket.activelive
 
-    if matches.any?
-      matches.each { |match| CaptureMatchPricesJob.perform_later match }
+    if activelive.any?
+      activelive.group_by(&:match).each_key { |match| CaptureMatchPricesJob.perform_later match }
       TickleLivePricesJob.set(wait: 45.seconds).perform_later
     else
-      first_market = BetMarket.live.order(:time).first
-      if first_market
+      lives = BetMarket.live.order(:time)
+      if lives.any?
         now = Time.zone.now
-        next_time = first_market.time || Time.zone.now + 1.day
+        next_time = lives.first.time
         gap = (next_time - now) / 2
         if gap.positive?
           TickleLivePricesJob.set(wait: gap.seconds).perform_later
+        else
+          logger.debug("TickleLivePricesJob stopped for negative #{gap}")
         end
       end
     end
