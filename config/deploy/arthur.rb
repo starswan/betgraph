@@ -23,7 +23,7 @@ set :rails_env, "arthur"
 set :rvm_ruby_string, "3.1.4@bg"
 # RVM now installed on arthur via an apt package
 # not on Debian it's not
-# set :rvm_type, "/usr/share/rvm"
+set :rvm_type, "/usr/share/rvm"
 
 # set :linked_files, fetch(:linked_files, []) << ".env.arthur"
 
