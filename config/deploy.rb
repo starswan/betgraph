@@ -6,6 +6,8 @@
 # RVM bootstrap
 #
 require "capistrano/ext/multistage"
+require "whenever/capistrano"
+
 set :stages, %w(alice pi arthur nx6325)
 set :default_stage, "arthur"
 set :linked_dirs, %w{node_modules}
