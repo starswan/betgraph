@@ -22,7 +22,7 @@ gem "backup-task"
 
 # gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
 gem "betfair-ng", require: "betfair"
-# sadly net-hhtp-persistent doesn't respect https_proxy env var
+# sadly net-http-persistent doesn't respect https_proxy env var
 # so doesn't work on alice
 gem "curb"
 
@@ -44,7 +44,8 @@ gem "devise"
 # environment variables in .env files
 gem "dotenv-rails"
 # github version fixes Ruby 2.4.x deprecation warning
-gem "ezcrypto", git: "https://github.com/pglombardo/ezcrypto"
+# gem "ezcrypto", git: "https://github.com/pglombardo/ezcrypto"
+gem "ezcrypto"
 gem "faraday", ">= 2"
 gem "faraday-retry"
 
