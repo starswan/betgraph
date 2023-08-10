@@ -32,7 +32,14 @@ Backburner.configure do |config|
   config.reserve_timeout = 3600
   config.max_job_retries = 20
   # config.on_error = lambda { |ex| Rails.logger.error(ex); ActiveRecord::Base.connection.reconnect! }
-  config.on_error = ->(ex) { Rails.logger.error(ex); raise ex }
+  config.on_error = ->(ex) {
+    Rails.logger.error(ex)
+    if ex is_a?(ActiveRecord::Deadlocked)
+      ActiveRecord::Base.connection.reconnect!
+    else
+      raise ex
+    end
+  }
 
   # This caused a weird autoload error in Rails 6 - it's probably not needed
   # config.default_priority = ApplicationJob::OFFSET_PRI + 100
