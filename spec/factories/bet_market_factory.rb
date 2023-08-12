@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -40,5 +38,9 @@ FactoryBot.define do
     valuer { "CorrectScore" }
     active { true }
     association :sport
+
+    trait :asian do
+      name { "Asian Handicap" }
+    end
   end
 end

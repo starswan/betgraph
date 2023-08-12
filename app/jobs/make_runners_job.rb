@@ -6,18 +6,9 @@
 class MakeRunnersJob < BetfairJob
   queue_priority PRIORITY_MAKE_RUNNERS
 
-  def perform(bet_market)
-    bc.getMarketDetail(bet_market.exchange_id, bet_market.marketid).tap do |marketdetail|
-      logger.debug "getMarket detail #{marketdetail.inspect}"
-      make_new_runners(bet_market, marketdetail)
-    end
-  end
-
-private
-
-  def make_new_runners(bet_market, marketdetail)
+  def perform(bet_market, runner_data)
     runners = []
-    marketdetail.fetch(:runners).each_with_index do |runner, index|
+    runner_data.each_with_index do |runner, index|
       if bet_market.asian_handicap?
         logger.debug "#{bet_market.name} making #{(index + 1).ordinalize} runner #{runner.fetch(:runnerName)} hcap: #{runner.fetch(:handicap)}"
         runners << { name: runner.fetch(:runnerName), handicap: runner.fetch(:handicap) }

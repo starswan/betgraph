@@ -113,6 +113,10 @@ class BetMarket < ApplicationRecord
     end
   end
 
+  def betfair_marketid
+    "#{exchange_id}.#{marketid}"
+  end
+
   # This guy needs to collect all the runners price data for the current time
   # and then invoke the market valuer with market_param, [runner_params] where
   # runner_params are runner_value(from BetfairRunnerType), backprice, layprice
