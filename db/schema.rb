@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_08_13_211105) do
+ActiveRecord::Schema.define(version: 2023_08_14_213325) do
 
   create_table "active_admin_comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "namespace"
@@ -88,6 +88,7 @@ ActiveRecord::Schema.define(version: 2023_08_13_211105) do
     t.integer "market_prices_count", default: 0, null: false
     t.integer "market_runners_count", default: 0, null: false
     t.datetime "deleted_at"
+    t.bigint "version"
     t.index ["active"], name: "index_bet_markets_on_active"
     t.index ["betfair_market_type_id"], name: "index_bet_markets_on_betfair_market_type_id"
     t.index ["deleted_at"], name: "index_bet_markets_on_deleted_at"
