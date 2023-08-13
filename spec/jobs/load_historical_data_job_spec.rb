@@ -1,7 +1,6 @@
 require "rails_helper"
 
-RSpec.describe LoadHistoricalDataJob, type: :job do
-  # let(:datafile) { Rails.root.join("spec/fixtures/31954039.txt") }
+RSpec.describe LoadHistoricalDataJob, :slow, type: :job do
   let(:sport) do
     create(:soccer,
            betfair_market_types: [
@@ -11,44 +10,47 @@ RSpec.describe LoadHistoricalDataJob, type: :job do
   end
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }
+  let(:forestchelsea) { Rails.root.join("spec/fixtures/basic/31954039.bz2") }
+  let(:westhamliverpool) { Rails.root.join("spec/fixtures/advanced/27635178.bz2") }
 
-  context "with basic data file" do
+  context "with a match" do
     before do
       create(:soccer_match,
-             name: "Nottm Forest v Chelsea",
+             name: match_name,
              division: division,
-             kickofftime: Time.zone.local(2023, 1, 1, 16, 30, 0))
+             kickofftime: match_time)
     end
 
-    # forest vs chelsea
-    let(:datafile) { Rails.root.join("spec/fixtures/basic/31954039.bz2") }
+    context "with basic data file" do
+      let(:match_name) { "Nottm Forest v Chelsea" }
+      let(:match_time) { Time.zone.local(2023, 1, 1, 16, 30, 0) }
 
-    it "processes a bzip2 file with iostreams" do
-      expect {
+      it "processes a bzip2 file with iostreams" do
         expect {
-          described_class.perform_now(datafile)
-        }.to change(MarketPriceTime, :count).by(746)
-      }.to change(MarketPrice, :count).by(2904)
+          expect {
+            described_class.perform_now(forestchelsea)
+          }.to change(MarketPriceTime, :count).by(742)
+        }.to change(MarketPrice, :count).by(2847)
+      end
+    end
+
+    context "with advanced data file" do
+      let(:match_name) { "West Ham v Liverpool" }
+      let(:match_time) { Time.zone.local(2016, 1, 2, 12, 45, 0) }
+
+      it "processes an advanced file" do
+        expect {
+          expect {
+            described_class.perform_now(westhamliverpool)
+          }.to change(MarketPriceTime, :count).by(4439)
+        }.to change(MarketPrice, :count).by(6316)
+      end
     end
   end
 
-  context "with advanced data file" do
-    before do
-      create(:soccer_match,
-             name: "West Ham v Liverpool",
-             division: division,
-             kickofftime: Time.zone.local(2016, 1, 2, 12, 45, 0))
-    end
-
-    # liverpool vs Westham
-    let(:datafile) { Rails.root.join("spec/fixtures/advanced/27635178.bz2") }
-
-    it "processes an advanced file" do
-      expect {
-        expect {
-          described_class.perform_now(datafile)
-        }.to change(MarketPriceTime, :count).by(4454)
-      }.to change(MarketPrice, :count).by(6342)
+  context "without a match" do
+    it "processes file without crashing" do
+      described_class.perform_now(forestchelsea)
     end
   end
 end

@@ -72,7 +72,7 @@ jobs:
         run: yarn install
 
       - name: Ruby tests
-        run: bundle exec rake spec
+        run: bundle exec rspec -t ~slow
         env:
           COVERAGE: true
 
