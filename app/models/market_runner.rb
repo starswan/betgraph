@@ -10,8 +10,7 @@ class MarketRunner < ApplicationRecord
 
   # not sure whats going on with asianLineId - maybe it no longer exists?
   # validates :asianLineId, presence: true, if: -> { bet_market.asian_handicap? }
-  # TODO: This ought to be possible, but fails a controller test
-  # validates_uniqueness_of :description, scope: :bet_market
+  validates :description, uniqueness: { scope: [:bet_market, :handicap] }
   # MarketPrice is the bottom of the chain, so delete_all is ok
   has_many :market_prices, inverse_of: :market_runner, dependent: :delete_all
   belongs_to :bet_market, inverse_of: :market_runners, counter_cache: true
