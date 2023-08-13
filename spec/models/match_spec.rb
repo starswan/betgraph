@@ -8,6 +8,7 @@ require "rails_helper"
 RSpec.describe Match do
   before do
     create(:season, calendar: calendar)
+    create(:betfair_market_type, :overunder25, sport: sport)
   end
 
   let(:sport) { create(:sport) }
@@ -26,7 +27,7 @@ RSpec.describe Match do
         build(:scorer, team: hometeam, goaltime: 6),
         build(:scorer, team: hometeam, goaltime: 8),
       ])
-      create(:bet_market, match: m)
+      create(:bet_market, :overunder, match: m)
     end
   end
 

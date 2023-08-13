@@ -16,8 +16,13 @@ FactoryBot.define do
     time { Time.zone.now }
 
     trait :overunder do
-      markettype { "O" }
+      markettype { "OVER_UNDER-25" }
       name { "Over/Under 2.5 goals" }
+    end
+
+    trait :match_odds do
+      markettype { "MATCH_ODDS" }
+      name { "Match Odds" }
     end
 
     trait :open do
@@ -31,8 +36,6 @@ FactoryBot.define do
     trait :asian do
       markettype { "A" }
     end
-
-    # association :match, factory: :soccer_match
   end
 
   factory :betfair_market_type do
@@ -40,5 +43,10 @@ FactoryBot.define do
     valuer { "CorrectScore" }
     active { true }
     association :sport
+
+    trait :overunder25 do
+      name { "Over/Under 2.5 goals" }
+      valuer { "OverUnderGoals" }
+    end
   end
 end
