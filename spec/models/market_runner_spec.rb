@@ -79,9 +79,9 @@ RSpec.describe MarketRunner do
 
     it "old runner type does not create new BetfairRunnerType" do
       expect {
-        market.market_runners.create!(selectionId: 2,
-                                      asianLineId: 0,
-                                      description: runner.description)
+        bm2.market_runners.create!(selectionId: 2,
+                                   asianLineId: 0,
+                                   description: runner.description)
       }.not_to change(BetfairRunnerType, :count)
     end
 
