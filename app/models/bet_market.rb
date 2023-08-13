@@ -30,6 +30,9 @@ class BetMarket < ApplicationRecord
 
   validates :marketid, uniqueness: { scope: :deleted_at }
 
+  validates :number_of_runners, :marketid, :time, presence: true
+  validates :name, presence: true, uniqueness: { scope: :match }
+
   # Yes some of these markets aren't strictly 'Asian Handicap' markets but they behave like it
   # for pricing purposes i.e. each runner has a 'handicap' value associated with it.
   # Goals markets are often just the number e.g. 7 goals === handicap 7
@@ -98,8 +101,6 @@ class BetMarket < ApplicationRecord
   def asian_handicap?
     markettype.in? ASIAN_MARKET_TYPES
   end
-
-  validates :name, :number_of_runners, :marketid, :time, presence: true
 
   before_create do |betmarket|
     betmarket.betfair_market_type = betmarket.find_market_type

@@ -83,7 +83,7 @@ RSpec.describe BetMarket do
   end
 
   describe "#closed" do
-    let!(:closed_market) { create(:bet_market, :closed, match: soccermatch) }
+    let!(:closed_market) { create(:bet_market, :closed, name: "Fred", match: soccermatch) }
 
     it "shows closed markets" do
       expect(described_class.closed).to eq([closed_market])
@@ -132,7 +132,7 @@ RSpec.describe BetMarket do
   it "can create brand new market" do
     expect {
       expect {
-        create(:bet_market, match: soccermatch)
+        create(:bet_market, name: "Fred", match: soccermatch)
         soccermatch.reload
       }.to change(described_class, :count).by(1)
     }.to change(soccermatch, :bet_markets_count).by(1)
@@ -154,7 +154,7 @@ RSpec.describe BetMarket do
 
   it "new match not created if parent exists" do
     expect {
-      create(:bet_market, match: soccermatch)
+      create(:bet_market, name: "Fred", match: soccermatch)
     }.to change(Match, :count).by(0)
   end
 end

@@ -17,7 +17,7 @@ RSpec.describe EventBasketPricesController, type: :controller do
     create_list(:market_price, 1, market_runner: mr1, back1price: 1.9, back1amount: 25, market_price_time: mpt)
     create(:market_runner, bet_market: bm1,
                            market_prices: build_list(:market_price, 1, lay1price: 1.98, lay1amount: 126.51, market_price_time: mpt))
-    create(:bet_market,
+    create(:bet_market, :overunder,
            match: sm,
            market_runners: [
              build(:market_runner,

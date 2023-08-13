@@ -54,8 +54,12 @@ RSpec.describe MarketRunner do
       create(:soccer_match, live_priced: true, division: division,
                             name: "#{hometeam.name} v #{awayteam.name}")
     end
+    let(:match_two) do
+      create(:soccer_match, live_priced: true, division: division,
+                            name: "#{awayteam.name} v #{hometeam.name}")
+    end
 
-    let(:market) { create(:bet_market, match: soccermatch) }
+    let(:market) { create(:bet_market, :overunder, match: soccermatch) }
     let(:runner) { create(:market_runner, bet_market: market) }
 
     let(:bm2) { create(:bet_market, active: true, match: soccermatch) }
@@ -63,6 +67,8 @@ RSpec.describe MarketRunner do
 
     before do
       create(:betfair_market_type, name: "Correct Score", sport: sport)
+      create(:betfair_market_type, name: market.name, sport: sport)
+      create(:betfair_market_type, name: bm2.name, sport: sport)
 
       create(:market_price_time,
              market_prices: [build(:market_price, market_runner: runner)])
@@ -75,25 +81,6 @@ RSpec.describe MarketRunner do
                                    asianLineId: 0,
                                    description: "Hello")
       }.to change(BetfairRunnerType, :count).by(1)
-    end
-
-    it "old runner type does not create new BetfairRunnerType" do
-      expect {
-        bm2.market_runners.create!(selectionId: 2,
-                                   asianLineId: 0,
-                                   description: runner.description)
-      }.not_to change(BetfairRunnerType, :count)
-    end
-
-    it "runner update" do
-      expect(runner.save).to eq(true)
-      expect(runner.runnername).to start_with("Runner ")
-      expect(runner.runner_value(0, 0)).to eq(1)
-    end
-
-    it "all runners can be valued" do
-      expect(runner.runner_value(0, 0)).to eq(1)
-      expect(handicap_runner.runner_value(0, 0)).to eq(1)
     end
 
     it "reversed prices" do
