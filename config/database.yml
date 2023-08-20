@@ -7,7 +7,6 @@ development:
   database: bfrails_development
   username: rails
   password: 123rails!
-  reconnect: true
   host: localhost
 #  port: 3307
 # using the name rather than the IP address appears to
@@ -29,7 +28,6 @@ arthur:
   adapter: mysql2
   encoding: utf8
   socket: /var/run/mysqld/mysqld.sock
-  reconnect: true
   database: bfrails_development
   username: rails
   password: 123rails!
@@ -68,7 +66,6 @@ production:
   username: starswan
   password: <%= ENV['MYSQL_STARSWAN_PASSWORD'] %>
   socket: /var/run/mysqld/mysqld.sock
-  reconnect: true
   host: localhost
 
 pi:
@@ -77,7 +74,6 @@ pi:
   database: bfrails_development
   username: rails
   password: 123rails!
-  reconnect: true
   host: arthur
 
 ford:
@@ -87,4 +83,3 @@ ford:
   username: rails
   password: 123rails!
   socket: /var/run/mysqld/mysqld.sock
-  reconnect: true
