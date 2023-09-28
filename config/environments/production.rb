@@ -94,6 +94,11 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.active_job.queue_adapter = :backburner
+
+  # https://medium.com/@atinders/easy-log-rotation-with-rails-5-7b8d3c173461
+  # Keeps the Last 10 log files which are rotated at every 100MB
+  config.logger = Logger.new(config.paths['log'].first, 10, 100.megabytes)
+
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector
   # middleware. The `delay` is used to determine how long to wait after a write

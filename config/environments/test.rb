@@ -57,6 +57,10 @@ Rails.application.configure do
   # Raises error for missing translations.
   config.i18n.raise_on_missing_translations = true
 
+  # https://medium.com/@atinders/easy-log-rotation-with-rails-5-7b8d3c173461
+  # Keeps the Last 5 log files which are rotated at every 10MB
+  config.logger = Logger.new(config.paths['log'].first, 5, 10.megabytes)
+
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
 end

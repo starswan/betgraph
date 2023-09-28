@@ -60,9 +60,6 @@ jobs:
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
           PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
 
-      - name: Setup test db
-        run: bundle exec rake db:schema:load
-
       - name: Install Node 14
         uses: actions/setup-node@v3
         with:
@@ -70,6 +67,12 @@ jobs:
 
       - name: Yarn install
         run: yarn install
+
+      - name: Setup log directory
+        run: mkdir -p log
+
+      - name: Setup test db
+        run: bundle exec rake db:schema:load
 
       - name: Ruby tests
         run: bundle exec rake spec
