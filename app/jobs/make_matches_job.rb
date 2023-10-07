@@ -8,68 +8,41 @@ class MakeMatchesJob < BetfairJob
 
   def perform(sport)
     sport.competitions.active.each do |competition|
-      make_matches(competition) do |market|
-        MakeRunnersJob.perform_later market
+      # emptyArrayHash = Hash.new { |h, i| h[i] = [] }
+      # marketsByMenuPath = market_list.each_with_object(emptyArrayHash) { |market, hash| hash[market.menuPath] << market }
+      # events_by_name = event_list.index_by { |v| v.fetch(:name)}
+      # This looks through all the active menu paths, and tries to create a match based on
+      # whether it looks like it might represent a match/event - this is actually sport-specific
+      # (Note that A v B is soccer, Tennis, Cricket etc, A @ B is Baseball, American Football and
+      # ending in 'GP' is Motor Sport(F1/Super Bikes))
+      # sport.menu_paths.active.select { |mp| mp.name[-1].in? events_by_name.keys }.each do |menu_path|
+      # markets = marketsByMenuPath[menu_path.name]
+      division = competition.division
+      event_list = bc.get_events_for_competition(id: competition.betfair_id)
+      make_matches(division, event_list).each do |bet_market|
+        runner_detail = bc.getMarketDetail(bet_market.exchange_id, bet_market.marketid)
+        MakeRunnersJob.perform_later bet_market, runner_detail.fetch(:runners)
       end
     end
   end
 
-  def make_matches(competition)
-    # emptyArrayHash = Hash.new { |h, i| h[i] = [] }
-    # marketsByMenuPath = market_list.each_with_object(emptyArrayHash) { |market, hash| hash[market.menuPath] << market }
-    # events_by_name = event_list.index_by { |v| v.fetch(:name)}
-    # This looks through all the active menu paths, and tries to create a match based on
-    # whether it looks like it might represent a match/event - this is actually sport-specific
-    # (Note that A v B is soccer, Tennis, Cricket etc, A @ B is Baseball, American Football and
-    # ending in 'GP' is Motor Sport(F1/Super Bikes))
-    # sport.menu_paths.active.select { |mp| mp.name[-1].in? events_by_name.keys }.each do |menu_path|
-    # markets = marketsByMenuPath[menu_path.name]
-    event_list = bc.get_events_for_competition(id: competition.betfair_id)
-    event_list.each do |event|
-      # name = menu_path.name[-1]
+  def make_matches(division, event_list)
+    event_list.flat_map do |event|
       name = event.fetch(:name)
       markets = bc.get_markets_for_event(event)
+                  .map { |m| m.merge(m.fetch(:description).except(:description)) }
       a_vs_b = name.index(" v ")
       a_at_b = name.index(" @ ")
       if a_vs_b
-        markets = make_single_match competition, event, markets
-        markets.each { |m| yield m }
+        BetfairHandler::MarketMaker.make_single_match division, event, markets
       elsif a_at_b
-        markets = make_single_match competition, event, markets
-        markets.each { |m| yield m }
+        BetfairHandler::MarketMaker.make_single_match division, event, markets
       elsif name.ends_with?("Grand Prix")
-        markets = make_single_match competition, event, markets
-        markets.each { |m| yield m }
+        BetfairHandler::MarketMaker.make_single_match division, event, markets
+      else
+        []
       end
     end
-  end
-
-  def make_single_match(competition, event, markets)
-    # sport = menu_path.sport
-    # hometeam = sport.findTeam hometeamstr
-    # awayteam = sport.findTeam awayteamstr
-    division = competition.division
-    if division.active
-      # first_market = markets.first
-      logger.debug "make_single_match #{event.inspect} #{competition}"
-      starttime = Time.zone.parse(event.fetch(:openDate))
-
-      match = division.matches
-        .where(name: event.fetch(:name))
-        .where("kickofftime >= ? and kickofftime <= ?", starttime.to_date, (starttime + 1.day).to_date).first
-      if match.nil?
-        match = make_match_from_params division, starttime, event.fetch(:name)
-      end
-      make_markets_for_match(match, markets)
-    else
-      []
-    end
-  end
-
-  def make_match_from_params(division, kickofftime, name)
-    match_type_klass = division.calendar.sport.match_type.constantize
-    match_type_klass.where(name: name).where("kickofftime > ?", Time.zone.now).each(&:destroy)
-    match_type_klass.create! division: division, kickofftime: kickofftime, name: name
   end
 
   # def make_event_and_markets(competition, markets, venuename)
@@ -105,34 +78,5 @@ class MakeMatchesJob < BetfairJob
   def find_division(menu_path)
     menu_path = menu_path.parent_path until menu_path.division
     menu_path.division
-  end
-
-private
-
-  def make_markets_for_match(match, markets)
-    new_markets = markets.reject do |m|
-      exchange_id, market_id = m.fetch(:marketId).split(".")
-      BetMarket.find_by exchange_id: exchange_id, marketid: market_id
-    end
-    new_markets.map { |market|
-      make_market_for_match match, market
-      # BetMarket.find(parsed_market.market_id)
-    }.select(&:active)
-  end
-
-  def make_market_for_match(match, market)
-    exchange_id, market_id = market.fetch(:marketId).split(".")
-    match.bet_markets.create!(
-      marketid: market_id,
-      name: market.fetch(:marketName),
-      markettype: market.dig(:description, :marketType),
-      status: "ACTIVE",
-      live_priced: market.dig(:description, :turnInPlayEnabled),
-      live: market.dig(:description, :turnInPlayEnabled),
-      time: market.dig(:description, :marketTime),
-      exchange_id: exchange_id,
-      number_of_runners: market.fetch(:runners).size,
-      total_matched_amount: market.fetch(:totalMatched),
-    )
   end
 end

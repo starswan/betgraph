@@ -1,7 +1,7 @@
 #
 # $Id$
 #
-alias t='nice rake spec'
+alias t='COVERAGE=0 nice rake spec'
 alias n='rspec -n'
 alias f='rspec --only-failures'
 alias ct='COVERAGE=true nice rake spec'
@@ -17,4 +17,4 @@ alias qt='rake backburner:threading:work'
 alias cl='clockwork config/clock.rb'
 alias rc='rubycritic app lib'
 alias g='bundle exec guard'
-alias uc='undercover -c main -l coverage/lcov/betgraph.lcov'
+alias uc='undercover -c origin/main -l coverage/lcov/betgraph.lcov'

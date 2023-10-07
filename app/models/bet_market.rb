@@ -58,6 +58,11 @@ class BetMarket < ApplicationRecord
 
   scope :by_active_and_name, -> { order(active: :desc, name: :asc) }
 
+  scope :by_betfair_market_id, lambda { |marketid|
+    exchange_id, market_id = marketid.split(".")
+    where exchange_id: exchange_id, marketid: market_id
+  }
+
   scope :active, lambda {
     joins(:match)
       .includes(:match)
@@ -112,6 +117,10 @@ class BetMarket < ApplicationRecord
     if bm.active && (bm.betfair_market_type.nil? || bm.match.nil? || bm.betfair_market_type.sport != bm.match.division.calendar.sport)
       bm.betfair_market_type = bm.find_market_type
     end
+  end
+
+  def betfair_marketid
+    "#{exchange_id}.#{marketid}"
   end
 
   # This guy needs to collect all the runners price data for the current time

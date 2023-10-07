@@ -89,6 +89,14 @@ gem "passenger", "~> 5.0"
 
 gem "rubyzip"
 
+# BZip 2 support
+# neither of these 2 seem to work
+# gem "ruby-bzs", require: "bzs"
+# gem 'seven_zip_ruby'
+# gem "bzip2-ffi"
+gem "iostreams"
+gem "bzip2-ffi"
+
 # YAML database dump for postgres conversion attempt
 # this gem possibly has issues on loading
 # due to excess RAM usage - it can't save either
@@ -97,7 +105,6 @@ gem "morrisjs-rails"
 gem "raphael-rails"
 # dunno whether this is still any good?
 # gem "newrelic_rpm"
-gem "iostreams"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

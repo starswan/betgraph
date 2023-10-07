@@ -3,7 +3,8 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= "test"
 
-if ENV["COVERAGE"]
+# default to coverage 'on' (e.g. for guard)
+if ENV.fetch("COVERAGE", 1).to_i.positive?
   require "simplecov"
   require "simplecov-lcov"
 
@@ -55,7 +56,7 @@ if ENV["COVERAGE"]
 
     # Only set minimum coverage locally - CI uses Pronto::Undercover
     unless ENV.key? "CI"
-      minimum_coverage line: 89.81, branch: 62.32
+      minimum_coverage line: 90.07, branch: 64.56
       # we seem to have flakey/non-stable coverage values
       # maybe no longer...?
       maximum_coverage_drop 0.15
