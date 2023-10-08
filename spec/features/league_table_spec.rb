@@ -31,7 +31,7 @@ RSpec.describe "LeagueTables", type: :feature do
                           division: division, result: build(:result), kickofftime: Time.zone.local(2023, 5, 20, 15, 0, 0))
   end
 
-  it "shows the league table and fixtures" do
+  it "shows the league table and fixtures", :js do
     visit division_path(division)
     # This is the link to bring up the (historic) fixtures for this division
     click_on "[4]"
