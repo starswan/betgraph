@@ -37,6 +37,8 @@ class ApplicationJob < ActiveJob::Base
   # Lower than lowest BetfairJob which is currently make menu paths
   PRIORITY_KEEP_ALIVE = OFFSET_PRI + 50
 
+  # Load historic data higher than batch job so it gets throughput
+  PRIORITY_LOAD_HISTORIC_DATA = OFFSET_PRI + 52
   PRIORITY_LOAD_FOOTBALL_DATA = OFFSET_PRI + 55
   # This don't involve connecting to the API, so lower tnan everything
   PRIORITY_INFER_GOAL_TIMES = OFFSET_PRI + 65

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get "match_teams/index"
 
-  resources :sports, except: [:new, :create] do
+  resources :sports, only: [:show] do
     resources :basket_rules
     resources :betfair_market_types, only: [:index, :show, :edit, :update, :destroy]
     resources :divisions
@@ -98,6 +98,6 @@ Rails.application.routes.draw do
   resources :basket_items
   resources :market_price_times
 
+  # root path
   get "/" => "matches#future"
-  # get '/:controller(/:action(/:id))'
 end

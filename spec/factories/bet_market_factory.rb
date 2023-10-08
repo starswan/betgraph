@@ -18,6 +18,11 @@ FactoryBot.define do
       name { "Over/Under 2.5 goals" }
     end
 
+    trait :correct_score do
+      markettype { "CORRECT_SCORE" }
+      name { "Correct Score" }
+    end
+
     trait :match_odds do
       markettype { "MATCH_ODDS" }
       name { "Match Odds" }
@@ -46,9 +51,19 @@ FactoryBot.define do
       name { "Asian Handicap" }
     end
 
+    trait :correct_score do
+      name { "Correct Score" }
+      valuer { "CorrectScore" }
+    end
+
     trait :overunder25 do
       name { "Over/Under 2.5 goals" }
       valuer { "OverUnderGoals" }
+    end
+
+    trait :match_odds do
+      name { "Match Odds" }
+      valuer { "MatchOdds" }
     end
   end
 end

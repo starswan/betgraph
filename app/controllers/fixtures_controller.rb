@@ -3,9 +3,9 @@
 class FixturesController < ApplicationController
   before_action :load_season
 
-  # show current table
+  # show table at season start with no games played
   def index
-    @date = @all_matches.first.kickofftime
+    @date = @all_matches.first.kickofftime.to_date
     @matches = Match.none
     @fixtures = @all_matches.played_on(@date)
     load_teams

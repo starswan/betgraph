@@ -12,10 +12,10 @@ class Sport < ApplicationRecord
   has_many :basket_rules, dependent: :destroy
   has_many :calendars, dependent: :destroy
   has_many :teams, dependent: :destroy
+  has_many :competitions, dependent: :destroy
 
   has_many :seasons, through: :calendars
   has_many :divisions, through: :calendars
-  has_many :competitions
   has_many :matches, through: :divisions
 
   before_create do |sport|
