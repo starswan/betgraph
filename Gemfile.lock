@@ -605,7 +605,7 @@ GEM
       rugged (>= 0.27, < 1.6)
     unicode-display_width (2.4.2)
     uniform_notifier (1.16.0)
-    vcr (6.1.0)
+    vcr (6.2.0)
     virtus (2.0.0)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
