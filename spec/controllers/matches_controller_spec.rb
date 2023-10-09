@@ -17,6 +17,7 @@ RSpec.describe MatchesController, type: :controller do
   let(:soccermatch) do
     create(:soccer_match,
            division: division,
+           kickofftime: Time.zone.local(2017, 11, 1, 15, 0, 0),
            name: "#{hometeam.name} v #{awayteam.name}")
   end
   let!(:bet_market) { create(:bet_market, active: true, time: Time.zone.now + 10.minutes, match: soccermatch) }
