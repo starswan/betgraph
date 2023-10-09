@@ -70,7 +70,10 @@ jobs:
       - name: Setup test db
         run: bundle exec rake db:create db:schema:load
 
+      # Run ruby tests in headless mode
       - name: Ruby tests
-        run: bundle exec rake spec
+        uses: GabrielBB/xvfb-action@v1
+        with:
+          run: bundle exec rake spec
         env:
-          COVERAGE: false
+          COVERAGE: 0
