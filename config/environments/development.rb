@@ -78,5 +78,5 @@ Rails.application.configure do
 
   # https://medium.com/@atinders/easy-log-rotation-with-rails-5-7b8d3c173461
   # Keeps the Last 5 log files which are rotated at every 10MB
-  config.logger = Logger.new(config.paths['log'].first, 5, 10.megabytes)
+  config.logger = Logger.new(config.paths['log'].first, 5, 50.megabytes)
 end
