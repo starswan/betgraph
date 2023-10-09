@@ -385,7 +385,7 @@ GEM
       rack
       rake (>= 0.8.1)
     path_expander (1.1.1)
-    pg (1.4.5)
+    pg (1.5.4)
     popper_js (2.11.6)
     pronto (0.11.1)
       gitlab (>= 4.4.0, < 5.0)
