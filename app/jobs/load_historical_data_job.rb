@@ -2,7 +2,7 @@
 # $Id$
 #
 class LoadHistoricalDataJob < ApplicationJob
-  queue_as :default
+  queue_priority PRIORITY_LOAD_HISTORIC_DATA
 
   def perform(line)
     timestamp = Time.zone.at(line.fetch(:pt) / 1000.0)
@@ -62,13 +62,13 @@ class LoadHistoricalDataJob < ApplicationJob
         #             market_def.fetch(:runners).map { |e| e.except(:sortPriority) }
         #           end
         runners = market_def.fetch(:runners).map { |e| e.except(:sortPriority) }
-        event_time = (timestamp - Time.zone.parse(market_def.fetch(:openDate))).to_i
+        starttime = Time.zone.parse(market_def.fetch(:openDate))
+        event_time = (timestamp - starttime).to_i
 
         logger.info("Time [#{event_time / 60}:#{event_time % 60}] #{market_def.fetch(:marketId)} [#{name}] (#{market_def.fetch(:version)}) #{runners}")
 
-        next unless event.nil?
+        # next unless event.nil?
 
-        starttime = Time.zone.parse(market_def.fetch(:openDate))
         name = market_def.fetch(:eventName)
         hometeamname, awayteamname = name.split(" v ")
         hometeam = TeamName.find_by(name: hometeamname)
@@ -76,11 +76,9 @@ class LoadHistoricalDataJob < ApplicationJob
 
         next unless hometeam.present? && awayteam.present?
 
-        division = Division.active.detect { |d| d.find_match(hometeam.team, awayteam.team, starttime).present? }
-
-        # if division.present?
-        event = division.find_match(hometeam.team, awayteam.team, starttime)
-        # end
+        # event = Division.active.map { |d| d.find_match(hometeam.team, awayteam.team, starttime) }.compact.first
+        division = Division.active.detect { |d| d.find_match(hometeam.team, awayteam.team, starttime) }
+        event = division.find_match(hometeam.team, awayteam.team, starttime) if division.present?
       end
 
       if event.present?
@@ -105,14 +103,15 @@ class LoadHistoricalDataJob < ApplicationJob
         #   o.update!(version: new_name.fetch(:version), name: new_name.fetch(:marketName))
         # end
         # (old_markets + new_new).each do |market|
-        #   old_ones = event.bet_markets
-        #                   .where(name: market.fetch(:marketName))
-        #                .reject { |m| m.betfair_marketid == market.fetch(:marketId) }
-        #   old_ones.each do |o|
-        #     Rails.logger.info("Destroying overlapping #{o.betfair_marketid} #{o.name} to make way for #{market.fetch(:marketId)} #{market.fetch(:marketName)}")
-        #     o.destroy_fully!
-        #   end
-        # end
+        new_new.each do |market|
+          old_ones = event.bet_markets
+                          .where(name: market.fetch(:marketName))
+                       .reject { |m| m.betfair_marketid == market.fetch(:marketId) }
+          old_ones.each do |o|
+            Rails.logger.info("Destroying overlapping #{o.betfair_marketid} #{o.name} to make way for #{market.fetch(:marketId)} #{market.fetch(:marketName)}")
+            o.destroy_fully!
+          end
+        end
 
         BetfairHandler::MarketMaker.make_markets_for_match(event, new_new).each do |bet_market|
           runner_data = market_list
@@ -120,7 +119,9 @@ class LoadHistoricalDataJob < ApplicationJob
                           .fetch(:runners)
                           .select { |x| bet_market.asian_handicap? ? (x.key? :hc) : true }
           runners = runner_data.map { |r| r.merge(runnerName: r.fetch(:name), selectionId: r.fetch(:id), handicap: bet_market.asian_handicap? ? r.fetch(:hc) : 0) }
-          runners.select { |r| r.fetch(:status) == "REMOVED" }.each { |h| bet_market.market_runners.detect { |r| r.selectiodId == h.fetch(:id) }.destroy }
+          runners.select { |r| r.fetch(:status) == "REMOVED" }.each do |h|
+            bet_market.market_runners.detect { |r| r.selectionId == h.fetch(:id) }.destroy
+          end
           actives = runners.reject { |r| r.fetch(:status) == "REMOVED" }
           MakeRunnersJob.perform_now(bet_market, actives)
         end

@@ -2,9 +2,6 @@
 <% content_for :menu do %>
   <%= render 'layouts/shared/active_future_links' %>
   <li class="nav-item">
-    <%= link_to 'All', sports_path, class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
     <%= link_to 'Market Types', sport_betfair_market_types_path(@sport),class: 'nav-link' %>
   </li>
   <li class="nav-item">
@@ -20,26 +17,21 @@
     <%= link_to 'Matches', sport_matches_path(@sport),class: 'nav-link' %>
   </li>
 <% end %>
-<%- model_class = Sport -%>
 <div class="page-header">
-  <h4><%= t('.title', :default => @sport.name) %>&nbsp;(<%= @sport.betfair_sports_id %>)</h4>
+  <b><%= @sport.name %>&nbsp;(<%= @sport.betfair_sports_id %>)</b>
 </div>
+<table class="table table-responsive table-striped">
+  <% @sport.divisions.active.each do |division| %>
+    <tr>
+      <td><%= link_to division.name, division %></td>
+    </tr>
+  <% end %>
+</table>
+<%#- model_class = Sport -%>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:expiry_time) %>:</strong></dt>
-  <dd><%= @sport.expiry_time_in_minutes %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:active) %>:</strong></dt>
-  <dd><%= @sport.active %></dd>
-</dl>
-
-<div class="form-actions">
-  <%= link_to t('.back', :default => t("helpers.links.back")),
-              sports_path, :class => 'btn'  %>
-  <%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_sport_path(@sport), :class => 'btn btn-sm btn-outline-primary' %>
-  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              sport_path(@sport),
-              :method => 'delete',
-              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-sm btn-outline-danger' %>
-</div>
+<!--<dl class="dl-horizontal">-->
+<!--  <dt><strong><%#= model_class.human_attribute_name(:expiry_time) %>:</strong></dt>-->
+<!--  <dd><%#= @sport.expiry_time_in_minutes %></dd>-->
+<!--  <dt><strong><%#= model_class.human_attribute_name(:active) %>:</strong></dt>-->
+<!--  <dd><%#= @sport.active %></dd>-->
+<!--</dl>-->

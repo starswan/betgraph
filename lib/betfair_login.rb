@@ -17,7 +17,8 @@ class BetfairLogin
                               add_home(Settings.certfile))
     # result = @bc.interactive_login(login.username, login.password)
 
-    event_types = @bc.list_event_types(filter: {}).map(&:deep_symbolize_keys).map { |z| z.fetch(:eventType) }
+    list_event_types = @bc.list_event_types(filter: {})
+    event_types = list_event_types.map(&:deep_symbolize_keys).map { |z| z.fetch(:eventType) }
     @active_types = Sport.active
                          .map { |sport| event_types.find { |et| et.fetch(:name) == sport.name } }
   end
@@ -38,6 +39,22 @@ class BetfairLogin
 
   def keepAlive
     @bc.keep_alive
+  end
+
+  def get_my_data
+    @bc.get_my_data
+  end
+
+  def get_collection_options(opts)
+    @bc.get_collection_options opts
+  end
+
+  def download_list_of_files(opts)
+    @bc.download_list_of_files opts
+  end
+
+  def download_file(filename)
+    @bc.download_file filename
   end
 
   def get_markets_for_event(event)

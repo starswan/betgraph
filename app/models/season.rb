@@ -17,6 +17,8 @@ class Season < ApplicationRecord
                             where("startdate >= ?", date - time_range)
                                                    .where("startdate <= ?", date + time_range)
                           }
+  scope :in_date_order, -> { order(:startdate) }
+  scope :not_in_the_future, -> { where("startdate < ?", Time.zone.today) }
 
   def current?(today)
     enddate = startdate + 1.year

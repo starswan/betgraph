@@ -138,4 +138,7 @@ VCR.configure do |config|
   config.filter_sensitive_data("<TOKEN>") do |interaction|
     interaction.request.headers["X-Authentication"]&.first || JSON.parse(interaction.response.body)["sessionToken"]
   end
+  config.filter_sensitive_data("<TOKEN>") do |interaction|
+    interaction.request.headers["Ssoid"]&.first
+  end
 end

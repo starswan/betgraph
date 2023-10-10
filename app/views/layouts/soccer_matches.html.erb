@@ -8,9 +8,6 @@
 <body>
 <ul class="nav">
   <li class="nav-item">
-    <%= link_to 'Sports', sports_path, class: 'nav-link active' %>
-  </li>
-  <li class="nav-item">
     <%= link_to @division.name, @division, class: 'nav-link active' %>
   </li>
   <%= render 'layouts/shared/active_future_links' %>
