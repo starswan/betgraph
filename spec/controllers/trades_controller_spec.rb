@@ -57,7 +57,6 @@ RSpec.describe TradesController, type: :controller do
 
   context "with login", :vcr, :betfair do
     before do
-      create(:login)
       sport = create(:soccer, betfair_sports_id: 1, betfair_market_types: build_list(:betfair_market_type, 1, name: "Match Odds"))
       calendar = create(:calendar, sport: sport)
       division = create(:division, calendar: calendar)

@@ -1,3 +1,6 @@
+#
+# $Id$
+#
 class FetchHistoricalDataJob < BetfairJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA
 
@@ -32,7 +35,11 @@ class FetchHistoricalDataJob < BetfairJob
       fileTypeCollection: %w[M],
     }
     _collection_opts = bc.get_collection_options opts
-    files = bc.download_list_of_files(opts)
+    files = bc.download_list_of_files(opts).reject do |f|
+      name = f.split("/").last
+      market_id = name.split(".")[0..-2].join(".")
+      BetMarket.by_betfair_market_id(market_id).exists?
+    end
 
     files.each do |filename|
       DownloadHistoricalDataFileJob.perform_later filename

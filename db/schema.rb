@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_10_15_203211) do
+ActiveRecord::Schema.define(version: 2023_10_15_220006) do
 
   create_table "active_admin_comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "namespace"
@@ -162,12 +162,6 @@ ActiveRecord::Schema.define(version: 2023_10_15_203211) do
     t.string "rapid_api_country"
     t.string "rapid_api_name"
     t.index ["division_id"], name: "fk_rails_f1a35b4a06"
-  end
-
-  create_table "logins", charset: "utf8mb3", force: :cascade do |t|
-    t.string "name"
-    t.binary "username"
-    t.binary "password_digest"
   end
 
   create_table "market_price_times", charset: "utf8mb3", force: :cascade do |t|

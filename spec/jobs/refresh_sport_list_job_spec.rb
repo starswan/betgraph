@@ -7,7 +7,6 @@ require "rails_helper"
 
 RSpec.describe RefreshSportListJob, :vcr, :betfair, type: :job do
   before do
-    create(:login)
     create(:soccer,
            betfair_sports_id: 1,
            betfair_market_types: [

@@ -1,4 +1,9 @@
 <!-- $Id$ -->
+<% content_for :menu do %>
+  <%= render 'layouts/shared/active_future_links' %>
+  <%= render 'layouts/shared/active_sports_links' %>
+<% end %>
+
 <div align="center"><h4><%= controller.action_name.titleize %> Matches</h4></div>
 <!-- All divisions in this template, no specific one -->
 <% direction = @direction == 'asc' ? :desc : :asc %>

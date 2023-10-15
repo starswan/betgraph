@@ -1,3 +1,6 @@
+#
+# $Id$
+#
 require "rails_helper"
 
 RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
@@ -19,7 +22,6 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
   end
 
   before do
-    create(:login)
     # pick up both match_odds and correct score markets
     create(:bet_market, :match_odds, match: soccer_match)
     create(:bet_market, :correct_score, match: soccer_match)
@@ -27,7 +29,8 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
     create(:soccer_match, kickofftime: Time.zone.local(2017, 11, 1, 19, 45, 0),
                           division: division,
                           result: build(:result, homescore: 4, awayscore: 2),
-                          name: "Preston v Aston Villa")
+                          name: "Preston v Aston Villa",
+                          bet_markets: [build(:bet_market, :match_odds, exchange_id: 1, marketid: 136_090_297)])
 
     create(:soccer_match, kickofftime: Time.zone.local(2018, 4, 3, 19, 45, 0),
                           division: division,
@@ -44,7 +47,7 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
     expect {
       expect {
         described_class.perform_now Date.new(2017, 11, 1), "GB"
-      }.to change(BetMarket, :count).by(2)
+      }.to change(BetMarket, :count).by(1)
     }.to change(MarketPrice, :count).by(20)
   end
 
