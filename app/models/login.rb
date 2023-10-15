@@ -3,10 +3,9 @@
 #
 # $Id$
 #
-require "master_crypto_provider"
 
 class Login < ApplicationRecord
-  acts_as_secure crypto_provider: MasterCryptoProvider
+  has_secure_password
 
   validates :name, :username, :password, presence: true
 end

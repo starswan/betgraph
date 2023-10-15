@@ -43,9 +43,6 @@ gem "counter_culture", "~> 3.3"
 gem "devise"
 # environment variables in .env files
 gem "dotenv-rails"
-# github version fixes Ruby 2.4.x deprecation warning
-# gem "ezcrypto", git: "https://github.com/pglombardo/ezcrypto"
-gem "ezcrypto"
 gem "faraday", ">= 2"
 gem "faraday-retry"
 
@@ -56,7 +53,6 @@ gem "jbuilder", "~> 2.11"
 # Use jquery as the JavaScript library
 # gem "jquery-rails"
 
-gem "jcnnghm-acts_as_secure"
 gem "kaminari"
 
 # attempt to bring data into postgres
