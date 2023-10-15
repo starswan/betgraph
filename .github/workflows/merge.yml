@@ -14,7 +14,7 @@ on:
 jobs:
   test:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         ruby-version: ['3.1', '3.2']
@@ -43,6 +43,9 @@ jobs:
 
       - name: Set up CMake for undercover gem
         uses: lukka/get-cmake@latest
+
+      - name: Update to latest
+        run: sudo apt update
 
       - name: Install libcurl for 'curb' gem
         run: sudo apt install libcurl4-openssl-dev
