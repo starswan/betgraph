@@ -7,12 +7,12 @@ require "betfair"
 
 class BetfairLogin
   def initialize(_logger)
-    login = Login.find_by name: "betfair"
+    # login = Login.find_by name: "betfair"
     headers = { "X-Application" => ENV["BETFAIR_API_KEY"] }
     # @bc = Betfair::Client.new headers, { adapter: :net_http_persistent }
     @bc = Betfair::Client.new headers, { adapter: :curb }
-    @bc.non_interactive_login(login.username,
-                              login.password,
+    @bc.non_interactive_login(ENV.fetch("BETFAIR_USER"),
+                              ENV.fetch("BETFAIR_PASS"),
                               add_home(Settings.keyfile),
                               add_home(Settings.certfile))
     # result = @bc.interactive_login(login.username, login.password)
