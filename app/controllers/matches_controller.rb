@@ -22,11 +22,13 @@ class MatchesController < ApplicationController
     @matches = Match.future
                     .includes([{ teams: :team_names }, :division, :bet_markets])
                     .order("#{@order} #{@direction}")
+    render "current"
   end
 
   # GET /matches/active
   def active
     @matches = Match.activelive.includes({ teams: :team_names }).order("#{@order} #{@direction}")
+    render "current"
   end
 
   # GET /matches
