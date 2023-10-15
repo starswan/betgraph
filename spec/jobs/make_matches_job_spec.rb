@@ -7,7 +7,6 @@ require "rails_helper"
 
 RSpec.describe MakeMatchesJob, :vcr, :betfair, type: :job do
   before do
-    create(:login)
     calendar = create(:calendar, sport: sport)
     division = create(:division, calendar: calendar)
 

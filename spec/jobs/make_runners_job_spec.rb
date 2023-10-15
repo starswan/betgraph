@@ -22,7 +22,6 @@ RSpec.describe MakeRunnersJob, :vcr, :betfair, type: :job do
            basket_rule_items: [
              build(:basket_rule_item, betfair_runner_type: sport.betfair_market_types.first.betfair_runner_types.first),
            ])
-    create(:login)
     RefreshSportListJob.perform_now
     sport.competitions.find_by!(name: "English FA Cup").update!(active: true, division: division)
     #

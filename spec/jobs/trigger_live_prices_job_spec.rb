@@ -18,7 +18,6 @@ RSpec.describe TriggerLivePricesJob, :vcr, :betfair, type: :job do
 
   before do
     create(:season, calendar: calendar)
-    create(:login)
     RefreshSportListJob.perform_now
     sport.competitions.find_by!(name: "English FA Cup").update!(active: true, division: division)
 

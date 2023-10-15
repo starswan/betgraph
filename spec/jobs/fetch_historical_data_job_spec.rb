@@ -19,7 +19,6 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
   end
 
   before do
-    create(:login)
     # pick up both match_odds and correct score markets
     create(:bet_market, :match_odds, match: soccer_match)
     create(:bet_market, :correct_score, match: soccer_match)
