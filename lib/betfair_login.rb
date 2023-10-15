@@ -11,8 +11,8 @@ class BetfairLogin
     headers = { "X-Application" => ENV["BETFAIR_API_KEY"] }
     # @bc = Betfair::Client.new headers, { adapter: :net_http_persistent }
     @bc = Betfair::Client.new headers, { adapter: :curb }
-    @bc.non_interactive_login(ENV.fetch("BETFAIR_USER"),
-                              ENV.fetch("BETFAIR_PASS"),
+    @bc.non_interactive_login(ENV["BETFAIR_USER"],
+                              ENV["BETFAIR_PASS"],
                               add_home(Settings.keyfile),
                               add_home(Settings.certfile))
     # result = @bc.interactive_login(login.username, login.password)
