@@ -33,7 +33,7 @@ RSpec.describe LoadHistoricalFileJob, type: :job do
           expect {
             described_class.perform_now(forestchelsea)
           }.to change(MarketPriceTime, :count).by(742)
-        }.to change(MarketPrice, :count).by(2847)
+        }.to change(MarketPrice, :count).by(2848)
       end
     end
 

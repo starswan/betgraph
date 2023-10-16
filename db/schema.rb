@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_10_15_220006) do
+ActiveRecord::Schema.define(version: 2023_10_18_191523) do
 
   create_table "active_admin_comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "namespace"
@@ -95,7 +95,7 @@ ActiveRecord::Schema.define(version: 2023_10_15_220006) do
     t.index ["live"], name: "index_bet_markets_on_live"
     t.index ["marketid", "deleted_at"], name: "index_bet_markets_on_marketid_and_deleted_at", unique: true
     t.index ["match_id"], name: "bet_markets_match_id_fk"
-    t.index ["name", "match_id"], name: "index_bet_markets_on_name_and_match_id", unique: true
+    t.index ["name", "match_id", "deleted_at"], name: "index_bet_markets_on_name_and_match_id_and_deleted_at", unique: true
     t.index ["status"], name: "index_bet_markets_on_status"
   end
 

@@ -82,14 +82,9 @@ class LoadHistoricalDataJob < ApplicationJob
       end
 
       if event.present?
-        market_list.select { |m| BetMarket.by_betfair_market_id(m.fetch(:marketId)).any? }
+        # market_list.select { |m| BetMarket.by_betfair_market_id(m.fetch(:marketId)).any? }
         new_markets = market_list.reject { |m| BetMarket.by_betfair_market_id(m.fetch(:marketId)).any? }
-        new_markets.select do |market|
-          event.bet_markets.by_betfair_market_id(market.fetch(:marketId))
-                          .where.not(version: market.fetch(:version))
-                          .reject { |m| m.name == market.fetch(:marketName) }.any?
-        end
-        new_new = new_markets.reject do |market|
+        _old_markets, new_new = new_markets.partition do |market|
           event.bet_markets.by_betfair_market_id(market.fetch(:marketId))
                           .where.not(version: market.fetch(:version))
                           .reject { |m| m.name == market.fetch(:marketName) }.any?

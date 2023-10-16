@@ -1,6 +1,15 @@
 <!-- $Id$ -->
-<b>Matches
-  for <%= link_to @division.sport.name, sport_matches_path(@division.sport) %> <%= link_to @division.name, @division %></b>
+<% content_for :title do %>
+  Matches for <%= link_to @division.sport.name, sport_matches_path(@division.sport) %> <%= link_to @division.name, @division %>
+<% end %>
+
+<% content_for :menu do -%>
+  <li class="nav-item">
+    <%= link_to 'Division', division_path(@division), class: 'nav-link' %>
+  </li>
+<% end -%>
+<div align="center"><b><%= yield :title %></b></div>
+
 <%= form_tag({}, method: :get) do %>
   <%= hidden_field_tag(:direction, @direction) %>
   <%= hidden_field_tag(:order, @order) %>

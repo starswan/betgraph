@@ -6,7 +6,7 @@ class DownloadHistoricalDataFileJob < BetfairJob
 
     data = ""
     Bzip2::FFI::Reader.open(data_stream) do |reader|
-      while (buffer = reader.read(128))
+      while (buffer = reader.read(8192))
         # process uncompressed bytes in buffer
         data += buffer
       end
