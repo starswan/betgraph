@@ -5,7 +5,7 @@
     "@activeadmin/activeadmin": "~3.0.0",
     "@popperjs/core": "^2.11.8",
     "@rails/actioncable": "^6.1.0",
-    "@rails/activestorage": "^6.1.0",
+    "@rails/activestorage": "^7.1.1",
     "@rails/ujs": "^6.1.0",
     "@rails/webpacker": "^5.4.4",
     "bootstrap": "^5.3.2",
