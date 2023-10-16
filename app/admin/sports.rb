@@ -1,3 +1,6 @@
+#
+# $Id$
+#
 ActiveAdmin.register Sport do
   config.sort_order = "betfair_events_count_desc"
 

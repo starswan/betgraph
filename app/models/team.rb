@@ -35,4 +35,10 @@ class Team < ApplicationRecord
   def teamname
     team_names.last.name
   end
+
+  class << self
+    def ransackable_attributes(_auth_object = nil)
+      %w[created_at id sport_id updated_at]
+    end
+  end
 end

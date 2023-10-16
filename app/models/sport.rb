@@ -33,4 +33,14 @@ class Sport < ApplicationRecord
       team.team_names.create! name: team_name
     end
   end
+
+  class << self
+    def ransackable_attributes(_auth_object = nil)
+      %w[active betfair_events_count betfair_sports_id created_at expiry_time_in_minutes id match_type name updated_at]
+    end
+
+    def ransackable_associations(_auth_object = nil)
+      %w[basket_rules betfair_market_types calendars competitions divisions matches seasons teams]
+    end
+  end
 end

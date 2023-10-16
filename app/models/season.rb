@@ -24,4 +24,14 @@ class Season < ApplicationRecord
     enddate = startdate + 1.year
     startdate < today && today < enddate
   end
+
+  class << self
+    def ransackable_attributes(_auth_object = nil)
+      %w[calendar_id created_at id name online startdate updated_at]
+    end
+
+    def ransackable_associations(_auth_object = nil)
+      %w[calendar matches]
+    end
+  end
 end

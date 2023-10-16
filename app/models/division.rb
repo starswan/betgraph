@@ -30,4 +30,14 @@ class Division < ApplicationRecord
   end
 
   delegate :sport, to: :calendar
+
+  class << self
+    def ransackable_attributes(_auth_object = nil)
+      %w[active calendar_id created_at id name odds_denominator odds_numerator scottish updated_at]
+    end
+
+    def ransackable_associations(_auth_object = nil)
+      %w[calendar competitions football_division matches seasons]
+    end
+  end
 end

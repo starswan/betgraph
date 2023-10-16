@@ -1,19 +1,6 @@
-# frozen_string_literal: true
-
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
-guard :bundler do
-  require "guard/bundler"
-  require "guard/bundler/verify"
-  helper = Guard::Bundler::Verify.new
-
-  files = %w[Gemfile]
-  files += Dir["*.gemspec"] if files.any? { |f| helper.uses_gemspec?(f) }
-
-  # Assume files are symlinked from somewhere
-  files.each { |file| watch(helper.real_path(file)) }
-end
 ## Uncomment and set this to only include directories you want to watch
 # directories %w(app lib config test spec features) \
 #  .select{|d| Dir.exist?(d) ? d : UI.warning("Directory #{d} does not exist")}
@@ -36,6 +23,18 @@ end
 #                          installed the spring binstubs per the docs)
 #  * zeus: 'zeus rspec' (requires the server to be started separately)
 #  * 'just' rspec: 'rspec'
+
+guard :bundler do
+  require "guard/bundler"
+  require "guard/bundler/verify"
+  helper = Guard::Bundler::Verify.new
+
+  files = %w[Gemfile]
+  files += Dir["*.gemspec"] if files.any? { |f| helper.uses_gemspec?(f) }
+
+  # Assume files are symlinked from somewhere
+  files.each { |file| watch(helper.real_path(file)) }
+end
 
 guard :rspec, cmd: "bundle exec rspec" do
   require "guard/rspec/dsl"

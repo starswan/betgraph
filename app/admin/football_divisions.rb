@@ -1,5 +1,6 @@
-# frozen_string_literal: true
-
+#
+# $Id$
+#
 ActiveAdmin.register FootballDivision do
   config.sort_order = "updated_at_desc"
 

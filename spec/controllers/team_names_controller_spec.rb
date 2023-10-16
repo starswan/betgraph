@@ -27,7 +27,7 @@ RSpec.describe TeamNamesController, type: :controller do
 
   it "creates team_name" do
     expect {
-      post :create, params: {  team_id: my_team.to_param, team_name: { name: "Fred" } }
+      post :create, params: { team_id: my_team.to_param, team_name: { name: "Fred" } }
     }.to change(TeamName, :count).by(1)
 
     assert_redirected_to team_team_name_path(my_team, assigns(:team_name))
