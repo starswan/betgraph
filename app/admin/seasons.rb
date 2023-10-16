@@ -1,5 +1,6 @@
-# frozen_string_literal: true
-
+#
+# $Id$
+#
 ActiveAdmin.register Season do
   index do
     # id_column

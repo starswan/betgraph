@@ -75,6 +75,12 @@ class Match < ApplicationRecord
 
   delegate :sport, to: :division
 
+  class << self
+    def ransackable_attributes(_auth_object = nil)
+      %w[actual_start_time bet_markets_count created_at date deleted_at division_id endtime half_time_duration id kickofftime live_priced market_prices_count name season_id type updated_at venue_id]
+    end
+  end
+
 private
 
   def create_baskets_from_rules

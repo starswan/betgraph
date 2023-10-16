@@ -35,4 +35,10 @@ class BetfairMarketType < ApplicationRecord
     logger.debug "Expected value: [#{name}] param1:[#{param1}] prices:[#{prices.inspect}]"
     valuer_obj.expected_value(param1, prices)
   end
+
+  class << self
+    def ransackable_attributes(_auth_object = nil)
+      %w[active created_at id name param1 sport_id updated_at valuer]
+    end
+  end
 end
