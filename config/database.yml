@@ -8,16 +8,16 @@ development:
   password: 123rails!
   host: localhost
   port: 5434
-#  port: 3307
-# using the name rather than the IP address appears to
-# slow everything to a crawl but no idea why.
+  #  port: 3307
+  # using the name rather than the IP address appears to
+  # slow everything to a crawl but no idea why.
   #  host: Stephens-iMac.broadband
 #  host: 192.168.1.7
 
 mysql:
   adapter: mysql2
-#  encoding: unicode
-#  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  #  encoding: unicode
+  #  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: betgraph
   username: rails
   password: 123rails!

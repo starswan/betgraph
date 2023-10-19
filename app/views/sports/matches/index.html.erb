@@ -17,8 +17,8 @@
     <th>Name</th>
     <th><%= link_to 'Markets', priced_only: @priced_only, order: :bet_markets_count,
                     direction: @order == 'bet_markets_count' ? swap_direction(@direction) : 'asc' %></th>
-    <th><%= link_to 'Prices', priced_only: @priced_only, order: :market_price_times_count,
-                    direction: @order == 'market_prices_count' ? swap_direction(@direction) : 'asc' %></th>
+    <th><%= link_to 'Prices', priced_only: @priced_only, order: :prices_count,
+                    direction: @order == 'prices_count' ? swap_direction(@direction) : 'asc' %></th>
     <th><%= link_to 'Kickofftime', priced_only: @priced_only, :order => :kickofftime,
                     :direction => @order == 'kickofftime' ? swap_direction(@direction) : 'asc' %></th>
     <th>Result</th>
@@ -37,7 +37,7 @@
       <td><%= match.season.name %> (<%= match.season.calendar.name %>)</td>
       <td><%=h match.name %></td>
       <td class="text-right"><%= link_to match.bet_markets_count, polymorphic_url([match, :bet_markets]) %></td>
-      <td class="text-right"><%= match.market_prices_count %></td>
+      <td class="text-right"><%= match.prices_count %></td>
       <td><%= link_to match.kickofftime.to_fs(:kickoff).html_safe, polymorphic_url(match, order: "#{@order} #{@direction}", offset: @offset + offset, priced_only: @priced_only) %></td>
       <td>
         <%= format_result(match) %>

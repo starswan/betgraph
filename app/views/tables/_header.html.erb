@@ -1,4 +1,4 @@
 <% @all_matches.group_by { |m| m.kickofftime.to_date }.each do |date, matches| %>
-  <% priced_matches = matches.reject { |m| m.market_prices_count.zero? } %>
+  <% priced_matches = matches.reject { |m| m.prices_count.zero? } %>
   <%= link_to_unless date == @date, "#{date.to_fs(:season)} [#{priced_matches.size}]", division_season_table_path(@division, @season, date) %>
 <% end %>
