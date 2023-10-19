@@ -31,7 +31,7 @@ class BetMarket < ApplicationRecord
   validates :marketid, uniqueness: { scope: :deleted_at }
 
   validates :number_of_runners, :marketid, :time, presence: true
-  validates :name, presence: true, uniqueness: { scope: :match }
+  validates :name, presence: true, uniqueness: { scope: [:match, :deleted_at] }
 
   # Yes some of these markets aren't strictly 'Asian Handicap' markets but they behave like it
   # for pricing purposes i.e. each runner has a 'handicap' value associated with it.
@@ -90,6 +90,7 @@ class BetMarket < ApplicationRecord
 
   scope :active_status, -> { where(active: true) }
   scope :closed, -> { where(status: CLOSED) }
+  scope :not_closed, -> { where.not(status: CLOSED) }
   scope :not_closed_or_suspended, -> { where.not(status: [CLOSED, SUSPENDED]) }
 
   scope :asian_handicap, -> { where(markettype: ASIAN_MARKET_TYPES) }

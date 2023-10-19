@@ -5,23 +5,19 @@ class FetchHistoricalDataJob < BetfairJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA
 
   def perform(target_date, country)
-    x = bc.get_my_data
+    x = bc.get_my_data.map(&:symbolize_keys)
 
-    last_x = x.last
-    Date.parse(last_x.fetch("forDate"))
+    this_data_block = x.detect do |b|
+      date = Date.parse(b.fetch(:forDate)).to_date
+      target_date.between? date, date.end_of_month
+    end
 
     mt = BetfairMarketType.where(active: true)
     market_types = BetMarket.where(betfair_market_type: mt).pluck(:markettype).uniq
 
     opts = {
-      sport: last_x.fetch("sport"),
-      plan: last_x.fetch("plan"),
-      # fromDay: 1,
-      # fromMonth: last_time.month,
-      # fromYear: last_time.year,
-      # toDay: last_time.at_end_of_month.day,
-      # toMonth: last_time.month,
-      # toYear: last_time.year,
+      sport: this_data_block.fetch(:sport),
+      plan: this_data_block.fetch(:plan),
       fromDay: target_date.day,
       fromMonth: target_date.month,
       fromYear: target_date.year,
@@ -30,7 +26,9 @@ class FetchHistoricalDataJob < BetfairJob
       toYear: target_date.year,
       eventId: nil,
       eventName: nil,
+      # marketTypesCollection: market_types + ['Unspecified'],
       marketTypesCollection: market_types,
+      # countriesCollection: [country] + ['Unspecified'],
       countriesCollection: [country],
       fileTypeCollection: %w[M],
     }

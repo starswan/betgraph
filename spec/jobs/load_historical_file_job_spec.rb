@@ -13,7 +13,7 @@ RSpec.describe LoadHistoricalFileJob, type: :job do
   end
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }
-  let(:forestchelsea) { Rails.root.join("spec/fixtures/basic/31954039.bz2") }
+  let(:burtonchippenham) { Rails.root.join("spec/fixtures/basic/31925115.bz2") }
   let(:westhamliverpool) { Rails.root.join("spec/fixtures/advanced/27635178.bz2") }
 
   context "with a match" do
@@ -25,15 +25,15 @@ RSpec.describe LoadHistoricalFileJob, type: :job do
     end
 
     context "with basic data file" do
-      let(:match_name) { "Nottm Forest v Chelsea" }
-      let(:match_time) { Time.zone.local(2023, 1, 1, 16, 30, 0) }
+      let(:match_name) { "Burton Albion v Chippenham" }
+      let(:match_time) { Time.zone.local(2022, 11, 27, 15, 0, 0) }
 
       it "processes a bzip2 file with iostreams" do
         expect {
           expect {
-            described_class.perform_now(forestchelsea)
-          }.to change(MarketPriceTime, :count).by(742)
-        }.to change(MarketPrice, :count).by(2847)
+            described_class.perform_now(burtonchippenham)
+          }.to change(MarketPriceTime, :count).by(181)
+        }.to change(MarketPrice, :count).by(388)
       end
     end
 
@@ -55,7 +55,7 @@ RSpec.describe LoadHistoricalFileJob, type: :job do
 
   context "without a match" do
     it "processes file without crashing" do
-      described_class.perform_now(forestchelsea)
+      described_class.perform_now(burtonchippenham)
     end
   end
 end

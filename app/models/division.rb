@@ -24,7 +24,7 @@ class Division < ApplicationRecord
   scope :active, -> { where(active: true) }
 
   def find_match(hometeam, awayteam, start_time)
-    date = start_time.to_date
+    date = start_time.midnight
     matches.where(venue: hometeam).where("kickofftime >= ? and kickofftime <= ?", date, date + 1.day)
            .find { |match| match.teams.include? awayteam }
   end

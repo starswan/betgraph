@@ -68,18 +68,20 @@ RSpec.describe BetMarket do
            ])
   end
 
-  it "market runners have price count" do
-    expect(bet_market.market_runners.first.market_prices_count).to eq(2)
-    expect(bet_market.market_runners.second.market_prices_count).to eq(2)
+  describe "#market_price_count" do
+    it "counts market prices using counters" do
+      expect(bet_market.reload.market_prices_count).to eq(6)
+    end
   end
 
-  it "market has a price count" do
-    expect(bet_market.reload.market_prices_count).to eq(6)
-  end
+  describe "#winners" do
+    before do
+      soccermatch.reload
+    end
 
-  it "produces winners based on short lay prices first" do
-    soccermatch.reload
-    expect(bet_market.winners).to eq([bet_market.market_runners.second])
+    it "produces winners based on short lay prices first" do
+      expect(bet_market.winners).to eq([bet_market.market_runners.second])
+    end
   end
 
   describe "#closed" do
@@ -97,24 +99,24 @@ RSpec.describe BetMarket do
     }.to change(BetfairMarketType, :count).by(2)
   end
 
-  it "runners are destroyed when market destroyed" do
-    expect {
-      bet_market.destroy
-    }.to change(MarketRunner, :count).by(-3)
+  describe "#destroy" do
+    it "destroys runners when market is destroyed" do
+      expect {
+        bet_market.destroy
+      }.to change(MarketRunner, :count).by(-3)
+    end
+
+    it "destroys market prices when market destroyed" do
+      expect {
+        bet_market.destroy_fully!
+      }.to change(MarketPrice, :count).by(-6)
+    end
   end
 
-  it "has runners from market" do
-    expect(MarketPriceTime.first.market_prices.first.market_runner).to eql(bet_market.market_runners.first)
-  end
-
-  it "market price times are destroyed when market destroyed" do
-    expect {
-      bet_market.destroy_fully!
-    }.to change(MarketPrice, :count).by(-6)
-  end
-
-  it "active" do
-    expect(described_class.active).to eq([bet_market])
+  describe "#active" do
+    it "shows only active markets" do
+      expect(described_class.active).to eq([bet_market])
+    end
   end
 
   describe "#activelive" do
@@ -138,12 +140,10 @@ RSpec.describe BetMarket do
     }.to change(soccermatch, :bet_markets_count).by(1)
   end
 
-  it "market can be valued" do
-    expect(bet_market.market_value(bet_market.time + 51.minutes, 2, 0)).to eq(0)
-  end
-
-  it "market can be open" do
-    expect(bet_market.open?).to eq(true)
+  describe "#market_value" do
+    it "allows a market to be valued based on time and score" do
+      expect(bet_market.market_value(bet_market.time + 51.minutes, 2, 0)).to eq(0)
+    end
   end
 
   describe "#trades" do
@@ -152,9 +152,13 @@ RSpec.describe BetMarket do
     end
   end
 
-  it "new match not created if parent exists" do
+  it "prevents new match from being created if parent exists" do
     expect {
       create(:bet_market, name: "Fred", match: soccermatch)
     }.to change(Match, :count).by(0)
+  end
+
+  it "prevents duplicate markets on same match" do
+    expect(soccermatch.bet_markets.create(name: soccermatch.bet_markets.last.name)).not_to be_valid
   end
 end

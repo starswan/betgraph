@@ -11,8 +11,8 @@ require "action_mailer/railtie"
 # require "action_mailbox/engine"
 # require "action_text/engine"
 require "action_view/railtie"
-require "action_cable/engine"
-require "sprockets/railtie"
+# require "action_cable/engine"
+# require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
@@ -40,8 +40,8 @@ module Bfrails4
     config.time_zone = "London"
     # config.time_zone = "Nairobi"
 
-    config.active_job.queue_name_prefix = "bfrails4.#{Rails.env}"
-    config.active_job.queue_name_delimiter = "."
+    # config.active_job.queue_name_prefix = "betgraph.#{Rails.env}"
+    # config.active_job.queue_name_delimiter = "."
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
