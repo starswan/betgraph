@@ -3,7 +3,7 @@
 # $Id$
 #
 localfile=log/betgraph_development.sql
-remotefile=alice:html/betgraph/shared/log/ssarbicity.sql
+remotefile=alice:html/betgraph/shared/log/starswan_betgraph.sql
 #localfile=db/data.yml
 #remotefile=alice:html/bfrails4/shared/log/data.yml
 #if [ -f $localfile.gz ]
