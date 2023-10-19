@@ -60,7 +60,8 @@ RSpec.describe MarketRunner do
     end
 
     let(:market) { create(:bet_market, :overunder, match: soccermatch) }
-    let(:runner) { create(:market_runner, bet_market: market) }
+    let(:mpt) { create(:market_price_time) }
+    let(:runner) { create(:market_runner, bet_market: market, prices: [build(:price, market_price_time: mpt, created_at: mpt.time)]) }
 
     let(:bm2) { create(:bet_market, active: true, match: soccermatch) }
     let(:handicap_runner) { create(:market_runner, bet_market: bm2) }
@@ -70,8 +71,6 @@ RSpec.describe MarketRunner do
       create(:betfair_market_type, name: market.name, sport: sport)
       create(:betfair_market_type, name: bm2.name, sport: sport)
 
-      create(:market_price_time,
-             market_prices: [build(:market_price, market_runner: runner)])
       create(:market_runner, bet_market: bm2)
     end
 
@@ -84,8 +83,8 @@ RSpec.describe MarketRunner do
     end
 
     it "reversed prices" do
-      expect(runner.market_prices.count).to be_positive
-      expect(runner.market_prices.reverse).to eq(runner.reversedprices)
+      expect(runner.prices.count).to be_positive
+      expect(runner.prices.reverse).to eq(runner.reversedprices)
     end
   end
 end
