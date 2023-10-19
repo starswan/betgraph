@@ -20,7 +20,7 @@ class Match < ApplicationRecord
   has_many :bet_markets, dependent: :destroy
   has_many :baskets, dependent: :destroy
   has_many :market_runners, through: :bet_markets
-  has_many :market_prices, through: :market_runners
+  has_many :prices, through: :market_runners
 
   # Motor Races don't have seasons - need to fix
   belongs_to :season, inverse_of: :matches, optional: true
@@ -37,7 +37,7 @@ class Match < ApplicationRecord
   scope :live_priced, -> { where(live_priced: true) }
   scope :future, -> { where("kickofftime >= ?", Time.now) }
   scope :played_on, ->(date) { where("kickofftime >= ?", date.to_date).where("kickofftime < ?", (date + 1.day).to_date) }
-  scope :with_prices, -> { where.not(market_prices_count: 0) }
+  scope :with_prices, -> { where.not(prices_count: 0) }
 
   scope :activelive, lambda {
     almost_live.joins(:bet_markets).merge(BetMarket.not_closed_or_suspended).distinct

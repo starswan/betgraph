@@ -603,6 +603,10 @@ GEM
     tilt (2.3.0)
     timecop (0.9.8)
     timeout (0.4.1)
+    timescaledb (0.2.7)
+      activerecord
+      activesupport
+      pg (~> 1.2)
     tty-which (0.5.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -714,6 +718,7 @@ DEPENDENCIES
   simplecov
   simplecov-lcov
   timecop
+  timescaledb
   uglifier (>= 1.3.0)
   undercover
   vcr
