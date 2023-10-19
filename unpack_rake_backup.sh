@@ -3,7 +3,7 @@
 # $Id$
 tar xf db/db_backup/*/db_backup.tar
 rm -f db/db_backup/*/db_backup.tar
-mv db_backup/databases/MySQL/*.sql log
+mv db_backup/databases/PostgreSQL/*.sql log
 gzip -3 -f log/*.sql
 rm -rf db/db_backup
 rm -rf db_backup

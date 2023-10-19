@@ -4,7 +4,7 @@
 #
 # This needs to be re-written using a capistrano task so that it uses the correct
 # remote ruby. THis is fudged right now on alice by installing the bundle in the default ruby
-localfile=log/bfrails_development.sql
+localfile=log/betgraph_development.sql
 remotefile=alice:html/betgraph/shared/log/ssarbicity.sql
 #localfile=db/data.yml
 #remotefile=alice:html/betgraph/shared/log/data.yml
