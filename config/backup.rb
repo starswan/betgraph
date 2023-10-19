@@ -21,7 +21,7 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
   ##
   # MySQL [Database]
   #
-  database MySQL do |db|
+  database PostgreSQL do |db|
     # To dump all databases, set `db.name = :all` (or leave blank)
     db.name               = config[backup_rails_env]["database"]
     db.username           = config[backup_rails_env]["username"]
@@ -37,7 +37,7 @@ Backup::Model.new(:db_backup, "Backup betgraph database") do
     # db.only_tables        = ["only", "these" "tables"]
     # skip table creates (-t) and use full inserts (-c) and attempt postgres-compatible mode
     # db.additional_options = ["--quick", "--single-transaction", "--compatible=postgresql", "-c", "-t"]
-    db.additional_options = ["--quick", "--single-transaction", "-c", "--no-tablespaces"]
+    # db.additional_options = ["--quick", "--single-transaction", "-c", "--no-tablespaces"]
     # Optional: Use to set the location of this utility
     #   if it cannot be found by name in your $PATH
     # db.mysqldump_utility = "/opt/local/bin/mysqldump"
