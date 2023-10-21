@@ -18,7 +18,7 @@ namespace :db do
   end
 
   desc "run tidy up tasks"
-  task tidy: :environment do
+  task tidy: :reset_counters do
     # Tasks::Db::YamlLoad::DumpDir.run
   end
 end
