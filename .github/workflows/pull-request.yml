@@ -79,9 +79,7 @@ jobs:
 
       # Run ruby tests in headless mode
       - name: Ruby tests
-        uses: GabrielBB/xvfb-action@v1
-        with:
-          run: bundle exec rake spec
+        run: xvfb-run -a bundle exec rake spec
 
       - name: Pronto Undercover
         run: bundle exec pronto run -r undercover -f github_pr -c origin/${{ github.base_ref }}
