@@ -30,7 +30,7 @@ gem "curb"
 gem "bootsnap"
 
 # bootstrap 5.x
-gem "bootstrap", "~> 5.2"
+gem "bootstrap", "~> 5.3"
 
 # Better charts than morris.js
 gem "chartkick"
