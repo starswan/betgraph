@@ -161,7 +161,7 @@ GEM
     config (4.2.1)
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 1.0, >= 1.0.0)
-    counter_culture (3.3.0)
+    counter_culture (3.5.0)
       activerecord (>= 4.2)
       activesupport (>= 4.2)
     crack (0.4.5)
@@ -658,7 +658,7 @@ DEPENDENCIES
   clockwork
   coffee-rails
   config
-  counter_culture (~> 3.3)
+  counter_culture (~> 3.5)
   curb
   database_cleaner-active_record
   devise
