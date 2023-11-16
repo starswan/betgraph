@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -44,7 +42,7 @@ class LoadFootballDataJob < ApplicationJob
 
   # Reus Deportiu matches all reported as 1-0 losses after club expelled
   # from Spanish soccer for 3 years for not paying players wages - last valid match was 12-Jan-2019
-  REUS_DEPORTIU = "Reus Deportiu"
+  REUS_DEPORTIU = "Reus Deportiu".freeze
 
   # This could now be a parallel job if required as it just takes an array and a division
   def parse_input_stream(data, division)
@@ -80,7 +78,7 @@ class LoadFootballDataJob < ApplicationJob
   end
 
   def convert_team(teamname)
-    # Need to convert funny smart quote into normal one for King's Lynn
+    # Need to convert smart quote into normal one for King's Lynn
     teamname.gsub(0x92.chr, "'")
   end
 end
