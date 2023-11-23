@@ -20,7 +20,7 @@ Backburner.configure do |config|
   # }
 
   config.beanstalk_url = ["beanstalk://#{ENV['BEANSTALK_HOST']}"]
-  config.tube_namespace = if Rails.env.test?
+  config.tube_namespace = if Rails.env.test? || Rails.env.development?
                             "betgraph.#{Rails.env}"
                           else
                             "betgraph"
