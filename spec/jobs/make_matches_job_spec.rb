@@ -23,6 +23,7 @@ RSpec.describe MakeMatchesJob, :vcr, :betfair, type: :job do
         described_class.perform_later sport
       }.to change(SoccerMatch, :count).by(24)
       expect(BetMarket.where(live_priced: true).count).to eq(468)
+      expect(SoccerMatch.find_by(name: "QPR v Coventry")).to have_attributes(betfair_event_id: 32_256_996)
     end
   end
 
