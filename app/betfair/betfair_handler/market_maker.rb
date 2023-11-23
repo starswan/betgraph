@@ -9,7 +9,7 @@ module BetfairHandler
         #                 .where(name: event.fetch(:name))
         #                 .where("kickofftime >= ? and kickofftime <= ?", starttime.to_date, (starttime + 1.day).to_date).first
         # if match.nil?
-        match = make_match_from_params division, starttime, event.fetch(:name)
+        match = make_match_from_params division, starttime, event
         # end
         make_markets_for_match(match, markets).select(&:active)
         # else
@@ -17,10 +17,11 @@ module BetfairHandler
         # end
       end
 
-      def make_match_from_params(division, kickofftime, name)
+      def make_match_from_params(division, kickofftime, event)
+        name = event.fetch(:name)
         match_type_klass = division.calendar.sport.match_type.constantize
         match_type_klass.where(name: name).where("kickofftime > ?", Time.zone.now).each(&:destroy)
-        match_type_klass.create! division: division, kickofftime: kickofftime, name: name
+        match_type_klass.create! division: division, kickofftime: kickofftime, name: name, betfair_event_id: event.fetch(:id)
       end
 
       def make_markets_for_match(match, markets)

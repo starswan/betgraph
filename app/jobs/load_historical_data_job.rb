@@ -4,15 +4,15 @@
 class LoadHistoricalDataJob < ApplicationJob
   queue_priority PRIORITY_LOAD_HISTORIC_DATA
 
-  def perform(line)
+  def perform(event_id, line)
     BetMarket.transaction do
-      perform_with_txn(line)
+      perform_with_txn(event_id, line)
     end
   end
 
 private
 
-  def perform_with_txn(line)
+  def perform_with_txn(event_id, line)
     timestamp = Time.zone.at(line.fetch(:pt) / 1000.0)
 
     change_list = line.fetch(:mc)
@@ -133,6 +133,8 @@ private
           actives = runners.reject { |r| r.fetch(:status) == "REMOVED" }
           MakeRunnersJob.perform_now(bet_market, actives)
         end
+
+        event.update!(betfair_event_id: event_id)
       end
     end
 
