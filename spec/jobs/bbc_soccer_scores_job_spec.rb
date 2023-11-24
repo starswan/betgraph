@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require "rails_helper"
 
 RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
@@ -77,6 +75,19 @@ RSpec.describe BbcSoccerScoresJob, :vcr, type: :job do
           described_class.perform_later date
         }.to change(SoccerMatch, :count).by(2)
       }.to change(Scorer, :count).by(10)
+    end
+  end
+
+  context "with German league bug where a 1. is added to some team names" do
+    let(:date) { Date.new(2023, 11, 12) }
+    let(:divisions) { build_list(:division, 1, football_division: build(:football_division, bbc_slug: "german-bundesliga")) }
+
+    before do
+      described_class.perform_later date
+    end
+
+    it "fixes up the stray 1. in the team name" do
+      expect(TeamName.all.pluck(:name)).to match_array(["Bayer 04 Leverkusen", "FC Union Berlin", "Werder Bremen", "Eintracht Frankfurt", "RB Leipzig", "SC Freiburg"])
     end
   end
 end
