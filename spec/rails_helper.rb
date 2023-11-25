@@ -59,7 +59,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
       minimum_coverage line: 90.22, branch: 64.33
       # we seem to have flakey/non-stable coverage values
       # maybe no longer...?
-      maximum_coverage_drop 0.65
+      maximum_coverage_drop 0.05
     end
   end
 end
