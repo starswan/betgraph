@@ -25,7 +25,7 @@ class Division < ApplicationRecord
 
   def find_match(hometeam, awayteam, start_time)
     date = start_time.midnight
-    matches.where(venue: hometeam).where("kickofftime >= ? and kickofftime <= ?", date, date + 1.day)
+    matches.where(venue: hometeam).played_on(date)
            .find { |match| match.teams.include? awayteam }
   end
 

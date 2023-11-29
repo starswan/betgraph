@@ -127,9 +127,10 @@ private
                           .fetch(:runners)
                           .select { |x| bet_market.asian_handicap? ? (x.key? :hc) : true }
           runners = runner_data.map { |r| r.merge(runnerName: r.fetch(:name), selectionId: r.fetch(:id), handicap: bet_market.asian_handicap? ? r.fetch(:hc) : 0) }
-          runners.select { |r| r.fetch(:status) == "REMOVED" }.each do |h|
-            bet_market.market_runners.detect { |r| r.selectionId == h.fetch(:id) }.destroy_fully!
+          to_delete = runners.select { |r| r.fetch(:status) == "REMOVED" }.map do |h|
+            bet_market.market_runners.detect { |r| r.selectionId == h.fetch(:id) }
           end
+          to_delete.compact.each(&:destroy_fully!)
           actives = runners.reject { |r| r.fetch(:status) == "REMOVED" }
           MakeRunnersJob.perform_now(bet_market, actives)
         end
