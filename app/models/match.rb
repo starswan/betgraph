@@ -36,7 +36,7 @@ class Match < ApplicationRecord
   scope :almost_live, -> { where("kickofftime <= ?", Time.now + 15.minutes) }
   scope :live_priced, -> { where(live_priced: true) }
   scope :future, -> { where("kickofftime >= ?", Time.now) }
-  scope :played_on, ->(date) { where("kickofftime >= ?", date).where("kickofftime < ?", date + 1.day) }
+  scope :played_on, ->(date) { where("kickofftime >= ?", date.to_date).where("kickofftime < ?", (date + 1.day).to_date) }
   scope :with_prices, -> { where.not(market_prices_count: 0) }
 
   scope :activelive, lambda {
