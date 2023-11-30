@@ -162,8 +162,8 @@ private
 
         if timestamp > market.match.kickofftime
           last_time = runner.market_prices.none? ? market.time : runner.market_prices.last.market_price_time.time
-          while timestamp - last_time > 1.minute
-            last_time += 1.minute
+          while timestamp - last_time > 3.minutes
+            last_time += 3.minutes
             last_mpt = MarketPriceTime.create! time: last_time, created_at: last_time
             runner.market_prices.create! back1price: runner.market_prices.any? ? runner.market_prices.last.back1price : runner_change.fetch(:ltp), market_price_time: last_mpt
           end

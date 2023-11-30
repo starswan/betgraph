@@ -35,10 +35,10 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
     end
 
     context "when first of november 2017" do
-      let(:today) { Date.new(2017, 11, 1) }
+      let(:kickofftime) { Time.zone.local(2017, 11, 1, 19, 45, 0) }
 
       before do
-        create(:soccer_match, kickofftime: Time.zone.local(2017, 11, 1, 19, 45, 0),
+        create(:soccer_match, kickofftime: kickofftime,
                               division: division,
                               result: build(:result, homescore: 4, awayscore: 2),
                               name: "Preston v Aston Villa",
@@ -48,9 +48,9 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
       it "creates prices" do
         expect {
           expect {
-            described_class.perform_now today, "GB"
+            described_class.perform_now kickofftime.to_date, "GB"
           }.to change(BetMarket, :count).by(1)
-        }.to change(MarketPrice, :count).by(810)
+        }.to change(MarketPrice, :count).by(279)
       end
     end
 
@@ -69,7 +69,7 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
           expect {
             described_class.perform_now kickofftime.to_date, "GB"
           }.to change(BetMarket, :count).by(2)
-        }.to change(MarketPrice, :count).by(2971)
+        }.to change(MarketPrice, :count).by(1680)
       end
     end
   end
