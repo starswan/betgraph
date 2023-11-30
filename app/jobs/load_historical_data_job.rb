@@ -150,7 +150,7 @@ private
     other_changes.each do |change|
       # exchange_id, market_id = change.fetch(:id).split(".")
       # market = BetMarket.include(market_runners: :market_prices).find_by! exchange_id: exchange_id, marketid: market_id, active: true
-      market = BetMarket.by_betfair_market_id(change.fetch(:id)).active.first!
+      market = BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.first!
       # TODO: Handle any detailed changes that aren't rc (runner change) based from ADVANCED download
       change.fetch(:rc, []).each do |runner_change|
         # runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
