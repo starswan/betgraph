@@ -28,37 +28,49 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
       # pick up both match_odds and correct score markets
       create(:bet_market, :correct_score, match: soccer_match)
 
-      create(:soccer_match, kickofftime: Time.zone.local(2017, 11, 1, 19, 45, 0),
-                            division: division,
-                            result: build(:result, homescore: 4, awayscore: 2),
-                            name: "Preston v Aston Villa",
-                            bet_markets: [build(:bet_market, :match_odds, exchange_id: 1, marketid: 136_090_297)])
-
-      create(:soccer_match, kickofftime: Time.zone.local(2018, 4, 3, 19, 45, 0),
-                            division: division,
-                            result: build(:result, homescore: 1, awayscore: 2),
-                            name: "Aston Villa v Reading")
-
       create(:team_name, name: "Fulham", team: build(:team, sport: soccer))
       create(:team_name, name: "Leeds", team: build(:team, sport: soccer))
       create(:team_name, name: "Bolton", team: build(:team, sport: soccer))
       create(:team_name, name: "Birmingham", team: build(:team, sport: soccer))
     end
 
-    it "creates prices for first of november" do
-      expect {
+    context "when first of november 2017" do
+      let(:kickofftime) { Time.zone.local(2017, 11, 1, 19, 45, 0) }
+
+      before do
+        create(:soccer_match, kickofftime: kickofftime,
+                              division: division,
+                              result: build(:result, homescore: 4, awayscore: 2),
+                              name: "Preston v Aston Villa",
+                              bet_markets: [build(:bet_market, :match_odds, exchange_id: 1, marketid: 136_090_297)])
+      end
+
+      it "creates prices" do
         expect {
-          described_class.perform_now Date.new(2017, 11, 1), "GB"
-        }.to change(BetMarket, :count).by(1)
-      }.to change(MarketPrice, :count).by(20)
+          expect {
+            described_class.perform_now kickofftime.to_date, "GB"
+          }.to change(BetMarket, :count).by(1)
+        }.to change(MarketPrice, :count).by(279)
+      end
     end
 
-    it "creates prices for third of april" do
-      expect {
+    context "when third april 2018" do
+      let(:kickofftime) { Time.zone.local(2018, 4, 3, 19, 45, 0) }
+
+      before do
+        create(:soccer_match, kickofftime: kickofftime,
+                              division: division,
+                              result: build(:result, homescore: 1, awayscore: 2),
+                              name: "Aston Villa v Reading")
+      end
+
+      it "creates prices" do
         expect {
-          described_class.perform_now Date.new(2018, 4, 3), "GB"
-        }.to change(BetMarket, :count).by(2)
-      }.to change(MarketPrice, :count).by(1318)
+          expect {
+            described_class.perform_now kickofftime.to_date, "GB"
+          }.to change(BetMarket, :count).by(2)
+        }.to change(MarketPrice, :count).by(1680)
+      end
     end
   end
 
@@ -69,7 +81,7 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
                             name: "Man City v Liverpool")
     end
 
-    it "creates prices for ninth of sep" do
+    it "doesnt create prices for ninth of sep" do
       expect {
         expect {
           described_class.perform_now Date.new(2017, 9, 9), "GB"

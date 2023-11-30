@@ -2,7 +2,10 @@ namespace :db do
   desc "reset counters"
   task reset_counters: :environment do
     Match.includes([{ bet_markets: { market_runners: :market_prices } }, { baskets: :basket_items }]).find_each(batch_size: 10) do |match|
-      Match.reset_counters(match.id, :bet_markets) if match.bet_markets_count != match.bet_markets.size
+      if match.bet_markets_count != match.bet_markets.size
+        puts "Reset market counters on #{match.name} #{match.kickofftime}"
+        Match.reset_counters(match.id, :bet_markets)
+      end
       match.bet_markets.each do |bm|
         BetMarket.reset_counters(bm.id, :market_runners) if bm.market_runners_count != bm.market_runners.size
         bm.market_runners.each do |runner|
