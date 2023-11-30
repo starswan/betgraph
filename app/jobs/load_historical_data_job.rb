@@ -154,11 +154,9 @@ private
       # TODO: Handle any detailed changes that aren't rc (runner change) based from ADVANCED download
       change.fetch(:rc, []).each do |runner_change|
         # runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
-        runner = MarketRunner.includes(market_prices: :market_price_time).find_by(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
+        runner = MarketRunner.includes(market_prices: :market_price_time).find_by!(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
         # It appears that we get faulty data sometimes - LTP on an asian h/cap market without a handicap (hc) value
         # This optimisation is a folly as we delete markets if the price record has too many holes in it.
-        # if runner && (runner.market_prices.none? || runner.market_prices.last.back1price != runner_change.fetch(:ltp))
-        next unless runner
 
         if timestamp > market.match.kickofftime
           last_time = runner.market_prices.none? ? market.time : runner.market_prices.last.market_price_time.time
