@@ -58,7 +58,7 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
         expect {
           described_class.perform_now Date.new(2018, 4, 3), "GB"
         }.to change(BetMarket, :count).by(2)
-      }.to change(MarketPrice, :count).by(1318)
+      }.to change(MarketPrice, :count).by(45313)
     end
   end
 

@@ -116,7 +116,7 @@ private
                           .where(name: market.fetch(:marketName))
                        .reject { |m| m.betfair_marketid == market.fetch(:marketId) }
           old_ones.each do |o|
-            Rails.logger.info("Destroying overlapping #{o.betfair_marketid} #{o.name} to make way for #{market.fetch(:marketId)} #{market.fetch(:marketName)}")
+            Rails.logger.warn("Destroying #{event.name} #{event.kickofftime} overlapping #{o.betfair_marketid} #{o.name} #{o.version} to make way for #{market.fetch(:marketId)} #{market.fetch(:marketName)} #{market.fetch(:version)}")
             o.destroy_fully!
           end
         end
@@ -148,16 +148,28 @@ private
     mpt = nil
 
     other_changes.each do |change|
-      exchange_id, market_id = change.fetch(:id).split(".")
-      market = BetMarket.find_by! exchange_id: exchange_id, marketid: market_id, active: true
+      # exchange_id, market_id = change.fetch(:id).split(".")
+      # market = BetMarket.include(market_runners: :market_prices).find_by! exchange_id: exchange_id, marketid: market_id, active: true
+      market = BetMarket.by_betfair_market_id(change.fetch(:id)).active.first!
       # TODO: Handle any detailed changes that aren't rc (runner change) based from ADVANCED download
       change.fetch(:rc, []).each do |runner_change|
-        runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
+        # runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
+        runner = MarketRunner.includes(market_prices: :market_price_time).find_by(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
         # It appears that we get faulty data sometimes - LTP on an asian h/cap market without a handicap (hc) value
-        if runner && (runner.market_prices.none? || runner.market_prices.last.back1price != runner_change.fetch(:ltp))
-          mpt = MarketPriceTime.create! time: timestamp, created_at: timestamp if mpt.blank?
-          runner.market_prices.create! back1price: runner_change.fetch(:ltp), market_price_time: mpt
+        # This optimisation is a folly as we delete markets if the price record has too many holes in it.
+        # if runner && (runner.market_prices.none? || runner.market_prices.last.back1price != runner_change.fetch(:ltp))
+        next unless runner
+
+        if timestamp > market.match.kickofftime
+          last_time = runner.market_prices.none? ? market.time : runner.market_prices.last.market_price_time.time
+          while timestamp - last_time > 1.minute
+            last_time += 1.minute
+            last_mpt = MarketPriceTime.create! time: last_time, created_at: last_time
+            runner.market_prices.create! back1price: runner.market_prices.last.back1price || runner_change.fetch(:ltp), market_price_time: last_mpt
+          end
         end
+        mpt = MarketPriceTime.create! time: timestamp, created_at: timestamp if mpt.blank?
+        runner.market_prices.create! back1price: runner_change.fetch(:ltp), market_price_time: mpt
       end
     end
   end
