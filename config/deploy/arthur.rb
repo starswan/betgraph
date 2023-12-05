@@ -26,6 +26,7 @@ set :rvm_ruby_string, "3.1.4@bg"
 set :rvm_type, "/usr/share/rvm"
 
 # set :linked_files, fetch(:linked_files, []) << ".env.arthur"
+set :linked_files, fetch(:linked_files, []) << ".env.arthur"
 
 # Extended Server Syntax
 # ======================
