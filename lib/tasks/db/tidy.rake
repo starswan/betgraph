@@ -23,7 +23,7 @@ namespace :db do
       end
       match.baskets.each do |basket|
         if basket.basket_items_count != basket.basket_items.size
-          puts "Reset basket item counters on #{match.name} #{match.kickofftime} #{basket.name}"
+          puts "Reset basket item counters on #{match.name} #{match.kickofftime} #{basket.basket_rule.name}"
           Basket.reset_counters(basket.id, :basket_items)
         end
       end
