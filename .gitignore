@@ -42,3 +42,4 @@ yarn-debug.log*
 /.env.development
 /.env.test
 /.env.arthur
+db/202*/*.yml
