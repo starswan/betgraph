@@ -122,7 +122,7 @@ group :development, :test do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem "sdoc"
   # 4.9.1 has some incompatibility with capybara
-  gem "selenium-webdriver", "<= 4.15"
+  gem "selenium-webdriver", "<= 4.17"
 
   # gem "spring"
   gem "undercover"
