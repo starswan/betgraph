@@ -10,5 +10,9 @@ class Competition < ApplicationRecord
     def ransackable_attributes(_auth_object = nil)
       %w[active betfair_id created_at division_id id name region sport_id updated_at]
     end
+
+    def ransackable_associations(_auth_object = nil)
+      %w[division sport]
+    end
   end
 end
