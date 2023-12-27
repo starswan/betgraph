@@ -135,13 +135,6 @@ RSpec/ScatteredLet:
   Exclude:
     - 'spec/controllers/betfair_runner_types_controller_spec.rb'
 
-# Offense count: 3
-# Configuration parameters: Include.
-# Include: db/**/*.rb
-Rails/CreateTableWithTimestamps:
-  Exclude:
-    - 'db/migrate/20231123210653_initial_load.rb'
-
 # Offense count: 2
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: EnforcedStyle, AllowToTime.
