@@ -22,7 +22,7 @@ private
   def tidy_event(event)
     event.bet_markets.each do |market|
       times = market.market_price_times.where("time < ?", market.time - 15.minutes)
-      next if times.count == 0
+      next if times.count.zero?
 
       say_with_time "Deleting #{market.name} #{times.count} Prices from #{times[0].time} to #{times[-1].time}" do
         times.each(&:destroy)

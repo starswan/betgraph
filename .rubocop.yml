@@ -17,7 +17,6 @@ AllCops:
     - 'vendor/bundle/**/*'
     - 'node_modules/**/*'
     - 'db/schema.rb'
-    - 'db/migrate/2013*'
     - 'db/migrate/2014*'
     - 'db/migrate/2015*'
     - 'db/migrate/2016*'
