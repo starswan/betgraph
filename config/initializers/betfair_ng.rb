@@ -21,19 +21,23 @@ module Betfair
         # have got a connection, but my delayed API key doesn't support streaming
         # have raised a support ticket with Betfair 10/Aug/2023
         connection = @ssl_socket.gets
-        Rails.logger.info "Receeived connection string #{connection}"
+        # Rails.logger.info "Received connection string #{connection}"
 
         json_auth = {
           op: "authentication",
           appKey: ENV["BETFAIR_API_KEY"],
           session: token
         }.to_json
-        Rails.logger.info("Sending #{json_auth}")
+        # Rails.logger.info("Sending #{json_auth}")
         @ssl_socket.puts json_auth
       end
 
+      def send message
+        @ssl_socket.puts message
+      end
+
       def each
-        while line = @ssl_socket.gets
+        while (line = @ssl_socket.gets)
           yield line
         end
         @ssl_socket.close
