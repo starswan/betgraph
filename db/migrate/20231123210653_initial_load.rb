@@ -110,11 +110,13 @@ class InitialLoad < ActiveRecord::Migration[6.1]
       t.index %w[name], name: "index_betfair_runner_types_on_name"
     end
 
+    # rubocop:disable Rails/CreateTableWithTimestamps
     create_table :calendars do |t|
       t.bigint "sport_id"
       t.string "name"
       t.index %w[sport_id], name: "index_calendars_on_sport_id"
     end
+    # rubocop:enable Rails/CreateTableWithTimestamps
 
     create_table "competitions" do |t|
       t.string "name", null: false
@@ -159,6 +161,7 @@ class InitialLoad < ActiveRecord::Migration[6.1]
       t.index %w[time], name: "index_market_price_times_on_time_and_bet_market_id"
     end
 
+    # rubocop:disable Rails/CreateTableWithTimestamps
     create_table "market_prices" do |t|
       t.bigint "market_runner_id"
       t.decimal "back1price", precision: 7, scale: 3
@@ -179,6 +182,7 @@ class InitialLoad < ActiveRecord::Migration[6.1]
       t.index %w[market_price_time_id], name: "index_market_prices_on_market_price_time_id"
       t.index %w[market_runner_id], name: "market_prices_market_runner_id"
     end
+    # rubocop:enable Rails/CreateTableWithTimestamps
 
     create_table "market_runners" do |t|
       t.bigint "bet_market_id", null: false
@@ -279,6 +283,7 @@ class InitialLoad < ActiveRecord::Migration[6.1]
       t.index :name
     end
 
+    # rubocop:disable Rails/CreateTableWithTimestamps
     create_table "team_divisions" do |t|
       t.bigint "team_id", null: false
       t.bigint "division_id", null: false
@@ -286,6 +291,7 @@ class InitialLoad < ActiveRecord::Migration[6.1]
       t.index :division_id
       t.index %w[team_id division_id season_id], unique: true
     end
+    # rubocop:enable Rails/CreateTableWithTimestamps
 
     create_table "team_names" do |t|
       t.bigint "team_id"
