@@ -25,7 +25,7 @@ class AddActiveFlagToSport < ActiveRecord::Migration[4.2]
         end
       end
     end
-    root.destroy
+    root.destroy!
   end
 
   def down
@@ -35,7 +35,7 @@ class AddActiveFlagToSport < ActiveRecord::Migration[4.2]
     change_table :sports do |t|
       t.integer :menu_path_id, null: false
     end
-    Sport.all.each do |sport|
+    Sport.all.find_each do |sport|
       mp = MenuPath.findByName [sport.name]
       sport.menu_path = mp
       mp.parent_path = root

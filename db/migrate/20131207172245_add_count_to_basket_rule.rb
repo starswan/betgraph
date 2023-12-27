@@ -8,7 +8,7 @@ class AddCountToBasketRule < ActiveRecord::Migration[4.2]
     change_table :basket_rules do |t|
       t.integer :count, null: false, default: 0
     end
-    BasketRule.all.each do |rule|
+    BasketRule.all.find_each do |rule|
       rule.count = rule.basket_rule_items.count
       rule.save!
     end

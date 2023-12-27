@@ -8,7 +8,7 @@ class AddMatchTypeToSport < ActiveRecord::Migration[4.2]
     change_table :sports do |t|
       t.string :match_type, length: 30, null: false
     end
-    Sport.all.each do |sport|
+    Sport.all.find_each do |sport|
       sport.match_type = "#{sport.name}Match"
       sport.save!
     end
