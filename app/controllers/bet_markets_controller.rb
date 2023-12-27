@@ -38,39 +38,9 @@ class BetMarketsController < ApplicationController
     end
   end
 
-  # GET /bet_markets/new
-  # GET /bet_markets/new.json
-  def new
-    @bet_market = @match.bet_markets.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render xml: @bet_market }
-      format.json { render json: @bet_market }
-    end
-  end
-
   # GET /bet_markets/1/edit
   def edit
     @bet_market = BetMarket.find(params[:id])
-  end
-
-  # POST /bet_markets
-  # POST /bet_markets.json
-  def create
-    @bet_market = @match.bet_markets.new(bet_market_params)
-
-    respond_to do |format|
-      if @bet_market.save
-        format.html { redirect_to @bet_market, notice: "Bet market was successfully created." }
-        format.json { render json: @bet_market, status: :created, location: @bet_market }
-        format.xml  { render xml: @bet_market, status: :created, location: @bet_market }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @bet_market.errors, status: :unprocessable_entity }
-        format.xml  { render xml: @bet_market.errors, status: :unprocessable_entity }
-      end
-    end
   end
 
   # PUT /bet_markets/1

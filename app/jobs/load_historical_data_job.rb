@@ -121,7 +121,7 @@ private
           end
         end
 
-        BetfairHandler::MarketMaker.make_markets_for_match(event, new_new).each do |bet_market|
+        BetfairHandler::MarketMaker.make_markets_for_match(event, new_new, 'HistoricalData').each do |bet_market|
           runner_data = market_list
                           .detect { |m| bet_market.betfair_marketid == m.fetch(:marketId) }
                           .fetch(:runners)
@@ -158,14 +158,15 @@ private
         # It appears that we get faulty data sometimes - LTP on an asian h/cap market without a handicap (hc) value
         # This optimisation is a folly as we delete markets if the price record has too many holes in it.
 
-        if timestamp > market.match.kickofftime
-          last_time = runner.market_prices.none? ? market.time : runner.market_prices.last.market_price_time.time
-          while timestamp - last_time > 3.minutes
-            last_time += 3.minutes
-            last_mpt = MarketPriceTime.create! time: last_time, created_at: last_time
-            runner.market_prices.create! back1price: runner.market_prices.any? ? runner.market_prices.last.back1price : runner_change.fetch(:ltp), market_price_time: last_mpt
-          end
-        end
+        # we no longer need to back-fill historical data prices - its pretty silly
+        # if timestamp > market.match.kickofftime
+        #   last_time = runner.market_prices.none? ? market.time : runner.market_prices.last.market_price_time.time
+          # while timestamp - last_time > 3.minutes
+          #   last_time += 3.minutes
+          #   last_mpt = MarketPriceTime.create! time: last_time, created_at: last_time
+          #   runner.market_prices.create! back1price: runner.market_prices.any? ? runner.market_prices.last.back1price : runner_change.fetch(:ltp), market_price_time: last_mpt
+          # end
+        # end
         mpt = MarketPriceTime.create! time: timestamp, created_at: timestamp if mpt.blank?
         runner.market_prices.create! back1price: runner_change.fetch(:ltp), market_price_time: mpt
       end
