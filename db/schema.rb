@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id"
   end
 
-  create_table "basket_items", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "basket_items", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "basket_id"
     t.bigint "market_runner_id"
     t.integer "weighting"
@@ -56,7 +56,7 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.index ["sport_id"], name: "fk_rails_3aa627174d"
   end
 
-  create_table "baskets", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "baskets", charset: "utf8mb3", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer "missing_items_count", null: false
@@ -208,16 +208,16 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.index ["description", "bet_market_id", "handicap"], name: "index_runners_on_desc_bet_market_handicap", unique: true
   end
 
-  create_table "match_teams", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "match_teams", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "match_id", null: false
     t.bigint "team_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["match_id"], name: "match_teams_match_id_fk"
-    t.index ["team_id"], name: "match_teams_team_id_fk"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["match_id"], name: "index_match_teams_on_match_id"
+    t.index ["team_id"], name: "index_match_teams_on_team_id"
   end
 
-  create_table "matches", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "matches", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "division_id", null: false
     t.datetime "kickofftime", null: false
     t.datetime "created_at"
@@ -229,7 +229,7 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.string "name", null: false
     t.boolean "live_priced", default: false, null: false
     t.bigint "venue_id", null: false
-    t.integer "bet_markets_count", default: 0
+    t.integer "bet_markets_count", default: 0, null: false
     t.bigint "season_id"
     t.integer "market_prices_count", default: 0, null: false
     t.date "date", null: false
@@ -244,7 +244,7 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.index ["venue_id"], name: "matches_venue_id_fk"
   end
 
-  create_table "results", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "results", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "match_id", null: false
     t.integer "homescore", null: false
     t.integer "awayscore", null: false
@@ -255,7 +255,7 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.index ["match_id"], name: "index_results_on_match_id", unique: true
   end
 
-  create_table "scorers", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "scorers", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "match_id"
     t.bigint "team_id"
     t.string "name"
@@ -287,15 +287,15 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.integer "expiry_time_in_minutes", default: 60, null: false
     t.boolean "active", default: false, null: false
     t.string "match_type", null: false
-    t.index ["betfair_events_count"], name: "index_sports_on_events_count"
+    t.index ["betfair_events_count"], name: "index_sports_on_betfair_events_count"
     t.index ["name"], name: "index_sports_on_name"
   end
 
-  create_table "team_divisions", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "team_divisions", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "team_id", null: false
     t.bigint "division_id", null: false
     t.integer "season_id", null: false
-    t.index ["division_id"], name: "fk_rails_f6e183de12"
+    t.index ["division_id"], name: "index_team_divisions_on_division_id"
     t.index ["team_id", "division_id", "season_id"], name: "index_team_divisions_on_team_id_and_division_id_and_season_id", unique: true
   end
 
@@ -304,7 +304,7 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.string "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["team_id"], name: "fk_rails_5c2c057ba9"
+    t.index ["team_id"], name: "index_team_names_on_team_id"
   end
 
   create_table "team_total_configs", charset: "utf8mb3", force: :cascade do |t|
@@ -337,14 +337,14 @@ ActiveRecord::Schema.define(version: 2023_11_23_210653) do
     t.index ["sport_id"], name: "fk_rails_11a3a42f5f"
   end
 
-  create_table "trades", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
+  create_table "trades", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "market_runner_id"
     t.decimal "price", precision: 6, scale: 2, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.decimal "size", precision: 6, scale: 2, null: false
     t.string "side", limit: 1, null: false
-    t.index ["market_runner_id"], name: "fk_rails_baf8bd2cd8"
+    t.index ["market_runner_id"], name: "index_trades_on_market_runner_id"
   end
 
   create_table "valuers", charset: "utf8mb3", force: :cascade do |t|
