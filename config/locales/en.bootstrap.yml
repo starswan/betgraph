@@ -20,6 +20,8 @@ en:
       disable: "Disable"
       new: "New"
       edit: "Edit"
+      runners: "Runners"
+      delete: "Delete"
     titles:
       edit: "Edit %{model}"
       save: "Save %{model}"
