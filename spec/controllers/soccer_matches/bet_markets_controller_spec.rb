@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -28,6 +26,8 @@ RSpec.describe SoccerMatches::BetMarketsController, type: :controller do
            name: "First Half Goals",
            match: soccermatch, time: Time.zone.now + 10.minutes, active: true)
   end
+
+  render_views
 
   it "index gets non half time markets" do
     get :index, params: { soccer_match_id: soccermatch.id }

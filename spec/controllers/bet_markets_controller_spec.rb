@@ -25,6 +25,8 @@ RSpec.describe BetMarketsController, type: :controller do
     create(:bet_market, match: soccermatch, name: market_type.name)
   end
 
+  render_views
+
   it "gets index" do
     get :index, params: { match_id: soccermatch }
     assert_response :success
