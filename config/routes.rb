@@ -45,7 +45,7 @@ Rails.application.routes.draw do
       get :active
     end
     resources :results
-    resources :bet_markets, only: %i[index edit]
+    resources :bet_markets, only: %i[index]
     resources :baskets, except: [:edit]
     resources :match_teams
   end

@@ -48,7 +48,7 @@
         <td><%= link_to bet_market.market_prices.count, bet_market_market_prices_path(bet_market) %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_match_bet_market_path(@match, bet_market), :class => 'btn btn-sm btn-outline-primary' %>
+                      edit_bet_market_path(bet_market), :class => 'btn btn-sm btn-outline-primary' %>
         </td>
         <td>
           <%= link_to t('.delete', :default => t("helpers.links.delete")),
