@@ -31,77 +31,9 @@ RSpec.describe BetMarketsController, type: :controller do
     expect(assigns(:bet_markets)).not_to be_nil
   end
 
-  it "gets new" do
-    get :new, params: { match_id: soccermatch }
-    assert_response :success
-  end
-
   it "shows bet_market" do
     get :show, params: { id: bet_market }
     assert_response :success
-  end
-
-  it "creates bet_market" do
-    expect {
-      post :create, params: {
-        match_id: soccermatch,
-        bet_market: {
-          name: "whatever",
-          description: "description",
-          live: false,
-          marketid: 27,
-          markettype: "O",
-          status: BetMarket::ACTIVE,
-          exchange_id: 1,
-          number_of_runners: 3,
-          time: Time.zone.now + 7.days,
-          total_matched_amount: 23.98,
-        },
-      }
-    }.to change(BetMarket, :count).by(1)
-
-    assert_redirected_to bet_market_path(assigns(:bet_market))
-  end
-
-  it "creates bet_market via json" do
-    expect {
-      post :create, params: {
-        match_id: soccermatch,
-        bet_market: {
-          name: "whatever",
-          description: "description",
-          live: false,
-          marketid: 27,
-          markettype: "O",
-          status: BetMarket::ACTIVE,
-          exchange_id: 1,
-          number_of_winners: 1,
-          number_of_runners: 3,
-          runners_may_be_added: false,
-          time: Time.zone.now + 7.days,
-          total_matched_amount: 23.98,
-        },
-      }, format: :json
-      assert_response :success
-    }.to change(BetMarket, :count).by(1)
-  end
-
-  it "does not create bet_market when there are errors" do
-    expect {
-      post :create, params: { match_id: soccermatch,
-                              bet_market: {
-                                description: "description",
-                                live: false,
-                                marketid: 27,
-                                markettype: "O",
-                                number_of_winners: 1,
-                                runners_may_be_added: false,
-                                time: Time.zone.now + 7.days,
-                                type_variant: "D",
-                              } }
-    }.to change(BetMarket, :count).by(0)
-
-    # assert_redirected_to bet_market_path(assigns(:bet_market))
   end
 
   it "gets edit" do

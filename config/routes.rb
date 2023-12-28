@@ -45,7 +45,7 @@ Rails.application.routes.draw do
       get :active
     end
     resources :results
-    resources :bet_markets
+    resources :bet_markets, only: %i[index]
     resources :baskets, except: [:edit]
     resources :match_teams
   end
@@ -61,7 +61,7 @@ Rails.application.routes.draw do
   resources :tennis_matches do
   end
   resources :motor_races do
-    resources :bet_markets
+    resources :bet_markets, only: %i[index]
   end
   resources :snooker_matches do
   end
@@ -85,7 +85,7 @@ Rails.application.routes.draw do
   resources :market_prices
   resources :event_basket_prices
 
-  resources :bet_markets do
+  resources :bet_markets, only: %i[show edit update destroy] do
     resources :market_runners
     resources :trades, controller: "bet_markets/trades"
     resources :market_prices, controller: "bet_markets/market_prices"

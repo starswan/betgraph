@@ -12,6 +12,7 @@ FactoryBot.define do
     live { false }
     total_matched_amount { 0 }
     time { Time.zone.now }
+    price_source { "RestAPI" }
 
     trait :overunder do
       markettype { "OVER_UNDER-25" }
