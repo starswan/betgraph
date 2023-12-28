@@ -6,7 +6,7 @@
 require "rails_helper"
 
 RSpec.describe Season do
-  before { create(:season) }
+  before { create(:season, :first) }
 
   let(:season) { described_class.last }
 
