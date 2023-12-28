@@ -5,17 +5,14 @@
 #
 class BetMarketsController < ApplicationController
   INDEX_ACTIONS = [:index].freeze
-  FIND_EVENT_ACTIONS = [:new, :create].freeze
-  before_action :find_match, only: FIND_EVENT_ACTIONS
-  before_action :find_match_from_market, except: FIND_EVENT_ACTIONS + INDEX_ACTIONS
+  before_action :find_match_from_market, except: INDEX_ACTIONS
 
-  skip_before_action :verify_authenticity_token, only: [:create, :update, :destroy]
-  before_action :semi_verify_authenticity_token, only: [:create, :update, :destroy]
+  skip_before_action :verify_authenticity_token, only: [:update, :destroy]
+  before_action :semi_verify_authenticity_token, only: [:update, :destroy]
 
   # GET /bet_markets
   # GET /bet_markets.json
   def index
-    @match = Match.find(params[:match_id])
     @bet_markets = @match.bet_markets.sort_by { |m| "#{m.active} #{m.name}" }
 
     respond_to do |format|

@@ -34,8 +34,8 @@ class BetMarket < ApplicationRecord
   validates :name, presence: true, uniqueness: { scope: [:match, :deleted_at] }
 
   # mark historical data loads so that they don't get culled due to holes in the data
-  validates :price_source, inclusion: { in: ['RestAPI', 'HistoricalData'], allow_nil: false }
-  scope :api_priced, -> { where(price_source: 'RestAPI') }
+  validates :price_source, inclusion: { in: %w[RestAPI HistoricalData], allow_nil: false }
+  scope :api_priced, -> { where(price_source: "RestAPI") }
 
   # Yes some of these markets aren't strictly 'Asian Handicap' markets but they behave like it
   # for pricing purposes i.e. each runner has a 'handicap' value associated with it.

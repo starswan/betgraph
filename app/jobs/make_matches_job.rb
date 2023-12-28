@@ -34,11 +34,11 @@ class MakeMatchesJob < BetfairJob
       a_vs_b = name.index(" v ")
       a_at_b = name.index(" @ ")
       if a_vs_b
-        BetfairHandler::MarketMaker.make_single_match division, event, markets, 'RestAPI'
+        BetfairHandler::MarketMaker.make_single_match division, event, markets, "RestAPI"
       elsif a_at_b
-        BetfairHandler::MarketMaker.make_single_match division, event, markets, 'RestAPI'
+        BetfairHandler::MarketMaker.make_single_match division, event, markets, "RestAPI"
       elsif name.ends_with?("Grand Prix")
-        BetfairHandler::MarketMaker.make_single_match division, event, markets, 'RestAPI'
+        BetfairHandler::MarketMaker.make_single_match division, event, markets, "RestAPI"
       else
         []
       end
