@@ -6,6 +6,7 @@
 class BetMarketsController < ApplicationController
   INDEX_ACTIONS = [:index].freeze
   before_action :find_match_from_market, except: INDEX_ACTIONS
+  before_action :find_match, only: INDEX_ACTIONS
 
   skip_before_action :verify_authenticity_token, only: [:update, :destroy]
   before_action :semi_verify_authenticity_token, only: [:update, :destroy]
