@@ -15,8 +15,8 @@ FactoryBot.define do
     price_source { "RestAPI" }
 
     trait :overunder do
-      markettype { "OVER_UNDER-25" }
-      name { "Over/Under 2.5 goals" }
+      markettype { "OVER_UNDER_25" }
+      name { "Over/Under 2.5 Goals" }
     end
 
     trait :correct_score do
@@ -58,7 +58,7 @@ FactoryBot.define do
     end
 
     trait :overunder25 do
-      name { "Over/Under 2.5 goals" }
+      name { "Over/Under 2.5 Goals" }
       valuer { "OverUnderGoals" }
     end
 

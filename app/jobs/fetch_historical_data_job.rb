@@ -33,13 +33,26 @@ class FetchHistoricalDataJob < BetfairJob
       fileTypeCollection: %w[M],
     }
     _collection_opts = bc.get_collection_options opts
-    files = bc.download_list_of_files(opts).reject do |f|
+    all_files = bc.download_list_of_files(opts).reject do |f|
       name = f.split("/").last
       market_id = name.split(".")[0..-2].join(".")
       BetMarket.by_betfair_market_id(market_id).exists?
     end
 
-    files.each do |filename|
+    # If all the event ids are known for a date, we can download just those ids
+    # wonder if we could use the 'eventName' filter above?
+    download_event_ids = all_files.map { |f| f.split("/")[-2] }.uniq
+    all_event_ids = Match.played_on(target_date).map(&:betfair_event_id).map(&:to_s)
+
+    download_files = if all_event_ids.all? { |x| download_event_ids.include?(x) }
+                       all_files.select do |f|
+                         all_event_ids.any? { |e| f.include?(e) }
+                       end
+                     else
+                       all_files
+                     end
+
+    download_files.each do |filename|
       DownloadHistoricalDataFileJob.perform_later filename
     end
   end

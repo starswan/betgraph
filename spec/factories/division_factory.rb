@@ -6,6 +6,12 @@ FactoryBot.define do
 
     trait :premier_league do
       bbc_slug { "premier-league" }
+      football_data_code { "E0" }
+    end
+
+    trait :league_one do
+      football_data_code { "E2" }
+      bbc_slug { "league-one" }
     end
   end
 

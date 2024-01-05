@@ -50,7 +50,7 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
           expect {
             described_class.perform_now kickofftime.to_date, "GB"
           }.to change(BetMarket, :count).by(1)
-        }.to change(MarketPrice, :count).by(20)
+        }.to change(MarketPrice, :count).by(12)
       end
     end
 
@@ -69,7 +69,7 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
           expect {
             described_class.perform_now kickofftime.to_date, "GB"
           }.to change(BetMarket, :count).by(2)
-        }.to change(MarketPrice, :count).by(1319)
+        }.to change(MarketPrice, :count).by(600)
       end
     end
   end
