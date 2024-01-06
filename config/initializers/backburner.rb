@@ -30,7 +30,8 @@ Backburner.configure do |config|
   config.logger = Rails.logger
   config.respond_timeout = 3600
   config.reserve_timeout = 3600
-  config.max_job_retries = 20
+  # total attem;ts is 20 (19 retries)
+  config.max_job_retries = 19
   # config.on_error = lambda { |ex| Rails.logger.error(ex); ActiveRecord::Base.connection.reconnect! }
   config.on_error = ->(ex) { Rails.logger.error(ex); raise ex }
 

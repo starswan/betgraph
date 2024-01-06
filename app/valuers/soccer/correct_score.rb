@@ -1,8 +1,9 @@
-# frozen_string_literal: true
-
+#
 # $Id$
 #
 module Soccer
+  # This and HalfTimeScore should have identical calculations
+  # just with different parameters
   class CorrectScore < FullTimeValuer
     def initialize
       super

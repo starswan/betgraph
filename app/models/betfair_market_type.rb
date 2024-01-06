@@ -18,6 +18,8 @@ class BetfairMarketType < ApplicationRecord
 
   scope :correct_score, -> { where(name: CORRECT_SCORE) }
 
+  scope :active, -> { where(active: true) }
+
   def half_time?
     valuer.in? HALF_TIME_MARKETS
   end
