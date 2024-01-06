@@ -83,13 +83,13 @@ RSpec.describe "LeagueTables", type: :feature do
 
   it "shows the league fixtures", :vcr, :js do
     visit division_path(division)
-    sleep 5
+    sleep 1
     # This is the link to bring up the (historic) fixtures for this division
     click_on "[12]"
-    sleep 3
+    sleep 1
     click_on "Sun 19 Aug [1]"
-    sleep 6
+    sleep 1
     click_on "Sat 8 Sep [11]"
-    sleep 11
+    sleep 1
   end
 end
