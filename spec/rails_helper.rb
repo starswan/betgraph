@@ -56,7 +56,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
 
     # Only set minimum coverage locally - CI uses Pronto::Undercover
     unless ENV.key? "CI"
-      minimum_coverage line: 90.22, branch: 64.33
+      minimum_coverage line: 90.39, branch: 64.86
       # we seem to have flakey/non-stable coverage values
       # maybe no longer...?
       maximum_coverage_drop 0.05
@@ -70,6 +70,9 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 
 require "spec_helper"
 require "rspec/rails"
+
+require "webmock/rspec"
+
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in

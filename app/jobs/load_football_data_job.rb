@@ -12,7 +12,8 @@ class LoadFootballDataJob < ApplicationJob
 
   def perform(today_as_string)
     today = Date.parse(today_as_string)
-    season = Season.where("startdate <= ?", today).order(:startdate).last
+    soccer_calendars = Sport.find_by!(name: "Soccer").calendars
+    season = Season.where(calendar: soccer_calendars).where("startdate <= ?", today).order(:startdate).last
     year = season.startdate.year % 100
     # year = if today.month < 7
     #          today.year % 100
@@ -26,6 +27,10 @@ class LoadFootballDataJob < ApplicationJob
     logger.debug "Opening URL #{url}"
     zipfile = URI.open(url)
 
+    load_zipfile(zipfile)
+  end
+
+  def load_zipfile(zipfile)
     # weirdly sometimes open_uri returns a File object,and sometimes a StringIO...
     Zip::InputStream.open(zipfile) do |zip_stream|
       while entry = zip_stream.get_next_entry

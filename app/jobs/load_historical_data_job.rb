@@ -42,6 +42,7 @@ private
     if def_changes.any?
       market_list = def_changes.map do |mc|
         market_def = mc.fetch(:marketDefinition)
+        Rails.logger.warn "Thing #{market_def.fetch(:eventName)} #{market_def.fetch(:eventId)}"
         market_def.merge(marketId: mc.fetch(:id),
                          # description: { marketTime: market_def.fetch(:marketTime),
                          #                marketType: market_def.fetch(:marketType),
@@ -143,14 +144,15 @@ private
       BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.exists?
     end
 
-    # next unless other_changes.any?
-
     mpt = nil
 
     other_changes.each do |change|
       # exchange_id, market_id = change.fetch(:id).split(".")
       # market = BetMarket.include(market_runners: :market_prices).find_by! exchange_id: exchange_id, marketid: market_id, active: true
       market = BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.first!
+
+      next unless timestamp > market.time - 15.minutes
+
       # TODO: Handle any detailed changes that aren't rc (runner change) based from ADVANCED download
       change.fetch(:rc, []).each do |runner_change|
         # runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))

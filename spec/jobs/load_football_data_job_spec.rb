@@ -1,15 +1,12 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
 require "rails_helper"
-require "webmock/rspec"
 
 RSpec.describe LoadFootballDataJob, type: :job do
-  let(:season) { create(:season, startdate: Date.new(2019, 8, 1)) }
+  let(:sport) { create(:soccer, calendars: build_list(:calendar, 1)) }
+  let(:season) { create(:season, calendar: sport.calendars.first, startdate: Date.new(2019, 8, 1)) }
   let(:division) { create(:division, calendar: season.calendar) }
-  let(:sport) { season.calendar.sport }
 
   before do
     create(:football_division, football_data_code: "SC0", division: division)

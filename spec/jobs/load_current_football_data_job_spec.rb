@@ -6,8 +6,10 @@
 require "rails_helper"
 
 RSpec.describe LoadCurrentFootballDataJob, type: :job do
+  let(:sport) { create(:soccer, calendars: build_list(:calendar, 1)) }
+
   before do
-    create(:season, startdate: Time.zone.today)
+    create(:season, startdate: Time.zone.today, calendar: sport.calendars.first)
   end
 
   it "performs" do
