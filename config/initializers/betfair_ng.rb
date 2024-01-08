@@ -1,5 +1,5 @@
 module Betfair
-  class Client
+  module HistoricalData
     HISTORIC_DATA_API_PREFIX = "https://historicdata.betfair.com/api"
     def keep_alive
       get url: "https://identitysso-cert.betfair.com/api/keepAlive"
@@ -26,6 +26,10 @@ module Betfair
            headers: { "ssoid" => persistent_headers.fetch("X-Authentication") },
           query: {filePath: filename}
     end
+  end
+
+  class Client
+    include HistoricalData
   end
 
   module API
