@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class HalfTimeValuer
   def end_time
     45.minutes

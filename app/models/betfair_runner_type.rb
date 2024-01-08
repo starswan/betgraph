@@ -21,9 +21,10 @@ class BetfairRunnerType < ApplicationRecord
     valuer.value_with_handicap runnerhomevalue, runnerawayvalue, homescore, awayscore, handicap
   end
 
-  def expected_runner_value(price)
-    valuer.expected_value runnerhomevalue, price
-  end
+  # expected_value isn't expecting to be called like this.
+  # def expected_runner_value(price)
+  #   valuer.expected_value runnerhomevalue, price
+  # end
 
   def nameAndMarketName
     betfair_market_type.name + " - " + name

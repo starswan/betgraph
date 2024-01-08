@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/SciRuby/rb-gsl
+  revision: 103a3e1941e220befd037e0f4289a82c551ae250
+  specs:
+    gsl (2.1.0.3)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -669,6 +675,7 @@ DEPENDENCIES
   factory_bot_rails
   faraday (>= 2)
   faraday-retry
+  gsl!
   guard-bundler
   guard-rspec
   guard-rubocop

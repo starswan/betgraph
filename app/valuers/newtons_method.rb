@@ -11,22 +11,33 @@ module NewtonsMethod
     # def solve_for(func, guess = 0)
     #   solve(guess, func.method(:func), func.method(:funcdash))
     # end
+    Iteration = Struct.new :f, :x, keyword_init: true
 
-    def solve(guess, func, funcdash, epsilon = EPSILON)
+    def solve(xzero, func, funcdash, epsilon = EPSILON)
       loops = 0
-      f = func.call(guess)
-      while f.abs > epsilon
-        fdash = funcdash.call(guess)
-        guess -= f / fdash
-        newvalue = func.call(guess)
-        # Need to wait a certain number of iterations before deciding that things are not working
-        raise NewtonsMethodNotConverging, [loops, newvalue.round(5)] if newvalue.abs >= f.abs && loops > 4
+      iter0 = iterate(xzero, func, funcdash)
+      iter_n = iterate(iter0.x, func, funcdash)
+      while iter_n.f.abs > epsilon
+        old_iter = iter_n
+        iter_n = iterate(iter_n.x, func, funcdash)
+        # converges quatratically so this test should always work satisfactorily - hard to cover with tests
+        # :nocov:
+        raise NewtonsMethodNotConverging, [loops, xnplus1.round(5)] if iter_n.f.abs > old_iter.f.abs
+        # :nocov:
 
         loops += 1
-        Rails.logger.debug format("Newton Raphson iteration [#{loops}] x=%2.5f %2.5f f(x)=%2.5f", guess, f, newvalue)
-        f = newvalue
+        Rails.logger.debug format("Newton Raphson iteration [#{loops}] x=%2.5f %2.5f f(x)=%2.5f", old_iter.x, iter_n.f, iter_n.x)
       end
-      Solution.new guess, loops
+      Solution.new iter_n.x, loops
+    end
+
+  private
+
+    def iterate(xzero, func, funcdash)
+      f0 = func.call(xzero)
+      fdash0 = funcdash.call(xzero)
+      x1 = xzero - f0 / fdash0
+      Iteration.new(f: f0, x: x1).freeze
     end
   end
 end
