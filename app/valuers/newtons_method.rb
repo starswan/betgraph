@@ -8,9 +8,9 @@ module NewtonsMethod
   class << self
     class NewtonsMethodNotConverging < StandardError; end
 
-    def solve_for(func, guess = 0)
-      solve(guess, func.method(:func), func.method(:funcdash))
-    end
+    # def solve_for(func, guess = 0)
+    #   solve(guess, func.method(:func), func.method(:funcdash))
+    # end
 
     def solve(guess, func, funcdash, epsilon = EPSILON)
       loops = 0
