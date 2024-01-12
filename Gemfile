@@ -82,7 +82,7 @@ gem "webpacker", ">= 5", "< 6"
 gem "passenger", "~> 5.0"
 # gem 'unicorn'
 
-gem "rubyzip"
+gem "rubyzip", "> 2.3.2"
 
 # BZip 2 support
 # neither of these 2 seem to work

@@ -555,7 +555,7 @@ GEM
       simplecov (>= 0.22.0)
       tty-which (~> 0.5.0)
       virtus (~> 2.0)
-    rubyzip (2.3.2)
+    rubyzip (3.0.0.alpha)
     rugged (1.6.3)
     rvm-capistrano (1.5.6)
       capistrano (~> 2.15.4)
@@ -707,7 +707,7 @@ DEPENDENCIES
   rubocop-govuk
   rubocop-performance
   rubycritic
-  rubyzip
+  rubyzip (> 2.3.2)
   rvm-capistrano
   sass-rails (~> 6)
   sdoc

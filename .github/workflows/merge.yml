@@ -10,10 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-#        some issue with zipfiles on ruby 3.3
-#        ruby-version: ['3.1', '3.2', '3.3']
-#        one version of ruby will do for main branch
-        ruby-version: ['3.1']
+        ruby-version: ['3.1', '3.2', '3.3']
 
     services:
       postgres:
