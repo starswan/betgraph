@@ -93,14 +93,18 @@ gem "rubyzip"
 gem "iostreams"
 gem "bzip2-ffi"
 
+gem "morrisjs-rails"
+gem "raphael-rails"
+
+# Ruby 3.x compatibility merged to master, but not released
+# last published version v2.1.0.3 doesn't support Ruby 3
+gem "gsl", git: "https://github.com/SciRuby/rb-gsl"
+# dunno whether this is still any good?
+# gem "newrelic_rpm"
 # YAML database dump for postgres conversion attempt
 # this gem possibly has issues on loading
 # due to excess RAM usage - it can't save either
 gem "yaml_db"
-gem "morrisjs-rails"
-gem "raphael-rails"
-# dunno whether this is still any good?
-# gem "newrelic_rpm"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

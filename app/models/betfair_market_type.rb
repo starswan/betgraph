@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -30,6 +28,8 @@ class BetfairMarketType < ApplicationRecord
     @valuer_obj ||= Module.const_get("#{sport.name}::#{valuer}").new
   end
 
+  ExpectedPriceWithHandicap = Struct.new(:home, :away, :handicap, :price, keyword_init: true)
+  ExpectedPrice = Struct.new(:home, :away, :price, keyword_init: true)
   # prices is an array of homevalue, awayvalue, handicap, backprice & layprice
   # might make more sense for the prices to be treated individually?
   # param1 is a market parameter e.g. OverUnderGoals(1.5)

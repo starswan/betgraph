@@ -138,6 +138,11 @@ class BetMarket < ApplicationRecord
       # Each price implies a value of lambda (expected value of market)
       rvs = prices.map do |price|
         runner = price.market_runner
+        # BetfairMarketType::ExpectedPrice.new home: runner.betfair_runner_type.runnerhomevalue,
+        #                                      away: runner.betfair_runner_type.runnerawayvalue,
+        #                                      handicap: runner.handicap,
+        #                                      price: price.back1price
+
         { homevalue: runner.betfair_runner_type.runnerhomevalue.to_f,
           awayvalue: runner.betfair_runner_type.runnerawayvalue.to_f,
           handicap: runner.handicap.to_f,
@@ -253,7 +258,7 @@ class BetMarket < ApplicationRecord
 private
 
   def market_prices_at(time)
-    price_query = MarketPrice.where(market_runner_id: market_runners.map(&:id))
+    price_query = MarketPrice.where(market_runner: market_runners)
     price_query.joins(:market_price_time)
       .merge(MarketPriceTime.later_than(time))
       .uniq(&:market_runner)

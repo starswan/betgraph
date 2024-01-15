@@ -40,7 +40,7 @@ class MarketRunner < ApplicationRecord
     end
   end
 
-  delegate :expected_runner_value, to: :betfair_runner_type
+  # delegate :expected_runner_value, to: :betfair_runner_type
 
 private
 

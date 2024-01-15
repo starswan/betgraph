@@ -42,7 +42,9 @@ module Soccer
       # to go any higher we would need Correct Score 2 Home and Correct Score 2 Away
       # e.g. values[4] == [4-0, 3-1, 2-2, 1-3, 0-4] [5-0, 4-1, 3-2, 2-3, 1-4, 0-5].
       # 6 goals probably unobtainable as 4-2 and 2-4 rarely (never?) have runners
-      values = 0.upto(3).map do |goalcount|
+      # values = 0.upto(3).map do |goalcount|
+      # convergence is a struggle with higher values of N
+      values = 0.upto(0).map do |goalcount|
         hv = pl.select { |p| p[:home] + p[:away] == goalcount }.map { |p| p[:price] }.reduce(:+)
         hvfunc = CumulativePoisson.new(goalcount, hv)
         NewtonsMethod.solve(hv, hvfunc.method(:func), hvfunc.method(:funcdash)).value unless hv.nil?
@@ -50,7 +52,29 @@ module Soccer
       OpenStruct.new(bid: nil, ask: nil)
     end
 
+    # Calculate home and away lambda (average) goals for the moment based on Poisson distribution
+    def lambda_h(goalcount, pricelist, xzero = 0)
+      overround = pricelist.sum { |p| 1 / p.price }
+      # Just solve for 0 and 1 - 2 and 3 often don't converge due to fdash being very small
+      # ignore -ve p values as they represent 'any other home/away win or draw'
+      solve_for(pricelist.select { |p| p[:home] == goalcount && p[:away] >= 0 }.sum { |p| overround / p.price }, goalcount, xzero)
+    end
+
+    def lambda_a(goalcount, pricelist, xzero = 2)
+      overround = pricelist.sum { |p| 1 / p.price }
+      # Just solve for 0 and 1 - 2 and 3 often don't converge due to fdash being very small
+      # 0.upto(1).map do |goalcount|
+      # ignore -ve p values as they represent 'any other home/away win or draw'
+      solve_for(pricelist.select { |p| p[:away] == goalcount && p[:home] >= 0 }.sum { |p| overround / p.price }, goalcount, xzero)
+      # end
+    end
+
   private
+
+    def solve_for(hv, goalcount, xzero)
+      hvfunc = Poisson.new(goalcount, hv)
+      NewtonsMethod.solve(xzero, hvfunc.method(:func), hvfunc.method(:funcdash)).value
+    end
 
     def poisson_pmf(k)
       proc { |prob| prob * Math::E**-prob / k.factorial }
@@ -75,16 +99,17 @@ module Soccer
       end
     end
 
-    def expectedForGoals(goals, prices)
-      probability = 0
-      prices.each do |runnertype, price|
-        if runnertype.homevalue + runnertype.awayvalue == goals
-          probability += 1 / price
-        end
-      end
-      dist = Poisson.new(goals, probability)
-      NewtonsMethod.solve(param1, dist.method(:prob), dist.method(:probdash))
-    end
+    # can't have ever worked, as the methods for Poisson and func and funcdash
+    #   def expectedForGoals(goals, prices)
+    #     probability = 0
+    #     prices.each do |runnertype, price|
+    #       if runnertype.homevalue + runnertype.awayvalue == goals
+    #         probability += 1 / price
+    #       end
+    #     end
+    #     dist = Poisson.new(goals, probability)
+    #     NewtonsMethod.solve(param1, dist.method(:prob), dist.method(:probdash))
+    #   end
   end
 
   #   Just keeping the code from CorrectScore as it is being deleted.

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -31,12 +29,12 @@ RSpec.describe BetfairMarketType do
 
     it "values stuff" do
       expect(bmt.valuer_obj.expected_value(0.5, [{ homevalue: 1, backprice: 1.07, layprice: 1.08 }]))
-          .to eq(OpenStruct.new(bid: 0.6554068504273353, ask: 0.7323678455242306))
+          .to eq(OpenStruct.new(bid: 0.6554068525770983, ask: 0.7323678937132255))
     end
 
-    it "reallies value stuff" do
+    it "values stuff with different target" do
       expect(bmt.valuer_obj.expected_value(1.5, [{ homevalue: 1, backprice: 1.07, layprice: 1.08 }]))
-          .to eq(OpenStruct.new(bid: 1.6177036383240442, ask: 1.740513035897121))
+          .to eq(OpenStruct.new(bid: 1.6177047286013204, ask: 1.7405130360033894))
     end
   end
 

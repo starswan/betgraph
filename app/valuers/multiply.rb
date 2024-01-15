@@ -1,14 +1,14 @@
-# frozen_string_literal: true
-
+#
+# $Id$
+#
 class Multiply
-  def initialize(leftfunc, rightfunc, offset)
+  def initialize(leftfunc, rightfunc)
     @leftfunc = leftfunc
     @rightfunc = rightfunc
-    @offset = offset
   end
 
   def func(exp)
-    @leftfunc.func(exp) * @rightfunc.func(exp) - @offset
+    @leftfunc.func(exp) * @rightfunc.func(exp)
   end
 
   def funcdash(exp)

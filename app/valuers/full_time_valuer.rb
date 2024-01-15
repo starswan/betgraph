@@ -1,5 +1,6 @@
-# frozen_string_literal: true
-
+#
+# $Id$
+#
 class FullTimeValuer
   def end_time
     90.minutes
