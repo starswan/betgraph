@@ -5,7 +5,7 @@
     <td><%= fixture.kickofftime.to_s(:time_without_secs) %></td>
     <td><%= render 'team', team: fixture.hometeam, rows: @rows %></td>
     <td><%= render 'team', team: fixture.awayteam, rows: @rows %></td>
-    <td><%= fixture.bet_markets.count %></td>
+    <td><%= fixture.bet_markets_count %></td>
     <td><%= fixture.market_prices_count %></td>
   </tr>
   <% end %>

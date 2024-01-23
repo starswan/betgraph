@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -10,7 +8,7 @@ class MarketPrice < ApplicationRecord
   belongs_to :market_runner, inverse_of: :market_prices, counter_cache: true
   belongs_to :market_price_time, inverse_of: :market_prices, counter_cache: true
 
-  ACTIVE = "ACTIVE"
+  ACTIVE = "ACTIVE".freeze
 
   scope :active, -> { where(status: ACTIVE) }
 
