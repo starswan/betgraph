@@ -1,0 +1,707 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://identitysso-cert.betfair.com/api/certlogin
+    body:
+      encoding: ASCII-8BIT
+      string: "<CREDENTIALS>"
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '87'
+      Date:
+      - Tue, 23 Jan 2024 21:02:05 GMT
+      Server:
+      - Betfair
+    body:
+      encoding: UTF-8
+      string: '{"sessionToken":"<TOKEN>","loginStatus":"SUCCESS"}'
+  recorded_at: Tue, 23 Jan 2024 21:02:05 GMT
+- request:
+    method: post
+    uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
+    body:
+      encoding: UTF-8
+      string: '{"filter":{}}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:05 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=qqJcrRR..Md_CCSBxPyz3TWO7Jt0MMjNb9lQCBBnw5o-1706043725-1-Adh7/lAKk/umpnPei9/UQdJfA0JuvztolyAJN++BTTd2WrKfUG84BB9w/bUt2OOjwqabiCazjXIaaQwhtU7K+BI=;
+        path=/; expires=Tue, 23-Jan-24 21:32:05 GMT; domain=.api.betfair.com; HttpOnly;
+        Secure
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9c64c0b635f-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":7793},{"eventType":{"id":"2","name":"Tennis"},"marketCount":590},{"eventType":{"id":"3","name":"Golf"},"marketCount":51},{"eventType":{"id":"4","name":"Cricket"},"marketCount":303},{"eventType":{"id":"5","name":"Rugby
+        Union"},"marketCount":78},{"eventType":{"id":"1477","name":"Rugby League"},"marketCount":26},{"eventType":{"id":"6","name":"Boxing"},"marketCount":90},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":425},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":3},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":81},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":48},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":7},{"eventType":{"id":"11","name":"Cycling"},"marketCount":2},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":26},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":22},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":33},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":1},{"eventType":{"id":"451485","name":"Winter
+        Sports"},"marketCount":27},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":257},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":173},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":34},{"eventType":{"id":"468328","name":"Handball"},"marketCount":13},{"eventType":{"id":"3503","name":"Darts"},"marketCount":59},{"eventType":{"id":"26420387","name":"Mixed
+        Martial Arts"},"marketCount":18},{"eventType":{"id":"4339","name":"Greyhound
+        Racing"},"marketCount":530},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":46}]'
+  recorded_at: Tue, 23 Jan 2024 21:02:05 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/GetMyData
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4490'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5spyNAwz1uyN6lHW63ih152%2B2wx%2BLlvl0M5n1fcf7QljWwn%2B4PPKURsIhrm4CNEfzQ6pAAvzQHe%2BlUjWpUX%2FjvgLr14OhkTFqFzBK5W9tM6pk3Rnh28dyAPh21dEDf5S%2By3W%2BWIougZ%2BcA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9c718b563a6-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '[{"sport":"Soccer","plan":"Advanced Plan","forDate":"2015-07-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2015-08-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2015-09-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2015-10-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2015-11-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2015-12-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2016-01-01T00:00:00","purchaseItemId":107448},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2016-03-01T00:00:00","purchaseItemId":107451},{"sport":"Soccer","plan":"Advanced
+        Plan","forDate":"2016-04-01T00:00:00","purchaseItemId":107451},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2017-05-01T00:00:00","purchaseItemId":119769},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2017-08-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2017-09-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2017-10-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2017-11-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2017-12-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-01-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-02-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-03-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-04-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-05-01T00:00:00","purchaseItemId":112473},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-07-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-08-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-09-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-10-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-11-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2018-12-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2019-01-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2019-02-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2019-03-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2019-04-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2019-05-01T00:00:00","purchaseItemId":113298},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2021-01-01T00:00:00","purchaseItemId":58993},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2021-02-01T00:00:00","purchaseItemId":58993},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2021-03-01T00:00:00","purchaseItemId":58993},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2022-07-01T00:00:00","purchaseItemId":107433},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2022-08-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2022-09-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2022-10-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2022-11-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2022-12-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-01-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-02-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-03-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-04-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-05-01T00:00:00","purchaseItemId":107409},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-08-01T00:00:00","purchaseItemId":119781},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2023-11-01T00:00:00","purchaseItemId":116466}]'
+  recorded_at: Tue, 23 Jan 2024 21:02:06 GMT
+- request:
+    method: post
+    uri: https://historicdata.betfair.com/api/GetCollectionOptions
+    body:
+      encoding: UTF-8
+      string: '{"sport":"Soccer","plan":"Basic Plan","fromDay":26,"fromMonth":8,"fromYear":2017,"toDay":26,"toMonth":8,"toYear":2017,"eventId":null,"eventName":null,"marketTypesCollection":["CORRECT_SCORE","MATCH_ODDS","OVER_UNDER_25"],"countriesCollection":["GB"],"fileTypeCollection":["M"]}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '233'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=frm8g5BXCSznF7rSt6rWrVLiZ%2BEk5So69fogrZWX5T2oHvdvhOcdMQpZ3DOJNMdc98gm4o3LSd0DS4OrBzCqMWUwE11lirmXGALmqlhtN0VNpgXQWSbY8FA3r7Dkz%2BeRYEwNWC4%2FEd9RPg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9c8ac0753a4-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"marketTypesCollection":[{"name":"CORRECT_SCORE","count":145},{"name":"OVER_UNDER_25","count":145},{"name":"MATCH_ODDS","count":145}],"countriesCollection":[{"name":"GB","count":435}],"fileTypeCollection":[{"name":"M","count":435}]}'
+  recorded_at: Tue, 23 Jan 2024 21:02:07 GMT
+- request:
+    method: post
+    uri: https://historicdata.betfair.com/api/DownloadListOfFiles
+    body:
+      encoding: UTF-8
+      string: '{"sport":"Soccer","plan":"Basic Plan","fromDay":26,"fromMonth":8,"fromYear":2017,"toDay":26,"toMonth":8,"toYear":2017,"eventId":null,"eventName":null,"marketTypesCollection":["CORRECT_SCORE","MATCH_ODDS","OVER_UNDER_25"],"countriesCollection":["GB"],"fileTypeCollection":["M"]}'
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '29146'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vWrMhnxkI%2FDUk6687E3JK%2BgwDQcZUJ21I%2BRfTX%2FohAguiyE060y7YWbUNGLPO8fOqYfhUNEP0m9%2BKWEFVqvebzj6v%2BakVaUInnzOQx5rbmg2KhT7T7PggfHPLIp1sgo2vRdqw5y6NerMTA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9ce3d924179-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '["/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345052/1.133270933.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345052/1.133271020.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345052/1.133271039.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345052/1.133271048.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345052/1.133271051.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345052/1.133271053.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345053/1.133271065.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345053/1.133271152.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345053/1.133271171.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345053/1.133271180.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345053/1.133271183.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345053/1.133271185.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345054/1.133271196.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345054/1.133271283.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345054/1.133271302.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345054/1.133271311.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345054/1.133271314.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345054/1.133271316.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345056/1.133271331.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345056/1.133271418.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345056/1.133271437.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345056/1.133271446.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345056/1.133271449.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345056/1.133271451.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345058/1.133271462.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345058/1.133271551.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345058/1.133271570.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345058/1.133271579.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345058/1.133271582.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345058/1.133271585.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345059/1.133271596.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345059/1.133271683.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345059/1.133271702.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345059/1.133271711.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345059/1.133271714.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28345059/1.133271716.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350791/1.133366703.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350791/1.133366722.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350791/1.133366723.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350791/1.133366766.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350791/1.133366768.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350791/1.133366770.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350792/1.133366785.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350792/1.133366804.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350792/1.133366805.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350792/1.133366848.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350792/1.133366850.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350792/1.133366852.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350793/1.133366867.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350793/1.133366886.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350793/1.133366887.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350793/1.133366930.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350793/1.133366932.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350793/1.133366934.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350794/1.133366949.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350794/1.133366968.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350794/1.133366969.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350794/1.133367012.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350794/1.133367014.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350794/1.133367016.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350795/1.133367031.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350795/1.133367050.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350795/1.133367051.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350795/1.133367094.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350795/1.133367096.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350795/1.133367098.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350796/1.133367113.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350796/1.133367132.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350796/1.133367133.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350796/1.133367176.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350796/1.133367178.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350796/1.133367180.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350797/1.133367195.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350797/1.133367214.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350797/1.133367215.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350797/1.133367258.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350797/1.133367260.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350797/1.133367262.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350798/1.133367277.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350798/1.133367296.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350798/1.133367297.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350798/1.133367340.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350798/1.133367342.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350798/1.133367344.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350799/1.133367359.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350799/1.133367378.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350799/1.133367379.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350799/1.133367422.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350799/1.133367424.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350799/1.133367426.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367441.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367460.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367461.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367504.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367506.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367508.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350801/1.133367523.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350801/1.133367542.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350801/1.133367543.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350801/1.133367586.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350801/1.133367588.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350801/1.133367590.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350802/1.133367605.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350802/1.133367624.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350802/1.133367625.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350802/1.133367668.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350802/1.133367670.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350802/1.133367672.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350804/1.133367684.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350804/1.133367700.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350804/1.133367701.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350804/1.133367745.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350804/1.133367747.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350804/1.133367749.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350809/1.133367761.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350809/1.133367777.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350809/1.133367778.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350809/1.133367822.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350809/1.133367824.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350809/1.133367826.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350810/1.133367838.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350810/1.133367854.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350810/1.133367855.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350810/1.133367899.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350810/1.133367901.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350810/1.133367903.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350811/1.133367915.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350811/1.133367931.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350811/1.133367932.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350811/1.133367976.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350811/1.133367978.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350811/1.133367980.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350812/1.133367992.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350812/1.133368008.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350812/1.133368009.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350812/1.133368053.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350812/1.133368055.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350812/1.133368057.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350813/1.133368069.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350813/1.133368085.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350813/1.133368086.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350813/1.133368130.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350813/1.133368132.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350813/1.133368134.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350814/1.133368146.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350814/1.133368162.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350814/1.133368163.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350814/1.133368207.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350814/1.133368209.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350814/1.133368211.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350815/1.133368223.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350815/1.133368239.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350815/1.133368240.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350815/1.133368284.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350815/1.133368286.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350815/1.133368288.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350816/1.133368300.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350816/1.133368316.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350816/1.133368317.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350816/1.133368361.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350816/1.133368363.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350816/1.133368365.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350817/1.133368377.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350817/1.133368393.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350817/1.133368394.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350817/1.133368438.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350817/1.133368440.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350817/1.133368442.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350818/1.133368454.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350818/1.133368470.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350818/1.133368471.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350818/1.133368515.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350818/1.133368517.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350818/1.133368519.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350828/1.133368864.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350828/1.133368895.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350828/1.133368900.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350828/1.133368944.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350828/1.133368946.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350828/1.133368948.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350900/1.133370705.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350900/1.133370706.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350900/1.133370710.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350901/1.133370713.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350901/1.133370714.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350901/1.133370718.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350902/1.133370721.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350902/1.133370722.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350902/1.133370726.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350912/1.133371144.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350912/1.133371145.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350912/1.133371149.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350913/1.133371152.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350913/1.133371153.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350913/1.133371157.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350914/1.133371160.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350914/1.133371161.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350914/1.133371165.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350915/1.133371186.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350915/1.133371187.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350915/1.133371191.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350916/1.133371194.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350916/1.133371195.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350916/1.133371199.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350917/1.133371220.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350917/1.133371221.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350917/1.133371225.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350918/1.133371228.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350918/1.133371229.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350918/1.133371233.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350919/1.133371239.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350919/1.133371240.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350919/1.133371244.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350920/1.133371262.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350920/1.133371263.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350920/1.133371267.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350921/1.133371270.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350921/1.133371271.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350921/1.133371275.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350922/1.133371296.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350922/1.133371297.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350922/1.133371301.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350925/1.133371415.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350925/1.133371416.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350925/1.133371420.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350926/1.133371423.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350926/1.133371424.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350926/1.133371428.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350927/1.133371431.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350927/1.133371432.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350927/1.133371436.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350928/1.133371439.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350928/1.133371440.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350928/1.133371444.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350929/1.133371447.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350929/1.133371448.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350929/1.133371452.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350930/1.133371455.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350930/1.133371456.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350930/1.133371460.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350931/1.133371463.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350931/1.133371464.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350931/1.133371468.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350932/1.133371471.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350932/1.133371472.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350932/1.133371476.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350933/1.133371479.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350933/1.133371480.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350933/1.133371484.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350934/1.133371487.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350934/1.133371488.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350934/1.133371492.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350935/1.133371495.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350935/1.133371496.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350935/1.133371500.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350943/1.133371644.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350943/1.133371645.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350943/1.133371649.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350944/1.133371652.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350944/1.133371653.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350944/1.133371657.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350946/1.133371680.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350946/1.133371682.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350946/1.133371690.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350947/1.133371698.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350947/1.133371699.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350947/1.133371703.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350948/1.133371706.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350948/1.133371707.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350948/1.133371711.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350949/1.133371714.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350949/1.133371715.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350949/1.133371719.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350950/1.133371722.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350950/1.133371723.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350950/1.133371727.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350951/1.133371730.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350951/1.133371731.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350951/1.133371735.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350952/1.133371738.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350952/1.133371739.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350952/1.133371743.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350953/1.133371746.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350953/1.133371747.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350953/1.133371751.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350977/1.133372498.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350977/1.133372499.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350977/1.133372503.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350978/1.133372506.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350978/1.133372507.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350978/1.133372511.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350994/1.133372586.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350994/1.133372602.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350994/1.133372603.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350994/1.133372647.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350994/1.133372649.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350994/1.133372651.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350995/1.133372663.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350995/1.133372679.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350995/1.133372680.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350995/1.133372724.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350995/1.133372726.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350995/1.133372728.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350996/1.133372740.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350996/1.133372756.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350996/1.133372757.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350996/1.133372801.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350996/1.133372803.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350996/1.133372805.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350997/1.133372817.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350997/1.133372833.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350997/1.133372834.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350997/1.133372878.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350997/1.133372880.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350997/1.133372882.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350998/1.133372895.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350998/1.133372911.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350998/1.133372912.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350998/1.133372956.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350998/1.133372958.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350998/1.133372960.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351006/1.133372968.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351006/1.133372977.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351006/1.133372978.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351007/1.133373025.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351007/1.133373034.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351007/1.133373035.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351008/1.133373083.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351008/1.133373092.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351008/1.133373093.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351009/1.133373140.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351009/1.133373149.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351009/1.133373150.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351010/1.133373197.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351010/1.133373206.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351010/1.133373207.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351016/1.133373500.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351016/1.133373509.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351016/1.133373510.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351018/1.133373557.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351018/1.133373566.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351018/1.133373567.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351019/1.133373614.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351019/1.133373623.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351019/1.133373624.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351020/1.133373671.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351020/1.133373680.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351020/1.133373681.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351021/1.133373741.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351021/1.133373750.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351021/1.133373751.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351027/1.133373930.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351027/1.133373946.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351027/1.133373947.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351027/1.133373991.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351027/1.133373993.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351027/1.133373995.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351028/1.133374007.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351028/1.133374023.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351028/1.133374024.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351028/1.133374068.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351028/1.133374070.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351028/1.133374072.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351029/1.133374084.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351029/1.133374100.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351029/1.133374101.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351029/1.133374145.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351029/1.133374147.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351029/1.133374149.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351032/1.133374243.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351032/1.133374259.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351032/1.133374260.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351032/1.133374304.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351032/1.133374306.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351032/1.133374308.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351049/1.133374926.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351049/1.133374943.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351049/1.133374944.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351049/1.133375003.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351049/1.133375004.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351049/1.133375006.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351053/1.133375028.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351053/1.133375054.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351053/1.133375071.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351053/1.133375163.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351053/1.133375164.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351053/1.133375166.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351055/1.133375225.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351055/1.133375250.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351055/1.133375251.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351055/1.133375310.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351055/1.133375311.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351055/1.133375313.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351059/1.133375345.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351059/1.133375397.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351059/1.133375398.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351059/1.133375457.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351059/1.133375458.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351059/1.133375460.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351061/1.133375527.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351061/1.133375544.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351061/1.133375545.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351061/1.133375604.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351061/1.133375605.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351061/1.133375607.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351062/1.133375617.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351062/1.133375634.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351062/1.133375635.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351062/1.133375694.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351062/1.133375695.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351062/1.133375697.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351063/1.133375707.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351063/1.133375724.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351063/1.133375725.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351063/1.133375784.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351063/1.133375785.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351063/1.133375787.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351064/1.133375797.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351064/1.133375814.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351064/1.133375815.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351064/1.133375874.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351064/1.133375875.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351064/1.133375877.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351066/1.133375977.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351066/1.133375994.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351066/1.133375995.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351066/1.133376054.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351066/1.133376055.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351066/1.133376057.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351088/1.133377108.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351088/1.133377127.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351088/1.133377128.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351088/1.133377196.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351088/1.133377199.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28351088/1.133377204.bz2"]'
+  recorded_at: Tue, 23 Jan 2024 21:02:08 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367441.bz2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:10 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '3407'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Content-Filename:
+      - BASIC-28350800-1.133367441.bz2
+      Content-Disposition:
+      - attachment; filename=BASIC-28350800-1.133367441.bz2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MLArYflX2v5Ay%2BEkmoQt59opqAIN48eNzibHRSvQQXmEOrriVwfGYill%2Fe9K6EYAkYnH%2FFsmb3O%2Fhfcbtmv4eQMPHhN%2FM3wT%2BKjGBRAA%2BZfNRjQN71AvOEmLWKcIEZYEiwxI2HBb9n%2B0ug%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9de2edf719c-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        QlpoOTFBWSZTWXqUQDoANjjfgEAQUAf/8D/n35q/79+6YBL+7j7ij44DdxyQMgBpR9A0AVyAAAGgAN4AkAAHKAip+QoflPVAGJkAADQAAAA0yaBJSqCGABGjTAAAJpoAhNU/TU1MgDQaGgAMmmCAAAJNJRomlQBkAHqAGQAAAAKUpEwg0CZNNU3lJkNNqbTU8pmp6ZGmp+igiUE00mpAADQaAAAAaAOnmzk+sovZPnP1nvT9E+U9c+EovCap2CDghCAgoQ6iF06xqfUd6+SLREOzgYwlm0wFkugSNFQzKqxS3CRRBvZy3j/dlPXfXLNY3PTMj9avFu90aJ97Q2+m706pE9ac73cbaFVua5s6ak7amqPJzeEoHjg6ieWXu5GaeZ52zNc31mhjTNLZyVyAg+V5OhO+HogSBKicglLtRLvDJ8ZRdpakzKsZVhkz+JRZ5MmTQp85RY7pjVMiNZpNCLbSWEaWyaGqBjACwbJ9hRBiVS5dOXVKtUsJYIm6ccp75hP1n+U+sySrJRZBGSgyCtUosVaSiyqpYWYwzCcXIYZn0mHa8ceeelEuE+MGFhvBIexDwNbe5i7Oe37uLLa72raGYtrNl3zWOL01vg7ZqulbW3VnCo8XdZJxB2dF538GVr2tmOow51YbqjvVUnvT2ISIN4TwRo6JSOKZT3ZbqJDqdyaeO28KVSoJKRRCMkkkmZmYlIzNmrpLTaSW3e2c+ED6IhPj8ivSpySjM+r6vmceTZdK7qjk1I04vhRxCrSu6rNp3JWd2p47vjd5jBqqvJDxccGC6sFDBlJrq07jYu5DpF8uXHhgzD/0O3W51a7LykKYr3nqzZ1HOovhegyzmScGQHAwMXUD8gfghkygX44jhMmqYGvcxpNSZOIqG4BwALpuhvw3rs3kvjGly9K2sgXNxVRBRiCHBOedtmESSBGEWAO0nOExE3SsNpmGZ5uxkEeN99jLZrVhCYikg8PGSCeZDgnbl1mD1hrk6crx1fF/PEAD22r/AXi2qu/j7Lx5rmB4Zz3r5QNIgSPoFXonoiG38AAebmc8uY8QFLUgDokoBnYt33g290Mymd7Nk51rA2ZOkim+QCwrKgoTpIHaduTCd2QN0DZBAswzEQB3ZSc8JvVVXnpdmIhnTARgPkCQIDMARpgQAA9B0ZPonNdaJzsOM3nj5RS7YGPjgVT2srWpsW13WrkCIjvQB1DmfZI6drMQvhmbXQxp0FP2sE5qHmmVk10BZ/OABUDPtCmV7tRmFZJ9f1LMmjU7rHm6+jqkH092KfeBXljXAjSZ5o0tJOiroqDqnNS+LaGlcZm2dXGl6lqWoAg8SbgRM1rJTGu81pLWK5xW9aZThNgDdFBgiArNe/FAyxtgkP6T7VT4yRbbEiIAjc0K6tfTO4C1RFlVYPpnKtXdzwybVeCkYq45X5Ag1v3TPLX9kkeRpkXSYMoTLyvp9vvZv07Y+9fQIgCHs/SqUH7sgQ7pKwpzcfq9rSoLXW46ftyelfrxEb87/IEQBCdv5P7ibn78qs0SWvy2pezafbk/m+78AHulr83D730gI6VOa/w1tW20vYhJVWu3MZAA9fnxkkzKt0MBojLy5E+70hjbI9p36AH41hOe5sLkO9b27Jaycqp0k6dT9Y9fr+M+5AkZX3rdIxZU7MpCTGUqMMiQR8+E6RuRBCZeTRqnCZzq6078XqHcC5aKDK0OgQlnnw+wShfxv5u7+76BAAlde03hjxj9AAAxMleWg/eoUUDDPxGEfLZowIb9cD5PeGnpOtr1lmb2Lt2sKwxAdUqOdYZ1YBiBAg/g6RMWYGmLB42RbQI6l2zYVFd2P2QZveNMg5RKutY3jXhu31xz9XGa9FsifZr7Q0MnNE+bo4h3nkEjrkTv6IAHc1AJWPGQGctSBXCMwGucbZqEiMFRaTBM50oBJHl5qPz0v1e78n2e6nzMtt9fDjX4B9BgHN2bF9VdU+pqvG7+n1oL4CAI3Mq1OZdJtmhQnWQ8qpqorjUvbthSmVeT51h1Hsm8nMNgUpEuu4hwHqzWhEQBEiH3UugRAEaLWTPogQIy6e+vQxZhJCzsNhLOrem36AWYkjQTYp7VjLX2d9GjZNmEY+NzUsjTZJ07oZxchIE7tgcMOLz3mxu4mjNs2RIE0gBhiIERU2ieusmtPSxWut+7r7t51Rr3tAiBGDwvd0nO5dXORUzw6arSfAeiiM6ZEEh74+7XPMn3GRI+gCTEQJvfdyV5ZafW54/HBnnIPqyYBSAEAR8FejLlc+syDpV+t7lbPuNZVKsOu7wysyLr1PDm2ukXt4fJCt2TlZJdnj61AiAIXrvp9b72bivwuTq8rPjTzSSTnXVVEg87x5zlyVFdsvLVzlDtyxs1Ww3PsucOSnm8lebesyUWuNrqU5InVBVXVZqa6/wQERDIA5RE7c9axzO3OrxrSXrWxm5ZaiKqtIqY/CpQBX1tGSGgSC4xjUK2t5zzPl7jWcSETcDQjXMvXa++sbwzAKRW8FU2giZgloONpgBpBcQBE4UlaZplKUtmTmZUzeOmHnSSfl0z25t9ivhV8MpJ0Vq16LzHtXeqwZq6Uh9Uqq+4eFljZQQsjVcizZHfkQ5nyy0+6QzBBZD4omdVU5nF9WSNtdaGnayXdJ7WYrSvaY6ji4iwaI7Deuz2KWQiZq+2oLudPA4b+gAAK56URq806PqvxyqMrKn1WPARELg3Gz3Ti+iELBAsoQRmHvdapN3zJ9VdnXjlx9SnBim77r9c8ST0ubqFykkxRaN5hQqRSdoZaRy8IEmVFedQ6NpSwobo7tCSctYrdV4yetqqOu81RNlGzIrbl3OETbE1WiZSzp+Eemfe91eb9pCaebvuuZciTRRhHdVN6qSpRAgQhsiIgCOrNVEV2rVl5oyu6nxTkyXI23aeUYNN7eySavdOrBlao74ACIVHT4ADx89it9mO1mfCA2QR2fe6bKquflbV0ABpUrPfNF7NgePc79WHZFVVDV67GRxUDOQiAInnlRkzmV2jby0m7IkSbE0gZ09NNB6ZLBFEyDbPGslBikBs8a2uMYRh7B0hAvbyBEAQ6MAlHjADBu9kIxWfARW9uRslYCNxQBKVGIizEDxGmBmLxiB2oYYJQIijHUgBx1zT2dyr1ZdCdF9IvGFYIW1NMd2y8vFJq8dZLur41kh9uZWdx4z1Pq3cJ2zZki1J7oJw8dSR3EBnXWcZ1TbG3h1u4gGabDvvuLPoFECIi6RVSJ/4tdVy7+RQOzXvy+WTmYVh1yas9enIFECIETuTcyRV5TpgmqPldouNe5YnYBbTlcGsZmdmTNUHLFq6t378AjA/wVOpG5G+qQlOL14vqt5K+V0H2Ury30oI0ya1TqF9zm2r0h9M3UAABg1rqqHVG6rGPcdFyrmyC7VzlF8b0uU5t12jtylfGkrmpmrOrB9AiuPtjs97PKrrVXop99L2z6nOMzvuckb1zshhVTnZulQnXdp1hnRshydoa9vLUMi0qkWpaOHa85mcGZS3KmtfZE1e/X4TWDXMpAPO8gqQjPU79EDBnHJq+Huck6FV+TmVOHirnHqDYPRAgRhYvEGVZTapO72decwovLk0bq9wZkvE94ACIu2jnIa0QeK1IRuB54L2haDiSJLa1K63mb0xMmNeJEBTRWqtCkjZha8qRPdP5njP0mTWnXM9pf1n4Penp9KeE3p7Z8S1+r4G3R9s5JzTdkwye6fv/E6S2zmnCbNr3zE9cyfjOs5/it85ZsH73PPJO26+dN1XJd86Zzzemk7U33y5uifcHfOwtc9k4TORNJ7Zk6ewu2bfGfeHpBLVPVSi90+U5p6E3I6poTun7E/aaJ3TfPhOonhNKtqcE/mrE0lFriLjmxMmuUWuUWT7J1zRPRPJO2eUosmFQ2CapKJ20umEunST8JwE3SKWSJZO6lEiRLJzkicxP7CAxIkiES6cqRaT5zzTbV8ZlO2dkybZxzJtq+iZOFWTJk1T51a5ibppOTsTqq6J5k+1GuciZOmflMm2JV2zSaqc81ztmk8Z6pzTVPNV3TVNE5ZlWudMotIuVO6cJ60653zE3fRPPOuUXhOWeKPNKDXKLCcqYlFx01xZOYn2JwnPNc8Z+SbicU2zJidRNlXHkyjXVk4k4k9M9k6k4Ttm9NJ+c+s6E45RdEybKt07qtc3J/ZPNPBOeUW2UG1PamqZMmk4590yUXWn95oqLwq/BNtXfF5055uq1zIsq5aW5MnROybSaRc0ydU6Uck3a0yrxTbOOaibasnhKLlnfMqxN1WiaTkJxk1TSbJzTdOE01psnNKD76W+b1vnETRN9XHS9U2J55qTgnLPCYTmn5zfOOrYnLOWaVbU0ZVg3zJ6Ktk4Tyoq/9MZmZIAxIqKoMVZFIqyCigIqCxBgIqRFgsQRBRGJETMsw+sotDRM8pRcnv+WWWYGMyCiqMYqKoDFbJPsNpAikhAc2T7RiNlClVWqRUQUixQVFRRStGrCrRlLUaJRVkrLbaNiwrWKRtLVLEpRRFjaUqUtqqoibh/4u5IpwoSD1KIB0A=
+  recorded_at: Tue, 23 Jan 2024 21:02:10 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367460.bz2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:13 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '2262'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Content-Filename:
+      - BASIC-28350800-1.133367460.bz2
+      Content-Disposition:
+      - attachment; filename=BASIC-28350800-1.133367460.bz2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gKCPOp41VAQi4RSGkN5%2FaCcnHSvUB9%2Bx2uZLna6MCxu%2F3JENfZJ2OB6%2BB9hkOmeogPvHzKnEPpyn71HsArXZY5VZrilSi0RS45EWJRuxDp3knBSL9BXxdeIsQxr%2B0q4NVKHJXg1wVEzcyQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9f3ae9179ad-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+  recorded_at: Tue, 23 Jan 2024 21:02:13 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367461.bz2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:14 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '1480'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Content-Filename:
+      - BASIC-28350800-1.133367461.bz2
+      Content-Disposition:
+      - attachment; filename=BASIC-28350800-1.133367461.bz2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cQprOsttIiDxLSXvcSs2pnpPQUrA15l6KtCsgsUZp6PugtKnLXCQEU1dzdHp1OCE94ReNvQDdsnmgXxy3QxbgbRsnDsfj%2FkYZDB9g7FWBI4QI%2BuVY5wjC%2BAkGSxUmAiMdqqZfF9j1JmPrQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2f9fced7e774a-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        QlpoOTFBWSZTWX872YEAEjbfgEAQUAf/8D+n35q/79+6YAge18LMIAABYgAAAfY5gE0wCZDAAEwTAAABiATUUk0ANNGgAaAAAAOYBNMAmQwABMEwAAAZqqjJgJgAAAAAAAAEUqnlPU0whpo0Bp6agek9TQB6jxTQAKUoUwEEYhNR7SjI9QbUeUBpo9R4U2f5BLhD6HcEPcfIdQ6RtQTlGQcg4BwH5gWB/YH1vIvL5GtU0v5Yccm39qXxmynWMhV+XJdeIUCkKMcc6VQkSA0IC76qVqEDck8U1WYWYsMRmLPlEz6WLFpS/9E9K2my2lvJaW5bL8yjFstrZf8cFrarYtjFwXJV/lYR/ZfuL7LIpkTErBMgaxMVaRIVFgSIhIgBwAzDyOaDKOhVMQ2DALAyCgDAMr2U3l9qD5vcl/cYFMzRYcvS803NTNQ1N0AdBAup1Y+8D1McQ6xJ0JxQL6eIbbe2bty6uNx24rmuZYsKOixaLJbuljRali91N9HSjqW5c8Lic4mTBmZliM100VxXuXUuvv/Fc+PduzqtEdFrqjdR0NEdVG2/fp1OlGmmb9J0xLbfla98mXpIgJJEku3jZLLVbFCeniEvOSBwFoHSDvJcUrIIHJB8YN0MjGYkAdgHsT4eFjE3U6QCMJB72ew7qw+dbNV0LxU1S0kAh5QquvWBA6IBE9KYp9W8bjkgTwF550G3OKV4Tx6d3oa0oSmUQzO7RekbuODddrOtC0GyR5wQF4iQOdZbBy6AJnWiF03QUbP6gu5fwuhGY814yQE7rF0q5niyfAFDkehsY29kmn2tkGPEr0New+W3cTNvdi5q3FtNjjXnVzYIIkgEXgXUpZYMlazvifAQQuJ9MuYRBLcmmVw9kA3b3t8iKZtxmV3zFWZzYGrJlsnU2RtvOEAjW4i7dAEHWA60odgYCA4IHAZnnebHfeAdkDsAuiAa7IBFg2NbkNzeJu7y+UlGcp54mRlHihdoXDC1TcZ5kMBA5txL3CgNCDCkMxgBALIkATyY16toDPWVGVtRh5jJkCCNaBsYwVgEPjDkU7oOHJA4JoiGZmbZpgeYUxBC4FEmCAbYoEEXqA4tQADvbjiJlXjuzbbZTCNzHAIPKwbnHyNsWlg0gF75u8fE7Z52195egvT7PJ6qeM4x8WJhLVnLugEot3EcDV0KihyNrUZ5czofQyiW3TrslEwIcbOGVJeRtgEW23Hf1cHHjry2cGuzoCsRsjbWUt2Eo6hnHzGBkXxEoGk9hqWoZxvA2iSabEiaQZRzjfHCPMMDAhdOOcSYcI4hrvVjA9w0jkS4cdi3x2BLSB0AwDwBl2gdxch/tYu5di8FovSuLt59q++jvT4LrWcl8VqXpXm9C5LxTrXoWvkvvo/iKar3on90dq+4vmjhU8Fqj1r8hfktF9y4r/S8UYjcXWXyRhaRPbQ5LcsW0TaJi9i71oXuXcvQvnExYS3C4LNFstS3LFwLisrRd6/UWqNl2LF0X0yxWLFjExdS/NYtF8l51vR9VleC71i3rksW9HQsL6Fi7BYtl/1GywuK0XTvXmR5l5F7Kmy5li863Sp4LRfwl3LZfVaLyX4rrWq8S8FqtF0WFsvNE0VdF6l2L+Zd69awuH1XpXfE9i6LyieAm0TBdCxE5S2Fi6xfpXYu1bLyXvLgjqW9YveWhd4t6OeLKnUjFuL4o3L3r4rwXcvUuRaL4L7LzrnE86xbi4L1lsuBftXoXtXbE3iby/oWqxYtFyX4LIngRkTyL963F+hV6S7FvRssFhc6rgWLtXYt6NBaF0Wi7lrU5LfsWF7S3ritUbyxeUTmvWsRhcC0LRc0ckarRbl0XBda02W5dYn4VXFca4rqRouJcqr4LcXitS7C6LyWI618VxXJHuLeutYW9ddhZHJYvUjeu1fRS+eMyMwZln2iaTSZn0idGo6T1v9TBsE2jxAEgGIAAGJg1KP+LuSKcKEg/nezAg==
+  recorded_at: Tue, 23 Jan 2024 21:02:14 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367504.bz2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:15 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '1007'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Content-Filename:
+      - BASIC-28350800-1.133367504.bz2
+      Content-Disposition:
+      - attachment; filename=BASIC-28350800-1.133367504.bz2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vreOXwLQxbr5LsPsJQAKLwG%2FH9gfUGiUntZtFzRnk4kRpZO2bklQoDavVrAEiVj9ENriGeZVdTDCp5wiCnImP8d5t2jJpBqW7v9wDd9GOhaW8rXQ2d0ZwdrR8b7tz6h3r9rg50P9nl5AgA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2fa039ab663d8-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        QlpoOTFBWSZTWcKe0w4ACbHfgAAQUAf/8D/n35q/79+6UAV+PSuoGwKKoRKhzAJpgEyGAAJgmAAACSQ0xIigNANAANAAAAHMAmmATIYAAmCYAAAJqoiniKTwowmmT9UBoBoADRkeoBSlImjCAmmk2qfkU/VAzU/RTBNk9TJqeKfZfjPnP1nvT9E+U90/dd01Tpnnn+0655TXp3aejTZ+F4cM/seOGYZqTwUdFOsMnkugtSZlWMqwyZ8Vn0ZMnzXVNJr1rK3WGyyWi9RhZWtqv6XC0aLUcG6U98wn6TwT7TFTFkmYlqWKtFgWFmMMwm82GZ9Zk+96cds9Bda9SwsrqWJe+tltOqWo+rp9eON91me3Yz26TbNqZMrfMmkwNWxjSakxHkEZAIAHRlGzCN9CpF0b97pcyJhFzNW6aVcQZVqDduDDkws2Tn8Q1xwzCSXORihGnRgWUbm5ORbfJJULJbeIAHRfV2xgWgDEo4NYiDgAa4yiIiaQVbjUZ2SYUIzLayinfImC/Eui4s3LNDGGw2rmGxWzJLWSUaAdDioUoq22C2MuyKcxaiCDQDpTaIkU7AEuANSLDTZRWBXstolnuhGUaSmzomzvMoqi5iiGodrNcdHLbacuXHgqjQZGVLXFWuJF+q9i6H6zJrTpmfmXrn+nwT2exO6bU/OeRa/b/g49HxnrnCcybZk/afHpLZOWc04tj3zE90yffPMc/ltnPNg/i559E6p2Wc6clW+7Z0znm1NJ2Jttk+XL3h2zzlqn4zlmb00n5TJ0dZdk4/VPAPwhqniX/Z8pyz7k5FO6aE9M+BPhNE9M2z951E75oN5dkvYMSzNea2lhazWYXReFZp6Z9E7J9FkwNhOSZpPXOKcc4p1z5TenCZTXMmueE0mTJrnRMnNPrjCyZMmTJxT4zJpPnOucdXlMp2V41hbrmsLcf7LC7BhYWFov7GqxOSaTf506quidaetTXN6ZOmeMybxeRZWhdq1XkWV8C9K61ovEPKtFlOEyrXOlaRcE+6c0/4nmnbMTk+qeieZd84T1KdetYTgmFupriycpO5Oac81z1TxTkJxTjmTE6ibKt2TKNdWTiTiT2T8p1JzTsm1NJ7p9q7pc53LC2HC8o1XEvll4l0l2zfeX4y0WFhZXNfGsTwy9CzOg+eW48ynuy7VwNVhTA9oXEsLuXjW9LMXLMnVOlTfOTWmVepOObpqJx1ZO9cJ2zKsTkq0TSbybiappNk5VwuxZ1lsuv5BclynJdVLMuQ5i9M2J6JqTmThO+YTlnum2bqticJwrI3lmwMVclhe8Nl2LvP+mK75Y754B97OL+dF/4u5IpwoSGFPaYcA=
+  recorded_at: Tue, 23 Jan 2024 21:02:15 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367506.bz2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:16 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '974'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Content-Filename:
+      - BASIC-28350800-1.133367506.bz2
+      Content-Disposition:
+      - attachment; filename=BASIC-28350800-1.133367506.bz2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wMkhCfMJVD37o8bBfq6ql4JeOJGEkHOrZ8wPXNR0hChNHhC1u0Rnu0YEjlUlh5YLna%2BOmgLb0cTcBryYsNUbFT4xF2FzbSHXUgdoISKT3OG3eWKxE5cRd9HqyzTL2rSQPxkCG4%2B2qZ%2BzIw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2fa065bc23691-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        QlpoOTFBWSZTWS1aCawACPvfgAAQUAf/8D+n35q/79+6UAU95Sg6thISSEUc0xMACYAJgABMAATBlTTGhQAAAAAAAAAc0xMACYAJgABMAATBNVIUzQmqempso09E/VADR5RvVGT1NHqABSlEAIajSbUnpPCTMoeiaNHqNtU0P1NT/l+4/pdQ8VzXku9e9elZrrXxLVetdi8Zt0zPV8L3dM+0/nhmqe4jqnyDJ4zqNZmJmTLKsyZ+szyZMn/Z1mprN6sNizXvWFotLRfwtqzZrQbVvU/VYVfnPtT6TJTJgmsyLSZEwZmGYTmm6fB4Y8J9ydJ+kyaTbMTYuhaSzHp7+/HL8Flra9GFqtZYWFvWFkZTjyY0mqZPfN4e0Ns3TMTjONXCe+bJz/Dv+Mxsq5TSrUMq1DlxDu0t+TOG7WcOvxDWacONV1mzjwTc2TO3lv6Tn8quEze37NwbZrz65axs1n4Vcw16Y2/OdwdW6cN2u/WZaclk2d3SdmuyZdeDdjds03YFLcxJIIiW+ERJmkmYQiAB7QGkQIeRCEca2lt2NXTo1329beXMNOGBx3TZk1cNulpN9s3MBD1EEItFENiVGiwjmKe5yRLYpoaCI3I2BIEyGQ0zRvwReS5L9FhZznV86+68T4r4z2TgnzGv4/eZu1myfZPbOc7J65kyrx9o2zpOyfLf8pk/GfCd54zzfpym8fNk/imJ9U8LO1Nycq8Zk6ztnfNJ4Ti2zu5/eHePynSZyn9Zqn7p19M4z0DsnpmfJfTVesZrvl7R1L0S/saxepZjuXjS8Vku5bl+y7RgbJcZeQxLJbltmTWazJ6555onwndPqn/pkxNxOEzSbJqm6ZOCcZi0nnnuTWrZOyZOk8sYWTJkyZNs+cyaT9Z5pvq/aYu+e+ZN85TJvq6JieSZO0mTRfyNFiW5ZLp866x1rlL5YtFwlhfCtg7FkvvLzLRf6slyXeuKzXbLsWZpOkxNk800i6T652z8k756picP2nhO+eudJ7JGs9BOiYnKmwmTsJ6l8C6louS8JajoW1YXhLKXnpbRwwsFdAwtkuY2LwXNdi8y9C3yyXsPpPPOc88ybk4T1JsnBPfPTPbO6bk/NNJkyaTlPumT0KsnsT+U3J9kXgnZN9WyYTE7qnBMndO2b6tCaJ0mk6zVTlN+xMT2pvnGa1b0yclwXcsDEtZZSyXAbxmslsXStVxWWi2L6harWarQZLWW4XsWyXas5cZcFyWB0rmty3j7ZbVxWJbVxYmDlMn11b53Tyn0mHkZnlOaf2mL/xdyRThQkC1aCaw=
+  recorded_at: Tue, 23 Jan 2024 21:02:16 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Aug/26/28350800/1.133367508.bz2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Application:
+      - "<APIKEY>"
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: null
+    headers:
+      'Http/2 200 ':
+      - ''
+      Date:
+      - Tue, 23 Jan 2024 21:02:16 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '1255'
+      Cache-Control:
+      - private
+      Vary:
+      - Cookie
+      Content-Filename:
+      - BASIC-28350800-1.133367508.bz2
+      Content-Disposition:
+      - attachment; filename=BASIC-28350800-1.133367508.bz2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Authorization,Content-Type
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZuRc0BtQuWAsZ%2BSrQn3Rmz0sYjZO0FgMvZxnIFbkAePHQUJfQpoVK%2B4vg8LcONI3ekLS2IQI2KNJ0aEWXYpPFtG98OdT4ZIpqX28vQONdMG79fcOeww8qIVl11RmKUuyHGylkYM9KP3Txw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 84a2fa08af0b23fb-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        QlpoOTFBWSZTWVH2HWgAEsXfgAAQUAf/8D/n35q/79+6YAc/A+lCgClFKIqQUqjmATTAJkMAATBMAAAOYBNMAmQwABMEwAAA5gE0wCZDAAEwTAAADmATTAJkMAATBMAAAE1SkAaU1PTQGo00DQ0GhkNAaHpApSmkAgiNTygzEI008SNBo2p6T1PU0/SdTsdTsa221ow0aNa1rRo0aNa1rRo0aNa1roE/2nxmT5VflPjP7z/BuZnxn9J8J6ZwnfP3T6p7p5J+c4bZ8/p9l+/vzoffhmGYZhmGYZhmGYZhmGYZhmGYZhmGYZpPsJXeJ8yYRkwn5z5ijYmYTEZMnxmeZkxblixYsWLFixYsWLF4lotDJ5Zk3MTUyZMmTJky4zJtMmTJkyYTU98ybTTefCcpq1N6cFzFV7VkvYvol71iLFiDYsqltMVVhRmIwzCec9B6D1mjRo0dBubm5uaNGjRrWtbbbbt9999a1rX/pwntaxxn2p4T3zJtOExN5znsntnundPqm83m83nadJznrnSZOk4VrLUc9nDOOi1WxarVarmuMtq1XBcjpOc5zlOU4zfo58e07Jkyd0ybTAXTsxtNJk+5KewJzDwDjOU7YnhOk6E1O7v6k+f2znPJk05Vd02q5cQ31Vgd3cGaZcMmb9atT2Bk8vj2dOVV4RcfAnZOM79ptOE2TwYmOu7ROfhNaTl/mraLW204BidsjZ0Jw6kybpk4cOAZ4+Ozd2q8Q7+U4b8midSdJ1TJ3cOPOrM3W01z7bcZ234TLj4snRMnjOnLg45167OnHGc+7CdZ22m07TBt342rgti46jZs13LgsWLiuWtpcN4zVxXPlnQOXSamTjsHLHTrtbTpc+s5zhMm0m/PbhOG2uPBucZk5ddTk1tVvz5ZvnFnPlt1RVaDQb+G2KL3LzLQdS9i2LZX3TJ+BR/Geuamz/U9nsn0zonaeye8oycO77DJzyXwnqnhPCdZkyfD1FHCd88J+PJH4zJ98908x4/l0nEc099H4p4jsXkZ1S4gtStq8axfyu+utclovJPPONHOfDycp6Q8sJ+E8Jm82n9Zk8vmKPPOnFPVPrD7at57k88+id8/WnNLAXxLF2r20vatF2rkv2XgpT416zVXNPFPzqxNp2nKZNTUyemeieeaTU+2fKfsnymTKqbk6TNpvOM3nSeExQ7TIn1zJvPPNTeeMyd87sspixYsWLav4WLRf2vCtVxHhWTxLYsXBc1i4DuHdLRdVLFtXuG1ZLktF08K7B2L65fLFtWssXeHYciL9U2nqpvPanCeWanrm875qeaovKti0XRYC2rvrRTovKupeqXgXwzE5/KeifPPpndPUpqeYncmJ3zcq7UyUybExPonhPGanpnsTmRblwWLJdlLeOeLCtoxbpd4b16V+K7F3LrXkWstF+C967F0XYsW5bwWq5rtBb1ul6F41511rfL1y0WLFotV86xeJT6VuWq2rzgvStoLzKdsvgWxchiylgLrFxli5LfQsJ3TJ808inWct0yqnqTlOk0KcJYtV510XmWDJcgWktF0pTUbFovQOK6lzXNablwXoFyXKcVtItpzqp1qffOKeiaTwTtPXMJOi9S5LmN66LovmWyXFdBtNCVjCZO0yftq5zxnyn6TD5CMxHyneC/JYv/F3JFOFCQUfYdaAA==
+  recorded_at: Tue, 23 Jan 2024 21:02:16 GMT
+recorded_with: VCR 6.2.0

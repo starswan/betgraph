@@ -5,7 +5,7 @@ require "back_price_set"
 require "lay_price_set"
 
 class MarketPrice < ApplicationRecord
-  belongs_to :market_runner, inverse_of: :market_prices, counter_cache: true
+  belongs_to :market_runner, inverse_of: :market_prices
   belongs_to :market_price_time, inverse_of: :market_prices, counter_cache: true
 
   ACTIVE = "ACTIVE".freeze
@@ -21,7 +21,6 @@ class MarketPrice < ApplicationRecord
   delegate :bet_market, to: :market_runner
 
   counter_culture %i[market_runner bet_market match]
-  counter_culture %i[market_runner bet_market]
 
   def active?
     status == ACTIVE
