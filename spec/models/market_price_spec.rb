@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -16,18 +14,39 @@ RSpec.describe MarketPrice do
   let(:division) { create(:division, calendar: calendar) }
   let(:hometeam) { create(:team) }
   let(:awayteam) { create(:team) }
-  let(:menu_path) { create(:menu_path, sport: sport) }
   let(:soccermatch) do
     create(:soccer_match, live_priced: true, division: division,
                           name: "#{hometeam.name} v #{awayteam.name}")
   end
 
-  context "active" do
-    let!(:market) do
+  describe "#active" do
+    let(:market) do
       create(:bet_market, match: soccermatch, market_runners: [
         build(:market_runner),
         build(:market_runner),
       ])
+    end
+    let(:market2) do
+      create(:bet_market, :overunder, match: soccermatch, market_runners: [
+        build(:market_runner),
+        build(:market_runner),
+      ])
+    end
+    let(:runner) { market.market_runners.first }
+    let(:runner2) { market.market_runners.last }
+    let(:runner3) { market2.market_runners.first }
+    let(:runner4) { market2.market_runners.last }
+    let(:count_models) { [soccermatch, market, market2, runner, runner2, runner3, runner4] }
+
+    it "has the correct counter caches" do
+      expect(count_models.map(&:market_prices_count)).to eq([0, 0, 0, 0, 0, 0, 0])
+      create(:market_price_time, market_prices: build_list(:market_price, 1, market_runner: runner))
+      expect(count_models.map(&:reload).map(&:market_prices_count)).to eq([1, 1, 0, 1, 0, 0, 0])
+      create(:market_price_time, market_prices: build_list(:market_price, 1, market_runner: runner2))
+      expect(count_models.map(&:reload).map(&:market_prices_count)).to eq([2, 2, 0, 1, 1, 0, 0])
+      create(:market_price_time, market_prices: build_list(:market_price, 1, market_runner: runner3))
+      create(:market_price_time, market_prices: build_list(:market_price, 1, market_runner: runner4))
+      expect(count_models.map(&:reload).map(&:market_prices_count)).to eq([4, 2, 2, 1, 1, 1, 1])
     end
 
     it "factory makes active items" do
@@ -54,7 +73,7 @@ RSpec.describe MarketPrice do
     let(:price) { described_class.last }
     let(:market) { BetMarket.last }
 
-    it "market prices exist" do
+    it "market prices exists" do
       expect(price.back1price.to_f).to eq(1.5)
     end
 
