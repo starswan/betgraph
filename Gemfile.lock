@@ -350,7 +350,7 @@ GEM
       railties (> 3.1, < 7)
     msgpack (1.7.2)
     multi_xml (0.6.0)
-    mysql2 (0.5.5)
+    mysql2 (0.5.6)
     nenv (0.3.0)
     net-http (0.4.1)
       uri
