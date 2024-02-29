@@ -46,6 +46,6 @@ class MarketPrice < ApplicationRecord
 private
 
   def at_least_one_price
-    errors.add(:back1price, "needs at least one price") unless back1price || lay1price
+    errors.add(:back1price, "needs at least one price") unless last_traded_price || back1price || lay1price
   end
 end
