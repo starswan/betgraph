@@ -7,7 +7,7 @@ class AddLastTradedPrice < ActiveRecord::Migration[6.1]
     BetMarket.includes(market_runners: :market_prices).with_historical_prices.find_each do |bm|
       bm.market_runners.each do |mr|
         mr.market_prices.each do |p|
-          p.update!(last_traded_price:  p.back1price, back1price: nil)
+          p.update!(last_traded_price: p.back1price, back1price: nil)
         end
       end
     end
