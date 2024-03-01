@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class FixupCloseMarketPriceTimes < ActiveRecord::Migration[6.1]
   TIME_THRESHOLD = 20
 
