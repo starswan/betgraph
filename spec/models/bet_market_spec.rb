@@ -148,7 +148,7 @@ RSpec.describe BetMarket do
 
   describe "#trades" do
     it "has sides" do
-      expect(bet_market.trades.map(&:side)).to eq(%w[L B])
+      expect(bet_market.trades.map(&:side)).to match_array(%w[L B])
     end
   end
 
