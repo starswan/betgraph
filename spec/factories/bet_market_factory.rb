@@ -29,6 +29,11 @@ FactoryBot.define do
       name { "Match Odds" }
     end
 
+    trait :both_teams_to_score do
+      markettype { "BOTH_TEAMS_TO_SCORE" }
+      name { "Both Teams To Score" }
+    end
+
     trait :open do
       status { BetMarket::OPEN }
     end
@@ -59,6 +64,11 @@ FactoryBot.define do
 
     trait :overunder25 do
       name { "Over/Under 2.5 Goals" }
+      valuer { "OverUnderGoals" }
+    end
+
+    trait :both_teams_to_score do
+      name { "Both Teams To Score" }
       valuer { "OverUnderGoals" }
     end
 
