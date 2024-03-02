@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -21,10 +19,10 @@ class BetMarket < ApplicationRecord
   # has_many :market_prices, through: :market_runners
   has_many :trades, through: :market_runners
 
-  CLOSED = "CLOSED"
-  ACTIVE = "ACTIVE"
-  OPEN = "OPEN"
-  SUSPENDED = "SUSPENDED"
+  CLOSED = "CLOSED".freeze
+  ACTIVE = "ACTIVE".freeze
+  OPEN = "OPEN".freeze
+  SUSPENDED = "SUSPENDED".freeze
 
   validates :status, inclusion: { in: [CLOSED, ACTIVE, OPEN, SUSPENDED], nil: false }
 
