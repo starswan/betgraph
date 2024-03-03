@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -66,12 +64,6 @@ RSpec.describe BetMarket do
              build(:market_price, :good_lay_price,
                    market_runner: bet_market.market_runners.third),
            ])
-  end
-
-  describe "#market_price_count" do
-    it "counts market prices using counters" do
-      expect(bet_market.reload.market_prices_count).to eq(6)
-    end
   end
 
   describe "#winners" do

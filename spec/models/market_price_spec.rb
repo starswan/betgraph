@@ -93,4 +93,42 @@ RSpec.describe MarketPrice do
       expect(build(:market_price,  market_runner: runner, market_price_time: mpt, back1price: nil, lay1price: 0.8)).to be_valid
     end
   end
+
+  describe "#bet_market.market_price_count" do
+    let(:bet_market) do
+      create(:bet_market, live: true, betfair_market_type: market_type, match: soccermatch, market_runners: [
+        build(:market_runner, trades: [build(:trade, side: "L")]),
+        build(:market_runner, trades: [build(:trade)]),
+        build(:market_runner),
+      ])
+    end
+
+    before do
+      create(:market_price_time,
+             time: Time.zone.now - 1.minute,
+             market_prices: [
+               build(:market_price,
+                     market_runner: bet_market.market_runners.first),
+               build(:market_price,
+                     market_runner: bet_market.market_runners.second),
+               build(:market_price,
+                     market_runner: bet_market.market_runners.third),
+             ])
+
+      create(:market_price_time,
+             time: Time.zone.now,
+             market_prices: [
+               build(:market_price,
+                     market_runner: bet_market.market_runners.first),
+               build(:market_price, :good_lay_price,
+                     market_runner: bet_market.market_runners.second),
+               build(:market_price, :good_lay_price,
+                     market_runner: bet_market.market_runners.third),
+             ])
+    end
+
+    it "counts market prices using counters" do
+      expect(bet_market.reload.market_prices_count).to eq(6)
+    end
+  end
 end
