@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -12,8 +10,8 @@ class SoccerMatches::BetMarketsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @bet_markets }
-      format.xml  { render xml: @bet_markets }
+      # format.json { render json: @bet_markets }
+      # format.xml  { render xml: @bet_markets }
     end
   end
 

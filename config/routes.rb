@@ -32,14 +32,12 @@ Rails.application.routes.draw do
       resources :tables, only: [:index, :show]
       resources :fixtures, only: [:index, :show]
     end
-    resources :matches
-    resources :soccer_matches
-    resources :tennis_matches
-    resources :motor_races
-    resources :snooker_matches
+    resources :matches, only: [:index]
+    resources :soccer_matches, only: [:index, :edit]
+    resources :tennis_matches, only: []
   end
 
-  resources :matches do
+  resources :matches, except: [:create, :new] do
     collection do
       get :future
       get :active
@@ -49,7 +47,7 @@ Rails.application.routes.draw do
     resources :baskets, except: [:edit]
     resources :match_teams
   end
-  resources :soccer_matches do
+  resources :soccer_matches, only: [:show] do
     resources :scorers, except: :show, controller: "soccer_matches/scorers"
     resources :results
     resources :bet_markets, only: :index, controller: "soccer_matches/bet_markets" do
@@ -58,12 +56,9 @@ Rails.application.routes.draw do
     resources :baskets, only: [:index, :destroy], controller: "soccer_matches/baskets"
     resources :teams
   end
-  resources :tennis_matches do
-  end
-  resources :motor_races do
+  resources :tennis_matches, only: [:index, :show]
+  resources :motor_races, only: [] do
     resources :bet_markets, only: %i[index]
-  end
-  resources :snooker_matches do
   end
 
   resources :scorers

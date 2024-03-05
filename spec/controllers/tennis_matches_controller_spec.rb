@@ -23,11 +23,6 @@ RSpec.describe TennisMatchesController, type: :controller do
     assert_response :success
   end
 
-  it "gets new" do
-    get :new, params: { division_id: division }
-    assert_response :success
-  end
-
   it "gets show" do
     get :show, params: { id: tennis_match.id }
     assert_response :success
@@ -38,14 +33,11 @@ RSpec.describe TennisMatchesController, type: :controller do
     assert_response :success
   end
 
-  it "is able to create" do
-    expect {
-      post :create, params: { division_id: division,
-                              match: { kickofftime: Time.zone.now,
-                                       name: "Fred v Jim" } }
-      # :match_teams => [ teams(:one), teams(:two) ]
-      # assert_redirected_to division_match_path(@division, assigns(:tennis_match))
-      # assert_response :redirect
-    }.to change(TennisMatch, :count).by(1)
-  end
+  # it "is able to create" do
+  #   expect {
+  #     post :create, params: { division_id: division,
+  #                             match: { kickofftime: Time.zone.now,
+  #                                      name: "Fred v Jim" } }
+  #   }.to change(TennisMatch, :count).by(1)
+  # end
 end
