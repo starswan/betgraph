@@ -71,7 +71,7 @@ private
             [mp.back1price, mp.back1amount, mp.lay1price, mp.lay1amount, mp.last_traded_price, 1],
             [mp.back2price, mp.back2amount, mp.lay2price, mp.lay2amount, nil, 2],
             [mp.back3price, mp.back3amount, mp.lay3price, mp.lay3amount, nil, 3],
-          ].reject { |z| z[0].nil? }.map do |back_price, back_amount, lay_price, lay_amount, last_traded_price, depth|
+          ].reject { |z| z[0].nil? && z[2].nil? && z[4].nil? }.map do |back_price, back_amount, lay_price, lay_amount, last_traded_price, depth|
             { back_price: back_price,
               back_amount: back_amount,
               lay_price: lay_price,
