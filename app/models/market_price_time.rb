@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -12,6 +10,7 @@ class MarketPriceTime < ApplicationRecord
   scope :in_order, -> { order(:time) }
   scope :reversed, -> { reorder(nil).order(time: :desc) }
   scope :later_than, ->(time) { where("time > ?", time) }
+  # scope :earlier_than, ->(time) { where("time <= ?", time) }
 
   validates :time, presence: true
 end

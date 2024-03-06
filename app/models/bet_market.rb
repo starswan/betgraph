@@ -259,7 +259,8 @@ private
   def market_prices_at(time)
     price_query = MarketPrice.where(market_runner: market_runners)
     price_query.joins(:market_price_time)
-      .merge(MarketPriceTime.later_than(time))
-      .uniq(&:market_runner)
+               .merge(MarketPriceTime.later_than(time))
+               # .merge(MarketPriceTime.earlier_than(time + 1.minute))
+               .uniq(&:market_runner_id)
   end
 end

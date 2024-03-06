@@ -5,6 +5,7 @@ class Poisson
   # offset here is purely so that we can solve f(x) = 3 rather than f(x) = 0
   # k is number of actual arrivals
   def initialize(kvalue, offset)
+    # Rails.logger.debug("Poisson #{kvalue} #{offset}")
     @k = kvalue
     @offset = offset
   end
@@ -31,6 +32,7 @@ class Poisson
 private
 
   def f(expected)
+    # Rails.logger.debug("Poisson f #{expected}")
     expected**@k
   end
 
