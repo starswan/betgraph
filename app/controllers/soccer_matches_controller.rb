@@ -1,40 +1,41 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
 class SoccerMatchesController < ApplicationController
   ITEMS_PER_PAGE = 10
-  MATCH_ACTIONS = [:show, :edit, :update, :destroy].freeze
+  MATCH_ACTIONS = [:show, :update, :destroy].freeze
   before_action :find_standard_params
   before_action :find_division_from_football_match, only: MATCH_ACTIONS
   before_action :find_division, except: MATCH_ACTIONS
-
-  skip_before_action :verify_authenticity_token, only: [:create]
-  before_action :semi_verify_authenticity_token, only: [:create]
 
   # GET /soccer_matches
   # GET /soccer_matches.xml
   def index
     @page = params[:page].to_i
-    @football_matches = soccer_matches.page(@page).per(ITEMS_PER_PAGE)
+    @football_matches = SoccerMatch.where(division: @division)
+                                   .order("#{@order} #{@direction}")
+                                   .page(@page).per(ITEMS_PER_PAGE)
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render xml: @football_matches }
-      format.json { render json: @football_matches.to_json }
     end
   end
 
   # GET /soccer_matches/1
   # GET /soccer_matches/1.xml
   def show
+    football_matches = SoccerMatch
+                         .includes([{ teams: :team_names }, :division])
+                         .order("#{@order} #{@direction}")
+
     if @offset > 0
-      matches = football_matches @offset - 1, 3
+      matches = football_matches.offset(@offset - 1).limit(3)
       @prev_football_match = matches[0]
       @next_football_match = matches[2] if matches.size > 2
     else
-      matches = football_matches 0, 2
-      @next_football_match = matches[1] if matches.size > 1
+      @prev_football_match = football_matches.where("id < ?", params[:id]).last
+      @next_football_match = football_matches.where("id > ?", params[:id]).first
+      # matches = football_matches.limit(2)
+      # @next_football_match = matches[1] if matches.size > 1
     end
     @soccer_match = SoccerMatch.includes(
       [
@@ -47,13 +48,12 @@ class SoccerMatchesController < ApplicationController
           { market_runners: [{ betfair_runner_type: :betfair_market_type }, :market_prices] },
         ],
       ],
-    ).find(params[:id])
+    ).find_by!(id: params[:id])
     # 0 for nil is exactly what we want here
     @matchtime = params[:matchtime].to_i
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render xml: @soccer_match }
     end
   end
 
@@ -160,21 +160,9 @@ private
     @division = Division.find params[:division_id]
   end
 
-  def football_matches(offset, limit)
-    SoccerMatch.includes([{ teams: :team_names }, :division])
-                            .order(@order)
-                            .limit(limit)
-                            .offset(offset)
-  end
-
-  def soccer_matches
-    SoccerMatch.where(division: @division).order(@order)
-    # include doesn't work here - maybe it needs to be higher up the call chain?
-    # @division.soccer_matches.where('event_id is not null').order(:kickofftime).limit(limit).offset(offset).include([{:hometeam => :team_names}, {:awayteam => :team_names}, :division])
-  end
-
   def find_standard_params
-    @order = params[:order] || "kickofftime desc"
+    @order = params[:order] || :kickofftime
+    @direction = params[:direction] || :desc
     @threshold = (params[:threshold] || 11).to_i
     @offset = params[:offset] ? params[:offset].to_i : 0
     @limit = params.fetch(:limit, 20).to_i
