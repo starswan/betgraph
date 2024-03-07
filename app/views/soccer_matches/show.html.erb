@@ -23,64 +23,77 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-2">
-    <%= link_to '<<', {offset: @offset, :matchtime => @matchtime - 10, order: @order } %>
-    &nbsp;
+  <div class="col col-2">
+    <%= link_to '<<', {offset: @offset, :matchtime => @matchtime - 10, order: @order } %>&nbsp;
     <%= link_to '<', {offset: @offset, :matchtime => @matchtime - 1, order: @order } %>
   </div>
-  <div class="col-xs-8" align="center">
+  <div class="col col-8" align="center">
     <%= @matchtime %> Mins (<%= homescore %> - <%= awayscore %>)
   </div>
-  <div class="col-xs-2">
+  <div class="col col-2">
     <%= link_to '>', {:offset => @offset, matchtime: @matchtime + 1, order: @order } %>
-    &nbsp;
     <%= link_to '>>', {offset: @offset, :matchtime => @matchtime + 10, order: @order } %>
   </div>
 </div>
-<table class="table table-striped table-responsive">
-  <tr>
-<!--    <th>Type</th>-->
-    <td align="center"><b>Market</b></td>
-    <td align="center"><b>Rs/Ps</b></td>
-    <th colspan="1" align="center">Expected</th>
-    <% diffs.each do |d| %>
-      <td align="center"><b>H<%= d[0] -%>A<%= d[1] -%></b></td>
-    <% end %>
-  </tr>
-  <% @soccer_match.bet_markets.select { |x| x.live && x.betfair_market_type.active }.sort_by(&:name).each do |bm| -%>
-  <tr>
-<!--    <td>-->
-      <%#= link_to bm.markettype, bm.betfair_market_type %>
-<!--    </td>-->
-    <td>
-      <%= link_to bm.name, bm %>
-    </td>
-    <td align="center">
-      <%= h bm.market_runners.size %> / <%= h bm.market_prices_count -%>
-    </td>
-    <% expected = bm.expected_value(matchtime) %>
-    <td align="center">
-      <% if expected.bid && expected.ask %>
-        <%= expected.bid&.round(3) %>/<%= expected.ask&.round(3) %>
+
+<div class="row table grid-row">
+  <div class="col-3">
+    <div class="row">
+      <div class="col"><b>Market</b></div>
+      <div class="col"><b>Rs/Ps</b></div>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="row">
+      <div class="col col-2"><b>Expected</b></div>
+      <% diffs.each do |d| %>
+        <div class="col col-1"><b>H<%= d[0] -%>A<%= d[1] -%></b></div>
       <% end %>
-    </td>
-    <% diffs.each do |diff| %>
-      <% probability = bm.market_value matchtime, homescore + diff[0], awayscore + diff[1] %>
-      <% diff[2] = [diff[2], probability].min if probability > 0 %>
-      <td align="right">
-        <% unless probability == 0 %>
-         <%= "%.2f" % (1 / probability)  %>
+    </div>
+  </div>
+</div>
+
+<% @soccer_match.bet_markets.select { |x| x.live && x.betfair_market_type.active }.sort_by(&:name).each do |bm| -%>
+  <div class="row table grid-row">
+    <div class="col-3">
+      <div class="row">
+        <div class="col"><%= link_to bm.name, bm %></div>
+        <div class="col"><%= h bm.market_runners.size %> / <%= h bm.market_prices_count -%></div>
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col col-2">
+          <%- expected = bm.expected_value(matchtime) %>
+          <% if expected.bid && expected.ask %>
+            <%= expected.bid&.round(3) %>/<%= expected.ask&.round(3) %>
+          <% end %>
+        </div>
+        <% diffs.each do |diff| %>
+          <div class="col col-1">
+            <% probability = bm.market_value matchtime, homescore + diff[0], awayscore + diff[1] %>
+            <% diff[2] = [diff[2], probability].min if probability > 0 %>
+            <% unless probability == 0 %>
+              <%= "%.2f" % (1 / probability)  %>
+            <% end %>
+          </div>
         <% end %>
-      </td>
-    <% end %>
-  </tr>
-  <% end %>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <% diffs.each do |diff| %>
-      <td align="right">
-         <%= "%.2f" % (diff[2] == 1 ? 0 : 1 / diff[2]) -%>
-      </td>
-    <% end %>
-  </tr>
-</table>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<div class="row table grid-row">
+  <div class="col-3">
+  </div>
+  <div class="col-9">
+    <div class="row">
+      <div class="col col-2"></div>
+      <% diffs.each do |diff| %>
+        <div class="col col-1">
+          <b><%= "%.2f" % (diff[2] == 1 ? 0 : 1 / diff[2]) -%></b>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

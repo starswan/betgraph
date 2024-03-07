@@ -136,7 +136,8 @@ class BetMarket < ApplicationRecord
     if prices.any?
       # Each price implies a value of lambda (expected value of market)
       rvs = prices.map do |price|
-        runner = price.market_runner
+        # runner = price.market_runner
+        runner = market_runners.detect { |mr| mr.id == price.market_runner_id }
         # BetfairMarketType::ExpectedPrice.new home: runner.betfair_runner_type.runnerhomevalue,
         #                                      away: runner.betfair_runner_type.runnerawayvalue,
         #                                      handicap: runner.handicap,
@@ -170,10 +171,12 @@ class BetMarket < ApplicationRecord
         backprice = price.back1price
         layprice = price.lay1price
 
+        runner = market_runners.detect { |mr| mr.id == price.market_runner_id }
+
         # runner_value returns 1 if runner would win, 0 if runner is a push and -1 otherwise
         # possibly scaled e.g. asians can return fractional answers.
-        runner_value = price.market_runner.runner_value homescore, awayscore
-        logger.debug "MP: #{homescore}-#{awayscore} #{price.market_runner.runnername} #{backprice.to_f} #{layprice.to_f} #{runner_value}"
+        runner_value = runner.runner_value homescore, awayscore
+        logger.debug "MP: #{homescore}-#{awayscore} #{runner.runnername} #{backprice.to_f} #{layprice.to_f} #{runner_value}"
 
         total += runner_value / backprice if runner_value > 0 && backprice
         prob += 1 / backprice if backprice
