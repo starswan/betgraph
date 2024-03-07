@@ -4,10 +4,10 @@
 <% diffs = [[0,0,1],[1,0,1],[0,1,1],[2,0,1],[1,1,1],[0,2,1],[3,0,1],[2,1,1],[1,2,1],[0,3,1]] %>
 <% matchtime = @soccer_match.actual_match_time(@matchtime) %>
 <div class="row">
-  <div class="col-xs-2">
+  <div class="col col-2">
     <%= link_to @prev_football_match.name, soccer_match_path(@prev_football_match, order: @order, offset: @offset - 1) if @prev_football_match %>
   </div>
-  <div class="col-xs-8">
+  <div class="col col-8">
     <%= link_to @soccer_match.division.name, division_soccer_matches_path(@division) %>
       <%= link_to @soccer_match.name, polymorphic_url([@soccer_match, :bet_markets]) %>
       <%= @soccer_match.kickofftime.to_s(:kickoff).html_safe %>
@@ -18,11 +18,11 @@
       <%= '(L)' if @soccer_match.live_priced %>
     <%= link_to 'Edit', edit_division_soccer_match_path(@division, @soccer_match) %>
   </div>
-  <div class="col-xs-2">
+  <div class="col col-2">
     <%= link_to @next_football_match.name, soccer_match_path(@next_football_match, order: @order, offset: @offset + 1) if @next_football_match %>
   </div>
 </div>
-<div class="row">
+<div class="row table grid-row">
   <div class="col col-2">
     <%= link_to '<<', {offset: @offset, :matchtime => @matchtime - 10, order: @order } %>&nbsp;
     <%= link_to '<', {offset: @offset, :matchtime => @matchtime - 1, order: @order } %>
