@@ -1,10 +1,9 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <!-- e.g. chartkick still needs JS via the asset pipeline -->
-<%= javascript_include_tag "application" %>
 <%= stylesheet_link_tag    "application", :media => "all" %>
-<%= javascript_pack_tag "application" %>
-<%= javascript_pack_tag "matches" %>
-<%= javascript_pack_tag "bet_markets" %>
+<%= javascript_include_tag "application" %>
+<%= javascript_include_tag "matches" %>
+<%= javascript_include_tag "bet_markets" %>
 <%#= javascript_pack_tag "hello_elm" %>
 <%= csrf_meta_tags %>
