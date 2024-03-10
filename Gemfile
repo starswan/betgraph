@@ -46,6 +46,8 @@ gem "dotenv-rails"
 gem "faraday", ">= 2"
 gem "faraday-retry"
 
+gem "jsbundling-rails"
+
 gem "mysql2"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -70,7 +72,6 @@ gem "rails", "~> 7", "< 7.1"
 gem "sass-rails", "~> 6"
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
-gem "webpacker", ">= 5", "< 6"
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
@@ -90,7 +91,10 @@ gem "passenger", "~> 5.0"
 gem "iostreams"
 gem "bzip2-ffi"
 
-gem "morrisjs-rails", git: "https://github.com/beanieboi/morrisjs-rails"
+# gem "morrisjs-rails", git: "https://github.com/beanieboi/morrisjs-rails"
+# Think we have to go all-in with css-bundling-rails if we use this
+# This seems to stop application.css from being found in the load path when served by propshaft
+gem "cssbundling-rails"
 gem "raphael-rails"
 
 # Ruby 3.x compatibility merged to master, but not released
@@ -119,6 +123,9 @@ group :development, :test do
   gem "pronto"
   gem "pronto-rubocop"
   gem "pronto-undercover"
+
+  gem "propshaft"
+
   gem "pry-rails"
   gem "puma"
 
