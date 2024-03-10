@@ -70,7 +70,7 @@ class SoccerMatchesController < ApplicationController
     end
   end
 
-  private
+private
 
   def create_match_params
     params.require(:soccer_match)
