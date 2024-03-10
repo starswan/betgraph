@@ -57,6 +57,19 @@ class SoccerMatchesController < ApplicationController
     end
   end
 
+  def update
+    respond_to do |format|
+      live_count = BetMarket.live.count
+      if @football_match.update(update_match_params)
+        TickleLivePricesJob.perform_later if live_count.zero? && @football_match.live_priced
+        flash[:notice] = "SoccerMatch was successfully updated."
+        format.json { render json: @football_match }
+      else
+        format.json { render json: @football_match.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
 private
 
   def create_match_params
@@ -68,7 +81,7 @@ private
   def update_match_params
     params.require(:soccer_match)
           .permit(:actual_start_time, :half_time_duration, :kickofftime, :event, :name,
-                  :endtime, :menu_path, :live_priced)
+                  :endtime, :live_priced)
   end
 
   def find_division_from_football_match

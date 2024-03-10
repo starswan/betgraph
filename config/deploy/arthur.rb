@@ -15,8 +15,8 @@
 
 require "rvm/capistrano"
 
-set :deploy_to, "#{ENV['HOME']}/betgraph"
-set :user, ENV["USER"]
+set :deploy_to, "/home/stephen/betgraph"
+set :user, "stephen"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :rails_env, "arthur"

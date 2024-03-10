@@ -23,7 +23,10 @@ RSpec.describe SoccerMatchesController, type: :controller do
   end
 
   context "with an existing match" do
-    let!(:soccermatch) { create :soccer_match, live_priced: true, division: division, name: "#{hometeam.name} v #{awayteam.name}", kickofftime: Date.tomorrow }
+    let!(:soccermatch) do
+      create :soccer_match, live_priced: false, division: division,
+                            name: "#{hometeam.name} v #{awayteam.name}", kickofftime: Date.tomorrow
+    end
     let(:mpt) { create(:market_price_time, time: soccermatch.kickofftime + 1.minute) }
 
     before do
@@ -34,14 +37,42 @@ RSpec.describe SoccerMatchesController, type: :controller do
       ]
     end
 
-    # it "can be replaced" do
-    #   post :create, params: { division_id: division,
-    #                           soccer_match: {
-    #                             kickofftime: Time.zone.now,
-    #                             name: "#{hometeam.name} v #{awayteam.name}",
-    #                           } }, format: :json
-    #   expect(response).to have_http_status(:created)
-    # end
+    describe "#update" do
+      let(:ko_time) { Date.tomorrow + 1.day }
+      let(:other_match) { create :soccer_match, live_priced: false, division: division, kickofftime: ko_time }
+
+      it "errors" do
+        patch :update, params: {
+          id: soccermatch,
+          soccer_match: {
+            name: other_match.name,
+          },
+        }, format: :json
+        expect(response).to have_http_status(:unprocessable_entity)
+      end
+
+      it "can be updated" do
+        patch :update, params: {
+          id: soccermatch,
+          soccer_match: {
+            live_priced: true,
+          },
+        }, format: :json
+        expect(response).to have_http_status(:ok)
+        expect(soccermatch.reload.live_priced).to eq(true)
+      end
+
+      it "can update kickoff time" do
+        patch :update, params: {
+          id: soccermatch,
+          soccer_match: {
+            kickofftime: ko_time,
+          },
+        }, format: :json
+        expect(response).to have_http_status(:ok)
+        expect(soccermatch.reload.kickofftime).to eq(ko_time)
+      end
+    end
 
     it "gets show" do
       get :show, params: { id: soccermatch }
