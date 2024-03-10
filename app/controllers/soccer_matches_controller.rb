@@ -59,7 +59,7 @@ class SoccerMatchesController < ApplicationController
 
   def update
     respond_to do |format|
-      live_count = SoccerMatch.future.live_priced.count
+      live_count = BetMarket.live.count
       if @football_match.update(update_match_params)
         TickleLivePricesJob.perform_later if live_count.zero? && @football_match.live_priced
         flash[:notice] = "SoccerMatch was successfully updated."
