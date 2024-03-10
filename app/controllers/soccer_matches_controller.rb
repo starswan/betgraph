@@ -81,7 +81,7 @@ private
   def update_match_params
     params.require(:soccer_match)
           .permit(:actual_start_time, :half_time_duration, :kickofftime, :event, :name,
-                  :endtime, :menu_path, :live_priced)
+                  :endtime, :live_priced)
   end
 
   def find_division_from_football_match

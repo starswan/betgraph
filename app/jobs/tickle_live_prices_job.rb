@@ -11,12 +11,12 @@ class TickleLivePricesJob < ApplicationJob
       lives = BetMarket.live.order(:time)
       if lives.any?
         now = Time.zone.now
-        next_time = lives.first.time
-        gap = (next_time - now) / 2
-        if gap.positive?
-          TickleLivePricesJob.set(wait: gap.seconds).perform_later
+        gaps = lives.map { |live_bm| (live_bm - now) / 2 }
+        positive_gaps = gaps.select(&:positive?)
+        if gaps.any?
+          TickleLivePricesJob.set(wait: positive_gaps.first.seconds).perform_later
         else
-          logger.debug("TickleLivePricesJob stopped for negative #{gap}")
+          logger.debug("TickleLivePricesJob stopped for negative #{gaps.last}")
         end
       else
         logger.debug("TickleLivePricesJob stopped due to no live markets")
