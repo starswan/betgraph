@@ -16,8 +16,10 @@ class TickleLivePricesJob < ApplicationJob
         if gap.positive?
           TickleLivePricesJob.set(wait: gap.seconds).perform_later
         else
-          logger.info("TickleLivePricesJob stopped for negative #{gap}")
+          logger.debug("TickleLivePricesJob stopped for negative #{gap}")
         end
+      else
+        logger.debug("TickleLivePricesJob stopped due to no live markets")
       end
     end
   end
