@@ -47,7 +47,7 @@ Rails.application.routes.draw do
     resources :baskets, except: [:edit]
     resources :match_teams
   end
-  resources :soccer_matches, only: [:show] do
+  resources :soccer_matches, only: [:show, :update] do
     resources :scorers, except: :show, controller: "soccer_matches/scorers"
     resources :results
     resources :bet_markets, only: :index, controller: "soccer_matches/bet_markets" do
