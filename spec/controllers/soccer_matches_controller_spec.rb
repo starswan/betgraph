@@ -23,7 +23,10 @@ RSpec.describe SoccerMatchesController, type: :controller do
   end
 
   context "with an existing match" do
-    let!(:soccermatch) { create :soccer_match, live_priced: false, division: division, name: "#{hometeam.name} v #{awayteam.name}", kickofftime: Date.tomorrow }
+    let!(:soccermatch) do
+      create :soccer_match, live_priced: false, division: division,
+                            name: "#{hometeam.name} v #{awayteam.name}", kickofftime: Date.tomorrow
+    end
     let(:mpt) { create(:market_price_time, time: soccermatch.kickofftime + 1.minute) }
 
     before do
@@ -35,7 +38,8 @@ RSpec.describe SoccerMatchesController, type: :controller do
     end
 
     describe "#update" do
-      let(:other_match) { create :soccer_match, live_priced: false, division: division, kickofftime: Date.tomorrow }
+      let(:ko_time) { Date.tomorrow + 1.day }
+      let(:other_match) { create :soccer_match, live_priced: false, division: division, kickofftime: ko_time }
 
       it "errors" do
         patch :update, params: {
@@ -56,6 +60,17 @@ RSpec.describe SoccerMatchesController, type: :controller do
         }, format: :json
         expect(response).to have_http_status(:ok)
         expect(soccermatch.reload.live_priced).to eq(true)
+      end
+
+      it "can update kickoff time" do
+        patch :update, params: {
+          id: soccermatch,
+          soccer_match: {
+            kickofftime: ko_time,
+          },
+        }, format: :json
+        expect(response).to have_http_status(:ok)
+        expect(soccermatch.reload.kickofftime).to eq(ko_time)
       end
     end
 
