@@ -38,12 +38,6 @@ RSpec.describe MatchesController, type: :controller do
     expect(assigns(:matches)).to match_array([])
   end
 
-  it "gets index xml" do
-    get :index, params: { division_id: division }, format: :xml
-    assert_response :success
-    expect(assigns(:matches)).to match_array([soccermatch])
-  end
-
   it "future should show only unplayed matches" do
     get :future
     assert_response :success
@@ -54,35 +48,6 @@ RSpec.describe MatchesController, type: :controller do
     get :active
     assert_response :success
     expect(assigns(:matches)).to eq([soccermatch])
-  end
-
-  it "creates match" do
-    expect {
-      post :create, params: {
-        division_id: division,
-        match: {
-          kickofftime: Time.zone.now,
-          type: "SoccerMatch",
-          name: "Fred v Kim",
-        },
-      }
-    }.to change(Match, :count).by(1)
-
-    assert_redirected_to soccer_match_path(assigns(:match))
-  end
-
-  it "creates match via XML" do
-    expect {
-      post :create, params: {
-        division_id: division,
-        match: {
-          kickofftime: Time.zone.now,
-          type: "SoccerMatch",
-          name: "Fred v Bill",
-        },
-      }, format: :xml
-      assert_response :success
-    }.to change(Match, :count).by(1)
   end
 
   it "shows match" do

@@ -191,9 +191,7 @@ Rails/SaveBang:
     - 'app/controllers/market_prices_controller.rb'
     - 'app/controllers/market_runners_controller.rb'
     - 'app/controllers/matches_controller.rb'
-    - 'app/controllers/motor_races_controller.rb'
     - 'app/controllers/results_controller.rb'
-    - 'app/controllers/snooker_matches_controller.rb'
     - 'app/controllers/soccer_matches/baskets_controller.rb'
     - 'app/controllers/soccer_matches_controller.rb'
     - 'app/controllers/team_names_controller.rb'
@@ -208,7 +206,6 @@ Rails/SaveBang:
 # SupportedStyles: strict, flexible
 Rails/TimeZone:
   Exclude:
-    - 'app/controllers/motor_races_controller.rb'
     - 'app/jobs/close_dead_markets_job.rb'
     - 'app/jobs/football_data_job.rb'
     - 'app/jobs/trigger_live_prices_job.rb'
@@ -329,7 +326,6 @@ Style/Next:
 # SupportedStyles: predicate, comparison
 Style/NumericPredicate:
   Exclude:
-    - 'app/controllers/snooker_matches_controller.rb'
     - 'app/controllers/soccer_matches_controller.rb'
     - 'app/controllers/tennis_matches_controller.rb'
     - 'app/helpers/results_helper.rb'
@@ -386,7 +382,6 @@ Style/RedundantParentheses:
 # Configuration parameters: AllowAsExpressionSeparator.
 Style/Semicolon:
   Exclude:
-    - 'app/controllers/snooker_matches_controller.rb'
     - 'app/controllers/tennis_matches_controller.rb'
     - 'app/models/match.rb'
 

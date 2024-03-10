@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -8,8 +6,8 @@ class BetMarketsController < ApplicationController
   before_action :find_match_from_market, except: INDEX_ACTIONS
   before_action :find_match, only: INDEX_ACTIONS
 
-  skip_before_action :verify_authenticity_token, only: [:update, :destroy]
-  before_action :semi_verify_authenticity_token, only: [:update, :destroy]
+  # skip_before_action :verify_authenticity_token, only: [:update, :destroy]
+  # before_action :semi_verify_authenticity_token, only: [:update, :destroy]
 
   # GET /bet_markets
   # GET /bet_markets.json
@@ -18,21 +16,20 @@ class BetMarketsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @bet_markets }
-      format.xml  { render xml: @bet_markets }
+      # format.json { render json: @bet_markets }
+      # format.xml  { render xml: @bet_markets }
     end
   end
 
   # GET /bet_markets/1
   # GET /bet_markets/1.json
   def show
-    # @bet_market = BetMarket.find params[:id], :include => :market_runners
     @bet_market = BetMarket.find params[:id]
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render xml: @bet_market.to_xml(include: :market_runners) }
-      format.json { render json: @bet_market }
+      # format.xml  { render xml: @bet_market.to_xml(include: :market_runners) }
+      # format.json { render json: @bet_market }
     end
   end
 
@@ -49,12 +46,12 @@ class BetMarketsController < ApplicationController
     respond_to do |format|
       if @bet_market.update(bet_market_params)
         format.html { redirect_to @bet_market, notice: "Bet market was successfully updated." }
-        format.json { head :no_content }
-        format.xml  { head :ok }
+        # format.json { head :no_content }
+        # format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.json { render json: @bet_market.errors, status: :unprocessable_entity }
-        format.xml  { render xml: @bet_market.errors, status: :unprocessable_entity }
+        # format.json { render json: @bet_market.errors, status: :unprocessable_entity }
+        # format.xml  { render xml: @bet_market.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -68,7 +65,7 @@ class BetMarketsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(request.referer || polymorphic_url([@match, :bet_markets])) }
-      format.json { head :no_content }
+      # format.json { head :no_content }
     end
   end
 

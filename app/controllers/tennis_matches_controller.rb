@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -44,31 +42,14 @@ class TennisMatchesController < ApplicationController
 
   # GET /soccer_matches/new
   # GET /soccer_matches/new.xml
-  def new
-    @football_match = @division.matches.new type: "TennisMatch"
-    # @football_match = @football_season.football_matches.new
-    # subpathnames = @football_division.menu_path.menu_sub_paths.collect { |msp| msp.sub_path.name }
-
-    # football_division is a division and a base menu_path
-    # need to find all events 'under' the menu path
-
-    # matches = BetfairSoccerMatch.all :joins => :event,
-    #                                 :order => 'starttime',
-    #                                 :conditions => ['events.active = ? and events.menu_path_name in (?)', true, subpathnames]
-
-    # @betfair_soccer_matches = matches.find_all { |bsm| @football_division.football_matches.find_by_betfair_soccer_match_id(bsm.id).nil? }
-
-    # @footie_fixtures = []
-    # @footie_fixtures = @football_division.division.footie_fixtures.all(:order => 'date', :conditions => ['date >= ?', @betfair_soccer_matches[0].event.starttime - 1.day]) if @betfair_soccer_matches.size > 0
-
-    # donefixtures = FootballMatch.all.collect { |match| match.footie_fixture_id }
-    # @footie_fixtures.reject! { |ff| donefixtures.include? ff }
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render xml: @football_match }
-    end
-  end
+  # def new
+  #   @football_match = @division.matches.new type: "TennisMatch"
+  #
+  #   respond_to do |format|
+  #     format.html # new.html.erb
+  #     format.xml  { render xml: @football_match }
+  #   end
+  # end
 
   # GET /football_matches/1/edit
   # def edit
@@ -77,53 +58,53 @@ class TennisMatchesController < ApplicationController
 
   # POST /soccer_matches
   # POST /soccer_matches.xml
-  def create
-    @match = @division.matches.new(match_params.merge(type: "TennisMatch"))
-    # @match.actual_start_time = @football_match.betfair_soccer_match.event.starttime
-
-    respond_to do |format|
-      if @match.save
-        # Try to create stuff based on what has gone before
-        # maybe this should be a background task trigger?
-        # @football_division.auto_football_matches
-        flash[:notice] = "TennisMatch was successfully created."
-        format.html { redirect_to([@division, @match]) }
-        format.xml  { render xml: @match, status: :created, location: @match }
-      else
-        format.html { render action: "new" }
-        format.xml  { logger.debug(@match.errors.inspect); render xml: @match.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  # def create
+  #   @match = @division.matches.new(match_params.merge(type: "TennisMatch"))
+  #   # @match.actual_start_time = @football_match.betfair_soccer_match.event.starttime
+  #
+  #   respond_to do |format|
+  #     if @match.save
+  #       # Try to create stuff based on what has gone before
+  #       # maybe this should be a background task trigger?
+  #       # @football_division.auto_football_matches
+  #       flash[:notice] = "TennisMatch was successfully created."
+  #       format.html { redirect_to([@division, @match]) }
+  #       format.xml  { render xml: @match, status: :created, location: @match }
+  #     else
+  #       format.html { render action: "new" }
+  #       format.xml  { logger.debug(@match.errors.inspect); render xml: @match.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # PUT /football_matches/1
   # PUT /football_matches/1.xml
-  def update
-    @football_match = TennisMatch.find(params[:id])
-
-    respond_to do |format|
-      if @football_match.update(match_params)
-        flash[:notice] = "FootballMatch was successfully updated."
-        format.html { redirect_to [@season, @football_match] }
-        format.xml  { head :ok }
-      else
-        format.html { render action: "edit" }
-        format.xml  { render xml: @football_match.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  # def update
+  #   @football_match = TennisMatch.find(params[:id])
+  #
+  #   respond_to do |format|
+  #     if @football_match.update(match_params)
+  #       flash[:notice] = "FootballMatch was successfully updated."
+  #       format.html { redirect_to [@season, @football_match] }
+  #       format.xml  { head :ok }
+  #     else
+  #       format.html { render action: "edit" }
+  #       format.xml  { render xml: @football_match.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # DELETE /football_matches/1
   # DELETE /football_matches/1.xml
-  def destroy
-    @football_match.destroy
-
-    respond_to do |format|
-      format.html { redirect_to division_matches_path(@division) }
-      format.xml  { head :ok }
-      format.js { head :ok }
-    end
-  end
+  # def destroy
+  #   @football_match.destroy
+  #
+  #   respond_to do |format|
+  #     format.html { redirect_to division_matches_path(@division) }
+  #     format.xml  { head :ok }
+  #     format.js { head :ok }
+  #   end
+  # end
 
 private
 

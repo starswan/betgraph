@@ -39,8 +39,6 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     add_filter "app/jobs/make_all_matches_job.rb"
     # not really testable
     add_filter "app/jobs/load_all_football_data_job.rb"
-    add_filter "app/controllers/motor_races_controller.rb"
-    add_filter "app/controllers/snooker_matches_controller.rb"
     add_filter "app/controllers/tennis_matches_controller.rb"
     add_filter "app/models/baseball_match.rb"
     add_filter "app/models/basketball_match.rb"

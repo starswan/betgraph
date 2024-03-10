@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -14,8 +12,9 @@ class MatchesController < ApplicationController
 
   PAGE_SIZE = 15
 
-  skip_before_action :verify_authenticity_token, only: [:create, :destroy]
-  before_action :semi_verify_authenticity_token, only: [:create, :destroy]
+  # This was for creating via the API which we don't do any more
+  # skip_before_action :verify_authenticity_token, only: [:update, :destroy]
+  # before_action :semi_verify_authenticity_token, only: [:update, :destroy]
 
   # GET /matches/future
   def future
@@ -53,7 +52,6 @@ class MatchesController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render xml: @matches }
     end
   end
 
@@ -62,7 +60,6 @@ class MatchesController < ApplicationController
   def show
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render xml: @match }
     end
   end
 
@@ -71,32 +68,14 @@ class MatchesController < ApplicationController
     @allteams = Team.all.includes(:team_names).joins(:team_names).order("team_names.name")
   end
 
-  # POST /matches
-  # POST /matches.xml
-  def create
-    @match = @division.matches.new match_params
-
-    respond_to do |format|
-      if @match.save
-        format.html { redirect_to(@match, notice: "Match was successfully created.") }
-        format.xml  { render xml: @match, status: :created, location: @match }
-      else
-        format.html { render action: "new" }
-        format.xml  { render xml: @match.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
   # PUT /matches/1
   # PUT /matches/1.xml
   def update
     respond_to do |format|
       if @match.update match_params
         format.html { redirect_to(@match, notice: "Match was successfully updated.") }
-        format.json { render json: @football_match }
       else
         format.html { render action: "edit" }
-        format.json { render json: @football_match.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -111,7 +90,6 @@ class MatchesController < ApplicationController
     respond_to do |format|
       format.js   { head :ok }
       format.html { redirect_to @match.division }
-      format.json { head :ok }
     end
   end
 
