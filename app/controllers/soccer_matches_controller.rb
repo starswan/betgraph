@@ -70,6 +70,17 @@ class SoccerMatchesController < ApplicationController
     end
   end
 
+  # DELETE /soccer_matches/1
+  # DELETE /soccer_matches/1.xml
+  def destroy
+    @football_match.destroy
+    DestroyObjectJob.perform_later @football_match
+
+    respond_to do |format|
+      format.json { head :ok }
+    end
+  end
+
 private
 
   def create_match_params
