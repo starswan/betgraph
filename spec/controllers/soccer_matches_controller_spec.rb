@@ -45,6 +45,13 @@ RSpec.describe SoccerMatchesController, type: :controller do
       end
     end
 
+    describe "#edit" do
+      it "works without error" do
+        get :edit, params: { id: soccermatch }
+        expect(response).to have_http_status(:ok)
+      end
+    end
+
     describe "#update" do
       let(:ko_time) { Date.tomorrow + 1.day }
       let(:other_match) { create :soccer_match, live_priced: false, division: division, kickofftime: ko_time }
@@ -59,7 +66,7 @@ RSpec.describe SoccerMatchesController, type: :controller do
         expect(response).to have_http_status(:unprocessable_entity)
       end
 
-      it "can be updated" do
+      it "can be updated via json" do
         patch :update, params: {
           id: soccermatch,
           soccer_match: {
@@ -67,6 +74,16 @@ RSpec.describe SoccerMatchesController, type: :controller do
           },
         }, format: :json
         expect(response).to have_http_status(:ok)
+        expect(soccermatch.reload.live_priced).to eq(true)
+      end
+
+      it "can be updated" do
+        patch :update, params: {
+          id: soccermatch,
+          soccer_match: {
+            live_priced: true,
+          },
+        }
         expect(soccermatch.reload.live_priced).to eq(true)
       end
 

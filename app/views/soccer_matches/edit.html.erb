@@ -1,0 +1,20 @@
+<!-- $Id$ -->
+<b>Editing match for</b>
+<%= link_to @division.name, division_matches_path(@division) %>
+<br/>
+<%= form_for(@football_match) do |f| %>
+  <%= render "shared/error_messages", :target => @football_match %>
+
+  <table>
+    <tr><td><%= f.label :hometeam %></td><td><%= f.text_field :hometeamname, readonly: true %></td></tr>
+    <tr><td><%= f.label :awayteam %></td><td><%= f.text_field :awayteamname, readonly: true %></td></tr>
+    <tr><td><%= f.label :live_priced %></td><td><%= f.check_box :live_priced, :class => 'check_box' %></td></tr>
+  </table>
+  <p>Kick-Off Time<br/><%= f.datetime_select :kickofftime, :order => [:day, :month, :year, :hour, :minute] %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @football_match %>

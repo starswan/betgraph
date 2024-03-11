@@ -3,7 +3,7 @@
 #
 class SoccerMatchesController < ApplicationController
   ITEMS_PER_PAGE = 10
-  MATCH_ACTIONS = [:show, :update, :destroy].freeze
+  MATCH_ACTIONS = [:show, :update, :edit, :destroy].freeze
   before_action :find_standard_params
   before_action :find_division_from_football_match, only: MATCH_ACTIONS
   before_action :find_division, except: MATCH_ACTIONS
@@ -53,8 +53,13 @@ class SoccerMatchesController < ApplicationController
     @matchtime = params[:matchtime].to_i
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html
     end
+  end
+
+  # GET /soccer_matches/1/edit
+  def edit
+    @football_match = SoccerMatch.find(params[:id])
   end
 
   def update
@@ -63,6 +68,7 @@ class SoccerMatchesController < ApplicationController
       if @football_match.update(update_match_params)
         TickleLivePricesJob.perform_later if live_count.zero? && @football_match.live_priced
         flash[:notice] = "SoccerMatch was successfully updated."
+        format.html { redirect_to @football_match, notice: "SoccerMatch was successfully updated." }
         format.json { render json: @football_match }
       else
         format.json { render json: @football_match.errors, status: :unprocessable_entity }
