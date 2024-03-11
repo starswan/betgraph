@@ -37,6 +37,14 @@ RSpec.describe SoccerMatchesController, type: :controller do
       ]
     end
 
+    describe "#destroy" do
+      it "deletes match" do
+        expect {
+          delete :destroy, params: { id: soccermatch }, format: :json
+        }.to change(SoccerMatch, :count).by(-1)
+      end
+    end
+
     describe "#update" do
       let(:ko_time) { Date.tomorrow + 1.day }
       let(:other_match) { create :soccer_match, live_priced: false, division: division, kickofftime: ko_time }

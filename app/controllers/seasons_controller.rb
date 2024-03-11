@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -28,7 +26,7 @@ class SeasonsController < ApplicationController
       SeasonDisplay.new id: s.id, name: "#{s.name} - #{s.calendar.name}"
     end
 
-    @season = Season.find(params[:season_id])
+    @season = Season.find(params[:season_id] || params[:id])
     @football_matches = SoccerMatch.where(season: @season)
                           .ordered_by_date
                           .includes(:division, :result, { teams: :team_names })
@@ -122,11 +120,11 @@ class SeasonsController < ApplicationController
 
     respond_to do |format|
       format.html do
-        if current_season
-          render layout: "current_football_season"
-        else
-          render
-        end
+        # if current_season
+        #   render layout: "current_football_season"
+        # else
+        #   render
+        # end
       end
     end
   end
