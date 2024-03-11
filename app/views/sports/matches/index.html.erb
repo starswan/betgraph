@@ -42,8 +42,7 @@
       <td>
         <%= format_result(match) %>
       </td>
-<!--      <td><%#= link_to 'Edit', polymorphic_url(match, :action => :edit), :class => 'btn btn-sm btn-outline-primary' %></td>-->
-      <td><%= link_to 'Edit', edit_match_url(match), :class => 'btn btn-sm btn-outline-primary' %></td>
+      <td><%= link_to 'Edit', polymorphic_url(match, :action => :edit), :class => 'btn btn-sm btn-outline-primary' %></td>
       <td>
         <%= link_to 'Delete',
                     match,
