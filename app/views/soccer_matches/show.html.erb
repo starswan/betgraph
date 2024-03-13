@@ -10,7 +10,7 @@
   <div class="col col-8">
     <%= link_to @soccer_match.division.name, division_soccer_matches_path(@division) %>
       <%= link_to @soccer_match.name, polymorphic_url([@soccer_match, :bet_markets]) %>
-      <%= @soccer_match.kickofftime.to_s(:kickoff).html_safe %>
+      <%= @soccer_match.kickofftime.to_fs(:kickoff).html_safe %>
       <% if @soccer_match.result %>
         <%= format_result(@soccer_match) %>
       <% end %>

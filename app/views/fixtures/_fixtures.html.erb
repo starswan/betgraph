@@ -2,7 +2,7 @@
   <tr><th>Time</th><th colspan="2" align="center">Fixture</th><th>Markets</th><th>Prices</th></tr>
   <% @fixtures.each do |fixture| %>
   <tr>
-    <td><%= fixture.kickofftime.to_s(:time_without_secs) %></td>
+    <td><%= fixture.kickofftime.to_fs(:time_without_secs) %></td>
     <td><%= render 'team', team: fixture.hometeam, rows: @rows %></td>
     <td><%= render 'team', team: fixture.awayteam, rows: @rows %></td>
     <td><%= fixture.bet_markets_count %></td>

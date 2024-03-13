@@ -7,7 +7,7 @@
     <%=t '.title', :default => model_class.model_name.human.pluralize %>
     for
     <%= link_to @bet_market.match.name, polymorphic_url([@bet_market.match, :bet_markets]) %>
-    <%= @bet_market.match.kickofftime.to_s(:kickoff).html_safe %>
+    <%= @bet_market.match.kickofftime.to_fs(:kickoff).html_safe %>
   </b>
   <%= format_result(@bet_market.match) %>
   <%= link_to @bet_market.name, @bet_market %>

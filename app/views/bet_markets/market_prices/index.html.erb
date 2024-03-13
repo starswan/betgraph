@@ -3,7 +3,7 @@
 <div class="page-header">
   <h4>
     <%= link_to @bet_market.match.name, match_bet_markets_path(@bet_market.match) %>
-    (<%= @bet_market.match.kickofftime.to_s(:kickoff).html_safe %>) /
+    (<%= @bet_market.match.kickofftime.to_fs(:kickoff).html_safe %>) /
     <%=t '.title', :default => model_class.model_name.human.pluralize %> for
     <%= link_to @bet_market.name, bet_market_market_runners_path(@bet_market) %>
   </h4>
@@ -26,7 +26,7 @@
     <tbody class="pricetable">
     <% prices.each_with_index do |price, index| %>
       <tr>
-        <td><%= link_to price.market_price_time.time.to_s(:time_with_secs), market_price_path(price) if index == 0 %></td>
+        <td><%= link_to price.market_price_time.time.to_fs(:time_with_secs), market_price_path(price) if index == 0 %></td>
         <td><%= price.market_runner.runnername %></td>
         <td><%= render 'price', klass: "price", theprice: price.back3price, theamount: price.back3amount %></td>
         <td><%= render 'price', klass: "price", theprice: price.back2price, theamount: price.back2amount %></td>
