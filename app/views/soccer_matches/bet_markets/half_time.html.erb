@@ -4,7 +4,7 @@
   <b>
     <%= link_to @match.division.name, division_matches_path(@match.division) %>
     <%= link_to @match.name, @match %>
-    <%= @match.kickofftime.to_s(:kickoff).html_safe %>
+    <%= @match.kickofftime.to_fs(:kickoff).html_safe %>
   </b>
   <%= format_result(@match) %>
   <%= link_to 'Full Time', soccer_match_bet_markets_path(@match) %>

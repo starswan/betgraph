@@ -47,7 +47,7 @@ RSpec.describe MarketRunnersController, type: :controller do
       assert_redirected_to market_runner_path(assigns(:market_runner))
     end
 
-    it "should_create_market_runner via XML" do
+    it "should_create_market_runner via json" do
       expect {
         post :create, params: {
           bet_market_id: bet_market,
@@ -57,7 +57,7 @@ RSpec.describe MarketRunnersController, type: :controller do
             selectionId: 1,
             sortorder: 0,
           },
-        }, format: :xml
+        }, format: :json
         assert_response :success
       }.to change(MarketRunner, :count).by(1)
     end

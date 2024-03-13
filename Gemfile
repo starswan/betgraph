@@ -65,8 +65,7 @@ gem "kaminari"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-# gem "rails", "~> 5.2.1"
-gem "rails", "~> 6.1"
+gem "rails", "~> 7", "< 7.1"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 6"
 # Use Uglifier as compressor for JavaScript assets
@@ -93,7 +92,7 @@ gem "rubyzip"
 gem "iostreams"
 gem "bzip2-ffi"
 
-gem "morrisjs-rails"
+gem "morrisjs-rails", git: "https://github.com/beanieboi/morrisjs-rails"
 gem "raphael-rails"
 
 # Ruby 3.x compatibility merged to master, but not released

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -69,11 +67,9 @@ class MarketRunnersController < ApplicationController
         MakeBasketItemsJob.perform_later @market_runner
         flash[:notice] = "MarketRunner was successfully created."
         format.html { redirect_to(@market_runner) }
-        format.xml  { render xml: @market_runner, status: :created, location: @market_runner }
         format.json { render json: @market_runner, status: :created, location: @market_runner }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @market_runner.errors, status: :unprocessable_entity }
         format.json { render json: @market_runner.errors, status: :unprocessable_entity }
       end
     end

@@ -5,7 +5,7 @@
     Basket Prices
     for
     <%= link_to @basket.match.name, polymorphic_url([@basket.match, :baskets]) %>
-    <%= @basket.match.kickofftime.to_s(:kickoff).html_safe %>
+    <%= @basket.match.kickofftime.to_fs(:kickoff).html_safe %>
   </b>
   <%= format_result(@basket.match) %>
 </div>

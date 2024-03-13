@@ -2,7 +2,7 @@
 <%- model_class = Trade -%>
 <div class="page-header">
   <h4><%=t '.title', :default => model_class.model_name.human.pluralize %>
-  for <%= @bet_market.match.name %> <%= @bet_market.match.kickofftime.to_s(:kickoff).html_safe %> <%= link_to @bet_market.name, bet_market_market_runners_path(@bet_market) %> </h4>
+  for <%= @bet_market.match.name %> <%= @bet_market.match.kickofftime.to_fs(:kickoff).html_safe %> <%= link_to @bet_market.name, bet_market_market_runners_path(@bet_market) %> </h4>
 </div>
 <table class="table table-striped table-responsive">
   <thead>
@@ -18,7 +18,7 @@
   <tbody>
     <% @trades.each do |trade| %>
       <tr>
-        <td><%= link_to trade.created_at.to_s(:precise), market_runner_trade_path(trade.market_runner, trade) %></td>
+        <td><%= link_to trade.created_at.to_fs(:precise), market_runner_trade_path(trade.market_runner, trade) %></td>
         <td><%= trade.market_runner.description %></td>
         <td><%= trade.side %></td>
         <td class="amount"><%= trade.size %></td>
