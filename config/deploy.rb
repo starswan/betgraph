@@ -95,7 +95,7 @@ end
 
 namespace :yarn do
   task :install, roles: :app do
-    run "yarn:install"
+    run "yarn install"
   end
 end
 
