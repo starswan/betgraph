@@ -93,6 +93,13 @@ namespace :bundler do
   end
 end
 
+namespace :yarn do
+  task :install, roles: :app do
+    run "yarn:install"
+  end
+end
+
 after "deploy:update_code", "bundler:symlink_bundled_gems"
 before "deploy:assets:precompile", "bundler:install"
+before "deploy:assets:precompile", "yarn:install"
 after "deploy:update_code", "deploy:migrate"
