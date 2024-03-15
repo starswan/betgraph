@@ -55,8 +55,8 @@ test:
   #  encoding: unicode
   #  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: bfrails_test<%= ENV['TEST_ENV_NUMBER'] %>
-  username: rails
-  password: 123rails!
+  username: <%= ENV.key?('CI') ? 'root' : 'rails' %>
+  password: <%= ENV.key?('CI') ? 'toor' : '123rails!' %>
   host: "127.0.0.1"
 #  port: 3307
 
