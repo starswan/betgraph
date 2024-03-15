@@ -54,7 +54,7 @@ test:
   #  adapter: postgresql
   #  encoding: unicode
   #  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: bfrails_test
+  database: bfrails_test<%= ENV['TEST_ENV_NUMBER'] %>
   username: rails
   password: 123rails!
   host: "127.0.0.1"
