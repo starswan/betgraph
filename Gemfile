@@ -115,6 +115,7 @@ group :development, :test do
   gem "rspec-rails"
   # Access an IRB console on exception pages or by using <%= console %> in views
   # gem 'web-console', '~> 2.0'
+  gem "parallel_tests"
 
   gem "pronto"
   gem "pronto-rubocop"
