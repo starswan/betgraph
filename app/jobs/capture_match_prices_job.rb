@@ -32,8 +32,8 @@ class CaptureMatchPricesJob < BetfairJob
         market_data.each do |datum|
           logger.info "Received market #{datum}"
         end
-        else
-          logger.info "Received stream item #{item}"
+      else
+        logger.info "Received stream item #{item}"
       end
     end
     # prices = bc.getMultipleMarketPrices market_ids
