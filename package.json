@@ -15,7 +15,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "elm-hot-webpack-loader": "^1.1.8",
-    "webpack": "4.46.0",
+    "webpack": "5.90.3",
     "webpack-dev-server": "^4.15.1"
   },
   "optionalDependenciesComments": {
