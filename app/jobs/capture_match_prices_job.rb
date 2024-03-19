@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class CaptureMatchPricesJob < BetfairJob
   queue_priority PRIORITY_LIVE_PRICES
 
