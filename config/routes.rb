@@ -14,6 +14,10 @@ Rails.application.routes.draw do
     resources :seasons, only: [:index, :show] do
       get "threshold/:threshold" => "seasons#show"
       resources :soccer_matches
+
+      resources :divisions, only: [] do
+        resources :fixtures, only: [:index, :show], controller: "divisions/fixtures"
+      end
     end
   end
   resources :calendars, only: [] do
@@ -30,7 +34,6 @@ Rails.application.routes.draw do
   resources :divisions do
     resources :seasons, only: [] do
       resources :tables, only: [:index, :show]
-      resources :fixtures, only: [:index, :show]
     end
     resources :matches, only: [:index]
     resources :soccer_matches, only: [:index, :edit]
@@ -62,7 +65,6 @@ Rails.application.routes.draw do
   end
 
   resources :scorers
-  resources :positions
   resources :baskets do
     resources :basket_items
     resources :event_basket_prices
