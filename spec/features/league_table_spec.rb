@@ -78,7 +78,10 @@ RSpec.describe "LeagueTables", type: :feature do
     LoadFootballDataJob.new.parse_input_stream(fixtures1819, division)
 
     FetchHistoricalDataJob.perform_now(aug_19, "GB")
+    # runner = MarketRunner.last
     FetchHistoricalDataJob.perform_now(sep_8, "GB")
+    # create(:market_price_time, time: aug_19_3pm + 1.minute,
+    #                            market_prices: [build(:market_price, market_runner: runner)])
   end
 
   it "shows the league fixtures", :vcr, :js do

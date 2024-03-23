@@ -20,8 +20,7 @@ class TablesController < ApplicationController
 private
 
   def load_teams
-    teams = @matches.map(&:teams).flatten.uniq
-    @rows = teams.map { |team| LeagueTableRow.new(team, @matches.select { |m| m.teams.include?(team) }) }
+    @league_table = LeagueTable.new(@matches)
   end
 
   def load_season

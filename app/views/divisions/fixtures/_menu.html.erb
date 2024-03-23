@@ -7,12 +7,12 @@
   </li>
   <% seasons.reverse_each do |s| -%>
     <li class="nav-item">
-      <%= link_to_unless season == s, "#{s.name}(#{s.matches.where(division: division).with_prices.count})", division_season_fixtures_path(division, s), class: 'nav-link' %>
+      <%= link_to_unless season == s, "#{s.name}(#{s.matches.where(division: division).with_prices.count})", sport_season_division_fixtures_path(division.sport, s, division), class: 'nav-link' %>
     </li>
   <% end -%>
   <% divisions.each do |d| %>
     <li class="nav-item">
-      <%= link_to d.name, division_season_fixtures_path(d, season) %>
+      <%= link_to d.name, sport_season_division_fixtures_path(d.sport, season, d) %>
     </li>
   <% end %>
 <% end -%>
