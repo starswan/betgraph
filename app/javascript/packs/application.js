@@ -5,7 +5,8 @@
 
 require("jquery");
 
-require("@rails/ujs").start();
+import Rails from "@rails/ujs";
+Rails.start();
 // require("@rails/ujs");
 // we don't need either of these things (yet)
 // require("@rails/activestorage").start();
