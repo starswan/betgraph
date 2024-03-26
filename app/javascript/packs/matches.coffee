@@ -2,6 +2,8 @@
 # $Id$
 #
 $ ->
+  console.log 'matches.coffee'
+
   $('.delete-match').bind('ajax:beforeSend', () ->
     $(this).closest('td').fadeOut()
   )
