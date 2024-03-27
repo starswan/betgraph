@@ -18,6 +18,8 @@ Rails.application.routes.draw do
       resources :divisions, only: [] do
         resources :fixtures, only: [:index, :show], controller: "divisions/fixtures"
       end
+
+      resources :fixtures, only: [:index, :show]
     end
   end
   resources :calendars, only: [] do

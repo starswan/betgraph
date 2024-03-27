@@ -1,0 +1,20 @@
+<%= render 'menu', seasons: @seasons, season: @season, date: @date %>
+<% @priced_matches.group_by { |m| m.kickofftime.to_date }.each do |date, matches| %>
+  <%= link_to_unless date == @date, "#{date.to_fs(:season)} [#{matches.size}]", sport_season_fixture_path(@season.calendar.sport, @season, date) %>
+<% end %>
+<table class="table table-striped table-responsive">
+  <tr>
+    <th>Time</th>
+    <th>Division</th>
+    <th colspan="2" align="center">Fixture</th>
+    <th>Markets</th>
+    <th>Prices</th>
+  </tr>
+
+  <% @fixtures.each do |fixture| %>
+    <!-- This will of course only find 1 league table that matches a team -->
+    <% @league_tables.reject { |league_table| league_table.position(fixture.hometeam).zero? }.each do |league_table| %>
+      <%= render 'fixture', fixture: fixture, league_table: league_table %>
+    <% end %>
+  <% end %>
+</table>

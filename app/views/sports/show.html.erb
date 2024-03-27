@@ -16,6 +16,9 @@
   <li class="nav-item">
     <%= link_to 'Matches', sport_matches_path(@sport),class: 'nav-link' %>
   </li>
+  <li class="nav-item">
+    <%= link_to 'Seasons', sport_seasons_path(@sport),class: 'nav-link' %>
+  </li>
 <% end %>
 <div class="page-header">
   <b><%= @sport.name %>&nbsp;(<%= @sport.betfair_sports_id %>)</b>

@@ -1,0 +1,11 @@
+<% content_for :title do %>
+  <%= season.calendar.sport.name %> <%= season.name %> <%= season.calendar.name %> Fixtures on <%= date.to_fs(:short) %>
+<% end %>
+<% content_for :menu do -%>
+  <% seasons.reverse_each do |s| -%>
+    <li class="nav-item">
+      <%= link_to_unless season == s, "#{s.name} #{s.calendar.name} (#{s.matches.with_prices.count})", sport_season_fixtures_path(s.calendar.sport, s), class: 'nav-link' %>
+    </li>
+  <% end -%>
+<% end -%>
+<div align="center"><b><%= yield :title %></b></div>
