@@ -191,7 +191,7 @@ class SeasonsController < ApplicationController
 private
 
   def find_sport
-    @soccer = Sport.find params[:sport_id]
+    @sport = Sport.find params[:sport_id]
   end
 
   def find_calendar

@@ -8,7 +8,6 @@ module Divisions
     def index
       @date = @all_matches.first.kickofftime.to_date
       @matches = Match.none
-      @fixtures = @all_matches.played_on(@date)
       load_teams
     end
 
@@ -16,13 +15,13 @@ module Divisions
     def show
       @date = Date.parse(params.fetch(:id))
       @matches = @all_matches.where("kickofftime <= ?", @date)
-      @fixtures = @all_matches.played_on(@date)
       load_teams
     end
 
   private
 
     def load_teams
+      @fixtures = @all_matches.played_on(@date)
       @league_table = LeagueTable.new(@matches)
     end
 

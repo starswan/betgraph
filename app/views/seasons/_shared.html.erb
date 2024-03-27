@@ -4,6 +4,6 @@
     <%= link_to 'Football Divisions', football_divisions_path, class: 'nav-link' %>
   </li>
   <li class="nav-item">
-    <%= link_to 'Soccer Teams', sport_teams_path(@soccer), class: 'nav-link' %>
+    <%= link_to "#{@sport.name} Teams", sport_teams_path(@sport), class: 'nav-link' %>
   </li>
 <% end %>

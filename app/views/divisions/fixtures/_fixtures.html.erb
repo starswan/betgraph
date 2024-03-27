@@ -1,12 +1,11 @@
 <table class="table table-striped table-responsive">
-  <tr><th>Time</th><th colspan="2" align="center">Fixture</th><th>Markets</th><th>Prices</th></tr>
-  <% @fixtures.each do |fixture| %>
+  <tr><th>Time</th><th colspan="2" align="center">Fixture</th><th>Markets/Prices</th></tr>
+  <% fixtures.each do |fixture| %>
     <tr>
       <td><%= fixture.kickofftime.to_fs(:time_without_secs) %></td>
-      <td><%= render 'team', team: fixture.hometeam, position: @league_table.position(fixture.hometeam) %></td>
-      <td><%= render 'team', team: fixture.awayteam, position: @league_table.position(fixture.awayteam) %></td>
-      <td><%= fixture.bet_markets_count %></td>
-      <td><%= fixture.market_prices_count %></td>
+      <td><%= render 'team', team: fixture.hometeam, position: league_table.position(fixture.hometeam) %></td>
+      <td><%= render 'team', team: fixture.awayteam, position: league_table.position(fixture.awayteam) %></td>
+      <td><%= fixture.bet_markets_count %>/<%= fixture.market_prices_count %></td>
     </tr>
   <% end %>
 </table>
