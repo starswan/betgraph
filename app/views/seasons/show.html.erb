@@ -13,9 +13,9 @@
       <% end -%>
     </td>
     <td><%= @season.startdate.to_fs(:season) %> - <%= @enddate.to_fs(:season) %></td>
-    <td>[<b>0-0</b><%= "#{@nilnil}/#{@total}" %><span class="profit">R(8): <%= 8 * @nilnil - (@total - @nilnil) %></span>]</td>
-    <td>[<b>1-0</b><%= "#{@onenil}/#{@total}" %><span class="lesserprofit">R(7): <%= 7 * @onenil - (@total - @onenil) %></span>]</td>
-    <td>[<b>0-1</b><%= "#{@nilone}/#{@total}" %><span class="lesserprofit">R(7): <%= 7 * @nilone - (@total - @nilone) %></span>]</td>
+    <td>[<b>0-0</b> <%= "#{@nilnil}/#{@total}" %> <span class="profit">R(8): <%= 8 * @nilnil - (@total - @nilnil) %></span>]</td>
+    <td>[<b>1-0</b> <%= "#{@onenil}/#{@total}" %> <span class="lesserprofit">R(7): <%= 7 * @onenil - (@total - @onenil) %></span>]</td>
+    <td>[<b>0-1</b> <%= "#{@nilone}/#{@total}" %> <span class="lesserprofit">R(7): <%= 7 * @nilone - (@total - @nilone) %></span>]</td>
     <td>Form</td>
     <td>
       <%= form_for(:season, :html => { :method => :get}) do |f| -%>
