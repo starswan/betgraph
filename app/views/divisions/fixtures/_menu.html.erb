@@ -12,7 +12,7 @@
   <% end -%>
   <% divisions.each do |d| %>
     <li class="nav-item">
-      <%= link_to d.name, sport_season_division_fixtures_path(d.sport, season, d) %>
+      <%= link_to d.name, sport_season_division_fixture_path(d.sport, season, d, date) %>
     </li>
   <% end %>
 <% end -%>
