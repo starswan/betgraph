@@ -26,13 +26,12 @@
     </td>
   </tr>
 </table>
-<table class="table table-responsive">
-  <tr>
-    <th><%= left_title(@season) %></th>
-    <th><%= right_title(@season) %></th>
-  </tr>
-  <tr>
-    <td valign="top">
+<div class="row">
+  <div class="col-6"><b><%= left_title(@season) %></b></div>
+  <div class="col-6"><b><%= right_title(@season) %></b></div>
+</div>
+<div class="row">
+  <div class="col-6">
       <table class="table table-responsive">
         <% if @season.current? Date.today %>
           <% @results.map { |match, display| match_display(match, display) }.each do |r| %>
@@ -60,8 +59,8 @@
           <% end -%>
         <% end -%>
       </table>
-    </td>
-    <td valign="top">
+  </div>
+  <div class="col-6">
       <table class="table table-responsive">
         <% if @season.current? Date.today -%>
           <% @fixtures.map { |match, display| fixture_display(match, display) }.each do |f| %>
@@ -89,6 +88,5 @@
           <% end -%>
         <% end -%>
       </table>
-    </td>
-  </tr>
-</table>
+  </div>
+</div>
