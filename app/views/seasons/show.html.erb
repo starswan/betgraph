@@ -8,7 +8,7 @@
         <%=
           f.collection_select :id, @season_list, :id, :name, {},
                                 {
-                                  onchange: "window.location = '/sports/#{@soccer.id}/seasons/' + this.form.season_id.options[this.form.season_id.selectedIndex].value + '/threshold/#{@threshold}'" }
+                                  onchange: "window.location = '/sports/#{@sport.id}/seasons/' + this.form.season_id.options[this.form.season_id.selectedIndex].value + '/threshold/#{@threshold}'" }
         %>
       <% end -%>
     </td>
@@ -20,7 +20,7 @@
     <td>
       <%= form_for(:season, :html => { :method => :get}) do |f| -%>
         <%= select_tag('threshold', options_for_select(@team_total_configs.keys.sort!, @threshold.to_i),
-                           { :onchange => "window.location = '/sports/#{@soccer.id}/seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
+                           { :onchange => "window.location = '/sports/#{@sport.id}/seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
         -%>
       <% end -%>
     </td>
