@@ -1,5 +1,5 @@
 <!-- $Id$ -->
-<b>Football Seasons</b>
+<b>Seasons for <%= @sport.name %></b>
 
 <%= render 'shared' %>
 
@@ -10,23 +10,16 @@
     <th>Calendar</th>
     <th>Online</th>
     <th>Match Count</th>
-    <th colspan="2">Actions</th>
   </tr>
 
 <% @seasons.each do |football_season| %>
   <tr>
-    <td><%= football_season.name %></td>
+    <td><%= link_to football_season.name, sport_season_path(football_season.calendar.sport, football_season) %></td>
     <td><%= football_season.startdate %></td>
     <td><%= football_season.calendar.name %></td>
     <td><%= football_season.online? ? 'Y' : 'N' %></td>
     <td align="right">
       <%= link_to football_season.matches.count, sport_season_path(football_season.calendar.sport, football_season) %>
-    </td>
-    <td>
-      <%#= link_to 'Edit', edit_sport_season_path(football_season.calendar.sport, football_season) %>
-    </td>
-    <td>
-      <%#= link_to 'Delete', football_season, :data => { :confirm => "Are you sure you wish to delete #{football_season.name}?" }, :method => :delete %>
     </td>
   </tr>
 <% end %>

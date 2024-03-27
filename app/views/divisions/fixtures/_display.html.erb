@@ -1,4 +1,6 @@
 <%= render 'menu', division: @division, seasons: @seasons, season: @season, divisions: @divisions, date: @date %>
-<%= render 'header' %>
-<%= render 'fixtures' %>
+<% @priced_matches.group_by { |m| m.kickofftime.to_date }.each do |date, matches| %>
+  <%= link_to_unless date == @date, "#{date.to_fs(:season)} [#{matches.size}]", sport_season_division_fixture_path(@division.sport, @season, @division, date) %>
+<% end %>
+<%= render 'fixtures', fixtures: @fixtures, league_table: @league_table %>
 <%= render 'league_table', rows: @league_table.rows %>
