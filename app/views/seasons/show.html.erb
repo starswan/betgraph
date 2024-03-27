@@ -1,7 +1,7 @@
 <!-- $Id$ -->
 <%= render 'shared' %>
 
-<table>
+<table class="table table-responsive">
   <tr>
     <td>
       <%= form_for([@season.calendar.sport, @season], method: :get) do |f| -%>
@@ -26,23 +26,23 @@
     </td>
   </tr>
 </table>
-<table class="table table-striped table-responsive">
+<table class="table table-responsive">
   <tr>
     <th><%= left_title(@season) %></th>
     <th><%= right_title(@season) %></th>
   </tr>
   <tr>
     <td valign="top">
-      <table border="1">
+      <table class="table table-responsive">
         <% if @season.current? Date.today %>
           <% @results.map { |match, display| match_display(match, display) }.each do |r| %>
           <tr>
             <td><%= r.kickofftime.strftime('%a %d-%b %y') %></td>
             <td><%= r.division %></td>
-            <td class="<%= r.colour %>"><%= r.hometeam.name %></td>
+            <td><span class="<%= r.colour %>"><%= r.hometeam.name %></span></td>
             <td><%= r.homescore %></td>
             <td><%= r.awayscore %></td>
-            <td class="<%= r.colour %>"><%= r.awayteam.name %></td>
+            <td><span class="<%= r.colour %>"><%= r.awayteam.name %></span></td>
             <td>(<%= r.nilnilscore %>)</td>
           </tr>
           <% end -%>
@@ -51,10 +51,10 @@
           <tr>
             <td><%= r.kickofftime.strftime('%a %d-%b %y') %></td>
             <td><%= r.division %></td>
-            <td class="<%= r.colour %>"><%= r.hometeam.name %></td>
+            <td><span class="<%= r.colour %>"><%= r.hometeam.name %></span></td>
             <td><%= r.homescore %></td>
             <td><%= r.awayscore %></td>
-            <td class="<%= r.colour %>"><%= r.awayteam.name %></td>
+            <td><span class="<%= r.colour %>"><%= r.awayteam.name %></span></td>
             <td>(<%= r.nilnilscore %>)</td>
           </tr>
           <% end -%>
@@ -62,16 +62,16 @@
       </table>
     </td>
     <td valign="top">
-      <table border="1">
+      <table class="table table-responsive">
         <% if @season.current? Date.today -%>
           <% @fixtures.map { |match, display| fixture_display(match, display) }.each do |f| %>
           <tr>
             <td><%= f.kickofftime.strftime('%a %d-%b %y') %></td>
             <td><%= f.division %></td>
-            <td class="<%= f.colour %>"><%= f.hometeam.name %></td>
+            <td><span class="<%= f.colour %>"><%= f.hometeam.name %></span></td>
             <td><%= f.homescore %></td>
             <td><%= f.awayscore %></td>
-            <td class="<%= f.colour %>"><%= f.awayteam.name %></td>
+            <td><span class="<%= f.colour %>"><%= f.awayteam.name %></span></td>
             <td>(<%= f.nilnilscore %>)</td>
           </tr>
           <% end -%>
@@ -80,10 +80,10 @@
             <tr>
               <td><%= f.kickofftime.strftime('%a %d-%b %y') %></td>
               <td><%= f.division %></td>
-              <td class="<%= f.colour %>"><%= f.hometeam.name %></td>
+              <td><span class="<%= f.colour %>"><%= f.hometeam.name %></span></td>
               <td><%= f.homescore %></td>
               <td><%= f.awayscore %></td>
-              <td class="<%= f.colour %>"><%= f.awayteam.name %></td>
+              <td><span class="<%= f.colour %>"><%= f.awayteam.name %></span></td>
               <td>(<%= f.nilnilscore %>)</td>
             </tr>
           <% end -%>
@@ -92,6 +92,3 @@
     </td>
   </tr>
 </table>
-<!--<%#= link_to 'Edit', edit_season_path(@season) %> |-->
-<!--<%#= link_to 'All Football Seasons', seasons_path %> |-->
-<%#= link_to 'Football Matches', football_season_soccer_matches_path(@season) %>
