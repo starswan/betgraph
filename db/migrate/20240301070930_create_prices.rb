@@ -1,3 +1,8 @@
+# frozen_string_literal: true
+
+#
+# $Id$
+#
 class CreatePrices < ActiveRecord::Migration[6.0]
   BATCH_SIZE = 50_000
 
