@@ -24,5 +24,9 @@ FactoryBot.define do
     trait :inactive do
       active { false }
     end
+
+    trait :league_one_2018 do
+      name { "League One" }
+    end
   end
 end

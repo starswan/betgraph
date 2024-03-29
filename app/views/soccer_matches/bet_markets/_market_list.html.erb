@@ -1,10 +1,5 @@
 <%- active_markets = @bet_markets.select { |bm| bm.active } -%>
 <div class="row">
-  <%# content_tag :div, nil, class: 'bet-markets-chart', id: "bet_markets_chart",
-                    data: { labels: bet_markets_labels(active_markets),
-                            ykeys: bet_markets_ykeys(active_markets),
-                            xkey: bet_markets_xkey,
-                            markets: market_chart_data(active_markets) } %>
   <%= line_chart(bet_market_data(active_markets).map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
                  min: 1,
                  height: '500px') %>

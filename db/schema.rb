@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
-
+ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
   create_table "active_admin_comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "namespace"
     t.text "body"
@@ -19,8 +18,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.bigint "resource_id"
     t.string "author_type"
     t.bigint "author_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
     t.index ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id"
     t.index ["namespace"], name: "index_active_admin_comments_on_namespace"
     t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id"
@@ -30,8 +29,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.bigint "basket_id"
     t.bigint "market_runner_id"
     t.integer "weighting"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["basket_id", "market_runner_id"], name: "index_basket_items_on_basket_id_and_market_runner_id", unique: true
     t.index ["basket_id"], name: "index_basket_items_on_basket_id"
     t.index ["market_runner_id"], name: "index_basket_items_on_market_runner_id"
@@ -41,8 +40,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.bigint "basket_rule_id", null: false
     t.bigint "betfair_runner_type_id", null: false
     t.integer "weighting", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["basket_rule_id"], name: "fk_rails_a7edcdff9c"
     t.index ["betfair_runner_type_id"], name: "fk_rails_98d92a1e8b"
   end
@@ -50,15 +49,15 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "basket_rules", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "sport_id", null: false
     t.string "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "count", default: 0, null: false
     t.index ["sport_id"], name: "fk_rails_3aa627174d"
   end
 
   create_table "baskets", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "missing_items_count", null: false
     t.integer "basket_items_count", default: 0, null: false
     t.bigint "match_id", null: false
@@ -71,13 +70,13 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.integer "marketid", null: false
     t.string "name", limit: 50
     t.string "markettype", limit: 20, null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "status", limit: 10
     t.bigint "betfair_market_type_id", null: false
     t.string "description", limit: 2000, null: false
     t.string "type_variant"
-    t.datetime "time", null: false
+    t.datetime "time", precision: nil, null: false
     t.boolean "live", null: false
     t.boolean "active", default: true, null: false
     t.decimal "total_matched_amount", precision: 10, scale: 2, null: false
@@ -87,7 +86,7 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.integer "exchange_id", null: false
     t.integer "market_prices_count", default: 0, null: false
     t.integer "market_runners_count", default: 0, null: false
-    t.datetime "deleted_at"
+    t.datetime "deleted_at", precision: nil
     t.bigint "version"
     t.string "price_source", null: false
     t.index ["active"], name: "index_bet_markets_on_active"
@@ -103,8 +102,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "betfair_market_types", charset: "utf8mb3", force: :cascade do |t|
     t.string "name", null: false
     t.boolean "active", default: true
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "valuer", null: false
     t.bigint "sport_id", null: false
     t.decimal "param1", precision: 7, scale: 2, default: "0.0", null: false
@@ -114,8 +113,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "betfair_runner_types", charset: "utf8mb3", force: :cascade do |t|
     t.string "name", null: false
     t.bigint "betfair_market_type_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "runnertype", null: false
     t.decimal "runnerhomevalue", precision: 5, scale: 2, null: false
     t.decimal "runnerawayvalue", precision: 5, scale: 2, null: false
@@ -136,8 +135,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.boolean "active", default: false, null: false
     t.string "region", null: false
     t.bigint "division_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["division_id"], name: "index_competitions_on_division_id"
     t.index ["sport_id"], name: "index_competitions_on_sport_id"
   end
@@ -147,8 +146,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.integer "odds_numerator", default: 8, null: false
     t.integer "odds_denominator", default: 1, null: false
     t.boolean "active", default: false, null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.boolean "scottish", default: false, null: false
     t.bigint "calendar_id"
     t.index ["calendar_id"], name: "index_divisions_on_calendar_id"
@@ -156,8 +155,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
 
   create_table "football_divisions", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "division_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "football_data_code", limit: 3
     t.string "bbc_slug", limit: 30
     t.string "rapid_api_country"
@@ -166,8 +165,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   end
 
   create_table "market_price_times", charset: "utf8mb3", force: :cascade do |t|
-    t.datetime "time", null: false
-    t.datetime "created_at"
+    t.datetime "time", precision: nil, null: false
+    t.datetime "created_at", precision: nil
     t.integer "market_prices_count", default: 0, null: false
     t.index ["time"], name: "index_market_price_times_on_time_and_bet_market_id"
   end
@@ -200,8 +199,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.string "description", null: false
     t.decimal "handicap", precision: 5, scale: 2
     t.integer "asianLineId"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "sortorder"
     t.integer "market_prices_count", default: 0
     t.integer "betfair_runner_type_id", null: false
@@ -213,21 +212,21 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "match_teams", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
     t.bigint "match_id", null: false
     t.bigint "team_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
     t.index ["match_id"], name: "match_teams_match_id_fk"
     t.index ["team_id"], name: "match_teams_team_id_fk"
   end
 
   create_table "matches", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
     t.bigint "division_id", null: false
-    t.datetime "kickofftime", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.datetime "actual_start_time"
+    t.datetime "kickofftime", precision: nil, null: false
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
+    t.datetime "actual_start_time", precision: nil
     t.integer "half_time_duration", default: 900
     t.string "type", null: false
-    t.datetime "endtime", null: false
+    t.datetime "endtime", precision: nil, null: false
     t.string "name", null: false
     t.boolean "live_priced", default: false, null: false
     t.bigint "venue_id", null: false
@@ -235,7 +234,7 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.bigint "season_id"
     t.integer "market_prices_count", default: 0, null: false
     t.date "date", null: false
-    t.datetime "deleted_at"
+    t.datetime "deleted_at", precision: nil
     t.integer "betfair_event_id"
     t.index ["betfair_event_id", "deleted_at"], name: "index_matches_on_betfair_event_id_and_deleted_at", unique: true
     t.index ["deleted_at"], name: "index_matches_on_deleted_at"
@@ -250,8 +249,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.bigint "match_id", null: false
     t.integer "homescore", null: false
     t.integer "awayscore", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "half_time_home_score"
     t.integer "half_time_away_score"
     t.index ["match_id"], name: "index_results_on_match_id", unique: true
@@ -264,8 +263,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.integer "goaltime"
     t.boolean "penalty"
     t.boolean "owngoal"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["match_id"], name: "index_scorers_on_match_id"
     t.index ["team_id"], name: "fk_rails_061125b6df"
   end
@@ -273,8 +272,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "seasons", charset: "utf8mb3", force: :cascade do |t|
     t.string "name"
     t.date "startdate"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.boolean "online", default: true
     t.bigint "calendar_id"
     t.index ["calendar_id"], name: "index_seasons_on_calendar_id"
@@ -282,8 +281,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
 
   create_table "sports", charset: "utf8mb3", force: :cascade do |t|
     t.string "name", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "betfair_events_count", default: 0, null: false
     t.integer "betfair_sports_id", null: false
     t.integer "expiry_time_in_minutes", default: 60, null: false
@@ -304,8 +303,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "team_names", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "team_id"
     t.string "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["team_id"], name: "fk_rails_5c2c057ba9"
   end
 
@@ -313,8 +312,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.integer "count"
     t.integer "threshold"
     t.string "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
   end
 
   create_table "team_totals", charset: "utf8mb3", force: :cascade do |t|
@@ -323,8 +322,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
     t.integer "total_goals"
     t.integer "goals_for"
     t.integer "goals_against"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.bigint "match_id", null: false
     t.index ["count"], name: "index_team_totals_on_count"
     t.index ["match_id"], name: "index_team_totals_on_match_id"
@@ -333,8 +332,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   end
 
   create_table "teams", charset: "utf8mb3", force: :cascade do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.bigint "sport_id"
     t.index ["sport_id"], name: "fk_rails_11a3a42f5f"
   end
@@ -342,8 +341,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
   create_table "trades", charset: "utf8mb3", collation: "utf8mb3_unicode_ci", force: :cascade do |t|
     t.bigint "market_runner_id"
     t.decimal "price", precision: 6, scale: 2, null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.decimal "size", precision: 6, scale: 2, null: false
     t.string "side", limit: 1, null: false
     t.index ["market_runner_id"], name: "fk_rails_baf8bd2cd8"
@@ -351,8 +350,8 @@ ActiveRecord::Schema[6.1].define(version: 2024_02_28_200715) do
 
   create_table "valuers", charset: "utf8mb3", force: :cascade do |t|
     t.string "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
   end
 
   add_foreign_key "basket_items", "baskets"

@@ -43,6 +43,10 @@ class MarketPrice < ApplicationRecord
                     [lay3price, lay3amount]
   end
 
+  def price_value
+    last_traded_price.presence || back1price
+  end
+
 private
 
   def at_least_one_price

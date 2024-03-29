@@ -4,16 +4,73 @@
 # $Id$
 #
 module BetMarketsHelper
+  def chart_colours
+    basics = %w[44 88 cc ff]
+    Enumerator.new do |yielder|
+      basics.each do |red|
+        basics.each do |green|
+          basics.each do |blue|
+            yielder << "##{red}#{green}#{blue}"
+          end
+        end
+      end
+    end
+    # "#006600"
+    #  "#cc00cc",
+    #  "#000000",
+    #  "#003399",
+    #  "#0000ff",
+    #  "#006666",
+    #  "#0066cc",
+    #  "#00cc00",
+    #  "#00cccc",
+    #  "#660000",
+    #  "#660066",
+    #  "#6600cc",
+    #  "#666600",
+    #  "#666666",
+    #  "#6666cc",
+    #  "#66cc00",
+    #  "#66cc66",
+    #  "#66cccc",
+    #  "#cc0000",
+    #  "#cc0066",
+    #  "#cc6600",
+    #  "#cc6666",
+    #  "#cc66cc",
+    #  "#cccc00",
+    #  "#cccc66",
+    #  "#cccccc",
+    #  "#ff0000",
+    #  "#ff0066",
+    #  "#ff00cc",
+    #  "#ff6600",
+    #  "#ff6666",
+    #  "#ff66cc",
+    #  "#ffcc00",
+    #  "#ffcc66",
+    #  "#ffcccc"]
+  end
+
   def bet_market_data(markets)
     flatten_winners(markets).map do |runner|
-      prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
-      {
-        # id: runner.id,
-        label: "#{runner.bet_market.name} (#{runner.runnername})",
-        # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
-        prices: prices.map { |p| [p.market_price_time.time, p.back1price] }.to_h,
-      }
+      bet_market_runner_data(runner)
     end
+  end
+
+  def all_runner_data(markets)
+    markets.map(&:market_runners).flatten.map { |r| bet_market_runner_data(r) }
+  end
+
+  def bet_market_runner_data(runner)
+    # 1000 is often used as a price when an outcome is impossible
+    prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
+    {
+      # id: runner.id,
+      label: "#{runner.bet_market.name} (#{runner.runnername})",
+      # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
+      prices: prices.map { |p| [p.market_price_time.time, p.price_value] }.to_h,
+    }
   end
 
   def runner_market_data(_match, runners)
