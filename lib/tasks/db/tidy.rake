@@ -15,9 +15,9 @@ namespace :db do
           BetMarket.reset_counters(bm.id, :market_runners)
         end
         bm.market_runners.each do |runner|
-          if runner.market_prices_count != runner.market_prices.size
-            puts "Reset market price counters on #{match.name} #{match.kickofftime} #{bm.name} #{runner.runnername}"
-            MarketRunner.reset_counters(runner.id, :market_prices)
+          if runner.prices_count != runner.prices.size
+            puts "Reset price counters on #{match.name} #{match.kickofftime} #{bm.name} #{runner.runnername}"
+            MarketRunner.reset_counters(runner.id, :prices)
           end
         end
       end

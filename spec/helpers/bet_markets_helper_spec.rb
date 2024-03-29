@@ -16,13 +16,34 @@ RSpec.describe BetMarketsHelper, type: :helper do
                           name: "#{hometeam.name} v #{awayteam.name}")
   end
 
+  let!(:mpt1) do
+    create :market_price_time,
+           time: Time.zone.now
+    # market_prices: [
+    #   build(:market_price, market_runner: r1),
+    #   build(:market_price, market_runner: runner2),
+    # ])
+  end
+  let!(:mpt2) do
+    create :market_price_time, time: Time.zone.now + 2.minutes
+    #        market_prices: [
+    #   build(:market_price, market_runner: r1),
+    #   build(:market_price, market_runner: runner2),
+    # ])
+  end
   let!(:market1) do
     create(:bet_market,
            name: "Market One",
            match: soccermatch,
            market_runners: [
-             build(:market_runner, description: "Runner"),
-             build(:market_runner),
+             build(:market_runner, description: "Runner", prices: [
+               build(:price, market_price_time: mpt1, created_at: mpt1.time),
+               build(:price, market_price_time: mpt2, created_at: mpt2.time),
+             ]),
+             build(:market_runner, prices: [
+               build(:price, market_price_time: mpt1, created_at: mpt1.time),
+               build(:price, market_price_time: mpt2, created_at: mpt2.time),
+             ]),
            ],
            time: soccermatch.kickofftime,
            markettype: market_type.name)
@@ -30,28 +51,14 @@ RSpec.describe BetMarketsHelper, type: :helper do
   let(:r1) { market1.market_runners.first }
   let(:runner2) { market1.market_runners.last }
 
-  let!(:mpt1) do
-    create(:market_price_time,
-           time: Time.zone.now,
-           market_prices: [
-             build(:market_price, market_runner: r1),
-             build(:market_price, market_runner: runner2),
-           ])
-  end
-  let(:mp1) { mpt1.market_prices.first }
-  let!(:mpt2) do
-    create(:market_price_time, time: Time.zone.now + 2.minutes, market_prices: [
-      build(:market_price, market_runner: r1),
-      build(:market_price, market_runner: runner2),
-    ])
-  end
-  let(:mp2) { mpt2.market_prices.first }
+  let(:mp1) { r1.prices.first }
+  let(:mp2) { r1.prices.second }
 
   it "produces market chart data" do
     expect(helper.market_chart_data([market1]).map { |c| c.transform_values(&:to_s) })
       .to eq([
-        { time: mpt1.time.to_s, r1.id => mp1.back1price.to_s },
-        { time: mpt2.time.to_s, r1.id => mp2.back1price.to_s },
+        { time: mpt1.time.to_s, r1.id => mp1.back_price.to_s },
+        { time: mpt2.time.to_s, r1.id => mp2.back_price.to_s },
       ])
   end
 
@@ -76,7 +83,7 @@ RSpec.describe BetMarketsHelper, type: :helper do
 
     it "produces a sensible data stream" do
       expect(prices.map { |hash| hash.transform_keys(&:to_s) })
-      .to eq([{ mpt1.time.to_s => mp1.back1price, mpt2.time.to_s => mp2.back1price }])
+      .to eq([{ mpt1.time.to_s => mp1.back_price, mpt2.time.to_s => mp2.back_price }])
     end
   end
 end
