@@ -97,7 +97,8 @@ gem "raphael-rails"
 
 # Ruby 3.x compatibility merged to master, but not released
 # last published version v2.1.0.3 doesn't support Ruby 3
-gem "gsl", git: "https://github.com/SciRuby/rb-gsl"
+# we don't need this just yet...
+# gem "gsl", git: "https://github.com/SciRuby/rb-gsl"
 # dunno whether this is still any good?
 # gem "newrelic_rpm"
 # YAML database dump for postgres conversion attempt

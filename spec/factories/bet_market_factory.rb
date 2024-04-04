@@ -29,6 +29,11 @@ FactoryBot.define do
       name { "Match Odds" }
     end
 
+    trait :half_time do
+      name { "Half Time" }
+      markettype { "HALF_TIME" }
+    end
+
     trait :open do
       status { BetMarket::OPEN }
     end
@@ -65,6 +70,11 @@ FactoryBot.define do
     trait :match_odds do
       name { "Match Odds" }
       valuer { "MatchOdds" }
+    end
+
+    trait :half_time do
+      name { "Half Time" }
+      valuer { "HalfTime" }
     end
   end
 end

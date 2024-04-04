@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/SciRuby/rb-gsl
-  revision: 103a3e1941e220befd037e0f4289a82c551ae250
-  specs:
-    gsl (2.1.0.3)
-
-GIT
   remote: https://github.com/beanieboi/morrisjs-rails
   revision: 84ff8ba1baf7b3d0a5b90fa82a028a6039b81c1a
   specs:
@@ -687,7 +681,6 @@ DEPENDENCIES
   factory_bot_rails
   faraday (>= 2)
   faraday-retry
-  gsl!
   guard-bundler
   guard-rspec
   guard-rubocop

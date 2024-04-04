@@ -1,0 +1,7 @@
+<%= line_chart(all_runner_data(bet_markets).map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
+               min: 1,
+               xtitle: 'Time',
+               ytitle: 'Value',
+               # max: 5,
+               colors: chart_colours,
+               height: '600px') %>

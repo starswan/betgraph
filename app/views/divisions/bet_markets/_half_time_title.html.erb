@@ -1,0 +1,10 @@
+<div class="page-header">
+  <b>
+    <%= link_to match.division.name, division_matches_path(match.division) %>
+    <%= link_to match.name, match %>
+    <%= match.kickofftime.to_fs(:kickoff).html_safe %>
+  </b>
+  <%= format_result(match) %>
+  <%= link_to 'Full Time',
+              sport_season_division_fixture_bet_markets_path(match.sport, match.season, match.division, match) %>
+</div>

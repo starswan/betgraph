@@ -2,8 +2,11 @@
 #
 # $Id$
 #
-localfile=log/bfrails_development.sql
-remotefile=arthur:starswan.git/projects/betgraph/log/bfrails_development.sql
+#ssh arthur 'cd github/betgraph && nice rake db:backup'
+#ssh arthur 'cd github/betgraph && nice ./unpack_rake_backup.sh'
+
+localfile=log/bfrails_development.sql.gz
+remotefile=arthur:github/betgraph/log/bfrails_development.sql.gz
 #localfile=db/data.yml
 #remotefile=alice:html/bfrails4/shared/log/data.yml
 #if [ -f $localfile.gz ]
@@ -11,11 +14,10 @@ remotefile=arthur:starswan.git/projects/betgraph/log/bfrails_development.sql
 #  nice gunzip -f $localfile.gz
 #fi
 date
-nice rsync -e ssh -avPp $remotefile.gz $localfile.gz
+rsync -e ssh -avPp $remotefile $localfile
 #nice -20 gzip -f $localfile &
-nice rake db:drop
-nice rake db:create
+rake db:drop db:create
 date
-time nice gunzip -c $localfile.gz | rails db -p
+time nice zcat $localfile | rails db -p
 #time nice rake db:data:load
 time nice rake db:migrate
