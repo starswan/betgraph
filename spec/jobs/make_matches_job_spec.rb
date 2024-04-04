@@ -29,7 +29,7 @@ RSpec.describe MakeMatchesJob, :vcr, :betfair, type: :job do
 
     context "with an existing match" do
       let(:event_id) { 32_797_391 }
-      let(:creation_time) { Time.zone.today }
+      let(:creation_time) { Time.zone.today.midnight }
       let(:ko_time) { Time.zone.local(2023, 11, 29, 19, 45, 0) }
 
       before do

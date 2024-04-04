@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 #
 # $Id$
 #
@@ -53,7 +55,7 @@ RSpec.describe SoccerMatchesController, type: :controller do
     end
 
     describe "#update" do
-      let(:ko_time) { Date.tomorrow + 1.day }
+      let(:ko_time) { (Date.tomorrow + 1.day).midnight }
       let(:other_match) { create :soccer_match, live_priced: false, division: division, kickofftime: ko_time }
 
       it "errors" do
