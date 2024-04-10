@@ -126,8 +126,9 @@ group :development, :test do
 
   # bundle exec rake doc:rails generates the API under doc/api.
   gem "sdoc"
-  # 4.9.1 has some incompatibility with capybara
-  gem "selenium-webdriver", "<= 4.19"
+  # 4.11 insists that /usr/bin/firefox is a binary, when it isn't
+  # on Ubuntu 22.04 due to it being a snap which is very annoying
+  gem "selenium-webdriver", "< 4.11"
 
   # gem "spring"
   gem "undercover"
