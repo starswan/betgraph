@@ -1,7 +1,4 @@
 <% content_for :menu do -%>
-  <li class="nav-item">
-    <%= link_to 'Division', division_path(division), class: 'nav-link' %>
-  </li>
   <% seasons.reverse_each do |s| -%>
     <li class="nav-item">
       <%= link_to_unless season == s, "#{s.name}(#{s.matches.where(division: division).with_prices.count})", sport_season_division_fixtures_path(division.sport, s, division), class: 'nav-link' %>

@@ -5,6 +5,6 @@
     <%= match.kickofftime.to_fs(:kickoff).html_safe %>
   </b>
   <%= format_result(match) %>
-  <%= link_to 'Full Time',
-              sport_season_division_fixture_bet_markets_path(match.sport, match.season, match.division, match) %>
+  <%= link_to 'Half Time',
+              half_time_sport_season_fixture_bet_markets_path(match.sport, match.season, match) %>
 </div>
