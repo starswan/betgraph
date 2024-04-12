@@ -76,7 +76,6 @@ jobs:
         run: bundle exec rake parallel:setup
 
       - name: Restore cached runtimes
-        id: cache
         uses: actions/cache/restore@v4
         with:
           path: tmp/parallel_runtime_rspec.log
@@ -88,7 +87,6 @@ jobs:
 
       - name: Save runtimes in cache
         uses: actions/cache@v4
-        id: cache
         with:
           path: tmp/parallel_runtime_rspec.log
           key: parallel_runs
