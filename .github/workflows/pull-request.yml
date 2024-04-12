@@ -80,6 +80,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: tmp/parallel_runtime_rspec.log
+          key: parallel_runs
 
       # Run ruby tests in headless mode
       - name: Ruby tests
@@ -90,6 +91,7 @@ jobs:
         id: cache
         with:
           path: tmp/parallel_runtime_rspec.log
+          key: parallel_runs
 
       - name: Pronto Undercover
         run: bundle exec pronto run -r undercover -f github_pr -c origin/${{ github.base_ref }}
