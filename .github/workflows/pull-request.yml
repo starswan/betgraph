@@ -75,9 +75,21 @@ jobs:
       - name: Setup test db
         run: bundle exec rake parallel:setup
 
+      - name: Restore cached runtimes
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: tmp/parallel_runtime_rspec.log
+
       # Run ruby tests in headless mode
       - name: Ruby tests
         run: xvfb-run -a bundle exec rake parallel:spec
+
+      - name: Save runtimes in cache
+        uses: actions/cache@v4
+        id: cache
+        with:
+          path: tmp/parallel_runtime_rspec.log
 
       - name: Pronto Undercover
         run: bundle exec pronto run -r undercover -f github_pr -c origin/${{ github.base_ref }}
