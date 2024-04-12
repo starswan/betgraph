@@ -15,11 +15,17 @@ Rails.application.routes.draw do
       get "threshold/:threshold" => "seasons#show"
       resources :soccer_matches
 
+      resources :fixtures, only: [] do
+        resources :bet_markets, only: [:index], controller: "fixtures/bet_markets" do
+          get :half_time, on: :collection
+        end
+      end
+
       resources :divisions, only: [] do
         resources :fixtures, only: [:index, :show], controller: "divisions/fixtures" do
-          resources :bet_markets, only: [:index], controller: "divisions/bet_markets" do
-            get :half_time, on: :collection
-          end
+          # resources :bet_markets, only: [:index], controller: "divisions/bet_markets" do
+          #   get :half_time, on: :collection
+          # end
         end
       end
     end

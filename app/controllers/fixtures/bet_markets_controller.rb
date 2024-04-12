@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Divisions
+module Fixtures
   class BetMarketsController < ApplicationController
     before_action :load_fixture, :load_season
 
@@ -33,14 +33,13 @@ module Divisions
       without_results = all_matches.where.missing(:result)
       @all_matches = all_matches.where.not(id: without_results.map(&:id))
       @seasons = Season.find(Match.where(division: @division).with_prices.select(:season_id).distinct.map(&:season_id)).sort_by(&:startdate)
-      @divisions = Division.find Match.where(division: @division.sport.divisions,
-                                             season: @season.calendar.sport.seasons.starting_within(@season.startdate, 1.month))
-                                      .with_prices.select(:division_id).distinct.map(&:division_id)
+      # @divisions = Division.find Match.where(division: @division.sport.divisions,
+      #                                        season: @season.calendar.sport.seasons.starting_within(@season.startdate, 1.month))
+      #                                 .with_prices.select(:division_id).distinct.map(&:division_id)
     end
 
     def load_fixture
       @season = Season.find(params.fetch(:season_id))
-      @division = Division.find(params.fetch(:division_id))
       @fixture = Match.includes({ division: { calendar: :sport } }, :result, :scorers).find_by! id: params[:fixture_id]
       @date = @fixture.kickofftime.to_date
     end
