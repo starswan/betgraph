@@ -85,7 +85,7 @@ jobs:
       - name: Ruby tests
         run: xvfb-run -a bundle exec rake parallel:spec
 
-      - name: Save runtimes in cache
+      - name: Cache runtimes
         uses: actions/cache@v4
         with:
           path: tmp/parallel_runtime_rspec.log
