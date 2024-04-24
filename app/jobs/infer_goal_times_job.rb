@@ -34,7 +34,7 @@ class InferGoalTimesJob < ApplicationJob
 
   def perform(match)
     BetMarket.transaction do
-      soccer = Sport.find_by!(name: "soccer")
+      soccer = Sport.find_by!(name: "Soccer")
       market_type = BetfairMarketType.find_by!(sport_id: soccer.id, name: "Correct Score")
       # This is harmless if the match doesn't have a Correct Score for some reason.
       market = match.bet_markets

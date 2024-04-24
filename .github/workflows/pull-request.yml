@@ -15,16 +15,21 @@ jobs:
         ruby-version: ['3.1', '3.2']
 
     services:
-      mysql:
-        image: mysql:5.7
+      postgres:
+        # Docker Hub image
+        image: postgres
         env:
-          MYSQL_DATABASE: bfrails_test
-          MYSQL_USER: rails
-          MYSQL_PASSWORD: 123rails!
-          MYSQL_ROOT_PASSWORD: toor
+          POSTGRES_USER: rails
+          POSTGRES_PASSWORD: 123rails!
+          POSTGRES_DATABASE: betgraph_test
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
         ports:
-          - 3306:3306
-        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+          - 5433:5432
 
     env:
       RAILS_ENV: test
