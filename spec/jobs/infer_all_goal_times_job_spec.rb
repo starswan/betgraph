@@ -3,7 +3,8 @@
 require "rails_helper"
 
 RSpec.describe InferAllGoalTimesJob, type: :job do
-  let(:season) { create(:season) }
+  let(:sport) { create(:soccer, calendars: build_list(:calendar, 1)) }
+  let(:season) { create(:season, calendar: sport.calendars.first) }
   let!(:soccer_match) do
     create(:soccer_match,
            division: division,
@@ -25,18 +26,9 @@ RSpec.describe InferAllGoalTimesJob, type: :job do
            ])
   end
   let(:division) { create(:division, calendar: season.calendar) }
-  let(:sport) { season.calendar.sport }
 
   before do
-    sport = Sport.find_by(name: "Soccer")
-    if sport
-      create(:betfair_market_type, sport: sport, name: "Correct Score")
-    else
-      create(:sport, name: "Soccer",
-                     betfair_market_types: [
-                       build(:betfair_market_type, name: "Correct Score"),
-                     ])
-    end
+    create(:betfair_market_type, sport: sport, name: "Correct Score")
   end
 
   it "performs" do
