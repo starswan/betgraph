@@ -4,7 +4,6 @@ lock "~> 3.18.1"
 set :application, "betgraph"
 # set :repo_url, "git@example.com:me/my_repo.git"
 set :repo_url, "git@github.com:starswan/betgraph.git"
-set :deploy_via, :copy
 
 # Default branch is :master
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
