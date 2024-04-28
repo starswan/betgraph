@@ -665,7 +665,7 @@ DEPENDENCIES
   bullet
   byebug
   bzip2-ffi
-  capistrano (~> 2.15.11)
+  capistrano (< 3)
   capistrano-ext
   capistrano-rails
   capybara
