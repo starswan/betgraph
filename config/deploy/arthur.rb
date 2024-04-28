@@ -13,7 +13,7 @@
 # role :web, %w{deploy@example.com}
 # role :db,  %w{deploy@example.com}
 
-require "rvm/capistrano"
+# require "rvm/capistrano"
 
 set :deploy_to, "/home/stephen/betgraph"
 set :user, "stephen"
@@ -26,7 +26,7 @@ set :rvm_ruby_string, "3.1.5@bg"
 set :rvm_type, "/usr/share/rvm"
 
 # set :linked_files, fetch(:linked_files, []) << ".env.arthur"
-set :linked_files, fetch(:linked_files, []) << ".env.arthur"
+append :linked_files, ".env.arthur"
 
 # Extended Server Syntax
 # ======================
@@ -35,7 +35,10 @@ set :linked_files, fetch(:linked_files, []) << ".env.arthur"
 # used to set extended properties on the server.
 
 # server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
-server "arthur.broadband", :web, :app, :db, primary: true
+# server "arthur.broadband", :web, :app, :db, primary: true
+
+# server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
+server "arthur.broadband", user: "stephen", roles: %w{app db web}
 
 # Custom SSH Options
 # ==================

@@ -4,10 +4,10 @@
 #
 #./run.sh $1 clock clockwork config/clock.rb
 export HOME=`echo ~`
-source $HOME/.bash_login
+#source $HOME/.bash_login
 dirname=`dirname $0`
 cd $dirname
-source $RVM_DIR/environments/ruby-3.1.4@bg
+source $RVM_DIR/environments/ruby-3.1.5@bg
 bundle check || bundle install
 program='clock'
 pidfile="tmp/pids/$program.pid"

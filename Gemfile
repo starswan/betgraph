@@ -148,8 +148,8 @@ group :development do
   gem "bullet"
 
   # Use Capistrano for deployment
-  gem "capistrano", "< 3"
-  gem "capistrano-ext"
+  gem "capistrano", "~> 3.0"
+  # gem "capistrano-ext"
   gem "capistrano-rails"
   gem "listen"
   gem "rvm-capistrano", require: false
