@@ -305,7 +305,7 @@ GEM
       railties (>= 6.0)
       responders (>= 2)
     iostreams (1.10.3)
-    jbuilder (2.11.5)
+    jbuilder (2.12.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     jquery-rails (4.6.0)
@@ -686,7 +686,7 @@ DEPENDENCIES
   guard-rspec
   guard-rubocop
   iostreams
-  jbuilder (~> 2.11)
+  jbuilder (~> 2.12)
   kaminari
   listen
   morrisjs-rails!
