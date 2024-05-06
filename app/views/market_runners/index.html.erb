@@ -14,15 +14,6 @@
 </div>
 <div class="row">
   <div class="col-9">
-    <%#content_tag :div, nil, id: "mr_chart",
-                    class: "bet-markets-chart",
-                data: {
-                    labels: runner_labels(active_runners),
-                    ykeys: runner_ykeys(active_runners),
-                    xkey: bet_markets_xkey,
-                    markets: runner_chart_data(active_runners),
-                    ymin: 1,
-                ymax: @ymax} %>
     <%= line_chart(runner_market_data(@bet_market.match, @market_runners),
                    # max: 10,
                    # min: 0,

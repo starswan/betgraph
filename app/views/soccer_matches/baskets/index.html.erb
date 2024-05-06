@@ -14,13 +14,6 @@
 <% active_baskets = @baskets.select(&:complete?) %>
 <div class="row">
   <div class="col-9">
-    <%#content_tag :div, nil, class: 'bet-markets-chart', id: "baskets_chart",
-                    data: { labels: basket_labels(active_baskets),
-                            ykeys: basket_ykeys(active_baskets),
-                            xkey: bet_markets_xkey,
-                            markets: basket_chart_data(active_baskets),
-                            ymin: 'auto'
-                           } %>
     <%= line_chart(basket_data(active_baskets).map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
                    min: 0.72,
                    max: 1.05,
