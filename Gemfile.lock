@@ -55,8 +55,9 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
-    activeadmin (3.2.0)
+    activeadmin (3.2.1)
       arbre (~> 1.2, >= 1.2.1)
+      csv
       formtastic (>= 3.1)
       formtastic_i18n (>= 0.4)
       inherited_resources (~> 1.7)
@@ -180,6 +181,7 @@ GEM
       bigdecimal
       rexml
     crass (1.0.6)
+    csv (3.3.0)
     curb (1.0.5)
     dante (0.2.0)
     database_cleaner-active_record (2.1.0)
@@ -342,7 +344,7 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
-    method_source (1.0.0)
+    method_source (1.1.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.6)
     minitest (5.22.3)
