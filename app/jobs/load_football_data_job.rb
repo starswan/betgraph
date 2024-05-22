@@ -31,9 +31,8 @@ class LoadFootballDataJob < ApplicationJob
   end
 
   def load_zipfile(zipfile)
-    # weirdly sometimes open_uri returns a File object,and sometimes a StringIO...
-    Zip::InputStream.open(zipfile) do |zip_stream|
-      while entry = zip_stream.get_next_entry
+    Zip::File.open(zipfile) do |zip_stream|
+      zip_stream.each do |entry|
         div = entry.name.split(".").first
         football_division = FootballDivision.includes(:division).find_by(football_data_code: div)
         if football_division && football_division.division.active
