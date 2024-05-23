@@ -70,7 +70,7 @@ jobs:
           node-version: 16
 
       - name: Build stuff
-        run: node ./esbuild.config.js
+        run: rake spec:prepare
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
