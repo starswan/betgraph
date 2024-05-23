@@ -62,7 +62,7 @@ jobs:
           node-version: 16
 
       - name: Build stuff
-        run: rake spec:prepare
+        run: bundle exec rake spec:prepare
 
       - name: Yarn install
         run: yarn install
