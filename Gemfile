@@ -89,6 +89,9 @@ gem "passenger", "~> 5.0"
 # gem "bzip2-ffi"
 gem "iostreams"
 gem "bzip2-ffi"
+# Have to have this otherwise it vanishes in production
+# (Selenium webdriver is dependant on it)
+gem "rubyzip"
 
 gem "morrisjs-rails", git: "https://github.com/beanieboi/morrisjs-rails"
 gem "raphael-rails"
