@@ -3,7 +3,6 @@
 #
 require "open-uri"
 require "csv"
-require "zip"
 
 class LoadFootballDataJob < ApplicationJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA

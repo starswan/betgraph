@@ -711,6 +711,7 @@ DEPENDENCIES
   rubocop-govuk
   rubocop-performance
   rubycritic
+  rubyzip
   rvm-capistrano
   sass-rails (~> 6)
   sdoc
