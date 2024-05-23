@@ -388,7 +388,7 @@ GEM
     parser (3.3.1.0)
       ast (~> 2.4.1)
       racc
-    passenger (5.3.7)
+    passenger (6.0.22)
       rack
       rake (>= 0.8.1)
     path_expander (1.1.1)
@@ -696,7 +696,7 @@ DEPENDENCIES
   morrisjs-rails!
   mysql2
   parallel_tests
-  passenger (~> 5.0)
+  passenger (~> 6.0)
   pg
   pronto
   pronto-rubocop
