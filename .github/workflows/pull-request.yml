@@ -67,7 +67,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Run CSS and JS Pipeline
         run: bundle exec rake spec:prepare
