@@ -62,7 +62,7 @@ jobs:
           node-version: 16
 
       - name: Build stuff
-        run: node ./esbuild.config.js
+        run: rake spec:prepare
 
       - name: Yarn install
         run: yarn install
