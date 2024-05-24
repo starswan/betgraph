@@ -70,7 +70,7 @@ Rails.application.routes.draw do
     resources :teams
   end
   resources :tennis_matches, only: [:index, :show]
-  resources :motor_races, only: [] do
+  resources :motor_races, only: [:show] do
     resources :bet_markets, only: %i[index]
   end
 
