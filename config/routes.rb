@@ -71,7 +71,8 @@ Rails.application.routes.draw do
   end
   resources :tennis_matches, only: [:index, :show]
   resources :motor_races, only: [:show] do
-    resources :bet_markets, only: %i[index]
+    # This controller doesn't exist (yet)
+    resources :bet_markets, only: %i[index], controller: "motor_races/bet_markets"
   end
 
   resources :scorers
