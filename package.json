@@ -2,7 +2,7 @@
   "name": "betgraph",
   "private": true,
   "dependencies": {
-    "@activeadmin/activeadmin": "~3.2.1",
+    "@activeadmin/activeadmin": "~3.2.2",
     "@popperjs/core": "^2.11.8",
     "@rails/actioncable": "^7.0.8-1",
     "@rails/ujs": "^7.0.8-1",
