@@ -65,7 +65,7 @@ gem "kaminari"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7", "< 7.1"
+gem "rails", "~> 7"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 6"
 # Use Uglifier as compressor for JavaScript assets
