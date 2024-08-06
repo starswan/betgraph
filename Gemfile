@@ -79,7 +79,7 @@ gem "webpacker", ">= 5", "< 6"
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Passenger as the app server
-gem "passenger", "~> 5.0"
+gem "passenger", "~> 6.0"
 # gem 'unicorn'
 
 # BZip 2 support
