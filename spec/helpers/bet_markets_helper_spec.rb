@@ -27,8 +27,8 @@ RSpec.describe BetMarketsHelper, type: :helper do
            time: soccermatch.kickofftime,
            markettype: market_type.name)
   end
-  let(:r1) { market1.market_runners.first }
-  let(:runner2) { market1.market_runners.last }
+  let(:r1) { market1.market_runners.find_by!(description: "Runner") }
+  let(:runner2) { market1.market_runners.find { |mr| mr.id != r1.id } }
 
   let!(:mpt1) do
     create(:market_price_time,
