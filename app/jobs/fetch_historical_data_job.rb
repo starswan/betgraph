@@ -12,6 +12,8 @@ class FetchHistoricalDataJob < BetfairJob
       target_date.between? date, date.end_of_month
     end
 
+    return if this_data_block.nil?
+
     market_types = BetMarket.where(betfair_market_type: BetfairMarketType.active).pluck(:markettype).uniq.sort
 
     opts = {
