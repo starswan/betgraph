@@ -13,20 +13,22 @@ check process betfair_clock
    stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/prog_stop.sh clock"
       group betgraph
 
-check process betfair_queue1
+check process betgraph_queue1
    with pidfile /home/stephen/betgraph/current/tmp/pids/queue.pid
    start = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/queue.sh start"
    stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/prog_stop.sh queue"
       group betgraph
 
 # These 2 use too much RAM when I'm using arthur for development as well
-#check process betfair_queue2
-#   with pidfile /home/stephen/betgraph/current/tmp/pids/queue2.pid
-#   start = "/usr/bin/env RAILS_ENV=arthur /home/stephen/betgraph/current/queue2_start.sh"
-#   stop  = "/usr/bin/env RAILS_ENV=arthur /home/stephen/betgraph/current/queue2_stop.sh"
-#      group betgraph
+# Maybe this is fixed now I have extra RAM
+check process betgraph_queue2
+   with pidfile /home/stephen/betgraph/current/tmp/pids/queue2.pid
+   start = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/queue2_start.sh"
+   stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/queue2_stop.sh"
+      group betgraph
 
-#check process betfair_queue3
-#   with pidfile /home/stephen/betgraph/current/tmp/pids/queue3.pid
-#   start = "/usr/bin/env RAILS_ENV=arthur /home/stephen/betgraph/current/queue3_start.sh"
-#   stop  = "/usr/bin/env RAILS_ENV=arthur /home/stephen/betgraph/current/queue3_stop.sh"
+check process betgraph_queue3
+   with pidfile /home/stephen/betgraph/current/tmp/pids/queue3.pid
+   start = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/queue3_start.sh"
+   stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/queue3_stop.sh"
+      group betgraph
