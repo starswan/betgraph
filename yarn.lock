@@ -1190,10 +1190,10 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.8-1.tgz#aa45d584ca316474411e44df2fb3c1fb268d0e48"
   integrity sha512-d9dl+IWhYg0fozbsE0imewWEx6EpnRP3SDfdF4vwLdWJKLXZKOKJ6AiCKEvsratabS/COyxVHajuW3n5f1JlFA==
 
-"@rails/ujs@7.0.8-1":
-  version "7.0.8-1"
-  resolved "https://registry.yarnpkg.com/@rails/ujs/-/ujs-7.0.8-1.tgz#4156942025aa6b016d3d9a7df3e542ac962359e2"
-  integrity sha512-uZRCeEl6zY/9JvjTpQilbJyBqFr4onNJTkQTJgfsXDZPJyqCAvyGGraO0LaiHvWKNqD1fTRamdSYg/l+U7daVA==
+"@rails/ujs@7.1.400":
+  version "7.1.400"
+  resolved "https://registry.yarnpkg.com/@rails/ujs/-/ujs-7.1.400.tgz#b2a76bdccb5197b9e866954536106386c87cfab5"
+  integrity sha512-YwvXm3BR5tn+VCAKYGycLejMRVZE3Ionj5gFjEeGXCZnI0Rpi+7dKpmyu90kdUY7dRUFpHTdu9zZceEzFLl38w==
 
 "@rails/webpacker@^5.4.4":
   version "5.4.4"
