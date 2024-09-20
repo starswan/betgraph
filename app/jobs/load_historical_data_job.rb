@@ -42,7 +42,7 @@ private
     if def_changes.any?
       market_list = def_changes.map do |mc|
         market_def = mc.fetch(:marketDefinition)
-        Rails.logger.warn "Thing #{market_def.fetch(:eventName)} #{market_def.fetch(:eventId)}"
+        # Rails.logger.warn "Thing #{market_def.fetch(:eventName)} #{market_def.fetch(:eventId)}"
         market_def.merge(marketId: mc.fetch(:id),
                          # description: { marketTime: market_def.fetch(:marketTime),
                          #                marketType: market_def.fetch(:marketType),
@@ -117,7 +117,12 @@ private
                           .where(name: market.fetch(:marketName))
                        .reject { |m| m.betfair_marketid == market.fetch(:marketId) }
           old_ones.each do |o|
-            Rails.logger.warn("Destroying #{event.name} #{event.kickofftime} overlapping #{o.betfair_marketid} #{o.name} #{o.version} to make way for #{market.fetch(:marketId)} #{market.fetch(:marketName)} #{market.fetch(:version)}")
+            e = "#{event.name} #{event.kickofftime.to_fs(:kickoff)}"
+            old = "#{o.betfair_marketid} #{o.name} Version [#{o.version}]"
+            new = "#{market.fetch(:marketId)} #{market.fetch(:marketName)} Version [#{market.fetch(:version)}]"
+            price_count = o.market_runners.map(&:market_prices_count).sum
+            Rails.logger.warn("Destroying #{e} [#{price_count}] overlapping #{old} to make way for #{new}")
+            o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
             o.destroy_fully!
           end
         end
@@ -140,23 +145,28 @@ private
       end
     end
 
-    other_changes = change_list.reject { |x| x.key? :marketDefinition }.select do |change|
-      BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.exists?
+    # other_changes = change_list.reject { |x| x.key? :marketDefinition }.select do |change|
+    #   BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.exists?
+    # end
+    # other_changes = change_list.reject { |x| x.key? :marketDefinition }
+
+    changes_with_market = change_list.reject { |x| x.key? :marketDefinition }.map do |change|
+      market = BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.first
+      [change, market]
     end
+    relevant_changes = changes_with_market.select { |_, market| market.present? && timestamp > market.time - 15.minutes }
 
     mpt = nil
 
-    other_changes.each do |change|
-      # exchange_id, market_id = change.fetch(:id).split(".")
-      # market = BetMarket.include(market_runners: :market_prices).find_by! exchange_id: exchange_id, marketid: market_id, active: true
-      market = BetMarket.by_betfair_market_id(change.fetch(:id)).active_status.first!
-
-      next unless timestamp > market.time - 15.minutes
-
+    relevant_changes.each do |change, market|
       # TODO: Handle any detailed changes that aren't rc (runner change) based from ADVANCED download
       change.fetch(:rc, []).each do |runner_change|
         # runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
-        runner = MarketRunner.includes(market_prices: :market_price_time).find_by!(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
+        # runner = MarketRunner
+        #            .includes(market_prices: :market_price_time)
+        #            .find_by!(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
+        runner = MarketRunner
+                   .find_by!(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
         # It appears that we get faulty data sometimes - LTP on an asian h/cap market without a handicap (hc) value
         # This optimisation is a folly as we delete markets if the price record has too many holes in it.
 

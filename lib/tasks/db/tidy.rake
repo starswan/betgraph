@@ -6,7 +6,7 @@ namespace :db do
 
     Match.includes([{ bet_markets: { market_runners: :market_prices } }, { baskets: :basket_items }]).find_each(batch_size: 10) do |match|
       if match.bet_markets_count != match.bet_markets.size
-        puts "Reset market counters on #{match.name} #{match.kickofftime}"
+        puts "Reset market counters on #{match.name} #{match.kickofftime.to_fs(:kickoff)} cache #{match.bet_markets_count} size #{match.bet_markets.size}"
         Match.reset_counters(match.id, :bet_markets)
       end
       match.bet_markets.each do |bm|
@@ -16,14 +16,14 @@ namespace :db do
         end
         bm.market_runners.each do |runner|
           if runner.market_prices_count != runner.market_prices.size
-            puts "Reset market price counters on #{match.name} #{match.kickofftime} #{bm.name} #{runner.runnername}"
+            puts "Reset market price counters on #{match.name} #{match.kickofftime} #{bm.name} #{runner.runnername} cache #{runner.market_prices_count} size #{runner.market_prices.size}"
             MarketRunner.reset_counters(runner.id, :market_prices)
           end
         end
       end
       match.baskets.each do |basket|
         if basket.basket_items_count != basket.basket_items.size
-          puts "Reset basket item counters on #{match.name} #{match.kickofftime} #{basket.basket_rule.name} cache #{basket.basket_items_count} size #{basket.basket_items.size}"
+          puts "Reset basket item counters on #{match.name} #{match.kickofftime.to_fs(:kickoff)} #{basket.basket_rule.name} cache #{basket.basket_items_count} size #{basket.basket_items.size}"
           Basket.reset_counters(basket.id, :basket_items)
         end
       end

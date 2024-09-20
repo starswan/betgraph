@@ -3,15 +3,15 @@
 # $Id$
 #
 export HOME=`echo ~`
-source $HOME/.bash_profile
+source $HOME/.bash_login
 dirname=`dirname $0`
 cd $dirname
-source /home/stephen/.rvm/environments/ruby-3.1.4@bg
+source $RVM_DIR/environments/ruby-3.1.6@bg
 bundle check || bundle install
 program='queue2'
 pidfile="tmp/pids/$program.pid"
 logfile="log/$program.log"
 #echo $$ >$pidfile
 #exec rake backburner:work 2>&1 >>$logfile
-rake backburner:work 2>&1 >>$logfile &
+nice rake backburner:work 2>&1 >>$logfile &
 echo $! >$pidfile

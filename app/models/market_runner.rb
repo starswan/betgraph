@@ -11,8 +11,8 @@ class MarketRunner < ApplicationRecord
   # not sure whats going on with asianLineId - maybe it no longer exists?
   # validates :asianLineId, presence: true, if: -> { bet_market.asian_handicap? }
   validates :description, uniqueness: { scope: [:bet_market, :handicap] }
-  # MarketPrice is the bottom of the chain, so delete_all is ok
-  has_many :market_prices, inverse_of: :market_runner, dependent: :delete_all
+  # MarketPrice is the bottom of the chain - but delete_all messes up counters
+  has_many :market_prices, inverse_of: :market_runner, dependent: :destroy
   belongs_to :bet_market, inverse_of: :market_runners, counter_cache: true
   belongs_to :betfair_runner_type, inverse_of: :market_runners, optional: true
   has_many :trades, dependent: :delete_all
