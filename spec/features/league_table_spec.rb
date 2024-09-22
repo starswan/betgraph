@@ -92,11 +92,11 @@ RSpec.describe "LeagueTables", type: :feature do
           q = 1 - p
           create(:market_price_time, time: m.kickofftime + t.minutes,
                                      prices: m.bet_markets.map { |bm|
-                                                      [
-                                                        build(:price, back_price: 1 + 1 / p, market_runner: bm.market_runners.first),
-                                                        build(:price, back_price: 1 + 1 / q, market_runner: bm.market_runners.second),
-                                                      ]
-                                                    }.flatten)
+                                               [
+                                                 build(:price, back_price: 1 + 1 / p, market_runner: bm.market_runners.first),
+                                                 build(:price, back_price: 1 + 1 / q, market_runner: bm.market_runners.second),
+                                               ]
+                                             }.flatten)
         end
       end
     end
