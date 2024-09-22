@@ -11,7 +11,6 @@ gem "activeadmin"
 gem "actionpack-page_caching"
 # This gem is needed for rails 5.1 to keep implicit XML serialization working
 gem "activemodel-serializers-xml"
-gem "acts_as_paranoid"
 gem "acts_as_tree"
 # can't remember why I pinned this
 # gem "autoprefixer-rails", "< 10.0"
@@ -54,6 +53,8 @@ gem "jbuilder", "~> 2.12"
 # gem "jquery-rails"
 
 gem "kaminari"
+
+gem "paranoia"
 
 # attempt to bring data into postgres
 # sudo su - postgres
