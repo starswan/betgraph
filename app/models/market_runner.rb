@@ -16,7 +16,8 @@ class MarketRunner < ApplicationRecord
   belongs_to :bet_market, inverse_of: :market_runners, counter_cache: true
   belongs_to :betfair_runner_type, inverse_of: :market_runners, optional: true
   has_many :trades, dependent: :delete_all
-  has_many :basket_items, dependent: :delete_all
+  # This needs to be destroy so that counter caches are updated correctly
+  has_many :basket_items, dependent: :destroy
 
   before_save :update_runner_type
 

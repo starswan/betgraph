@@ -19,7 +19,7 @@ class DownloadHistoricalDataFileJob < BetfairJob
 
     event_id = filename.split("/")[-2]
     StringIO.new(data.to_a.join).each_line(chomp: true) do |line|
-      LoadHistoricalDataJob.perform_now event_id, JSON.parse(line, symbolize_names: true)
+      LoadHistoricalDataJob.new(logger).perform event_id, JSON.parse(line, symbolize_names: true)
     end
   end
 end
