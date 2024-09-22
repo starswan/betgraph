@@ -1,8 +1,10 @@
 #
 # $Id$
 #
-class LoadHistoricalDataJob < ApplicationJob
-  queue_priority PRIORITY_LOAD_HISTORIC_DATA
+class LoadHistoricalDataJob
+  def initialize(logger)
+    @logger = logger
+  end
 
   def perform(event_id, line)
     BetMarket.transaction do
@@ -11,6 +13,8 @@ class LoadHistoricalDataJob < ApplicationJob
   end
 
 private
+
+  attr_reader :logger
 
   def perform_with_txn(event_id, line)
     timestamp = Time.zone.at(line.fetch(:pt) / 1000.0)

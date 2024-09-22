@@ -19,7 +19,7 @@ class ApplicationJob < ActiveJob::Base
   # Not worth retrying a badly-formed job
   discard_on ArgumentError
 
-  OFFSET_PRI = 55_000
+  OFFSET_PRI = 56_000
 
   PRIORITY_EXECUTE_TRADE = OFFSET_PRI + 10
   PRIORITY_CLOSE_DEAD_MARKETS = OFFSET_PRI + 15

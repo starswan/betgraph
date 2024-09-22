@@ -3,6 +3,8 @@
 #
 require "open-uri"
 require "csv"
+# this seems to be necessary in some cases
+require "zip"
 
 class LoadFootballDataJob < ApplicationJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA
@@ -74,9 +76,17 @@ class LoadFootballDataJob < ApplicationJob
       r["HomeTeam"] = convert_team r["HomeTeam"]
       r["AwayTeam"] = convert_team r["AwayTeam"]
 
+      data = r.transform_values do |v|
+        if v.is_a?(String)
+          v.tr(0xA0.chr, " ")
+        else
+          v
+        end
+      end
+
       # it seems that the hash can get a 'nil' key in it sometimes
       # ref names are sometimes corrupted (e.g. 2016-17 season)
-      FootballDataJob.perform_later(r.except(nil, "Referee"), division)
+      FootballDataJob.perform_later(data.except(nil, "Referee"), division)
     end
   end
 
