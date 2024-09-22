@@ -112,7 +112,7 @@ private
         #          .where.not(version: market.fetch(:version))
         #          .reject { |m| m.name == market.fetch(:marketName) }.first!
         #   logger.info("Replacing old version #{o.betfair_marketid} #{o.name} (#{o.version}) with #{market.fetch(:marketName)}")
-        #   # o.destroy_fully!
+        #   # o.really_destroy!
         #   o.update!(version: new_name.fetch(:version), name: new_name.fetch(:marketName))
         # end
         # (old_markets + new_new).each do |market|
@@ -140,7 +140,7 @@ private
           to_delete = runners.select { |r| r.fetch(:status) == "REMOVED" }.map do |h|
             bet_market.market_runners.detect { |r| r.selectionId == h.fetch(:id) }
           end
-          to_delete.compact.each(&:destroy_fully!)
+          to_delete.compact.each(&:really_destroy!)
           actives = runners.reject { |r| r.fetch(:status) == "REMOVED" }
           MakeRunnersJob.perform_now(bet_market, actives)
         end

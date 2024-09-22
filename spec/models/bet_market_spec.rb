@@ -100,7 +100,7 @@ RSpec.describe BetMarket do
 
     it "destroys market prices when market destroyed" do
       expect {
-        bet_market.destroy_fully!
+        bet_market.really_destroy!
       }.to change(MarketPrice, :count).by(-6)
     end
   end

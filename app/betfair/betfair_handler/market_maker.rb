@@ -37,7 +37,7 @@ module BetfairHandler
         #                   .reject { |m| m.name == market.fetch(:marketName) }
         #   old_ones.each do |o|
         #     Rails.logger.info("Replacing old version #{o.betfair_marketid} #{o.name} (#{o.version}) with #{market.fetch(:marketName)}")
-        #     o.destroy_fully!
+        #     o.really_destroy!
         #   end
         # end
         new_markets.map do |market|
@@ -46,7 +46,7 @@ module BetfairHandler
           #              .reject { |m| m.betfair_marketid == market.fetch(:marketId) }
           # old_ones.each do |o|
           #   Rails.logger.info("Destroying overlap #{o.betfair_marketid} #{o.name}")
-          #   o.destroy_fully!
+          #   o.really_destroy!
           # end
           make_market_for_match match, market, source
         end
