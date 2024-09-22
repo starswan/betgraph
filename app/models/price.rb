@@ -20,7 +20,7 @@ class Price < ApplicationRecord
     last_traded_price.presence || back_price
   end
 
-  private
+private
 
   def at_least_one_price
     errors.add(:back_price, "needs at least one price") unless back_price || lay_price || last_traded_price
