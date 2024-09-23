@@ -32,7 +32,7 @@ FactoryBot.define do
         mpt = create(:market_price_time)
         model.bet_markets.each do |bm|
           bm.market_runners.each do |r|
-            create(:market_price, market_runner: r, market_price_time: mpt)
+            create(:price, market_runner: r, market_price_time: mpt)
           end
         end
       end
