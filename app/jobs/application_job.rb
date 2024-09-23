@@ -29,12 +29,12 @@ class ApplicationJob < ActiveJob::Base
   PRIORITY_MAKE_BASKET_ITEMS = OFFSET_PRI + 25
   PRIORITY_MAKE_RUNNERS = OFFSET_PRI + 30
   PRIORITY_REFRESH_SPORT_LIST = OFFSET_PRI + 35
-  # this should be lower than most BetfairJob's - makeMenuPaths is an exception to this rule
-  # and make matches, as otherwise old 'dead' objects prevent new ones being created
+  # this should be lower than most BetfairJob's - makeMatches is an exception to this rule
+  # as otherwise old 'dead' objects can prevent new ones being created
   PRIORITY_DESTROY_OBJECT = OFFSET_PRI + 40
   PRIORITY_MAKE_MATCHES = OFFSET_PRI + 45
 
-  # Lower than lowest BetfairJob which is currently make menu paths
+  # Lower than lowest BetfairJob
   PRIORITY_KEEP_ALIVE = OFFSET_PRI + 50
 
   # Load historic data higher than batch job so it gets throughput

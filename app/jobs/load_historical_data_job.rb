@@ -78,7 +78,7 @@ private
         starttime = Time.zone.parse(market_def.fetch(:openDate))
         event_time = (timestamp - starttime).to_i
 
-        logger.info("Time [#{event_time / 60}:#{event_time % 60}] #{market_def.fetch(:marketId)} [#{name}] (#{market_def.fetch(:version)}) #{runners}")
+        logger.debug("Time [#{event_time / 60}:#{event_time % 60}] #{market_def.fetch(:marketId)} [#{name}] (#{market_def.fetch(:version)}) #{runners}")
 
         # next unless event.nil?
 
@@ -112,7 +112,7 @@ private
         #          .where.not(version: market.fetch(:version))
         #          .reject { |m| m.name == market.fetch(:marketName) }.first!
         #   logger.info("Replacing old version #{o.betfair_marketid} #{o.name} (#{o.version}) with #{market.fetch(:marketName)}")
-        #   # o.destroy_fully!
+        #   # o.really_destroy!
         #   o.update!(version: new_name.fetch(:version), name: new_name.fetch(:marketName))
         # end
         # (old_markets + new_new).each do |market|
@@ -126,8 +126,9 @@ private
             new = "#{market.fetch(:marketId)} #{market.fetch(:marketName)} Version [#{market.fetch(:version)}]"
             price_count = o.market_runners.map(&:market_prices_count).sum
             Rails.logger.warn("Destroying #{e} [#{price_count}] overlapping #{old} to make way for #{new}")
-            o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
-            o.destroy_fully!
+            # o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
+            o.destroy!
+            DestroyObjectJob.perform_later o
           end
         end
 
@@ -140,11 +141,18 @@ private
           to_delete = runners.select { |r| r.fetch(:status) == "REMOVED" }.map do |h|
             bet_market.market_runners.detect { |r| r.selectionId == h.fetch(:id) }
           end
-          to_delete.compact.each(&:destroy_fully!)
+          to_delete.compact.each(&:really_destroy!)
           actives = runners.reject { |r| r.fetch(:status) == "REMOVED" }
           MakeRunnersJob.perform_now(bet_market, actives)
         end
 
+        # cant believe this for one minute
+        # old_event = Match.find_by(betfair_event_id: event_id)
+        # if old_event.present? && old_event != event
+        #   old_event.destroy!
+        #   DestroyObjectJob.perform_later old_event
+        # end
+        logger.debug("Updating event #{event.inspect}")
         event.update!(betfair_event_id: event_id)
       end
     end

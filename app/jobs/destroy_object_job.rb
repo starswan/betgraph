@@ -7,6 +7,6 @@ class DestroyObjectJob < ApplicationJob
   queue_priority PRIORITY_DESTROY_OBJECT
 
   def perform(object)
-    object.destroy_fully!
+    object.really_destroy!
   end
 end
