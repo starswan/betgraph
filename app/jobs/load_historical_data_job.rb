@@ -128,6 +128,7 @@ private
             Rails.logger.warn("Destroying #{e} [#{price_count}] overlapping #{old} to make way for #{new}")
             # o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
             o.destroy!
+            DestroyObjectJob.perform_later o
           end
         end
 
