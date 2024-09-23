@@ -146,11 +146,12 @@ private
           MakeRunnersJob.perform_now(bet_market, actives)
         end
 
-        # old_event = Match.find_by(befair_event_id: event_id)
-        # if old_event.present? && old_event != event
-        #   old_event.destroy!
-        #   DestroyObjectJob.perform_later old_event
-        # end
+        # cant believe this for one minute
+        old_event = Match.find_by(befair_event_id: event_id)
+        if old_event.present? && old_event != event
+          old_event.destroy!
+          DestroyObjectJob.perform_later old_event
+        end
         event.update!(betfair_event_id: event_id)
       end
     end
