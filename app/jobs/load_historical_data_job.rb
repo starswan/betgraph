@@ -78,7 +78,7 @@ private
         starttime = Time.zone.parse(market_def.fetch(:openDate))
         event_time = (timestamp - starttime).to_i
 
-        logger.info("Time [#{event_time / 60}:#{event_time % 60}] #{market_def.fetch(:marketId)} [#{name}] (#{market_def.fetch(:version)}) #{runners}")
+        logger.debug("Time [#{event_time / 60}:#{event_time % 60}] #{market_def.fetch(:marketId)} [#{name}] (#{market_def.fetch(:version)}) #{runners}")
 
         # next unless event.nil?
 
