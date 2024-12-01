@@ -11,6 +11,7 @@
 #
 BETGRAPH_TABLES = %w[
   ar_internal_metadata
+  schema_migrations
   active_admin_comments
   basket_items
   basket_rule_items

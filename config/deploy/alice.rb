@@ -17,7 +17,7 @@ require "rvm/capistrano"
 
 set :deploy_to, "/home/starswan/html/betgraph"
 set :user, "starswan"
-set :rvm_ruby_string, "3.1.5@bg"
+set :rvm_ruby_string, "3.1.6@bg"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :default_environment,
