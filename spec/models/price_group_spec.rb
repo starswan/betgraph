@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -38,7 +36,7 @@ RSpec.describe PriceGroup, type: :model do
   end
 
   context "with 1 price" do
-    let(:prices) { [build(:market_price, market_runner: runner_one, back1price: 1.02)] }
+    let(:prices) { [build(:price, market_runner: runner_one, back_price: 1.02)] }
 
     it "is valid" do
       expect(price_group).to be_valid
@@ -48,8 +46,8 @@ RSpec.describe PriceGroup, type: :model do
   context "with 2 prices" do
     let(:prices) do
       [
-        build(:market_price, market_runner: runner_one, back1price: 1.02),
-        build(:market_price, market_runner: runner_two, back1price: 2),
+        build(:price, market_runner: runner_one, back_price: 1.02),
+        build(:price, market_runner: runner_two, back_price: 2),
       ]
     end
 
@@ -61,9 +59,9 @@ RSpec.describe PriceGroup, type: :model do
   context "with 3 prices" do
     let(:prices) do
       [
-        build(:market_price, market_runner: runner_one, back1price: 1.02),
-        build(:market_price, market_runner: runner_two, back1price: 2),
-        build(:market_price, market_runner: runner_three, back1price: 1.02),
+        build(:price, market_runner: runner_one, back_price: 1.02),
+        build(:price, market_runner: runner_two, back_price: 2),
+        build(:price, market_runner: runner_three, back_price: 1.02),
       ]
     end
 

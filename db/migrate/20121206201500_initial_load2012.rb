@@ -5,7 +5,7 @@
 #
 class InitialLoad2012 < ActiveRecord::Migration[4.2]
   def up
-    create_table "basket_items", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "basket_items", id: :integer, force: :cascade do |t|
       t.integer "basket_id"
       t.integer "market_runner_id"
       t.integer "weighting"
@@ -14,7 +14,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["basket_id"], name: "index_basket_items_on_basket_id"
     end
 
-    create_table "basket_rule_items", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "basket_rule_items", id: :integer, force: :cascade do |t|
       t.integer "basket_rule_id", null: false
       t.integer "betfair_runner_type_id", null: false
       t.integer "weighting", null: false
@@ -22,14 +22,14 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    create_table "basket_rules", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "basket_rules", id: :integer, force: :cascade do |t|
       t.integer "sport_id", null: false
       t.string "name"
       t.datetime "created_at"
       t.datetime "updated_at"
     end
 
-    create_table "baskets", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "baskets", id: :integer, force: :cascade do |t|
       t.integer "event_id"
       t.string "name"
       t.datetime "created_at"
@@ -39,7 +39,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["event_id"], name: "index_baskets_on_event_id"
     end
 
-    create_table "bdrb_job_queues", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "bdrb_job_queues", id: :integer, force: :cascade do |t|
       t.text "args"
       t.string "worker_name"
       t.string "worker_method"
@@ -59,7 +59,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.datetime "scheduled_at"
     end
 
-    create_table "bet_markets", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "bet_markets", id: :integer, force: :cascade do |t|
       t.integer "event_id", null: false
       t.integer "marketid", null: false
       t.string "name", limit: 50
@@ -84,7 +84,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["status"], name: "index_bet_markets_on_status"
     end
 
-    create_table "betfair_market_types", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "betfair_market_types", id: :integer, force: :cascade do |t|
       t.string "name", null: false
       t.boolean "active", default: true
       t.datetime "created_at"
@@ -95,7 +95,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["sport_id"], name: "index_betfair_market_types_on_sport_id"
     end
 
-    create_table "betfair_runner_types", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "betfair_runner_types", id: :integer, force: :cascade do |t|
       t.string "name", null: false
       t.integer "betfair_market_type_id", null: false
       t.datetime "created_at"
@@ -106,7 +106,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["betfair_market_type_id"], name: "index_betfair_runner_types_on_betfair_market_type_id"
     end
 
-    create_table "divisions", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "divisions", id: :integer, force: :cascade do |t|
       t.string "name", limit: 50, null: false
       t.integer "odds_numerator", default: 8, null: false
       t.integer "odds_denominator", default: 1, null: false
@@ -116,7 +116,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.integer "sport_id", null: false
     end
 
-    create_table "event_basket_prices", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "event_basket_prices", id: :integer, force: :cascade do |t|
       t.integer "basket_id"
       t.datetime "time"
       t.decimal "price", precision: 7, scale: 5
@@ -126,7 +126,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["basket_id"], name: "index_event_basket_prices_on_basket_id"
     end
 
-    create_table "events", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "events", id: :integer, force: :cascade do |t|
       t.datetime "starttime"
       t.datetime "endtime"
       t.datetime "created_at"
@@ -141,14 +141,14 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["starttime"], name: "index_events_on_starttime"
     end
 
-    create_table "football_divisions", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "football_divisions", id: :integer, force: :cascade do |t|
       t.integer "division_id", null: false
       t.datetime "created_at"
       t.datetime "updated_at"
       t.string "football_data_code", limit: 3
     end
 
-    create_table "football_seasons", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "football_seasons", id: :integer, force: :cascade do |t|
       t.string "name"
       t.integer "soccerbasenumber"
       t.date "startdate"
@@ -156,13 +156,13 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    create_table "logins", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "logins", id: :integer, force: :cascade do |t|
       t.string "name"
       t.binary "username"
       t.binary "password"
     end
 
-    create_table "market_price_times", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "market_price_times", id: :integer, force: :cascade do |t|
       t.integer "bet_market_id", null: false
       t.datetime "time", null: false
       t.datetime "created_at"
@@ -171,7 +171,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["time", "bet_market_id"], name: "index_market_price_times_on_time_and_bet_market_id"
     end
 
-    create_table "market_prices", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "market_prices", id: :integer, force: :cascade do |t|
       t.integer "market_runner_id"
       t.datetime "created_at"
       t.datetime "updated_at"
@@ -192,7 +192,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["market_runner_id"], name: "market_prices_market_runner_id"
     end
 
-    create_table "market_runners", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "market_runners", id: :integer, force: :cascade do |t|
       t.integer "bet_market_id", null: false
       t.integer "selectionId", null: false
       t.string "description", null: false
@@ -207,7 +207,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["betfair_runner_type_id"], name: "index_market_runners_on_betfair_runner_type_id"
     end
 
-    create_table "matches", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "matches", id: :integer, force: :cascade do |t|
       t.integer "division_id", null: false
       t.integer "hometeam_id", null: false
       t.integer "awayteam_id", null: false
@@ -225,7 +225,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["kickofftime"], name: "index_matches_on_kickofftime"
     end
 
-    create_table "menu_paths", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "menu_paths", id: :integer, force: :cascade do |t|
       t.boolean "active", default: true, null: false
       t.integer "depth", default: 0, null: false
       t.string "name", null: false
@@ -239,7 +239,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["parent_path_id"], name: "index_menu_paths_on_parent_path_id"
     end
 
-    create_table "menu_sub_paths", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "menu_sub_paths", id: :integer, force: :cascade do |t|
       t.integer "menu_path_id", null: false
       t.integer "parent_path_id", null: false
       t.datetime "created_at"
@@ -248,7 +248,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["parent_path_id"], name: "index_menu_sub_paths_on_parent_path_id"
     end
 
-    create_table "prices", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "prices", id: :integer, force: :cascade do |t|
       t.integer "market_runner_id"
       t.datetime "time"
       t.decimal "back1price", precision: 6, scale: 3
@@ -267,7 +267,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    create_table "results", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "results", id: :integer, force: :cascade do |t|
       t.integer "match_id", null: false
       t.integer "homescore", null: false
       t.integer "awayscore", null: false
@@ -276,7 +276,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["match_id"], name: "index_results_on_match_id"
     end
 
-    create_table "scorers", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "scorers", id: :integer, force: :cascade do |t|
       t.integer "match_id"
       t.integer "team_id"
       t.string "name"
@@ -288,7 +288,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["match_id"], name: "index_scorers_on_match_id"
     end
 
-    create_table "sports", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "sports", id: :integer, force: :cascade do |t|
       t.string "name", null: false
       t.integer "menu_path_id", null: false
       t.datetime "created_at"
@@ -301,21 +301,21 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["name"], name: "index_sports_on_name"
     end
 
-    create_table "team_divisions", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "team_divisions", id: :integer, force: :cascade do |t|
       t.integer "team_id", null: false
       t.integer "division_id", null: false
       t.integer "season_id", null: false
       t.index ["team_id", "division_id", "season_id"], name: "index_team_divisions_on_team_id_and_division_id_and_season_id", unique: true
     end
 
-    create_table "team_names", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "team_names", id: :integer, force: :cascade do |t|
       t.integer "team_id"
       t.string "name"
       t.datetime "created_at"
       t.datetime "updated_at"
     end
 
-    create_table "team_total_configs", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "team_total_configs", id: :integer, force: :cascade do |t|
       t.integer "count"
       t.integer "threshold"
       t.string "name"
@@ -323,7 +323,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.datetime "updated_at"
     end
 
-    create_table "team_totals", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "team_totals", id: :integer, force: :cascade do |t|
       t.integer "team_id"
       t.integer "count"
       t.integer "total_goals"
@@ -335,13 +335,13 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.index ["match_id"], name: "index_team_totals_on_match_id"
     end
 
-    create_table "teams", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "teams", id: :integer, force: :cascade do |t|
       t.datetime "created_at"
       t.datetime "updated_at"
       t.integer "sport_id"
     end
 
-    create_table "trades", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "trades", id: :integer, force: :cascade do |t|
       t.integer "market_runner_id"
       t.decimal "price", precision: 6, scale: 2, null: false
       t.datetime "created_at"
@@ -349,7 +349,7 @@ class InitialLoad2012 < ActiveRecord::Migration[4.2]
       t.decimal "quantity", precision: 6, scale: 2, null: false
     end
 
-    create_table "valuers", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci", force: :cascade do |t|
+    create_table "valuers", id: :integer, force: :cascade do |t|
       t.string "name"
       t.datetime "created_at"
       t.datetime "updated_at"
