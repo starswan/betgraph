@@ -5,8 +5,8 @@ class ProcessBbcScoresJob < ApplicationJob
 
   def perform(division, event)
     date = Date.parse(event.dig(:date, :isoDate))
-    home_team_root = event[:home]
-    away_team_root = event[:away]
+    home_team_root = event.fetch(:home)
+    away_team_root = event.fetch(:away)
 
     home_team = find_or_create_team(home_team_root.fetch(:fullName))
     away_team = find_or_create_team(away_team_root.fetch(:fullName))
