@@ -5,8 +5,8 @@ class ProcessBbcScoresJob < ApplicationJob
 
   def perform(division, event)
     date = Date.parse(event.dig(:date, :isoDate))
-    home_team_root = event.dig(:home)
-    away_team_root = event.dig(:away)
+    home_team_root = event[:home]
+    away_team_root = event[:away]
 
     home_team = find_or_create_team(home_team_root.fetch(:fullName))
     away_team = find_or_create_team(away_team_root.fetch(:fullName))
@@ -17,7 +17,7 @@ class ProcessBbcScoresJob < ApplicationJob
     awayhtscore = away_team_root.dig(:runningScores, :halftime)
     awayscore = away_team_root.dig(:runningScores, :fulltime)
 
-    kickoff = DateTime.parse(event.dig(:date, :iso))
+    kickoff = Time.zone.parse(event.dig(:date, :iso))
 
     match = division.find_match home_team, away_team, date
 
@@ -41,7 +41,7 @@ private
       player.fetch(:actions).each do |goal|
         goaltime = goal.dig(:timeLabel, :value).to_i
         match.scorers.create! goaltime: goaltime <= 45 ? (60 * goaltime) : 60 * (goaltime + 15),
-                              owngoal:goal.fetch(:type) == "Own Goal",
+                              owngoal: goal.fetch(:type) == "Own Goal",
                               penalty: goal.fetch(:type) == "Penalty",
                               name: player.fetch(:playerName),
                               team: team
