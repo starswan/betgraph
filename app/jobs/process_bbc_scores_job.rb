@@ -17,7 +17,7 @@ class ProcessBbcScoresJob < ApplicationJob
     awayhtscore = away_team_root.dig(:runningScores, :halftime)
     awayscore = away_team_root.dig(:runningScores, :fulltime)
 
-    kickoff = Date.parse(event.dig(:date, :iso))
+    kickoff = DateTime.parse(event.dig(:date, :iso))
 
     match = division.find_match home_team, away_team, date
 
