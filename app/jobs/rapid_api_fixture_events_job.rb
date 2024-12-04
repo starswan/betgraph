@@ -4,6 +4,7 @@ class RapidApiFixtureEventsJob < RapidApiJob
   def perform(soccer_match, rapidapi_fixture_id, teams)
     event_list = faraday.get("/v3/fixtures/events", fixture: rapidapi_fixture_id).body.fetch(:response).select { |f| f.fetch(:type) == "Goal" }
 
+    soccer_match.scorers.destroy_all
     event_list.each do |goal|
       goaltime = goal.dig(:time, :elapsed)
       soccer_match.scorers.create! goaltime: goaltime <= 45 ? (60 * goaltime) : 60 * (goaltime + 15),
