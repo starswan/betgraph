@@ -37,7 +37,7 @@ class ProcessBbcScoresJob < ApplicationJob
 private
 
   def create_scorers(match, team_root, team)
-    team_root.fetch(:actions, []).select { |a| a.fetch(:actionType) == "goal" }.each do |player|
+    team_root.fetch(:actions).select { |a| a.fetch(:actionType) == "goal" }.each do |player|
       player.fetch(:actions).each do |goal|
         goaltime = goal.dig(:timeLabel, :value).to_i
         match.scorers.create! goaltime: goaltime <= 45 ? (60 * goaltime) : 60 * (goaltime + 15),
