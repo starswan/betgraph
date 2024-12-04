@@ -37,6 +37,7 @@ class ProcessBbcScoresJob < ApplicationJob
 private
 
   def create_scorers(match, team_root, team)
+    match.scorers.destroy_all
     team_root.fetch(:actions).select { |a| a.fetch(:actionType) == "goal" }.each do |player|
       player.fetch(:actions).each do |goal|
         goaltime = goal.dig(:timeLabel, :value).to_i
