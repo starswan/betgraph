@@ -2,7 +2,7 @@
 #
 # $Id$
 #
-localfile=log/bfrails_development.sql
+localfile=log/betgraph_development.sql
 remotefile=alice:html/betgraph/shared/log/ssarbicity.sql
 #localfile=db/data.yml
 #remotefile=alice:html/bfrails4/shared/log/data.yml

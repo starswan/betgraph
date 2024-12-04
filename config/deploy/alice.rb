@@ -25,7 +25,7 @@ set :default_environment,
     "http_proxy" => "http://localhost:8888/",
     "https_proxy" => "http://localhost:8888/"
 
-# set :linked_files, fetch(:linked_files, []) << ".env.production"
+set :linked_files, fetch(:linked_files, []) << ".env.production"
 
 # Extended Server Syntax
 # ======================

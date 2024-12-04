@@ -3,20 +3,21 @@
 class ProcessBbcScoresJob < ApplicationJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA
 
-  def perform(division, date, event)
-    home_team_root = event.fetch(:homeTeam)
-    away_team_root = event.fetch(:awayTeam)
+  def perform(division, event)
+    date = Date.parse(event.dig(:date, :isoDate))
+    home_team_root = event.fetch(:home)
+    away_team_root = event.fetch(:away)
 
-    home_team = find_or_create_team(home_team_root.dig(:name, :full))
-    away_team = find_or_create_team(away_team_root.dig(:name, :full))
+    home_team = find_or_create_team(home_team_root.fetch(:fullName))
+    away_team = find_or_create_team(away_team_root.fetch(:fullName))
 
-    homehtscore = home_team_root.dig(:scores, :halfTime)
-    homescore = home_team_root.dig(:scores, :fullTime)
+    homehtscore = home_team_root.dig(:runningScores, :halftime)
+    homescore = home_team_root.dig(:runningScores, :fulltime)
 
-    awayhtscore = away_team_root.dig(:scores, :halfTime)
-    awayscore = away_team_root.dig(:scores, :fullTime)
+    awayhtscore = away_team_root.dig(:runningScores, :halftime)
+    awayscore = away_team_root.dig(:runningScores, :fulltime)
 
-    kickoff = event.fetch(:startTime)
+    kickoff = Time.zone.parse(event.dig(:date, :iso))
 
     match = division.find_match home_team, away_team, date
 
@@ -29,6 +30,7 @@ class ProcessBbcScoresJob < ApplicationJob
                            half_time_home_score: homehtscore, half_time_away_score: awayhtscore
     end
 
+    match.scorers.destroy_all
     create_scorers(match, home_team_root, home_team)
     create_scorers(match, away_team_root, away_team)
   end
@@ -36,13 +38,13 @@ class ProcessBbcScoresJob < ApplicationJob
 private
 
   def create_scorers(match, team_root, team)
-    team_root.fetch(:playerActions, []).each do |player|
-      player.fetch(:actions).select { |a| a.fetch(:type) == "goal" }.each do |goal|
-        goaltime = goal.fetch(:timeElapsed)
+    team_root.fetch(:actions).select { |a| a.fetch(:actionType) == "goal" }.each do |player|
+      player.fetch(:actions).each do |goal|
+        goaltime = goal.dig(:timeLabel, :value).to_i
         match.scorers.create! goaltime: goaltime <= 45 ? (60 * goaltime) : 60 * (goaltime + 15),
-                              owngoal: goal.fetch(:ownGoal),
-                              penalty: goal.fetch(:penalty),
-                              name: player.dig(:name, :abbreviation),
+                              owngoal: goal.fetch(:type) == "Own Goal",
+                              penalty: goal.fetch(:type) == "Penalty",
+                              name: player.fetch(:playerName),
                               team: team
       end
     end
