@@ -30,6 +30,7 @@ class ProcessBbcScoresJob < ApplicationJob
                            half_time_home_score: homehtscore, half_time_away_score: awayhtscore
     end
 
+    match.scorers.destroy_all
     create_scorers(match, home_team_root, home_team)
     create_scorers(match, away_team_root, away_team)
   end
@@ -37,7 +38,6 @@ class ProcessBbcScoresJob < ApplicationJob
 private
 
   def create_scorers(match, team_root, team)
-    match.scorers.destroy_all
     team_root.fetch(:actions).select { |a| a.fetch(:actionType) == "goal" }.each do |player|
       player.fetch(:actions).each do |goal|
         goaltime = goal.dig(:timeLabel, :value).to_i
