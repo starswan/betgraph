@@ -124,9 +124,9 @@ private
             e = "#{event.name} #{event.kickofftime.to_fs(:kickoff)}"
             old = "#{o.betfair_marketid} #{o.name} Version [#{o.version}]"
             new = "#{market.fetch(:marketId)} #{market.fetch(:marketName)} Version [#{market.fetch(:version)}]"
-            price_count = o.market_runners.map(&:market_prices_count).sum
+            price_count = o.market_runners.map(&:prices_count).sum
             Rails.logger.warn("Destroying #{e} [#{price_count}] overlapping #{old} to make way for #{new}")
-            # o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
+            # o.market_runners.each(&:destroy)
             o.destroy!
             DestroyObjectJob.perform_later o
           end
@@ -175,7 +175,7 @@ private
       change.fetch(:rc, []).each do |runner_change|
         # runner = market.market_runners.find_by(selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
         # runner = MarketRunner
-        #            .includes(market_prices: :market_price_time)
+        #            .includes(prices: :market_price_time)
         #            .find_by!(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
         runner = MarketRunner
                    .find_by!(bet_market: market, selectionId: runner_change.fetch(:id), handicap: runner_change.fetch(:hc, 0))
@@ -183,7 +183,7 @@ private
         # This optimisation is a folly as we delete markets if the price record has too many holes in it.
 
         mpt = MarketPriceTime.create! time: timestamp, created_at: timestamp if mpt.blank?
-        runner.market_prices.create! last_traded_price: runner_change.fetch(:ltp), market_price_time: mpt
+        runner.prices.create! last_traded_price: runner_change.fetch(:ltp), market_price_time: mpt
       end
     end
   end

@@ -10,7 +10,7 @@ module Tasks
             # logins doesn't seem to port well to postgres via insert statements ?
             all = super - %w[team_totals results logins]
             # all = super - %w[logins]
-            big = %w[market_prices]
+            big = %w[prices]
             (all - big) + big
           end
 
