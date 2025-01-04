@@ -8,7 +8,7 @@ module Soccer
     def value(homevalue, awayvalue, homescore, awayscore)
       if homevalue.negative?
         homescore <= awayscore ? 1 : -1
-      elsif awayvalue < 0
+      elsif awayvalue.negative?
         (homescore >= awayscore) ? 1 : -1
       else
         (homescore != awayscore) ? 1 : -1
