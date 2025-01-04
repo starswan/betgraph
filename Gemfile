@@ -141,7 +141,7 @@ group :development, :test do
   gem "sdoc"
   # 4.11 insists that /usr/bin/firefox is a binary, when it isn't
   # on Ubuntu 22.04 due to it being a snap which is very annoying
-  gem "selenium-webdriver", "< 4.11"
+  # gem "selenium-webdriver", "< 4.11"
 
   # gem "spring"
   gem "undercover"
@@ -175,6 +175,9 @@ group :development do
 end
 
 group :test do
+  # cuprite driving chrom(ium) is much nicer
+  gem "cuprite"
+
   gem "timecop"
   gem "simplecov", require: false
   gem "simplecov-lcov", require: false

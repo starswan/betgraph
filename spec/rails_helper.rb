@@ -93,6 +93,12 @@ Dir[Rails.root.join("spec/support/**/*.rb")].sort.each { |f| require f }
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
+require "capybara/cuprite"
+Capybara.register_driver(:cuprite) do |app|
+  Capybara::Cuprite::Driver.new(app, headless: false, process_timeout: 20, window_size: [1024, 1280])
+end
+Capybara.javascript_driver = :cuprite
+
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   # config.fixture_path = "#{::Rails.root}/spec/fixtures"
