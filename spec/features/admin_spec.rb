@@ -41,7 +41,7 @@ RSpec.describe "Admin", type: :feature do
     menu_items.each do |item|
       # sleep 1
       click_on item
-      # sleep 1
+      sleep 1
     end
   end
 end
