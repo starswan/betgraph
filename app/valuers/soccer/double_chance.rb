@@ -11,7 +11,7 @@ module Soccer
       elsif awayvalue.negative?
         homescore >= awayscore ? 1 : -1
       else
-        (homescore != awayscore) ? 1 : -1
+        homescore != awayscore ? 1 : -1
       end
     end
   end
