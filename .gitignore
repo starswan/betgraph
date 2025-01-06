@@ -43,3 +43,6 @@ yarn-debug.log*
 /.env.test
 /.env.arthur
 db/202*/*.yml
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
