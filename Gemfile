@@ -36,6 +36,10 @@ gem "chartkick"
 gem "clockwork"
 # Use CoffeeScript for .coffee assets and views
 gem "coffee-rails"
+
+# pin until Rails 7.1
+gem "concurrent-ruby", "< 1.3.5"
+
 gem "config"
 # turbo-charged counter caches https://github.com/magnusvk/counter_culture
 gem "counter_culture", "~> 3.8"
