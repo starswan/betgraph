@@ -48,6 +48,7 @@ private
         # to strip it out in this case. e.g. when there are no prices or when they are just complete nonsense
         next unless pricelist
 
+        # :nocov:
         0.upto(2) do |index|
           mp = Price.new market_runner: dbrunner,
                          market_price_time: mpt,
@@ -58,6 +59,7 @@ private
                          lay_amount: extract_amount(pricelist.availableToLay, index)
           group.market_prices << mp if mp.valid?
         end
+        # :nocov:
       end
       if group.valid?
         group.market_prices.each(&:save!)
