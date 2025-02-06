@@ -19,11 +19,11 @@ class MarketRunner < ApplicationRecord
   # old prices will just be orphaned in timescaledb?
   has_many :prices, inverse_of: :market_runner
   # before_destroy do |runner|
-    # runner.prices.each(&:destroy)
-    # runner.prices.each do |p|
-    #   p.update!(created_at: 100.years.ago)
-    # end
-    # Price.where(market_runner_id: runner.id).each(&:destroy)
+  # runner.prices.each(&:destroy)
+  # runner.prices.each do |p|
+  #   p.update!(created_at: 100.years.ago)
+  # end
+  # Price.where(market_runner_id: runner.id).each(&:destroy)
   # end
 
   belongs_to :bet_market, inverse_of: :market_runners, counter_cache: true
