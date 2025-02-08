@@ -19,6 +19,7 @@ set :rails_env, "pi"
 # set :rvm_install_ruby_threads, 5
 # need sudo as we are installing to /var/lib/gems on pi
 # set :use_sudo, true
+set :rvm_type, :user
 
 # Extended Server Syntax
 # ======================
