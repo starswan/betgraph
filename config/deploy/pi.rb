@@ -16,7 +16,7 @@ set :deploy_to, "/home/pi/betgraph"
 set :user, "pi"
 set :rails_env, "pi"
 # Try to speed up ruby compilation on Raspberry Pi 2
-# set :rvm_install_ruby_threads, 5
+set :rvm_install_ruby_threads, 5
 # need sudo as we are installing to /var/lib/gems on pi
 # set :use_sudo, true
 set :rvm_type, :user
