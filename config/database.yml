@@ -60,6 +60,7 @@ pi:
   database: betgraph_development
   username: rails
   password: 123rails!
-  host: arthur
+#  host: arthur
+  host: localhost
 #  port: 5433
   port: 5432
