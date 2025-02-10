@@ -13,11 +13,11 @@
 # role :web, %w{deploy@example.com}
 # role :db,  %w{deploy@example.com}
 
-require "rvm/capistrano"
+# require "rvm/capistrano"
 
 set :deploy_to, "/home/starswan/html/betgraph"
-set :user, "starswan"
-set :rvm_ruby_string, "3.2.9@bg"
+# set :user, "starswan"
+set :rvm_ruby_version, "3.2.9@bg"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :default_environment,
@@ -25,7 +25,9 @@ set :default_environment,
     "http_proxy" => "http://localhost:8888/",
     "https_proxy" => "http://localhost:8888/"
 
-set :linked_files, fetch(:linked_files, []) << ".env.production"
+# set :linked_files, fetch(:linked_files, []) << ".env.production"
+# append :linked_files, ".env.production", 'config/master.key'
+append :linked_files, ".env.production"
 
 # Extended Server Syntax
 # ======================
@@ -34,7 +36,8 @@ set :linked_files, fetch(:linked_files, []) << ".env.production"
 # used to set extended properties on the server.
 
 # server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
-server "alice", :web, :app, :db, primary: true
+# server "alice", :web, :app, :db, primary: true
+server "alice", user: "starswan", roles: %w[app db web]
 
 # Custom SSH Options
 # ==================
