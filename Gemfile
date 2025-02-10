@@ -141,7 +141,7 @@ group :development, :test do
   gem "sdoc"
   # 4.11 insists that /usr/bin/firefox is a binary, when it isn't
   # on Ubuntu 22.04 due to it being a snap which is very annoying
-  gem "selenium-webdriver", "< 4.11"
+  gem "selenium-webdriver", "< 4.29"
 
   # gem "spring"
   gem "undercover"
