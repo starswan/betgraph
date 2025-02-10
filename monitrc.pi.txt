@@ -11,8 +11,23 @@
 #   stop  = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/prog_stop.sh clock"
 #      group betgraph
 
-check process betfair_queue
-   with pidfile /home/pi/betgraph/current/tmp/pids/queue.pid
-   start = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/queue.sh start"
-   stop  = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/prog_stop.sh queue"
+#check process betfair_queue
+#  with pidfile /home/pi/betgraph/current/tmp/pids/queue.pid
+#   start = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/queue.sh start"
+#   stop  = "/usr/bin/env RAILS_ENV=pi /home/pi/betgraph/current/prog_stop.sh queue"
+#      group betgraph
+
+set httpd port 2812 and
+   allow localhost
+
+check process betfair_clock
+   with pidfile /home/pi/betgraph/current/tmp/pids/clock.pid
+   start = "/usr/bin/env RAILS_ENV=pi RVM_DIR=/home/pi/.rvm /home/pi/betgraph/current/clock.sh start"
+   stop  = "/usr/bin/env RAILS_ENV=pi RVM_DIR=/home/pi/.rvm /home/pi/betgraph/current/prog_stop.sh clock"
+      group betgraph
+
+check process betgraph_queue1
+   with pidfile /home/stephen/betgraph/current/tmp/pids/queue.pid
+   start = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/home/pi/.rvm /home/pi/betgraph/current/queue.sh start"
+   stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/home/pi/.rvm /home/pi/betgraph/current/prog_stop.sh queue"
       group betgraph
