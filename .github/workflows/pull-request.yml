@@ -64,10 +64,13 @@ jobs:
       - name: Native Rubocop
         run: bundle exec rubocop
 
-      - name: Install Node 16
+      - name: Install Node
         uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
+
+      - name: Run CSS and JS Pipeline
+        run: bundle exec rake spec:prepare
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path

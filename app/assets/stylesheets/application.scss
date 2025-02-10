@@ -10,6 +10,10 @@
  *
  */
 
-@import "bootstrap";
+@import "bootstrap/scss/bootstrap";
 //@import 'morrisjs-rails';
-@import "./*";
+@import "morris-js-module/morris";
+//@import "./*";
+@import "market_prices";
+@import "seasons";
+@import "soccer_matches";
