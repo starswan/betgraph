@@ -12,15 +12,18 @@
 # role :app, %w{deploy@example.com}
 # role :web, %w{deploy@example.com}
 # role :db,  %w{deploy@example.com}
+
+require "rvm/capistrano"
+
 set :deploy_to, "/home/pi/betgraph"
 set :user, "pi"
 set :rails_env, "pi"
+set :rvm_ruby_string, "3.2.7@bg"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 # need sudo as we are installing to /var/lib/gems on pi
 # set :use_sudo, true
-set :rvm_type, :user
-set :rvm_ruby_string, "3.2.7@bg"
+# set :rvm_type, :user
 
 # append :linked_files, ".env.pi"
 set :linked_files, fetch(:linked_files, []) << ".env.pi"
