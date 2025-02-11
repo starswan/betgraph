@@ -22,6 +22,6 @@ import Rails from '@rails/ujs';
 Rails.start();
 
 // import './active_admin';
-import '@activeadmin/activeadmin'
+// import '@activeadmin/activeadmin'
 
 import 'chartkick/chart.js';
