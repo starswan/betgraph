@@ -43,7 +43,7 @@
   '#ffcccc',
 ]
 
-jQuery ->
+$ ->
   $('.bet-markets-chart').each((index, chartdata) ->
     chart = $(chartdata)
     Morris.Line(
