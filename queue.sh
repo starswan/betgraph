@@ -4,7 +4,7 @@
 #
 #./run.sh $1 stalk stalk config/jobs.rb
 export HOME=`echo ~`
-source $HOME/.bash_login
+source $HOME/.bash_profile
 dirname=`dirname $0`
 cd $dirname
 source $RVM_DIR/environments/ruby-3.2.7@bg
