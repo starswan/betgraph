@@ -12,6 +12,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require raphael
+//= require morris
 //= require Chart.bundle
 //= require chartkick
 //= require_tree .

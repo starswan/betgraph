@@ -6,30 +6,22 @@
     "@popperjs/core": "^2.11.8",
     "@rails/actioncable": "7.0.8-1",
     "@rails/ujs": "7.0.8-1",
+    "@rails/webpacker": "^5.4.4",
     "bootstrap": "^5.3.3",
-    "esbuild": "^0.20.1",
-    "jquery": "^3.7.1"
+    "coffee-loader": "^1.0.1",
+    "coffeescript": "^2.7.0",
+    "elm-webpack-loader": "^7.0.1"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "esbuild-coffeescript": "^2.2.0",
-    "esbuild-plugin-elm": "^0.0.12",
-    "@babel/core": "^7.7.7",
-    "@babel/plugin-transform-runtime": "^7.8.3",
-    "@babel/preset-env": "^7.7.7",
-    "sass": "^1.71.1",
-    "morris-js-module": "1.2.1",
-    "chartkick": "^5.0.1"
+    "elm-hot-webpack-loader": "^1.1.8",
+    "webpack": "4.46.0",
+    "webpack-dev-server": "^4.15.1"
   },
   "optionalDependenciesComments": {
     "elm": "elm binary side-loaded on raspberry pi"
   },
   "optionalDependencies": {
     "elm": "^0.19.1-6"
-  },
-  "scripts": {
-    "build_not_really": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
-    "build": "node ./esbuild.config.js",
-    "build:css": "sass -I node_modules app/assets/stylesheets/application.scss:app/assets/builds/application.css app/assets/stylesheets/active_admin.scss:app/assets/builds/active_admin.css"
   }
 }

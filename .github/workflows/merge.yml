@@ -56,13 +56,13 @@ jobs:
       - name: Rubocop
         run: bundle exec rubocop
 
-      - name: Install Node
+      - name: Install Node 16
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 16
 
-      - name: Run CSS and JS Pipeline
-        run: bundle exec rake spec:prepare
+      - name: Yarn install
+        run: yarn install
 
       - name: Setup log directory
         run: mkdir -p log
