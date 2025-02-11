@@ -49,9 +49,6 @@ jQuery ->
     Morris.Line(
       element: chartdata.id
       data: chart.data('markets')
-#      data: [
-#        {xkey: '2006', a: 100}
-#      ]
       xkey: chart.data('xkey')
       ykeys: chart.data('ykeys')
       labels: chart.data('labels')
@@ -59,7 +56,7 @@ jQuery ->
       ymax: chart.data('ymax')
       xLabels: 'minute'
       lineColors: MORRIS_LINE_COLOURS).on('click', (i, row) ->
-      # example only - shows that the click event handler works. Not sure what the params are though
-      console.log(' i = ' + i + ' row = ' + row)
-    )
+        # example only - shows that the click event handler works. Not sure what the params are though
+        console.log(' i = ' + i + ' row = ' + row)
+      )
   )
