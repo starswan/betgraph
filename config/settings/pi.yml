@@ -1,8 +1,11 @@
 #
 # $Id$
 #
-webservice: localhost:3011
+webservice: localhost:3015
 sitesurl: sites.starswan.com
 dirdepth: 3
-makeMarketsInterval: 600
-allMarketsCacheTimeout: 0
+makeMarketsInterval: 375
+# 5 minute cache timeout
+allMarketsCacheTimeout: 300
+keyfile: ~/betgraph/shared/client-2048.key
+certfile: ~/betgraph/shared/client-2048.pem
