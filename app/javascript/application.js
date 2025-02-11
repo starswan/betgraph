@@ -20,5 +20,4 @@ import $ from "jquery";
 window.$ = $;
 
 import './active_admin'
-import 'Chart.bundle';
 import 'chartkick';
