@@ -19,6 +19,7 @@
 import $ from "jquery";
 window.$ = $;
 
-import './active_admin'
-import 'Chart.bundle';
+import './active_admin';
+
 import 'chartkick';
+import 'Chart.bundle';
