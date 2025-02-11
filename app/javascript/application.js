@@ -21,6 +21,6 @@ window.$ = $;
 import Rails from '@rails/ujs';
 Rails.start();
 
-import './active_admin';
+import '@active_admin';
 
 import 'chartkick/chart.js';
