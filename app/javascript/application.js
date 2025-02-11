@@ -21,5 +21,4 @@ window.$ = $;
 
 import './active_admin';
 
-import 'chartkick';
-import 'Chart.bundle';
+import 'chartkick/chart.js';
