@@ -18,7 +18,7 @@
 
 import $ from "jquery";
 window.$ = $;
-import Rails from 'rails-ujs';
+import Rails from '@rails/ujs';
 Rails.start();
 
 import './active_admin';
