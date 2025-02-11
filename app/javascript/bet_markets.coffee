@@ -13,16 +13,12 @@
   '#006666',
   '#0066cc',
   '#00cc00',
-#        '#00cc66',
   '#00cccc',
   '#660000',
-#        '#660066',
   '#6600cc',
   '#666600',
-#        '#666666',
   '#6666cc',
   '#66cc00',
-#        '#66cc66',
   '#66cccc',
   '#cc0000',
   '#cc0066',
@@ -30,10 +26,8 @@
   '#cc6666',
   '#cc66cc',
   '#cccc00',
-#      '#cccc66',
   '#cccccc',
   '#ff0000',
-#      '#ff0066',
   '#ff00cc',
   '#ff6600',
   '#ff6666',
@@ -44,6 +38,8 @@
 ]
 
 $ ->
+  console.log 'bet_markets.coffee'
+
   $('.bet-markets-chart').each((index, chartdata) ->
     chart = $(chartdata)
     Morris.Line(
