@@ -56,7 +56,9 @@ class BetfairClockwork
     end
 
     def makematches
-      MakeAllMatchesJob.perform_later
+      Sport.active.each do |sport|
+        MakeMatchesJob.perform_later sport
+      end
     end
 
     def loadfootballdata
@@ -91,9 +93,10 @@ class BetfairClockwork
 
   # need to run this every day, as it triggers the creation of matches
   every 1.day, :refreshsportlist, at: "01:00"
-  # Think its ok to run live prices on alice now as we have made it mucxh quieter
+  # Think its ok to run live prices on alice now as we have made it much quieter
   # every 1.minutes, :triggerliveprices unless Rails.env.production?
   # every 30.seconds, :triggerliveprices
+  # This can take a long time to run on a Raspberry PI
   every 2.hours, :makematches
   # Don't try to load football data in June/July because there isn't any to get
   # but do run it as late in the day as possible to pick up the results

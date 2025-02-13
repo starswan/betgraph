@@ -19,6 +19,7 @@ class MakeMatchesJob < BetfairJob
       # markets = marketsByMenuPath[menu_path.name]
       division = competition.division
       event_list = bc.get_events_for_competition(id: competition.betfair_id)
+      # This needs splitting - it takes too long on a Pi and stops important price collection
       make_matches(division, event_list).each do |bet_market|
         runner_detail = bc.getMarketDetail(bet_market.exchange_id, bet_market.marketid)
         MakeRunnersJob.perform_later bet_market, runner_detail.fetch(:runners)
