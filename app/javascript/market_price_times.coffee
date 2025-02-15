@@ -1,7 +1,7 @@
 #
 # $Id$
 #
-jQuery ->
+$ ->
   $('.delete-market-price-time').bind('ajax:beforeSend',()  ->
       $(this).closest('tr').fadeOut()
   )

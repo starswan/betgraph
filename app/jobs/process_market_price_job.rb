@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ProcessMarketPriceJob < ApplicationJob
-  queue_priority PRIORITY_LIVE_PRICES
+  queue_priority PRIORITY_PROCESS_LIVE_PRICES
 
   def perform(dbmarket, market_price, mpt)
     BetMarket.transaction do
