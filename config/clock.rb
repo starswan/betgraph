@@ -97,7 +97,8 @@ class BetfairClockwork
   # every 1.minutes, :triggerliveprices unless Rails.env.production?
   # every 30.seconds, :triggerliveprices
   # This can take a long time to run on a Raspberry PI
-  every 2.hours, :makematches
+  # every 2.hours, :makematches
+  every 30.minutes, :makematches
   # Don't try to load football data in June/July because there isn't any to get
   # but do run it as late in the day as possible to pick up the results
   # (There is a tiny bit in July, but that's picked up on Aug 1st anyway)
