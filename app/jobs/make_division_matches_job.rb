@@ -63,7 +63,7 @@ class MakeDivisionMatchesJob < BetfairJob
     end
   end
 
-  # This is called by LoadHistoricalDataJob
+  # This is called by DownloadHistoricalDataFileJob
   def make_markets_for_match(match, markets, source)
     new_markets = markets.reject { |m| BetMarket.by_betfair_market_id(m.fetch(:marketId)).any? }
     # new_markets.each do |market|
@@ -87,7 +87,7 @@ class MakeDivisionMatchesJob < BetfairJob
     end
   end
 
-  private
+private
 
   def make_market_for_match(match, market, source)
     exchange_id, market_id = market.fetch(:marketId).split(".")
