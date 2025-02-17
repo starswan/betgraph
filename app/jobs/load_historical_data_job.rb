@@ -132,7 +132,7 @@ private
           end
         end
 
-        BetfairHandler::MarketMaker.make_markets_for_match(event, new_new, "HistoricalData").each do |bet_market|
+        MakeDivisionMatchesJob.new.make_markets_for_match(event, new_new, "HistoricalData").each do |bet_market|
           runner_data = market_list
                           .detect { |m| bet_market.betfair_marketid == m.fetch(:marketId) }
                           .fetch(:runners)
