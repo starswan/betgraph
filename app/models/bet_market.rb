@@ -70,23 +70,22 @@ class BetMarket < ApplicationRecord
     joins(:match)
       .includes(:match)
       .merge(Match.almost_live)
-      .where.not(status: CLOSED)
+      .not_closed
       .order(:time)
   }
 
   scope :live, lambda {
     where(live: true, active: true)
       .joins(:match)
-      .where.not(status: CLOSED)
+      .not_closed
       .merge(Match.live_priced)
   }
 
   scope :activelive, lambda {
     where(live: true, active: true)
       .joins(:match)
-      .where.not(status: CLOSED)
-      .merge(Match.almost_live)
-      .merge(Match.live_priced)
+      .not_closed
+      .merge(Match.almost_live.live_priced)
       .includes(:match, :market_runners)
       .order(:time)
   }
