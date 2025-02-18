@@ -84,7 +84,7 @@ class BetMarket < ApplicationRecord
   scope :activelive, lambda {
     where(live: true, active: true)
       .joins(:match)
-      .where.not(status: [CLOSED, SUSPENDED])
+      .where.not(status: CLOSED)
       .merge(Match.almost_live)
       .merge(Match.live_priced)
       .includes(:match, :market_runners)
