@@ -1,7 +1,7 @@
 #
 # $Id$
 #
-jQuery ->
+$ ->
   $('.delete-event').bind('ajax:beforeSend', () ->
       $(this).closest('td').fadeOut()
   )

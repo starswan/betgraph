@@ -88,7 +88,8 @@ namespace :bundler do
 
   desc "Install for production"
   task :install, roles: :app do
-    run "cd #{release_path} && bundle install --without development test"
+    run "cd #{release_path} && bundle config set without 'development test'"
+    run "cd #{release_path} && bundle install"
     run "chmod 600 #{release_path}/monitrc.arthur"
   end
 end
