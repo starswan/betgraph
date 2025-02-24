@@ -24,6 +24,8 @@ class ApplicationJob < ActiveJob::Base
   PRIORITY_EXECUTE_TRADE = OFFSET_PRI + 10
   PRIORITY_CLOSE_DEAD_MARKETS = OFFSET_PRI + 15
   PRIORITY_LIVE_PRICES = OFFSET_PRI + 20
+  # processing prices can be made less important
+  PRIORITY_PROCESS_LIVE_PRICES = OFFSET_PRI + 22
   # Runners for existing matches more important that new matches
   # and basket items also more important than new runners
   PRIORITY_MAKE_BASKET_ITEMS = OFFSET_PRI + 25

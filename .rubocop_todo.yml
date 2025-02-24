@@ -240,7 +240,6 @@ Rails/Date:
 # AllowedMethods: order, limit, select, lock
 Rails/FindEach:
   Exclude:
-    - 'app/betfair/betfair_handler/market_maker.rb'
     - 'app/jobs/delete_inactive_markets_job.rb'
     - 'app/jobs/make_basket_items_job.rb'
 

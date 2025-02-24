@@ -56,9 +56,11 @@ production:
   port: 5433
 
 pi:
-  adapter: mysql2
+  adapter: postgresql
   database: betgraph_development
   username: rails
   password: 123rails!
-  host: arthur
-  port: 5433
+#  host: arthur
+  host: localhost
+#  port: 5433
+  port: 5432
