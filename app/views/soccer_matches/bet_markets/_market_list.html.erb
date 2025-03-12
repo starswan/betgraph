@@ -2,7 +2,7 @@
 <div class="row">
   <%= line_chart(bet_market_data(active_markets).map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
                  min: 1,
-                 height: '900px') %>
+                 height: '700px') %>
 </div>
 <div class="row">
   <table class="table table-striped table-responsive">
