@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@activeadmin/activeadmin@~3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@activeadmin/activeadmin/-/activeadmin-3.2.5.tgz#fe515b69e96accf45d5fce2ca82285cc073b6363"
-  integrity sha512-xWbnRljhpijfyS7PD8G9WTTryuf44tOicquCG6Nav26iYsADezIAtfbqUHwtJRxc9dJq9n+ma9j+U0X03UekFg==
+"@activeadmin/activeadmin@~3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@activeadmin/activeadmin/-/activeadmin-3.3.0.tgz#f5163cf2235a2a42efda8aa78863c61d2fc863bc"
+  integrity sha512-YVWHMI+dml5/iKleZJQ3VTvb6kbg/v8F7gsyOmxxqbxqJ6ofEK9X8CKUljA11IAWNpxV7i7ygG2WwZdMsgtcpA==
   dependencies:
     jquery "^3.4.1"
     jquery-ui "^1.13.3"
@@ -1621,12 +1621,7 @@ jquery-ujs@^1.2.2:
   resolved "https://registry.yarnpkg.com/jquery-ujs/-/jquery-ujs-1.2.3.tgz#dcac6026ab7268e5ee41faf9d31c997cd4ddd603"
   integrity sha512-59wvfx5vcCTHMeQT1/OwFiAj+UffLIwjRIoXdpO7Z7BCFGepzq9T9oLVeoItjTqjoXfUrHJvV7QU6pUR+UzOoA==
 
-"jquery@>=1.8.0 <4.0.0", jquery@^3.4.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
-  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
-
-jquery@^3.7.1:
+"jquery@>=1.8.0 <4.0.0", jquery@^3.4.1, jquery@^3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
   integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
