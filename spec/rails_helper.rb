@@ -95,7 +95,7 @@ ActiveRecord::Migration.maintain_test_schema!
 
 require "capybara/cuprite"
 Capybara.register_driver(:cuprite) do |app|
-  Capybara::Cuprite::Driver.new(app, headless: ENV.key?('CI'), process_timeout: 20, window_size: [1280, 1024])
+  Capybara::Cuprite::Driver.new(app, headless: ENV.key?("CI"), process_timeout: 20, window_size: [1280, 1024])
 end
 Capybara.javascript_driver = :cuprite
 
