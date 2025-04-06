@@ -4,8 +4,8 @@ set mailserver localhost
 set alert arthur.monit@starswan.com
 set mail-format { from: monit@starswan.com }
 
-set httpd port 2812 and
-   allow localhost
+#set httpd port 2812 and
+#   allow localhost
 
 check process betfair_clock
    with pidfile /home/stephen/betgraph/current/tmp/pids/clock.pid
