@@ -19,10 +19,10 @@ rsync -e ssh -avPp $localfile $remotefile
 if [ $? == 0 ]
 then
 #  ssh pi@pifour 'cd betgraph/current && . ~/.bash_profile && nice gzip -3 -f log/ssarbicity.sql'
-  ssh pi@pifour 'cd betgraph/current && . ~/.bash_profile && rvm use 3.2.7@bg && RAILS_ENV=pi DISABLE_DATABASE_ENVIRONMENT_CHECK=1 rake db:drop db:create'
+  ssh pi@pifour 'cd betgraph/current && . ~/.bash_profile && rvm use 3.2.8@bg && RAILS_ENV=pi DISABLE_DATABASE_ENVIRONMENT_CHECK=1 rake db:drop db:create'
   date
 # zcat/gzcat is confusing - gunzip -c (stdout) is a portable improvement
-  time ssh pi@pifour "cd betgraph/current && . ~/.bash_profile && rvm use 3.2.7@bg && nice gunzip -c log/ssarbicity.sql.gz | RAILS_ENV=pi rails db -p"
+  time ssh pi@pifour "cd betgraph/current && . ~/.bash_profile && rvm use 3.2.8@bg && nice gunzip -c log/ssarbicity.sql.gz | RAILS_ENV=pi rails db -p"
 fi
 #time nice rake db:data:load
 #time nice rake db:migrate
