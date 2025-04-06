@@ -176,6 +176,9 @@ GEM
     cssbundling-rails (1.4.1)
       railties (>= 6.0.0)
     csv (3.3.2)
+    cuprite (0.15.1)
+      capybara (~> 3.0)
+      ferrum (~> 0.15.0)
     curb (1.0.5)
     dante (0.2.0)
     database_cleaner-active_record (2.2.0)
@@ -242,6 +245,11 @@ GEM
       net-http (>= 0.5.0)
     faraday-retry (2.2.1)
       faraday (~> 2.0)
+    ferrum (0.15)
+      addressable (~> 2.5)
+      concurrent-ruby (~> 1.1)
+      webrick (~> 1.7)
+      websocket-driver (~> 0.7)
     ffi (1.16.3)
     flay (2.13.1)
       erubi (~> 1.10)
@@ -580,10 +588,6 @@ GEM
       faraday (>= 0.17.3, < 3)
     sdoc (2.6.1)
       rdoc (>= 5.0)
-    selenium-webdriver (4.10.0)
-      rexml (~> 3.2, >= 3.2.5)
-      rubyzip (>= 1.2.2, < 3.0)
-      websocket (~> 1.0)
     sexp_processor (4.17.0)
     shellany (0.0.1)
     shoulda-matchers (6.4.0)
@@ -636,7 +640,7 @@ GEM
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    websocket (1.2.10)
+    webrick (1.9.1)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -680,6 +684,7 @@ DEPENDENCIES
   config
   counter_culture (~> 3.8)
   cssbundling-rails
+  cuprite
   curb
   database_cleaner-active_record
   devise
@@ -719,7 +724,6 @@ DEPENDENCIES
   rvm-capistrano
   sass-rails (~> 6)
   sdoc
-  selenium-webdriver (< 4.11)
   shoulda-matchers
   simplecov
   simplecov-lcov

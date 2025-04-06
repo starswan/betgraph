@@ -70,9 +70,7 @@ jobs:
       - name: Setup test db
         run: bundle exec rake parallel:setup
 
-      # Run ruby tests in headless mode
-      # Run ruby tests in headless mode
       - name: Ruby tests
-        run: xvfb-run -a bundle exec rake parallel:spec
+        run: bundle exec rake parallel:spec
         env:
           COVERAGE: 0
