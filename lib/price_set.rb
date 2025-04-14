@@ -15,9 +15,7 @@ class PriceSet
     @pricedata = []
   end
 
-  def empty?
-    @pricedata.empty?
-  end
+  delegate :empty?, to: :@pricedata
 
   def effectivePrice(target)
     bet = (target / @pricedata[0].price).round(2)

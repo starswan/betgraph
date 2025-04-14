@@ -41,21 +41,13 @@ class BetfairLogin
     @bc.keep_alive
   end
 
-  def get_my_data
-    @bc.get_my_data
-  end
+  delegate :get_my_data, to: :@bc
 
-  def get_collection_options(opts)
-    @bc.get_collection_options opts
-  end
+  delegate :get_collection_options, to: :@bc
 
-  def download_list_of_files(opts)
-    @bc.download_list_of_files opts
-  end
+  delegate :download_list_of_files, to: :@bc
 
-  def download_file(filename)
-    @bc.download_file filename
-  end
+  delegate :download_file, to: :@bc
 
   def get_markets_for_event(event)
     @bc.list_market_catalogue(

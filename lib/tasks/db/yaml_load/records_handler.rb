@@ -4,7 +4,6 @@ module Tasks
   module Db
     module YamlLoad
       class RecordsHandler < Psych::Handler
-        # rubocop:disable Rails/SaveBang
         def initialize(enumerator)
           super()
           @enumerator = enumerator
@@ -12,7 +11,6 @@ module Tasks
           @data_rec = false
           @visitor = Psych::Visitors::ToRuby.create
         end
-        # rubocop:enable Rails/SaveBang
 
         def scalar(value, anchor, tag, plain, quoted, style)
           if @data_rec
