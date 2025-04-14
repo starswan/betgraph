@@ -47,6 +47,6 @@ class SoccerMatch < AvsBMatch
   end
 
   def scorers_filled_in?
-    result.present? && (result.homescore == homescorercount && result.awayscore == awayscorercount)
+    result.present? && result.homescore == homescorercount && result.awayscore == awayscorercount
   end
 end

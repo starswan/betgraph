@@ -117,7 +117,7 @@ private
 
   def convert_runner_prices_to_hash(runners)
     prices = {}
-    runners.reject { |r| r.fetch(:status) == "ACTIVE" && (r.fetch(:availableToBack).empty? && r.fetch(:availableToLay).empty?) }.each do |runner|
+    runners.reject { |r| r.fetch(:status) == "ACTIVE" && r.fetch(:availableToBack).empty? && r.fetch(:availableToLay).empty? }.each do |runner|
       prices[runner.fetch(:selectionId)] ||= {}
       prices[runner.fetch(:selectionId)][runner.fetch(:handicap).to_s] = Prices.new(status: runner.fetch(:status),
                                                                                     availableToBack: runner.fetch(:availableToBack),

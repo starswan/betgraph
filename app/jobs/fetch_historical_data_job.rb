@@ -5,9 +5,9 @@ class FetchHistoricalDataJob < BetfairJob
   queue_priority PRIORITY_LOAD_FOOTBALL_DATA
 
   def perform(target_date, country)
-    x = bc.get_my_data.map(&:symbolize_keys)
+    my_data_hash = bc.get_my_data.map(&:symbolize_keys)
 
-    this_data_block = x.detect do |b|
+    this_data_block = my_data_hash.detect do |b|
       date = Date.parse(b.fetch(:forDate)).to_date
       target_date.between? date, date.end_of_month
     end
