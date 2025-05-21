@@ -360,7 +360,6 @@ GEM
     msgpack (1.7.5)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
-    mysql2 (0.5.6)
     nenv (0.3.0)
     net-http (0.6.0)
       uri
@@ -710,7 +709,6 @@ DEPENDENCIES
   jsbundling-rails
   kaminari
   listen
-  mysql2
   parallel_tests
   paranoia
   passenger (~> 5.0)
