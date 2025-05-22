@@ -51,7 +51,7 @@ gem "faraday-retry"
 
 gem "jsbundling-rails"
 
-gem "mysql2"
+# gem "mysql2"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.13"
