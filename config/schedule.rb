@@ -8,9 +8,10 @@
 every :day, at: ["01:00"] do
   runner "RefreshSportListJob.perform_later"
 end
+
 # every 2.hours, :makematches
 every 2.hours do
-  runner "MakeAllMatchesJob.perform_later"
+  runner "Sport.active.each { |sport| MakeMatchesJob.perform_later(sport) }"
 end
 # Don't try to load football data in June/July because there isn't any to get
 # but do run it as late in the day as possible to pick up the results
@@ -42,13 +43,13 @@ every 3.hours do
   runner "KeepEverythingAliveJob.perform_later"
 end
 
-# don't want this after deployment
+# don't want this after every deployment
 # every 1.week, :infer_goal_times, at: "02:00"
 every 1.week, at: ["02:00"] do
   runner "InferAllGoalTimesJob.perform_later"
 end
 
-# don't want this after deployment
+# don't want this after every deployment
 # every 1.week, :remove_with_gaps, at: "03:00"
 every 1.week, at: ["03:00"] do
   runner "RemoveMarketsWithGapsJob.perform_later"
