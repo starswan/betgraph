@@ -7,11 +7,12 @@ set mail-format { from: monit@starswan.com }
 #set httpd port 2812 and
 #   allow localhost
 
-check process betfair_clock
-   with pidfile /home/stephen/betgraph/current/tmp/pids/clock.pid
-   start = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/clock.sh start"
-   stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/prog_stop.sh clock"
-      group betgraph
+# This isa not used for now, as we have removed clockwork
+#check process betfair_clock
+#   with pidfile /home/stephen/betgraph/current/tmp/pids/clock.pid
+#   start = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/clock.sh start"
+#   stop  = "/usr/bin/env RAILS_ENV=arthur RVM_DIR=/usr/share/rvm /home/stephen/betgraph/current/prog_stop.sh clock"
+#      group betgraph
 
 check process betgraph_queue1
    with pidfile /home/stephen/betgraph/current/tmp/pids/queue.pid
