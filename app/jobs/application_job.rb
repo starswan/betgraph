@@ -33,8 +33,9 @@ class ApplicationJob < ActiveJob::Base
   PRIORITY_REFRESH_SPORT_LIST = OFFSET_PRI + 35
   # this should be lower than most BetfairJob's - makeMatches is an exception to this rule
   # as otherwise old 'dead' objects can prevent new ones being created
-  PRIORITY_DESTROY_OBJECT = OFFSET_PRI + 40
-  PRIORITY_MAKE_MATCHES = OFFSET_PRI + 45
+  # temp - below import historical data
+  PRIORITY_DESTROY_OBJECT = OFFSET_PRI + 62
+  PRIORITY_MAKE_MATCHES = OFFSET_PRI + 63
 
   # Lower than lowest BetfairJob
   PRIORITY_KEEP_ALIVE = OFFSET_PRI + 50
