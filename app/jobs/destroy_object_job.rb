@@ -6,8 +6,6 @@
 class DestroyObjectJob < ApplicationJob
   queue_priority PRIORITY_DESTROY_OBJECT
 
-  discard_on NoMethodError
-
   def perform(object)
     object.really_destroy!
   end
