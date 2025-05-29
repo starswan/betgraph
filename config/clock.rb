@@ -108,7 +108,7 @@ class BetfairClockwork
   every 24.hours, :load_bbc_data
   # every 24.hours, :loadfootballdata, if: ->(t) { t.month <= 5 || t.month >= 8 }
   every 15.minutes, :closedead
-  every 24.hours, :destroymatches
+  every 24.hours, :destroymatches, at: "05:00"
   every 3.hours, :keepalive
   # don't want this after deployment
   every 1.week, :infer_goal_times, at: "02:00"

@@ -2,7 +2,7 @@
 # $Id$
 #
 class DownloadHistoricalDataFileJob < BetfairJob
-  queue_priority PRIORITY_LOAD_FOOTBALL_DATA
+  queue_priority PRIORITY_DOWNLOAD_HISTORIC_DATA
 
   # It seems that Betfair sometimes give us a good (HTTP?) status but bad data from their API
   # so retry if that happens
