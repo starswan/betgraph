@@ -2,7 +2,7 @@
 # $Id$
 #
 class FetchHistoricalDataJob < BetfairJob
-  queue_priority PRIORITY_LOAD_FOOTBALL_DATA
+  queue_priority PRIORITY_LOAD_HISTORIC_DATA
 
   def perform(target_date, country)
     my_data_hash = bc.get_my_data.map(&:symbolize_keys)

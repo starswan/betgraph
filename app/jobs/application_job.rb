@@ -40,6 +40,7 @@ class ApplicationJob < ActiveJob::Base
   PRIORITY_KEEP_ALIVE = OFFSET_PRI + 50
 
   # Load historic data higher than batch job so it gets throughput
+  PRIORITY_DOWNLOAD_HISTORIC_DATA = OFFSET_PRI + 51
   PRIORITY_LOAD_HISTORIC_DATA = OFFSET_PRI + 52
   PRIORITY_LOAD_FOOTBALL_DATA = OFFSET_PRI + 55
   # This don't involve connecting to the API, so lower tnan everything
