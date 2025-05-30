@@ -196,6 +196,8 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.6.1)
+    discard (1.4.0)
+      activerecord (>= 4.2, < 9.0)
     docile (1.4.0)
     dotenv (3.1.7)
     dotenv-rails (3.1.7)
@@ -697,6 +699,7 @@ DEPENDENCIES
   curb
   database_cleaner-active_record
   devise
+  discard
   dotenv-rails
   ed25519
   factory_bot_rails

@@ -22,6 +22,8 @@ FactoryBot.define do
     sequence(:selectionId)
     asianLineId { 0 }
     handicap { 0.0 }
+
+    association :betfair_runner_type
   end
 
   factory :trade do

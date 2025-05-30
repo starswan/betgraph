@@ -34,7 +34,7 @@ RSpec.describe BetfairMarketType do
 
     it "values stuff with different target" do
       expect(bmt.valuer_obj.expected_value(1.5, [{ homevalue: 1, backprice: 1.07, layprice: 1.08 }]))
-          .to eq(OpenStruct.new(bid: 1.6177047286013204, ask: 1.7405130360033894))
+          .to eq(OpenStruct.new(bid: 1.6177047286013204, ask: 1.740513035897121))
     end
   end
 

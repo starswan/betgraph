@@ -68,6 +68,7 @@ Rails.application.routes.draw do
     end
     resources :baskets, only: [:index, :destroy], controller: "soccer_matches/baskets"
     resources :teams
+    resources :divisions, only: []
   end
   resources :tennis_matches, only: [:index, :show]
   resources :motor_races, only: [:show] do
@@ -94,11 +95,11 @@ Rails.application.routes.draw do
   resources :event_basket_prices
 
   resources :bet_markets, only: %i[show edit update destroy] do
-    resources :market_runners
+    resources :market_runners, only: %i[index]
     resources :trades, controller: "bet_markets/trades"
     resources :market_prices, controller: "bet_markets/market_prices"
   end
-  resources :market_runners do
+  resources :market_runners, only: %i[show] do
     resources :trades
     resources :market_prices
   end

@@ -99,7 +99,7 @@ module Soccer
       end
     end
 
-    # can't have ever worked, as the methods for Poisson and func and funcdash
+    # can't have ever worked, as the methods for Poisson are func and funcdash
     #   def expectedForGoals(goals, prices)
     #     probability = 0
     #     prices.each do |runnertype, price|

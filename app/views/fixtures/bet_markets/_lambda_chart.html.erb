@@ -1,0 +1,7 @@
+<%= line_chart(lambda_data(bet_markets, name, limit).map { |bmdata| { name: bmdata[:label], data: bmdata[:prices] }},
+               # min: 1,
+               xtitle: 'Time',
+               ytitle: 'Expected Value',
+               # max: 5,
+               colors: chart_colours,
+               height: '900px') %>

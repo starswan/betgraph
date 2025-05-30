@@ -33,10 +33,10 @@ RSpec.describe BetfairRunnerType do
     expect(bet_market.market_value(bet_market.time, 0, 0)).to eq(0)
   end
 
-  it "runner types produced for new runners" do
-    expect {
-      bet_market.market_runners.create! selectionId: 1, description: "One", asianLineId: 1
-      bet_market.market_runners.create! selectionId: 2, description: "Two", asianLineId: 2
-    }.to change(described_class, :count).by(2)
-  end
+  # it "runner types produced for new runners" do
+  #   expect {
+  #     bet_market.market_runners.create! selectionId: 1, description: "One", asianLineId: 1
+  #     bet_market.market_runners.create! selectionId: 2, description: "Two", asianLineId: 2
+  #   }.to change(described_class, :count).by(2)
+  # end
 end

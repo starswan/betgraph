@@ -6,6 +6,9 @@ require "rails_helper"
 RSpec.describe BetMarket do
   let(:sport) { create(:soccer) }
   let(:market_type) { create(:betfair_market_type, sport: sport) }
+  let(:runner_type) { create(:betfair_runner_type, betfair_market_type: market_type) }
+  let(:runner_type2) { create(:betfair_runner_type, betfair_market_type: market_type) }
+  let(:runner_type3) { create(:betfair_runner_type, betfair_market_type: market_type) }
   let(:calendar) { create(:calendar, sport: sport) }
   let(:division) { create(:division, calendar: calendar) }
   let(:hometeam) { create(:team) }
@@ -17,9 +20,9 @@ RSpec.describe BetMarket do
   end
   let(:bet_market) do
     create(:bet_market, live: true, betfair_market_type: market_type, match: soccermatch, market_runners: [
-      build(:market_runner, trades: [build(:trade, side: "L")]),
-      build(:market_runner, trades: [build(:trade)]),
-      build(:market_runner),
+      build(:market_runner, betfair_runner_type: runner_type, trades: [build(:trade, side: "L")]),
+      build(:market_runner, betfair_runner_type: runner_type2, trades: [build(:trade)]),
+      build(:market_runner, betfair_runner_type: runner_type3),
     ])
   end
 
