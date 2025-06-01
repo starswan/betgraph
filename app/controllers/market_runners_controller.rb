@@ -6,9 +6,6 @@ class MarketRunnersController < ApplicationController
   before_action :find_market, only: FIND_EVENT_ACTIONS
   before_action :find_market_from_runner, except: FIND_EVENT_ACTIONS
 
-  skip_before_action :verify_authenticity_token, only: [:create]
-  before_action :semi_verify_authenticity_token, only: [:create]
-
   # GET /market_runners
   # GET /market_runners.xml
   def index
@@ -38,57 +35,6 @@ class MarketRunnersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render xml: @market_runner }
-    end
-  end
-
-  # GET /market_runners/new
-  # GET /market_runners/new.xml
-  def new
-    @market_runner = @bet_market.market_runners.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render xml: @market_runner }
-    end
-  end
-
-  # GET /market_runners/1/edit
-  def edit
-    @market_runner = MarketRunner.find(params[:id])
-  end
-
-  # POST /market_runners
-  # POST /market_runners.xml
-  def create
-    @market_runner = @bet_market.market_runners.new(market_runner_params)
-
-    respond_to do |format|
-      if @market_runner.save
-        MakeBasketItemsJob.perform_later @market_runner
-        flash[:notice] = "MarketRunner was successfully created."
-        format.html { redirect_to(@market_runner) }
-        format.json { render json: @market_runner, status: :created, location: @market_runner }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @market_runner.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # PUT /market_runners/1
-  # PUT /market_runners/1.xml
-  def update
-    @market_runner = MarketRunner.find(params[:id])
-
-    respond_to do |format|
-      if @market_runner.update(market_runner_params)
-        flash[:notice] = "MarketRunner was successfully updated."
-        format.html { redirect_to(@market_runner) }
-        format.xml  { head :ok }
-      else
-        format.html { render action: "edit" }
-        format.xml  { render xml: @market_runner.errors, status: :unprocessable_entity }
-      end
     end
   end
 

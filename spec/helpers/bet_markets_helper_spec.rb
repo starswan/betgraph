@@ -79,7 +79,7 @@ RSpec.describe BetMarketsHelper, type: :helper do
 
     it "produces a sensible data stream" do
       expect(prices.map { |hash| hash.transform_keys(&:to_s) })
-      .to eq([{ mpt1.time.to_s => mp1.back1price, mpt2.time.to_s => mp2.back1price }])
+      .to eq([{ mpt1.time.to_s => (1 / mp1.back1price).round(3), mpt2.time.to_s => (1 / mp2.back1price).round(3) }])
     end
   end
 end

@@ -44,6 +44,7 @@ gem "config"
 # turbo-charged counter caches https://github.com/magnusvk/counter_culture
 gem "counter_culture", "~> 3.9"
 gem "devise"
+gem "discard"
 # environment variables in .env files
 gem "dotenv-rails"
 gem "faraday", ">= 2"

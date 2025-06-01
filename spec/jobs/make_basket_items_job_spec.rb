@@ -11,6 +11,7 @@ RSpec.describe MakeBasketItemsJob, type: :job do
   let(:sport) { season.calendar.sport }
   let(:market_type) { create(:betfair_market_type, name: "The Market Type", sport: sport) }
   let(:runner_type) { create(:betfair_runner_type, betfair_market_type: market_type) }
+  let(:runner_type2) { create(:betfair_runner_type, betfair_market_type: market_type) }
 
   before do
     create(:basket_rule, sport: sport, basket_rule_items: build_list(:basket_rule_item, 1, betfair_runner_type: runner_type))
@@ -24,11 +25,11 @@ RSpec.describe MakeBasketItemsJob, type: :job do
                                     betfair_market_type: sport.betfair_market_types.first,
                                     name: "Correct Score",
                                     market_runners: [
-                                      build(:market_runner),
-                                      build(:market_runner),
+                                      build(:market_runner, betfair_runner_type: runner_type),
+                                      build(:market_runner, betfair_runner_type: runner_type2),
                                     ]),
                             ])
-      create(:basket_rule_item, basket_rule: sport.basket_rules.first, betfair_runner_type: BetfairMarketType.last.betfair_runner_types.first)
+      create(:basket_rule_item, basket_rule: sport.basket_rules.first, betfair_runner_type: runner_type)
     end
 
     let(:runner) { match.bet_markets.first.market_runners.first }

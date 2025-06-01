@@ -2,54 +2,85 @@
 
 #
 # $Id$
-#
 module BetMarketsHelper
+  RED = %w[cc aa 88 44 22].freeze
+  GREEN = %w[ee 44 22 88 ff].freeze
+  BLUE = %w[aa 88 44 22 11].freeze
   def chart_colours
-    basics = %w[44 88 cc ff]
-    Enumerator.new do |yielder|
-      basics.each do |red|
-        basics.each do |green|
-          basics.each do |blue|
-            yielder << "##{red}#{green}#{blue}"
-          end
-        end
-      end
-    end
-    # "#006600"
-    #  "#cc00cc",
-    #  "#000000",
-    #  "#003399",
-    #  "#0000ff",
-    #  "#006666",
-    #  "#0066cc",
-    #  "#00cc00",
-    #  "#00cccc",
-    #  "#660000",
-    #  "#660066",
-    #  "#6600cc",
-    #  "#666600",
-    #  "#666666",
-    #  "#6666cc",
-    #  "#66cc00",
-    #  "#66cc66",
-    #  "#66cccc",
-    #  "#cc0000",
-    #  "#cc0066",
-    #  "#cc6600",
-    #  "#cc6666",
-    #  "#cc66cc",
-    #  "#cccc00",
-    #  "#cccc66",
-    #  "#cccccc",
-    #  "#ff0000",
-    #  "#ff0066",
-    #  "#ff00cc",
-    #  "#ff6600",
-    #  "#ff6666",
-    #  "#ff66cc",
-    #  "#ffcc00",
-    #  "#ffcc66",
-    #  "#ffcccc"]
+    # Enumerator.new do |yielder|
+    #   RED.each do |red|
+    #     GREEN.each do |green|
+    #       BLUE.each do |blue|
+    #         yielder << "##{red}#{green}#{blue}"
+    #       end
+    #     end
+    #   end
+    # end
+    %w[
+      #6600cc
+      #994422
+      #00cccc
+      #000000
+      #0000ff
+      #008800
+      #22cc66
+      #66cc22
+      #cc0022
+      #003399
+      #006666
+      #0066cc
+      #00cc00
+      #660000
+      #660066
+      #666600
+      #666666
+      #6666cc
+      #66cc00
+      #cc0066
+      #cc6644
+      #cc4466
+      #cc6655
+      #cc1100
+      #66cc66
+      #66cccc
+      #cc0000
+      #cc0066
+      #cc6600
+      #cc6666
+      #cc66cc
+      #cccc00
+      #55cc66
+      #66ddcc
+      #cc00ee
+      #cc0033
+      #cc1100
+      #cc9966
+      #cc22cc
+      #11cc00
+      #cccc66
+      #cccccc
+      #ff0000
+      #ff0066
+      #ff00cc
+      #ff6600
+      #ff6666
+      #ff66cc
+      #11cc66
+      #11cccc
+      #ff1100
+      #ff1166
+      #ff22cc
+      #ff3300
+      #ff4466
+      #ff55cc
+      #ffcc00
+      #ffcc66
+      #ffcccc
+      #ee88dd
+      #aabb22
+      #221100
+      880044
+    ]
   end
 
   def bet_market_data(markets)
@@ -62,6 +93,73 @@ module BetMarketsHelper
     markets.map(&:market_runners).flatten.map { |r| bet_market_runner_data(r) }
   end
 
+  def lambda_data(markets, name, limit)
+    cs = markets.detect { |bm| bm.betfair_market_type.valuer == name }
+    homes = 0.upto(limit).map do |x|
+      {
+        label: "\u{3BB}H#{x}",
+        prices: lambda_home_prices(cs, x),
+      }
+    end
+    aways = 0.upto(limit).map do |x|
+      {
+        label: "\u{3BB}A#{x}",
+        prices: lambda_away_prices(cs, x),
+      }
+    end
+    homes + aways
+  end
+
+  def lambda_home_prices(market, goalcount)
+    runners = market.market_runners
+                    .select { |mr| mr.betfair_runner_type.runnerhomevalue == goalcount }
+    # .map { |mr| { prices: mr.market_prices, value: mr.betfair_runner_type.runnerhomevalue } }
+    homezero_prices(runners, goalcount, home: true)
+  end
+
+  def lambda_away_prices(market, goalcount)
+    runners = market.market_runners
+                    .select { |mr| mr.betfair_runner_type.runnerawayvalue == goalcount }
+    # .map { |mr| { prices: mr.market_prices, value: mr.betfair_runner_type.runnerawayvalue } }
+    homezero_prices(runners, goalcount, home: false)
+  end
+
+  def homezero_prices(runners, goalcount, home:)
+    zeroprices = runners.map(&:market_prices)
+                         .reduce(&:+)
+                         .sort_by { |p| p.market_price_time.time }
+    x = zeroprices.reduce({ size: runners.size, map: {}, list: [] }) { |target, price|
+      new = target.fetch(:map).merge({ price.market_runner_id => 1 / price.price_value.to_f })
+      # If the sum exceeds 1, a goal has probably been scored so remove runners with a value less than the
+      # current (except that its backwards, so I wonder if this works properly?)
+      # TODO: write some tests to cover this functionality
+      # :nocov:
+      (map, size) = if new.values.sum > 1
+                      old = if home
+                              runners.select { |r| r.betfair_runner_type.runnerawayvalue < price.market_runner.betfair_runner_type.runnerawayvalue }
+                            else
+                              runners.select { |r| r.betfair_runner_type.runnerhomevalue < price.market_runner.betfair_runner_type.runnerhomevalue }
+                            end
+                      [new.except(old.map(&:id)), target.fetch(:size) - old.size]
+                    else
+                      [new, target.fetch(:size)]
+                    end
+      # :nocov:
+      if map.keys.size == size && price.market_price_time.time >= price.market_runner.bet_market.time
+        { size: size, map: map, list: target.fetch(:list) + [[price.market_price_time.time, map.values.sum]] }
+      else
+        { size: size, map: map, list: target.fetch(:list) }
+      end
+    }.fetch(:list).to_h
+    y = x.transform_values do |v|
+      hvfunc = Poisson.new(goalcount, v)
+      NewtonsMethod.solve(0.5, hvfunc.method(:func), hvfunc.method(:funcdash)).value
+    end
+    #   # This is for debugging only....
+    #   # x.transform_values { |v| (1 / v)  }
+    y.compact.transform_values { |z| z.round(3) }
+  end
+
   def bet_market_runner_data(runner)
     # 1000 is often used as a price when an outcome is impossible
     prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
@@ -69,7 +167,7 @@ module BetMarketsHelper
       # id: runner.id,
       label: "#{runner.bet_market.name} (#{runner.runnername})",
       # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
-      prices: prices.map { |p| [p.market_price_time.time, p.price_value] }.to_h,
+      prices: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
     }
   end
 

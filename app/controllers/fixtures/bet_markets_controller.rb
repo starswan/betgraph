@@ -2,18 +2,15 @@
 
 module Fixtures
   class BetMarketsController < ApplicationController
-    before_action :load_fixture, :load_season
+    before_action :load_fixture, :load_season, :load_fixtures
 
     # show table at season start with no games played
     def index
-      @matches = Match.none
-      load_teams
       @bet_markets = bet_markets.full_time
     end
 
     def half_time
       @bet_markets = bet_markets.half_time
-      load_teams
     end
 
   private
@@ -22,14 +19,14 @@ module Fixtures
       BetMarket.includes(market_runners: { market_prices: :market_price_time }).where(match: @fixture).active_status
     end
 
-    def load_teams
+    def load_fixtures
       @fixtures = @all_matches.played_on(@date)
     end
 
     def load_season
       all_matches = Match
                       .includes(:result, teams: :team_names).order(:kickofftime)
-                      .where(division: @division, season: @season)
+                      .where(division: @fixture.division, season: @season)
       without_results = all_matches.where.missing(:result)
       @all_matches = all_matches.where.not(id: without_results.map(&:id))
       @seasons = Season.find(Match.where(division: @division).with_prices.select(:season_id).distinct.map(&:season_id)).sort_by(&:startdate)

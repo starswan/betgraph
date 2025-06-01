@@ -8,6 +8,7 @@ class Poisson
     # Rails.logger.debug("Poisson #{kvalue} #{offset}")
     @k = kvalue
     @offset = offset
+    @kfactorial = factorial(@k)
   end
 
   # P(k) = (lambda^k)(E^ -lambda) / k!
@@ -32,7 +33,6 @@ class Poisson
 private
 
   def f(expected)
-    # Rails.logger.debug("Poisson f #{expected}")
     expected**@k
   end
 
@@ -41,10 +41,14 @@ private
   end
 
   def g(expected)
-    Math::E**-expected / @k.factorial
+    Math::E**-expected / @kfactorial
   end
 
   def gdash(expected)
-    -(Math::E**-expected) / @k.factorial
+    -(Math::E**-expected) / @kfactorial
+  end
+
+  def factorial(value)
+    (1..value).reduce(:*) || 1
   end
 end

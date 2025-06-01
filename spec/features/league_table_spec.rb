@@ -15,13 +15,13 @@ RSpec.describe "LeagueTables", type: :feature do
   let(:sep_8_1230) { Time.zone.local(2018, 9, 8, 12, 30, 0) }
   let(:sep_8_3pm) { Time.zone.local(2018, 9, 8, 15, 0, 0) }
 
-  let(:std_markets) do
-    [
-      build(:bet_market, :match_odds, market_runners: build_list(:market_runner, 2)),
-      build(:bet_market, :correct_score),
-      build(:bet_market, :overunder),
-    ]
-  end
+  # let(:std_markets) do
+  #   [
+  #     build(:bet_market, :match_odds, market_runners: build_list(:market_runner, 2)),
+  #     build(:bet_market, :correct_score),
+  #     build(:bet_market, :overunder),
+  #   ]
+  # end
 
   before do
     create(:team, sport: sport, team_names: [build(:team_name, name: "Oxford"), build(:team_name, name: "Oxford Utd")])
@@ -47,13 +47,24 @@ RSpec.describe "LeagueTables", type: :feature do
     create(:betfair_market_type, :correct_score, sport: sport)
     create(:betfair_market_type, :overunder25, sport: sport)
     create(:betfair_market_type, :half_time, sport: sport)
+    create(:betfair_market_type, :half_time_score, sport: sport)
     # create a dummy bet_market so that market types array is populated
-    create(:soccer_match,
-           division: create(:division, calendar: calendar),
-           bet_markets: std_markets)
+    # create(:soccer_match,
+    #        division: create(:division, calendar: calendar),
+    #        bet_markets: std_markets)
   end
 
   context "with matches" do
+    let(:correct_score_mt) { BetfairMarketType.find_by!(valuer: "CorrectScore") }
+
+    let!(:nilniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 0) }
+    let!(:oneniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 1, runnerawayvalue: 0) }
+    let!(:twoniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 2, runnerawayvalue: 0) }
+    let!(:threeniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 3, runnerawayvalue: 0) }
+    let!(:nilonetype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 1) }
+    let!(:niltwotype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 2) }
+    let!(:nilthreetype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 3) }
+
     before do
       data = [
         { betfair_event_id: 28_841_336, name: "Sunderland v Scunthorpe", kickofftime: aug_19_3pm },
@@ -78,6 +89,24 @@ RSpec.describe "LeagueTables", type: :feature do
                bet_markets: [
                  build(:bet_market, :match_odds, time: d.fetch(:kickofftime), market_runners: build_list(:market_runner, 2)),
                  build(:bet_market, :half_time, time: d.fetch(:kickofftime), market_runners: build_list(:market_runner, 2)),
+                 build(:bet_market, :correct_score, time: d.fetch(:kickofftime),
+                                                    market_runners: [
+                                                      build(:market_runner, betfair_runner_type: nilniltype),
+                                                      build(:market_runner, betfair_runner_type: oneniltype),
+                                                      build(:market_runner, betfair_runner_type: twoniltype),
+                                                      build(:market_runner, betfair_runner_type: threeniltype),
+                                                      build(:market_runner, betfair_runner_type: nilonetype),
+                                                      build(:market_runner, betfair_runner_type: niltwotype),
+                                                      build(:market_runner, betfair_runner_type: nilthreetype),
+                                                    ]),
+                 build(:bet_market, :half_time_score, time: d.fetch(:kickofftime),
+                                                      market_runners: [
+                                                        build(:market_runner, betfair_runner_type: nilniltype),
+                                                        build(:market_runner, betfair_runner_type: oneniltype),
+                                                        build(:market_runner, betfair_runner_type: twoniltype),
+                                                        build(:market_runner, betfair_runner_type: nilonetype),
+                                                        build(:market_runner, betfair_runner_type: niltwotype),
+                                                      ]),
                ],
                kickofftime: d.fetch(:kickofftime))
       end
@@ -88,14 +117,14 @@ RSpec.describe "LeagueTables", type: :feature do
       # FetchHistoricalDataJob.perform_now(sep_8, "GB")
       matches.each_with_index do |m, index|
         1.upto(90 - index).each do |t|
-          p = rand(0.1..0.5)
-          q = 1 - p
+          # p = rand(0.1..0.5)
+          # q = 1 - p
+          p = 1.0 / m.bet_markets.count
           create(:market_price_time, time: m.kickofftime + t.minutes,
                                      market_prices: m.bet_markets.map { |bm|
-                                                      [
-                                                        build(:market_price, back1price: 1 + 1 / p, market_runner: bm.market_runners.first),
-                                                        build(:market_price, back1price: 1 + 1 / q, market_runner: bm.market_runners.second),
-                                                      ]
+                                                      bm.market_runners.map do |market_runner|
+                                                        build(:market_price, back1price: 1 + 1 / p, market_runner: market_runner)
+                                                      end
                                                     }.flatten)
         end
       end
@@ -110,8 +139,8 @@ RSpec.describe "LeagueTables", type: :feature do
       click_on "Sun 19 Aug [1]"
       sleep 1
       click_on "Sat 8 Sep [4]"
-      sleep 1
-      click_on "2/352"
+      sleep 2
+      click_on "4/1424"
       sleep 2
       click_on "Half Time"
       sleep 1

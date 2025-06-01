@@ -24,6 +24,11 @@ FactoryBot.define do
       name { "Correct Score" }
     end
 
+    trait :half_time_score do
+      markettype { "HALF_TIME_SCORE" }
+      name { "Half Time Score" }
+    end
+
     trait :match_odds do
       markettype { "MATCH_ODDS" }
       name { "Match Odds" }
@@ -60,6 +65,11 @@ FactoryBot.define do
     trait :correct_score do
       name { "Correct Score" }
       valuer { "CorrectScore" }
+    end
+
+    trait :half_time_score do
+      name { "Half Time Score" }
+      valuer { "HalfTimeScore" }
     end
 
     trait :overunder25 do
