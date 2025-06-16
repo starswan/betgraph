@@ -7,7 +7,7 @@
     "@rails/actioncable": "7.0.8-1",
     "@rails/ujs": "7.0.8-1",
     "bootstrap": "^5.3.6",
-    "chart.js": "^4.4.9",
+    "chart.js": "^4.5.0",
     "esbuild": "^0.15.18",
     "jquery": "^3.7.1"
   },
