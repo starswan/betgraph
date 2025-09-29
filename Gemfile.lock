@@ -137,6 +137,8 @@ GEM
       sshkit (>= 1.9.0)
     capistrano-bundler (2.1.1)
       capistrano (~> 3.1)
+    capistrano-passenger (0.2.1)
+      capistrano (~> 3.0)
     capistrano-rails (1.0.0)
       capistrano
     capistrano-rvm (0.1.2)
@@ -674,6 +676,7 @@ DEPENDENCIES
   bzip2-ffi
   capistrano (>= 3)
   capistrano-bundler
+  capistrano-passenger
   capistrano-rails
   capistrano-rvm
   capybara
@@ -701,7 +704,6 @@ DEPENDENCIES
   jbuilder (~> 2.13)
   jsbundling-rails
   kaminari
-  listen
   parallel_tests
   paranoia
   passenger (~> 5.0)
@@ -716,6 +718,7 @@ DEPENDENCIES
   rails (~> 7, < 7.1)
   rails-controller-testing
   raphael-rails
+  rexml
   rspec-rails
   rubocop-govuk
   rubocop-performance
