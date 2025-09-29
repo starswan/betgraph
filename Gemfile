@@ -63,6 +63,8 @@ gem "jbuilder", "~> 2.13"
 
 gem "kaminari"
 
+gem "mutex_m"
+
 gem "paranoia"
 
 # attempt to bring data into postgres
