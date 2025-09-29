@@ -427,11 +427,6 @@ GEM
     pronto-undercover (0.2.0)
       pronto (>= 0.9, < 0.12)
       undercover (~> 0.4.3)
-    propshaft (1.1.0)
-      actionpack (>= 7.0.0)
-      activesupport (>= 7.0.0)
-      rack
-      railties (>= 7.0.0)
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -702,7 +697,6 @@ DEPENDENCIES
   pronto
   pronto-rubocop
   pronto-undercover
-  propshaft
   pry-rails
   puma
   rack-mini-profiler

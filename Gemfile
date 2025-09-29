@@ -102,6 +102,7 @@ gem "rubyzip"
 # Think we have to go all-in with css-bundling-rails if we use this
 # This seems to stop application.css from being found in the load path when served by propshaft
 gem "cssbundling-rails"
+gem "propshaft"
 gem "raphael-rails"
 
 # Ruby 3.x compatibility merged to master, but not released
@@ -130,8 +131,6 @@ group :development, :test do
   gem "pronto"
   gem "pronto-rubocop"
   gem "pronto-undercover"
-
-  gem "propshaft"
 
   gem "pry-rails"
   gem "puma"
