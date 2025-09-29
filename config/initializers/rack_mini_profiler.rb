@@ -3,4 +3,4 @@
 #
 # $Id$
 #
-Rack::MiniProfiler.config.position = "top-right" if Rails.env.development?
+# Rack::MiniProfiler.config.position = "top-right" if Rails.env.development?
