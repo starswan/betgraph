@@ -659,6 +659,7 @@ DEPENDENCIES
   backup-task
   bcrypt_pbkdf
   betfair-ng
+  bigdecimal
   binding_of_caller
   bootsnap
   bootstrap (~> 5.3)
