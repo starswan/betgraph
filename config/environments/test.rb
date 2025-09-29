@@ -58,5 +58,5 @@ Rails.application.configure do
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
   # Rotate log files and keep them small
-  config.logger = Logger.new(config.paths['log'].first, 10, 10.megabytes)
+  config.logger = Logger.new(config.paths['log'].first, 5, 100.megabytes)
 end

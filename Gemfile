@@ -74,8 +74,6 @@ gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 7", "< 7.1"
-# Use SCSS for stylesheets
-gem "sass-rails", "~> 6"
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 
@@ -104,6 +102,7 @@ gem "rubyzip"
 # Think we have to go all-in with css-bundling-rails if we use this
 # This seems to stop application.css from being found in the load path when served by propshaft
 gem "cssbundling-rails"
+gem "propshaft"
 gem "raphael-rails"
 
 # Ruby 3.x compatibility merged to master, but not released
@@ -132,8 +131,6 @@ group :development, :test do
   gem "pronto"
   gem "pronto-rubocop"
   gem "pronto-undercover"
-
-  gem "propshaft"
 
   gem "pry-rails"
   gem "puma"
