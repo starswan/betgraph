@@ -154,13 +154,15 @@ group :development do
   gem "bullet"
 
   # Use Capistrano for deployment
-  gem "capistrano", ">= 3"
+  # Use Capistrano for deployment
+  gem "capistrano", ">=3"
   gem "capistrano-bundler"
-  # gem "rvm-capistrano", require: false
-  gem "capistrano-rvm", require: false
-  # gem "capistrano-ext"
+  gem "capistrano-passenger", require: false
   gem "capistrano-rails"
-  gem "listen"
+  gem "capistrano-rvm", require: false
+
+  # required for passenger support
+  gem 'rexml'
 
   gem "rubocop-govuk"
   gem "rubocop-performance"

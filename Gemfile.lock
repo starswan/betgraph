@@ -135,6 +135,8 @@ GEM
       sshkit (>= 1.9.0)
     capistrano-bundler (2.1.1)
       capistrano (~> 3.1)
+    capistrano-passenger (0.2.1)
+      capistrano (~> 3.0)
     capistrano-rails (1.0.0)
       capistrano
     capistrano-rvm (0.1.2)
@@ -685,7 +687,6 @@ DEPENDENCIES
   backup-task
   bcrypt_pbkdf
   betfair-ng
-  bigdecimal
   binding_of_caller
   bootsnap
   bootstrap (~> 5.3)
@@ -695,6 +696,7 @@ DEPENDENCIES
   bzip2-ffi
   capistrano (>= 3)
   capistrano-bundler
+  capistrano-passenger
   capistrano-rails
   capistrano-rvm
   capybara
@@ -722,7 +724,6 @@ DEPENDENCIES
   jbuilder (~> 2.14)
   jsbundling-rails
   kaminari
-  listen
   parallel_tests
   passenger (~> 5.0)
   pg
@@ -736,6 +737,7 @@ DEPENDENCIES
   rails (~> 7, < 7.1)
   rails-controller-testing
   raphael-rails
+  rexml
   rspec-rails
   rubocop-govuk
   rubocop-performance

@@ -28,6 +28,7 @@ set :default_environment,
 # set :linked_files, fetch(:linked_files, []) << ".env.production"
 # append :linked_files, ".env.production", 'config/master.key'
 append :linked_files, ".env.production"
+set :rails_env, "production"
 
 # Extended Server Syntax
 # ======================
