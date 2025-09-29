@@ -22,7 +22,6 @@ gem "backup-task"
 # gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
 gem "betfair-ng", require: "betfair"
 
-gem "bigdecimal"
 # sadly net-http-persistent doesn't respect https_proxy env var
 # so doesn't work on alice
 gem "curb"
@@ -62,8 +61,6 @@ gem "jbuilder", "~> 2.13"
 # gem "jquery-rails"
 
 gem "kaminari"
-
-gem "mutex_m"
 
 gem "paranoia"
 

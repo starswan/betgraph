@@ -362,7 +362,6 @@ GEM
     msgpack (1.8.0)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
-    mutex_m (0.3.0)
     nenv (0.3.0)
     net-http (0.6.0)
       uri
@@ -660,7 +659,6 @@ DEPENDENCIES
   backup-task
   bcrypt_pbkdf
   betfair-ng
-  bigdecimal
   binding_of_caller
   bootsnap
   bootstrap (~> 5.3)
@@ -697,7 +695,6 @@ DEPENDENCIES
   jsbundling-rails
   kaminari
   listen
-  mutex_m
   parallel_tests
   paranoia
   passenger (~> 5.0)
