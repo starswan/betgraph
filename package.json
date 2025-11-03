@@ -20,7 +20,7 @@
     "esbuild-coffeescript": "^2.2.0",
     "esbuild-plugin-elm": "^0.0.12",
     "morris-js-module": "1.2.1",
-    "sass": "^1.89.0"
+    "sass": "^1.93.3"
   },
   "optionalDependenciesComments": {
     "elm": "elm binary side-loaded on raspberry pi"
