@@ -21,6 +21,7 @@ gem "backup-task"
 
 # gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
 gem "betfair-ng", require: "betfair"
+
 # sadly net-http-persistent doesn't respect https_proxy env var
 # so doesn't work on alice
 gem "curb"
@@ -159,11 +160,15 @@ group :development do
   gem "bullet"
 
   # Use Capistrano for deployment
-  gem "capistrano", "~> 2.15.11"
-  gem "capistrano-ext"
+  # Use Capistrano for deployment
+  gem "capistrano", ">=3"
+  gem "capistrano-bundler"
+  gem "capistrano-passenger", require: false
   gem "capistrano-rails"
-  gem "listen"
-  gem "rvm-capistrano", require: false
+  gem "capistrano-rvm", require: false
+
+  # required for passenger support
+  gem 'rexml'
 
   gem "rubocop-govuk"
   gem "rubocop-performance"
