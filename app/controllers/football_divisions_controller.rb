@@ -12,7 +12,6 @@ class FootballDivisionsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render xml: @football_divisions }
     end
   end
 
@@ -23,7 +22,6 @@ class FootballDivisionsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render xml: @football_division }
     end
   end
 
@@ -42,7 +40,6 @@ class FootballDivisionsController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render xml: @football_division }
     end
   end
 
@@ -60,10 +57,8 @@ class FootballDivisionsController < ApplicationController
       if @football_division.save
         flash[:notice] = "FootballDivision was successfully created."
         format.html { redirect_to(@football_division) }
-        format.xml  { render xml: @football_division, status: :created, location: @football_division }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @football_division.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -77,10 +72,8 @@ class FootballDivisionsController < ApplicationController
       if @football_division.update(football_division_params)
         flash[:notice] = "FootballDivision was successfully updated."
         format.html { redirect_to(@football_division) }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @football_division.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -93,7 +86,6 @@ class FootballDivisionsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(football_divisions_url) }
-      format.xml  { head :ok }
     end
   end
 

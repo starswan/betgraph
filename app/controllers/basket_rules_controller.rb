@@ -59,10 +59,8 @@ class BasketRulesController < ApplicationController
     respond_to do |format|
       if @basket_rule.save
         format.html { redirect_to(basket_rule_basket_rule_items_path(@basket_rule), notice: "Basket Rule was successfully created.") }
-        format.xml  { render xml: @basket_rule, status: :created, location: [@sport, @basket_rule] }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @basket_rule.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -71,15 +69,12 @@ class BasketRulesController < ApplicationController
   # PUT /baskets/1.xml
   def update
     @basket_rule = @sport.basket_rules.find(params[:id])
-    # @basket_rule = BasketRule.find(params[:id])
 
     respond_to do |format|
       if @basket_rule.update(basket_rule_params)
         format.html { redirect_to(@basket_rule, notice: "Basket Rule was successfully updated.") }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @basket_rule.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -93,7 +88,6 @@ class BasketRulesController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(sport_basket_rules_path(@basket_rule.sport)) }
-      format.xml  { head :ok }
     end
   end
 

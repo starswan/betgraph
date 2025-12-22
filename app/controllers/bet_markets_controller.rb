@@ -50,8 +50,8 @@ class BetMarketsController < ApplicationController
         # format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        # format.json { render json: @bet_market.errors, status: :unprocessable_entity }
-        # format.xml  { render xml: @bet_market.errors, status: :unprocessable_entity }
+        # format.json { render json: @bet_market.errors, status: :unprocessable_content }
+        # format.xml  { render xml: @bet_market.errors, status: :unprocessable_content }
       end
     end
   end
