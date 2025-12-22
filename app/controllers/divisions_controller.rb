@@ -16,7 +16,6 @@ class DivisionsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render xml: @divisions }
     end
   end
 
@@ -29,7 +28,6 @@ class DivisionsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render xml: @division }
     end
   end
 
@@ -58,10 +56,8 @@ class DivisionsController < ApplicationController
       if @division.save
         flash[:notice] = "Division was successfully created."
         format.html { redirect_to(@division) }
-        format.xml  { render xml: @division, status: :created, location: @division }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @division.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -75,10 +71,8 @@ class DivisionsController < ApplicationController
       if @division.update(division_params)
         flash[:notice] = "Division was successfully updated."
         format.html { redirect_to(@division) }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @division.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -91,7 +85,6 @@ class DivisionsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to sport_divisions_path(@division.calendar.sport) }
-      format.xml  { head :ok }
     end
   end
 

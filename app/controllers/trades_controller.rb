@@ -54,10 +54,8 @@ class TradesController < ApplicationController
         ExecuteTradeJob.perform_later @trade
 
         format.html { redirect_to([@market_runner, @trade], notice: "Trade was successfully created.") }
-        format.xml  { render xml: @trade, status: :created, location: @trade }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @trade.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -68,10 +66,8 @@ class TradesController < ApplicationController
     respond_to do |format|
       if @trade.update(trade_params)
         format.html { redirect_to([@market_runner, @trade], notice: "Trade was successfully updated.") }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @trade.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -83,7 +79,6 @@ class TradesController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(market_runner_trades_path(@market_runner)) }
-      format.xml  { head :ok }
     end
   end
 
