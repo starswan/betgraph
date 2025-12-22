@@ -53,10 +53,8 @@ class BetfairRunnerTypesController < ApplicationController
       if @betfair_runner_type.save
         flash[:notice] = "BetfairRunnerType was successfully created."
         format.html { redirect_to [@betfair_market_type, @betfair_runner_type] }
-        format.xml  { render xml: @betfair_runner_type, status: :created, location: [@betfair_market_type, @betfair_runner_type] }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @betfair_runner_type.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -68,10 +66,8 @@ class BetfairRunnerTypesController < ApplicationController
       if @betfair_runner_type.update(betfair_runner_type_params)
         flash[:notice] = "BetfairRunnerType was successfully updated."
         format.html { redirect_to([@betfair_market_type, @betfair_runner_type]) }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @betfair_runner_type.errors, status: :unprocessable_entity }
       end
     end
   end

@@ -55,7 +55,7 @@ class MarketPricesController < ApplicationController
         format.xml  { render xml: @market_price, status: :created, location: @market_price }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @market_price.errors, status: :unprocessable_entity }
+        format.xml  { render xml: @market_price.errors, status: :unprocessable_content }
       end
     end
   end

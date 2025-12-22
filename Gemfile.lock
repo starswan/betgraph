@@ -728,7 +728,7 @@ DEPENDENCIES
   pry-rails
   puma
   rack-mini-profiler
-  rails (~> 7, < 7.1)
+  rails (~> 7, < 7.2)
   rails-controller-testing
   raphael-rails
   rspec-rails

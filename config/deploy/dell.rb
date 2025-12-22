@@ -27,7 +27,7 @@ set :rails_env, "dell"
 # used to set extended properties on the server.
 
 # server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
-server "ford", :web, :app, :db, primary: true
+server "linux-Latitude-7420", :web, :app, :db, primary: true
 
 # Custom SSH Options
 # ==================

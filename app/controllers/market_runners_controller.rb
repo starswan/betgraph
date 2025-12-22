@@ -2,7 +2,7 @@
 # $Id$
 #
 class MarketRunnersController < ApplicationController
-  FIND_EVENT_ACTIONS = [:index, :new, :create].freeze
+  FIND_EVENT_ACTIONS = [:index, :new].freeze
   before_action :find_market, only: FIND_EVENT_ACTIONS
   before_action :find_market_from_runner, except: FIND_EVENT_ACTIONS
 
