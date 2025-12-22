@@ -12,13 +12,13 @@
 # role :app, %w{deploy@example.com}
 # role :web, %w{deploy@example.com}
 # role :db,  %w{deploy@example.com}
-set :deploy_to, "/home/steve/betgraph"
-set :user, "steve"
-set :rvm_ruby_string, "2.6.9@betfair"
+set :deploy_to, "/home/linux/betgraph"
+set :user, "linux"
+set :rvm_ruby_string, "3.2.9@bg"
 
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads,
-set :rails_env, "ford"
+set :rails_env, "dell"
 
 # Extended Server Syntax
 # ======================

@@ -23,7 +23,8 @@ gem "backup-task"
 gem "betfair-ng", require: "betfair"
 # sadly net-http-persistent doesn't respect https_proxy env var
 # so doesn't work on alice
-gem "curb"
+# webmock isn't sure if this version works
+gem "curb", "< 1.1"
 
 # rails 5.2 faster load times
 gem "bootsnap"

@@ -180,7 +180,7 @@ GEM
     cuprite (0.17)
       capybara (~> 3.0)
       ferrum (~> 0.17.0)
-    curb (1.1.0)
+    curb (1.0.9)
     dante (0.2.0)
     database_cleaner-active_record (2.2.2)
       activerecord (>= 5.a)
@@ -693,7 +693,7 @@ DEPENDENCIES
   counter_culture (~> 3.11)
   cssbundling-rails
   cuprite
-  curb
+  curb (< 1.1)
   database_cleaner-active_record
   devise
   discard
