@@ -3,7 +3,7 @@
 #
 class MatchesController < ApplicationController
   ALL_ACTIONS = [:future, :active].freeze
-  FIND_DIVISION_ACTIONS = [:index, :new, :create].freeze
+  FIND_DIVISION_ACTIONS = [:index, :new].freeze
 
   before_action :find_division, only: FIND_DIVISION_ACTIONS
   before_action :find_division_from_match, except: FIND_DIVISION_ACTIONS + ALL_ACTIONS

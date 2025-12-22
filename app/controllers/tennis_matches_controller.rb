@@ -2,7 +2,7 @@
 # $Id$
 #
 class TennisMatchesController < ApplicationController
-  MATCH_ACTIONS = [:show, :edit, :update, :destroy].freeze
+  MATCH_ACTIONS = [:show, :edit].freeze
   before_action :find_division_from_football_match, only: MATCH_ACTIONS
   before_action :find_division, except: MATCH_ACTIONS
 
