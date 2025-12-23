@@ -73,7 +73,7 @@ class SoccerMatchesController < ApplicationController
       else
         #:nocov
         format.json { render json: @football_match.errors, status: :unprocessable_content }
-        #:nocov
+        # :nocov
       end
     end
   end
