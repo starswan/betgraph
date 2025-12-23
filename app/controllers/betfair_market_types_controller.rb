@@ -43,7 +43,7 @@ class BetfairMarketTypesController < ApplicationController
         format.xml { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml { render xml: @betfair_market_type.errors, status: :unprocessable_entity }
+        format.xml { render xml: @betfair_market_type.errors, status: :unprocessable_content }
       end
     end
   end
