@@ -153,10 +153,8 @@ class SeasonsController < ApplicationController
     respond_to do |format|
       if @season.save
         format.html { redirect_to calendar_seasons_path(@calendar), notice: "FootballSeason was successfully created." }
-        format.xml  { render xml: @season, status: :created, location: @season }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @season.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -169,10 +167,8 @@ class SeasonsController < ApplicationController
     respond_to do |format|
       if @season.update(season_params)
         format.html { redirect_to(calendar_seasons_path(@calendar), notice: "FootballSeason was successfully updated.") }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @season.errors, status: :unprocessable_entity }
       end
     end
   end
