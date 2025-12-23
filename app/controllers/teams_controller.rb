@@ -4,7 +4,7 @@
 # $Id$
 #
 class TeamsController < ApplicationController
-  FIND_SPORT_ACTIONS = [:index, :new, :create].freeze
+  FIND_SPORT_ACTIONS = [:index, :new].freeze
 
   before_action :find_sport, only: FIND_SPORT_ACTIONS
   before_action :find_sport_from_team, except: FIND_SPORT_ACTIONS
@@ -78,7 +78,7 @@ class TeamsController < ApplicationController
   #       format.xml  { head :ok }
   #     else
   #       format.html { render action: "edit" }
-  #       format.xml  { render xml: @team.errors, status: :unprocessable_entity }
+  #       format.xml  { render xml: @team.errors, status: :unprocessable_content }
   #     end
   #   end
   # end
