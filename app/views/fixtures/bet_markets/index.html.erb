@@ -1,3 +1,4 @@
+<%= javascript_include_tag "hello_elm", type: "module" %>
 <%= render 'menu', seasons: @seasons, season: @season, divisions: @season.calendar.divisions, date: @date %>
 <div align="center">
   <%= render 'title', match: @fixture %>
@@ -5,5 +6,20 @@
 <% @fixtures.each do |f| %>
   <%= link_to_unless @fixture == f, f.name, sport_season_fixture_bet_markets_path(f.division.sport, f.season, f) %>
 <% end %>
+<%=
+  rd = all_runner_data(@bet_markets)
+  # need to flatten prices into time and id so that the mapping is time -> id1, id2, id3, id4 etc
+  # prices = rd.reduce({}) { |hash, runner| runner.fetch(:prices).each { |p, v| hash.merge!(p.to_i => { runner.fetch(:id) => v.to_f }) }; hash }
+  prices = rd.reduce({}) do |hash, runner|
+             hash.merge(runner.fetch(:prices).reduce({}) { |h, pp| h.merge(pp.first.to_i => { runner.fetch(:id) => pp.last.to_f }) })
+           end
+  content_tag :div, 'Chart', id: 'applet',
+                data: {
+                  prices: prices.map { |time, vlist| { time: time }.merge(vlist) },
+                  names: rd.map { |runner| [runner.fetch(:id), runner.fetch(:label)] }.to_h,
+                  source: rd.map { |bmdata| { name: bmdata[:id].to_s, data: bmdata[:prices].map { |p, v| { time: p.to_i, value: v.to_f }} }}
+                }
+%>
+
 <%= render 'chart', bet_markets: @bet_markets %>
 <%= render 'lambda_chart', bet_markets: @bet_markets, name: 'CorrectScore', limit: 3 %>

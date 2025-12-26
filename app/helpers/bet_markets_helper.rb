@@ -164,10 +164,10 @@ module BetMarketsHelper
     # 1000 is often used as a price when an outcome is impossible
     prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
     {
-      # id: runner.id,
+      id: runner.id,
       label: "#{runner.bet_market.name} (#{runner.runnername})",
-      # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
-      prices: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
+      prices: prices.sort_by { |x| x.market_price_time.time }
+                    .map { |p| [((p.market_price_time.time - runner.bet_market.time) / 60).to_i, (1 / p.price_value).round(3)] }.to_h,
     }
   end
 
