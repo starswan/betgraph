@@ -95,7 +95,7 @@ app/controllers/event_basket_prices_controller.rb:
 app/controllers/fixtures/bet_markets_controller.rb:
   lines:
     percent: 0.0
-    missed: 21
+    missed: 19
   branches:
     percent: 100.0
     missed: 0
@@ -235,7 +235,7 @@ app/helpers/baskets_helper.rb:
 app/helpers/bet_markets_helper.rb:
   lines:
     percent: 0.0
-    missed: 85
+    missed: 72
   branches:
     percent: 0.0
     missed: 6
@@ -267,6 +267,13 @@ app/helpers/market_prices_helper.rb:
   branches:
     percent: 0.0
     missed: 2
+app/helpers/market_runners_helper.rb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
 app/helpers/matches_helper.rb:
   lines:
     percent: 0.0
@@ -1290,6 +1297,13 @@ app/views/event_basket_prices/index.html.erb:
     percent: 100.0
     missed: 0
 app/views/fixtures/bet_markets/_chart.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/fixtures/bet_markets/_elm_chart.html.erb:
   lines:
     percent: 100.0
     missed: 0

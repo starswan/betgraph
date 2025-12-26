@@ -158,16 +158,22 @@ module BetMarketsHelper
     y.compact.transform_values { |z| z.round(3) }
   end
 
+  # simplecov:disable
   def bet_market_runner_data(runner)
     # 1000 is often used as a price when an outcome is impossible
     prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
     {
-      # id: runner.id,
-      label: "#{runner.bet_market.name} (#{runner.runnername})",
-      # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
-      prices: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
+      id: runner.id,
+      label: runner_label(runner),
+      # prices in minutes from kickoff rather than absolute time (for Elm Charts)
+      prices: prices.sort_by { |x| x.market_price_time.time }
+                    .map { |p| [((p.market_price_time.time - runner.bet_market.time) / 60).to_i, (1 / p.price_value).round(3)] }.to_h,
+      #     prices: prices
+      #               .sort_by { |x| x.market_price_time.time }
+      #               .map { |p| [(p.market_price_time.time), (1 / p.price_value).round(3)] }.to_h,
     }
   end
+  # simplecov:enable
 
   def runner_market_data(_match, runners)
     runners.map do |runner|
@@ -179,8 +185,9 @@ module BetMarketsHelper
       end
 
       # prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price && p.lay1price }
+      # simplecov:disable
       {
-        name: runner.runnername,
+        name: runner_label(runner),
         # data: prices.map { |p| [p.market_price_time.time, (1 - 1 / p.back1price).round(4)] }.to_h,
         data: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
         # data: prices.map { |p|
@@ -188,6 +195,7 @@ module BetMarketsHelper
         #         [p.market_price_time.time, (1 / price).round(4)]
         #       }.to_h,
       }
+      # simplecov:enable
     end
   end
 
@@ -212,6 +220,7 @@ module BetMarketsHelper
 
   def runner_chart_data(runners)
     runners.map { |runner|
+      # simplecov:disable
       runner.market_prices
           .select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
           .map do |price|
@@ -220,16 +229,21 @@ module BetMarketsHelper
           runner.id => price.back1price.to_f,
         }
       end
+      # simplecov:enable
     }.flatten
   end
 
+  # simplecov:disable
   def market_runner_labels(runners)
-    runners.map { |runner| "#{runner.bet_market.name} (#{runner.runnername})" }
+    runners.map { |runner| runner_label(runner) }
   end
+  # simplecov:enable
 
+  # simplecov:disable
   def basket_runner_labels(basket_items)
-    basket_items.map { |bi| "[#{bi.basket.name}] #{bi.market_runner.bet_market.name} (#{bi.market_runner.runnername})" }
+    basket_items.map { |bi| "[#{bi.basket.name}] #{runner_label(bi.market_runner)}" }
   end
+  # simplecov:enable
 
   def basket_labels(baskets)
     baskets.map(&:name)

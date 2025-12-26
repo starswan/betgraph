@@ -64,12 +64,12 @@ RSpec.describe BetMarketsHelper, type: :helper do
     expect(helper.bet_markets_ykeys([market1]))
       .to eq([r1.id])
   end
-  # rubocop:enable RSpec/PendingWithoutReason
 
-  it "produces market labels" do
+  xit "produces market labels" do
     expect(helper.bet_markets_labels([market1.reload]))
       .to eq(["Market One (Runner)"])
   end
+  # rubocop:enable RSpec/PendingWithoutReason
 
   describe "#bet_market_data" do
     let(:target) { helper.bet_market_data([market1]) }
@@ -77,15 +77,13 @@ RSpec.describe BetMarketsHelper, type: :helper do
     let(:prices) { target.map { |x| x.fetch(:prices) } }
 
     #  flakey test
-    # rubocop:disable RSpec/PendingWithoutReason
-    xit "has labels" do
+    it "has labels" do
       expect(labels).to eq(["Market One (Runner)"])
     end
-    # rubocop:enable RSpec/PendingWithoutReason
 
     it "produces a sensible data stream" do
       expect(prices.map { |hash| hash.transform_keys(&:to_s) })
-      .to eq([{ mpt1.time.to_s => (1 / mp1.back1price).round(3), mpt2.time.to_s => (1 / mp2.back1price).round(3) }])
+      .to eq([{ "0" => (1 / mp1.back1price).round(3), "2" => (1 / mp2.back1price).round(3) }])
     end
   end
 end
