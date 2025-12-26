@@ -5,6 +5,5 @@
 <% @fixtures.each do |f| %>
   <%= link_to_unless @fixture == f, f.name, sport_season_fixture_bet_markets_path(f.division.sport, f.season, f) %>
 <% end %>
-<%#= render 'chart', fixtures: @fixtures, fixture: @fixture, bet_markets: @bet_markets %>
 <%= render 'chart', bet_markets: @bet_markets %>
 <%= render 'lambda_chart', bet_markets: @bet_markets, name: 'CorrectScore', limit: 3 %>
