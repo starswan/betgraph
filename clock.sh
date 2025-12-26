@@ -7,7 +7,7 @@ export HOME=`echo ~`
 source $HOME/.bash_login
 dirname=`dirname $0`
 cd $dirname
-source $RVM_DIR/environments/ruby-3.2.8@bg
+source $RVM_DIR/environments/ruby-3.2.9@bg
 bundle check || bundle install
 program='clock'
 pidfile="tmp/pids/$program.pid"
