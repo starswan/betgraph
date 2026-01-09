@@ -2,10 +2,9 @@
 
 #
 # $Id$
-#
-# RVM bootstrap
-#
 require "capistrano/ext/multistage"
+require "whenever/capistrano"
+
 set :stages, %w(alice pi arthur dell)
 set :default_stage, "arthur"
 set :linked_dirs, %w{node_modules}
@@ -101,6 +100,6 @@ namespace :yarn do
 end
 
 after "deploy:update_code", "bundler:symlink_bundled_gems"
-before "deploy:assets:precompile", "bundler:install"
+before "deploy:assets:symlink", "bundler:install"
 before "deploy:assets:precompile", "yarn:install"
 after "deploy:update_code", "deploy:migrate"

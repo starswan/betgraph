@@ -34,7 +34,8 @@ gem "bootstrap", "~> 5.3"
 
 # Better charts than morris.js
 gem "chartkick"
-gem "clockwork"
+# gem "clockwork"
+gem "whenever", require: false
 # Use CoffeeScript for .coffee assets and views
 gem "coffee-rails"
 

@@ -150,9 +150,7 @@ GEM
     chartkick (5.1.4)
     childprocess (5.1.0)
       logger (~> 1.5)
-    clockwork (3.0.2)
-      activesupport
-      tzinfo
+    chronic (0.10.2)
     coderay (1.1.3)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
@@ -652,6 +650,8 @@ GEM
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    whenever (1.1.1)
+      chronic (>= 0.6.3)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yaml_db (0.7.0)
@@ -686,7 +686,6 @@ DEPENDENCIES
   capistrano-rails
   capybara
   chartkick
-  clockwork
   coffee-rails
   concurrent-ruby (< 1.3.5)
   config
@@ -739,6 +738,7 @@ DEPENDENCIES
   undercover
   vcr
   webmock
+  whenever
   yaml_db
 
 BUNDLED WITH
