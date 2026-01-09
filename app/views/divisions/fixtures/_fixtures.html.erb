@@ -5,7 +5,7 @@
       <td><%= fixture.kickofftime.to_fs(:time_without_secs) %></td>
       <td><%= render 'team', team: fixture.hometeam, position: league_table.position(fixture.hometeam) %></td>
       <td><%= render 'team', team: fixture.awayteam, position: league_table.position(fixture.awayteam) %></td>
-      <td><%= link_to "#{fixture.bet_markets_count}/#{fixture.market_prices_count}",
+      <td><%= link_to_unless fixture.market_prices_count.zero?, "#{fixture.bet_markets_count}/#{fixture.market_prices_count}",
                       sport_season_fixture_bet_markets_path(fixture.division.calendar.sport,
                                                             fixture.season, fixture) %></td>
     </tr>
