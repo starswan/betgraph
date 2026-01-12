@@ -23,6 +23,13 @@ class BetfairLogin
                          .map { |sport| event_types.find { |et| et.fetch(:name) == sport.name } }
   end
 
+  def stream
+    @bc.stream(ENV["BETFAIR_USER"],
+               ENV["BETFAIR_PASS"],
+               add_home(Settings.keyfile),
+               add_home(Settings.certfile))
+  end
+
   def getMultipleMarketPrices(market_ids)
     list_market_book(market_ids.map { |m| "#{m.exchangeId}.#{m.marketId}" })
   end
