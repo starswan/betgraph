@@ -68,7 +68,7 @@ gem "kaminari"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7", "< 7.2"
+gem "rails", "~> 7.1", "< 7.2"
 gem "rake", "< 13.1"
 
 gem "stringio", "< 3.2"
