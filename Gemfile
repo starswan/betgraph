@@ -12,8 +12,6 @@ gem "actionpack-page_caching"
 # This gem is needed for rails 5.1 to keep implicit XML serialization working
 gem "activemodel-serializers-xml"
 gem "acts_as_tree"
-# can't remember why I pinned this
-# gem "autoprefixer-rails", "< 10.0"
 gem "autoprefixer-rails"
 
 gem "backburner"
@@ -74,7 +72,7 @@ gem "paranoia"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7", "< 7.1"
+gem "rails", "~> 7.1", "< 7.2"
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 
