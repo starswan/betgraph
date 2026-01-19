@@ -43,7 +43,7 @@ gem "concurrent-ruby", "< 1.3.5"
 
 gem "config"
 # turbo-charged counter caches https://github.com/magnusvk/counter_culture
-gem "counter_culture", "~> 3.11"
+gem "counter_culture", "~> 3.12"
 gem "devise"
 gem "discard"
 # environment variables in .env files
