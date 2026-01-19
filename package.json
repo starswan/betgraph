@@ -9,7 +9,7 @@
     "bootstrap": "^5.3.8",
     "chart.js": "^4.5.1",
     "esbuild": "^0.15.18",
-    "jquery": "^3.7.1"
+    "jquery": "^4.0.0"
   },
   "version": "0.1.0",
   "devDependencies": {
