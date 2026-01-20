@@ -72,7 +72,7 @@ gem "paranoia"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7", "< 7.2"
+gem "rails", "~> 7.2", "< 7.2"
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 
