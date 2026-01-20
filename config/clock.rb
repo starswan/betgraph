@@ -56,9 +56,7 @@ class BetfairClockwork
     end
 
     def makematches
-      Sport.active.each do |sport|
-        MakeMatchesJob.perform_later sport
-      end
+      Sport.active.each { |sport| MakeMatchesJob.perform_later sport }
     end
 
     def loadfootballdata
