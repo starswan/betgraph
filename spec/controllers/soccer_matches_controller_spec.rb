@@ -66,7 +66,7 @@ RSpec.describe SoccerMatchesController, type: :controller do
             name: other_match.name,
           },
         }, format: :json
-        expect(response).to have_http_status(:unprocessable_content)
+        expect(response).to have_http_status(:unprocessable_entity)
       end
 
       it "can be updated via json" do

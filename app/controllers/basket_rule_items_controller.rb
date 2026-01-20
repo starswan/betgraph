@@ -58,7 +58,7 @@ class BasketRuleItemsController < ApplicationController
         format.xml  { render xml: @basket_rule_item, status: :created, location: @basket_rule_item }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @basket_rule_item.errors, status: :unprocessable_content }
+        format.xml  { render xml: @basket_rule_item.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -74,7 +74,7 @@ class BasketRuleItemsController < ApplicationController
         format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @basket_rule_item.errors, status: :unprocessable_content }
+        format.xml  { render xml: @basket_rule_item.errors, status: :unprocessable_entity }
       end
     end
   end

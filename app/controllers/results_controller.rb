@@ -58,7 +58,7 @@ class ResultsController < ApplicationController
         format.xml  { render xml: @result, status: :created, location: @result }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @result.errors, status: :unprocessable_content }
+        format.xml  { render xml: @result.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -72,7 +72,7 @@ class ResultsController < ApplicationController
         format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @result.errors, status: :unprocessable_content }
+        format.xml  { render xml: @result.errors, status: :unprocessable_entity }
       end
     end
   end
