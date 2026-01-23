@@ -4,7 +4,7 @@
 # $Id$
 #
 class TeamsController < ApplicationController
-  FIND_SPORT_ACTIONS = [:index, :new, :create].freeze
+  FIND_SPORT_ACTIONS = [:index, :new].freeze
 
   before_action :find_sport, only: FIND_SPORT_ACTIONS
   before_action :find_sport_from_team, except: FIND_SPORT_ACTIONS
