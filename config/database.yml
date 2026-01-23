@@ -7,7 +7,7 @@ development:
   username: rails
   password: 123rails!
   host: localhost
-  port: 5433
+  port: 5434
 #  port: 3307
 # using the name rather than the IP address appears to
 # slow everything to a crawl but no idea why.
@@ -29,7 +29,7 @@ arthur:
   username: rails
   password: 123rails!
   host: localhost
-  port: 5433
+  port: 5434
 
 # Warning: The database defined as 'test' will be erased and
 # re-generated from your development database when you run 'rake'.
@@ -45,7 +45,7 @@ test:
   username: 'rails'
   password: '123rails!'
   host:  "127.0.0.1"
-  port: 5433
+  port: 5434
 
 production:
   adapter: postgresql
@@ -53,7 +53,7 @@ production:
   username: rails
   password: <%= ENV['MYSQL_STARSWAN_PASSWORD'] %>
   host: localhost
-  port: 5433
+  port: 5434
 
 pi:
   adapter: postgresql
