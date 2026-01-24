@@ -21,7 +21,7 @@ class CreatePrices < ActiveRecord::Migration[6.0]
       # chunk_time_interval: '8 hours',
       compress_segmentby: "market_runner_id",
       # delay compression because data cannot be deleted after this date
-      compression_interval: "7 days",
+      compress_after: "7 days",
     }
     create_table(:prices, id: false, hypertable: hypertable_options) do |t|
       t.bigint :market_runner_id, null: false
