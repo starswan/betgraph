@@ -6,7 +6,8 @@
 # Job needing access to Betfair API
 
 class BetfairJob < ApplicationJob
-  retry_on Curl::Err::TimeoutError
+  # this change appears to have been detrimental
+  # retry_on Curl::Err::TimeoutError
 
   def bc
     @@bc ||= BetfairLogin.new logger
