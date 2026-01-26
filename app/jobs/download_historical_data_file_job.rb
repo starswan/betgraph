@@ -135,7 +135,7 @@ private
             e = "#{event.name} #{event.kickofftime.to_fs(:kickoff)}"
             old = "#{o.betfair_marketid} #{o.name} Version [#{o.version}]"
             new = "#{market.fetch(:marketId)} #{market.fetch(:marketName)} Version [#{market.fetch(:version)}]"
-            price_count = o.market_runners.map(&:market_prices_count).sum
+            price_count = o.market_runners.map(&:prices_count).sum
             Rails.logger.warn("Destroying #{e} [#{price_count}] overlapping #{old} to make way for #{new}")
             # o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
             o.destroy!

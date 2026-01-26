@@ -125,7 +125,7 @@ module BetMarketsHelper
   end
 
   def homezero_prices(runners, goalcount, home:)
-    zeroprices = runners.map(&:market_prices)
+    zeroprices = runners.map(&:prices)
                          .reduce(&:+)
                          .sort_by { |p| p.market_price_time.time }
     x = zeroprices.reduce({ size: runners.size, map: {}, list: [] }) { |target, price|
