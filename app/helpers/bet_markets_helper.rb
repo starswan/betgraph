@@ -125,7 +125,7 @@ module BetMarketsHelper
   end
 
   def homezero_prices(runners, goalcount, home:)
-    zeroprices = runners.map(&:market_prices)
+    zeroprices = runners.map(&:prices)
                          .reduce(&:+)
                          .sort_by { |p| p.market_price_time.time }
     x = zeroprices.reduce({ size: runners.size, map: {}, list: [] }) { |target, price|
@@ -162,7 +162,7 @@ module BetMarketsHelper
 
   def bet_market_runner_data(runner)
     # 1000 is often used as a price when an outcome is impossible
-    prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
+    prices = runner.prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
     {
       # id: runner.id,
       label: "#{runner.bet_market.name} (#{runner.runnername})",
@@ -171,14 +171,15 @@ module BetMarketsHelper
     }
   end
 
+  # :nocov:
   def runner_market_data(_match, runners)
     runners.map do |runner|
-      prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price && p.lay1price && p.back1price < runner.bet_market.market_runners_count * 5 }
+      prices = runner.prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back_price && p.lay_price && p.back_price < runner.bet_market.market_runners_count * 5 }
       # prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price && p.lay1price }
       {
         name: runner.runnername,
         # data: prices.map { |p| [p.market_price_time.time, (1 - 1 / p.back1price).round(4)] }.to_h,
-        data: prices.map { |p| [p.market_price_time.time, 1 / p.back1price] }.to_h,
+        data: prices.map { |p| [p.market_price_time.time, 1 / p.back_price] }.to_h,
         # data: prices.map { |p|
         #         price = p.back_price_set.effectivePrice(2)[0]
         #         [p.market_price_time.time, (1 / price).round(4)]
@@ -186,6 +187,7 @@ module BetMarketsHelper
       }
     end
   end
+  # :nocov:
 
   # below here is the legacy code used for morris.js - it's too tightly bound to the library
   def bet_markets_labels(markets)
@@ -208,12 +210,12 @@ module BetMarketsHelper
 
   def runner_chart_data(runners)
     runners.map { |runner|
-      runner.market_prices
-          .select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price }
+      runner.prices
+          .select { |p| p.created_at >= runner.bet_market.time && p.back_price.present? }
           .map do |price|
         {
-          time: price.market_price_time.time,
-          runner.id => price.back1price.to_f,
+          time: price.created_at,
+          runner.id => price.back_price.to_f,
         }
       end
     }.flatten

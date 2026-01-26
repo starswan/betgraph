@@ -146,8 +146,8 @@ class BetMarket < ApplicationRecord
           awayvalue: runner.betfair_runner_type.runnerawayvalue.to_f,
           handicap: runner.handicap.to_f,
           # TODO: - this should be dependent on an amount, and reflect the prices available.
-          backprice: price.back1price.to_f,
-          layprice: price.lay1price.to_f }
+          backprice: price.back_price.to_f,
+          layprice: price.lay_price.to_f }
       end
       betfair_market_type.expected_value(rvs)
     else
@@ -167,8 +167,8 @@ class BetMarket < ApplicationRecord
       # Each of market_prices has a runner, backprice and layprice
       prices.each do |price|
         # Each price implies a value of lambda (expected value of market)
-        backprice = price.back1price
-        layprice = price.lay1price
+        backprice = price.back_price
+        layprice = price.lay_price
 
         runner = market_runners.detect { |mr| mr.id == price.market_runner_id }
 
@@ -205,12 +205,12 @@ class BetMarket < ApplicationRecord
       winners = []
     end
     if winners.empty?
-      if match.market_prices.empty?
+      if match.prices.empty?
         runners = market_runners.order(:sortorder)
       else
-        runners = market_runners.map(&:market_prices).flatten
-                    .sort_by { |p| p.lay1price.present? ? -1 / p.lay1price : (p.back1price.presence || 0) }
-                    .map(&:market_runner).uniq
+        runners = market_runners.map(&:prices).flatten
+                                .sort_by { |p| p.lay_price.present? ? -1 / p.lay_price : (p.back_price.presence || 0) }
+                                .map(&:market_runner).uniq
       end
       runners[0..0]
     else
@@ -259,10 +259,11 @@ class BetMarket < ApplicationRecord
 private
 
   def market_prices_at(time)
-    price_query = MarketPrice.where(market_runner: market_runners)
-    price_query.joins(:market_price_time)
-               .merge(MarketPriceTime.later_than(time))
-               # .merge(MarketPriceTime.earlier_than(time + 1.minute))
-               .uniq(&:market_runner_id)
+    # price_query = MarketPrice.where(market_runner: market_runners)
+    # price_query.joins(:market_price_time)
+    #   .merge(MarketPriceTime.later_than(time))
+    #   .uniq(&:market_runner)
+    price_query = Price.where(market_runner_id: market_runners.map(&:id))
+    price_query.merge(Price.later_than(time)).uniq(&:market_runner_id)
   end
 end
