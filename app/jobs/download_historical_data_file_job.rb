@@ -196,7 +196,7 @@ private
         # This optimisation is a folly as we delete markets if the price record has too many holes in it.
 
         mpt = MarketPriceTime.create! time: timestamp, created_at: timestamp if mpt.blank?
-        runner.market_prices.create! last_traded_price: runner_change.fetch(:ltp), market_price_time: mpt
+        runner.prices.create! last_traded_price: runner_change.fetch(:ltp), market_price_time: mpt
       end
     end
   end
