@@ -83,7 +83,7 @@ class MatchesController < ApplicationController
   # DELETE /matches/1
   # DELETE /matches/1.xml
   def destroy
-    @match.destroy
+    @match.discard!
 
     DestroyObjectJob.perform_later @match
 

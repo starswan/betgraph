@@ -4,7 +4,8 @@
 # $Id$
 #
 class Match < ApplicationRecord
-  acts_as_paranoid
+  include Discard::Model
+  self.discard_column = :deleted_at
 
   before_validation :add_season, if: -> { division.present? && kickofftime.present? }
 
@@ -32,12 +33,12 @@ class Match < ApplicationRecord
   end
 
   scope :ordered_by_date, -> { order(:kickofftime) }
-  scope :earlier_than, ->(datetime) { where("kickofftime <= ?", datetime) }
-  scope :almost_live, -> { where("kickofftime <= ?", Time.now + 15.minutes) }
-  scope :live_priced, -> { where(live_priced: true) }
-  scope :future, -> { where("kickofftime >= ?", Time.now) }
-  scope :played_on, ->(date) { where("kickofftime >= ?", date.to_date).where("kickofftime < ?", (date + 1.day).to_date) }
-  scope :with_prices, -> { where.not(market_prices_count: 0) }
+  scope :earlier_than, ->(datetime) { kept.where("kickofftime <= ?", datetime) }
+  scope :almost_live, -> { kept.where("kickofftime <= ?", Time.now + 15.minutes) }
+  scope :live_priced, -> { kept.where(live_priced: true) }
+  scope :future, -> { kept.where("kickofftime >= ?", Time.now) }
+  scope :played_on, ->(date) { kept.where("kickofftime >= ?", date.to_date).where("kickofftime < ?", (date + 1.day).to_date) }
+  scope :with_prices, -> { kept.where.not(market_prices_count: 0) }
 
   scope :activelive, lambda {
     almost_live.joins(:bet_markets).merge(BetMarket.not_closed_or_suspended).distinct

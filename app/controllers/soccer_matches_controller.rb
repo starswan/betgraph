@@ -79,7 +79,7 @@ class SoccerMatchesController < ApplicationController
   # DELETE /soccer_matches/1
   # DELETE /soccer_matches/1.xml
   def destroy
-    @football_match.destroy
+    @football_match.discard!
     DestroyObjectJob.perform_later @football_match
 
     respond_to do |format|

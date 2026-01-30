@@ -3,7 +3,9 @@
 #
 class BetMarket < ApplicationRecord
   # soft delayed background deletes - could cascade and take ages
-  acts_as_paranoid
+  include Discard::Model
+  self.discard_column = :deleted_at
+
   # the 'active' flag is set false either by the market type being inactive (due to it being new)
   # if runners get deleted then the 'deleted' flag is set
   # 17-Oct-2015 Betfair started producing blank markettypes for next goalscorer - 2nd and 3rd (and 4th...) goals
@@ -33,8 +35,8 @@ class BetMarket < ApplicationRecord
 
   # mark historical data loads so that they don't get culled due to holes in the data
   validates :price_source, inclusion: { in: %w[RestAPI HistoricalData], allow_nil: false }
-  scope :api_priced, -> { where(price_source: "RestAPI") }
-  scope :with_historical_prices, -> { where(price_source: "HistoricalData") }
+  scope :api_priced, -> { kept.where(price_source: "RestAPI") }
+  scope :with_historical_prices, -> { kept.where(price_source: "HistoricalData") }
 
   # Yes some of these markets aren't strictly 'Asian Handicap' markets but they behave like it
   # for pricing purposes i.e. each runner has a 'handicap' value associated with it.
@@ -63,7 +65,7 @@ class BetMarket < ApplicationRecord
 
   scope :by_betfair_market_id, lambda { |marketid|
     exchange_id, market_id = marketid.split(".")
-    where exchange_id: exchange_id, marketid: market_id
+    kept.where exchange_id: exchange_id, marketid: market_id
   }
 
   scope :active, lambda {
@@ -90,15 +92,15 @@ class BetMarket < ApplicationRecord
       .order(:time)
   }
 
-  scope :active_status, -> { where(active: true) }
-  scope :closed, -> { where(status: CLOSED) }
-  scope :not_closed, -> { where.not(status: CLOSED) }
-  scope :not_closed_or_suspended, -> { where.not(status: [CLOSED, SUSPENDED]) }
+  scope :active_status, -> { kept.where(active: true) }
+  scope :closed, -> { kept.where(status: CLOSED) }
+  scope :not_closed, -> { kept.where.not(status: CLOSED) }
+  scope :not_closed_or_suspended, -> { kept.where.not(status: [CLOSED, SUSPENDED]) }
 
   scope :asian_handicap, -> { where(markettype: ASIAN_MARKET_TYPES) }
 
-  scope :half_time, -> { joins(:betfair_market_type).merge(BetfairMarketType.half_time) }
-  scope :full_time, -> { joins(:betfair_market_type).merge(BetfairMarketType.full_time) }
+  scope :half_time, -> { kept.joins(:betfair_market_type).merge(BetfairMarketType.half_time) }
+  scope :full_time, -> { kept.joins(:betfair_market_type).merge(BetfairMarketType.full_time) }
 
   delegate :half_time?, to: :betfair_market_type
 

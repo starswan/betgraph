@@ -60,7 +60,7 @@ class BetMarketsController < ApplicationController
   # DELETE /bet_markets/1.json
   def destroy
     bet_market = BetMarket.find(params[:id])
-    bet_market.destroy
+    bet_market.discard!
     DestroyObjectJob.perform_later bet_market
 
     respond_to do |format|

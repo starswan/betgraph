@@ -17,16 +17,12 @@ RSpec.describe DestroyDeletedMatchesJob, type: :job do
 
   before do
     x = create(:soccer_match, division: division, name: "#{hometeam} v #{awayteam}")
-    x.destroy
+    x.discard!
   end
 
-  # This does work, it's just some quirk that stops this test from working
   it "destroys deleted matches" do
-    # expect(Match.with_deleted.count).to eq(1)
     expect {
       described_class.perform_now
-      # expect(Match.with_deleted.count).to eq(0)
-    }.to change { Match.only_deleted.count }.by(-1)
-    # expect(Match.with_deleted.count).to eq(0)
+    }.to change { Match.discarded.count }.by(-1)
   end
 end

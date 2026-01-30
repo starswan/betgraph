@@ -90,8 +90,6 @@ GEM
       activesupport (>= 3.0.0)
       ruby2_keywords (>= 0.0.2)
     ast (2.4.3)
-    autoprefixer-rails (10.4.21.0)
-      execjs (~> 2)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -409,8 +407,6 @@ GEM
     parallel (1.27.0)
     parallel_tests (5.5.0)
       parallel
-    paranoia (3.0.1)
-      activerecord (>= 6, < 8.1)
     parser (3.3.10.0)
       ast (~> 2.4.1)
       racc
@@ -677,7 +673,6 @@ DEPENDENCIES
   activeadmin
   activemodel-serializers-xml
   acts_as_tree
-  autoprefixer-rails
   backburner
   backup-task
   bcrypt_pbkdf
@@ -719,7 +714,6 @@ DEPENDENCIES
   kaminari
   listen
   parallel_tests
-  paranoia
   passenger (~> 5.0)
   pg
   pronto
