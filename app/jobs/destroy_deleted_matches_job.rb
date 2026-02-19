@@ -8,10 +8,10 @@ class DestroyDeletedMatchesJob < ApplicationJob
   queue_priority PRIORITY_DESTROY_OBJECT
 
   def perform
-    Match.only_deleted.each do |match|
+    Match.discarded.each do |match|
       DestroyObjectJob.perform_later(match)
     end
-    BetMarket.only_deleted.each do |match|
+    BetMarket.discarded.each do |match|
       DestroyObjectJob.perform_later(match)
     end
   end

@@ -95,16 +95,11 @@ RSpec.describe BetMarket do
   end
 
   describe "#destroy" do
-    it "destroys runners when market is destroyed" do
+    it "destroys runners and market prices when market is destroyed" do
       expect {
         bet_market.destroy
       }.to change(MarketRunner, :count).by(-3)
-    end
-
-    it "destroys market prices when market destroyed" do
-      expect {
-        bet_market.really_destroy!
-      }.to change(MarketPrice, :count).by(-6)
+                   .and change(MarketPrice, :count).by(-6)
     end
   end
 
