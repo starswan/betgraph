@@ -27,7 +27,7 @@
         <td><%= bet_market.name %></td>
         <td><%= bet_market.markettype %></td>
         <td align="right"><%= link_to bet_market.market_runners_count, bet_market_market_runners_path(bet_market) %></td>
-        <td align="right"><%= bet_market.market_prices_count %></td>
+        <td align="right"><%= bet_market.prices_count %></td>
         <td><%= bet_market.status %></td>
         <td><%= link_to bet_market.betfair_market_type.name, bet_market.betfair_market_type %></td>
         <td><%= bet_market.betfair_market_type.valuer %></td>

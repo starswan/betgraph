@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -86,27 +84,20 @@ private
         price = prices[dbrunner.selectionId]
         next unless price
 
-        pricelist = price[dbrunner.handicap.to_s]
+        pricelist = price[dbrunner.handicap.to_s] || []
         # This price might not be always valid - so allow the validation
         # to strip it out in this case. e.g. when there are no prices or when they are just complete nonsense
-        if pricelist
-          mp = MarketPrice.new market_runner: dbrunner,
-                               market_price_time: mpt,
-                               status: pricelist.status,
-                               back1price: extract_price(pricelist.availableToBack, 0),
-                               back1amount: extract_amount(pricelist.availableToBack, 0),
-                               lay1price: extract_price(pricelist.availableToLay, 0),
-                               lay1amount: extract_amount(pricelist.availableToLay, 0),
-                               back2price: extract_price(pricelist.availableToBack, 1),
-                               back2amount: extract_amount(pricelist.availableToBack, 1),
-                               lay2price: extract_price(pricelist.availableToLay, 1),
-                               lay2amount: extract_amount(pricelist.availableToLay, 1),
-                               back3price: extract_price(pricelist.availableToBack, 2),
-                               back3amount: extract_amount(pricelist.availableToBack, 2),
-                               lay3price: extract_price(pricelist.availableToLay, 2),
-                               lay3amount: extract_amount(pricelist.availableToLay, 2)
-          group.market_prices << mp
+        back_prices = 0.upto(2).map do |index|
+          Price.new market_runner: dbrunner,
+                    market_price_time: mpt,
+                    depth: index + 1,
+                    back_price: extract_price(pricelist.availableToBack, index),
+                    back_amount: extract_amount(pricelist.availableToBack, index),
+                    lay_price: extract_price(pricelist.availableToLay, index),
+                    lay_amount: extract_amount(pricelist.availableToLay, index)
         end
+
+        group.market_prices += back_prices.select(&:valid?)
       end
       if group.valid?
         group.market_prices.each(&:save!)
