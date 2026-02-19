@@ -162,7 +162,7 @@ group :development do
   gem "capistrano-rvm", require: false
 
   # required for passenger support
-  gem 'rexml'
+  gem "rexml"
 
   gem "rubocop-govuk"
   gem "rubocop-performance"
