@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
+ActiveRecord::Schema[7.0].define(version: 2024_03_01_070930) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  # enable_extension "timescaledb"
+  enable_extension "timescaledb"
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -88,7 +88,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
     t.boolean "live_priced", default: false, null: false
     t.bigint "match_id", null: false
     t.integer "exchange_id", null: false
-    t.integer "market_prices_count", default: 0, null: false
+    t.integer "prices_count", default: 0, null: false
     t.integer "market_runners_count", default: 0, null: false
     t.datetime "deleted_at", precision: nil
     t.bigint "version"
@@ -171,30 +171,8 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
   create_table "market_price_times", force: :cascade do |t|
     t.datetime "time", precision: nil, null: false
     t.datetime "created_at", precision: nil
-    t.integer "market_prices_count", default: 0, null: false
+    t.integer "prices_count", default: 0, null: false
     t.index ["time"], name: "index_market_price_times_on_time_and_bet_market_id"
-  end
-
-  create_table "market_prices", force: :cascade do |t|
-    t.bigint "market_runner_id"
-    t.decimal "back1price", precision: 7, scale: 3
-    t.decimal "lay1price", precision: 7, scale: 3
-    t.decimal "back2price", precision: 7, scale: 3
-    t.decimal "lay2price", precision: 7, scale: 3
-    t.decimal "back3price", precision: 7, scale: 3
-    t.decimal "lay3price", precision: 7, scale: 3
-    t.decimal "back1amount", precision: 9, scale: 2
-    t.decimal "lay1amount", precision: 9, scale: 2
-    t.decimal "back2amount", precision: 9, scale: 2
-    t.decimal "lay2amount", precision: 9, scale: 2
-    t.decimal "back3amount", precision: 9, scale: 2
-    t.decimal "lay3amount", precision: 9, scale: 2
-    t.bigint "market_price_time_id", null: false
-    t.string "status", limit: 20, default: "ACTIVE", null: false
-    t.decimal "last_traded_price", precision: 9, scale: 2
-    t.index ["market_price_time_id", "market_runner_id"], name: "market_prices_price_time_runner", unique: true
-    t.index ["market_price_time_id"], name: "index_market_prices_on_market_price_time_id"
-    t.index ["market_runner_id"], name: "market_prices_market_runner_id"
   end
 
   create_table "market_runners", force: :cascade do |t|
@@ -206,7 +184,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
     t.datetime "created_at", precision: nil
     t.datetime "updated_at", precision: nil
     t.integer "sortorder"
-    t.integer "market_prices_count", default: 0
+    t.integer "prices_count", default: 0
     t.integer "betfair_runner_type_id", null: false
     t.index ["bet_market_id"], name: "index_market_runners_on_bet_market_id"
     t.index ["betfair_runner_type_id"], name: "index_market_runners_on_betfair_runner_type_id"
@@ -236,7 +214,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
     t.bigint "venue_id", null: false
     t.integer "bet_markets_count", default: 0
     t.bigint "season_id"
-    t.integer "market_prices_count", default: 0, null: false
+    t.integer "prices_count", default: 0, null: false
     t.date "date", null: false
     t.datetime "deleted_at", precision: nil
     t.integer "betfair_event_id"
@@ -247,6 +225,19 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
     t.index ["live_priced"], name: "index_matches_on_live_priced"
     t.index ["season_id"], name: "index_matches_on_season_id"
     t.index ["venue_id"], name: "matches_venue_id_fk"
+  end
+
+  create_table "prices", id: false, force: :cascade do |t|
+    t.bigint "market_runner_id", null: false
+    t.bigint "market_price_time_id", null: false
+    t.decimal "back_price", precision: 7, scale: 3
+    t.decimal "back_amount", precision: 9, scale: 2
+    t.decimal "lay_price", precision: 7, scale: 3
+    t.decimal "lay_amount", precision: 9, scale: 2
+    t.decimal "last_traded_price", precision: 7, scale: 3
+    t.integer "depth", default: 0, null: false
+    t.datetime "created_at", null: false
+    t.index ["created_at"], name: "prices_created_at_idx", order: :desc
   end
 
   create_table "results", force: :cascade do |t|
@@ -370,8 +361,6 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
   add_foreign_key "betfair_market_types", "sports"
   add_foreign_key "betfair_runner_types", "betfair_market_types"
   add_foreign_key "football_divisions", "divisions"
-  add_foreign_key "market_prices", "market_price_times"
-  add_foreign_key "market_prices", "market_runners"
   add_foreign_key "market_runners", "bet_markets"
   add_foreign_key "match_teams", "matches"
   add_foreign_key "match_teams", "teams"
@@ -387,4 +376,5 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_28_200715) do
   add_foreign_key "team_totals", "teams"
   add_foreign_key "teams", "sports"
   add_foreign_key "trades", "market_runners"
+  create_hypertable "prices", time_column: "created_at", chunk_time_interval: "7 days", compress_segmentby: "market_runner_id", compress_orderby: "created_at ASC", compress_after: "P7D"
 end
