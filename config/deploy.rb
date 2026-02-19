@@ -77,4 +77,4 @@ namespace :yarn do
 end
 
 # after "deploy:updated", "bundler:symlink_bundled_gems"
-before "deploy:assets:precompile", "yarn:install"
+# before "deploy:assets:precompile", "yarn:install"
