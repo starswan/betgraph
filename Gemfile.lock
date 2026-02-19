@@ -368,7 +368,6 @@ GEM
     matrix (0.4.2)
     method_source (1.1.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.9)
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
@@ -394,9 +393,6 @@ GEM
       net-protocol
     net-ssh (7.3.0)
     nio4r (2.7.5)
-    nokogiri (1.19.4)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
     nokogiri (1.19.4-arm-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-linux-gnu)
@@ -409,7 +405,7 @@ GEM
       sawyer (~> 0.9)
     open4 (1.3.4)
     orm_adapter (0.5.0)
-    ostruct (0.5.5)
+    ostruct (0.6.3)
     parallel (1.27.0)
     parallel_tests (5.6.0)
       parallel
@@ -635,6 +631,11 @@ GEM
     thread_safe (0.3.6)
     timecop (0.9.10)
     timeout (0.6.1)
+    timescaledb (0.3.3)
+      activerecord
+      activesupport
+      ostruct
+      pg (~> 1.2)
     tsort (0.2.0)
     tty-which (0.5.0)
     tzinfo (2.0.6)
@@ -676,7 +677,6 @@ GEM
 
 PLATFORMS
   arm-linux-gnu
-  ruby
   x86_64-linux-gnu
 
 DEPENDENCIES
@@ -726,7 +726,6 @@ DEPENDENCIES
   jbuilder (~> 2.14)
   jsbundling-rails
   kaminari
-  ostruct (< 0.5.6)
   parallel_tests
   passenger
   pg
@@ -753,6 +752,7 @@ DEPENDENCIES
   simplecov-lcov (< 0.9)
   stringio (< 3.2)
   timecop
+  timescaledb
   uglifier (>= 1.3.0)
   undercover (< 0.7)
   vcr
