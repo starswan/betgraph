@@ -20,7 +20,7 @@ module BetMarkets
     let(:bet_market) do
       create(:bet_market, match: soccermatch,
                           market_runners: build_list(:market_runner, 1,
-                                                     market_prices: build_list(:market_price, 1, market_price_time: market_price_time)))
+                                                     prices: build_list(:price, 1, market_price_time: market_price_time)))
     end
 
     describe "#index" do

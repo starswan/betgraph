@@ -11,7 +11,7 @@ class DeleteInactiveMarketsJob < ApplicationJob
   SENSIBLE_MARKET_PRICE_COUNT = 6
 
   def perform
-    BetMarket.where(market_prices_count: 0).each do |bet_market|
+    BetMarket.where(prices_count: 0).each do |bet_market|
       destroy_object(bet_market) unless bet_market.open?
     end
     # how to replace this now market_price_times at match level...?
