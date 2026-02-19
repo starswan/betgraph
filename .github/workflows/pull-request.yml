@@ -45,9 +45,6 @@ jobs:
       - name: Update to latest
         run: sudo apt update
 
-      - name: Install libcurl for 'curb' gem
-        run: sudo apt install libcurl4-openssl-dev
-
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:

@@ -10,7 +10,7 @@ class BetfairLogin
     # login = Login.find_by name: "betfair"
     headers = { "X-Application" => ENV["BETFAIR_API_KEY"] }
     # @bc = Betfair::Client.new headers, { adapter: :net_http_persistent }
-    @bc = Betfair::Client.new headers, { adapter: :curb, read_timeout: 1.minute, open_timeout: 10.seconds }
+    @bc = Betfair::Client.new headers, { adapter: :httpclient, read_timeout: 1.minute, open_timeout: 10.seconds }
     @bc.non_interactive_login(ENV["BETFAIR_USER"],
                               ENV["BETFAIR_PASS"],
                               add_home(Settings.keyfile),

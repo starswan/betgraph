@@ -16,12 +16,10 @@ gem "acts_as_tree"
 gem "backburner"
 gem "backup-task"
 
-# gem "betfair", path: "#{ENV['HOME']}/starswan.git/projects/betfair"
 gem "betfair-ng", require: "betfair"
 # sadly net-http-persistent doesn't respect https_proxy env var
 # so doesn't work on alice
-# webmock isn't sure if this version works
-gem "curb", "< 1.3"
+gem "httpclient"
 
 # rails 5.2 faster load times
 gem "bootsnap"
