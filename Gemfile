@@ -35,7 +35,7 @@ gem "clockwork"
 gem "coffee-rails"
 
 # pin until Rails 7.1
-gem "concurrent-ruby", "< 1.3.5"
+gem "concurrent-ruby", "< 1.3.7"
 
 gem "config"
 # turbo-charged counter caches https://github.com/magnusvk/counter_culture
