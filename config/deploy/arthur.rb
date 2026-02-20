@@ -13,20 +13,22 @@
 # role :web, %w{deploy@example.com}
 # role :db,  %w{deploy@example.com}
 
-require "rvm/capistrano"
+# require "rvm/capistrano"
 
 set :deploy_to, "/home/stephen/betgraph"
-set :user, "stephen"
+# set :user, "stephen"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :rails_env, "arthur"
-set :rvm_ruby_string, "3.2.9@bg"
+set :rvm_ruby_version, "3.2.9@bg"
 # RVM now installed on arthur via an apt package
 # not on Debian it's not
-set :rvm_type, "/usr/share/rvm"
+# set :rvm_type, "/usr/share/rvm"
+set :rvm_type, :system
+set :rvm_custom_path, "/usr/share/rvm"
 
 # set :linked_files, fetch(:linked_files, []) << ".env.arthur"
-set :linked_files, fetch(:linked_files, []) << ".env.arthur"
+append :linked_files, ".env.arthur"
 
 # Extended Server Syntax
 # ======================
@@ -35,7 +37,8 @@ set :linked_files, fetch(:linked_files, []) << ".env.arthur"
 # used to set extended properties on the server.
 
 # server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
-server "arthur.broadband", :web, :app, :db, primary: true
+# server "arthur.broadband", :web, :app, :db, primary: true
+server "arthur.broadband", user: "stephen", roles: %w[app db web]
 
 # Custom SSH Options
 # ==================

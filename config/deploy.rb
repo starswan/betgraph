@@ -1,22 +1,10 @@
-# frozen_string_literal: true
+# config valid for current version and patch releases of Capistrano
+lock "~> 3.19.2"
 
-#
-# $Id$
-#
-# RVM bootstrap
-#
-require "capistrano/ext/multistage"
-set :stages, %w(alice pi arthur dell)
-set :default_stage, "arthur"
-set :linked_dirs, %w{node_modules}
+# set :application, "my_app_name"
 
-# set :rvm_ruby_string, '2.2.4'
-# set :rvm_type, :user
-# this is deprecated in bundler 2.2.x
-# set :bundle_without, %i[development test]
-# set :rvm_install_type, '1.26.10'
-# Using distcc this number can maybe go higher
-# set :rvm_install_ruby_threads, 3
+# Default branch is :master
+# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # main details
 set :application, "betgraph"
@@ -25,82 +13,68 @@ set :application, "betgraph"
 # role :db,  "alice", :primary => true
 # role :local, "localhost", :primary => true
 
-# server details
-# default_run_options[:pty] = true
-# ssh_options[:forward_agent] = true
-# set :deploy_to, "/home/starswan/html/bfrails4"
-set :deploy_via, :copy
-# set :user, "starswan"
-set :use_sudo, false
-
+# Default value for :format is :airbrussh.
+# set :format, :airbrussh
 if ENV.key? "BRANCH"
-  set :scm, :git
-  set :repository, "git@github.com:starswan/betgraph.git"
+  # set :scm, :git
+  set :repo_url, "git@github.com:starswan/betgraph.git"
   set :branch, ENV.fetch("BRANCH")
 else
   # repo details
-  set :scm, :subversion
-  set :repository, "http://arthur/svn/starswan/trunk/projects/betgraph"
+  # set :scm, :subversion
+  set :repo_url, "http://arthur/svn/starswan/trunk/projects/betgraph"
 end
 
-# runtime dependencies
-# depend :remote, :gem, "bundler", ">=1.0.0.rc.2"
+# You can configure the Airbrussh format using :format_options.
+# These are the defaults.
+# set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
 
-# tasks
-namespace :deploy do
-  task :start, roles: :app do
-    run "touch #{current_path}/tmp/restart.txt"
-  end
+# Default value for :pty is false
+# set :pty, true
 
-  task :stop, roles: :app do
-    # Do nothing.
-  end
+# Default value for :linked_files is []
+# append :linked_files, "config/database.yml", 'config/master.key'
 
-  desc "Restart Application"
-  task :restart, roles: :app do
-    run "touch #{current_path}/tmp/restart.txt"
-    run "#{current_path}/prog_stop.sh clock"
-    run "#{current_path}/prog_stop.sh queue"
-    run "#{current_path}/prog_stop.sh queue2"
-    run "#{current_path}/prog_stop.sh queue3"
-    # run "#{current_path}/prog_stop.sh queue4"
-    # Wakey wakey monit, work to do...
-    run "monit reload"
-  end
+# Default value for linked_dirs is []
+append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "vendor", "storage", "node_modules"
 
-  desc "Symlink shared resources on each release"
-  task :symlink_shared, roles: :app do
-    # run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    fetch(:linked_files, []).each do |f|
-      run "ln -nfs #{shared_path}/#{f} #{release_path}/#{f}"
+# Default value for default_env is {}
+# set :default_env, { path: "/opt/ruby/bin:$PATH" }
+
+# Default value for local_user is ENV['USER']
+# set :local_user, -> { `git config user.name`.chomp }
+
+# Default value for keep_releases is 5
+set :keep_releases, 5
+
+# Uncomment the following to require manually verifying the host key before first deploy.
+# set :ssh_options, verify_host_key: :secure
+
+# namespace :bundler do
+#   desc "Symlink bundled gems on each release"
+#   task :symlink_bundled_gems do
+#     on roles(:app) do
+#       run "mkdir -p #{shared_path}/bundled_gems"
+#       run "ln -nfs #{shared_path}/bundled_gems #{release_path}/vendor/bundle"
+#     end
+#   end
+#
+#   desc "Install for production"
+#   task :install do
+#     on roles(:app) do
+#       execute "cd #{release_path} && bundle config set deployment true"
+#       execute "cd #{release_path} && bundle config set without 'development test'"
+#       execute "cd #{release_path} && bundle package && bundle install"
+#     end
+#   end
+# end
+namespace :yarn do
+  task :install do
+    on roles(:app) do
+      execute "cd #{release_path} && yarn install --prod"
     end
   end
 end
 
-after "deploy:update_code", "deploy:symlink_shared"
-
-namespace :bundler do
-  desc "Symlink bundled gems on each release"
-  task :symlink_bundled_gems, roles: :app do
-    run "mkdir -p #{shared_path}/bundled_gems"
-    run "ln -nfs #{shared_path}/bundled_gems #{release_path}/vendor/bundle"
-  end
-
-  desc "Install for production"
-  task :install, roles: :app do
-    run "cd #{release_path} && bundle config set without 'development test'"
-    run "cd #{release_path} && bundle install"
-    run "chmod 600 #{release_path}/monitrc.arthur"
-  end
-end
-
-namespace :yarn do
-  task :install, roles: :app do
-    run "cd #{release_path} && yarn install --prod"
-  end
-end
-
-after "deploy:update_code", "bundler:symlink_bundled_gems"
-before "deploy:assets:precompile", "bundler:install"
-before "deploy:assets:precompile", "yarn:install"
-after "deploy:update_code", "deploy:migrate"
+# after "deploy:updated", "bundler:symlink_bundled_gems"
+# before "deploy:assets:precompile", "yarn:install"
