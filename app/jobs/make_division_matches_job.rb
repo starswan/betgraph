@@ -58,7 +58,7 @@ class MakeDivisionMatchesJob < BetfairJob
     if existing_match.present?
       existing_match
     else
-      match_type_klass.where(name: name).where("kickofftime > ?", Time.zone.now).find_each(&:destroy)
+      match_type_klass.where(name: name).reject { |x| x.result.present? }.each(&:destroy!)
       match_type_klass.create! division: division, kickofftime: kickofftime, name: name, betfair_event_id: event.fetch(:id)
     end
   end
