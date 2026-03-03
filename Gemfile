@@ -15,7 +15,7 @@ gem "acts_as_tree"
 
 gem "backburner"
 gem "backup-task"
-
+gem "base64", "< 0.3.0"
 gem "betfair-ng", require: "betfair"
 
 # sadly net-http-persistent doesn't respect https_proxy env var
