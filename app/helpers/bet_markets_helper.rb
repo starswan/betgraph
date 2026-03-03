@@ -178,7 +178,7 @@ module BetMarketsHelper
       {
         name: runner.runnername,
         # data: prices.map { |p| [p.market_price_time.time, (1 - 1 / p.back1price).round(4)] }.to_h,
-        data: prices.map { |p| [p.market_price_time.time, 1 / p.back1price] }.to_h,
+        data: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
         # data: prices.map { |p|
         #         price = p.back_price_set.effectivePrice(2)[0]
         #         [p.market_price_time.time, (1 / price).round(4)]
