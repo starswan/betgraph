@@ -9,7 +9,6 @@ class DownloadHistoricalDataFileJob < BetfairJob
   retry_on Bzip2::FFI::Error::MagicDataError
   # don't allow network errors to kill jobs
   retry_on HTTPClient::ReceiveTimeoutError
-  retry_on HTTPClient::ConnectTimeoutError
 
   def perform(filename)
     data = Enumerator.new do |yielder|
