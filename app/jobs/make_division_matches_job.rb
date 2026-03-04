@@ -56,7 +56,7 @@ class MakeDivisionMatchesJob < BetfairJob
     match_type_klass = division.calendar.sport.match_type.constantize
     # existing_match = match_type_klass.find_by(division: division, kickofftime: kickofftime, name: name)
     existing_match = match_type_klass.where(division: division, name: name)
-                                     .where("kickofftime >= ? and kickofftime <= ?", starttime.to_date, (starttime + 1.day).to_date)
+                                     .where("kickofftime >= ? and kickofftime <= ?", kickofftime.to_date, (kickofftime + 1.day).to_date)
                                      .first
     if existing_match.present?
       existing_match
