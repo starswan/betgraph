@@ -105,7 +105,7 @@ GEM
       thor (>= 0.15.4, < 2)
     backup-task (0.2.0)
       backup (~> 3.0.9)
-    base64 (0.2.0)
+    base64 (0.3.0)
     bcrypt (3.1.21)
     bcrypt_pbkdf (1.1.1)
     beaneater (1.1.3)
