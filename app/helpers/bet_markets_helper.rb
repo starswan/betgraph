@@ -94,7 +94,7 @@ module BetMarketsHelper
   end
 
   def lambda_data(markets, name, limit)
-    cs = markets.detect { |bm| bm.betfair_market_type.valuer == name }
+    cs = markets.detect { |bm| bm.betfair_market_type.valuer == name && bm.betfair_market_type.param1 < limit }
     homes = 0.upto(limit).map do |x|
       {
         label: "\u{3BB}H#{x}",
