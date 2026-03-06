@@ -40,8 +40,6 @@
                 <%= link_to t('.bet', :default => t("helpers.links.bet")),
                             new_market_runner_trade_path(market_runner), :class => 'btn btn-xs' %>
               <% end %>
-              <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                          edit_market_runner_path(market_runner), :class => 'btn btn-sm btn-outline-primary' %>
               <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                           market_runner_path(market_runner),
                           :method => :delete,

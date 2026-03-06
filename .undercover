@@ -1,1 +1,1 @@
--c origin/main -f '*.rb,*.ru,Rakefile'
+-c origin/main

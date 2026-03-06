@@ -7,6 +7,8 @@ class DownloadHistoricalDataFileJob < BetfairJob
   # It seems that Betfair sometimes give us a good (HTTP?) status but bad data from their API
   # so retry if that happens
   retry_on Bzip2::FFI::Error::MagicDataError
+  # don't allow network errors to kill jobs
+  retry_on HTTPClient::ReceiveTimeoutError
 
   def perform(filename)
     data = Enumerator.new do |yielder|
@@ -154,7 +156,7 @@ private
             bet_market.market_runners.detect { |r| r.selectionId == h.fetch(:id) }
           end
           # :nocov:
-          to_delete.compact.each(&:really_destroy!)
+          to_delete.compact.each(&:destroy!)
           actives = runners.reject { |r| r.fetch(:status) == "REMOVED" }
           MakeRunnersJob.perform_now(bet_market, actives)
         end
