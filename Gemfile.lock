@@ -682,7 +682,6 @@ DEPENDENCIES
   acts_as_tree
   backburner
   backup-task
-  base64 (< 0.3.0)
   bcrypt_pbkdf
   betfair-ng
   binding_of_caller
