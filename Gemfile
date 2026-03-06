@@ -137,7 +137,7 @@ group :development, :test do
   # gem "selenium-webdriver", "< 4.11"
 
   # gem "spring"
-  gem "undercover"
+  gem "undercover", "< 0.7"
 end
 
 group :development do
@@ -177,7 +177,7 @@ group :test do
 
   gem "timecop"
   gem "simplecov", require: false
-  gem "simplecov-lcov", require: false
+  gem "simplecov-lcov", "< 0.9", require: false
   gem "factory_bot_rails"
   # needed for rails 5.x and above
   gem "rails-controller-testing"

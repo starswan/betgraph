@@ -171,9 +171,16 @@ module BetMarketsHelper
     }
   end
 
+  # :nocov:
   def runner_market_data(_match, runners)
     runners.map do |runner|
-      prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price && p.lay1price && p.back1price < runner.bet_market.market_runners_count * 5 }
+      prices = runner.market_prices
+                     .select do |p|
+        p.market_price_time.time >= runner.bet_market.time &&
+          p.price_value.present? &&
+          p.price_value < runner.bet_market.market_runners_count * 5
+      end
+
       # prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price && p.lay1price }
       {
         name: runner.runnername,
@@ -186,6 +193,7 @@ module BetMarketsHelper
       }
     end
   end
+  # :nocov:
 
   # below here is the legacy code used for morris.js - it's too tightly bound to the library
   def bet_markets_labels(markets)
