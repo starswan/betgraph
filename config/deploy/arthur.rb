@@ -19,16 +19,18 @@ set :deploy_to, "/home/stephen/betgraph"
 # set :user, "stephen"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
-set :rails_env, "arthur"
-set :rvm_ruby_version, "3.2.9@bg"
+set :rails_env, "production"
+set :rvm_ruby_version, "3.2.10@bg"
 # RVM now installed on arthur via an apt package
 # not on Debian it's not
 # set :rvm_type, "/usr/share/rvm"
-set :rvm_type, :system
-set :rvm_custom_path, "/usr/share/rvm"
+# back to user install to support ruby 4.x
+# set :rvm_type, :system
+# set :rvm_custom_path, "/usr/share/rvm"
 
 # set :linked_files, fetch(:linked_files, []) << ".env.arthur"
-append :linked_files, ".env.arthur"
+# append :linked_files, ".env.arthur"
+append :linked_files, ".env.production"
 
 # Extended Server Syntax
 # ======================

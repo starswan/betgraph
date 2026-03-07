@@ -17,7 +17,7 @@
 
 set :deploy_to, "/home/starswan/html/betgraph"
 # set :user, "starswan"
-set :rvm_ruby_version, "3.2.9@bg"
+set :rvm_ruby_version, "3.2.10@bg"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :default_environment,

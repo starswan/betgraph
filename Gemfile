@@ -15,7 +15,7 @@ gem "acts_as_tree"
 
 gem "backburner"
 gem "backup-task"
-# gem "base64", "< 0.3.0"
+gem "base64", "< 0.1.2"
 gem "betfair-ng", require: "betfair"
 
 # sadly net-http-persistent doesn't respect https_proxy env var
@@ -69,6 +69,9 @@ gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 7", "< 7.1"
+
+gem "stringio", "< 3.2"
+
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 
@@ -79,7 +82,7 @@ gem "uglifier", ">= 1.3.0"
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Passenger as the app server
-gem "passenger", "~> 5.0"
+gem "passenger"
 # gem 'unicorn'
 
 # BZip 2 support
