@@ -20,7 +20,7 @@ set :deploy_to, "/home/stephen/betgraph"
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads, 5
 set :rails_env, "production"
-set :rvm_ruby_version, "3.2.9@bg"
+set :rvm_ruby_version, "3.2.10@bg"
 # RVM now installed on arthur via an apt package
 # not on Debian it's not
 # set :rvm_type, "/usr/share/rvm"
