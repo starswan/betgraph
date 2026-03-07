@@ -236,7 +236,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_03_01_070930) do
     t.decimal "lay_amount", precision: 9, scale: 2
     t.decimal "last_traded_price", precision: 7, scale: 3
     t.integer "depth", default: 0, null: false
-    t.datetime "created_at", null: false
+    t.timestamptz "created_at", null: false
     t.index ["created_at"], name: "prices_created_at_idx", order: :desc
   end
 
@@ -377,4 +377,6 @@ ActiveRecord::Schema[7.0].define(version: 2024_03_01_070930) do
   add_foreign_key "teams", "sports"
   add_foreign_key "trades", "market_runners"
   create_hypertable "prices", time_column: "created_at", chunk_time_interval: "7 days", compress_segmentby: "market_runner_id", compress_orderby: "created_at ASC", compress_after: "P7D"
+
+  create_retention_policy "prices", drop_after: "P50Y"
 end
