@@ -119,7 +119,7 @@ RSpec.describe BetMarket do
       expect {
         bet_market.destroy
       }.to change(MarketRunner, :count).by(-3)
-                   .and change(MarketPrice, :count).by(-6)
+                                       .and change(Price, :count).by(-6)
     end
   end
 
