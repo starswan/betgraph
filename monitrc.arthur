@@ -23,7 +23,7 @@ check process betgraph_queue1
 # Maybe this is fixed now I have extra RAM
 check process betgraph_queue2
    with pidfile /home/stephen/betgraph/current/tmp/pids/queue2.pid
-   start = "/usr/bin/env RAILS_ENV=production RVM_DIR=/home/stephen/.rvm /home/stephen/betgraph/current/queue2_start.sh"
+   start = "/usr/bin/env RAILS_ENV=production RVM_DIR=/home/stephen/.rvm /home/stephen/betgraph/current/queue2.sh start"
    stop  = "/usr/bin/env RAILS_ENV=production RVM_DIR=/home/stephen/.rvm /home/stephen/betgraph/current/queue2_stop.sh"
       group betgraph
 
