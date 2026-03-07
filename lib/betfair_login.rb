@@ -6,7 +6,7 @@
 require "betfair"
 
 class BetfairLogin
-  def initialize(_logger)
+  def initialize(logger)
     # login = Login.find_by name: "betfair"
     headers = { "X-Application" => ENV["BETFAIR_API_KEY"] }
     # @bc = Betfair::Client.new headers, { adapter: :net_http_persistent }
@@ -18,6 +18,7 @@ class BetfairLogin
     # result = @bc.interactive_login(login.username, login.password)
 
     list_event_types = @bc.list_event_types(filter: {})
+    logger.debug list_event_types.inspect
     event_types = list_event_types.map(&:deep_symbolize_keys).map { |z| z.fetch(:eventType) }
     @active_types = Sport.active
                          .map { |sport| event_types.find { |et| et.fetch(:name) == sport.name } }
