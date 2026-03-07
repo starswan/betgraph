@@ -22,6 +22,7 @@ class CreatePrices < ActiveRecord::Migration[6.0]
       compress_segmentby: "market_runner_id",
       # delay compression because data cannot be deleted after this date
       compress_after: "7 days",
+      drop_after: "50 years",
     }
     create_table(:prices, id: false, hypertable: hypertable_options) do |t|
       t.bigint :market_runner_id, null: false
@@ -32,7 +33,7 @@ class CreatePrices < ActiveRecord::Migration[6.0]
       t.decimal :lay_amount, precision: 9, scale: 2
       t.decimal :last_traded_price, precision: 7, scale: 3
       t.integer :depth, default: 0, null: false
-      t.datetime :created_at, precision: 6, null: false
+      t.timestamptz :created_at, null: false
     end
 
     convert_market_prices_to_prices

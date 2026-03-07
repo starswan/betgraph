@@ -1,4 +1,6 @@
 class Price < ApplicationRecord
+  extend Timescaledb::ActsAsHypertable
+
   self.primary_key = nil
   acts_as_hypertable
 
