@@ -1,1 +1,1 @@
-ActiveSupport.on_load(:active_record) { extend Timescaledb::ActsAsHypertable }
+# ActiveSupport.on_load(:active_record) { extend Timescaledb::ActsAsHypertable }
