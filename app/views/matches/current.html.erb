@@ -30,7 +30,7 @@
                   remote: true,
                   method: :patch,
                   data: { type: :json, params: { soccer_match: { live_priced: !match.live_priced } }.to_param },
-                  class: "match-live-priced btn-sm btn #{klass}"
+                  class: "match-live-priced btn-sm btn #{kllas}"
       %>
     </td>
     <td align="right"><%= link_to markets_count(match), polymorphic_url([match, :bet_markets]) %></td>
