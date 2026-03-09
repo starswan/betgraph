@@ -10,7 +10,8 @@ every :day, at: ["01:00"] do
 end
 
 # every 2.hours, :makematches
-every 2.hours do
+# every 30.minutes, :makematches
+every 30.minutes do
   runner "Sport.active.each { |sport| MakeMatchesJob.perform_later(sport) }"
 end
 # Don't try to load football data in June/July because there isn't any to get
@@ -18,7 +19,7 @@ end
 # (There is a tiny bit in July, but that's picked up on Aug 1st anyway)
 # every 24.hours, :loadfootballdata, at: "23:00", unless: ->(t) { t.month.in? [6, 7] }
 every 24.hours, at: ["23:00"] do
-  runner "LoadCurrentFootballDataJob.perform_later"
+  runner "LoadCurrentFootballDataJob.perform_later unless Date.today.month.in? [6, 7]"
 end
 
 # load yesterday's scores data from BBC website
