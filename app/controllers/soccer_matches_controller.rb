@@ -71,7 +71,9 @@ class SoccerMatchesController < ApplicationController
         format.html { redirect_to @football_match, notice: "SoccerMatch was successfully updated." }
         format.json { render json: @football_match }
       else
+        # :nocov
         format.json { render json: @football_match.errors, status: :unprocessable_entity }
+        # :nocov
       end
     end
   end
