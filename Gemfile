@@ -72,6 +72,7 @@ gem "rails", "~> 7", "< 7.1"
 gem "rake", "< 13.1"
 
 gem "stringio", "< 3.2"
+gem "ostruct", "< 0.5.6"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
