@@ -43,7 +43,7 @@ class MarketRunnersController < ApplicationController
   def destroy
     @market_runner = MarketRunner.find(params[:id])
     # removing a runner invalidates the whole market
-    @market_runner.bet_market.destroy
+    @market_runner.bet_market.discard!
     DestroyObjectJob.perform_later @market_runner.bet_market
 
     respond_to do |format|

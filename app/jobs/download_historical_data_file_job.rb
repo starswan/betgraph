@@ -6,9 +6,11 @@ class DownloadHistoricalDataFileJob < BetfairJob
 
   # It seems that Betfair sometimes give us a good (HTTP?) status but bad data from their API
   # so retry if that happens
-  retry_on Bzip2::FFI::Error::MagicDataError
+  # once these retries are exhausted, it falls back to the ActiveJob error cycle which crashes and restarts
+  # square the timeout to create a fallback
+  retry_on Bzip2::FFI::Error::MagicDataError, wait: ->(executions) { executions ** 2 }, attempts: 10
   # don't allow network errors to kill jobs
-  retry_on HTTPClient::ReceiveTimeoutError
+  retry_on HTTPClient::ReceiveTimeoutError, wait: ->(executions) { executions ** 2 }, attempts: 10
 
   def perform(filename)
     data = Enumerator.new do |yielder|
@@ -140,7 +142,7 @@ private
             price_count = o.market_runners.map(&:market_prices_count).sum
             Rails.logger.warn("Destroying #{e} [#{price_count}] overlapping #{old} to make way for #{new}")
             # o.market_runners.each { |mr| mr.market_prices.each(&:destroy) }
-            o.destroy!
+            o.discard!
             DestroyObjectJob.perform_later o
           end
         end
