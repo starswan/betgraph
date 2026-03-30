@@ -14,7 +14,7 @@ pidfile="tmp/pids/$program.pid"
 logfile="log/$program.log"
 case $1 in
    start)
-      exec clockwork config/clock.rb >>$logfile &
+      bundle exec clockwork config/clock.rb >>$logfile &
       echo $! >$pidfile
       ;;
    stop)
