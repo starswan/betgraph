@@ -38,20 +38,6 @@ class MarketRunnersController < ApplicationController
     end
   end
 
-  # DELETE /market_runners/1
-  # DELETE /market_runners/1.xml
-  def destroy
-    @market_runner = MarketRunner.find(params[:id])
-    # removing a runner invalidates the whole market
-    @market_runner.bet_market.discard!
-    DestroyObjectJob.perform_later @market_runner.bet_market
-
-    respond_to do |format|
-      format.html { redirect_to(bet_market_market_runners_path(@bet_market)) }
-      format.xml  { head :ok }
-    end
-  end
-
   def beton; end
 
 private
