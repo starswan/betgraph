@@ -159,7 +159,6 @@ group :development do
   gem "bullet"
 
   # Use Capistrano for deployment
-  # Use Capistrano for deployment
   gem "capistrano", ">=3"
   gem "capistrano-bundler"
   gem "capistrano-passenger", require: false

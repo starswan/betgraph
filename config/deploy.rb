@@ -25,6 +25,8 @@ else
   set :repo_url, "http://arthur/svn/starswan/trunk/projects/betgraph"
 end
 
+set :passenger_restart_with_touch, true
+
 # You can configure the Airbrussh format using :format_options.
 # These are the defaults.
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
