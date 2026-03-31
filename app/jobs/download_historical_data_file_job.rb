@@ -10,7 +10,7 @@ class DownloadHistoricalDataFileJob < BetfairJob
   # square the timeout to create a fallback
   retry_on Bzip2::FFI::Error::MagicDataError, wait: ->(executions) { executions**2 }, attempts: 10
   # don't allow network errors to kill jobs
-  retry_on HTTPClient::ReceiveTimeoutError, wait: ->(executions) { executions ** 2 }, attempts: 10
+  retry_on HTTPClient::ReceiveTimeoutError, wait: ->(executions) { executions**2 }, attempts: 10
 
   def perform(filename)
     data = Enumerator.new do |yielder|
