@@ -11,7 +11,9 @@ class BetfairLogin
     headers = { "X-Application" => ENV["BETFAIR_API_KEY"] }
     # @bc = Betfair::Client.new headers, { adapter: :net_http_persistent }
     # used to be 1 minute, but seems to fail after 60 seconds very regularily
-    @bc = Betfair::Client.new headers, { adapter: :httpclient, read_timeout: 10.seconds, open_timeout: 10.seconds }
+    # @bc = Betfair::Client.new headers, { adapter: :httpclient, read_timeout: 10.seconds, open_timeout: 10.seconds }
+    # Try defaults
+    @bc = Betfair::Client.new headers, { adapter: :httpclient }
     @bc.non_interactive_login(ENV["BETFAIR_USER"],
                               ENV["BETFAIR_PASS"],
                               add_home(Settings.keyfile),
