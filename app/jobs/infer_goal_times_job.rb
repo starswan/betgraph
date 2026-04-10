@@ -7,7 +7,7 @@ class InferGoalTimesJob < ApplicationJob
   class StopTimes
     def initialize(market)
       @stoptimes = market.market_runners
-                         .map { |mr| mr.market_prices.reverse_each.detect { |mp| mp.lay1price.present? } }
+                         .map { |mr| mr.prices.reverse_each.detect { |mp| mp.lay_price.present? } }
                          .compact
                          .map { |x|
         [x.market_runner.description,
@@ -38,7 +38,7 @@ class InferGoalTimesJob < ApplicationJob
       market_type = BetfairMarketType.find_by!(sport_id: soccer.id, name: "Correct Score")
       # This is harmless if the match doesn't have a Correct Score for some reason.
       market = match.bet_markets
-                   .includes(market_runners: :market_prices, match: :result)
+                   .includes(market_runners: :prices, match: :result)
                    .where(betfair_market_type_id: market_type.id)
                    .first
       return unless market
