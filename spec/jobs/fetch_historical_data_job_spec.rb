@@ -38,7 +38,9 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
       let(:kickofftime) { Time.zone.local(2017, 11, 1, 19, 45, 0) }
 
       before do
-        create(:soccer_match, kickofftime: kickofftime,
+        create(:soccer_match,
+               kickofftime: kickofftime,
+               betfair_event_id: 28449097,
                               division: division,
                               result: build(:result, homescore: 4, awayscore: 2),
                               name: "Preston v Aston Villa",
