@@ -18,8 +18,6 @@ class FetchHistoricalDataJob < BetfairJob
 
     event_filter = if todays_games.all? { |m| m.betfair_event_id.present? }
                      todays_games.map(&:betfair_event_id)
-                   else
-                     nil
                    end
 
     opts = {
