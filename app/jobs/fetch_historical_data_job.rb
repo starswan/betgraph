@@ -14,6 +14,12 @@ class FetchHistoricalDataJob < BetfairJob
 
     market_types = BetMarket.where(betfair_market_type: BetfairMarketType.active).pluck(:markettype).uniq.sort
 
+    todays_games = Match.played_on(target_date)
+
+    event_filter = if todays_games.all? { |m| m.betfair_event_id.present? }
+                     todays_games.map(&:betfair_event_id)
+                   end
+
     opts = {
       sport: this_data_block.fetch(:sport),
       plan: this_data_block.fetch(:plan),
@@ -23,7 +29,7 @@ class FetchHistoricalDataJob < BetfairJob
       toDay: target_date.day,
       toMonth: target_date.month,
       toYear: target_date.year,
-      eventId: nil,
+      eventId: event_filter,
       eventName: nil,
       # marketTypesCollection: market_types + ['Unspecified'],
       marketTypesCollection: market_types,
