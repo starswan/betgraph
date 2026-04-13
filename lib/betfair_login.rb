@@ -13,7 +13,8 @@ class BetfairLogin
     # used to be 1 minute, but seems to fail after 60 seconds very regularily
     # @bc = Betfair::Client.new headers, { adapter: :httpclient, read_timeout: 10.seconds, open_timeout: 10.seconds }
     # Try defaults
-    @bc = Betfair::Client.new headers, { adapter: :httpclient, open_timeout: 10.seconds }
+    # withut this the jobs themselves exceed their maximum run time and we get 'execution expired'
+    @bc = Betfair::Client.new headers, { adapter: :httpclient, open_timeout: 10.seconds, read_timeout: 10.seconds }
     @bc.non_interactive_login(ENV["BETFAIR_USER"],
                               ENV["BETFAIR_PASS"],
                               add_home(Settings.keyfile),
