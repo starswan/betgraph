@@ -40,11 +40,11 @@ RSpec.describe FetchHistoricalDataJob, :vcr, type: :job do
       before do
         create(:soccer_match,
                kickofftime: kickofftime,
-               betfair_event_id: 28449097,
-                              division: division,
-                              result: build(:result, homescore: 4, awayscore: 2),
-                              name: "Preston v Aston Villa",
-                              bet_markets: [build(:bet_market, :match_odds, exchange_id: 1, marketid: 136_090_297)])
+               betfair_event_id: 28_449_097,
+               division: division,
+               result: build(:result, homescore: 4, awayscore: 2),
+               name: "Preston v Aston Villa",
+               bet_markets: [build(:bet_market, :match_odds, exchange_id: 1, marketid: 136_090_297)])
       end
 
       it "creates prices" do
