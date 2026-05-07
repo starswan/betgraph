@@ -11,6 +11,6 @@ class CloseDeadMarketsJob < ApplicationJob
              .not_closed
              .includes(:match)
              .select { |bm| Time.now > bm.match.endtime }
-             .each { |market| market.update(status: BetMarket::CLOSED) }
+             .each { |market| market.assign_attributes(status: BetMarket::CLOSED).tap { |m| m.save!(validate: false) } }
   end
 end
