@@ -55,11 +55,9 @@ class BasketItemsController < ApplicationController
     respond_to do |format|
       if @basket_item.save
         format.html { redirect_to(basket_basket_items_path(@basket), notice: "BasketItem was successfully created.") }
-        format.xml  { render xml: @basket_item, status: :created, location: @basket_item }
       else
         @runners = find_valid_runners
         format.html { render action: "new" }
-        format.xml  { render xml: @basket_item.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -72,10 +70,8 @@ class BasketItemsController < ApplicationController
     respond_to do |format|
       if @basket_item.update(basket_item_params)
         format.html { redirect_to([@basket, @basket_item], notice: "BasketItem was successfully updated.") }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @basket_item.errors, status: :unprocessable_entity }
       end
     end
   end
