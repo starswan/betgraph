@@ -31,7 +31,7 @@ class FetchHistoricalDataJob < BetfairJob
         toDay: target_date.day,
         toMonth: target_date.month,
         toYear: target_date.year,
-        eventId: event_filter,
+        eventId: event_id,
         eventName: nil,
         # marketTypesCollection: market_types + ['Unspecified'],
         marketTypesCollection: market_types,
