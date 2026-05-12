@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:38 GMT
+      - Tue, 12 May 2026 18:38:56 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -27,13 +27,13 @@ http_interactions:
       Content-Length:
       - '87'
       Date:
-      - Mon, 13 Apr 2026 18:34:38 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       Server:
       - Betfair
     body:
       encoding: UTF-8
       string: '{"sessionToken":"<TOKEN>","loginStatus":"SUCCESS"}'
-  recorded_at: Mon, 13 Apr 2026 18:34:38 GMT
+  recorded_at: Tue, 12 May 2026 18:38:57 GMT
 - request:
     method: post
     uri: https://api.betfair.com/exchange/betting/rest/v1.0/listEventTypes/
@@ -46,7 +46,7 @@ http_interactions:
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:38 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -59,7 +59,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 13 Apr 2026 18:34:39 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       Content-Type:
       - application/json;charset=utf-8
       Transfer-Encoding:
@@ -77,27 +77,27 @@ http_interactions:
       Vary:
       - accept-encoding
       Set-Cookie:
-      - __cf_bm=c_Ngsty7QXbBjw0Ukjzy4CJ5IiSu_.jI8k0axt9xVEA-1776105279.049015-1.0.1.1-pT5Y25WpDuw9kSyZO2rknZadSYpHIQxYoxqoHNjx6cAJzbwGX.UcMFN__BCGc6TJCUnfwbr2eBIHByhLSRP6PAzPiy0aUXawxC2NknpsfAVi1.UkSuqBVeTOBFepSpIy;
-        HttpOnly; Secure; Path=/; Domain=api.betfair.com; Expires=Mon, 13 Apr 2026
-        19:04:39 GMT
+      - __cf_bm=oukICanrfzIWJc83c7FFJNBM1Bu4A2DfXEerpnet5CA-1778611137.3658967-1.0.1.1-9y.OaIZW3r1hMXgpBaEJPBlq9zNxpm7_aAGzeMAxfShvzL4_Y99SIvoRCiafR2.93y5f5COvAKVVgC2RIkyF7tUCRR3wQ6zJ_yE1ZjXGQ_pvEBewd7x6_fReMI3r3Ppm;
+        HttpOnly; SameSite=None; Secure; Path=/; Domain=api.betfair.com; Expires=Tue,
+        12 May 2026 19:08:57 GMT
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Cf-Ray:
-      - 9ebc90ea0c29946a-LHR
+      - 9fab8b188a15edeb-LHR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: UTF-8
-      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":8978},{"eventType":{"id":"2","name":"Tennis"},"marketCount":5566},{"eventType":{"id":"3","name":"Golf"},"marketCount":13},{"eventType":{"id":"4","name":"Cricket"},"marketCount":235},{"eventType":{"id":"5","name":"Rugby
-        Union"},"marketCount":103},{"eventType":{"id":"1477","name":"Rugby League"},"marketCount":48},{"eventType":{"id":"6","name":"Boxing"},"marketCount":80},{"eventType":{"id":"7","name":"Horse
-        Racing"},"marketCount":422},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":3},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":28},{"eventType":{"id":"10","name":"Special
-        Bets"},"marketCount":37},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":2},{"eventType":{"id":"11","name":"Cycling"},"marketCount":1},{"eventType":{"id":"136332","name":"Chess"},"marketCount":1},{"eventType":{"id":"2152880","name":"Gaelic
-        Games"},"marketCount":2},{"eventType":{"id":"6422","name":"Snooker"},"marketCount":17},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":49},{"eventType":{"id":"6423","name":"American
-        Football"},"marketCount":1},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":224},{"eventType":{"id":"7524","name":"Ice
-        Hockey"},"marketCount":69},{"eventType":{"id":"61420","name":"Australian Rules"},"marketCount":102},{"eventType":{"id":"3503","name":"Darts"},"marketCount":39},{"eventType":{"id":"26420387","name":"Mixed
-        Martial Arts"},"marketCount":56},{"eventType":{"id":"4339","name":"Greyhound
-        Racing"},"marketCount":449},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":147}]'
-  recorded_at: Mon, 13 Apr 2026 18:34:39 GMT
+      string: '[{"eventType":{"id":"1","name":"Soccer"},"marketCount":9911},{"eventType":{"id":"2","name":"Tennis"},"marketCount":3724},{"eventType":{"id":"7522","name":"Basketball"},"marketCount":177},{"eventType":{"id":"3","name":"Golf"},"marketCount":26},{"eventType":{"id":"7524","name":"Ice
+        Hockey"},"marketCount":53},{"eventType":{"id":"4","name":"Cricket"},"marketCount":192},{"eventType":{"id":"5","name":"Rugby
+        Union"},"marketCount":101},{"eventType":{"id":"1477","name":"Rugby League"},"marketCount":96},{"eventType":{"id":"6","name":"Boxing"},"marketCount":126},{"eventType":{"id":"7","name":"Horse
+        Racing"},"marketCount":489},{"eventType":{"id":"8","name":"Motor Sport"},"marketCount":3},{"eventType":{"id":"27454571","name":"Esports"},"marketCount":104},{"eventType":{"id":"10","name":"Special
+        Bets"},"marketCount":30},{"eventType":{"id":"998917","name":"Volleyball"},"marketCount":2},{"eventType":{"id":"11","name":"Cycling"},"marketCount":9},{"eventType":{"id":"61420","name":"Australian
+        Rules"},"marketCount":120},{"eventType":{"id":"3503","name":"Darts"},"marketCount":40},{"eventType":{"id":"2152880","name":"Gaelic
+        Games"},"marketCount":25},{"eventType":{"id":"26420387","name":"Mixed Martial
+        Arts"},"marketCount":66},{"eventType":{"id":"4339","name":"Greyhound Racing"},"marketCount":603},{"eventType":{"id":"2378961","name":"Politics"},"marketCount":122},{"eventType":{"id":"7511","name":"Baseball"},"marketCount":76},{"eventType":{"id":"6423","name":"American
+        Football"},"marketCount":1}]'
+  recorded_at: Tue, 12 May 2026 18:38:57 GMT
 - request:
     method: get
     uri: https://historicdata.betfair.com/api/GetMyData
@@ -110,7 +110,7 @@ http_interactions:
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:39 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -125,37 +125,35 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 13 Apr 2026 18:34:39 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '6485'
+      - application/json
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Cf-Ray:
-      - 9ebc90eb4dcdcd7d-LHR
-      Cache-Control:
-      - private
+      Server:
+      - cloudflare
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
       Vary:
-      - Cookie
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
+      - Accept-Encoding
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff09ba7e0c45525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:40:57 GMT;path=/;secure;httponly
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lV4orb2EYKpCNX8SI4KMRM6calA5jXkO1fgaDX6vRizA9O7OoLfaoPs2YazrWmjitE%2BBwEsEBO7Od2stgZauO830%2F6dcKsqdC8Vu1VrtrnDyIyc5Ggeix7%2Fz2NWz8b%2BrdbDL3Q5SOr0CGg%3D%3D"}]}'
       Cf-Cache-Status:
       - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=7vRgOoNMT11DAlGAmkO1zHpSlRVjSMmOK%2BmPwQXlD74Qkm5dxIWO5GMkEJkl3UjIcGChdfSzvNn9ScNMhhb4qaWJIR2YqK4BFNAnWy7ra%2BTVmej3qW0hmfn3wyZPc9zHjvIcNnZsufAjZw%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       X-Content-Type-Options:
       - nosniff
-      Server:
-      - cloudflare
+      Cf-Ray:
+      - 9fab8b1a286a001c-LHR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -227,21 +225,22 @@ http_interactions:
         Plan","forDate":"2026-01-01T00:00:00","purchaseItemId":190836},{"sport":"Soccer","plan":"Basic
         Plan","forDate":"2026-02-01T00:00:00","purchaseItemId":190836},{"sport":"Soccer","plan":"Basic
         Plan","forDate":"2026-03-01T00:00:00","purchaseItemId":197772},{"sport":"Soccer","plan":"Basic
-        Plan","forDate":"2026-04-01T00:00:00","purchaseItemId":199425}]'
-  recorded_at: Mon, 13 Apr 2026 18:34:39 GMT
+        Plan","forDate":"2026-04-01T00:00:00","purchaseItemId":199425},{"sport":"Soccer","plan":"Basic
+        Plan","forDate":"2026-05-01T00:00:00","purchaseItemId":208388}]'
+  recorded_at: Tue, 12 May 2026 18:38:57 GMT
 - request:
     method: post
     uri: https://historicdata.betfair.com/api/GetCollectionOptions
     body:
       encoding: UTF-8
-      string: '{"sport":"Soccer","plan":"Basic Plan","fromDay":1,"fromMonth":11,"fromYear":2017,"toDay":1,"toMonth":11,"toYear":2017,"eventId":[28449097],"eventName":null,"marketTypesCollection":["CORRECT_SCORE","MATCH_ODDS"],"countriesCollection":["GB"],"fileTypeCollection":["M"]}'
+      string: '{"sport":"Soccer","plan":"Basic Plan","fromDay":1,"fromMonth":11,"fromYear":2017,"toDay":1,"toMonth":11,"toYear":2017,"eventId":28449097,"eventName":null,"marketTypesCollection":["CORRECT_SCORE","MATCH_ODDS"],"countriesCollection":["GB"],"fileTypeCollection":["M"]}'
     headers:
       User-Agent:
       - HTTPClient/1.0 (2.9.0, ruby 3.2.10 (2026-01-14))
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:39 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -256,56 +255,58 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 13 Apr 2026 18:34:39 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '192'
+      - application/json
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Cf-Ray:
-      - 9ebc90ed2d0a0bf8-LHR
-      Cache-Control:
-      - private
+      Server:
+      - cloudflare
+      Content-Security-Policy-Report-Only:
+      - script-src 'unsafe-inline' 'unsafe-eval'; connect-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=.eAefkOifxxTKpr2jnRw0LMBpYjanmbY2p1o8gu8pCA-1778611137.9252126-1.0.1.1-UcJuU5EryhDiqewyhBDZwJpgnmxnDYu6di73HRhrps.jiYPfBFuyQW.g5EmkKK8Qlq5JBcqtxjkDsrfI1IJ5d_qsZZ9mprCTIGOJLbE57NIxraOSEZ3nLlotF03SfF0.8uo8xzPURZXeG0KoF_TmgMFGxjzp.s__SQZCIOw5Pb.0Ye92dEyunxaraojAQPxM;
+        report-to cf-csp-endpoint
       Vary:
-      - Cookie
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
+      - Accept-Encoding
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff09ba7e0045525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:40:57 GMT;path=/;secure;httponly
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
       Cf-Cache-Status:
       - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=FS8SvrgChlIDzLvt8me%2BxFctY3FOp%2F9ejHnqsOTj9xu%2BCA9nCXLmZ1uv6wbw19SWgz2DsLGuOQLlkMl2h9eMP7qGOLvHTM7W%2FLVnyoycSWBiaL2dkSuiUOo%2Fq%2FJhakbe4UBJHocSgA%2B9VA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       X-Content-Type-Options:
       - nosniff
-      Server:
-      - cloudflare
+      Report-To:
+      - '{"group":"cf-csp-endpoint","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=.eAefkOifxxTKpr2jnRw0LMBpYjanmbY2p1o8gu8pCA-1778611137.9252126-1.0.1.1-UcJuU5EryhDiqewyhBDZwJpgnmxnDYu6di73HRhrps.jiYPfBFuyQW.g5EmkKK8Qlq5JBcqtxjkDsrfI1IJ5d_qsZZ9mprCTIGOJLbE57NIxraOSEZ3nLlotF03SfF0.8uo8xzPURZXeG0KoF_TmgMFGxjzp.s__SQZCIOw5Pb.0Ye92dEyunxaraojAQPxM"}]}'
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MqdEZ%2FC2kS7kda9hb1zNUZW8hiNrsA4L2xmHltMDVbP4daudVoE%2F5srSU1hbkfNqxoPywrh4D4nG2P7XmpgPchYR4gmP%2F1P3hMV8Moff1WKH7YD6gdwrAq%2B8XF8rl5rbxP5s2WNaiRUmFw%3D%3D"}]}'
+      Cf-Ray:
+      - 9fab8b1c0eee37b6-LHR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: UTF-8
-      string: '{"marketTypesCollection":[{"name":"MATCH_ODDS","count":23},{"name":"CORRECT_SCORE","count":23}],"countriesCollection":[{"name":"GB","count":46}],"fileTypeCollection":[{"name":"M","count":46}]}'
-  recorded_at: Mon, 13 Apr 2026 18:34:39 GMT
+      string: '{"marketTypesCollection":[{"name":"CORRECT_SCORE","count":2},{"name":"MATCH_ODDS","count":2}],"countriesCollection":[{"name":"GB","count":4}],"fileTypeCollection":[{"name":"M","count":4}]}'
+  recorded_at: Tue, 12 May 2026 18:38:57 GMT
 - request:
     method: post
     uri: https://historicdata.betfair.com/api/DownloadListOfFiles
     body:
       encoding: UTF-8
-      string: '{"sport":"Soccer","plan":"Basic Plan","fromDay":1,"fromMonth":11,"fromYear":2017,"toDay":1,"toMonth":11,"toYear":2017,"eventId":[28449097],"eventName":null,"marketTypesCollection":["CORRECT_SCORE","MATCH_ODDS"],"countriesCollection":["GB"],"fileTypeCollection":["M"]}'
+      string: '{"sport":"Soccer","plan":"Basic Plan","fromDay":1,"fromMonth":11,"fromYear":2017,"toDay":1,"toMonth":11,"toYear":2017,"eventId":28449097,"eventName":null,"marketTypesCollection":["CORRECT_SCORE","MATCH_ODDS"],"countriesCollection":["GB"],"fileTypeCollection":["M"]}'
     headers:
       User-Agent:
       - HTTPClient/1.0 (2.9.0, ruby 3.2.10 (2026-01-14))
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:39 GMT
+      - Tue, 12 May 2026 18:38:57 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -320,112 +321,41 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 13 Apr 2026 18:34:40 GMT
+      - Tue, 12 May 2026 18:38:58 GMT
       Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '3037'
+      - application/json
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Cf-Ray:
-      - 9ebc90f10a5329c1-LHR
-      Cache-Control:
-      - private
+      Server:
+      - cloudflare
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
       Vary:
-      - Cookie
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
+      - Accept-Encoding
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff09ba7e0c45525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:40:58 GMT;path=/;secure;httponly
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2FxBbRr5HJj8AOazdLejEAYlPvgUFPZDPMZF15VlhaFSU%2BoRhqNwM44NHc40nsTjwHXqw%2Figor7lUKrIhXNX7AKY%2FPMVAtIJfyvMP66xKXb7%2Bd8RVf6KLYCVHci5rRTFR0153P5QDkIEUA%3D%3D"}]}'
       Cf-Cache-Status:
       - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=70e7sMuuJHtg0Ies%2FoNEK%2BY84erVPdpY35M3XqZ9TLEp4yhkHrZuPwe1dIbA5DPVkNVPq%2FmgGnCO7vxPhlmplDPjYjFJh9VY8ZTvWBrWXdBcH%2BNa2Y0Hq97YSorZqyYL0c6lWjLewhPdug%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       X-Content-Type-Options:
       - nosniff
-      Server:
-      - cloudflare
-      Alt-Svc:
-      - h3=":443"; ma=86400
-    body:
-      encoding: UTF-8
-      string: '["/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449077/1.136090297.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449077/1.136327663.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449077/1.136090306.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449077/1.136327664.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449112/1.136091175.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449112/1.136091184.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449144/1.136328228.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449144/1.136091974.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449144/1.136328227.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449144/1.136091992.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28446745/1.136020675.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28446745/1.136020684.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456755/1.136302751.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456755/1.136302760.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449047/1.136088937.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449047/1.136088938.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456738/1.136302659.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456738/1.136302668.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456735/1.136302576.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456735/1.136302567.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456781/1.136302847.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456781/1.136302856.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439913/1.135780872.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439913/1.135780891.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439912/1.135780714.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439912/1.135780733.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439913/1.135780922.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439913/1.135780919.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439912/1.135780761.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28439912/1.135780764.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456605/1.136297741.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456605/1.136297750.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456723/1.136302083.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456723/1.136302092.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456602/1.136297644.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28456602/1.136297653.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449096/1.136090806.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090863.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449096/1.136090728.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090882.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449096/1.136090745.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090954.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090951.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449048/1.136089031.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449096/1.136090805.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449048/1.136089030.bz2"]'
-  recorded_at: Mon, 13 Apr 2026 18:34:40 GMT
-- request:
-    method: get
-    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090863.bz2
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      User-Agent:
-      - HTTPClient/1.0 (2.9.0, ruby 3.2.10 (2026-01-14))
-      Accept:
-      - application/json
-      Date:
-      - Mon, 13 Apr 2026 18:34:40 GMT
-      X-Application:
-      - "<APIKEY>"
-      Content-Type:
-      - application/json
-      X-Authentication:
-      - "<TOKEN>"
-      Ssoid:
-      - "<TOKEN>"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Mon, 13 Apr 2026 18:34:40 GMT
-      Content-Type:
-      - application/octet-stream
-      Content-Length:
-      - '6165'
-      Connection:
-      - keep-alive
       Cf-Ray:
-      - 9ebc90f468e29404-LHR
-      Cache-Control:
-      - private
-      Vary:
-      - Cookie
-      Content-Filename:
-      - BASIC-28449097-1.136090863.bz2
-      Content-Disposition:
-      - attachment; filename=BASIC-28449097-1.136090863.bz2
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
-      Cf-Cache-Status:
-      - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=GPMfJaweXZNYODIbOvxvlvViOi1sdlB8WmRrgdUtsr2CLKptfvmMrTbtze34yrDON0zinA03mKPrQyq2VVH1pKrFYBSIVpuAoBSr2ptMwqdRtuREXQ6W%2FNY3tjNs6vC3UyFwALmvY6Ei6Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      X-Content-Type-Options:
-      - nosniff
-      Server:
-      - cloudflare
+      - 9fab8b1d5b9f3867-LHR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-  recorded_at: Mon, 13 Apr 2026 18:34:40 GMT
+      encoding: UTF-8
+      string: '["/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090882.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090951.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090863.bz2","/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090954.bz2"]'
+  recorded_at: Tue, 12 May 2026 18:38:58 GMT
 - request:
     method: get
     uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090882.bz2
@@ -438,7 +368,7 @@ http_interactions:
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:44 GMT
+      - Tue, 12 May 2026 18:38:58 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -453,117 +383,41 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 13 Apr 2026 18:34:44 GMT
+      - Tue, 12 May 2026 18:38:58 GMT
       Content-Type:
       - application/octet-stream
-      Content-Length:
-      - '5233'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Cf-Ray:
-      - 9ebc910e7a8ead4f-LHR
-      Cache-Control:
-      - private
+      Server:
+      - cloudflare
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
       Vary:
-      - Cookie
-      Content-Filename:
-      - BASIC-28449097-1.136090882.bz2
+      - Origin, accept-encoding
       Content-Disposition:
       - attachment; filename=BASIC-28449097-1.136090882.bz2
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff09ba7e0c45525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:40:58 GMT;path=/;secure;httponly
       Cf-Cache-Status:
       - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=d1WtR330kIBNZkhFwatrJJcVpbUIhJE0yFeQWb4XPEUXZb5sUbVMpdL%2FA%2B6web4I7aWVY7HlVgnrXvN6nqEW94%2FuhFQorgB9nQsEyilF2mtHxW%2B6YpHPrxhOVv0PxwCA%2BLfeevVhGX0YOQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       X-Content-Type-Options:
       - nosniff
-      Server:
-      - cloudflare
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=j2yWY2H1WP%2BWoPFfHVWZgjrlTtNvIsqXpidupDtp7kO3fuTwSgHDdDcf5eM%2F5hb01CdQVuATJLgujnhYO5UlJOARcj%2F5R95u8AhKjmTabE7Npo6wH52qSrFfFpmqJ11U3Jkfw55mTYlFww%3D%3D"}]}'
+      Cf-Ray:
+      - 9fab8b1f5fe76531-LHR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         QlpoOTFBWSZTWaiPnaQAZrTfgAAQUAf/8D7n35q/79+6YB++fbz1eeAAk++gr33Zp4e5KFee7uyunVdnez09tlerd2jtkVLu27ris7uDI1jZFVKmnR20nON2ceAAAAAAMAfcYlEGp5ACqJUYTAEMAmINGAJpoNTDESpTQBkDQAAaAAABqeECpRTSMgGQyMIBkDTamQ0wk1CBRUUABk0AAAAAAESp+pVPUzSaDJoaYhowIANGPUamjBSkkAmhGpgKbTJDJp6nomJtTZIwj/oqBpXYXSuwtttWrVq25WrVyWrbbVq1attuuAAagMwHuAdQGY/1W1Zmh7x+kqHzjePQO4ewf3AfQAYAPt/dI+59WHa/uvqqiJj65JKoJk/3sD09KSWbtUG9YtI7lvpWY5TrHj565KmipNe7Eoxsw8IdZpQvKHXCVxPaoqbe8DgNUNQVTuQ6b2RZpxJLthaa1VK2svKWo5iOF6ZUEUru276nx3OQYUmU73K4F407qHgcGwpJmdMqrQ1F1LoGYSng4EDkDhk2p5F54siyLIsiyLIsiyLIsiyLIsiyLIsiyLKAe5QGngB+UiMisGA+UqH6yDQswGIwZMGX6yoZ6bBg3jZGhoaRYmhg1UshoYNVWRaGDSMqNDBqGKNDBor1Soaithg2TFVoaKwYDzjfWw2rdBoYNFWI0MGkGVWhg1RYVoYMnAbQNkthg0qZVaGDSDIjQwaQwq0MGgZUrLEjcPzkoYNDdbx8nIbTYbg3LByHQJfkMF+A+sP/DJUmSoZKUslFMlUbSoYFNSoYpVMkGYjFkADqd5fUvpXdWrVq1dIuFwuFwtWrVq22224MW5Yty/wGhOB0QMAc6iPEPiMGhvGBuHIbJ7RkPYMi9gyo6jKNbamZT2jEzLstJV1Qy0WZltazVtAVrIFzHMssvLRIUwEiGLkLoYUIUJSimTyWTwXInd2VW0sWaaUVVVFYDmNUulqqdVdAaq8WlVppWla1rMy7uBrAdVTFgumrzJsDWkUVVFSIiAxFURVVFVVR6BVCiKqsVVVVVURVRVFYqKoyH7wFUIVsaZmhriEQqmnLgqSQSAvYYicIQx+byd6BsCgJ4Bm2coqDdFCbvlnqobaWmkAY5jFsAXzgBBicrIZuONRRFWKNUcla6692a2Za2VluE4wTqCjrip1cABwA9uieFptvPbVX0KZaDTUC0zOXdM4SxXy1Jnj5k6Jw4NK2NQSnUDzNUy0ZZpwdVSVZIk2HpYtTsxw5E2kNwbybJeLRgLGHZ3Z2a3yG2a3rqbeTcu0D2hSQalaLeZtYZlh208GDM04Tcw4rJitV3rzWK1tZxO5UZMNqCGsygjWyAKAEgDRzHIchxDcOQ4jmOY5DkOI4jgM465c7XYOwMGSofZhWZDMErtGDYZFHPtsNDYMG+Qj3AO6Lsi4Du69vXszWbsba4N292tm6Na2I0MxR5eDirkxCKCjlREePiK+xQu16i7XqUc51ldmVERY3TeYF11s0vMoSUQoQgTTwWUjSuImCo9CEJYVqAloojHpScRTmHXzJS8rx5Mygi1NI8v3M3vRvY6OsdUd1NPKq0D2uQoaqiGkMMN3Rvrxr05TPeh94P3tZe6AtAPa8eJdEkgC88vq8lXclyF07LGVWN1ZzL1vZyjdFb46GthRKWw40NZrjmr9LtOI8a8SeGGy2KqpzumKA+4X2hgwPaxm+5rDo6GNedcFNXvA12tg0Bg1ELA2o2IUEAg9e+XLC6vzrh1OTql4ZQ1VncTGc4clwo/EAfIAAzJ5tzclOdm2h4sTXwAAPr/pAHve8wAPgB4CcM82ltozD7zPTT9MwAd7GOyc1zomOnbHZh1TuMxPJeCBFvk7gx6nFbbZzifAGmgdt721ezKvS92sXRrYulADx8Ia1lYZFBJzdfAJhDZnb5dfK+wJZm3vUjADRA1hlDOwTKvLspHywS8qIJyceFVS8DF9xG9fKn4DxSEOnMxJjq58arSO6lUGsLuE8B5ntz23/h4DyZ4j43rTaPxRia4l617NQWJdm0KKKFPJayawxMs+KkRtLQnf0y6trtzSD83I8VWE2pOGjpw4oGXsC5gQxvaFXhzRN8Kw6y0a3nODnEo3i1rvmArj6MEjoMFixijVlb0DGKGp3TaRgXagiJarMc4QUcOTRkBBsIF9e7PdTJhzsJIBlvZqru8e/NefMJIArND2hc+KrOBJh+uQo8/l0MgXgOS8DtENIQkPMgGJCF2KezNbA3sLr1cBmCi2k2mI4bXgPWPD7AB4F9w1cN3q0Sa12pS5T5l19AAB9AAJAHyPbbSb+N50ST6XmZZreZm9/AMgBsZJFo/GEkAQKgCBmUBSBZGQ3+NSQPvzNmvhfNdeNNK1EXFdB5cw0iRiOjgc5GogC1FZlgjuiypbbunTbg5bt7dv1vbcIZ132w7drltSBwr7v7m86WrdcgTiB6hxshO91K5y7u79CSAZ7Xvbo9JAzVAZo1YHxAPj86VcimTJ1j6t8Pe8PlzxYHgIfD3vADK+XuNjd7OZyBJm9O3APpe7IDvvn5ht+Nb+crd/M+83b8JJO8uwLgRCSjm1aOrd+emiQB0M67X2gABiDDpO3afoWu8nfPeRPCfMfveeQ36e8qPZQPyl8u09nK/5QB7O8BO/FigioqKiMFFigJ+cAH4AEbq+L34cvkV8QqScqKyGwOiXEuvDw8AP8AAA4A+g973yAD4AIwfdz3HcvimTTHwxKU4v4c19AwD5D0HraSqgU24RAGHqi9bXdqrZ8Hz4D3STz1pq5hti9c1jQzqaqFNqt221d06Ws6kHzw5l7m53spLsXI88+DOs4PCGLRGPGxoZqpA6xRSdIYBHnkZFQMmFSGwLTQmno0Cr1vwuwYZ6+2ZwX26dPr1vmmvkmX87qcLAvVEkhgyAl+7vk770vM03rFmUrBDGxwYFRH3Nj73vm/Id+jjFiXQh/BnD7FABu2swwh8gDGatSkbAzr+hw1vnMbrOffmLur5CHVFUIp9ADwmLODX4awlvc9qIUyeij9AAAwA+R8gDPhhd7uoLoGiTbp4NfFBoCHABACQfE+8SvAjxHRrOfWZu7mdVn2UweUwO2ljMTeCxlzwNDa5sEmJubUMxVBFUENfRzlYTQR8S+d1l+1zQENIQihJUHdbTbiMokpoSFkaYMEZLsYxnyWAMU++8BEB7lxpFqC0FyRkFhJRhEKMlveduEZCI86nnHU64losLvVktaqRStUG0LXus19Ca7r72FZ8hJAL7VdYLA0k4yRfiFsCcYGmSYwgY5VQIdr7vz71d6R2l+76gDlyCnKyK4NT94EViOs0vzcUdvwhs4aY79qs1qtc1qX821l148kkVkUVRfAAiHmBULMjZLGFdbiAHcACB708h2Zdtzsn1Q4MQpUEvoAkAaAC8j1kgWSg4wuiyw22EoAeb+uQy/evXu1v744ZZzQdVF7oeR/Lynqm2m3VXeyM8htHKePVlXQOLWJGW0cpYVono5YMPuirxzkTfay6TDtes+5rfvnSUzmtWfGSGJIcYHxkZHgPD30zBBf095Pqa3NktbLyCACnZ+Xr6E+ZkQqhoVsslQ/MLPADxYy3vPeTs0d2q7eZSW5VCHtJWax9sMnZtxGzj3GJIuGiotboAx8rLvIZgtQJlbRizOZyy7vwC4c1nder5vL2nKd3ot83UYn1qIIJGIopEYrVRRoSmU0NMAdd9vtYxpv3uPN/O7da7ld38A+ySfQEJIefiePVZL7o1V2YqNQweLrpKimGQh4cANAB8PJbs5ur3y2iFtBq8vOEgiKJGLCB3GtpciOCOZpyYcT3ONKAUI1Tl0LJLkqgOc4AKcd7OV2EmTk05DhwbmzJU9MhkYc2eOR0qQFliNL52y83MaryNvyvmmGLMCoaHTF6CQJAj5Zq2fhAC7obNi63q3vH3PuJjAkAcbRN7rucddrV1XKqqk2BPnTmYB+BMsnSqMS204wUL7XGdZMcXVKRa9WPQhOZs+1kBvRibRuveqBieZDSQtC06w6yFoTGBpkk4m0MdM0lIbQxgakDdZVBBZpIe5DT72vliWU0i4MvDu5tIr61uWKczqRiPyTkS6XyhTbXLKI5GhlCdb61keYuFllWevL0BKNEfrVVGllKiIojAVBQURUVRiLFBlMqLQrVC00rBqoUItSh+U9qxv3XnvnMeXqimqHAHD3tABHgFx1vBkMq8d9bREy7U2J+3QH0DoHNnH4Im7Lq6dxujAy7oEe8vAj3o/l1Q9u924llBXr6KjnyF6y2GFL3NNW1Ox3L26rt5b2PvD3vABCuvTW8MsQQ5YU7b8m4rVMLjxDIIRCDaaJKBkxj26JF2DioZBJlM0s5BNlFyoSIvsq0Td0nKcKRStd3ld9zNjT5Dt+L5JCS63rms0oVvt4L2sfOU0PuXemnSrSp7p3bNmpzc2YEukCoZiEpZEQfI6EgZKlB5Tp3512+GXFmGQJJxIEkkgmlPKoSIQ5KkiejMFTNQaZxaVp4dnKqWt80t3RemlVztXly7Va5ret7pfUuO3KhgimLMCiiWCUopEkMU8yOjJyVUVdXR6pdb5elVVXTdlK27cwrOV7KeKbUxMUwYMldXkQQSxksCRBQpIE1MO/WnjSPc+2lKsKQpFFFqKgIkWFNMkZVCtNJQiIClMTQGt7VGsE5VijEXgA4QACKIeGnuZuI4wZkU04P3e+91feC9PoHfsCaBC5BlCVJPEeAIADzKvHmQKNxlzezGbDEGDrK05JAJcyaIjOZzZEQvNiA0mJd9zXcIh8cOyiTnGtmnrbHaEo2G20VFtYwy1oNkRVRmK8MGpzJNTRt1iTmSpYJhjmr0XlLs10Q7Vy0TG1lFJ10XMNGTOTQlCkWWTrKMwlBOSWksO1s4gNzbM0zPWU+6dCR3W9tzmCM3HGColxSe6ooavFaJJMETRvfAeAu3EGhiJFvkYraKVM530UlB0Ad4eHAA+G1jeJAdOvFaw4u7KXg3xjmrtZ9A183DUUydKRSBlZlxAwggObXcNLmddXvZna1O9EgS7QmI28pd2ksWjaJRm5urFzQwjWTRXregWXiYZBtdmBEYAO4a4ODgAzpRKDvp5qnqcTUR29rKZ7luJcYrvewqgldl493YcvNyxuuBAAoxSuGitiZjQ9xaRwKUSO3XorLrk5hattH0NSXuYNJrT2Ta6prelMWoM0mUX6pfLKyvBPh73vADIvoQpt8vgs1Kjyzdq+yspMYpJ0RFBtWB73lkxaOy9iPXPmut976e+gAZQCa9z59+6lee/NJllN134BkxKKQpFkjEDvOu7Pcd1U13yZ7mvvnMu/SQk7W3ISQBr5Apr5rUu6c1bUqh1bVvtNX6CuuYekaPPJTty2JDecQpPoEIUFGUGiVFjtijIBjsHQ50M90WU1qmzIowpFVqrXtEPNXWvPX6Z1tfbsWeYHmQprKhMZjJ1kgWwNcogHxAIG6+cvne9c13utdvWCCOCrZc8qBoopYLgAtWD0hTyt5X0XrLPnhU0U0DWTPF0+2VBiGRiyNkuWQscjtCS3z6g9sdvfPnS+h+UHXyu47uG/e1z4224XNI6lKjgLJEjhkFuyuQsFBf8HrGhd4feNht9gwf5kH9h9I2Gr4D3PcPYOYdg9w+Mgwb3X86wuWL6B2jtDmPl+g9kg4DtHcPhyR8Bg+4faPJXf+ccxwlyD40fAPELzz5ncHEchR2Ubx5hg+Q8Y8QweceQb6P0dHaPAfRF4Sh+A7xmD8Rg8HlkHIeYdNB7B9UX9ZCNw98qh5h84/Ydw9Qc5WAngPSPiD4jQ9I6DmPmBPWPxGwuQd4fiLA1KhvFDqOIwbpUN0qGD1jzjzDYNh9Y9A/aVDBkilsDkM0P3HAbhzHYMCuwZFfSMG4eYbDYbh3jB2j+MsJgwYxWDePkMGh/0eQdg5C8gzyjYYOI6DBxF/Av4DvBsNw4j9RbxgcxodfGLxD6w9srzDqGDuF4DigR5RofcPbDePeHAfMNh9I3DuGw8BR6RsO0bCjcPCVDQmD0jvH3B5B/IYHHzjwlQ3D1jmPZK8JRTfKhgOwMSoeUbgXGGCMGgsDqO0aH0D/AcQTeOAwYHiBwFzwZVbhYN4dRfYPQP4HcPGHlHQNh9o/8OkqHjGDcN4o6DkPOKOA3h5B45UN8opvD7w2GDBocx7BkqHgJ/MaFDeOg0PUCbCj0CeUO0bDkGDAYKOtJxDBvBOQOwYO8d0roOO4MFHqDiOY2BOI8w7BsOo9UqGw9AwWB0FGg0O0E6i2Gh7Rch3jsHQa3hxHfKKe2k6DpHMbwTmKOyk944B9Q2DxB1HrGAnaPeOY6i6jqPAcx1FtTmKsmAwdgwf0FyHeP3VQ/ZmZhZlMVmYsyxgsEkQFWIgrFEFIiQUIgyKiqwWMVFWQYgMVkUWCCigxggIMVUWMFYKMUWCwWDGCIgxARYxBZFFgKwVUFYKqqoqLFgsUikiKiiIqLIkUiokQQYiyMiDBijEEYIxBIxIoKJFYrIoqKDBkYgiRESMVSMZBFFBjBILFBH/6EkAqSiKsgh3IqBsvU5w686ULnjKZdlxq1ZaITL7XqJSkOGWlmyl9uzKOOtVDLziQpVRhA3e3xuyazNbUDYbFTZ7BTkxoM4LmRGHsj3QgzeOZBLjzFRyFddmZWCoQW7EuqKMqtVbLNlb1m3MTiY1lO7dJWGbdWZTpCqvVbulRFRRKqjdauhQW3XA4wWGsrjTTuytaDmUc2bwxp4HHZFuG2ymUHhVHnWUF1K4CFS4iDq0T0kLJfLzqyAzUVzWEmveL+AD3gPt99SBFkgEWST7ntteX1e+vObML+8prVbMQ1JoT65t0jdGRDbgvjFj0w0htWKV2arcxKykHDKRcNKRwRMEI7RSvKjqhQkNKY0g4aoODG3lKzSt4YZSabSJrlTF40K204la2cYeY9u7p21lL27vRTd3ZVUjSUtVSINNYlNyk/CH/4u5IpwoSFRHztIA==
-  recorded_at: Mon, 13 Apr 2026 18:34:44 GMT
-- request:
-    method: get
-    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090954.bz2
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      User-Agent:
-      - HTTPClient/1.0 (2.9.0, ruby 3.2.10 (2026-01-14))
-      Accept:
-      - application/json
-      Date:
-      - Mon, 13 Apr 2026 18:34:52 GMT
-      X-Application:
-      - "<APIKEY>"
-      Content-Type:
-      - application/json
-      X-Authentication:
-      - "<TOKEN>"
-      Ssoid:
-      - "<TOKEN>"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Mon, 13 Apr 2026 18:34:52 GMT
-      Content-Type:
-      - application/octet-stream
-      Content-Length:
-      - '1211'
-      Connection:
-      - keep-alive
-      Cf-Ray:
-      - 9ebc913cfe6977c8-LHR
-      Cache-Control:
-      - private
-      Vary:
-      - Cookie
-      Content-Filename:
-      - BASIC-28449097-1.136090954.bz2
-      Content-Disposition:
-      - attachment; filename=BASIC-28449097-1.136090954.bz2
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
-      Cf-Cache-Status:
-      - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=A%2B7cfnMXhWGXqfF6ckTeo2u6LxsP%2B5k9vvB8LV0oXVHC4Hu6dzej6N1gzfVGo2EJ%2Bc9mRUMKBD4FUc9VZ2Gly1D5ksClBt55bwqARhOHDfijtaAdQlmdVIyTRsPshU5RVi1WQTCbQPBgNA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      X-Content-Type-Options:
-      - nosniff
-      Server:
-      - cloudflare
-      Alt-Svc:
-      - h3=":443"; ma=86400
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        QlpoOTFBWSZTWU+OGVkAERjfgAAQUAf/8D7n35q/79+6YAefAGioAIAAAAAHNMTAAmACYAATAAEwSImgRKRiMCYmAIDCGmmCYc0xMACYAJgABMAATDmmJgATABMAAJgACYc0xMACYAJgABMAATAqSQJo1Mpg0nlR7Sp6jaj9UfqaZNBsmo8in3kP7HxHzH0E/8PpIcR5jsHWO8Ooah1X4e1v45VwcdVWv41lnI953VXPX+JO+pKqSrg7pJD9pE7ISh9JDriLhVBShKigpQr6yFesoULH9yHYLXCpfJYWlRgMki6kl4+iSULDCYDyahdFwvC9KGoaxJ+4oJ8h7w+4qQipCiRRKkJdIUEtIVJJFRFUqSqBhJ4ivsLDhPxo4jvkTaPEULDAUF47fx5cmYW/NA3PhjYBoBbWbFRN9S82deF0BfCteMZBmMwoUkmgoWFQl2MosLgof8g5oTSEwGI5qC9ItVNmyaaxll0+A17mvYwmImywmUJrzx3a1StUiVvlAv1QK2r4uQzDQVq0OR3eeALRzeTNEqQumdZ3VV9VIWgoXQm4Z6a+YLQJlkgZWnnogW+eiQVC6PKQZ5vfTQLpznKDF/7AXUyIVAaIrGlFLqIFGra423NunBMOrcS7dNgcyJY45SUNSY0mZucdMojUpBJZrMQjhlOMZHcSuBLBZzV4Vtagb2NATWjAG7gK18ZiKEal1jXNi3DAYG0KtbBF6d4N7L2BGscyxA1y+Y5QpUNNil3xsug2AqlhzvjJHPGt33mUg4xh5tOEKOINCUrE1ETeZ1FTSi0K2angDQ5nKBTnd6LjdVMrKtnLvLKq2MWHVrAWKRDQMi1SYjWEE5vaoy6TaMoK1UPV22KLPOIyJYukDAvCw6al4ZOgIuwQTKIArJi9OLhNEkJrEqJC2GYl0QT9x5jkLh+g+YuHQL/1iPcO+fyHg8A7hmGweMRe+H5SVlX1HcNBtD+B9eeIwHMNowxfyKD9BQ+A6ZNvjmNoxieU6h6h0DfFNwYhqE2TiOcbhQ3hnMB5tTlCcR1xFw+Q0FUP1FDc6ojoDeMuQ98J3pIuHgkP4HmPQNo4BnElB2ig4jyB5CwcRrGY6QdosJkG0PmJQWkL5GsYhQvkL5Ch2jpFg4DePSQoUQwBkKsOQ9RkMB1D+hsDQVC8Xj3C4UKEvHsFDaPtUoihQpSShgPMULD0HUMhPIVvHWKGQ1ihkJ9g2gsLhiHoJgKDULDZzibh0h3RJvGgUOceAoZSRN4sPiF8HOMB2Cw7h8BtFw6BOAuHMLhLx0SFhFBwG4fEOofgKDLsHRIXh2jMcok6CYSFA2BSQxgvEUOsDQcwuHIeAZAwGIoUHsBiJnQqSS8ShgH/R7RoPYJ1DUFhcPzH3GqQ3ChiJiN4l4yDoG6QwJgHyC4UKFhqHIVIewPcLSHARiJvEdIaDILxQKE2SIyChzjEG0GgobhuiTYNV4UJwDIaxcDIe0NAuHCQsOwUJQZiWCw0BsBcLDEbRmNwteDEbScpEZjOGYwBmJrkR+YxD8hcG4NB+AoHMPAZjQTQaDUKmQlRMxQ9wmI2j1SPSh95CpLJKp6yHjoJ8V1KiqlKVcf0qi8f/F3JFOFCQT44ZWQ=
-  recorded_at: Mon, 13 Apr 2026 18:34:52 GMT
+  recorded_at: Tue, 12 May 2026 18:38:58 GMT
 - request:
     method: get
     uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090951.bz2
@@ -576,7 +430,7 @@ http_interactions:
       Accept:
       - application/json
       Date:
-      - Mon, 13 Apr 2026 18:34:54 GMT
+      - Tue, 12 May 2026 18:39:05 GMT
       X-Application:
       - "<APIKEY>"
       Content-Type:
@@ -591,46 +445,163 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 13 Apr 2026 18:34:54 GMT
+      - Tue, 12 May 2026 18:39:06 GMT
       Content-Type:
       - application/octet-stream
-      Content-Length:
-      - '1444'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Cf-Ray:
-      - 9ebc914cadab14d6-LHR
-      Cache-Control:
-      - private
+      Server:
+      - cloudflare
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
       Vary:
-      - Cookie
-      Content-Filename:
-      - BASIC-28449097-1.136090951.bz2
+      - Origin, accept-encoding
       Content-Disposition:
       - attachment; filename=BASIC-28449097-1.136090951.bz2
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - "*"
-      Access-Control-Allow-Headers:
-      - Accept, Authorization,Content-Type
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff097e554b45525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:41:06 GMT;path=/;secure;httponly
       Cf-Cache-Status:
       - DYNAMIC
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=pJ9UUCLsxxsl94Fg1K7GmsTDe9tybZNyS%2B2nC8cFRiqnpOT7OeVefsdq6ZhfznT5ZYVfd%2B0R1wCek8Hxm%2BcJuce63fkv2qaBXR0hFipl2tVpNUp2ThlNOtT8Dqda48hWqppwP83vs4wqPA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       X-Content-Type-Options:
       - nosniff
-      Server:
-      - cloudflare
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QEhbJZyYqjC4YBLYZkAh0FmQMRR4ChcFFxGSu4uqvuoAbwQrvVWhgWMPXrplAhq%2FzvSPBjUGZex9NqF8Atoh1fbYBD6YCN3TmLCd8HmPTxX50Ic58Ze9z8lSZsJdd%2FS0RKHTvSsNRquVOg%3D%3D"}]}'
+      Cf-Ray:
+      - 9fab8b4e6dea94d3-LHR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         QlpoOTFBWSZTWdcfVcYAH1dfgAAQUAf/8D7n35q/79+6YAl++fbAT7AAAAAAAAABjmmJgATABMAAJgACYc0xMACYAJgABMAATCv1VN+lQAAAGgaAAABoAZ+1VDQAMgGjQaGjQGIDTQAb1Kp+qgMo0ZDIGjJkBo0aAPSABUkTQEEKemiamPKnqZGMiYm1Nim0aT/DSajSajMzMMMMMzRmGGgwzL3vJeS8l5L3vfYB8R8BP5E+I+A/5JeSqsPYPhJPoGB6BwPEfcLDUV3MDjJhLYyTJ00SfYYzBZKqUAkCQJAkCRS0tLS0tLS0tLS0tLUq4eUkE7AP1kioSUKB75J8YgWEqgUhQqKFT4ySvPKFDAusLCywsLWFhQoUKFCh6JJYWRQd4xJYXUKGFWFC1hYUKFRmKFhQqFChewtIMh+0kULC8wPfNReLjIMooajcIn6ihPyH2B/QqQkoqREqShMFkkJoFkhFRJJbElLZJJ9/EcJ3zmMMMMNLgYGBgYECBAgSSSSZzJPMk99c50aT1zOjIfdJHYPcKFhgUGQ1HkPEeI5DyGQ1YqhfAwOBgaivUNhQ0F8C+XAcCYa6UztfO+3Gd9xcbjAwMxqOAyGo0Gw2Go1Gg0GY22plrdwOAoVB9tRzFC4qEhnnKLC4UMQQ+8BzhOkJmOmpL0GUG9bDYGmoO/1yMxTbXrkOM5ZZwJcTSE0yrrLdmcJetskT74TfRni9XppbTt52vU5ZQmNW+uemwbahayTK4xaE6AyFC2l5OgOgchQqBWcktaQ3oOcJXG2VwvQ6UL9LySrjnQtOdgtUk6KDXWyLQnPRcZcNM8pIz39onXEJh0Brv1BYZDZvrcZC/K7bG0Jz1345TSt4Ti16xbUccWByBoLit7C0OeuraU5Z4hM95Uk0s1pF89GdxoKoUMxU1tpa2nGd0mXPXMbZiZ6Z322hfbet98x01FhQ3G1ommQayTG9W42twM+ckvcVi2KF5yoypM7JwJrvpbA4GVhYXGlcBrtrdlphEvnk33z1zvTKltbYaDYWFmWeQyhM8Z6VNUraxWsy02zta+mMs9taHLIba5DDS1rRVZY0q2wtetFFb2i97SaihQ1l7QmMSShXGUtna0GVJNqxQ3tnehNHJAk2EqRJJfkJxdIkj/w+oWE6h+YuL/cKH5RA+0eoXFp/0et6x4jYOB6x7ogUMOX1yUTWk+A8R0HQNx8PGIGBzHQe3RD2ih+I/Ad8nX9thnE1D3SHtDqJ3DzxToGg1EhxIYHgKHvHaOwUPOPAYkNB8G7mPGE7YkH5joKofoKHa74gaDwG1g8R9cJ9ckMh7JJPAfQP4HQfOGySUCPoHpHuB7hYekbjYfMCPpH6C4modQ/QSgtJMDkNBQykmUkofUPOPAXC4/yPQP4klCoEXBqKsP5GYyGw4FBJwKhJ6hQyHgLi4yHUUOY+VSiKFCqpRKGB7xQsP3HeOBqJ3ivMLihoNxQ0E+QnyDqC4yGg+ImBQbCw5donYP9B5JJ4DkFDoJ3DQJHmFh+I8oMD2BmPmFx/cZDoLjuEh84uOYuJDId0ksIofOOo/EO8f2FBp5x3STIfSNh4pJ3QxJKBwFJJ5hkCaQUIULBKDkOYsPqH3hoCMDMUKDsBmJtQqSTIShgOQn2j0D5DoO0PMNwuPwH9DeSdooZDAkNxqPOJDMYDvHbJMQwH5BcUKFhsPEVJO4R6hYYG4sPSCLiQ9AjzBzFxqFCgUJDkiNAoYBGoOBQ6jokm40yChIekNBsLgjQeA4FxyHpklx6BQlBuJCwWHMEchLiw8hNR1HA3FsBoOsPJEbjeGwwCNhIcIj2DMPsFw7A5D6RQI5j2DYchOQ5DuGw5CXkbCSVFAocCh/gTUdR/Mk/ih/UkqNEBbEn8HZ/VkhJ8GKqX4z7a9evcu4f8XckU4UJDXH1XGA==
-  recorded_at: Mon, 13 Apr 2026 18:34:54 GMT
+  recorded_at: Tue, 12 May 2026 18:39:06 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090863.bz2
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.9.0, ruby 3.2.10 (2026-01-14))
+      Accept:
+      - application/json
+      Date:
+      - Tue, 12 May 2026 18:39:09 GMT
+      X-Application:
+      - "<APIKEY>"
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 12 May 2026 18:39:09 GMT
+      Content-Type:
+      - application/octet-stream
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - cloudflare
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
+      Vary:
+      - Origin, accept-encoding
+      Content-Disposition:
+      - attachment; filename=BASIC-28449097-1.136090863.bz2
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff09ba7e0c45525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:41:09 GMT;path=/;secure;httponly
+      Cf-Cache-Status:
+      - DYNAMIC
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=atuMYo1noNKFSnEdP87hsZ4ePhRHd%2Fv33BhAwN%2FdI193W5zUDluwlFp2V04KTN1q2ETRLJEzc5yK6HIcvCwozypTJa3c91ufi%2Bcol0TfGi5%2FaN1HpXIH3QVQOyip7DTQ8%2FjUecHJziI%2BpA%3D%3D"}]}'
+      Cf-Ray:
+      - 9fab8b665823ed0e-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+  recorded_at: Tue, 12 May 2026 18:39:10 GMT
+- request:
+    method: get
+    uri: https://historicdata.betfair.com/api/DownloadFile?filePath=/xds_nfs/hdfs_supreme/BASIC/2017/Nov/1/28449097/1.136090954.bz2
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.9.0, ruby 3.2.10 (2026-01-14))
+      Accept:
+      - application/json
+      Date:
+      - Tue, 12 May 2026 18:39:14 GMT
+      X-Application:
+      - "<APIKEY>"
+      Content-Type:
+      - application/json
+      X-Authentication:
+      - "<TOKEN>"
+      Ssoid:
+      - "<TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 12 May 2026 18:39:14 GMT
+      Content-Type:
+      - application/octet-stream
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - cloudflare
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}'
+      Vary:
+      - Origin, accept-encoding
+      Content-Disposition:
+      - attachment; filename=BASIC-28449097-1.136090954.bz2
+      Set-Cookie:
+      - NSC_mc-80-fit_qse=ffffffff097e554445525d5f4f58455e445a4a4229a0;expires=Tue,
+        12-May-2026 18:41:14 GMT;path=/;secure;httponly
+      Cf-Cache-Status:
+      - DYNAMIC
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iuUuiGZ3JBEdnatF8gZNTMX5JZOzxnJL2W%2FdYx%2FfgTb3SiM7mbFmxSQHgoRE7pZ3tut27VNbBrJWmHnVrPWp5N2VWyB%2F0EnfO%2B9oqu6N6XFEJ6mccH7tbTZ3g127dTuE6%2BEAbTl18LYSDA%3D%3D"}]}'
+      Cf-Ray:
+      - 9fab8b846d52ef4a-LHR
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        QlpoOTFBWSZTWU+OGVkAERjfgAAQUAf/8D7n35q/79+6YAefAGioAIAAAAAHNMTAAmACYAATAAEwSImgRKRiMCYmAIDCGmmCYc0xMACYAJgABMAATDmmJgATABMAAJgACYc0xMACYAJgABMAATAqSQJo1Mpg0nlR7Sp6jaj9UfqaZNBsmo8in3kP7HxHzH0E/8PpIcR5jsHWO8Ooah1X4e1v45VwcdVWv41lnI953VXPX+JO+pKqSrg7pJD9pE7ISh9JDriLhVBShKigpQr6yFesoULH9yHYLXCpfJYWlRgMki6kl4+iSULDCYDyahdFwvC9KGoaxJ+4oJ8h7w+4qQipCiRRKkJdIUEtIVJJFRFUqSqBhJ4ivsLDhPxo4jvkTaPEULDAUF47fx5cmYW/NA3PhjYBoBbWbFRN9S82deF0BfCteMZBmMwoUkmgoWFQl2MosLgof8g5oTSEwGI5qC9ItVNmyaaxll0+A17mvYwmImywmUJrzx3a1StUiVvlAv1QK2r4uQzDQVq0OR3eeALRzeTNEqQumdZ3VV9VIWgoXQm4Z6a+YLQJlkgZWnnogW+eiQVC6PKQZ5vfTQLpznKDF/7AXUyIVAaIrGlFLqIFGra423NunBMOrcS7dNgcyJY45SUNSY0mZucdMojUpBJZrMQjhlOMZHcSuBLBZzV4Vtagb2NATWjAG7gK18ZiKEal1jXNi3DAYG0KtbBF6d4N7L2BGscyxA1y+Y5QpUNNil3xsug2AqlhzvjJHPGt33mUg4xh5tOEKOINCUrE1ETeZ1FTSi0K2angDQ5nKBTnd6LjdVMrKtnLvLKq2MWHVrAWKRDQMi1SYjWEE5vaoy6TaMoK1UPV22KLPOIyJYukDAvCw6al4ZOgIuwQTKIArJi9OLhNEkJrEqJC2GYl0QT9x5jkLh+g+YuHQL/1iPcO+fyHg8A7hmGweMRe+H5SVlX1HcNBtD+B9eeIwHMNowxfyKD9BQ+A6ZNvjmNoxieU6h6h0DfFNwYhqE2TiOcbhQ3hnMB5tTlCcR1xFw+Q0FUP1FDc6ojoDeMuQ98J3pIuHgkP4HmPQNo4BnElB2ig4jyB5CwcRrGY6QdosJkG0PmJQWkL5GsYhQvkL5Ch2jpFg4DePSQoUQwBkKsOQ9RkMB1D+hsDQVC8Xj3C4UKEvHsFDaPtUoihQpSShgPMULD0HUMhPIVvHWKGQ1ihkJ9g2gsLhiHoJgKDULDZzibh0h3RJvGgUOceAoZSRN4sPiF8HOMB2Cw7h8BtFw6BOAuHMLhLx0SFhFBwG4fEOofgKDLsHRIXh2jMcok6CYSFA2BSQxgvEUOsDQcwuHIeAZAwGIoUHsBiJnQqSS8ShgH/R7RoPYJ1DUFhcPzH3GqQ3ChiJiN4l4yDoG6QwJgHyC4UKFhqHIVIewPcLSHARiJvEdIaDILxQKE2SIyChzjEG0GgobhuiTYNV4UJwDIaxcDIe0NAuHCQsOwUJQZiWCw0BsBcLDEbRmNwteDEbScpEZjOGYwBmJrkR+YxD8hcG4NB+AoHMPAZjQTQaDUKmQlRMxQ9wmI2j1SPSh95CpLJKp6yHjoJ8V1KiqlKVcf0qi8f/F3JFOFCQT44ZWQ=
+  recorded_at: Tue, 12 May 2026 18:39:14 GMT
 recorded_with: VCR 6.3.1

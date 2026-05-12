@@ -18,32 +18,34 @@ class FetchHistoricalDataJob < BetfairJob
 
     event_filter = if todays_games.all? { |m| m.betfair_event_id.present? }
                      todays_games.map(&:betfair_event_id)
+                   else
+                     [nil]
                    end
-
-    opts = {
-      sport: this_data_block.fetch(:sport),
-      plan: this_data_block.fetch(:plan),
-      fromDay: target_date.day,
-      fromMonth: target_date.month,
-      fromYear: target_date.year,
-      toDay: target_date.day,
-      toMonth: target_date.month,
-      toYear: target_date.year,
-      eventId: event_filter,
-      eventName: nil,
-      # marketTypesCollection: market_types + ['Unspecified'],
-      marketTypesCollection: market_types,
-      # countriesCollection: [country] + ['Unspecified'],
-      countriesCollection: [country],
-      fileTypeCollection: %w[M],
-    }
-    _collection_opts = bc.get_collection_options opts
-    all_files = bc.download_list_of_files(opts).reject do |f|
-      name = f.split("/").last
-      market_id = name.split(".")[0..-2].join(".")
-      BetMarket.by_betfair_market_id(market_id).exists?
+    all_files = event_filter.flat_map do |event_id|
+      opts = {
+        sport: this_data_block.fetch(:sport),
+        plan: this_data_block.fetch(:plan),
+        fromDay: target_date.day,
+        fromMonth: target_date.month,
+        fromYear: target_date.year,
+        toDay: target_date.day,
+        toMonth: target_date.month,
+        toYear: target_date.year,
+        eventId: event_id,
+        eventName: nil,
+        # marketTypesCollection: market_types + ['Unspecified'],
+        marketTypesCollection: market_types,
+        # countriesCollection: [country] + ['Unspecified'],
+        countriesCollection: [country],
+        fileTypeCollection: %w[M],
+      }
+      _collection_opts = bc.get_collection_options opts
+      bc.download_list_of_files(opts).reject do |f|
+        name = f.split("/").last
+        market_id = name.split(".")[0..-2].join(".")
+        BetMarket.by_betfair_market_id(market_id).exists?
+      end
     end
-
     # If all the event ids are known for a date, we can download just those ids
     # wonder if we could use the 'eventName' filter above?
     download_event_ids = all_files.map { |f| f.split("/")[-2] }.uniq
