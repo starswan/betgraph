@@ -4,10 +4,9 @@ import Browser
 import Chart as C
 import Chart.Attributes as CA
 import Dict exposing (Dict)
-import Html exposing (Html, div, h1, h4, span, text)
+import Html exposing (Html, div, h4, text)
 import Html.Attributes exposing (style)
 import Json.Decode exposing (Decoder, decodeString, dict, field, float, int, list, map2, string)
-import Time exposing (Posix, millisToPosix, posixToMillis)
 
 
 
@@ -135,7 +134,7 @@ view model =
 
 
 type Message
-    = None
+    = Never
 
 
 
