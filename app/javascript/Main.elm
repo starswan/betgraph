@@ -87,6 +87,7 @@ view model =
               C.chart
                 [ CA.width 1500
                 , CA.height 300
+                , CA.margin { top = 0, bottom = 30, left = 20, right = 20 }
                 ]
                 [ C.xTicks [ CA.noGrid ]
                 , C.yTicks []
@@ -105,7 +106,7 @@ view model =
                 --    , { age = 20, height = 184, weight = 60 }
                 --    ]
                 , C.series (\tv -> tv.time |> toFloat)
-                    [ C.interpolated .value [] [] ]
+                    [ C.interpolated .value [] [ CA.circle, CA.size 3 ] ]
                     first
                 ]
             ]
