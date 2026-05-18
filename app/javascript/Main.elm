@@ -74,9 +74,13 @@ init flags =
 view : Model -> Html Message
 view model =
     let
+        first : List TimeValue
         first =
             model.items |> List.head |> Maybe.map (\item -> item.data) |> Maybe.withDefault []
 
+        --items : List (Dict Int Float)
+        --items =
+        --    model.items |> List.map (\item -> item.data |> List.map (\datum -> ( datum.time, datum.value )) |> Dict.fromList)
         -- The inline style is being used for example purposes in order to keep this example simple and
         -- avoid loading additional resources. Use a proper stylesheet when building your own app.
     in
@@ -106,10 +110,16 @@ view model =
                 --    , { age = 20, height = 184, weight = 60 }
                 --    ]
                 , C.series (\tv -> tv.time |> toFloat)
-                    [ C.interpolated .value [] [ CA.circle, CA.size 3 ]
+                    [ C.interpolated (\x -> x.value) [] [ CA.circle, CA.size 3 ]
+                    , C.interpolated (\x -> x.value * 2) [] [ CA.circle, CA.size 3 ]
                     ]
                     first
 
+                --, C.series (\tv -> tv.time |> toFloat)
+                --    [ C.interpolated (\x -> x.value) [] [ CA.circle, CA.size 3 ]
+                --    , C.interpolated (\x -> x.value * 2) [] [ CA.circle, CA.size 3 ]
+                --    ]
+                --    items
                 --, C.series (\tv -> tv.time |> toFloat)
                 --    (model.items |> List.map (\item -> C.interpolated .value [] [ CA.circle, CA.size 3 ]))
                 --    first
