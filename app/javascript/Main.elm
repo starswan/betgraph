@@ -106,7 +106,8 @@ view model =
                 --    , { age = 20, height = 184, weight = 60 }
                 --    ]
                 , C.series (\tv -> tv.time |> toFloat)
-                    [ C.interpolated .value [] [ CA.circle, CA.size 3 ] ]
+                    [ C.interpolated .value [] [ CA.circle, CA.size 3 ]
+                    ]
                     first
                 ]
             ]
