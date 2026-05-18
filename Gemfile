@@ -74,6 +74,7 @@ gem "rake", "< 13.1"
 gem "stringio", "< 3.2"
 gem "ostruct", "< 0.5.6"
 
+gem "timescaledb"
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 

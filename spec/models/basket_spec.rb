@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -58,38 +56,57 @@ RSpec.describe Basket do
   end
 
   describe "#event_basket_prices" do
+    let(:now) { create(:sport).created_at }
+    let(:mpt2) { now - 2.minutes }
+    let(:mpt3) { now - 1.minute }
+    let(:basket) { described_class.last }
+    let(:expected1) { { time: mpt2.to_s, betsize: 1.0, betType: "B", price: 1.0 } }
+    let(:expected2) { { time: mpt3.to_s, betsize: 1.0, betType: "B", price: 1.0 } }
+
     before do
+      mt2 = create :market_price_time,
+                   time: mpt2
+      # market_prices: [
+      #   build(:market_price, market_runner: m1.market_runners.first, back1price: 2),
+      #   build(:market_price, market_runner: m1.market_runners.second, back1price: 2),
+      #   build(:market_price, market_runner: m2.market_runners.first, back1price: 2),
+      #   build(:market_price, market_runner: m2.market_runners.second, back1price: 2),
+      # ])
+      mt3 = create :market_price_time,
+                   time: mpt3
+      # market_prices: [
+      #   build(:market_price, market_runner: m1.market_runners.first, back1price: 2),
+      #   build(:market_price, market_runner: m1.market_runners.second, back1price: 2),
+      #   build(:market_price, market_runner: m2.market_runners.first, back1price: 2),
+      #   build(:market_price, market_runner: m2.market_runners.second, back1price: 2),
+      # ])
       m1 = create(:bet_market,
                   match: soccermatch,
                   name: "Market1",
                   market_runners: [
-                    build(:market_runner),
-                    build(:market_runner),
+                    build(:market_runner, prices: [
+                      build(:price, back_price: 2, market_price_time: mt2, created_at: mpt2),
+                      build(:price, back_price: 2, market_price_time: mt3, created_at: mpt3),
+                    ]),
+                    build(:market_runner, prices: [
+                      build(:price, back_price: 2, market_price_time: mt2, created_at: mpt2),
+                      build(:price, back_price: 2, market_price_time: mt3, created_at: mpt3),
+                    ]),
                   ])
 
       m2 = create(:bet_market,
                   match: soccermatch,
                   name: "Market2",
                   market_runners: [
-                    build(:market_runner),
-                    build(:market_runner),
+                    build(:market_runner, prices: [
+                      build(:price, back_price: 2, market_price_time: mt2, created_at: mpt2),
+                      build(:price, back_price: 2, market_price_time: mt3, created_at: mpt3),
+                    ]),
+                    build(:market_runner, prices: [
+                      build(:price, back_price: 2, market_price_time: mt2, created_at: mpt2),
+                      build(:price, back_price: 2, market_price_time: mt3, created_at: mpt3),
+                    ]),
                   ])
-      create(:market_price_time,
-             time: mpt2,
-             market_prices: [
-               build(:market_price, market_runner: m1.market_runners.first, back1price: 2),
-               build(:market_price, market_runner: m1.market_runners.second, back1price: 2),
-               build(:market_price, market_runner: m2.market_runners.first, back1price: 2),
-               build(:market_price, market_runner: m2.market_runners.second, back1price: 2),
-             ])
-      create(:market_price_time,
-             time: mpt3,
-             market_prices: [
-               build(:market_price, market_runner: m1.market_runners.first, back1price: 2),
-               build(:market_price, market_runner: m1.market_runners.second, back1price: 2),
-               build(:market_price, market_runner: m2.market_runners.first, back1price: 2),
-               build(:market_price, market_runner: m2.market_runners.second, back1price: 2),
-             ])
       create(:basket,
              match: soccermatch,
              basket_items: [
@@ -97,13 +114,6 @@ RSpec.describe Basket do
                build(:basket_item, market_runner: m2.market_runners.second, weighting: -1),
              ])
     end
-
-    let(:now) { create(:sport).created_at }
-    let(:mpt2) { now - 2.minutes }
-    let(:mpt3) { now - 1.minute }
-    let(:basket) { described_class.last }
-    let(:expected1) { { time: mpt2.to_s, betsize: 1.0, betType: "B", price: 1.0 } }
-    let(:expected2) { { time: mpt3.to_s, betsize: 1.0, betType: "B", price: 1.0 } }
 
     it "has the correct values" do
       expect(basket.event_basket_prices.map { |g| g.except(:market_prices).merge(time: g.fetch(:time).to_s) })
