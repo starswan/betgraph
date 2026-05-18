@@ -143,7 +143,7 @@ view model =
             [ --text (model.names |> Dict.values |> String.join " ")
               C.chart
                 [ CA.width 1500
-                , CA.height 300
+                , CA.height 200
                 , CA.margin { top = 0, bottom = 30, left = 20, right = 20 }
                 ]
                 ([ C.xTicks [ CA.noGrid ]
