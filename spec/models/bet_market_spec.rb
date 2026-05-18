@@ -32,19 +32,19 @@ RSpec.describe BetMarket do
                                                   live: true,
                                                   betfair_market_type: market_type,
                                                   market_runners: [
-                                                    build(:market_runner, prices: [
+                                                    build(:market_runner, betfair_runner_type: runner_type, prices: [
                                                       build(:price, lay_price: 2.58, lay_amount: 148.67, back_price: 2.42, back_amount: 296.69, depth: 3, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, lay_price: 2.56, lay_amount: 48.18, back_price: 2.44, back_amount: 60.38, depth: 2, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, lay_price: 2.54, lay_amount: 135.62, back_price: 2.46, back_amount: 196.71, depth: 1, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, market_price_time: mpt_now, created_at: mpt_now.time),
                                                     ], trades: [build(:trade, side: "L")]),
-                                                    build(:market_runner, prices: [
+                                                    build(:market_runner, betfair_runner_type: runner_type2, prices: [
                                                       build(:price, lay_price: 3.45, lay_amount: 369.34, back_price: 3.15, back_amount: 48.48, depth: 3, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, lay_price: 3.4, lay_amount: 310.99, back_price: 3.2, back_amount: 88.26, depth: 2, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, lay_price: 3.35, lay_amount: 252.63, back_price: 3.25, back_amount: 101.30, depth: 1, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, :good_lay_price, market_price_time: mpt_now, created_at: mpt_now.time),
                                                     ], trades: [build(:trade)]),
-                                                    build(:market_runner, prices: [
+                                                    build(:market_runner, betfair_runner_type: runner_type3, prices: [
                                                       build(:price, lay_price: 3.5, lay_amount: 52.40, back_price: 3.25, back_amount: 253.13, depth: 3, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, lay_price: 3.5, lay_amount: 125.10, back_price: 3.3, back_amount: 61.11, depth: 2, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
                                                       build(:price, lay_price: 3.45, lay_amount: 48.90, back_price: 3.35, back_amount: 228.44, depth: 1, market_price_time: one_minute_ago, created_at: one_minute_ago.time),
