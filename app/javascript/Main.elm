@@ -74,17 +74,17 @@ init flags =
 view : Model -> Html Message
 view model =
     let
-        first : List TimeValue
-        first =
-            model.items |> List.head |> Maybe.map (\item -> item.data) |> Maybe.withDefault []
+        data : List (List TimeValue)
+        data =
+            model.items |> List.map .data
 
-        --items : List (Dict Int Float)
-        --items =
-        --    model.items |> List.map (\item -> item.data |> List.map (\datum -> ( datum.time, datum.value )) |> Dict.fromList)
-        -- The inline style is being used for example purposes in order to keep this example simple and
-        -- avoid loading additional resources. Use a proper stylesheet when building your own app.
+        --first : List TimeValue
+        --first =
+        --    data |> List.head |> Maybe.withDefault []
     in
     div []
+        -- The inline style is being used for example purposes in order to keep this example simple and
+        -- avoid loading additional resources. Use a proper stylesheet when building your own app.
         [ h4 [ style "display" "flex", style "justify-content" "center" ] [ text "Hello Elm!" ]
         , div []
             [ --text (model.names |> Dict.values |> String.join " ")
@@ -93,54 +93,33 @@ view model =
                 , CA.height 300
                 , CA.margin { top = 0, bottom = 30, left = 20, right = 20 }
                 ]
-                [ C.xTicks [ CA.noGrid ]
-                , C.yTicks []
-                , C.xLabels []
-                , C.yLabels []
+                ([ C.xTicks [ CA.noGrid ]
+                 , C.yTicks []
+                 , C.xLabels []
+                 , C.yLabels []
 
-                --, C.yAxis [ CA.highest 1 CA.exactly ]
-                --, C.series .age
-                --    [ C.interpolated .height [] []
-                --    , C.interpolated .weight [] []
-                --    ]
-                --    [ { age = 0, height = 40, weight = 4 }
-                --    , { age = 5, height = 80, weight = 24 }
-                --    , { age = 10, height = 120, weight = 36 }
-                --    , { age = 15, height = 180, weight = 54 }
-                --    , { age = 20, height = 184, weight = 60 }
-                --    ]
-                , C.series (\tv -> tv.time |> toFloat)
-                    [ C.interpolated (\x -> x.value) [] [ CA.circle, CA.size 3 ]
-                    , C.interpolated (\x -> x.value * 2) [] [ CA.circle, CA.size 3 ]
-                    ]
-                    first
-
-                --, C.series (\tv -> tv.time |> toFloat)
-                --    [ C.interpolated (\x -> x.value) [] [ CA.circle, CA.size 3 ]
-                --    , C.interpolated (\x -> x.value * 2) [] [ CA.circle, CA.size 3 ]
-                --    ]
-                --    items
-                --, C.series (\tv -> tv.time |> toFloat)
-                --    (model.items |> List.map (\item -> C.interpolated .value [] [ CA.circle, CA.size 3 ]))
-                --    first
-                ]
+                 --, C.yAxis [ CA.highest 1 CA.exactly ]
+                 --, C.series .age
+                 --    [ C.interpolated .height [] []
+                 --    , C.interpolated .weight [] []
+                 --    ]
+                 --    [ { age = 0, height = 40, weight = 4 }
+                 --    , { age = 5, height = 80, weight = 24 }
+                 --    , { age = 10, height = 120, weight = 36 }
+                 --    , { age = 15, height = 180, weight = 54 }
+                 --    , { age = 20, height = 184, weight = 60 }
+                 --    ]
+                 ]
+                    ++ (data
+                            |> List.map
+                                (\item ->
+                                    C.series (\v -> v.time |> toFloat)
+                                        [ C.interpolated (\x -> x.value) [] [ CA.circle, CA.size 3 ] ]
+                                        item
+                                )
+                       )
+                )
             ]
-
-        --(model.items
-        --    |> List.map
-        --        (\item ->
-        --            let
-        --                v1 =
-        --                    item.data |> List.map (\x -> x.time |> posixToMillis |> String.fromInt)
-        --
-        --                v : List (Html msg)
-        --                v =
-        --                    v1 |> List.map (\x -> text x)
-        --            in
-        --            div []
-        --                ([ span [] [ text item.name ] ] ++ v)
-        --        )
-        --)
         ]
 
 
