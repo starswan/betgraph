@@ -109,6 +109,10 @@ view model =
                     [ C.interpolated .value [] [ CA.circle, CA.size 3 ]
                     ]
                     first
+
+                --, C.series (\tv -> tv.time |> toFloat)
+                --    (model.items |> List.map (\item -> C.interpolated .value [] [ CA.circle, CA.size 3 ]))
+                --    first
                 ]
             ]
 
