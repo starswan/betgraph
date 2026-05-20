@@ -130,18 +130,13 @@ view model =
         valueList : List ( Float, Dict String Float )
         valueList =
             valueDict |> Dict.toList |> List.map (\( t, l ) -> ( t |> toFloat, l ))
-
-        --first : List TimeValue
-        --first =
-        --    data |> List.head |> Maybe.withDefault []
     in
     div []
         -- The inline style is being used for example purposes in order to keep this example simple and
         -- avoid loading additional resources. Use a proper stylesheet when building your own app.
         [ h4 [ style "display" "flex", style "justify-content" "center" ] [ text "Elm Chart" ]
         , div []
-            [ --text (model.names |> Dict.values |> String.join " ")
-              C.chart
+            [ C.chart
                 [ CA.width 1500
                 , CA.height 300
                 , CA.margin { top = 0, bottom = 30, left = 20, right = 20 }
