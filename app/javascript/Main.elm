@@ -7,6 +7,7 @@ import Dict exposing (Dict)
 import Html exposing (Html, div, h4, text)
 import Html.Attributes exposing (style)
 import Json.Decode exposing (Decoder, decodeString, dict, field, float, int, list, map2, string)
+import Time exposing (utc)
 
 
 
@@ -143,7 +144,7 @@ view model =
                 ]
                 ([ C.xTicks [ CA.noGrid ]
                  , C.yTicks []
-                 , C.xLabels []
+                 , C.xLabels [ CA.times utc, CA.amount 12 ]
                  , C.yLabels []
 
                  --, C.yAxis [ CA.highest 1 CA.exactly ]
