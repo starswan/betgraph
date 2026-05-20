@@ -125,7 +125,7 @@ view model =
 
         valueDict : Dict Int (Dict String Float)
         valueDict =
-            values |> Dict.map (\k v -> v |> List.map (\sf -> ( sf.name, sf.value )) |> Dict.fromList)
+            values |> Dict.map (\_ v -> v |> List.map (\sf -> ( sf.name, sf.value )) |> Dict.fromList)
 
         valueList : List ( Float, Dict String Float )
         valueList =
