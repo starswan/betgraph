@@ -144,7 +144,9 @@ view model =
                 ]
                 ([ C.xTicks [ CA.noGrid ]
                  , C.yTicks []
-                 , C.xLabels [ CA.times utc, CA.amount 12 ]
+
+                 --, C.xLabels [ CA.times utc, CA.amount 12 ]
+                 , C.xLabels []
                  , C.yLabels []
 
                  --, C.yAxis [ CA.highest 1 CA.exactly ]
@@ -166,6 +168,7 @@ view model =
                                     (\( x, ydict ) ->
                                         ydict |> Dict.get name
                                     )
+                                    --[ CA.color "blue" ]
                                     []
                                     [ CA.circle, CA.size 3 ]
                             )
