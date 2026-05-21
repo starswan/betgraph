@@ -165,7 +165,7 @@ module BetMarketsHelper
     prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
     {
       id: runner.id,
-      label: "#{runner.bet_market.name} (#{runner.runnername})",
+      label: runner_label(runner),
       # prices in minutes from kickoff rather than absolute time (for Elm Charts)
       prices: prices.sort_by { |x| x.market_price_time.time }
                     .map { |p| [((p.market_price_time.time - runner.bet_market.time) / 60).to_i, (1 / p.price_value).round(3)] }.to_h,

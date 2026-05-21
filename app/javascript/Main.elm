@@ -170,7 +170,9 @@ view model =
                                     )
                                     --[ CA.color "blue" ]
                                     []
-                                    [ CA.circle, CA.size 3 ]
+                                    -- The dots scale with the display
+                                    -- so they are smaller on a small screen
+                                    [ CA.circle, CA.size 5 ]
                             )
                     )
                     valueList
