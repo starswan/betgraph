@@ -4,13 +4,12 @@
 # $Id$
 #
 require "rails_helper"
-require "soccer/team_clean_sheet"
 
 RSpec.describe Soccer::TeamCleanSheet do
   subject { described_class.new }
 
   it "values home clean sheets" do
-    # homevalue 1 means home clean sheet yes
+    # homevalue 1 means that we have a home clean sheet
     expect(subject.value(1, 0, 3, 0)).to eq(1)
     expect(subject.value(1, 0, 3, 1)).to eq(-1)
     # homevalue -1 means home clean sheet no

@@ -71,6 +71,7 @@ Rails.application.configure do
   # https://medium.com/@atinders/easy-log-rotation-with-rails-5-7b8d3c173461
   # Keeps the Last 5 log files which are rotated at every 50MB
   config.logger = Logger.new(config.paths['log'].first, 5, 50.megabytes)
+  # config.log_file_size = 50 * 1024 * 1024
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
