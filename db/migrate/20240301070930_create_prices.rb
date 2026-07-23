@@ -4,6 +4,7 @@
 # $Id$
 #
 class CreatePrices < ActiveRecord::Migration[6.0]
+  # 100k rows imports in about 40 sec - 200k rows doesn't work
   BATCH_SIZE = 100_000
 
   class MarketPrice < ApplicationRecord
