@@ -4,7 +4,7 @@
 # $Id$
 #
 class CreatePrices < ActiveRecord::Migration[6.0]
-  BATCH_SIZE = 200_000
+  BATCH_SIZE = 100_000
 
   class MarketPrice < ApplicationRecord
     belongs_to :market_price_time, counter_cache: true
