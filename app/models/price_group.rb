@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class PriceGroup
   include ActiveModel::Model
   include ActiveModel::Validations
@@ -11,8 +9,12 @@ class PriceGroup
 private
 
   def check_overrounds
-    market_overround = market_prices.select(&:active?).map { |market_price|
-      market_price.back_price_set.probability
+    # market_overround = market_prices.select(&:active?).map { |market_price|
+    #   market_price.back_price_set.probability
+    # }.sum
+    market_overround = market_prices.group_by(&:market_runner).map { |_runner, price_list|
+      back_prices = price_list.map { |p| [p.back_price, p.back_amount] }
+      BackPriceSet.new(*back_prices).probability
     }.sum
     errors.add(:market_prices, "overround too high #{market_overround}") if market_overround > 1.8
     errors.add(:market_prices, "overround too low #{market_overround}") if market_overround < 0.5

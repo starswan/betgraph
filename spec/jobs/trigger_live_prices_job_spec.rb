@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -31,6 +29,6 @@ RSpec.describe TriggerLivePricesJob, :vcr, :betfair, type: :job do
   it "extracts market prices" do
     expect {
       described_class.perform_now
-    }.to change(MarketPrice, :count).by(38)
+    }.to change(Price, :count).by(114)
   end
 end
