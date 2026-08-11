@@ -16,13 +16,6 @@ TeamTotalConfig.create! count: 11, threshold: 43, name: "Medium"
 TeamTotalConfig.create! count: 14, threshold: 53, name: "Optimum"
 TeamTotalConfig.create! count: 16, threshold: 66, name: "Highest Working"
 
-Dir.new(Rails.root.join("app/valuers")).find_all { |dir| dir.first != "." && dir.last(3) != ".rb" }.each do |includedir|
-  Dir.new(Rails.root.join("app/valuers/#{includedir}")).find_all { |i| i.first != "." }.each do |include|
-    require(includedir + "/" + include)
-  end
-  # .each { |v| Valuer.create :name => v }
-end
-
 startyear = Time.zone.now.year + 50
 startyear.downto(1990).each do |year|
   Season.create startdate: Date.new(year, 8, 1),
