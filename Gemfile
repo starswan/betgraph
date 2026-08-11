@@ -58,6 +58,9 @@ gem "jbuilder", "~> 2.14"
 
 gem "kaminari"
 
+#  needed for ruby 3.4 support
+gem "nkf"
+
 # attempt to bring data into postgres
 # sudo su - postgres
 # psql
