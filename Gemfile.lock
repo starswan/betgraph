@@ -391,7 +391,6 @@ GEM
     matrix (0.4.2)
     method_source (1.1.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.9)
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
@@ -417,9 +416,7 @@ GEM
       net-protocol
     net-ssh (7.3.0)
     nio4r (2.7.5)
-    nokogiri (1.19.4)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
+    nkf (0.3.0)
     nokogiri (1.19.4-arm-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-linux-gnu)
@@ -710,7 +707,6 @@ GEM
 
 PLATFORMS
   arm-linux-gnu
-  ruby
   x86_64-linux-gnu
 
 DEPENDENCIES
@@ -760,6 +756,7 @@ DEPENDENCIES
   jbuilder (~> 2.14)
   jsbundling-rails
   kaminari
+  nkf
   ostruct (< 0.5.6)
   parallel_tests
   passenger
