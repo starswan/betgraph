@@ -152,3 +152,64 @@ VCR.configure do |config|
     interaction.request.headers["Ssoid"]&.first
   end
 end
+
+# default to coverage 'on' (e.g. for guard)
+if ENV.fetch("COVERAGE", 1).to_i.positive?
+  require "simplecov"
+  require "simplecov-lcov"
+
+  # This allows both LCOV and HTML formatting -
+  # lcov for undercover gem, HTML for humans
+  class SimpleCov::Formatter::MergedFormatter
+    def format(result)
+      SimpleCov::Formatter::HTMLFormatter.new.format(result)
+      SimpleCov::Formatter::LcovFormatter.new.format(result)
+    end
+  end
+
+  SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
+  # SimpleCov::Formatter::LcovFormatter.config.output_directory = "coverage"
+  # SimpleCov::Formatter::LcovFormatter.config.lcov_file_name = 'lcov.info'
+  SimpleCov.formatter = SimpleCov::Formatter::MergedFormatter
+
+  SimpleCov.start :rails do
+    enable_coverage :branch
+    primary_coverage :branch
+    # ruby 3.2 needed
+    # enable_coverage_for_eval
+
+    add_filter "app/admin"
+    add_filter "lib/tasks/db/yaml_load"
+    # not really testable
+    add_filter "app/jobs/keep_everything_alive_job.rb"
+    add_filter "app/jobs/tickle_live_prices_job.rb"
+    # Will go away some time real soon now
+    add_filter "app/jobs/trigger_live_prices_job.rb"
+    # not really testable
+    add_filter "app/jobs/make_all_matches_job.rb"
+    # not really testable
+    add_filter "app/jobs/load_all_football_data_job.rb"
+    add_filter "app/controllers/tennis_matches_controller.rb"
+    add_filter "app/models/baseball_match.rb"
+    add_filter "app/models/basketball_match.rb"
+    add_filter "app/models/cricket_match.rb"
+    add_filter "app/models/snooker_match.rb"
+    add_filter "app/models/motor_race.rb"
+    add_filter "app/models/team_division.rb"
+    # not used yet
+    add_filter "app/models/user.rb"
+    # not used yet
+    add_filter "app/valuers/poisson_sum.rb"
+    add_group "Valuers", "app/valuers"
+
+    # Only set minimum coverage locally - CI uses Pronto::Undercover
+    unless ENV.key? "CI"
+      primary_coverage :branch
+      minimum_coverage line: 91.62, branch: 66.14
+      # we seem to have flakey/non-stable coverage values
+      # maybe no longer...?
+      maximum_coverage_drop 0.50
+    end
+  end
+end
+
