@@ -16,7 +16,6 @@ class TeamNamesController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render xml: @team_names }
     end
   end
 
@@ -27,7 +26,6 @@ class TeamNamesController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render xml: @team_name }
     end
   end
 
@@ -38,7 +36,6 @@ class TeamNamesController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render xml: @team_name }
     end
   end
 
@@ -55,10 +52,8 @@ class TeamNamesController < ApplicationController
     respond_to do |format|
       if @team_name.save
         format.html { redirect_to([@team, @team_name], notice: "TeamName was successfully created.") }
-        format.xml  { render xml: @team_name, status: :created, location: [@team, @team_name] }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @team_name.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -69,10 +64,8 @@ class TeamNamesController < ApplicationController
     respond_to do |format|
       if update_team
         format.html { redirect_to(@team_name.team, notice: "TeamName was successfully updated.") }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @team_name.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -84,7 +77,6 @@ class TeamNamesController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(team_team_names_url(@team)) }
-      format.xml  { head :ok }
     end
   end
 

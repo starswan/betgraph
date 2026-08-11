@@ -3,7 +3,6 @@
 #
 # $Id$
 #
-require "poisson"
 
 class PoissonSum
   def initialize(kh, ka)

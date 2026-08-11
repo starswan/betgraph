@@ -3,7 +3,6 @@
 #
 # $Id$
 #
-require "soccer/over_under_goals"
 
 module Soccer
   class FirstHalfGoals < HalfTimeValuer
