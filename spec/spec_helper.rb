@@ -212,4 +212,3 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     end
   end
 end
-
