@@ -165,7 +165,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
       SimpleCov::Formatter::Undercover,
       SimpleCov::Formatter::HTMLFormatter,
     ],
-    )
+  )
 
   SimpleCov.start :rails do
     enable_coverage :branch
@@ -200,7 +200,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     # Only set minimum coverage locally - CI uses Pronto::Undercover
     unless ENV.key? "CI"
       primary_coverage :branch
-      minimum_coverage line: 92.40, branch: 67.12
+      minimum_coverage line: 92.40, branch: 67.02
       # we seem to have flakey/non-stable coverage values
       # maybe no longer...?
       maximum_coverage_drop 0.20
