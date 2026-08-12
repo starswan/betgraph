@@ -14,7 +14,7 @@
 # role :db,  %w{deploy@example.com}
 set :deploy_to, "/home/linux/betgraph"
 set :user, "linux"
-set :rvm_ruby_string, "3.2.9@bg"
+set :rvm_ruby_string, "3.3.12@bg"
 
 # Try to speed up ruby compilation on Raspberry Pi 2
 # set :rvm_install_ruby_threads,
