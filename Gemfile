@@ -145,7 +145,7 @@ group :development, :test do
   # gem "selenium-webdriver", "< 4.11"
 
   # gem "spring"
-  gem "undercover", "< 0.7"
+  gem "undercover"
 end
 
 group :development do
