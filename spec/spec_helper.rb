@@ -156,26 +156,21 @@ end
 # default to coverage 'on' (e.g. for guard)
 if ENV.fetch("COVERAGE", 1).to_i.positive?
   require "simplecov"
-  require "simplecov-lcov"
+  require "undercover/simplecov_formatter"
 
   # This allows both LCOV and HTML formatting -
   # lcov for undercover gem, HTML for humans
-  class SimpleCov::Formatter::MergedFormatter
-    def format(result)
-      SimpleCov::Formatter::HTMLFormatter.new.format(result)
-      SimpleCov::Formatter::LcovFormatter.new.format(result)
-    end
-  end
-
-  SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
-  # SimpleCov::Formatter::LcovFormatter.config.output_directory = "coverage"
-  # SimpleCov::Formatter::LcovFormatter.config.lcov_file_name = 'lcov.info'
-  SimpleCov.formatter = SimpleCov::Formatter::MergedFormatter
+  SimpleCov.formatters = SimpleCov::Formatter::MultiFormatter.new(
+    [
+      SimpleCov::Formatter::Undercover,
+      SimpleCov::Formatter::HTMLFormatter,
+    ],
+    )
 
   SimpleCov.start :rails do
     enable_coverage :branch
     primary_coverage :branch
-    # ruby 3.2 needed
+    # ruby 3.2 needed - doesn't seem to work even for ERB now...:-(
     # enable_coverage_for_eval
 
     add_filter "app/admin"
@@ -205,10 +200,10 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     # Only set minimum coverage locally - CI uses Pronto::Undercover
     unless ENV.key? "CI"
       primary_coverage :branch
-      minimum_coverage line: 91.62, branch: 66.14
+      minimum_coverage line: 92.40, branch: 67.12
       # we seem to have flakey/non-stable coverage values
       # maybe no longer...?
-      maximum_coverage_drop 0.50
+      maximum_coverage_drop 0.20
     end
   end
 end
