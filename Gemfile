@@ -184,7 +184,6 @@ group :test do
 
   gem "timecop"
   gem "simplecov", require: false
-  gem "simplecov-lcov", "< 0.10", require: false
   gem "factory_bot_rails"
   # needed for rails 5.x and above
   gem "rails-controller-testing"
