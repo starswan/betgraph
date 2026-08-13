@@ -7,14 +7,14 @@ export HOME=`echo ~`
 source $HOME/.bash_profile
 dirname=`dirname $0`
 cd $dirname
-source $RVM_DIR/environments/ruby-3.2.10@bg
+source $RVM_DIR/environments/ruby-3.3.12@bg
 bundle check || bundle install
 program='queue2'
 pidfile="tmp/pids/$program.pid"
 logfile="log/$program.log"
 case $1 in
    start)
-      nice rake backburner:work 2>&1 >>$logfile &
+      nice bundle exec rake backburner:work 2>&1 >>$logfile &
       echo $! >$pidfile
       ;;
    stop)
