@@ -5,8 +5,7 @@ class SeasonsController < ApplicationController
   before_action :find_sport, except: %i[new create edit update destroy]
   before_action :find_calendar, only: %i[new create edit update destroy]
 
-  # Our threshold parameter is in the URL, so hopefully this should now work
-  caches_page :show
+  # This page used to be cached, but is now mosting in-memory so is quick enough
 
   # GET /football_seasons
   # GET /football_seasons.xml
@@ -27,7 +26,7 @@ class SeasonsController < ApplicationController
     end
 
     @season = Season.find(params[:season_id] || params[:id])
-    @football_matches = SoccerMatch.where(season: @season)
+    football_matches = SoccerMatch.where(season: @season).joins(:division).merge(Division.active)
                           .ordered_by_date
                           .includes(:division, :result, { teams: :team_names })
     @enddate = Season.where("startdate > ?", @season.startdate)
@@ -37,7 +36,7 @@ class SeasonsController < ApplicationController
     # default to second option (usually 11) rather than 7 which doesn't generally perform well.
     @threshold = params[:threshold] || @team_total_configs.keys.sort.second
     threshold = @threshold.to_i
-    @threshValue = @team_total_configs[threshold]
+    threshValue = @team_total_configs[threshold]
 
     # This controller should just return interesting results and fixtures, and then let the view
     # work out how to display that information based on the data.
@@ -49,64 +48,57 @@ class SeasonsController < ApplicationController
     current_season = @season.current? Time.zone.today
     @nilnil = @onenil = @nilone = 0
 
-    team_totals = TeamTotal.includes(:team).by_count(threshold).where(match: @football_matches).index_by { |tt| [tt.team_id, tt.match_id] }
+    TeamTotal.includes(:team).by_count(threshold).where(match: football_matches).index_by { |tt| [tt.team_id, tt.match_id] }
     @result_summaries = Hash.new(0)
-    last_home_game = {}
-    last_away_game = {}
-    @football_matches.each do |match|
+    team_to_score_list = football_matches.reduce({}) do |h, fm|
+      h.tap do |hash|
+        hash[fm.hometeam.id] ||= []
+        hash[fm.hometeam.id] << fm
+        hash[fm.awayteam.id] ||= []
+        hash[fm.awayteam.id] << fm
+      end
+    end
+    team_id_to_match_id_to_totals = team_to_score_list.transform_values do |match_list|
+      #  key match_id, value sum of scores in previous N matches
+      match_list.each_cons(threshold + 1)
+                .map { |l| [l.last.id, l[0..-2].sum(0) { |r| r.result.homescore + r.result.awayscore }] }.to_h
+    end
+    interesting_matches = football_matches.select do |match|
+      home_total = team_id_to_match_id_to_totals.fetch(match.hometeam.id)[match.id]
+      away_total = team_id_to_match_id_to_totals.fetch(match.awayteam.id)[match.id]
+
+      home_total.present? && away_total.present? && home_total + away_total <= threshValue
+    end
+    interesting_matches.each do |match|
+      home_total = team_id_to_match_id_to_totals.fetch(match.hometeam.id).fetch(match.id)
+      away_total = team_id_to_match_id_to_totals.fetch(match.awayteam.id).fetch(match.id)
+      total_goals = home_total + away_total
       result = match.result
-      hometeam = match.hometeam
-      awayteam = match.awayteam
-      logger.debug "match #{index} #{match.id} #{match.kickofftime} #{hometeam.name} #{awayteam.name}"
+      if current_season
+        if result
+          display_value = threshValue - total_goals
+          @leftarray << view_context.match_display(match, display_value)
+          @result_summaries[[result.homescore, result.awayscore]] += 1
 
-      # The idea here was to speed up the controller - but it seems to give different answers????
-      # next if (team_totals[[hometeam.id, match.id]]&.total_goals || 0) + (team_totals[[awayteam.id, match.id]]&.total_goals || 0) > @threshValue
-
-      # lasthomegame = matches[0..index-1].reverse.detect { |m| m.teams.map(&:id).include?(hometeam.id) }
-      homegame = last_home_game[hometeam.id]
-      # lastawaygame = matches[0..index-1].reverse.detect { |m| m.teams.map(&:id).include?(awayteam.id) }
-      awaygame = last_away_game[awayteam.id]
-
-      last_home_game[hometeam.id] = match
-      last_away_game[awayteam.id] = match
-
-      next unless homegame && awaygame
-
-      homegoals_tt = team_totals[[hometeam.id, homegame.id]]
-      awaygoals_tt = team_totals[[awayteam.id, awaygame.id]]
-
-      if homegoals_tt && awaygoals_tt
-
-        if current_season
-          if result
-            if homegoals_tt.total_goals + awaygoals_tt.total_goals <= @threshValue
-              display_value = @threshValue - homegoals_tt.total_goals - awaygoals_tt.total_goals
-              @leftarray << view_context.match_display(match, display_value)
-              @result_summaries[[result.homescore, result.awayscore]] += 1
-
-              @results << [match, display_value]
-            end
-          else
-            if match.kickofftime > Time.zone.now
-              display_value = homegoals_tt.total_goals + awaygoals_tt.total_goals - @threshValue
-              if display_value < 8
-                @rightarray << view_context.fixture_display(match, display_value)
-                @fixtures << [match, display_value]
-              end
-            end
-          end
+          @results << [match, display_value]
         else
-          if homegoals_tt.total_goals + awaygoals_tt.total_goals <= @threshValue
-            display_value = @threshValue - homegoals_tt.total_goals - awaygoals_tt.total_goals
-            if match.kickofftime.month <= 6
-              @rightarray << view_context.match_display(match, display_value)
-            else
-              @leftarray << view_context.match_display(match, display_value)
+          if match.kickofftime > Time.zone.now
+            display_value = total_goals - threshValue
+            if display_value < 8
+              @rightarray << view_context.fixture_display(match, display_value)
+              @fixtures << [match, display_value]
             end
-            @results << [match, display_value]
-            @result_summaries[[result.homescore, result.awayscore]] += 1
           end
         end
+      else
+        display_value = threshValue - total_goals
+        if match.kickofftime.month <= 6
+          @rightarray << view_context.match_display(match, display_value)
+        else
+          @leftarray << view_context.match_display(match, display_value)
+        end
+        @results << [match, display_value]
+        @result_summaries[[result.homescore, result.awayscore]] += 1
       end
     end
     @nilnil = @result_summaries[[0, 0]]
@@ -119,13 +111,7 @@ class SeasonsController < ApplicationController
              end
 
     respond_to do |format|
-      format.html do
-        # if current_season
-        #   render layout: "current_football_season"
-        # else
-        #   render
-        # end
-      end
+      format.html
     end
   end
 
