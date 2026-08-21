@@ -2,15 +2,13 @@
 // head of your layout file, like app/views/layouts/application.html.erb.
 // It will render "Hello Elm!" within the page.
 
-import {
-  Elm
-} from '../Main'
+import {Elm} from 'Main.elm'
 
 document.addEventListener('DOMContentLoaded', () => {
-  const target = document.createElement('div');
+  const target = document.getElementById('applet');
 
-  document.body.appendChild(target);
   Elm.Main.init({
-    node: target
+    node: target,
+    flags: { source: target.dataset.source, names: target.dataset.names }
   })
 });
