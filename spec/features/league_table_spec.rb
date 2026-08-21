@@ -121,11 +121,12 @@ RSpec.describe "LeagueTables", type: :feature do
           # q = 1 - p
           p = 1.0 / m.bet_markets.count
           create(:market_price_time, time: m.kickofftime + t.minutes,
-                                     market_prices: m.bet_markets.map { |bm|
-                                                      bm.market_runners.map do |market_runner|
-                                                        build(:market_price, back1price: 1 + 1 / p, market_runner: market_runner)
-                                                      end
-                                                    }.flatten)
+                                     prices: m.bet_markets.map { |bm|
+                                               [
+                                                 build(:price, back_price: 1 + 1 / p, market_runner: bm.market_runners.first),
+                                                 build(:price, back_price: 1 + 1 / p, market_runner: bm.market_runners.second),
+                                               ]
+                                             }.flatten)
         end
       end
     end
@@ -140,7 +141,7 @@ RSpec.describe "LeagueTables", type: :feature do
       sleep 1
       click_on "Sat 8 Sep [4]"
       sleep 2
-      click_on "4/1424"
+      click_on "4/712"
       sleep 2
       click_on "Half Time"
       sleep 1
