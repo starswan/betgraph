@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 #
 # $Id$
 #
@@ -16,7 +14,10 @@ RSpec.describe SoccerMatches::BasketsController, type: :controller do
     mpt = create(:market_price_time, time: sm.kickofftime + 1.minute)
     bm = create(:bet_market, match: sm)
     runners = create_list(:market_runner, 4, bet_market: bm)
-    runners.each { |r| create(:market_price, market_runner: r, market_price_time: mpt) }
+    runners.each do |r|
+      create(:price, market_runner: r, market_price_time: mpt, created_at: mpt.time, depth: 1)
+      create(:price, market_runner: r, market_price_time: mpt, created_at: mpt.time, depth: 2)
+    end
     create(:basket_item, basket: sm.baskets.first, market_runner: bm.market_runners.first)
     create_list(:basket_item, 1, basket: sm.baskets.first, market_runner: bm.market_runners.second)
     create_list(:basket_item, 1, basket: sm.baskets.first, market_runner: bm.market_runners.third)

@@ -32,7 +32,7 @@ private
   def bet_market
     BetMarket.includes({ match: :result },
                        { market_runners: [
-                         { market_prices: :market_price_time },
+                         :prices,
                          { betfair_runner_type: { betfair_market_type: :sport } },
                        ] },
                        :betfair_market_type).by_active_and_name

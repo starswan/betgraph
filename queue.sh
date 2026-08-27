@@ -14,7 +14,7 @@ pidfile="tmp/pids/$program.pid"
 logfile="log/$program.log"
 case $1 in
    start)
-      nice bundle exec rake backburner:work 2>&1 >>$logfile &
+      nice bundle exec rake bundle exec backburner:work 2>&1 >>$logfile &
       echo $! >$pidfile
       ;;
    stop)

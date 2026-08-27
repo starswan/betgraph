@@ -81,7 +81,7 @@ class BetfairClockwork
     end
 
     def remove_with_gaps
-      RemoveMarketsWithGapsJob.perform_later
+      RemoveAllMarketsWithGapsJob.perform_later
     end
 
     def load_bbc_data

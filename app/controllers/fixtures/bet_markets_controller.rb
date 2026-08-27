@@ -16,7 +16,7 @@ module Fixtures
   private
 
     def bet_markets
-      BetMarket.includes(market_runners: { market_prices: :market_price_time }).where(match: @fixture).active_status
+      BetMarket.includes(market_runners: { prices: :market_price_time }).where(match: @fixture).active_status
     end
 
     def load_fixtures

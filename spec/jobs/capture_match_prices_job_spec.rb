@@ -1,5 +1,6 @@
-# frozen_string_literal: true
-
+#
+# $Id$
+#
 require "rails_helper"
 
 RSpec.describe CaptureMatchPricesJob, :vcr, :betfair, type: :job do
@@ -30,6 +31,6 @@ RSpec.describe CaptureMatchPricesJob, :vcr, :betfair, type: :job do
   it "creates market prices" do
     expect {
       described_class.perform_now soccer_match
-    }.to change(MarketPrice, :count).by(19)
+    }.to change(Price, :count).by(57)
   end
 end

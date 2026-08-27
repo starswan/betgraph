@@ -36,7 +36,7 @@ RSpec.describe SoccerMatchesController, type: :controller do
       brt = create(:betfair_runner_type, betfair_market_type: bmt)
 
       create :bet_market, name: "Correct Score", live: true, match: soccermatch, market_runners: [
-        build(:market_runner, betfair_runner_type: brt, market_prices: build_list(:market_price, 1, market_price_time: mpt)),
+        build(:market_runner, betfair_runner_type: brt, prices: build_list(:price, 1, market_price_time: mpt, created_at: mpt.time)),
       ]
     end
 

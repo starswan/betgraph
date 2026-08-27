@@ -14,16 +14,16 @@ RSpec.describe EventBasketPricesController, type: :controller do
     mpt = create(:market_price_time)
     bm1 = create(:bet_market, match: sm)
     mr1 = create(:market_runner, bet_market: bm1)
-    create_list(:market_price, 1, market_runner: mr1, back1price: 1.9, back1amount: 25, market_price_time: mpt)
+    create_list(:price, 1, market_runner: mr1, back_price: 1.9, back_amount: 25, depth: 1, market_price_time: mpt)
     create(:market_runner, bet_market: bm1,
-                           market_prices: build_list(:market_price, 1, lay1price: 1.98, lay1amount: 126.51, market_price_time: mpt))
+                           prices: build_list(:price, 1, lay_price: 1.98, lay_amount: 126.51, depth: 1, market_price_time: mpt))
     create(:bet_market, :overunder,
            match: sm,
            market_runners: [
              build(:market_runner,
-                   market_prices: build_list(:market_price, 1, back1price: 1.9, back1amount: 25, market_price_time: mpt)),
+                   prices: build_list(:price, 1, back_price: 1.9, back_amount: 25, depth: 1, market_price_time: mpt)),
              build(:market_runner,
-                   market_prices: build_list(:market_price, 1, lay1price: 1.99, lay1amount: 111.0, market_price_time: mpt)),
+                   prices: build_list(:price, 1, lay_price: 1.99, lay_amount: 111.0, depth: 1, market_price_time: mpt)),
            ])
   end
 
