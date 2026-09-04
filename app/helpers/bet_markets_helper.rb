@@ -164,10 +164,14 @@ module BetMarketsHelper
     # 1000 is often used as a price when an outcome is impossible
     prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.price_value }
     {
-      # id: runner.id,
-      label: "#{runner.bet_market.name} (#{runner.runnername})",
-      # prices: prices.map { |p| [(p.market_price_time.time - runner.bet_market.time).to_i, p.back1price] }.to_h,
-      prices: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
+      id: runner.id,
+      label: runner_label(runner),
+      # prices in minutes from kickoff rather than absolute time (for Elm Charts)
+      prices: prices.sort_by { |x| x.market_price_time.time }
+                    .map { |p| [((p.market_price_time.time - runner.bet_market.time) / 60).to_i, (1 / p.price_value).round(3)] }.to_h,
+      #     prices: prices
+      #               .sort_by { |x| x.market_price_time.time }
+      #               .map { |p| [(p.market_price_time.time), (1 / p.price_value).round(3)] }.to_h,
     }
   end
 
@@ -183,7 +187,7 @@ module BetMarketsHelper
 
       # prices = runner.market_prices.select { |p| p.market_price_time.time >= runner.bet_market.time && p.back1price && p.lay1price }
       {
-        name: runner.runnername,
+        name: runner_label(runner),
         # data: prices.map { |p| [p.market_price_time.time, (1 - 1 / p.back1price).round(4)] }.to_h,
         data: prices.map { |p| [p.market_price_time.time, (1 / p.price_value).round(3)] }.to_h,
         # data: prices.map { |p|
@@ -228,12 +232,14 @@ module BetMarketsHelper
   end
 
   def market_runner_labels(runners)
-    runners.map { |runner| "#{runner.bet_market.name} (#{runner.runnername})" }
+    runners.map { |runner| runner_label(runner) }
   end
 
+  # :nocov:
   def basket_runner_labels(basket_items)
-    basket_items.map { |bi| "[#{bi.basket.name}] #{bi.market_runner.bet_market.name} (#{bi.market_runner.runnername})" }
+    basket_items.map { |bi| "[#{bi.basket.name}] #{runner_label(bi.market_runner)}" }
   end
+  # :nocov:
 
   def basket_labels(baskets)
     baskets.map(&:name)
