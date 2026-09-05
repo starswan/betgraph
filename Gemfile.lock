@@ -531,7 +531,7 @@ GEM
       tsort (>= 0.2)
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
-    rake (13.0.6)
+    rake (13.4.2)
     ransack (4.3.0)
       activerecord (>= 6.1.5)
       activesupport (>= 6.1.5)
@@ -774,7 +774,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 7.1, < 7.2)
   rails-controller-testing
-  rake (< 13.1)
+  rake (< 13.5)
   raphael-rails
   rexml
   rspec-rails
