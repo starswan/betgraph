@@ -72,7 +72,7 @@ gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 7.1", "< 7.2"
-gem "rake", "< 13.1"
+gem "rake", "< 13.5"
 
 gem "stringio", "< 3.3"
 gem "ostruct", "< 0.6.4"
