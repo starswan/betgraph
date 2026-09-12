@@ -119,7 +119,7 @@ GEM
       thor (>= 0.15.4, < 2)
     backup-task (0.2.0)
       backup (~> 3.0.9)
-    base64 (0.1.1)
+    base64 (0.3.0)
     bcrypt (3.1.22)
     bcrypt_pbkdf (1.1.2)
     beaneater (1.1.3)
@@ -720,7 +720,7 @@ DEPENDENCIES
   acts_as_tree
   backburner
   backup-task
-  base64 (< 0.1.2)
+  base64 (< 0.3.1)
   bcrypt_pbkdf
   betfair-ng
   binding_of_caller
