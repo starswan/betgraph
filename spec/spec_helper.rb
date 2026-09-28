@@ -173,29 +173,29 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     # ruby 3.2 needed - doesn't seem to work even for ERB now...:-(
     # enable_coverage_for_eval
 
-    add_filter "app/admin"
-    add_filter "lib/tasks/db/yaml_load"
+    skip "app/admin"
+    skip "lib/tasks/db/yaml_load"
     # not really testable
-    add_filter "app/jobs/keep_everything_alive_job.rb"
-    add_filter "app/jobs/tickle_live_prices_job.rb"
+    skip "app/jobs/keep_everything_alive_job.rb"
+    skip "app/jobs/tickle_live_prices_job.rb"
     # Will go away some time real soon now
-    add_filter "app/jobs/trigger_live_prices_job.rb"
+    skip "app/jobs/trigger_live_prices_job.rb"
     # not really testable
-    add_filter "app/jobs/make_all_matches_job.rb"
+    skip "app/jobs/make_all_matches_job.rb"
     # not really testable
-    add_filter "app/jobs/load_all_football_data_job.rb"
-    add_filter "app/controllers/tennis_matches_controller.rb"
-    add_filter "app/models/baseball_match.rb"
-    add_filter "app/models/basketball_match.rb"
-    add_filter "app/models/cricket_match.rb"
-    add_filter "app/models/snooker_match.rb"
-    add_filter "app/models/motor_race.rb"
-    add_filter "app/models/team_division.rb"
+    skip "app/jobs/load_all_football_data_job.rb"
+    skip "app/controllers/tennis_matches_controller.rb"
+    skip "app/models/baseball_match.rb"
+    skip "app/models/basketball_match.rb"
+    skip "app/models/cricket_match.rb"
+    skip "app/models/snooker_match.rb"
+    skip "app/models/motor_race.rb"
+    skip "app/models/team_division.rb"
     # not used yet
-    add_filter "app/models/user.rb"
+    skip "app/models/user.rb"
     # not used yet
-    add_filter "app/valuers/poisson_sum.rb"
-    add_group "Valuers", "app/valuers"
+    skip "app/valuers/poisson_sum.rb"
+    group "Valuers", "app/valuers"
 
     # Only set minimum coverage locally - CI uses Pronto::Undercover
     unless ENV.key? "CI"
