@@ -6,12 +6,9 @@ module Tasks
       class Dumper < YamlDb::Dump
         class << self
           def tables
-            # team_totals is big and cen be generated from result data (and may not be required anyway)
-            # logins doesn't seem to port well to postgres via insert statements ?
-            all = super - %w[team_totals results logins]
-            # all = super - %w[logins]
+            # do market_prices last as it's the bottom of the dependency pile
             big = %w[market_prices]
-            (all - big) + big
+            (super - big) + big
           end
 
           def each_table_page(table, records_per_page = 1000)

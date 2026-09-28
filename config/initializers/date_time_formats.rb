@@ -12,5 +12,6 @@ Time::DATE_FORMATS.merge!(
 )
 
 Date::DATE_FORMATS.merge!(
+  football_season: "%d-%b %y",
   season: "%a %-d %b"
 )

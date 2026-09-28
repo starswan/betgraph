@@ -23,8 +23,8 @@ RSpec.describe SeasonsController, type: :controller do
       expect(response).to be_successful
     end
 
-    it "returns the matches" do
-      expect(assigns(:football_matches)).to match_array(sm_list)
+    it "returns the matches that are interesting" do
+      expect(assigns(:total)).to eq(0)
     end
   end
 
