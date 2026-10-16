@@ -50,8 +50,7 @@ private
     end
   end
 
-  def find_or_create_team(raw_name_with_1)
-    raw_name = raw_name_with_1.starts_with?("1. ") ? raw_name_with_1[3..] : raw_name_with_1
+  def find_or_create_team(raw_name)
     soccer = Sport.find_by(name: "Soccer")
 
     teamname = TeamName.joins(:team).includes(:team).merge(Team.for_sport(soccer)).where(name: raw_name).first

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class BbcSoccerScoresJob < ApplicationJob
-  queue_priority PRIORITY_LOAD_FOOTBALL_DATA
+  queue_priority PRIORITY_DOWNLOAD_HISTORIC_DATA
 
   HOST = "https://web-cdn.api.bbci.co.uk"
   URL = "/wc-poll-data/container/sport-data-scores-fixtures"

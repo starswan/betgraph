@@ -7,7 +7,7 @@ require "csv"
 require "zip"
 
 class LoadFootballDataJob < ApplicationJob
-  queue_priority PRIORITY_LOAD_FOOTBALL_DATA
+  queue_priority PRIORITY_DOWNLOAD_HISTORIC_DATA
 
   discard_on OpenURI::HTTPError
 
