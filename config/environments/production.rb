@@ -85,5 +85,7 @@ Rails.application.configure do
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
   # log file size 50Mb
-  config.log_file_size = 50 * 1024 * 1024
+  # config.log_file_size = 50 * 1024 * 1024
+  # 8 50 Mb files
+  config.logger = Logger.new("log/production.log", 8, 50 * 1024 * 1024)
 end
