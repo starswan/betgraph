@@ -29,7 +29,6 @@ set :rvm_ruby_version, "3.3.12@bg"
 # set :rvm_custom_path, "/usr/share/rvm"
 
 # set :linked_files, fetch(:linked_files, []) << ".env.arthur"
-append :linked_files, ".env.arthur"
 append :linked_files, ".env.production"
 
 # Extended Server Syntax
