@@ -4,7 +4,8 @@ require "rails_helper"
 
 RSpec.describe "Admin", type: :feature do
   let(:sport) { create(:soccer, calendars: build_list(:calendar, 1)) }
-  let(:menu_items) { ["Calendars", "Competitions", "Divisions", "Football Divisions", "Seasons", "Sports"] }
+  # click through each top menu item
+  let(:menu_items) { [Calendar, Competition, Division, FootballDivision, Season, Sport, TeamTotalConfig].map { |c| c.name == "FootballDivision" ? "Football Divisions" : "#{c.name}s" } }
   let(:division) { create(:division, calendar: calendar) }
   let(:calendar) { sport.calendars.first }
 
