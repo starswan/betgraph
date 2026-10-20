@@ -33,7 +33,7 @@ GEM
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
       useragent (~> 0.16)
-    actionpack-page_caching (1.2.4)
+    actionpack-page_caching (1.2.5)
       actionpack (>= 4.0.0)
     actiontext (7.2.3)
       actionpack (= 7.2.3)
