@@ -33,6 +33,7 @@ RSpec.describe "Admin", type: :feature do
 
     create(:competition, sport: sport)
     create(:football_division, division: division)
+    create(:team_total_config)
   end
 
   it "shows admin screen", :js do
