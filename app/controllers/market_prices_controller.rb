@@ -39,7 +39,6 @@ class MarketPricesController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render xml: @market_price }
     end
   end
 
@@ -48,14 +47,12 @@ class MarketPricesController < ApplicationController
   def create
     @market_price = @market_runner.market_prices.new(market_price_params)
 
-    respond_to do |format|
+    respond_to do |_format|
       if @market_price.save
         flash[:notice] = "MarketPrice was successfully created."
-        format.html { redirect_to(@market_price) }
-        format.xml  { render xml: @market_price, status: :created, location: @market_price }
+        redirect_to(@market_price)
       else
-        format.html { render action: "new" }
-        format.xml  { render xml: @market_price.errors, status: :unprocessable_content }
+        render action: "new"
       end
     end
   end
@@ -66,9 +63,8 @@ class MarketPricesController < ApplicationController
     @market_price = MarketPrice.find(params[:id])
     @market_price.destroy
 
-    respond_to do |format|
-      format.html { redirect_to market_runner_market_prices_path(@market_runner) }
-      format.xml  { head :ok }
+    respond_to do |_format|
+      redirect_to market_runner_market_prices_path(@market_runner)
     end
   end
 
