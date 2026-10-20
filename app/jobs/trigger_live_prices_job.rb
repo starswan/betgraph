@@ -27,6 +27,9 @@ private
   # the last fetch. Overrounds don't work here - they are more for early markets with poor price depth
   # max price is 1000 (which presumably means don't bother again) and min is 2ish (which means do it now)
   # I guess there's a continuum here - maybe up to 10 its minutes/poll, after that it's up to 20 or 45 mins away.
+
+  BetfairMarketId = Data.define(:exchange_id, :market_id)
+
   def capture_live_prices
     all_market_ids = Set.new
     groups = []
@@ -35,11 +38,11 @@ private
       activelive = BetMarket.activelive
       activelive.group_by { |m| m.match_id }.values.map { |g| g.compact }.each do |priced_markets|
         # priced_markets is a list of markets for one match
-        market_ids = priced_markets.map { |market| Struct.new(:exchangeId, :marketId).new(market.exchange_id, market.marketid) }
+        market_ids = priced_markets.map { |market| BetfairMarketId.new(market.exchange_id, market.marketid) }
         prices = bc.getMultipleMarketPrices market_ids
         all_market_ids << prices.map { |p| p.fetch(:marketId) }
         # this puts the prices in the same order as the priced_markets list
-        ordered_prices = market_ids.map { |m| prices.detect { |p| p.fetch(:marketId) == "#{m.exchangeId}.#{m.marketId}" } }
+        ordered_prices = market_ids.map { |m| prices.detect { |p| p.fetch(:marketId) == "#{m.exchange_id}.#{m.market_id}" } }
         priced_markets.zip(ordered_prices).each do |dbmarket, market_price|
           mpt = MarketPriceTime.new time: Time.now
           dopricesformarket market_price, dbmarket, mpt do |price_group|
