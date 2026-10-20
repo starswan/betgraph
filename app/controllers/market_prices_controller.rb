@@ -13,22 +13,12 @@ class MarketPricesController < ApplicationController
   # GET /market_runners/1/market_prices.json
   def index
     @market_prices = @market_runner.market_prices
-
-    respond_to do |format|
-      format.xml  { render xml: @market_prices }
-      format.json { render @market_prices.to_json }
-    end
   end
 
   # GET /market_prices/1
   # GET /market_prices/1.xml
   def show
     @market_price = MarketPrice.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render xml: @market_price }
-    end
   end
 
   # GET /market_prices/new
@@ -36,10 +26,6 @@ class MarketPricesController < ApplicationController
   def new
     @market_price = MarketPrice.new
     @market_price.market_runner = @market_runner
-
-    respond_to do |format|
-      format.html # new.html.erb
-    end
   end
 
   # POST /market_prices
@@ -47,13 +33,11 @@ class MarketPricesController < ApplicationController
   def create
     @market_price = @market_runner.market_prices.new(market_price_params)
 
-    respond_to do |_format|
-      if @market_price.save
-        flash[:notice] = "MarketPrice was successfully created."
-        redirect_to(@market_price)
-      else
-        render action: "new"
-      end
+    if @market_price.save
+      flash[:notice] = "MarketPrice was successfully created."
+      redirect_to(@market_price)
+    else
+      render action: "new"
     end
   end
 
@@ -63,9 +47,7 @@ class MarketPricesController < ApplicationController
     @market_price = MarketPrice.find(params[:id])
     @market_price.destroy
 
-    respond_to do |_format|
-      redirect_to market_runner_market_prices_path(@market_runner)
-    end
+    redirect_to market_runner_market_prices_path(@market_runner)
   end
 
 private
