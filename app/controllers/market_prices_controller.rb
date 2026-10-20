@@ -29,7 +29,6 @@ class MarketPricesController < ApplicationController
   end
 
   # POST /market_prices
-  # POST /market_prices.xml
   def create
     @market_price = @market_runner.market_prices.new(market_price_params)
 
