@@ -34,8 +34,7 @@ gem "clockwork"
 # Use CoffeeScript for .coffee assets and views
 gem "coffee-rails"
 
-# pin until Rails 7.1
-gem "concurrent-ruby", "< 1.3.9"
+gem "concurrent-ruby"
 
 gem "config"
 # turbo-charged counter caches https://github.com/magnusvk/counter_culture
@@ -71,7 +70,7 @@ gem "nkf"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7.1", "< 7.2"
+gem "rails", "~> 7.2", "< 8"
 gem "rake", "< 13.5"
 
 gem "stringio", "< 3.3"

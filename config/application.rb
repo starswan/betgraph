@@ -26,7 +26,7 @@ module BetGraph
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
-    config.autoload_lib(ignore: %w(assets tasks))
+    config.autoload_lib(ignore: %w[assets tasks])
 
     config.time_zone = "London"
 
@@ -41,8 +41,8 @@ module BetGraph
     # Don't generate system test files.
     config.generators.system_tests = nil
 
-    config.add_autoload_paths_to_load_path = false
-
-    config.active_support.cache_format_version = 7.1
+    # config.add_autoload_paths_to_load_path = false
+    #
+    # config.active_support.cache_format_version = 7.1
   end
 end
