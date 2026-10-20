@@ -133,7 +133,6 @@ module BetMarketsHelper
       # If the sum exceeds 1, a goal has probably been scored so remove runners with a value less than the
       # current (except that its backwards, so I wonder if this works properly?)
       # TODO: write some tests to cover this functionality
-      # :nocov:
       (map, size) = if new.values.sum > 1
                       old = if home
                               runners.select { |r| r.betfair_runner_type.runnerawayvalue < price.market_runner.betfair_runner_type.runnerawayvalue }
@@ -144,7 +143,6 @@ module BetMarketsHelper
                     else
                       [new, target.fetch(:size)]
                     end
-      # :nocov:
       if map.keys.size == size && price.market_price_time.time >= price.market_runner.bet_market.time
         { size: size, map: map, list: target.fetch(:list) + [[price.market_price_time.time, map.values.sum]] }
       else
@@ -171,7 +169,6 @@ module BetMarketsHelper
     }
   end
 
-  # :nocov:
   def runner_market_data(_match, runners)
     runners.map do |runner|
       prices = runner.market_prices
@@ -193,7 +190,6 @@ module BetMarketsHelper
       }
     end
   end
-  # :nocov:
 
   # below here is the legacy code used for morris.js - it's too tightly bound to the library
   def bet_markets_labels(markets)
