@@ -4,7 +4,12 @@ require "rails_helper"
 
 RSpec.describe "Admin", type: :feature do
   let(:sport) { create(:soccer, calendars: build_list(:calendar, 1)) }
-  let(:menu_items) { ["Calendars", "Competitions", "Divisions", "Football Divisions", "Seasons", "Sports"] }
+  # click through each top menu item
+  let(:menu_items) do
+    [Calendar, Competition, Division, FootballDivision, Season, Sport, TeamTotalConfig]
+                       .map { |c| c.name.underscore.split("_").map(&:upcase_first).join(" ") }
+                       .map { |x| "#{x}s" }
+  end
   let(:division) { create(:division, calendar: calendar) }
   let(:calendar) { sport.calendars.first }
 
@@ -33,15 +38,18 @@ RSpec.describe "Admin", type: :feature do
 
     create(:competition, sport: sport)
     create(:football_division, division: division)
+    create(:team_total_config)
   end
 
   it "shows admin screen", :js do
     visit admin_root_path
 
     menu_items.each do |item|
-      # sleep 1
       click_on item
       sleep 1
+      within "#page_title" do
+        expect(page).to have_content item
+      end
     end
   end
 end

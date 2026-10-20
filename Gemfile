@@ -15,7 +15,6 @@ gem "acts_as_tree"
 
 gem "backburner"
 gem "backup-task"
-gem "base64", "< 0.3.1"
 gem "betfair-ng", require: "betfair"
 
 # sadly net-http-persistent doesn't respect https_proxy env var
@@ -26,7 +25,7 @@ gem "httpclient"
 gem "bootsnap"
 
 # bootstrap 5.x
-gem "bootstrap", "~> 5.3"
+gem "bootstrap"
 
 # Better charts than morris.js
 gem "chartkick"
@@ -37,8 +36,8 @@ gem "coffee-rails"
 gem "concurrent-ruby"
 
 gem "config"
-# turbo-charged counter caches https://github.com/magnusvk/counter_culture
-gem "counter_culture", "~> 3.12"
+# turbocharged counter caches https://github.com/magnusvk/counter_culture
+gem "counter_culture"
 gem "devise"
 gem "discard"
 # environment variables in .env files
@@ -51,7 +50,7 @@ gem "jsbundling-rails"
 # gem "mysql2"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem "jbuilder", "~> 2.14"
+gem "jbuilder"
 # Use jquery as the JavaScript library
 # gem "jquery-rails"
 
@@ -60,21 +59,12 @@ gem "kaminari"
 #  needed for ruby 3.4 support
 gem "nkf"
 
-# attempt to bring data into postgres
-# sudo su - postgres
-# psql
-# postgres=# create role rails with createdb login password '123rails!';
-# needed to be able to alter constraints
-# postgres=# alter user rails with superuser;
-# can't get this to work on iMac yet
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 7.2", "< 8"
-gem "rake", "< 13.5"
-
-gem "stringio", "< 3.3"
-gem "ostruct", "< 0.6.4"
+gem "rack", "> 2"
+gem "rake"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"

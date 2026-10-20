@@ -46,12 +46,8 @@ class BetMarketsController < ApplicationController
     respond_to do |format|
       if @bet_market.update(bet_market_params)
         format.html { redirect_to @bet_market, notice: "Bet market was successfully updated." }
-        # format.json { head :no_content }
-        # format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        # format.json { render json: @bet_market.errors, status: :unprocessable_entity }
-        # format.xml  { render xml: @bet_market.errors, status: :unprocessable_entity }
       end
     end
   end

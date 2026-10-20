@@ -40,10 +40,8 @@ class BetfairMarketTypesController < ApplicationController
       if @betfair_market_type.update(betfair_market_type_params)
         flash[:notice] = "BetfairMarketType was successfully updated."
         format.html { redirect_to [@betfair_market_type.sport, @betfair_market_type] }
-        format.xml { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml { render xml: @betfair_market_type.errors, status: :unprocessable_entity }
       end
     end
   end

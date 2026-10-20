@@ -55,10 +55,8 @@ class BasketRuleItemsController < ApplicationController
     respond_to do |format|
       if @basket_rule_item.save
         format.html { redirect_to basket_rule_basket_rule_items_path(@basket_rule), notice: "BasketRuleItem was successfully created." }
-        format.xml  { render xml: @basket_rule_item, status: :created, location: @basket_rule_item }
       else
         format.html { render action: "new" }
-        format.xml  { render xml: @basket_rule_item.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -71,10 +69,8 @@ class BasketRuleItemsController < ApplicationController
     respond_to do |format|
       if @basket_rule_item.update(basket_rule_item_params)
         format.html { redirect_to([@basket_rule, @basket_rule_item], notice: "BasketRuleItem was successfully updated.") }
-        format.xml  { head :ok }
       else
         format.html { render action: "edit" }
-        format.xml  { render xml: @basket_rule_item.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -99,9 +95,6 @@ private
   end
 
   def find_valid_runner_types
-    # @runner_types = @sport.betfair_market_types(:include => :betfair_runner_types)
-    #                       .where(:active => true).order(:name)
-    #                       .collect { |type| type.betfair_runner_types }.flatten!
     @runner_types = BetfairMarketType
                         .where(sport: @sport)
                         .where(active: true).order(:name)
