@@ -27,11 +27,9 @@ module NewtonsMethod
         old_iter = iter_n
         iter_n = iterate(iter_n.x, func, funcdash)
         # converges quatratically so this test should always work satisfactorily - hard to cover with tests
-        # :nocov:
         # raise NewtonsMethodNotConverging, [loops, xnplus1.round(5)] if iter_n.f.abs > old_iter.f.abs
         # raise NewtonsMethodNotConverging, [loops, iter_n.x.round(5)] if iter_n.f.abs > old_iter.f.abs && loops > 7
         return Solution.new(value: nil, loops: loops) if iter_n.f.abs > old_iter.f.abs
-        # :nocov:
 
         loops += 1
         # Rails.logger.debug format("Newton Raphson iteration [#{loops}] x0=%2.6f x1=%2.6f f(x)=%2.6f", old_iter.x, iter_n.x, iter_n.f)
