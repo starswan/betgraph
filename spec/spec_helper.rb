@@ -173,7 +173,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     # ruby 3.2 needed - doesn't seem to work even for ERB now...:-(
     # enable_coverage_for_eval
 
-    skip "app/admin"
+    skip "app/admin/*.rb"
     skip "lib/tasks/db/yaml_load"
     # not really testable
     skip "app/jobs/keep_everything_alive_job.rb"
