@@ -29,7 +29,7 @@ class BetfairLogin
   end
 
   def getMultipleMarketPrices(market_ids)
-    list_market_book(market_ids.map { |m| "#{m.exchangeId}.#{m.marketId}" })
+    list_market_book(market_ids.map { |m| "#{m.exchange_id}.#{m.market_id}" })
   end
 
   def getActiveEventTypes
