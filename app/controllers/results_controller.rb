@@ -15,32 +15,15 @@ class ResultsController < ApplicationController
   def index
     date = Date.parse params[:date]
     @results = Match.where("kickofftime >= ? and kickofftime <= ?", date, date + 1.day).map(&:result).compact
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render xml: @results }
-    end
   end
 
   # GET /results/1
-  # GET /results/1.xml
-  def show
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render xml: @result }
-    end
-  end
+  def show; end
 
   # GET /results/new
-  # GET /results/new.xml
   def new
     @result = Result.new
     @result.match = @match
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render xml: @result }
-    end
   end
 
   # GET /results/1/edit
@@ -51,35 +34,27 @@ class ResultsController < ApplicationController
     @result = Result.new(result_params)
     @result.match = @match
 
-    respond_to do |_format|
-      if @result.save
-        redirect_to(@result, notice: "Result was successfully created.")
-      else
-        render action: "new"
-      end
+    if @result.save
+      redirect_to(@result, notice: "Result was successfully created.")
+    else
+      render action: "new"
     end
   end
 
   # PUT /results/1
   def update
-    respond_to do |format|
-      if @result.update(result_params)
-        format.html { redirect_to(@result, notice: "Result was successfully updated.") }
-      else
-        format.html { render action: "edit" }
-      end
+    if @result.update(result_params)
+      redirect_to(@result, notice: "Result was successfully updated.")
+    else
+      render action: "edit"
     end
   end
 
   # DELETE /results/1
-  # DELETE /results/1.xml
   def destroy
     @result.destroy
 
-    respond_to do |format|
-      format.html { redirect_to(results_url) }
-      format.xml  { head :ok }
-    end
+    redirect_to(results_url)
   end
 
 private
