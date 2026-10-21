@@ -12,6 +12,10 @@ class TeamTotalConfig < ApplicationRecord
     def ransackable_attributes(_auth_object = nil)
       %w[name count threshold]
     end
+
+    def self.ransackable_associations(_auth_object = nil)
+      []
+    end
   end
   # simplecov:enable
 end
