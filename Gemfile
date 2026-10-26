@@ -62,7 +62,7 @@ gem "nkf"
 gem "pg"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7.2", "< 8"
+gem "rails", "~> 8.1"
 gem "rack", "> 2"
 gem "rake"
 
