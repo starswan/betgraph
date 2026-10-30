@@ -168,12 +168,18 @@ view model =
                             font14 =
                                 HA.style "font-size" "14px"
 
+                            spanAttrs =
+                                [ HA.style "padding-left" "4px", font14, onClick (Toggle item.name) ]
+
+                            spanContent =
+                                H.text item.name
+
                             span =
                                 if item.shown then
-                                    H.span [ font14, onClick (Toggle item.name) ] [ H.text item.name ]
+                                    H.span spanAttrs [ spanContent ]
 
                                 else
-                                    H.del [ font14, onClick (Toggle item.name) ] [ H.text item.name ]
+                                    H.del spanAttrs [ spanContent ]
                         in
                         H.div [ HA.style "display" "inline", HA.style "padding-right" "10px", HA.style "padding-left" "10px" ] [ rectangle, span ]
                     )
