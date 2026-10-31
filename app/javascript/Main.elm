@@ -188,7 +188,7 @@ view model =
         valueList =
             model.items |> itemsToValueList
     in
-    H.div [ HA.style "margin-bottom" "10" ]
+    H.div [ HA.style "margin-bottom" "10px" ]
         [ H.h4 [ HA.style "display" "flex", HA.style "justify-content" "center" ] [ H.text "Elm Chart" ]
         , H.div [] rectangles
         , H.div []
