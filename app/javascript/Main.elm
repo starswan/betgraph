@@ -162,26 +162,23 @@ view model =
                 |> List.map
                     (\item ->
                         let
-                            rectangle =
-                                svg [ height "20", width "50" ] [ rect [ height "15", width "50", fill (AVHC.toCssString item.colour) ] [] ]
-
-                            font14 =
-                                HA.style "font-size" "14px"
-
                             spanAttrs =
-                                [ HA.style "padding-left" "4px", font14, onClick (Toggle item.name) ]
+                                [ HA.style "padding-left" "4px", HA.style "font-size" "14px", onClick (Toggle item.name) ]
 
                             spanContent =
                                 H.text item.name
-
-                            span =
-                                if item.shown then
-                                    H.span spanAttrs [ spanContent ]
-
-                                else
-                                    H.del spanAttrs [ spanContent ]
                         in
-                        H.div [ HA.style "display" "inline", HA.style "padding-right" "10px", HA.style "padding-left" "10px" ] [ rectangle, span ]
+                        H.div
+                            [ HA.style "display" "inline", HA.style "padding-right" "10px", HA.style "padding-left" "10px" ]
+                            [ svg
+                                [ height "20", width "50" ]
+                                [ rect [ height "15", width "50", fill (AVHC.toCssString item.colour) ] [] ]
+                            , if item.shown then
+                                H.span spanAttrs [ spanContent ]
+
+                              else
+                                H.del spanAttrs [ spanContent ]
+                            ]
                     )
 
         valueList : List Datum
