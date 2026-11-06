@@ -156,8 +156,8 @@ itemsToValueList itemList =
 view : Model -> H.Html Message
 view model =
     let
-        rectangles : List (H.Html Message)
-        rectangles =
+        legendRectangles : List (H.Html Message)
+        legendRectangles =
             model.items
                 |> List.map
                     (\item ->
@@ -187,14 +187,18 @@ view model =
     in
     H.div [ HA.style "margin-bottom" "10px" ]
         [ H.h4 [ HA.style "display" "flex", HA.style "justify-content" "center" ] [ H.text "Elm Chart" ]
-        , H.div [] rectangles
+        , H.div [] legendRectangles
         , H.div []
             [ C.chart
                 [ CA.width 1500
                 , CA.height 300
+                , CA.domain
+                    [ CA.lowest 0 CA.orLower
+                    , CA.highest 1 CA.orHigher
+                    ]
                 , CE.onMouseMove OnHover (CE.getNearest CI.dots)
                 , CE.onMouseLeave (OnHover [])
-                , CA.margin { top = 0, bottom = 30, left = 20, right = 20 }
+                , CA.margin { top = 20, bottom = 30, left = 20, right = 20 }
                 ]
                 ([ C.xTicks [ CA.noGrid ]
                  , C.yTicks []
@@ -231,6 +235,19 @@ view model =
                             )
                     )
                     valueList
+                 , C.labelAt .min
+                    CA.middle
+                    [ CA.moveLeft 35, CA.rotate 90 ]
+                    [ Svg.text "Probability" ]
+
+                 --, C.legendsAt .min
+                 --   .max
+                 --   [ CA.row
+                 --   , CA.moveRight 10
+                 --   , CA.moveUp 25
+                 --   , CA.spacing 15
+                 --   ]
+                 --   [ CA.width 20 ]
                  , C.each model.hovering <|
                     \plane item ->
                         [ C.tooltip item [] [] [] ]
