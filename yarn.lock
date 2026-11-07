@@ -1878,10 +1878,10 @@ rimraf@~2.6.2:
   dependencies:
     glob "^7.1.3"
 
-sass@^1.106.0:
-  version "1.106.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.106.0.tgz#cb1c9d559e11d8fa43d27cc9ca9e6938de1f8161"
-  integrity sha512-JHAqUksyijU5tsmDLCDq8/IX3Mq8mVkOtxvcXnUdwy8vsX5MVnvQauMomauxyuEux8uBJdT/OuBwWBYavoWUqQ==
+sass@^1.107.1:
+  version "1.107.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.107.1.tgz#a8a461744666e31f8973041a6b9ae7fcb265befd"
+  integrity sha512-aJ1/LvxOOb04YhmiBjzZn3jVwdHKol+OVhoMV6fFl02fF9T3i+5Mg9l/CnzqtM+NX5Jn5o3lAbs/ZJivTCLHfQ==
   dependencies:
     chokidar "^5.0.0"
     immutable "^5.1.5"
