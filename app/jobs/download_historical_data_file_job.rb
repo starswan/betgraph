@@ -4,6 +4,8 @@
 class DownloadHistoricalDataFileJob < BetfairJob
   queue_priority PRIORITY_DOWNLOAD_HISTORIC_DATA
 
+  # simplecov:disable
+
   # It seems that Betfair sometimes give us a good (HTTP?) status but bad data from their API
   # so retry if that happens
   # once these retries are exhausted, it falls back to the ActiveJob error cycle which crashes and restarts
@@ -12,7 +14,6 @@ class DownloadHistoricalDataFileJob < BetfairJob
   retry_on HTTPClient::ReceiveTimeoutError, wait: :polynomially_longer, attempts: 20
   retry_on JSON::ParserError, wait: :polynomially_longer, attempts: 20
 
-  # simplecov:disable
   def perform(filename)
     data = Enumerator.new do |yielder|
       Bzip2::FFI::Reader.open(StringIO.new(bc.download_file(filename))) do |reader|
