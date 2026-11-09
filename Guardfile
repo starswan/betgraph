@@ -90,7 +90,7 @@ guard :rspec, rspec_options do
 end
 
 # Make guard correct any silly mistakes as we go along
-guard :rubocop, cli: ["-A"] do
+guard :rubocop, cli: %w[-A --no-parallel --no-server], all_on_start: false do
   watch(/.+\.rb$/)
   watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
 end
