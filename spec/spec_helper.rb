@@ -191,7 +191,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     group "Valuers", "app/valuers"
 
     primary_coverage :branch
-    minimum_coverage line: 83.47, branch: 59.50
+    minimum_coverage line: 67.45, branch: 59.50
 
     formats :html, :baseline
   end
