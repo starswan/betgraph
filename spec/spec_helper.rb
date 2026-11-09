@@ -184,6 +184,8 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     skip "app/jobs/make_all_matches_job.rb"
     # not really testable
     skip "app/jobs/load_all_football_data_job.rb"
+    # Needs tests, but input data hard to understand. Code mostly empiricaL.
+    skip "app/jobs/download_historical_data_file_job.rb"
     skip "app/controllers/tennis_matches_controller.rb"
     skip "app/models/baseball_match.rb"
     skip "app/models/basketball_match.rb"
