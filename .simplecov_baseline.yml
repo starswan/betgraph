@@ -1,62 +1,6 @@
 # Per-file coverage floors. A file that drops below its floor fails the run,
 # and files with no entry fall through to the global per-file minimum.
 # Regenerate with `simplecov ratchet`. Floors only ever tighten.
-app/admin/calendars.rb:
-  lines:
-    percent: 40.0
-    missed: 3
-  branches:
-    percent: 0.0
-    missed: 2
-app/admin/competitions.rb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/admin/dashboard.rb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/admin/divisions.rb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/admin/football_divisions.rb:
-  lines:
-    percent: 60.0
-    missed: 8
-  branches:
-    percent: 100.0
-    missed: 0
-app/admin/seasons.rb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/admin/sports.rb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/admin/team_total_configs.rb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
 app/controllers/application_controller.rb:
   lines:
     percent: 87.5
@@ -344,13 +288,6 @@ app/helpers/scorers_helper.rb:
   branches:
     percent: 33.33
     missed: 4
-app/helpers/seasons_helper.rb:
-  lines:
-    percent: 61.11
-    missed: 14
-  branches:
-    percent: 4.16
-    missed: 23
 app/helpers/soccer_matches_helper.rb:
   lines:
     percent: 66.66
@@ -643,8 +580,8 @@ app/models/division.rb:
     percent: 100.0
     missed: 0
   branches:
-    percent: 0.0
-    missed: 2
+    percent: 100.0
+    missed: 0
 app/models/football_division.rb:
   lines:
     percent: 100.0
@@ -749,7 +686,7 @@ app/models/team.rb:
     missed: 0
   branches:
     percent: 25.0
-    missed: 3
+    missed: 2
 app/models/team_name.rb:
   lines:
     percent: 100.0
@@ -790,15 +727,15 @@ app/models/two_player_match.rb:
     percent: 100.0
     missed: 0
   branches:
-    percent: 0.0
-    missed: 2
+    percent: 100.0
+    missed: 0
 app/presenters/calendar_presenter.rb:
   lines:
     percent: 83.33
     missed: 1
   branches:
-    percent: 0.0
-    missed: 2
+    percent: 100.0
+    missed: 0
 app/valuers/cumulative_poisson.rb:
   lines:
     percent: 100.0
@@ -1895,13 +1832,6 @@ app/views/tables/_league_table.html.erb:
   lines:
     percent: 100.0
     missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/tables/_menu.html.erb:
-  lines:
-    percent: 80.0
-    missed: 2
   branches:
     percent: 100.0
     missed: 0

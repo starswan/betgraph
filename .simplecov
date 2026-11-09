@@ -5,7 +5,11 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
   SimpleCov.configure do
     enable_coverage :branch
 
-    skip "app/admin/*.rb"
+    # Active Admin helpers
+    %w[calendars competitions dashboard divisions football_divisions seasons sports team_total_configs].each do |f|
+      skip "app/admin/#{f}.rb"
+    end
+
     skip "lib/tasks/db/yaml_load"
     # not really testable
     skip "app/jobs/keep_everything_alive_job.rb"
