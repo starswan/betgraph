@@ -8,8 +8,9 @@ class DownloadHistoricalDataFileJob < BetfairJob
   # so retry if that happens
   # once these retries are exhausted, it falls back to the ActiveJob error cycle which crashes and restarts
   # square the timeout to create a fallback
-  retry_on Bzip2::FFI::Error::MagicDataError, wait: ->(executions) { executions**2 }, attempts: 10
-  retry_on HTTPClient::ReceiveTimeoutError, wait: ->(executions) { executions**2 }, attempts: 10
+  retry_on Bzip2::FFI::Error::MagicDataError, wait: :polynomially_longer, attempts: 20
+  retry_on HTTPClient::ReceiveTimeoutError, wait: :polynomially_longer, attempts: 20
+  retry_on JSON::ParserError, wait: :polynomially_longer, attempts: 20
 
   def perform(filename)
     data = Enumerator.new do |yielder|
