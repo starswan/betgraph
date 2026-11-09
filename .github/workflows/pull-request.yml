@@ -115,4 +115,4 @@ jobs:
           PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
 
       - name: Run undercover natively
-        run: bundle exec undercover -c origin/${{ github.base_ref }}
+        run: bundle exec simplecov patch --base origin/${{ github.base_ref }}

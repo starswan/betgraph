@@ -784,7 +784,6 @@ DEPENDENCIES
   simplecov
   timecop
   uglifier (>= 1.3.0)
-  undercover
   vcr
   webmock
   yaml_db

@@ -156,20 +156,11 @@ end
 # default to coverage 'on' (e.g. for guard)
 if ENV.fetch("COVERAGE", 1).to_i.positive?
   require "simplecov"
-  require "undercover/simplecov_formatter"
-
-  # This allows both LCOV and HTML formatting -
-  # lcov for undercover gem, HTML for humans
-  SimpleCov.formatters = SimpleCov::Formatter::MultiFormatter.new(
-    [
-      SimpleCov::Formatter::Undercover,
-      SimpleCov::Formatter::HTMLFormatter,
-    ],
-  )
 
   SimpleCov.start :rails do
+    cover_views
+
     enable_coverage :branch
-    primary_coverage :branch
     # ruby 3.2 needed - doesn't seem to work even for ERB now...:-(
     # enable_coverage_for_eval
 
