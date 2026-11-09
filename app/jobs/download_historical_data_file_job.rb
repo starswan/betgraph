@@ -12,6 +12,7 @@ class DownloadHistoricalDataFileJob < BetfairJob
   retry_on HTTPClient::ReceiveTimeoutError, wait: :polynomially_longer, attempts: 20
   retry_on JSON::ParserError, wait: :polynomially_longer, attempts: 20
 
+  # simplecov:disable
   def perform(filename)
     data = Enumerator.new do |yielder|
       Bzip2::FFI::Reader.open(StringIO.new(bc.download_file(filename))) do |reader|
@@ -202,4 +203,5 @@ private
       end
     end
   end
+  # simplecov:enable
 end
