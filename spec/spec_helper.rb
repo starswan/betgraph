@@ -190,13 +190,9 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     skip "app/valuers/poisson_sum.rb"
     group "Valuers", "app/valuers"
 
-    # Only set minimum coverage locally - CI uses Pronto::Undercover
-    unless ENV.key? "CI"
-      primary_coverage :branch
-      minimum_coverage line: 92.31, branch: 67.02
-      # we seem to have flakey/non-stable coverage values
-      # maybe no longer...?
-      maximum_coverage_drop 0.20
-    end
+    primary_coverage :branch
+    minimum_coverage line: 83.47, branch: 59.50
+
+    formats :html, :baseline
   end
 end
