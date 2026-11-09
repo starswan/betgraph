@@ -349,8 +349,8 @@ app/helpers/seasons_helper.rb:
     percent: 61.11
     missed: 14
   branches:
-    percent: 4.16
-    missed: 23
+    percent: 5.55
+    missed: 17
 app/helpers/soccer_matches_helper.rb:
   lines:
     percent: 66.66
@@ -990,29 +990,29 @@ app/valuers/soccer/winner.rb:
     missed: 0
 app/views/basket_items/edit.html.erb:
   lines:
-    percent: 11.11
-    missed: 8
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_items/index.html.erb:
   lines:
-    percent: 6.66
-    missed: 14
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_items/new.html.erb:
   lines:
-    percent: 8.33
-    missed: 11
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_items/show.html.erb:
   lines:
-    percent: 33.33
-    missed: 2
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1025,29 +1025,29 @@ app/views/basket_rule_items/_shared.html.erb:
     missed: 0
 app/views/basket_rule_items/edit.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_rule_items/index.html.erb:
   lines:
-    percent: 7.14
-    missed: 13
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_rule_items/new.html.erb:
   lines:
-    percent: 7.69
-    missed: 12
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_rule_items/show.html.erb:
   lines:
-    percent: 25.0
-    missed: 3
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1067,43 +1067,43 @@ app/views/basket_rules/_shared.html.erb:
     missed: 0
 app/views/basket_rules/edit.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_rules/index.html.erb:
   lines:
-    percent: 5.0
-    missed: 19
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_rules/new.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/basket_rules/show.html.erb:
   lines:
-    percent: 6.25
-    missed: 15
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/baskets/index.html.erb:
   lines:
-    percent: 4.76
-    missed: 20
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/baskets/show.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1137,8 +1137,8 @@ app/views/bet_markets/market_prices/_price.html.erb:
     missed: 2
 app/views/bet_markets/market_prices/index.html.erb:
   lines:
-    percent: 4.16
-    missed: 23
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1165,8 +1165,8 @@ app/views/bet_markets/trades/edit.html.erb:
     missed: 0
 app/views/bet_markets/trades/index.html.erb:
   lines:
-    percent: 4.16
-    missed: 23
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1186,15 +1186,15 @@ app/views/bet_markets/trades/show.html.erb:
     missed: 0
 app/views/betfair_market_types/edit.html.erb:
   lines:
-    percent: 4.34
-    missed: 22
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/betfair_market_types/index.html.erb:
   lines:
-    percent: 5.88
-    missed: 16
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1207,36 +1207,36 @@ app/views/betfair_market_types/new.html.erb:
     missed: 0
 app/views/betfair_market_types/show.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/betfair_runner_types/edit.html.erb:
   lines:
-    percent: 9.09
-    missed: 10
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/betfair_runner_types/index.html.erb:
   lines:
-    percent: 5.0
-    missed: 19
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/betfair_runner_types/new.html.erb:
   lines:
-    percent: 14.28
-    missed: 6
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/betfair_runner_types/show.html.erb:
   lines:
-    percent: 14.28
-    missed: 6
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1270,8 +1270,8 @@ app/views/divisions/bet_markets/_team.html.erb:
     missed: 0
 app/views/divisions/edit.html.erb:
   lines:
-    percent: 16.66
-    missed: 5
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1326,15 +1326,15 @@ app/views/divisions/fixtures/show.html.erb:
     missed: 0
 app/views/divisions/index.html.erb:
   lines:
-    percent: 3.84
-    missed: 25
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/divisions/new.html.erb:
   lines:
-    percent: 14.28
-    missed: 6
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1347,8 +1347,8 @@ app/views/divisions/show.html.erb:
     missed: 2
 app/views/event_basket_prices/index.html.erb:
   lines:
-    percent: 6.25
-    missed: 15
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1403,29 +1403,29 @@ app/views/fixtures/bet_markets/index.html.erb:
     missed: 0
 app/views/football_divisions/edit.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/football_divisions/index.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/football_divisions/new.html.erb:
   lines:
-    percent: 8.33
-    missed: 11
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/football_divisions/show.html.erb:
   lines:
-    percent: 25.0
-    missed: 3
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1438,15 +1438,15 @@ app/views/layouts/application.html.erb:
     missed: 0
 app/views/layouts/basket_items.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/layouts/baskets.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1459,8 +1459,8 @@ app/views/layouts/bet_markets.html.erb:
     missed: 0
 app/views/layouts/bet_markets/trades.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1473,15 +1473,15 @@ app/views/layouts/betfair_events.html.erb:
     missed: 0
 app/views/layouts/betfair_runner_types.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/layouts/football_divisions.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1494,15 +1494,15 @@ app/views/layouts/market_price_times.html.erb:
     missed: 0
 app/views/layouts/market_prices.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/layouts/results.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1543,15 +1543,15 @@ app/views/layouts/soccer_matches/baskets.html.erb:
     missed: 0
 app/views/layouts/sports/matches.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/layouts/trades.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1599,15 +1599,15 @@ app/views/market_prices/_form.html.erb:
     missed: 0
 app/views/market_prices/new.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/market_prices/show.html.erb:
   lines:
-    percent: 2.7
-    missed: 36
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1634,8 +1634,8 @@ app/views/market_runners/edit.html.erb:
     missed: 0
 app/views/market_runners/index.html.erb:
   lines:
-    percent: 3.84
-    missed: 25
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1648,15 +1648,15 @@ app/views/market_runners/new.html.erb:
     missed: 0
 app/views/market_runners/show.html.erb:
   lines:
-    percent: 4.16
-    missed: 23
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/match_teams/index.html.erb:
   lines:
-    percent: 7.14
-    missed: 13
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1669,22 +1669,22 @@ app/views/matches/_current.html.erb:
     missed: 10
 app/views/matches/current.html.erb:
   lines:
-    percent: 4.16
-    missed: 23
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/matches/edit.html.erb:
   lines:
-    percent: 7.14
-    missed: 13
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/matches/index.html.erb:
   lines:
-    percent: 2.85
-    missed: 34
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1697,8 +1697,8 @@ app/views/matches/new.html.erb:
     missed: 0
 app/views/matches/show.html.erb:
   lines:
-    percent: 14.28
-    missed: 6
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1711,29 +1711,29 @@ app/views/motor_races/index.html.erb:
     missed: 0
 app/views/results/edit.html.erb:
   lines:
-    percent: 9.09
-    missed: 10
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/results/index.html.erb:
   lines:
-    percent: 9.09
-    missed: 10
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/results/new.html.erb:
   lines:
-    percent: 8.33
-    missed: 11
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/results/show.html.erb:
   lines:
-    percent: 16.66
-    missed: 5
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1746,29 +1746,29 @@ app/views/seasons/_shared.html.erb:
     missed: 0
 app/views/seasons/edit.html.erb:
   lines:
-    percent: 7.14
-    missed: 13
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/seasons/index.html.erb:
   lines:
-    percent: 9.09
-    missed: 10
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/seasons/new.html.erb:
   lines:
-    percent: 7.69
-    missed: 12
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/seasons/show.html.erb:
   lines:
-    percent: 1.81
-    missed: 54
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1844,22 +1844,22 @@ app/views/soccer_matches/scorers/_scorer.html.erb:
     missed: 0
 app/views/soccer_matches/scorers/edit.html.erb:
   lines:
-    percent: 5.88
-    missed: 16
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/soccer_matches/scorers/index.html.erb:
   lines:
-    percent: 9.09
-    missed: 10
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/soccer_matches/scorers/new.html.erb:
   lines:
-    percent: 6.25
-    missed: 15
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1872,15 +1872,15 @@ app/views/soccer_matches/show.html.erb:
     missed: 8
 app/views/sports/matches/index.html.erb:
   lines:
-    percent: 3.03
-    missed: 32
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/sports/show.html.erb:
   lines:
-    percent: 5.26
-    missed: 18
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1921,29 +1921,29 @@ app/views/tables/show.html.erb:
     missed: 0
 app/views/team_names/edit.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/team_names/index.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/team_names/new.html.erb:
   lines:
-    percent: 12.5
-    missed: 7
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/team_names/show.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1991,15 +1991,15 @@ app/views/teams/_shared.html.erb:
     missed: 0
 app/views/teams/edit.html.erb:
   lines:
-    percent: 10.0
-    missed: 9
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/teams/index.html.erb:
   lines:
-    percent: 5.55
-    missed: 17
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -2012,8 +2012,8 @@ app/views/teams/new.html.erb:
     missed: 0
 app/views/teams/show.html.erb:
   lines:
-    percent: 25.0
-    missed: 3
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -2026,29 +2026,29 @@ app/views/trades/_form.html.erb:
     missed: 0
 app/views/trades/edit.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/trades/index.html.erb:
   lines:
-    percent: 4.54
-    missed: 21
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/trades/new.html.erb:
   lines:
-    percent: 16.66
-    missed: 5
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
 app/views/trades/show.html.erb:
   lines:
-    percent: 5.88
-    missed: 16
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
