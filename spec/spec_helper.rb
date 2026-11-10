@@ -156,54 +156,8 @@ end
 # default to coverage 'on' (e.g. for guard)
 if ENV.fetch("COVERAGE", 1).to_i.positive?
   require "simplecov"
-  require "undercover/simplecov_formatter"
-
-  # This allows both LCOV and HTML formatting -
-  # lcov for undercover gem, HTML for humans
-  SimpleCov.formatters = SimpleCov::Formatter::MultiFormatter.new(
-    [
-      SimpleCov::Formatter::Undercover,
-      SimpleCov::Formatter::HTMLFormatter,
-    ],
-  )
 
   SimpleCov.start :rails do
-    enable_coverage :branch
-    primary_coverage :branch
-    # ruby 3.2 needed - doesn't seem to work even for ERB now...:-(
-    # enable_coverage_for_eval
-
-    skip "app/admin/*.rb"
-    skip "lib/tasks/db/yaml_load"
-    # not really testable
-    skip "app/jobs/keep_everything_alive_job.rb"
-    skip "app/jobs/tickle_live_prices_job.rb"
-    # Will go away some time real soon now
-    skip "app/jobs/trigger_live_prices_job.rb"
-    # not really testable
-    skip "app/jobs/make_all_matches_job.rb"
-    # not really testable
-    skip "app/jobs/load_all_football_data_job.rb"
-    skip "app/controllers/tennis_matches_controller.rb"
-    skip "app/models/baseball_match.rb"
-    skip "app/models/basketball_match.rb"
-    skip "app/models/cricket_match.rb"
-    skip "app/models/snooker_match.rb"
-    skip "app/models/motor_race.rb"
-    skip "app/models/team_division.rb"
-    # not used yet
-    skip "app/models/user.rb"
-    # not used yet
-    skip "app/valuers/poisson_sum.rb"
-    group "Valuers", "app/valuers"
-
-    # Only set minimum coverage locally - CI uses Pronto::Undercover
-    unless ENV.key? "CI"
-      primary_coverage :branch
-      minimum_coverage line: 92.31, branch: 67.02
-      # we seem to have flakey/non-stable coverage values
-      # maybe no longer...?
-      maximum_coverage_drop 0.20
-    end
+    cover_views
   end
 end

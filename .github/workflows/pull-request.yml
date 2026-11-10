@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ruby-version: ['3.3', '3.4']
+        ruby-version: ['3.4', '4.0']
 
     services:
       postgres:
@@ -108,11 +108,5 @@ jobs:
           path: tmp/parallel_runtime_rspec.log
           key: parallel_runs
 
-      - name: Pronto Undercover
-        run: bundle exec pronto run -r undercover -f github_pr -c origin/${{ github.base_ref }}
-        env:
-          PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
-          PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
-
-      - name: Run undercover natively
-        run: bundle exec undercover -c origin/${{ github.base_ref }}
+      - name: Check coverage
+        run: bundle exec simplecov patch --base origin/${{ github.base_ref }} --annotate github
