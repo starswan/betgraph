@@ -25,4 +25,5 @@ Rails.start();
 // import '@activeadmin/activeadmin'
 
 import 'chartkick/chart.js';
-import '@nordhealth/components';
+// import '@nordhealth/components';
+import "@digdir/designsystemet-web";

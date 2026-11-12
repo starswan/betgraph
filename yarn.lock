@@ -840,6 +840,29 @@
     "@babel/helper-string-parser" "^7.29.7"
     "@babel/helper-validator-identifier" "^7.29.7"
 
+"@digdir/designsystemet-css@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@digdir/designsystemet-css/-/designsystemet-css-1.24.0.tgz#ef0fab92c9d1dadf429f0ae45b519d16ca4a04c8"
+  integrity sha512-nJu8GTb7FMyBbc9jkrpjU0AOzZNVEHYqYYyRSeAJ6gEcvh0aTCP6Ydx5FUtxJ7MHcn/22lL9mf1wibPz6Ag0AQ==
+  dependencies:
+    "@digdir/designsystemet-types" "1.24.0"
+
+"@digdir/designsystemet-types@1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@digdir/designsystemet-types/-/designsystemet-types-1.24.0.tgz#0eb19ac5445043229b02157c7bc134a2ada32355"
+  integrity sha512-YHgjUG3zGIHjn/JcUrk7WE8vtKbneq1lZ+Fhl/5bBxppm3b/VXAQI0HCmk82J++LqwWyGhR9G3jgsyDeazNCgQ==
+
+"@digdir/designsystemet-web@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@digdir/designsystemet-web/-/designsystemet-web-1.24.0.tgz#1f35846cc0008b21fd7e343b7305cb38f1474374"
+  integrity sha512-ITRejhwxhZFz1pVusa2HuzYt3RXoSdGu0G4qu5ICO2b9P/9zzk7skblte8FveBRBMx+MBVNK+XjzVnUJENjbyQ==
+  dependencies:
+    "@floating-ui/dom" "^1.8.0"
+    "@u-elements/u-combobox" "^2.1.5"
+    "@u-elements/u-datalist" "^2.0.3"
+    "@u-elements/u-details" "^1.0.0"
+    "@u-elements/u-tabs" "^1.0.4"
+
 "@elm_binaries/darwin_arm64@0.19.1-0":
   version "0.19.1-0"
   resolved "https://registry.yarnpkg.com/@elm_binaries/darwin_arm64/-/darwin_arm64-0.19.1-0.tgz#ea09fca7cdfedad3fa517267099d78d180f01098"
@@ -1256,6 +1279,26 @@
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
   integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
+
+"@u-elements/u-combobox@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@u-elements/u-combobox/-/u-combobox-2.1.5.tgz#a36d058117d082d3b32774c524554b8e53a7ad11"
+  integrity sha512-SnuSbE0OSSSut41tZYtLClXifWXO29n3Y+D2EBNRlbVUuSfcgG46yrOjiwbwxkfAX6WpJ6UciMwSHGW3xcegMA==
+
+"@u-elements/u-datalist@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@u-elements/u-datalist/-/u-datalist-2.0.3.tgz#e69e7743f70acd9d7de80db7e68fb253939d535d"
+  integrity sha512-1/N53P9CtmpTQQN/S8fQG0JEQqQmpAmAVhuPTskycrn74DJUdi2lKYdyGW7X4tg6ANsi4iGLn5Bv3NLHoCrzIg==
+
+"@u-elements/u-details@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@u-elements/u-details/-/u-details-1.0.0.tgz#21b49bd287450da92c78aaec3279096550ebd392"
+  integrity sha512-CA0w0VTH/vWWouFWEw7XIws3RUCBm2dh7ity+sbDXgpc6yz5NkoMpeDTdB/DHpI+/YInULz0XLOTrw8b7KX3Qg==
+
+"@u-elements/u-tabs@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@u-elements/u-tabs/-/u-tabs-1.0.4.tgz#f4bc7e6997d6c9c2cf3830d6457ee0d1786158b3"
+  integrity sha512-F0CoSaiFnUInfTSiftufZARi6bvC0Ucb+aVaVfO65a0GWeIsTjTZupXh313POqN7SkvH4lQ+4+X33uhwBMAiww==
 
 babel-plugin-polyfill-corejs2@^0.4.14, babel-plugin-polyfill-corejs2@^0.4.15:
   version "0.4.16"
