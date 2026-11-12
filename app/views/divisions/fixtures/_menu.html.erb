@@ -2,18 +2,27 @@
   <%= season.name %> <%= division.name %> Fixtures on <%= date.to_fs(:short) %>
 <% end %>
 <% content_for :menu do -%>
-  <li class="nav-item">
-    <%= link_to 'Division', division_path(division), class: 'nav-link' %>
-  </li>
-  <% seasons.reverse_each do |s| -%>
-    <li class="nav-item">
-      <%= link_to_unless season == s, "#{s.name}(#{s.matches.where(division: division).with_prices.count})", sport_season_division_fixtures_path(division.sport, s, division), class: 'nav-link' %>
-    </li>
+  <nord-nav-item href="<%= division_path(division) %>">
+    Division
+  </nord-nav-item>
+<!--  <li class="nav-item">-->
+    <%#= link_to 'Division', division_path(division), class: 'nav-link' %>
+<!--  </li>-->
+  <% seasons.reject { |s| season == s }.reverse_each do |s| -%>
+    <nord-nav-item href="<%= sport_season_division_fixtures_path(division.sport, s, division) %>">
+      <%= s.name %>(<%= s.matches.where(division: division).with_prices.count %>)
+    </nord-nav-item>
+<!--    <li class="nav-item">-->
+      <%#= link_to_unless season == s, "#{s.name}(#{s.matches.where(division: division).with_prices.count})", sport_season_division_fixtures_path(division.sport, s, division), class: 'nav-link' %>
+<!--    </li>-->
   <% end -%>
   <% divisions.each do |d| %>
-    <li class="nav-item">
-      <%= link_to d.name, sport_season_division_fixture_path(d.sport, season, d, date) %>
-    </li>
+    <nord-nav-item href="<%= sport_season_division_fixture_path(d.sport, season, d, date) %>">
+      <%= d.name %>
+    </nord-nav-item>
+<!--    <li class="nav-item">-->
+      <%#= link_to d.name, sport_season_division_fixture_path(d.sport, season, d, date) %>
+<!--    </li>-->
   <% end %>
 <% end -%>
 <div align="center"><b><%= yield :title %></b></div>
