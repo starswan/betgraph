@@ -6,11 +6,27 @@
   <title><%= yield :title %></title>
 </head>
 <body>
-  <nord-button variant="primary">Hello Nordie</nord-button>
+<nord-layout>
+  <nord-navigation slot="nav">
+    <nord-navigation class="n:max-inline-[250px]">
+      <%= yield :menu %>
+    </nord-navigation>
+<!--    <nord-nav-group heading="Workspace">-->
+      <%#= yield :menu %>
+<!--    </nord-nav-group>-->
+  </nord-navigation>
+  <nord-stack gap="l">
+    <nord-card>
+      <%= yield %>>
+    </nord-card>
+  </nord-stack>
+</nord-layout>
 <!--  <div class="container-fluid">-->
 <!--    <div class="row">-->
 <!--      <div class="col-1">-->
-<!--        <ul class="nav menu"><%#= yield :menu %></ul>-->
+<!--        <nord-navigation class="n:max-inline-[250px]">-->
+          <%#= yield :menu %>
+<!--        </nord-navigation>-->
 <!--      </div>-->
 <!--      <div class="col-11">-->
 <!--        <p class="notice"><%#= notice %></p>-->
