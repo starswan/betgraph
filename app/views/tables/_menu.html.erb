@@ -2,16 +2,25 @@
   League Table <%= division.name %> for Season <%= season.name %>
 <% end %>
 <% content_for :menu do -%>
-  <li class="nav-item">
-    <%= link_to 'Division', division_path(division), class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
-    <%= link_to 'Seasons', sport_seasons_path(division.sport), class: 'nav-link' %>
-  </li>
-  <% seasons.order(:startdate).reverse_each do |s| -%>
-    <li class="nav-item">
-      <%= link_to_unless season == s, s.name, division_season_tables_path(division, s), class: 'nav-link' %>
-    </li>
+  <nord-nav-item href="<%= division_path(division) %>">
+    Division
+  </nord-nav-item>
+  <nord-nav-item href="<%= sport_seasons_path(division.sport) %>">
+    Seasons
+  </nord-nav-item>
+<!--  <li class="nav-item">-->
+    <%#= link_to 'Division', division_path(division), class: 'nav-link' %>
+<!--  </li>-->
+<!--  <li class="nav-item">-->
+    <%#= link_to 'Seasons', sport_seasons_path(division.sport), class: 'nav-link' %>
+<!--  </li>-->
+  <% seasons.order(:startdate).reject { |s| s == season }.reverse_each do |s| -%>
+<!--    <li class="nav-item">-->
+      <%#= link_to_unless season == s, s.name, division_season_tables_path(division, s), class: 'nav-link' %>
+<!--    </li>-->
+    <nord-nav-item href="<%= division_season_tables_path(division, s) %>">
+      <%= s.name %>
+    </nord-nav-item>
   <% end -%>
 <% end -%>
 <div align="center"><b><%= yield :title %></b></div>

@@ -17,4 +17,10 @@
 @import "market_prices";
 @import "seasons";
 @import "soccer_matches";
+
+// Sets correct path to font files
+$nord-font-path: '/assets/fonts';
+
+// Import fonts
+@import '@nordhealth/fonts/lib/fonts.scss';
 @import "@nordhealth/css/lib/nord";
