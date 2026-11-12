@@ -1,5 +1,5 @@
 <% @active_sports.each do |sport| %>
-  <nord-nav-item href="<%= sport %>">
+  <nord-nav-item href="<%= sport_path(sport) %>">
     <%= sport.name %>
   </nord-nav-item>
 <!--  <li class="nav-item">-->

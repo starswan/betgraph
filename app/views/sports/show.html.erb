@@ -1,21 +1,21 @@
 <!-- sports/$Id$ -->
 <% content_for :menu do %>
   <%= render 'layouts/shared/active_future_links' %>
-  <li class="nav-item">
-    <%= link_to 'Market Types', sport_betfair_market_types_path(@sport),class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
-    <%= link_to 'Basket Rules', sport_basket_rules_path(@sport),class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
-    <%= link_to 'Divisions', sport_divisions_path(@sport),class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
-    <%= link_to 'Teams', sport_teams_path(@sport),class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
-    <%= link_to 'Matches', sport_matches_path(@sport),class: 'nav-link' %>
-  </li>
+  <nord-nav-item href="<%= sport_betfair_market_types_path(@sport) %>">
+    Market Types
+  </nord-nav-item>
+  <nord-nav-item href="<%= sport_basket_rules_path(@sport) %>">
+    Basket Rules
+  </nord-nav-item>
+  <nord-nav-item href="<%= sport_divisions_path(@sport) %>">
+    Divisions
+  </nord-nav-item>
+  <nord-nav-item href="<%= sport_teams_path(@sport) %>">
+    Teams
+  </nord-nav-item>
+  <nord-nav-item href="<%= sport_matches_path(@sport) %>">
+    Matches
+  </nord-nav-item>
 <% end %>
 <div class="page-header">
   <b><%= @sport.name %>&nbsp;(<%= @sport.betfair_sports_id %>)</b>
