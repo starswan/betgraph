@@ -1,5 +1,3 @@
 <% @active_sports.each do |sport| %>
-  <li class="nav-item">
-    <%= link_to(sport.name, sport, class: 'nav-link') %>
-  </li>
+  <%= render "layouts/shared/menu_item", href:  sport_path(sport), text: sport.name %>
 <% end %>
