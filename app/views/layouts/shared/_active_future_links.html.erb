@@ -1,6 +1,12 @@
-<li class="nav-item">
-  <%=  link_to 'Active', active_matches_path, class: 'nav-link' %>
-</li>
-<li class="nav-item">
-  <%= link_to('Future', future_matches_path, class: 'nav-link') %>
-</li>
+<!--<li class="nav-item">-->
+  <%#=  link_to 'Active', active_matches_path, class: 'nav-link' %>
+<!--</li>-->
+<!--<li class="nav-item">-->
+  <%#= link_to('Future', future_matches_path, class: 'nav-link') %>
+<!--</li>-->
+<nord-nav-item href="<%= active_matches_path %>">
+  Active
+</nord-nav-item>
+<nord-nav-item href="<%= future_matches_path %>">
+  Future
+</nord-nav-item>

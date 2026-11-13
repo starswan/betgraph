@@ -2,10 +2,16 @@
 <% content_for(:menu) do %>
   <%= render 'layouts/shared/active_future_links' %>
   <%= render 'layouts/shared/active_sports_links' %>
-  <li class="nav-item">
-    <%= link_to 'Football Divisions', football_divisions_path, class: 'nav-link' %>
-  </li>
-  <li class="nav-item">
-    <%= link_to "#{@sport.name} Teams", sport_teams_path(@sport), class: 'nav-link' %>
-  </li>
+  <nord-nav-item href="<%= football_divisions_path %>">
+    Football Divisions
+  </nord-nav-item>
+  <nord-nav-item href="<%= sport_teams_path(@sport) %>">
+    <%= @sport.name %> Teams
+  </nord-nav-item>
+<!--  <li class="nav-item">-->
+    <%#= link_to 'Football Divisions', football_divisions_path, class: 'nav-link' %>
+<!--  </li>-->
+<!--  <li class="nav-item">-->
+    <%#= link_to "#{@sport.name} Teams", sport_teams_path(@sport), class: 'nav-link' %>
+<!--  </li>-->
 <% end %>
