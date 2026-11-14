@@ -32,6 +32,6 @@
   "scripts": {
     "build_not_really": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
     "build": "node ./esbuild.config.js",
-    "build:css": "sass --quiet-deps -I node_modules app/assets/stylesheets/application.scss:app/assets/builds/application.css app/assets/stylesheets/active_admin.scss:app/assets/builds/active_admin.css"
+    "build:css": "sass --quiet-deps -I node_modules app/assets/stylesheets/application.scss:app/assets/builds/application.css app/assets/stylesheets/active_admin.scss:app/assets/builds/active_admin.css node_modules/@awesome.me/webawesome/dist/styles/webawesome.css:app/assets/builds/webawesome.css"
   }
 }

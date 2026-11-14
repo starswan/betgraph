@@ -26,3 +26,6 @@ Rails.start();
 
 import 'chartkick/chart.js';
 import '@awesome.me/webawesome';
+
+// import { setBasePath } from '@awesome.me/webawesome';
+// setBasePath('@awesome.me/webawesome/dist-cdn/webawesome');
