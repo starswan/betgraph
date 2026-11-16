@@ -6,19 +6,35 @@
   <title><%= yield :title %></title>
 </head>
 <body>
-  <div class="container-fluid">
-<!--    <div class="row no-gutters">-->
-    <div class="row">
-      <div class="col-1">
-        <ul class="nav menu"><%= yield :menu %></ul>
-      </div>
-      <div class="col-11">
-        <p class="notice"><%= notice %></p>
-        <p class="alert"><%= alert %></p>
-        <%= yield  %>
-      </div>
-    </div>
-  </div>
+<nord-layout>
+  <nord-navigation slot="nav">
+    <nord-navigation class="n:max-inline-[250px]">
+      <%= yield :menu %>
+    </nord-navigation>
+<!--    <nord-nav-group heading="Workspace">-->
+      <%#= yield :menu %>
+<!--    </nord-nav-group>-->
+  </nord-navigation>
+  <nord-stack gap="l">
+    <nord-card>
+      <%= yield %>
+    </nord-card>
+  </nord-stack>
+</nord-layout>
+<!--  <div class="container-fluid">-->
+<!--    <div class="row">-->
+<!--      <div class="col-1">-->
+<!--        <nord-navigation class="n:max-inline-[250px]">-->
+          <%#= yield :menu %>
+<!--        </nord-navigation>-->
+<!--      </div>-->
+<!--      <div class="col-11">-->
+<!--        <p class="notice"><%#= notice %></p>-->
+<!--        <p class="alert"><%#= alert %></p>-->
+        <%#= yield  %>
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 </body>
 </html>
 
