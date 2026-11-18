@@ -25,3 +25,12 @@ Rails.start();
 // import '@activeadmin/activeadmin'
 
 import 'chartkick/chart.js';
+
+import '@awesome.me/webawesome/dist/components/page/page.js';
+import '@awesome.me/webawesome/dist/components/icon/icon.js';
+
+// import '@awesome.me/webawesome/dist/styles/webawesome.css';
+
+
+// import { setBasePath } from '@awesome.me/webawesome';
+// setBasePath('@awesome.me/webawesome/dist-cdn/webawesome');
