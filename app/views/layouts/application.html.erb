@@ -6,19 +6,11 @@
   <title><%= yield :title %></title>
 </head>
 <body>
-  <div class="container-fluid">
-<!--    <div class="row no-gutters">-->
-    <div class="row">
-      <div class="col-1">
-        <ul class="nav menu"><%= yield :menu %></ul>
-      </div>
-      <div class="col-11">
-        <p class="notice"><%= notice %></p>
-        <p class="alert"><%= alert %></p>
-        <%= yield  %>
-      </div>
-    </div>
-  </div>
+<wa-page>
+  <nav slot="menu">
+    <%= yield :menu %>
+  </nav>
+  <%= yield %>
+</wa-page>
 </body>
 </html>
-
