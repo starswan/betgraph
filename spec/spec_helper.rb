@@ -15,7 +15,17 @@
 # The `.rspec` file also contains a few flags that are not defaults but that
 # users commonly want.
 #
-# See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+# See http://rubydoc.info/gems/rspec-core/RSpec/Core/
+
+# default to coverage 'on' (e.g. for guard)
+if ENV.fetch("COVERAGE", 1).to_i.positive?
+  require "simplecov"
+
+  SimpleCov.start :rails do
+    cover_views
+  end
+end
+
 require "vcr"
 
 RSpec.configure do |config|
@@ -150,14 +160,5 @@ VCR.configure do |config|
   end
   config.filter_sensitive_data("<TOKEN>") do |interaction|
     interaction.request.headers["Ssoid"]&.first
-  end
-end
-
-# default to coverage 'on' (e.g. for guard)
-if ENV.fetch("COVERAGE", 1).to_i.positive?
-  require "simplecov"
-
-  SimpleCov.start :rails do
-    cover_views
   end
 end

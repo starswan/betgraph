@@ -1233,13 +1233,6 @@ app/views/divisions/fixtures/_league_table.html.erb:
   branches:
     percent: 100.0
     missed: 0
-app/views/divisions/fixtures/_menu.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
 app/views/divisions/fixtures/_team.html.erb:
   lines:
     percent: 100.0
@@ -1471,17 +1464,17 @@ app/views/layouts/shared/_header.html.erb:
   branches:
     percent: 100.0
     missed: 0
-app/views/layouts/soccer_matches/baskets.html.erb:
+app/views/layouts/shared/_menu_item.html.erb:
   lines:
     percent: 100.0
     missed: 0
   branches:
     percent: 100.0
     missed: 0
-app/views/layouts/sports/matches.html.erb:
+app/views/layouts/soccer_matches/baskets.html.erb:
   lines:
-    percent: 20.0
-    missed: 4
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1597,13 +1590,6 @@ app/views/match_teams/index.html.erb:
   branches:
     percent: 100.0
     missed: 0
-app/views/matches/_current.html.erb:
-  lines:
-    percent: 0.0
-    missed: 20
-  branches:
-    percent: 0.0
-    missed: 10
 app/views/matches/current.html.erb:
   lines:
     percent: 4.16
@@ -1671,13 +1657,6 @@ app/views/results/show.html.erb:
   lines:
     percent: 16.66
     missed: 5
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/seasons/_shared.html.erb:
-  lines:
-    percent: 0.0
-    missed: 6
   branches:
     percent: 100.0
     missed: 0
@@ -1807,20 +1786,6 @@ app/views/soccer_matches/show.html.erb:
   branches:
     percent: 60.0
     missed: 8
-app/views/sports/matches/index.html.erb:
-  lines:
-    percent: 3.03
-    missed: 32
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/sports/show.html.erb:
-  lines:
-    percent: 5.26
-    missed: 18
-  branches:
-    percent: 100.0
-    missed: 0
 app/views/tables/_header.html.erb:
   lines:
     percent: 100.0

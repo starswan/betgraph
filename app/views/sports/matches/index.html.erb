@@ -1,4 +1,7 @@
 <!-- $Id$ -->
+<% content_for :menu do %>
+  <%= render 'layouts/shared/active_sports_links' %>
+<% end %>
 <b>Matches for <%= link_to @sport.name, @sport %></b>
 <%= form_tag({}, method: :get) do %>
   <%= hidden_field_tag(:direction, @direction) %>
