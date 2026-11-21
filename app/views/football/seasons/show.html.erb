@@ -8,7 +8,7 @@
         <%=
           f.collection_select :id, @season_list, :id, :name, {},
                                 {
-                                  onchange: "window.location = '/sports/#{@sport.id}/seasons/' + this.form.season_id.options[this.form.season_id.selectedIndex].value + '/threshold/#{@threshold}'" }
+                                  onchange: "window.location = '/football/seasons/' + this.form.season_id.options[this.form.season_id.selectedIndex].value + '/threshold/#{@threshold}'" }
         %>
       <% end -%>
     </td>
