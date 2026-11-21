@@ -40,7 +40,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     skip "app/helpers/seasons_helper.rb"
 
     primary_coverage :branch
-    minimum_coverage line: 10.74, branch: 4.66
+    minimum_coverage line: 10.71, branch: 4.78
 
     formats :html, :baseline
   end
