@@ -162,4 +162,3 @@ VCR.configure do |config|
     interaction.request.headers["Ssoid"]&.first
   end
 end
-
