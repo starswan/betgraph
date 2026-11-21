@@ -1,6 +1,2 @@
-<li class="nav-item">
-  <%=  link_to 'Active', active_matches_path, class: 'nav-link' %>
-</li>
-<li class="nav-item">
-  <%= link_to('Future', future_matches_path, class: 'nav-link') %>
-</li>
+<%= render "layouts/shared/menu_item", href:  active_matches_path, text: 'Active' %>
+<%= render "layouts/shared/menu_item", href:  future_matches_path, text: 'Future' %>
