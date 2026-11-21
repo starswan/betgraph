@@ -4,7 +4,7 @@
 <table class="table table-responsive">
   <tr>
     <td>
-      <%= form_for([@season.calendar.sport, @season], method: :get) do |f| -%>
+      <%= form_for(@season, url: football_season_path(@season), method: :get) do |f| -%>
         <%=
           f.collection_select :id, @season_list, :id, :name, {},
                                 {
@@ -20,7 +20,7 @@
     <td>
       <%= form_for(:season, :html => { :method => :get}) do |f| -%>
         <%= select_tag('threshold', options_for_select(@team_total_configs.keys.sort!, @threshold.to_i),
-                           { :onchange => "window.location = '/sports/#{@sport.id}/seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
+                           { :onchange => "window.location = '/football/seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
         -%>
       <% end -%>
     </td>

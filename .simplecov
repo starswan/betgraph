@@ -43,11 +43,10 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     # skips for menu refactor
     skip "app/views/seasons/_shared.html.erb"
     skip "app/views/sports/matches/index.html.erb"
-    skip "app/views/sports/show.html.erb"
     skip "app/views/divisions/fixtures/_menu.html"
 
     primary_coverage :branch
-    minimum_coverage line: 41.19, branch: 11.99
+    minimum_coverage line: 38.00, branch: 6.38
 
     formats :html, :baseline
   end

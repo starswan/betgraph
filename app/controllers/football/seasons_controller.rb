@@ -4,16 +4,16 @@ module Football
   class SeasonsController < ApplicationController
     # GET /football/seasons
     def index
-      sport = Sport.find_by! name: "Soccer"
-      calendars = sport.calendars
+      @sport = Sport.find_by! name: "Soccer"
+      calendars = @sport.calendars
       @seasons = Season.order(startdate: :desc).where(calendar: calendars).where("startdate < ?", Time.zone.today + 1.year)
     end
 
     SeasonDisplay = Struct.new :id, :name, keyword_init: true
     # GET /football_seasons/1
     def show
-      sport = Sport.find_by! name: "Soccer"
-      calendars = sport.calendars
+      @sport = Sport.find_by! name: "Soccer"
+      calendars = @sport.calendars
       @season_list = Season.where(calendar: calendars).order(startdate: :desc).where("startdate < ?", Time.zone.today).map do |s|
         SeasonDisplay.new id: s.id, name: "#{s.name} - #{s.calendar.name}"
       end

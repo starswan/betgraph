@@ -16,6 +16,8 @@ module Football
       create_list(:soccer_match, 1, division: division, kickofftime: season.startdate + 2.days + 15.hours)
     end
 
+    render_views
+
     describe "#show" do
       before do
         create(:soccer_match, division: division, kickofftime: final_season.startdate + 1.day)

@@ -12,6 +12,8 @@ module Football
     let(:calendar) { create(:calendar, sport: sport) }
     let!(:division) { create(:division, calendar: calendar) }
 
+    render_views
+
     it "should_get_index" do
       get :index, params: { sport_id: sport }
       assert_response :success

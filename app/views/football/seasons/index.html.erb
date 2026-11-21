@@ -14,12 +14,12 @@
 
 <% @seasons.each do |football_season| %>
   <tr>
-    <td><%= link_to football_season.name, sport_season_path(football_season.calendar.sport, football_season) %></td>
+    <td><%= link_to football_season.name, football_season_path(football_season) %></td>
     <td><%= football_season.startdate %></td>
     <td><%= football_season.calendar.name %></td>
     <td><%= football_season.online? ? 'Y' : 'N' %></td>
     <td align="right">
-      <%= link_to football_season.matches.count, sport_season_path(football_season.calendar.sport, football_season) %>
+      <%= link_to football_season.matches.count, football_season_path(football_season) %>
     </td>
   </tr>
 <% end %>

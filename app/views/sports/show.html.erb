@@ -3,7 +3,10 @@
   <%= render 'layouts/shared/active_future_links' %>
   <%= render "layouts/shared/menu_item", href: sport_betfair_market_types_path(@sport), text: 'Market Types' %>
   <%= render "layouts/shared/menu_item", href: sport_basket_rules_path(@sport), text: 'Basket Rules' %>
-  <%= render "layouts/shared/menu_item", href: sport_divisions_path(@sport), text: 'Divisions' %>
+  <% if @sport.name == 'Soccer' %>
+    <%= render "layouts/shared/menu_item", href: football_divisions_path, text: 'Divisions' %>
+    <%= render "layouts/shared/menu_item", href: football_seasons_path, text: 'Seasons' %>
+ <% end %>
   <%= render "layouts/shared/menu_item", href: sport_teams_path(@sport), text: 'Teams' %>
   <%= render "layouts/shared/menu_item", href: sport_matches_path(@sport), text: 'Matches' %>
 <% end %>
