@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+module Football
 module Divisions
   class FixturesController < ApplicationController
     before_action :load_season
@@ -40,4 +41,5 @@ module Divisions
                                       .with_prices.select(:division_id).distinct.map(&:division_id)
     end
   end
+end
 end

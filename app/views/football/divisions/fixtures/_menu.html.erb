@@ -5,13 +5,13 @@
   <%= render "layouts/shared/menu_item", href: division_path(division), text: 'Division' %>
   <% seasons.reject { |s| season == s }.reverse_each do |s| -%>
     <%= render "layouts/shared/menu_item",
-               href: sport_season_division_fixtures_path(division.sport, s, division),
+               href: football_season_division_fixtures_path(s, division),
                text: "#{s.name}(#{s.matches.where(division: division).with_prices.count})"
     %>
   <% end -%>
   <% divisions.each do |d| %>
     <%= render "layouts/shared/menu_item",
-               href: sport_season_division_fixture_path(d.sport, season, d, date),
+               href: football_season_division_fixture_path(season, d, date),
                text:  d.name
     %>
   <% end %>

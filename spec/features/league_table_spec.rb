@@ -49,13 +49,13 @@ RSpec.describe "LeagueTables", type: :feature do
   context "with matches" do
     let(:correct_score_mt) { BetfairMarketType.find_by!(valuer: "CorrectScore") }
 
-    let!(:nilniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 0) }
-    let!(:oneniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 1, runnerawayvalue: 0) }
-    let!(:twoniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 2, runnerawayvalue: 0) }
-    let!(:threeniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 3, runnerawayvalue: 0) }
-    let!(:nilonetype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 1) }
-    let!(:niltwotype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 2) }
-    let!(:nilthreetype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 3) }
+    let(:nilniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 0) }
+    let(:oneniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 1, runnerawayvalue: 0) }
+    let(:twoniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 2, runnerawayvalue: 0) }
+    let(:threeniltype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 3, runnerawayvalue: 0) }
+    let(:nilonetype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 1) }
+    let(:niltwotype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 2) }
+    let(:nilthreetype) { create(:betfair_runner_type, betfair_market_type: correct_score_mt, runnerhomevalue: 0, runnerawayvalue: 3) }
 
     before do
       data = [
@@ -123,7 +123,6 @@ RSpec.describe "LeagueTables", type: :feature do
     end
 
     it "shows the league fixtures", :vcr, :js do
-      pending("to be fixed later")
       visit football_division_path(division)
       sleep 1
       # This is the link to bring up the (historic) fixtures for this division

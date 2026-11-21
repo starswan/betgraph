@@ -3,7 +3,7 @@
   <%= render 'title', match: @fixture %>
 </div>
 <% @fixtures.each do |f| %>
-  <%= link_to_unless @fixture == f, f.name, sport_season_fixture_bet_markets_path(f.division.sport, f.season, f) %>
+  <%= link_to_unless @fixture == f, f.name, football_season_fixture_bet_markets_path(f.season, f) %>
 <% end %>
 <%= render 'chart', bet_markets: @bet_markets %>
 <%= render 'lambda_chart', bet_markets: @bet_markets, name: 'CorrectScore', limit: 3 %>

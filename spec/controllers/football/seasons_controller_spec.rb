@@ -8,11 +8,13 @@ module Football
     let(:sport) { create(:soccer) }
     let!(:calendar) { create(:calendar, sport: sport) }
     let(:division) { create(:division, calendar: calendar) }
-
-    let!(:first_season) { create(:season, :first, calendar: calendar) }
     let!(:season) { create(:season, startdate: Time.zone.today, calendar: calendar) }
     let!(:final_season) { create(:season, :final, calendar: calendar) }
-    let!(:sm_list) { create_list(:soccer_match, 1, division: division, kickofftime: season.startdate + 2.days + 15.hours) }
+
+    before do
+      create(:season, :first, calendar: calendar)
+      create_list(:soccer_match, 1, division: division, kickofftime: season.startdate + 2.days + 15.hours)
+    end
 
     describe "#show" do
       before do
