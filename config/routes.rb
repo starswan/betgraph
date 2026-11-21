@@ -47,7 +47,7 @@ Rails.application.routes.draw do
     resources :tennis_matches, only: []
   end
 
-  resources :matches, except: [:create, :new] do
+  resources :matches, except: [:create, :new, :edit] do
     collection do
       get :future
       get :active

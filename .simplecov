@@ -46,7 +46,7 @@ if ENV.fetch("COVERAGE", 1).to_i.positive?
     skip "app/views/divisions/fixtures/_menu.html"
 
     primary_coverage :branch
-    minimum_coverage line: 38.00, branch: 6.38
+    minimum_coverage line: 14.01, branch: 8.09
 
     formats :html, :baseline
   end

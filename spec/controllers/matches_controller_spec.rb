@@ -20,6 +20,8 @@ RSpec.describe MatchesController, type: :controller do
   end
   let!(:bet_market) { create(:bet_market, active: true, time: Time.zone.now + 10.minutes, match: soccermatch) }
 
+  render_views
+
   it "gets index with date" do
     get :index, params: { division_id: division, date: soccermatch.kickofftime.to_date }
     assert_response :success
@@ -52,11 +54,6 @@ RSpec.describe MatchesController, type: :controller do
 
   it "shows match" do
     get :show, params: { id: soccermatch }
-    assert_response :success
-  end
-
-  it "gets edit" do
-    get :edit, params: { id: soccermatch }
     assert_response :success
   end
 

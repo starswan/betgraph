@@ -16,7 +16,9 @@
 <table class="table table-responsive table-striped">
   <% @sport.divisions.active.each do |division| %>
     <tr>
-      <td><%= link_to division.name, division %></td>
+      <td>
+        <%= link_to division.name, division_matches_path(division) %>
+      </td>
     </tr>
   <% end %>
 </table>
