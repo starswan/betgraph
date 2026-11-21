@@ -16,6 +16,7 @@ Rails.application.routes.draw do
       end
 
       resources :divisions, only: [] do
+        resources :tables, only: [:index, :show]
         resources :fixtures, only: [:index, :show], controller: "divisions/fixtures" do
           # resources :bet_markets, only: [:index], controller: "divisions/bet_markets" do
           #   get :half_time, on: :collection
@@ -23,12 +24,12 @@ Rails.application.routes.draw do
         end
       end
     end
+    resources :divisions, only: [:index, :show]
   end
 
   resources :sports, only: [:show] do
     resources :basket_rules
     resources :betfair_market_types, only: [:index, :show, :edit, :update, :destroy]
-    resources :divisions
     resources :teams
     resources :matches, only: :index, controller: "sports/matches"
   end

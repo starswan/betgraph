@@ -3,7 +3,7 @@
 <% end %>
 <% content_for :menu do -%>
   <%= render "layouts/shared/menu_item", href: division_path(division), text: 'Division' %>
-  <%= render "layouts/shared/menu_item", href: sport_seasons_path(division.sport), text: 'Seasons' %>
+  <%= render "layouts/shared/menu_item", href: football_seasons_path, text: 'Seasons' %>
   <% seasons.order(:startdate).reject { |s| s == season }.reverse_each do |s| -%>
     <%= render "layouts/shared/menu_item", href: division_season_tables_path(division, s), text: s.name %>
   <% end -%>
