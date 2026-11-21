@@ -61,7 +61,9 @@ class SeasonsController < ApplicationController
     team_id_to_match_id_to_totals = team_to_score_list.transform_values do |match_list|
       #  key match_id, value sum of scores in previous N matches
       match_list.each_cons(threshold + 1)
-                .map { |l| [l.last.id, l[0..-2].sum(0) { |r| r.result.homescore + r.result.awayscore }] }.to_h
+                .filter_map { |l|
+                  [l.last.id, l[0..-2].sum(0) { |r| r.result.homescore + r.result.awayscore }] if l.all? { |match| match.result.present? }
+                }.to_h
     end
     interesting_matches = football_matches.select do |match|
       home_total = team_id_to_match_id_to_totals.fetch(match.hometeam.id)[match.id]
