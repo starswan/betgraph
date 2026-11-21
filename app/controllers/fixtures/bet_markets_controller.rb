@@ -15,9 +15,14 @@ module Fixtures
 
   private
 
+    # simplecov:disable
     def bet_markets
-      BetMarket.includes(market_runners: { market_prices: :market_price_time }).where(match: @fixture).active_status
+      BetMarket.includes({ match: { division: { calendar: :sport } } }, :betfair_market_type,
+                         market_runners: [:betfair_runner_type, { market_prices: :market_price_time }])
+               .where(match: @fixture)
+               .active_status
     end
+    # simplecov:enable
 
     def load_fixtures
       @fixtures = @all_matches.played_on(@date)

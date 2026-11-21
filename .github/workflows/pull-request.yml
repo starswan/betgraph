@@ -33,6 +33,7 @@ jobs:
     env:
       RAILS_ENV: test
       RAPID_API_KEY: test
+      SECRET_KEY_BASE: "b15a85424c5fa36bf3346f380f86e62e035f6e4d2d65654509fa1c3c90a7530532bbfa3371ccfc67c0b9a1926dd5917f05eb76a588762d1fe420cdac56e1dfc1"
 
     steps:
       - name: Checkout
