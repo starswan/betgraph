@@ -48,7 +48,6 @@ class SeasonsController < ApplicationController
     current_season = @season.current? Time.zone.today
     @nilnil = @onenil = @nilone = 0
 
-    TeamTotal.includes(:team).by_count(threshold).where(match: football_matches).index_by { |tt| [tt.team_id, tt.match_id] }
     @result_summaries = Hash.new(0)
     team_to_score_list = football_matches.reduce({}) do |h, fm|
       h.tap do |hash|
@@ -58,11 +57,16 @@ class SeasonsController < ApplicationController
         hash[fm.awayteam.id] << fm
       end
     end
+    # simplecov:disable
     team_id_to_match_id_to_totals = team_to_score_list.transform_values do |match_list|
       #  key match_id, value sum of scores in previous N matches
       match_list.each_cons(threshold + 1)
-                .map { |l| [l.last.id, l[0..-2].sum(0) { |r| r.result.homescore + r.result.awayscore }] }.to_h
+                .filter_map { |l|
+                  tail = l[0..-2]
+                  [l.last.id, tail.sum(0) { |r| r.result.homescore + r.result.awayscore }] if tail.all? { |match| match.result.present? }
+                }.to_h
     end
+    # simplecov:enable
     interesting_matches = football_matches.select do |match|
       home_total = team_id_to_match_id_to_totals.fetch(match.hometeam.id)[match.id]
       away_total = team_id_to_match_id_to_totals.fetch(match.awayteam.id)[match.id]

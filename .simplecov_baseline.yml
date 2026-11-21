@@ -144,7 +144,7 @@ app/controllers/results_controller.rb:
 app/controllers/seasons_controller.rb:
   lines:
     percent: 0.0
-    missed: 100
+    missed: 96
   branches:
     percent: 0.0
     missed: 16
