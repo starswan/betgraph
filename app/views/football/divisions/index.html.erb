@@ -18,7 +18,7 @@
   <tbody>
     <% @divisions.each do |division| %>
       <tr>
-        <td><%= link_to division.name, division_path(division) %></td>
+        <td><%= link_to division.name, football_division_path(division) %></td>
         <td><%= division.calendar.name %></td>
         <td><%= division.odds_numerator %>/<%= division.odds_denominator %></td>
         <td><%= division.active ? 'Y' : 'N' %></td>

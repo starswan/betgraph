@@ -16,7 +16,7 @@
 
 <dl>
   <% @seasons.reverse_each do |season| %>
-    <%= link_to season.name, division_season_tables_path(@division, season) %>
+    <%= link_to season.name, football_season_division_tables_path(season, @division) %>
     <% if @priced_seasons.include?(season) %>
       <%= link_to "[#{season.matches.where(division: @division).with_prices.count}]", football_season_division_fixtures_path(season, @division) %>
     <% end %>

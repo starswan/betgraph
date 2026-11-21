@@ -89,7 +89,7 @@ class MatchesController < ApplicationController
 
     respond_to do |format|
       format.js   { head :ok }
-      format.html { redirect_to @match.division }
+      format.html { redirect_to division_matches_path @match.division }
     end
   end
 

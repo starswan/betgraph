@@ -2,7 +2,7 @@
   <%= season.name %> <%= division.name %> Fixtures on <%= date.to_fs(:short) %>
 <% end %>
 <% content_for :menu do -%>
-  <%= render "layouts/shared/menu_item", href: division_path(division), text: 'Division' %>
+  <%= render "layouts/shared/menu_item", href: football_division_path(division), text: 'Division' %>
   <% seasons.reject { |s| season == s }.reverse_each do |s| -%>
     <%= render "layouts/shared/menu_item",
                href: football_season_division_fixtures_path(s, division),

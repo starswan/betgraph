@@ -73,6 +73,6 @@ RSpec.describe MatchesController, type: :controller do
       delete :destroy, params: { id: soccermatch }
     }.to change(Match, :count).by(-1)
 
-    assert_redirected_to division_path(division)
+    assert_redirected_to division_matches_path(division)
   end
 end
