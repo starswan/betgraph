@@ -20,6 +20,8 @@ RSpec.describe MatchesController, type: :controller do
   end
   let!(:bet_market) { create(:bet_market, active: true, time: Time.zone.now + 10.minutes, match: soccermatch) }
 
+  render_views
+
   it "gets index with date" do
     get :index, params: { division_id: division, date: soccermatch.kickofftime.to_date }
     assert_response :success
@@ -55,11 +57,6 @@ RSpec.describe MatchesController, type: :controller do
     assert_response :success
   end
 
-  it "gets edit" do
-    get :edit, params: { id: soccermatch }
-    assert_response :success
-  end
-
   it "updates match" do
     expect(soccermatch.live_priced).to eq(false)
     put :update, params: { id: soccermatch, match: { live_priced: true } }
@@ -73,6 +70,6 @@ RSpec.describe MatchesController, type: :controller do
       delete :destroy, params: { id: soccermatch }
     }.to change(Match, :count).by(-1)
 
-    assert_redirected_to division_path(division)
+    assert_redirected_to division_matches_path(division)
   end
 end

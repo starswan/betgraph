@@ -1,0 +1,31 @@
+<%= render 'division' %>
+<%- model_class = Division -%>
+
+<dl>
+  <dt><strong><%= "#{@sport.name} #{model_class.model_name.human}" %>:</strong></dt>
+  <dd>
+    <%= @division.name %>
+    <%= @division.odds_numerator %>/<%= @division.odds_denominator %>
+    <% if @division.active %>
+      <b>Active</b>
+    <% else %>
+      <i>Inactive</i>
+    <% end %>
+  </dd>
+</dl>
+
+<dl>
+  <% @seasons.reverse_each do |season| %>
+    <%= link_to season.name, football_season_division_tables_path(season, @division) %>
+    <% if @priced_seasons.include?(season) %>
+      <%= link_to "[#{season.matches.where(division: @division).with_prices.count}]", football_season_division_fixtures_path(season, @division) %>
+    <% end %>
+  <% end %>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.matches', :default => t("helpers.links.matches")),
+              division_matches_path(@division), :class => 'btn' %>
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              football_divisions_path, :class => 'btn'  %>
+</div>

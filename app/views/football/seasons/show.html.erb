@@ -1,0 +1,92 @@
+<!-- $Id$ -->
+<%= render 'shared' %>
+
+<table class="table table-responsive">
+  <tr>
+    <td>
+      <%= form_for(@season, url: football_season_path(@season), method: :get) do |f| -%>
+        <%=
+          f.collection_select :id, @season_list, :id, :name, {},
+                                {
+                                  onchange: "window.location = '/football/seasons/' + this.form.season_id.options[this.form.season_id.selectedIndex].value + '/threshold/#{@threshold}'" }
+        %>
+      <% end -%>
+    </td>
+    <td><%= @season.startdate.to_fs(:football_season) %> - <%= @enddate.to_fs(:football_season) %></td>
+    <td>[<b>0-0</b> <%= "#{@nilnil}/#{@total}" %> <span class="profit">R(8): <%= 8 * @nilnil - (@total - @nilnil) %></span>]</td>
+    <td>[<b>1-0</b> <%= "#{@onenil}/#{@total}" %> <span class="lesserprofit">R(7): <%= 7 * @onenil - (@total - @onenil) %></span>]</td>
+    <td>[<b>0-1</b> <%= "#{@nilone}/#{@total}" %> <span class="lesserprofit">R(7): <%= 7 * @nilone - (@total - @nilone) %></span>]</td>
+    <td>Form</td>
+    <td>
+      <%= form_for(:season, :html => { :method => :get}) do |f| -%>
+        <%= select_tag('threshold', options_for_select(@team_total_configs.keys.sort!, @threshold.to_i),
+                           { :onchange => "window.location = '/football/seasons/#{@season.id}/threshold/' + this.form.threshold.options[this.form.threshold.selectedIndex].value" })
+        -%>
+      <% end -%>
+    </td>
+  </tr>
+</table>
+<div class="row">
+  <div class="col-6"><b><%= left_title(@season) %></b></div>
+  <div class="col-6"><b><%= right_title(@season) %></b></div>
+</div>
+<div class="row">
+  <div class="col-6">
+      <table class="table table-responsive">
+        <% if @season.current? Date.today %>
+          <% @results.map { |match, display| match_display(match, display) }.each do |r| %>
+          <tr>
+            <td><%= r.kickofftime.strftime('%a %d-%b %y') %></td>
+            <td><%= r.division %></td>
+            <td><span class="<%= r.colour %>"><%= r.hometeam.name %></span></td>
+            <td><%= r.homescore %></td>
+            <td><%= r.awayscore %></td>
+            <td><span class="<%= r.colour %>"><%= r.awayteam.name %></span></td>
+            <td>(<%= r.nilnilscore %>)</td>
+          </tr>
+          <% end -%>
+        <% else %>
+          <% @results.select { |m, _d| m.kickofftime.month > 7 }.map { |match, display| match_display(match, display) }.each do |r| %>
+          <tr>
+            <td><%= r.kickofftime.strftime('%a %d-%b %y') %></td>
+            <td><%= r.division %></td>
+            <td><span class="<%= r.colour %>"><%= r.hometeam.name %></span></td>
+            <td><%= r.homescore %></td>
+            <td><%= r.awayscore %></td>
+            <td><span class="<%= r.colour %>"><%= r.awayteam.name %></span></td>
+            <td>(<%= r.nilnilscore %>)</td>
+          </tr>
+          <% end -%>
+        <% end -%>
+      </table>
+  </div>
+  <div class="col-6">
+      <table class="table table-responsive">
+        <% if @season.current? Date.today -%>
+          <% @fixtures.map { |match, display| fixture_display(match, display) }.each do |f| %>
+          <tr>
+            <td><%= f.kickofftime.strftime('%a %d-%b %y') %></td>
+            <td><%= f.division %></td>
+            <td><span class="<%= f.colour %>"><%= f.hometeam.name %></span></td>
+            <td><%= f.homescore %></td>
+            <td><%= f.awayscore %></td>
+            <td><span class="<%= f.colour %>"><%= f.awayteam.name %></span></td>
+            <td>(<%= f.nilnilscore %>)</td>
+          </tr>
+          <% end -%>
+        <% else -%>
+          <% @results.select { |m, _d| m.kickofftime.month <= 7 }.map { |match, display| match_display(match, display) }.each do |f| %>
+            <tr>
+              <td><%= f.kickofftime.strftime('%a %d-%b %y') %></td>
+              <td><%= f.division %></td>
+              <td><span class="<%= f.colour %>"><%= f.hometeam.name %></span></td>
+              <td><%= f.homescore %></td>
+              <td><%= f.awayscore %></td>
+              <td><span class="<%= f.colour %>"><%= f.awayteam.name %></span></td>
+              <td>(<%= f.nilnilscore %>)</td>
+            </tr>
+          <% end -%>
+        <% end -%>
+      </table>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<!-- $Id$ -->
+<%= render 'division' %>
+<%- model_class = Division -%>
+<div class="page-header">
+  <b><%= @sport.name %> <%=t '.title', :default => model_class.model_name.human.pluralize %></b>
+</div>
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:name) %></th>
+      <th><%= model_class.human_attribute_name(:calendar) %></th>
+      <th><%= model_class.human_attribute_name(:odds) %></th>
+      <th><%= model_class.human_attribute_name(:active) %></th>
+      <th><%= model_class.human_attribute_name(:matches) %></th>
+      <th><%= model_class.human_attribute_name(:scottish) %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @divisions.each do |division| %>
+      <tr>
+        <td><%= link_to division.name, football_division_path(division) %></td>
+        <td><%= division.calendar.name %></td>
+        <td><%= division.odds_numerator %>/<%= division.odds_denominator %></td>
+        <td><%= division.active ? 'Y' : 'N' %></td>
+        <td><%= link_to division.matches.count, division_matches_path(division) %></td>
+        <td><%= division.scottish ? 'Y' : 'N' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

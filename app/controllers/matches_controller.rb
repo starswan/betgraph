@@ -8,7 +8,7 @@ class MatchesController < ApplicationController
   before_action :find_division, only: FIND_DIVISION_ACTIONS
   before_action :find_division_from_match, except: FIND_DIVISION_ACTIONS + ALL_ACTIONS
   before_action :sort_only, only: [:index] + ALL_ACTIONS
-  before_action :find_match, only: [:show, :edit, :update, :destroy]
+  before_action :find_match, only: [:show, :update, :destroy]
 
   PAGE_SIZE = 15
 
@@ -56,16 +56,10 @@ class MatchesController < ApplicationController
   end
 
   # GET /matches/1
-  # GET /matches/1.xml
   def show
     respond_to do |format|
       format.html # show.html.erb
     end
-  end
-
-  # GET /matches/1/edit
-  def edit
-    @allteams = Team.all.includes(:team_names).joins(:team_names).order("team_names.name")
   end
 
   # PUT /matches/1
@@ -89,7 +83,7 @@ class MatchesController < ApplicationController
 
     respond_to do |format|
       format.js   { head :ok }
-      format.html { redirect_to @match.division }
+      format.html { redirect_to division_matches_path @match.division }
     end
   end
 

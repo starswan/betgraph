@@ -6,10 +6,23 @@
 require "rails_helper"
 
 RSpec.describe SportsController, type: :controller do
-  let!(:sport) { create(:sport) }
+  render_views
 
-  it "shows sport" do
-    get :show, params: { id: sport.id }
-    assert_response :success
+  context "with sport" do
+    let(:sport) { create(:sport, calendars: build_list(:calendar, 1, divisions: build_list(:division, 1))) }
+
+    it "shows sport" do
+      get :show, params: { id: sport.id }
+      assert_response :success
+    end
+  end
+
+  context "with soccer" do
+    let(:sport) { create(:soccer) }
+
+    it "shows sport" do
+      get :show, params: { id: sport.id }
+      assert_response :success
+    end
   end
 end

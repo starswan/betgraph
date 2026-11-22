@@ -1,0 +1,13 @@
+<% content_for :menu do -%>
+  <% seasons.reverse_each do |s| -%>
+    <li class="nav-item">
+      <%= link_to_unless season == s, "#{s.name}(#{s.matches.where(division: division).with_prices.count})",
+                         football_season_division_fixtures_path(s, division), class: 'nav-link' %>
+    </li>
+  <% end -%>
+  <% divisions.each do |d| %>
+    <li class="nav-item">
+      <%= link_to d.name, football_season_division_fixture_path(season, d, date) %>
+    </li>
+  <% end %>
+<% end -%>

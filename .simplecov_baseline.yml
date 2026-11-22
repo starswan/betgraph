@@ -71,20 +71,6 @@ app/controllers/betfair_runner_types_controller.rb:
   branches:
     percent: 0.0
     missed: 6
-app/controllers/divisions/fixtures_controller.rb:
-  lines:
-    percent: 0.0
-    missed: 24
-  branches:
-    percent: 100.0
-    missed: 0
-app/controllers/divisions_controller.rb:
-  lines:
-    percent: 0.0
-    missed: 51
-  branches:
-    percent: 0.0
-    missed: 4
 app/controllers/event_basket_prices_controller.rb:
   lines:
     percent: 0.0
@@ -92,10 +78,38 @@ app/controllers/event_basket_prices_controller.rb:
   branches:
     percent: 100.0
     missed: 0
-app/controllers/fixtures/bet_markets_controller.rb:
+app/controllers/football/divisions/fixtures_controller.rb:
   lines:
     percent: 0.0
-    missed: 21
+    missed: 25
+  branches:
+    percent: 100.0
+    missed: 0
+app/controllers/football/divisions_controller.rb:
+  lines:
+    percent: 0.0
+    missed: 11
+  branches:
+    percent: 100.0
+    missed: 0
+app/controllers/football/fixtures/bet_markets_controller.rb:
+  lines:
+    percent: 0.0
+    missed: 22
+  branches:
+    percent: 100.0
+    missed: 0
+app/controllers/football/seasons_controller.rb:
+  lines:
+    percent: 0.0
+    missed: 71
+  branches:
+    percent: 0.0
+    missed: 12
+app/controllers/football/tables_controller.rb:
+  lines:
+    percent: 0.0
+    missed: 20
   branches:
     percent: 100.0
     missed: 0
@@ -130,7 +144,7 @@ app/controllers/match_teams_controller.rb:
 app/controllers/matches_controller.rb:
   lines:
     percent: 0.0
-    missed: 62
+    missed: 60
   branches:
     percent: 0.0
     missed: 6
@@ -141,13 +155,6 @@ app/controllers/results_controller.rb:
   branches:
     percent: 0.0
     missed: 4
-app/controllers/seasons_controller.rb:
-  lines:
-    percent: 0.0
-    missed: 96
-  branches:
-    percent: 0.0
-    missed: 16
 app/controllers/soccer_matches/baskets_controller.rb:
   lines:
     percent: 0.0
@@ -187,13 +194,6 @@ app/controllers/sports_controller.rb:
   lines:
     percent: 0.0
     missed: 5
-  branches:
-    percent: 100.0
-    missed: 0
-app/controllers/tables_controller.rb:
-  lines:
-    percent: 0.0
-    missed: 19
   branches:
     percent: 100.0
     missed: 0
@@ -1177,20 +1177,6 @@ app/views/betfair_runner_types/show.html.erb:
   branches:
     percent: 100.0
     missed: 0
-app/views/divisions/_division.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/_form.html.erb:
-  lines:
-    percent: 0.0
-    missed: 15
-  branches:
-    percent: 100.0
-    missed: 0
 app/views/divisions/bet_markets/_fixtures.html.erb:
   lines:
     percent: 0.0
@@ -1205,76 +1191,6 @@ app/views/divisions/bet_markets/_team.html.erb:
   branches:
     percent: 100.0
     missed: 0
-app/views/divisions/edit.html.erb:
-  lines:
-    percent: 16.66
-    missed: 5
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/fixtures/_display.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/fixtures/_fixtures.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/fixtures/_league_table.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/fixtures/_team.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/fixtures/index.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/fixtures/show.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/index.html.erb:
-  lines:
-    percent: 3.84
-    missed: 25
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/new.html.erb:
-  lines:
-    percent: 14.28
-    missed: 6
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/divisions/show.html.erb:
-  lines:
-    percent: 95.65
-    missed: 1
-  branches:
-    percent: 50.0
-    missed: 2
 app/views/event_basket_prices/index.html.erb:
   lines:
     percent: 6.25
@@ -1282,49 +1198,175 @@ app/views/event_basket_prices/index.html.erb:
   branches:
     percent: 100.0
     missed: 0
-app/views/fixtures/bet_markets/_chart.html.erb:
+app/views/football/divisions/_division.html.erb:
   lines:
     percent: 100.0
     missed: 0
   branches:
     percent: 100.0
     missed: 0
-app/views/fixtures/bet_markets/_half_time_title.html.erb:
+app/views/football/divisions/fixtures/_display.html.erb:
   lines:
     percent: 100.0
     missed: 0
   branches:
     percent: 100.0
     missed: 0
-app/views/fixtures/bet_markets/_lambda_chart.html.erb:
+app/views/football/divisions/fixtures/_fixtures.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/divisions/fixtures/_league_table.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/divisions/fixtures/_menu.html.erb:
+  lines:
+    percent: 81.81
+    missed: 2
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/divisions/fixtures/_team.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/divisions/fixtures/index.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/divisions/fixtures/show.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/divisions/index.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 50.0
+    missed: 2
+app/views/football/divisions/show.html.erb:
+  lines:
+    percent: 94.73
+    missed: 1
+  branches:
+    percent: 50.0
+    missed: 2
+app/views/football/fixtures/bet_markets/_chart.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/fixtures/bet_markets/_half_time_title.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/fixtures/bet_markets/_lambda_chart.html.erb:
   lines:
     percent: 100.0
     missed: 0
   branches:
     percent: 50.0
     missed: 1
-app/views/fixtures/bet_markets/_menu.html.erb:
+app/views/football/fixtures/bet_markets/_menu.html.erb:
   lines:
-    percent: 71.42
+    percent: 62.5
+    missed: 3
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/fixtures/bet_markets/_title.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/fixtures/bet_markets/half_time.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/fixtures/bet_markets/index.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/seasons/_shared.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/seasons/index.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 50.0
+    missed: 1
+app/views/football/seasons/show.html.erb:
+  lines:
+    percent: 38.18
+    missed: 34
+  branches:
+    percent: 50.0
     missed: 2
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/fixtures/bet_markets/_title.html.erb:
+app/views/football/tables/_header.html.erb:
   lines:
     percent: 100.0
     missed: 0
   branches:
     percent: 100.0
     missed: 0
-app/views/fixtures/bet_markets/half_time.html.erb:
+app/views/football/tables/_league_table.html.erb:
   lines:
     percent: 100.0
     missed: 0
   branches:
     percent: 100.0
     missed: 0
-app/views/fixtures/bet_markets/index.html.erb:
+app/views/football/tables/_menu.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/tables/index.html.erb:
+  lines:
+    percent: 100.0
+    missed: 0
+  branches:
+    percent: 100.0
+    missed: 0
+app/views/football/tables/show.html.erb:
   lines:
     percent: 100.0
     missed: 0
@@ -1592,25 +1634,18 @@ app/views/match_teams/index.html.erb:
     missed: 0
 app/views/matches/current.html.erb:
   lines:
-    percent: 4.16
-    missed: 23
-  branches:
     percent: 100.0
     missed: 0
-app/views/matches/edit.html.erb:
-  lines:
-    percent: 7.14
-    missed: 13
   branches:
-    percent: 100.0
-    missed: 0
+    percent: 50.0
+    missed: 5
 app/views/matches/index.html.erb:
   lines:
-    percent: 2.85
-    missed: 34
+    percent: 93.93
+    missed: 2
   branches:
-    percent: 100.0
-    missed: 0
+    percent: 50.0
+    missed: 6
 app/views/matches/new.html.erb:
   lines:
     percent: 0.0
@@ -1620,8 +1655,8 @@ app/views/matches/new.html.erb:
     missed: 0
 app/views/matches/show.html.erb:
   lines:
-    percent: 14.28
-    missed: 6
+    percent: 100.0
+    missed: 0
   branches:
     percent: 100.0
     missed: 0
@@ -1657,34 +1692,6 @@ app/views/results/show.html.erb:
   lines:
     percent: 16.66
     missed: 5
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/seasons/edit.html.erb:
-  lines:
-    percent: 7.14
-    missed: 13
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/seasons/index.html.erb:
-  lines:
-    percent: 9.09
-    missed: 10
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/seasons/new.html.erb:
-  lines:
-    percent: 7.69
-    missed: 12
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/seasons/show.html.erb:
-  lines:
-    percent: 1.81
-    missed: 54
   branches:
     percent: 100.0
     missed: 0
@@ -1786,28 +1793,7 @@ app/views/soccer_matches/show.html.erb:
   branches:
     percent: 60.0
     missed: 8
-app/views/tables/_header.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/tables/_league_table.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/tables/index.html.erb:
-  lines:
-    percent: 100.0
-    missed: 0
-  branches:
-    percent: 100.0
-    missed: 0
-app/views/tables/show.html.erb:
+app/views/sports/show.html.erb:
   lines:
     percent: 100.0
     missed: 0

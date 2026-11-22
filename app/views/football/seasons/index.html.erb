@@ -1,0 +1,28 @@
+<!-- $Id$ -->
+<b>Seasons for <%= @sport.name %></b>
+
+<%= render 'shared' %>
+
+<table class="table table-striped table-responsive">
+  <tr>
+    <th>Name</th>
+    <th>Startdate</th>
+    <th>Calendar</th>
+    <th>Online</th>
+    <th>Match Count</th>
+  </tr>
+
+<% @seasons.each do |football_season| %>
+  <tr>
+    <td><%= link_to football_season.name, football_season_path(football_season) %></td>
+    <td><%= football_season.startdate %></td>
+    <td><%= football_season.calendar.name %></td>
+    <td><%= football_season.online? ? 'Y' : 'N' %></td>
+    <td align="right">
+      <%= link_to football_season.matches.count, football_season_path(football_season) %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<%#= link_to 'New Football Season', new_season_path %>

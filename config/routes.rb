@@ -4,13 +4,7 @@ Rails.application.routes.draw do
 
   get "match_teams/index"
 
-  resources :sports, only: [:show] do
-    resources :basket_rules
-    resources :betfair_market_types, only: [:index, :show, :edit, :update, :destroy]
-    resources :divisions
-    resources :teams
-    resources :matches, only: :index, controller: "sports/matches"
-
+  namespace :football do
     resources :seasons, only: [:index, :show] do
       get "threshold/:threshold" => "seasons#show"
       resources :soccer_matches
@@ -22,13 +16,19 @@ Rails.application.routes.draw do
       end
 
       resources :divisions, only: [] do
+        resources :tables, only: [:index, :show]
         resources :fixtures, only: [:index, :show], controller: "divisions/fixtures" do
-          # resources :bet_markets, only: [:index], controller: "divisions/bet_markets" do
-          #   get :half_time, on: :collection
-          # end
         end
       end
     end
+    resources :divisions, only: [:index, :show]
+  end
+
+  resources :sports, only: [:show] do
+    resources :basket_rules
+    resources :betfair_market_types, only: [:index, :show, :edit, :update, :destroy]
+    resources :teams
+    resources :matches, only: :index, controller: "sports/matches"
   end
   resources :calendars, only: [] do
     resources :seasons, only: [:new, :destroy, :edit, :create, :update]
@@ -41,16 +41,13 @@ Rails.application.routes.draw do
   resources :team_names, only: [:update]
 
   resources :results
-  resources :divisions do
-    resources :seasons, only: [] do
-      resources :tables, only: [:index, :show]
-    end
+  resources :divisions, only: [] do
     resources :matches, only: [:index]
     resources :soccer_matches, only: [:index, :edit]
     resources :tennis_matches, only: []
   end
 
-  resources :matches, except: [:create, :new] do
+  resources :matches, except: [:create, :new, :edit] do
     collection do
       get :future
       get :active

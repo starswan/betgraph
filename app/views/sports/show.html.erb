@@ -3,7 +3,10 @@
   <%= render 'layouts/shared/active_future_links' %>
   <%= render "layouts/shared/menu_item", href: sport_betfair_market_types_path(@sport), text: 'Market Types' %>
   <%= render "layouts/shared/menu_item", href: sport_basket_rules_path(@sport), text: 'Basket Rules' %>
-  <%= render "layouts/shared/menu_item", href: sport_divisions_path(@sport), text: 'Divisions' %>
+  <% if @sport.name == 'Soccer' %>
+    <%= render "layouts/shared/menu_item", href: football_divisions_path, text: 'Divisions' %>
+    <%= render "layouts/shared/menu_item", href: football_seasons_path, text: 'Seasons' %>
+ <% end %>
   <%= render "layouts/shared/menu_item", href: sport_teams_path(@sport), text: 'Teams' %>
   <%= render "layouts/shared/menu_item", href: sport_matches_path(@sport), text: 'Matches' %>
 <% end %>
@@ -13,7 +16,9 @@
 <table class="table table-responsive table-striped">
   <% @sport.divisions.active.each do |division| %>
     <tr>
-      <td><%= link_to division.name, division %></td>
+      <td>
+        <%= link_to division.name, division_matches_path(division) %>
+      </td>
     </tr>
   <% end %>
 </table>
