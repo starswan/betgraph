@@ -135,8 +135,6 @@ GEM
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.11)
     byebug (12.0.0)
-    bzip2-ffi (1.1.1)
-      ffi (~> 1.0)
     capistrano (3.20.1)
       airbrussh (>= 1.0.0)
       i18n
@@ -645,6 +643,7 @@ GEM
     sdoc (2.6.5)
       rdoc (>= 5.0)
     securerandom (0.4.1)
+    seven-zip (1.4.2)
     sexp_processor (4.17.5)
     shellany (0.0.1)
     shoulda-matchers (6.5.0)
@@ -727,7 +726,6 @@ DEPENDENCIES
   bootstrap-sass-extras
   bullet
   byebug
-  bzip2-ffi
   capistrano (>= 3)
   capistrano-bundler
   capistrano-passenger
@@ -781,6 +779,7 @@ DEPENDENCIES
   rubycritic
   rubyzip
   sdoc
+  seven-zip
   shoulda-matchers
   simplecov
   timecop
