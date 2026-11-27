@@ -1,6 +1,8 @@
 #
 # $Id$
-#
+
+require "bzip2/ffi"
+
 class DownloadHistoricalDataFileJob < BetfairJob
   queue_priority PRIORITY_DOWNLOAD_HISTORIC_DATA
 
