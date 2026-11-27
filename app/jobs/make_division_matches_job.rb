@@ -94,7 +94,7 @@ private
 
   def make_market_for_match(match, market, source)
     exchange_id, market_id = market.fetch(:marketId).split(".")
-    Rails.logger.info("#{market.fetch(:marketTime)} #{match.name} Creating #{market.fetch(:marketId)} #{market.fetch(:marketName)}")
+    Rails.logger.info("#{market.fetch(:marketTime)} #{match.name} Creating #{market.fetch(:marketId)} (#{market.fetch(:marketName)})")
     match.bet_markets.create!(
       marketid: market_id,
       name: market.fetch(:marketName),
