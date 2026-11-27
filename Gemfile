@@ -85,7 +85,8 @@ gem "passenger"
 # gem 'seven_zip_ruby'
 # gem "bzip2-ffi"
 gem "iostreams"
-gem "bzip2-ffi", require: "bzip2/ffi"
+# gem "bzip2-ffi", require: "bzip2/ffi"
+gem "bzip2-ffi", require: false
 # Have to have this otherwise it vanishes in production
 # (Selenium webdriver is dependant on it)
 gem "rubyzip"
