@@ -15,7 +15,7 @@ class DownloadHistoricalDataFileJob < BetfairJob
   def perform(filename)
     data = Enumerator.new do |yielder|
       bzdata = bc.download_file(filename)
-      io = RBzip2::Ruby::Decompressor.new StringIO.new(bzdata)
+      io = RBzip2::default_adapter::Decompressor.new StringIO.new(bzdata)
       yielder << io.read
     end
 
