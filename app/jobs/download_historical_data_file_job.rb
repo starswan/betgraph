@@ -14,9 +14,9 @@ class DownloadHistoricalDataFileJob < BetfairJob
 
   def perform(filename)
     data = Enumerator.new do |yielder|
-      SevenZipRuby::Reader.open(StringIO.new(bc.download_file(filename))) do |reader|
-        reader.extract_data(reader.entries.first)
-      end
+      bzdata = bc.download_file(filename)
+      io = RBzip2::Ruby::Decompressor.new StringIO.new(bzdata)
+      yielder << io.read
     end
 
     event_id = filename.split("/")[-2]

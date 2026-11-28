@@ -537,6 +537,7 @@ GEM
       logger
       prism (>= 1.6.0)
       tsort
+    rbzip2 (0.3.0)
     rdoc (8.1.0)
       erb
       prism (>= 1.6.0)
@@ -643,7 +644,6 @@ GEM
     sdoc (2.6.5)
       rdoc (>= 5.0)
     securerandom (0.4.1)
-    seven-zip (1.4.2)
     sexp_processor (4.17.5)
     shellany (0.0.1)
     shoulda-matchers (6.5.0)
@@ -772,6 +772,7 @@ DEPENDENCIES
   rails-controller-testing
   rake
   raphael-rails
+  rbzip2
   rexml
   rspec-rails
   rubocop-govuk
@@ -779,7 +780,6 @@ DEPENDENCIES
   rubycritic
   rubyzip
   sdoc
-  seven-zip
   shoulda-matchers
   simplecov
   timecop
